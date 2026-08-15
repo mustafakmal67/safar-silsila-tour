@@ -1,0 +1,701 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Rental Transport Services | Safar Silsila</title>
+  
+  <!-- Phosphor Icons -->
+  <link rel="stylesheet" type="text/css" href="phosphor.css">
+  
+  <!-- Nomadic Horizon Stylesheet -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- BEGIN: Preloader -->
+  <div id="preloader">
+    <div class="preloader-content">
+      <div class="preloader-spinner-wrap">
+        <div class="preloader-spinner"></div>
+        <div class="preloader-center-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M3 20h18" stroke="var(--sunset-accent)" stroke-width="2"/>
+            <path d="M12 4L4 16h16L12 4z" stroke="var(--sunset-accent-bright)" stroke-width="2" fill="rgba(185, 209, 145, 0.05)"/>
+            <path d="M12 4l-4 8h8l-4-8z" stroke="var(--sunset-accent)" stroke-width="1.5"/>
+            <path d="M8 16c2-3 4-3 6 0" stroke="var(--sunset-accent)" stroke-width="1.5"/>
+          </svg>
+        </div>
+      </div>
+      <div class="preloader-brand-name">Safar Silsila</div>
+      <div class="preloader-accent-line"></div>
+    </div>
+  </div>
+  <!-- END: Preloader -->
+
+  <!-- BEGIN: Header / TopNavBar -->
+  <header class="header">
+    <div class="header-container">
+      <a href="index.html" class="logo"><img src="logo.webp" alt="Safar Silsila Logo"></a>
+      
+      <nav class="nav-menu" id="nav-menu">
+        <a class="nav-link" href="index.html">Home</a>
+        <a class="nav-link" href="tours.html">Tours</a>
+        <a class="nav-link" href="custom-tour.html">Custom Tour</a>
+        <a class="nav-link active" href="transport.html">Transport</a>
+        <a class="nav-link" href="about.html">About</a>
+        <a class="nav-link" href="contact.html">Contact</a>
+      </nav>
+      
+      <div class="header-actions">
+        <button class="search-trigger" onclick="location.href='tours.html'"><i class="ph ph-magnifying-glass"></i></button>
+        <a href="custom-tour.html" class="btn btn-secondary btn-sm btn-book">Book Now</a>
+        <button class="nav-toggle" id="nav-toggle"><i class="ph ph-list"></i></button>
+      </div>
+    </div>
+  </header>
+  <!-- END: Header / TopNavBar -->
+
+  <!-- BEGIN: Hero Section -->
+  <section class="hero" style="min-height: 70vh;">
+    <!-- Background Image -->
+    <img alt="Karakoram Highway Drive" class="hero-bg brightness-50" src="skardu_valley_by_road.webp">
+    <div class="hero-overlay"></div>
+    
+    <div class="container hero-content text-center" style="max-width: 900px;">
+      <span class="text-sunset-accent label-lg mb-4 block" style="letter-spacing: 0.25em;">EXPLORE AT YOUR OWN PACE</span>
+      <h1 class="display-lg mb-6">Rental Transport <br><span class="text-sunset-accent">Services</span></h1>
+      <p class="body-lg opacity-80 mb-8" style="max-width: 700px; margin: 0 auto;">
+        Discover Northern Pakistan comfortably with our fleet of reliable SUVs, off-road 4x4 jeeps, spacious family minivans, and group tour coaches. All rentals come with experienced, professional local drivers.
+      </p>
+      
+      <!-- Location Badges -->
+      <div class="mt-8 d-flex gap-4 flex-center" style="flex-wrap: wrap;">
+        <span class="badge badge-navy" style="font-size: 13px; padding: 8px 20px; border-radius: var(--radius-full);">
+          <i class="ph ph-map-pin"></i> Serviced from Islamabad
+        </span>
+        <span class="badge badge-navy" style="font-size: 13px; padding: 8px 20px; border-radius: var(--radius-full);">
+          <i class="ph ph-map-pin"></i> Serviced from Lahore
+        </span>
+      </div>
+    </div>
+  </section>
+  <!-- END: Hero Section -->
+
+  <!-- BEGIN: Key Features -->
+  <section class="section-gap section-cinematic section-veil section-ambient-warm" style="background: transparent;">
+    <div class="container">
+      <div class="text-center" style="max-width: 700px; margin: 0 auto 64px auto;">
+        <span class="text-sunset-accent label-lg">Safar Silsila Standard</span>
+        <h2 class="display-lg-mobile mt-2">Why Hire Your Transport With Us?</h2>
+      </div>
+      
+      <div class="grid-cols-4">
+        <!-- Benefit 1 -->
+        <div class="value-card text-center" style="padding: 24px;">
+          <div class="value-icon-box" style="margin: 0 auto 20px auto;"><i class="ph ph-steering-wheel"></i></div>
+          <h3 class="value-title">Professional Mountain Drivers</h3>
+          <p class="value-desc">Our drivers are highly experienced in navigating the narrow, winding mountain tracks of Hunza, Skardu, and Fairy Meadows safely.</p>
+        </div>
+        <!-- Benefit 2 -->
+        <div class="value-card text-center" style="padding: 24px;">
+          <div class="value-icon-box" style="margin: 0 auto 20px auto;"><i class="ph ph-shield-check"></i></div>
+          <h3 class="value-title">Regularly Vetted Fleet</h3>
+          <p class="value-desc">Every vehicle undergoes thorough mechanical inspections before departure to ensure zero breakdowns during your journey.</p>
+        </div>
+        <!-- Benefit 3 -->
+        <div class="value-card text-center" style="padding: 24px;">
+          <div class="value-icon-box" style="margin: 0 auto 20px auto;"><i class="ph ph-headset"></i></div>
+          <h3 class="value-title">24/7 Roadside Assistance</h3>
+          <p class="value-desc">Travel with peace of mind. We provide continuous support and quick vehicle replacements in case of unexpected road issues.</p>
+        </div>
+        <!-- Benefit 4 -->
+        <div class="value-card text-center" style="padding: 24px;">
+          <div class="value-icon-box" style="margin: 0 auto 20px auto;"><i class="ph ph-map-trifold"></i></div>
+          <h3 class="value-title">Flexible Travel & Stops</h3>
+          <p class="value-desc">Stop at scenic viewpoints, local tea stalls, and photography spots whenever you want. Your driver operates on your schedule.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- END: Key Features -->
+
+  <!-- BEGIN: Fleet Catalog -->
+  <section class="section-gap section-cinematic section-veil" style="background: transparent;">
+    <div class="container">
+      <div class="text-center" style="max-width: 700px; margin: 0 auto 48px auto;">
+        <span class="text-sunset-accent label-lg">Our Fleet</span>
+        <h2 class="display-lg-mobile mt-2">Choose Your <span class="text-sunset-accent">Perfect Ride</span></h2>
+        <p class="body-md mt-4 text-muted" style="color: rgba(244,240,234,0.55);">Select from our wide range of vehicles, tailored for group travels, luxury tours, or economic family trips.</p>
+      </div>
+
+      <!-- Fleet Category Tabs -->
+      <div class="d-flex flex-center gap-4 mb-12" style="flex-wrap: wrap;">
+        <button class="filter-pill active" data-filter="all" style="font-weight: 600; padding: 10px 24px; border-radius: var(--radius-full); cursor: pointer; border: 1px solid var(--glass-border-light); font-size: 14px; background: var(--glass-bg-dark); color: var(--snow-peak); transition: all 0.3s ease;">All Vehicles</button>
+        <button class="filter-pill" data-filter="coasters" style="font-weight: 600; padding: 10px 24px; border-radius: var(--radius-full); cursor: pointer; border: 1px solid var(--glass-border-light); font-size: 14px; background: transparent; color: rgba(245,246,242,0.6); transition: all 0.3s ease;">Coasters & Coaches</button>
+        <button class="filter-pill" data-filter="vans" style="font-weight: 600; padding: 10px 24px; border-radius: var(--radius-full); cursor: pointer; border: 1px solid var(--glass-border-light); font-size: 14px; background: transparent; color: rgba(245,246,242,0.6); transition: all 0.3s ease;">Vans & Minivans</button>
+        <button class="filter-pill" data-filter="suvs" style="font-weight: 600; padding: 10px 24px; border-radius: var(--radius-full); cursor: pointer; border: 1px solid var(--glass-border-light); font-size: 14px; background: transparent; color: rgba(245,246,242,0.6); transition: all 0.3s ease;">Luxury SUVs & 4x4s</button>
+        <button class="filter-pill" data-filter="cars" style="font-weight: 600; padding: 10px 24px; border-radius: var(--radius-full); cursor: pointer; border: 1px solid var(--glass-border-light); font-size: 14px; background: transparent; color: rgba(245,246,242,0.6); transition: all 0.3s ease;">Sedans & Hatchbacks</button>
+      </div>
+
+      <div class="grid-cols-4 hover-reveal-group" id="fleet-grid">
+        
+        <!-- VEHICLE 1: Toyota 5C Coaster -->
+        <article class="tour-card fleet-card" data-category="coasters">
+          <div class="tour-image-container">
+            <img alt="Toyota 5C Coaster" class="tour-image" src="transport images/transport_5c coaster.jpeg">
+            <div class="tour-badge-top">
+              <span class="badge badge-navy">EXECUTIVE</span>
+            </div>
+          </div>
+          <div class="tour-content">
+            <h3 class="tour-title" style="margin-top: 0;">Toyota 5C Coaster</h3>
+            <div style="font-size: 13px; color: var(--sunset-accent); font-weight: 600; margin-bottom: 12px; letter-spacing: 0.05em;">22-Seater Executive Coach</div>
+            <ul class="tour-highlights" style="margin-bottom: 20px;">
+              <li><i class="ph ph-users" style="color: var(--sunset-accent); margin-right: 8px;"></i> 22 Passenger Capacity</li>
+              <li><i class="ph ph-wind" style="color: var(--sunset-accent); margin-right: 8px;"></i> Dual AC & Heating System</li>
+              <li><i class="ph ph-speaker-high" style="color: var(--sunset-accent); margin-right: 8px;"></i> Premium PA/Mic & Audio System</li>
+              <li><i class="ph ph-luggage" style="color: var(--sunset-accent); margin-right: 8px;"></i> Large Rear/Overhead Luggage</li>
+            </ul>
+            <p class="body-sm opacity-70" style="font-size: 12px; line-height: 1.5; margin-bottom: 16px;">The ultimate option for large group travel, corporate tours, and families looking for maximum luxury and interior space on long journeys.</p>
+            <div class="tour-footer" style="justify-content: flex-end; margin-top: auto; padding-top: 12px; border-t: 1px solid rgba(255,255,255,0.05);">
+              <a href="#booking-section" class="tour-action-btn select-vehicle-btn" data-vehicle="Toyota 5C Coaster">Select & Book <i class="ph ph-arrow-right"></i></a>
+            </div>
+          </div>
+        </article>
+
+        <!-- VEHICLE 2: Toyota 4C Coaster -->
+        <article class="tour-card fleet-card" data-category="coasters">
+          <div class="tour-image-container">
+            <img alt="Toyota 4C Coaster" class="tour-image" src="transport images/transport_4c coaster.jpeg">
+            <div class="tour-badge-top">
+              <span class="badge badge-navy">STANDARD</span>
+            </div>
+          </div>
+          <div class="tour-content">
+            <h3 class="tour-title" style="margin-top: 0;">Toyota 4C Coaster</h3>
+            <div style="font-size: 13px; color: var(--sunset-accent); font-weight: 600; margin-bottom: 12px; letter-spacing: 0.05em;">29-Seater Group Coach</div>
+            <ul class="tour-highlights" style="margin-bottom: 20px;">
+              <li><i class="ph ph-users" style="color: var(--sunset-accent); margin-right: 8px;"></i> 29 Passenger Capacity</li>
+              <li><i class="ph ph-wind" style="color: var(--sunset-accent); margin-right: 8px;"></i> Fully Air Conditioned</li>
+              <li><i class="ph ph-music-notes" style="color: var(--sunset-accent); margin-right: 8px;"></i> Standard Sound System</li>
+              <li><i class="ph ph-luggage" style="color: var(--sunset-accent); margin-right: 8px;"></i> Rear Baggage Compartment</li>
+            </ul>
+            <p class="body-sm opacity-70" style="font-size: 12px; line-height: 1.5; margin-bottom: 16px;">Highly reliable group coach ideal for school tours, study trips, and large family group transport across main highways.</p>
+            <div class="tour-footer" style="justify-content: flex-end; margin-top: auto; padding-top: 12px; border-t: 1px solid rgba(255,255,255,0.05);">
+              <a href="#booking-section" class="tour-action-btn select-vehicle-btn" data-vehicle="Toyota 4C Coaster">Select & Book <i class="ph ph-arrow-right"></i></a>
+            </div>
+          </div>
+        </article>
+
+        <!-- VEHICLE 3: Toyota HiAce Grand Cabin -->
+        <article class="tour-card fleet-card" data-category="vans">
+          <div class="tour-image-container">
+            <img alt="Toyota HiAce Grand Cabin" class="tour-image" src="transport images/transport_grandcabin.jpeg">
+            <div class="tour-badge-top">
+              <span class="badge badge-navy">EXECUTIVE</span>
+            </div>
+          </div>
+          <div class="tour-content">
+            <h3 class="tour-title" style="margin-top: 0;">Toyota HiAce Grand Cabin</h3>
+            <div style="font-size: 13px; color: var(--sunset-accent); font-weight: 600; margin-bottom: 12px; letter-spacing: 0.05em;">13-Seater Premium Minivan</div>
+            <ul class="tour-highlights" style="margin-bottom: 20px;">
+              <li><i class="ph ph-users" style="color: var(--sunset-accent); margin-right: 8px;"></i> 13 Passenger Seats</li>
+              <li><i class="ph ph-wind" style="color: var(--sunset-accent); margin-right: 8px;"></i> Dual AC with Individual Vents</li>
+              <li><i class="ph ph-chair" style="color: var(--sunset-accent); margin-right: 8px;"></i> High Roof & Reclining Seats</li>
+              <li><i class="ph ph-suitcase" style="color: var(--sunset-accent); margin-right: 8px;"></i> Ample Luggage Space</li>
+            </ul>
+            <p class="body-sm opacity-70" style="font-size: 12px; line-height: 1.5; margin-bottom: 16px;">The gold standard for tourist transport. High roof ensures passengers can stand inside, while reclining seats provide peak highway comfort.</p>
+            <div class="tour-footer" style="justify-content: flex-end; margin-top: auto; padding-top: 12px; border-t: 1px solid rgba(255,255,255,0.05);">
+              <a href="#booking-section" class="tour-action-btn select-vehicle-btn" data-vehicle="Toyota HiAce Grand Cabin">Select & Book <i class="ph ph-arrow-right"></i></a>
+            </div>
+          </div>
+        </article>
+
+        <!-- VEHICLE 4: Toyota HiAce Mid-Roof -->
+        <article class="tour-card fleet-card" data-category="vans">
+          <div class="tour-image-container">
+            <img alt="Toyota HiAce Mid-Roof" class="tour-image" src="transport images/transport_hiace_standard.jpeg">
+            <div class="tour-badge-top">
+              <span class="badge badge-navy">STANDARD</span>
+            </div>
+          </div>
+          <div class="tour-content">
+            <h3 class="tour-title" style="margin-top: 0;">Toyota HiAce Mid-Roof</h3>
+            <div style="font-size: 13px; color: var(--sunset-accent); font-weight: 600; margin-bottom: 12px; letter-spacing: 0.05em;">11-Seater Minivan</div>
+            <ul class="tour-highlights" style="margin-bottom: 20px;">
+              <li><i class="ph ph-users" style="color: var(--sunset-accent); margin-right: 8px;"></i> 11 Passenger Seats</li>
+              <li><i class="ph ph-wind" style="color: var(--sunset-accent); margin-right: 8px;"></i> Fully Air Conditioned</li>
+              <li><i class="ph ph-suitcase-rolling" style="color: var(--sunset-accent); margin-right: 8px;"></i> Dedicated Roof Carrier</li>
+              <li><i class="ph ph-shield" style="color: var(--sunset-accent); margin-right: 8px;"></i> Standard High-Reliability</li>
+            </ul>
+            <p class="body-sm opacity-70" style="font-size: 12px; line-height: 1.5; margin-bottom: 16px;">Practical and economical minivan category suitable for smaller families or friendly groups wanting budget-friendly transportation.</p>
+            <div class="tour-footer" style="justify-content: flex-end; margin-top: auto; padding-top: 12px; border-t: 1px solid rgba(255,255,255,0.05);">
+              <a href="#booking-section" class="tour-action-btn select-vehicle-btn" data-vehicle="Toyota HiAce Mid-Roof">Select & Book <i class="ph ph-arrow-right"></i></a>
+            </div>
+          </div>
+        </article>
+
+        <!-- VEHICLE 5: Toyota Land Cruiser Prado -->
+        <article class="tour-card fleet-card" data-category="suvs">
+          <div class="tour-image-container">
+            <img alt="Toyota Land Cruiser Prado" class="tour-image" src="transport images/transport_prado.jpeg">
+            <div class="tour-badge-top">
+              <span class="badge badge-navy">PREMIUM 4X4</span>
+            </div>
+          </div>
+          <div class="tour-content">
+            <h3 class="tour-title" style="margin-top: 0;">Toyota Prado 4x4</h3>
+            <div style="font-size: 13px; color: var(--sunset-accent); font-weight: 600; margin-bottom: 12px; letter-spacing: 0.05em;">7-Seater Luxury SUV</div>
+            <ul class="tour-highlights" style="margin-bottom: 20px;">
+              <li><i class="ph ph-users" style="color: var(--sunset-accent); margin-right: 8px;"></i> 7 Passenger Seats</li>
+              <li><i class="ph ph-mountains" style="color: var(--sunset-accent); margin-right: 8px;"></i> Heavy Duty 4WD suspension</li>
+              <li><i class="ph ph-sparkles" style="color: var(--sunset-accent); margin-right: 8px;"></i> Premium Leather Interior</li>
+              <li><i class="ph ph-wind" style="color: var(--sunset-accent); margin-right: 8px;"></i> Multi-Zone Climate Control</li>
+            </ul>
+            <p class="body-sm opacity-70" style="font-size: 12px; line-height: 1.5; margin-bottom: 16px;">The ultimate statement in style and performance. Ideal for premium honeymoon trips, families, or diplomats exploring both highways and tough trails.</p>
+            <div class="tour-footer" style="justify-content: flex-end; margin-top: auto; padding-top: 12px; border-t: 1px solid rgba(255,255,255,0.05);">
+              <a href="#booking-section" class="tour-action-btn select-vehicle-btn" data-vehicle="Toyota Land Cruiser Prado">Select & Book <i class="ph ph-arrow-right"></i></a>
+            </div>
+          </div>
+        </article>
+
+        <!-- VEHICLE 6: Toyota Fortuner -->
+        <article class="tour-card fleet-card" data-category="suvs">
+          <div class="tour-image-container">
+            <img alt="Toyota Fortuner" class="tour-image" src="transport images/transport_fortuner.jpeg">
+            <div class="tour-badge-top">
+              <span class="badge badge-navy">LUXURY SUV</span>
+            </div>
+          </div>
+          <div class="tour-content">
+            <h3 class="tour-title" style="margin-top: 0;">Toyota Fortuner</h3>
+            <div style="font-size: 13px; color: var(--sunset-accent); font-weight: 600; margin-bottom: 12px; letter-spacing: 0.05em;">7-Seater Premium SUV</div>
+            <ul class="tour-highlights" style="margin-bottom: 20px;">
+              <li><i class="ph ph-users" style="color: var(--sunset-accent); margin-right: 8px;"></i> 7 Passenger Seats</li>
+              <li><i class="ph ph-shield-check" style="color: var(--sunset-accent); margin-right: 8px;"></i> Active Traction Control (4x4)</li>
+              <li><i class="ph ph-devices" style="color: var(--sunset-accent); margin-right: 8px;"></i> Smart Entertainment Screen</li>
+              <li><i class="ph ph-luggage" style="color: var(--sunset-accent); margin-right: 8px;"></i> Foldable Third-Row Cargo</li>
+            </ul>
+            <p class="body-sm opacity-70" style="font-size: 12px; line-height: 1.5; margin-bottom: 16px;">High ground clearance and modern luxuries make it perfect for comfortable long-distance travel to scenic northern destinations like Skardu and Swat.</p>
+            <div class="tour-footer" style="justify-content: flex-end; margin-top: auto; padding-top: 12px; border-t: 1px solid rgba(255,255,255,0.05);">
+              <a href="#booking-section" class="tour-action-btn select-vehicle-btn" data-vehicle="Toyota Fortuner">Select & Book <i class="ph ph-arrow-right"></i></a>
+            </div>
+          </div>
+        </article>
+
+        <!-- VEHICLE 7: Honda BR-V -->
+        <article class="tour-card fleet-card" data-category="suvs">
+          <div class="tour-image-container">
+            <img alt="Honda BR-V" class="tour-image" src="transport images/transport_brv.jpeg">
+            <div class="tour-badge-top">
+              <span class="badge badge-navy">COMFORT MPV</span>
+            </div>
+          </div>
+          <div class="tour-content">
+            <h3 class="tour-title" style="margin-top: 0;">Honda BR-V</h3>
+            <div style="font-size: 13px; color: var(--sunset-accent); font-weight: 600; margin-bottom: 12px; letter-spacing: 0.05em;">7-Seater Family MPV</div>
+            <ul class="tour-highlights" style="margin-bottom: 20px;">
+              <li><i class="ph ph-users" style="color: var(--sunset-accent); margin-right: 8px;"></i> 7 Passenger Capacity</li>
+              <li><i class="ph ph-wind" style="color: var(--sunset-accent); margin-right: 8px;"></i> Digital AC with Rear Vents</li>
+              <li><i class="ph ph-trend-up" style="color: var(--sunset-accent); margin-right: 8px;"></i> Decent Ground Clearance</li>
+              <li><i class="ph ph-suitcase" style="color: var(--sunset-accent); margin-right: 8px;"></i> Compact Cargo Area</li>
+            </ul>
+            <p class="body-sm opacity-70" style="font-size: 12px; line-height: 1.5; margin-bottom: 16px;">An excellent value-for-money 7-seater choice, providing high passenger capacity and sedan-like smoothness on highway roads.</p>
+            <div class="tour-footer" style="justify-content: flex-end; margin-top: auto; padding-top: 12px; border-t: 1px solid rgba(255,255,255,0.05);">
+              <a href="#booking-section" class="tour-action-btn select-vehicle-btn" data-vehicle="Honda BR-V">Select & Book <i class="ph ph-arrow-right"></i></a>
+            </div>
+          </div>
+        </article>
+
+        <!-- VEHICLE 8: Suzuki APV -->
+        <article class="tour-card fleet-card" data-category="suvs">
+          <div class="tour-image-container">
+            <img alt="Suzuki APV" class="tour-image" src="transport images/transport_apv.jpeg">
+            <div class="tour-badge-top">
+              <span class="badge badge-navy">STANDARD MPV</span>
+            </div>
+          </div>
+          <div class="tour-content">
+            <h3 class="tour-title" style="margin-top: 0;">Suzuki APV</h3>
+            <div style="font-size: 13px; color: var(--sunset-accent); font-weight: 600; margin-bottom: 12px; letter-spacing: 0.05em;">7-Seater Spacious Van</div>
+            <ul class="tour-highlights" style="margin-bottom: 20px;">
+              <li><i class="ph ph-users" style="color: var(--sunset-accent); margin-right: 8px;"></i> 7 Passenger Capacity</li>
+              <li><i class="ph ph-wind" style="color: var(--sunset-accent); margin-right: 8px;"></i> Fully Air Conditioned</li>
+              <li><i class="ph ph-arrows-out-line-horizontal" style="color: var(--sunset-accent); margin-right: 8px;"></i> Extra High Headroom</li>
+              <li><i class="ph ph-luggage" style="color: var(--sunset-accent); margin-right: 8px;"></i> Generous Luggage Room</li>
+            </ul>
+            <p class="body-sm opacity-70" style="font-size: 12px; line-height: 1.5; margin-bottom: 16px;">A boxy, highly spacious MPV that gives passengers ample breathing room and cargo capabilities on budget family tours.</p>
+            <div class="tour-footer" style="justify-content: flex-end; margin-top: auto; padding-top: 12px; border-t: 1px solid rgba(255,255,255,0.05);">
+              <a href="#booking-section" class="tour-action-btn select-vehicle-btn" data-vehicle="Suzuki APV">Select & Book <i class="ph ph-arrow-right"></i></a>
+            </div>
+          </div>
+        </article>
+
+        <!-- VEHICLE 9: Honda Civic -->
+        <article class="tour-card fleet-card" data-category="cars">
+          <div class="tour-image-container">
+            <img alt="Honda Civic" class="tour-image" src="transport images/transport_civic.jpeg">
+            <div class="tour-badge-top">
+              <span class="badge badge-navy">PREMIUM SEDAN</span>
+            </div>
+          </div>
+          <div class="tour-content">
+            <h3 class="tour-title" style="margin-top: 0;">Honda Civic</h3>
+            <div style="font-size: 13px; color: var(--sunset-accent); font-weight: 600; margin-bottom: 12px; letter-spacing: 0.05em;">5-Seater Executive Car</div>
+            <ul class="tour-highlights" style="margin-bottom: 20px;">
+              <li><i class="ph ph-users" style="color: var(--sunset-accent); margin-right: 8px;"></i> 4+1 Seating Capacity</li>
+              <li><i class="ph ph-gear" style="color: var(--sunset-accent); margin-right: 8px;"></i> Smooth Automatic Drive</li>
+              <li><i class="ph ph-sparkles" style="color: var(--sunset-accent); margin-right: 8px;"></i> Luxurious Cruise Comfort</li>
+              <li><i class="ph ph-suitcase" style="color: var(--sunset-accent); margin-right: 8px;"></i> Medium Trunk Capacity</li>
+            </ul>
+            <p class="body-sm opacity-70" style="font-size: 12px; line-height: 1.5; margin-bottom: 16px;">Premium executive styling and top-tier highway ride comfort. Excellent choice for business travel, couples, and small families.</p>
+            <div class="tour-footer" style="justify-content: flex-end; margin-top: auto; padding-top: 12px; border-t: 1px solid rgba(255,255,255,0.05);">
+              <a href="#booking-section" class="tour-action-btn select-vehicle-btn" data-vehicle="Honda Civic">Select & Book <i class="ph ph-arrow-right"></i></a>
+            </div>
+          </div>
+        </article>
+
+        <!-- VEHICLE 10: Toyota Corolla / Yaris -->
+        <article class="tour-card fleet-card" data-category="cars">
+          <div class="tour-image-container">
+            <img alt="Toyota Corolla" class="tour-image" src="transport images/transport_corolla.jpeg">
+            <div class="tour-badge-top">
+              <span class="badge badge-navy">STANDARD SEDAN</span>
+            </div>
+          </div>
+          <div class="tour-content">
+            <h3 class="tour-title" style="margin-top: 0;">Toyota Corolla / Yaris</h3>
+            <div style="font-size: 13px; color: var(--sunset-accent); font-weight: 600; margin-bottom: 12px; letter-spacing: 0.05em;">5-Seater Reliable Sedan</div>
+            <ul class="tour-highlights" style="margin-bottom: 20px;">
+              <li><i class="ph ph-users" style="color: var(--sunset-accent); margin-right: 8px;"></i> 4+1 Seating Capacity</li>
+              <li><i class="ph ph-wind" style="color: var(--sunset-accent); margin-right: 8px;"></i> High Efficiency Air Conditioning</li>
+              <li><i class="ph ph-trend-up" style="color: var(--sunset-accent); margin-right: 8px;"></i> Good Ground Clearance for Sedans</li>
+              <li><i class="ph ph-suitcase" style="color: var(--sunset-accent); margin-right: 8px;"></i> Spacious Sedan Trunk</li>
+            </ul>
+            <p class="body-sm opacity-70" style="font-size: 12px; line-height: 1.5; margin-bottom: 16px;">The backbone of inter-city travels in Pakistan. Renowned for high reliability, soft suspension, and comfortable rear seating space.</p>
+            <div class="tour-footer" style="justify-content: flex-end; margin-top: auto; padding-top: 12px; border-t: 1px solid rgba(255,255,255,0.05);">
+              <a href="#booking-section" class="tour-action-btn select-vehicle-btn" data-vehicle="Toyota Corolla / Yaris">Select & Book <i class="ph ph-arrow-right"></i></a>
+            </div>
+          </div>
+        </article>
+
+        <!-- VEHICLE 11: Suzuki Cultus -->
+        <article class="tour-card fleet-card" data-category="cars">
+          <div class="tour-image-container">
+            <img alt="Suzuki Cultus" class="tour-image" src="transport images/transport_cultus.jpeg">
+            <div class="tour-badge-top">
+              <span class="badge badge-navy">COMPACT</span>
+            </div>
+          </div>
+          <div class="tour-content">
+            <h3 class="tour-title" style="margin-top: 0;">Suzuki Cultus</h3>
+            <div style="font-size: 13px; color: var(--sunset-accent); font-weight: 600; margin-bottom: 12px; letter-spacing: 0.05em;">5-Seater Economy Hatchback</div>
+            <ul class="tour-highlights" style="margin-bottom: 20px;">
+              <li><i class="ph ph-users" style="color: var(--sunset-accent); margin-right: 8px;"></i> 4 Passenger Capacity</li>
+              <li><i class="ph ph-wind" style="color: var(--sunset-accent); margin-right: 8px;"></i> Air Conditioned: Yes</li>
+              <li><i class="ph ph-gauge" style="color: var(--sunset-accent); margin-right: 8px;"></i> Highly Fuel Efficient</li>
+              <li><i class="ph ph-suitcase" style="color: var(--sunset-accent); margin-right: 8px;"></i> Compact Luggage Hatch</li>
+            </ul>
+            <p class="body-sm opacity-70" style="font-size: 12px; line-height: 1.5; margin-bottom: 16px;">An excellent compact rental vehicle for city exploration, airport pick-and-drops, or light touring on paved main routes.</p>
+            <div class="tour-footer" style="justify-content: flex-end; margin-top: auto; padding-top: 12px; border-t: 1px solid rgba(255,255,255,0.05);">
+              <a href="#booking-section" class="tour-action-btn select-vehicle-btn" data-vehicle="Suzuki Cultus">Select & Book <i class="ph ph-arrow-right"></i></a>
+            </div>
+          </div>
+        </article>
+
+        <!-- VEHICLE 12: Suzuki Alto -->
+        <article class="tour-card fleet-card" data-category="cars">
+          <div class="tour-image-container">
+            <img alt="Suzuki Alto" class="tour-image" src="transport images/transport_alto.jpeg">
+            <div class="tour-badge-top">
+              <span class="badge badge-navy">ECONOMY</span>
+            </div>
+          </div>
+          <div class="tour-content">
+            <h3 class="tour-title" style="margin-top: 0;">Suzuki Alto</h3>
+            <div style="font-size: 13px; color: var(--sunset-accent); font-weight: 600; margin-bottom: 12px; letter-spacing: 0.05em;">5-Seater Economy Car</div>
+            <ul class="tour-highlights" style="margin-bottom: 20px;">
+              <li><i class="ph ph-users" style="color: var(--sunset-accent); margin-right: 8px;"></i> 4 Passenger Capacity</li>
+              <li><i class="ph ph-wind" style="color: var(--sunset-accent); margin-right: 8px;"></i> Air Conditioned: Yes</li>
+              <li><i class="ph ph-tag" style="color: var(--sunset-accent); margin-right: 8px;"></i> Most Budget-Friendly Choice</li>
+              <li><i class="ph ph-backpack" style="color: var(--sunset-accent); margin-right: 8px;"></i> Minimal Luggage Capacity</li>
+            </ul>
+            <p class="body-sm opacity-70" style="font-size: 12px; line-height: 1.5; margin-bottom: 16px;">The standard budget hatchback option in Pakistan. Best suited for single travelers, couples, and small short-distance city trips.</p>
+            <div class="tour-footer" style="justify-content: flex-end; margin-top: auto; padding-top: 12px; border-t: 1px solid rgba(255,255,255,0.05);">
+              <a href="#booking-section" class="tour-action-btn select-vehicle-btn" data-vehicle="Suzuki Alto">Select & Book <i class="ph ph-arrow-right"></i></a>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+  <!-- END: Fleet Catalog -->
+
+  <!-- BEGIN: Booking Form Section -->
+  <section class="section-gap section-cinematic section-veil" id="booking-section" style="background: transparent; padding-bottom: var(--section-gap);">
+    <div class="container" style="max-width: 900px;">
+      
+      <div class="text-center" style="margin-bottom: 48px;">
+        <span class="text-sunset-accent label-lg">Book Your Rental</span>
+        <h2 class="display-lg-mobile mt-2">Request a <span class="text-sunset-accent">Transport Quote</span></h2>
+        <p class="body-md mt-4 text-muted" style="color: rgba(244,240,234,0.55);">Fill out the form below. We will coordinate details and redirect you to WhatsApp to finalize your booking.</p>
+      </div>
+
+      <div class="form-card">
+        <form id="transport-booking-form" style="display: flex; flex-direction: column; gap: 24px;">
+          
+          <div class="grid-cols-2" style="gap: 32px;">
+            <!-- Departure City (Islamabad/Lahore only) -->
+            <div class="form-group">
+              <label class="form-label" for="booking-departure">Departure City *</label>
+              <select class="form-input-control form-select-control" id="booking-departure" required>
+                <option value="">Select departure city</option>
+                <option value="Islamabad">Islamabad</option>
+                <option value="Lahore">Lahore</option>
+              </select>
+              <span style="font-size: 11px; color: rgba(255,255,255,0.4); display: block; margin-top: 6px;">Services are strictly operated starting from Islamabad/Lahore only.</span>
+            </div>
+
+            <!-- Destination -->
+            <div class="form-group">
+              <label class="form-label" for="booking-destination">Destination / Route *</label>
+              <input class="form-input-control" id="booking-destination" placeholder="e.g., Hunza Valley tour / Skardu drop" type="text" required>
+            </div>
+          </div>
+
+          <div class="grid-cols-2" style="gap: 32px;">
+            <!-- Vehicle Choice -->
+            <div class="form-group">
+              <label class="form-label" for="booking-vehicle">Selected Vehicle *</label>
+              <select class="form-input-control form-select-control" id="booking-vehicle" required>
+                <option value="">Select a vehicle</option>
+                <option value="Toyota 5C Coaster (22 Seats)">Toyota 5C Coaster (22 Seats)</option>
+                <option value="Toyota 4C Coaster (29 Seats)">Toyota 4C Coaster (29 Seats)</option>
+                <option value="Toyota HiAce Grand Cabin (13 Seats)">Toyota HiAce Grand Cabin (13 Seats)</option>
+                <option value="Toyota HiAce Mid-Roof (11 Seats)">Toyota HiAce Mid-Roof (11 Seats)</option>
+                <option value="Toyota Land Cruiser Prado (7 Seats)">Toyota Land Cruiser Prado (7 Seats)</option>
+                <option value="Toyota Fortuner (7 Seats)">Toyota Fortuner (7 Seats)</option>
+                <option value="Honda BR-V (7 Seats)">Honda BR-V (7 Seats)</option>
+                <option value="Suzuki APV (7 Seats)">Suzuki APV (7 Seats)</option>
+                <option value="Honda Civic (5 Seats)">Honda Civic (5 Seats)</option>
+                <option value="Toyota Corolla / Yaris (5 Seats)">Toyota Corolla / Yaris (5 Seats)</option>
+                <option value="Suzuki Cultus (5 Seats)">Suzuki Cultus (5 Seats)</option>
+                <option value="Suzuki Alto (5 Seats)">Suzuki Alto (5 Seats)</option>
+              </select>
+            </div>
+
+            <!-- Trip Type -->
+            <div class="form-group">
+              <label class="form-label" for="booking-trip-type">Rental Trip Type *</label>
+              <select class="form-input-control form-select-control" id="booking-trip-type" required>
+                <option value="">Select trip type</option>
+                <option value="One-Way Dropoff">One-Way Drop-off</option>
+                <option value="Round Trip">Round Trip</option>
+                <option value="Multi-Day Custom Tour">Multi-Day Custom Tour</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="grid-cols-2" style="gap: 32px;">
+            <!-- Start Date -->
+            <div class="form-group">
+              <label class="form-label" for="booking-start-date">Pickup Date *</label>
+              <input class="form-input-control" id="booking-start-date" type="date" required>
+            </div>
+
+            <!-- End Date -->
+            <div class="form-group">
+              <label class="form-label" for="booking-end-date">Return Date *</label>
+              <input class="form-input-control" id="booking-end-date" type="date" required>
+            </div>
+          </div>
+
+          <!-- Notes -->
+          <div class="form-group">
+            <label class="form-label" for="booking-notes">Itinerary Details / Special Requirements</label>
+            <textarea class="form-input-control" id="booking-notes" style="height: 100px; resize: vertical;" placeholder="List any intermediate stops, driver requirements, flight pick-up timings, baggage info, etc."></textarea>
+          </div>
+
+          <div class="grid-cols-2" style="gap: 32px;">
+            <!-- Name -->
+            <div class="form-group">
+              <label class="form-label" for="booking-name">Full Name *</label>
+              <input class="form-input-control" id="booking-name" placeholder="Your name" type="text" required>
+            </div>
+
+            <!-- Email -->
+            <div class="form-group">
+              <label class="form-label" for="booking-email">Email Address *</label>
+              <input class="form-input-control" id="booking-email" placeholder="your@email.com" type="email" required>
+            </div>
+          </div>
+
+          <!-- Phone/WhatsApp -->
+          <div class="form-group">
+            <label class="form-label" for="booking-phone">WhatsApp / Phone Number *</label>
+            <input class="form-input-control" id="booking-phone" placeholder="e.g., +92 300 1234567" type="tel" required>
+          </div>
+
+          <!-- Submit Button -->
+          <div style="text-align: center; margin-top: 24px;">
+            <button type="submit" class="btn btn-secondary btn-lg w-100" style="padding: 16px; border-radius: var(--radius-full); display: inline-flex; align-items: center; justify-content: center; gap: 8px;">
+              <i class="ph ph-whatsapp-logo" style="font-size: 20px;"></i> Send Transport Request via WhatsApp
+            </button>
+            <p class="body-sm text-muted mt-4" style="color: rgba(255,255,255,0.4) !important;">
+              Direct chat response in 24 hours • Expert mountain driver included on all bookings
+            </p>
+          </div>
+
+        </form>
+      </div>
+
+    </div>
+  </section>
+  <!-- END: Booking Form Section -->
+
+  <!-- BEGIN: MainFooter -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand-col">
+          <div class="footer-logo"><img src="logo.webp" alt="Safar Silsila Logo"></div>
+          <p class="footer-desc">Safar Silsila is a trusted Pakistan travel company offering tour packages to Hunza, Skardu, Swat, Kumrat, Fairy Meadows, Naran, Kashmir, and more. We specialize in family tours, honeymoon packages, and customized holiday experiences.</p>
+          <div class="social-links">
+            <a class="social-link" href="#"><i class="ph ph-facebook-logo"></i></a>
+            <a class="social-link" href="#"><i class="ph ph-instagram-logo"></i></a>
+            <a class="social-link" href="#"><i class="ph ph-x-logo"></i></a>
+          </div>
+        </div>
+        
+        <div class="footer-links-col">
+          <h4 class="footer-heading">Quick Links</h4>
+          <ul class="footer-links-list">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="tours.html">All Tours</a></li>
+            <li><a href="custom-tour.html">Custom Tour</a></li>
+            <li><a href="transport.html">Transport Services</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+          </ul>
+        </div>
+        
+        <div class="footer-tours-col">
+          <h4 class="footer-heading">Popular Tours</h4>
+          <ul class="footer-links-list">
+            <li><a href="tours.html">Hunza, Skardu &amp; Deosai</a></li>
+            <li><a href="tours.html">Skardu &amp; Deosai Plains</a></li>
+            <li><a href="tours.html">Astore Valley &amp; Minimarg</a></li>
+            <li><a href="tours.html">Fairy Meadows Adventure</a></li>
+            <li><a href="tours.html">Kumrat Valley &amp; Jahaz Banda</a></li>
+          </ul>
+        </div>
+        
+        <div class="footer-contact-col">
+          <h4 class="footer-heading">Get In Touch</h4>
+          <div class="footer-contact-item">
+            <i class="ph ph-map-pin"></i>
+            <p>Office # 9, First Floor, Aslam Business Square, FECHS E-11/2, Islamabad, 44034, Pakistan</p>
+          </div>
+          <div class="footer-contact-item">
+            <i class="ph ph-phone"></i>
+            <p>+92 311 1145456</p>
+          </div>
+          <div class="footer-contact-item">
+            <i class="ph ph-envelope"></i>
+            <p>info@safarsilsila.com</p>
+          </div>
+          
+          <div class="mt-8">
+            <span class="newsletter-title">Newsletter</span>
+            <form class="newsletter-form">
+              <input class="newsletter-input" placeholder="Your email" type="email" required>
+              <button class="newsletter-btn" type="submit"><i class="ph ph-arrow-right"></i></button>
+            </form>
+          </div>
+        </div>
+      </div>
+      
+      <div class="footer-bottom">
+        <p>© 2026 Safar Silsila Tours and Travel Company. All Rights Reserved.</p>
+        <div class="footer-bottom-links">
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms of Service</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- END: MainFooter -->
+
+  <!-- Floating WhatsApp Button -->
+  <a href="#" class="whatsapp-floating-btn whatsapp-action"><i class="ph ph-whatsapp-logo"></i></a>
+
+  <!-- WebGL Shader Background -->
+  <script src="shader-bg.js"></script>
+
+  <!-- Global scripts -->
+  <script src="main.js"></script>
+
+  <!-- Fleet tab filter script -->
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      const pills = document.querySelectorAll('.filter-pill');
+      const cards = document.querySelectorAll('.fleet-card');
+      const selectBtns = document.querySelectorAll('.select-vehicle-btn');
+      const vehicleSelectInput = document.getElementById('booking-vehicle');
+
+      // Category tab filtering
+      pills.forEach(pill => {
+        pill.addEventListener('click', () => {
+          // Remove active from all pills
+          pills.forEach(p => {
+            p.classList.remove('active');
+            p.style.background = 'transparent';
+            p.style.color = 'rgba(245,246,242,0.6)';
+          });
+          
+          // Add active to clicked pill
+          pill.classList.add('active');
+          pill.style.background = 'var(--glass-bg-dark)';
+          pill.style.color = 'var(--snow-peak)';
+
+          const filter = pill.dataset.filter;
+
+          cards.forEach(card => {
+            if (filter === 'all' || card.dataset.category === filter) {
+              card.style.display = 'flex';
+            } else {
+              card.style.display = 'none';
+            }
+          });
+        });
+      });
+
+      // Select vehicle triggers dropdown select and scroll to booking form
+      selectBtns.forEach(btn => {
+        btn.addEventListener('click', (e) => {
+          e.preventDefault();
+          const vehicleName = btn.dataset.vehicle;
+          
+          // Match selected vehicle name to dropdown values
+          if (vehicleSelectInput) {
+            for (let option of vehicleSelectInput.options) {
+              if (option.value.includes(vehicleName)) {
+                vehicleSelectInput.value = option.value;
+                break;
+              }
+            }
+          }
+
+          // Smooth scroll to form section
+          const target = document.querySelector('#booking-section');
+          if (target) {
+            target.scrollIntoView({ behavior: 'smooth' });
+          }
+        });
+      });
+    });
+  </script>
+</body>
+</html>

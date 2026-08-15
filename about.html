@@ -1,0 +1,551 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>About Us | Safar Silsila</title>
+  
+  <!-- Phosphor Icons -->
+  <link rel="stylesheet" type="text/css" href="phosphor.css">
+  
+  <!-- Nomadic Horizon Stylesheet -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- BEGIN: Preloader -->
+  <div id="preloader">
+    <div class="preloader-content">
+      <div class="preloader-spinner-wrap">
+        <div class="preloader-spinner"></div>
+        <div class="preloader-center-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M3 20h18" stroke="var(--sunset-accent)" stroke-width="2"/>
+            <path d="M12 4L4 16h16L12 4z" stroke="var(--sunset-accent-bright)" stroke-width="2" fill="rgba(185, 209, 145, 0.05)"/>
+            <path d="M12 4l-4 8h8l-4-8z" stroke="var(--sunset-accent)" stroke-width="1.5"/>
+            <path d="M8 16c2-3 4-3 6 0" stroke="var(--sunset-accent)" stroke-width="1.5"/>
+          </svg>
+        </div>
+      </div>
+      <div class="preloader-brand-name">Safar Silsila</div>
+      <div class="preloader-accent-line"></div>
+    </div>
+  </div>
+  <!-- END: Preloader -->
+
+  <!-- BEGIN: Header / TopNavBar -->
+  <header class="header">
+    <div class="header-container">
+      <a href="index.html" class="logo"><img src="logo.webp" alt="Safar Silsila Logo"></a>
+      
+      <nav class="nav-menu" id="nav-menu">
+        <a class="nav-link" href="index.html">Home</a>
+        <a class="nav-link" href="tours.html">Tours</a>
+        <a class="nav-link" href="custom-tour.html">Custom Tour</a>
+        <a class="nav-link" href="transport.html">Transport</a>
+        <a class="nav-link active" href="about.html">About</a>
+        <a class="nav-link" href="contact.html">Contact</a>
+      </nav>
+      
+      <div class="header-actions">
+        <button class="search-trigger" onclick="location.href='tours.html'"><i class="ph ph-magnifying-glass"></i></button>
+        <a href="custom-tour.html" class="btn btn-secondary btn-sm btn-book">Book Now</a>
+        <button class="nav-toggle" id="nav-toggle"><i class="ph ph-list"></i></button>
+      </div>
+    </div>
+  </header>
+  <!-- END: Header / TopNavBar -->
+
+  <!-- BEGIN: Hero Section -->
+  <section class="hero" style="min-height: 80vh;">
+    <!-- Hero Background Image -->
+    <img alt="Karakoram Golden Hour" class="hero-bg" src="about_hero.webp">
+    <div class="hero-overlay"></div>
+    
+    <div class="container hero-content text-center" style="max-width: 900px;">
+      <span class="text-sunset-accent label-lg mb-4 block" style="letter-spacing: 0.25em;">ABOUT ROAMISTAN</span>
+      <h1 class="display-lg mb-6">Pakistan's Trusted <br><span class="text-sunset-accent">Travel Company</span></h1>
+      <p class="body-lg opacity-80 mb-12" style="max-width: 700px; margin: 0 auto;">
+        Since 2019, Roamistan has been helping travelers discover the breathtaking beauty of Northern Pakistan through expertly crafted tour packages, authentic local experiences, and personalized travel services.
+      </p>
+      
+      <!-- Stats Container -->
+      <div class="grid-cols-4 mt-12" style="border-t: 1px solid rgba(255,255,255,0.1); padding-top: 40px; gap: 20px;">
+        <div class="text-center">
+          <div class="mb-2" style="font-size: 24px; color: var(--sunset-accent);"><i class="ph ph-users-three"></i></div>
+          <div class="headline-lg text-snow-peak">500+</div>
+          <div class="label-md opacity-60" style="text-transform: uppercase; letter-spacing: 0.1em; font-size: 11px;">Happy Travelers</div>
+        </div>
+        <div class="text-center">
+          <div class="mb-2" style="font-size: 24px; color: var(--sunset-accent);"><i class="ph ph-mountains"></i></div>
+          <div class="headline-lg text-snow-peak">100+</div>
+          <div class="label-md opacity-60" style="text-transform: uppercase; letter-spacing: 0.1em; font-size: 11px;">Tours Operated</div>
+        </div>
+        <div class="text-center">
+          <div class="mb-2" style="font-size: 24px; color: var(--sunset-accent);"><i class="ph ph-certificate"></i></div>
+          <div class="headline-lg text-snow-peak">6+ Years</div>
+          <div class="label-md opacity-60" style="text-transform: uppercase; letter-spacing: 0.1em; font-size: 11px;">Team Expertise</div>
+        </div>
+        <div class="text-center">
+          <div class="mb-2" style="font-size: 24px; color: var(--sunset-accent);"><i class="ph ph-map-trifold"></i></div>
+          <div class="headline-lg text-snow-peak">20+</div>
+          <div class="label-md opacity-60" style="text-transform: uppercase; letter-spacing: 0.1em; font-size: 11px;">Destinations</div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- END: Hero Section -->
+
+  <!-- BEGIN: Our Journey Section -->
+  <section class="section-gap section-cinematic section-veil section-ambient-warm" style="background: transparent;">
+    <div class="container">
+      <div class="grid-container" style="align-items: center; gap: 40px;">
+        <div class="col-span-6" style="display: flex; flex-direction: column; gap: 24px;">
+          <div class="d-flex" style="align-items: center; gap: 8px; color: var(--sunset-accent);">
+            <div style="width: 32px; height: 1px; background-color: var(--sunset-accent);"></div>
+            <span class="label-md" style="font-weight: 700; text-transform: uppercase; letter-spacing: 0.1em;">OUR JOURNEY</span>
+          </div>
+          <h2 class="headline-lg">Built on a Passion for <span class="text-sunset-accent">Exploring Pakistan</span></h2>
+          <p class="body-md text-muted">Roamistan was founded in 2019 with a simple mission: to make Pakistan's most extraordinary destinations accessible, safe, and unforgettable for every traveler.</p>
+          <p class="body-md text-muted">What began as a passion for showcasing the hidden beauty of Northern Pakistan has grown into a trusted travel company serving families, couples, corporate groups, students, and international visitors from around the world.</p>
+          <p class="body-md text-muted">Today, Roamistan specializes in curated tours to Hunza Valley, Skardu, Fairy Meadows, Swat, Kumrat Valley, Kashmir, Naran Kaghan, Chitral, and many other iconic destinations.</p>
+          
+          <a href="tours.html" class="btn btn-primary" style="align-self: flex-start; margin-top: 16px;">
+            Explore Tour Packages <i class="ph ph-arrow-right"></i>
+          </a>
+        </div>
+        
+        <div class="col-span-6">
+          <div class="tour-card" style="border: none; box-shadow: 0 15px 40px rgba(0, 0, 0, 0.3);">
+            <div style="position: relative; height: 400px; border-radius: var(--radius-lg); overflow: hidden;">
+              <img class="tour-image" alt="Safar Silsila Office" style="height: 100%; width: 100%; object-fit: cover;" src="C:/Users/DELL/.gemini/antigravity-ide/brain/bd3a3001-d099-49a4-aa35-24e5046959fc/media__1786608478570.png">
+              <div style="position: absolute; inset: 0; background: linear-gradient(to top, rgba(11,30,45,0.6) 0%, transparent 100%);"></div>
+              
+              <div style="position: absolute; bottom: 24px; left: 24px; right: 24px; background: var(--glass-bg-dark); border: 1px solid var(--glass-border-light); backdrop-filter: var(--glass-blur); padding: 20px; border-radius: var(--radius-default); box-shadow: 0 10px 30px rgba(0,0,0,0.3);">
+                <h4 class="headline-md mb-1" style="font-size: 18px; font-weight: 700; color: var(--snow-peak);">Established 2019</h4>
+                <p class="body-md text-muted" style="font-size: 13px;">Headquartered in Islamabad, Pakistan, serving adventurers globally.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- END: Our Journey Section -->
+
+  <!-- BEGIN: Mission & Vision (Asymmetric Grid) -->
+  <section class="section-gap section-cinematic section-veil" style="background: transparent;">
+    <div class="container">
+      <div class="grid-cols-2" style="gap: 32px;">
+        
+        <!-- Mission -->
+        <div class="value-card text-snow-peak" style="background-color: var(--glass-bg-dark); border: 1px solid var(--glass-border-light); backdrop-filter: var(--glass-blur); padding: 48px; border-radius: var(--radius-xl);">
+          <div style="font-size: 40px; color: var(--sunset-accent); margin-bottom: 24px;"><i class="ph ph-target"></i></div>
+          <h3 class="headline-lg mb-4 text-snow-peak">Our Mission</h3>
+          <p class="body-lg opacity-80" style="line-height: 1.7;">
+            To deliver exceptional Pakistan travel experiences through professionally managed tours, authentic local connections, and personalized service while supporting sustainable tourism and local communities across the country.
+          </p>
+        </div>
+        
+        <!-- Vision -->
+        <div class="value-card text-snow-peak" style="background-color: var(--glass-bg-light); border: 1px solid var(--glass-border-dark); backdrop-filter: var(--glass-blur-sm); padding: 48px; border-radius: var(--radius-xl);">
+          <div style="font-size: 40px; color: var(--sunset-accent); margin-bottom: 24px;"><i class="ph ph-eye"></i></div>
+          <h3 class="headline-lg mb-4" style="color: var(--snow-peak);">Our Vision</h3>
+          <p class="body-lg opacity-80" style="line-height: 1.7;">
+            To become Pakistan's most trusted travel company by connecting travelers with the country's natural beauty, cultural heritage, and unforgettable adventures while setting new standards for service excellence.
+          </p>
+        </div>
+        
+      </div>
+    </div>
+  </section>
+  <!-- END: Mission & Vision -->
+
+  <!-- BEGIN: Values Section -->
+  <section class="section-gap section-cinematic section-veil section-ambient-warm" style="background: transparent;">
+    <div class="container">
+      <div class="text-center" style="max-width: 700px; margin: 0 auto 64px auto;">
+        <span class="text-sunset-accent label-lg">What Guides Us</span>
+        <h2 class="display-lg-mobile mt-2">The Values That Guide Every <span class="text-sunset-accent">Journey</span></h2>
+      </div>
+      
+      <div class="grid-cols-4">
+        <!-- Value 1 -->
+        <div class="value-card text-center" style="padding: 24px;">
+          <div class="value-icon-box" style="margin: 0 auto 20px auto;"><i class="ph ph-heartbeat"></i></div>
+          <h3 class="value-title">Safety</h3>
+          <p class="value-desc">Your safety is our highest priority. We work with experienced drivers, verified accommodations, and trusted local partners to ensure a smooth travel experience.</p>
+        </div>
+        <!-- Value 2 -->
+        <div class="value-card text-center" style="padding: 24px;">
+          <div class="value-icon-box" style="margin: 0 auto 20px auto;"><i class="ph ph-hands-clapping"></i></div>
+          <h3 class="value-title">Authenticity</h3>
+          <p class="value-desc">We believe travel should go beyond sightseeing. Our itineraries connect travelers with local culture, traditions, cuisine, and communities throughout Pakistan.</p>
+        </div>
+        <!-- Value 3 -->
+        <div class="value-card text-center" style="padding: 24px;">
+          <div class="value-icon-box" style="margin: 0 auto 20px auto;"><i class="ph ph-leaf"></i></div>
+          <h3 class="value-title">Sustainability</h3>
+          <p class="value-desc">We support local economies, promote environmental awareness, and encourage sustainable tourism practices that preserve Pakistan's natural beauty.</p>
+        </div>
+        <!-- Value 4 -->
+        <div class="value-card text-center" style="padding: 24px;">
+          <div class="value-icon-box" style="margin: 0 auto 20px auto;"><i class="ph ph-medal"></i></div>
+          <h3 class="value-title">Excellence</h3>
+          <p class="value-desc">From your first inquiry to your return home, our team is committed to providing responsive communication, transparent planning, and exceptional customer care.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- END: Values Section -->
+
+  <!-- BEGIN: Meet the Travel Experts -->
+  <section class="team-marquee-section">
+    <!-- Decorative Background Accent SVG -->
+    <svg
+      class="team-marquee-decor-svg"
+      fill="none"
+      height="154"
+      viewBox="0 0 460 154"
+      width="460"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <g clip-path="url(#clip0_494_1104)">
+        <path
+          d="M-87.463 458.432C-102.118 348.092 -77.3418 238.841 -15.0744 188.274C57.4129 129.408 180.708 150.071 351.748 341.128C278.246 -374.233 633.954 380.602 548.123 42.7707"
+          stroke="currentColor"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="40"
+        />
+      </g>
+      <defs>
+        <clipPath id="clip0_494_1104">
+          <rect fill="white" height="154" width="460" />
+        </clipPath>
+      </defs>
+    </svg>
+
+    <div class="container" style="position: relative; z-index: 10;">
+      <div class="text-center" style="max-width: 800px; margin: 0 auto 64px auto; display: flex; flex-direction: column; align-items: center;">
+        <div class="team-marquee-header-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-user-star"><path d="M16.051 12.616a1 1 0 0 1 1.909.024l.737 1.452a1 1 0 0 0 .737.535l1.634.256a1 1 0 0 1 .588 1.806l-1.172 1.168a1 1 0 0 0-.282.866l.259 1.613a1 1 0 0 1-1.541 1.134l-1.465-.75a1 1 0 0 0-.912 0l-1.465.75a1 1 0 0 1-1.539-1.133l.258-1.613a1 1 0 0 0-.282-.866l-1.156-1.153a1 1 0 0 1 .572-1.822l1.633-.256a1 1 0 0 0 .737-.535z"/><path d="M8 15H7a4 4 0 0 0-4 4v2"/><circle cx="10" cy="7" r="4"/></svg>
+        </div>
+        
+        <h2 class="display-lg-mobile mt-2 team-marquee-title-wrapper" style="color: var(--snow-peak); font-family: 'Outfit', sans-serif; font-weight: 700;">
+          Meet the Travel Experts
+          <svg
+            class="team-marquee-title-accent-svg"
+            fill="currentColor"
+            height="86"
+            viewBox="0 0 108 86"
+            width="108"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M38.8484 16.236L15 43.5793L78.2688 15L18.1218 71L93 34.1172L70.2047 65.2739"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="28"
+            />
+          </svg>
+        </h2>
+        <p class="body-md opacity-60 mt-4" style="max-width: 600px; margin: 16px auto 0 auto; color: var(--snow-peak); text-align: center;">
+          Our experienced founders, advisors, and logistics managers are dedicated to curating the most authentic and breathtaking travel experiences across Pakistan.
+        </p>
+      </div>
+
+      <!-- Marquee Section -->
+      <div class="team-marquee-wrapper">
+        <div class="team-marquee-container">
+          <!-- First Track -->
+          <div class="team-marquee-track">
+            <!-- Member 1 -->
+            <div class="team-marquee-card">
+              <div class="team-marquee-card-image-box">
+                <img alt="Sajid" class="team-marquee-card-img" src="team/Sajid Ali.jpeg">
+                <div class="team-marquee-card-overlay">
+                  <h3 class="team-marquee-card-name">Sajid</h3>
+                  <p class="team-marquee-card-role">Founder &amp; CEO</p>
+                </div>
+              </div>
+            </div>
+            <!-- Member 2 -->
+            <div class="team-marquee-card">
+              <div class="team-marquee-card-image-box">
+                <img alt="Ali haider" class="team-marquee-card-img" src="team/Ali Haider.jpeg">
+                <div class="team-marquee-card-overlay">
+                  <h3 class="team-marquee-card-name">Ali haider</h3>
+                  <p class="team-marquee-card-role">Co-Founder &amp; Brand Director</p>
+                </div>
+              </div>
+            </div>
+            <!-- Member 3 -->
+            <div class="team-marquee-card">
+              <div class="team-marquee-card-image-box">
+                <img alt="Daniyal Hussain" class="team-marquee-card-img" src="team/Daniyal Hussain.jpeg">
+                <div class="team-marquee-card-overlay">
+                  <h3 class="team-marquee-card-name">Daniyal Hussain</h3>
+                  <p class="team-marquee-card-role">Finance Director</p>
+                </div>
+              </div>
+            </div>
+            <!-- Member 4 -->
+            <div class="team-marquee-card">
+              <div class="team-marquee-card-image-box">
+                <img alt="Shehzad Ali" class="team-marquee-card-img" src="team/Shehzad.jpeg">
+                <div class="team-marquee-card-overlay">
+                  <h3 class="team-marquee-card-name">Shehzad Ali</h3>
+                  <p class="team-marquee-card-role">Operations Manager</p>
+                </div>
+              </div>
+            </div>
+            <!-- Duplicate members to ensure track spans enough width on desktop -->
+            <!-- Member 5 -->
+            <div class="team-marquee-card">
+              <div class="team-marquee-card-image-box">
+                <img alt="Sajid" class="team-marquee-card-img" src="team/Sajid Ali.jpeg">
+                <div class="team-marquee-card-overlay">
+                  <h3 class="team-marquee-card-name">Sajid</h3>
+                  <p class="team-marquee-card-role">Founder &amp; CEO</p>
+                </div>
+              </div>
+            </div>
+            <!-- Member 6 -->
+            <div class="team-marquee-card">
+              <div class="team-marquee-card-image-box">
+                <img alt="Ali haider" class="team-marquee-card-img" src="team/Ali Haider.jpeg">
+                <div class="team-marquee-card-overlay">
+                  <h3 class="team-marquee-card-name">Ali haider</h3>
+                  <p class="team-marquee-card-role">Co-Founder &amp; Brand Director</p>
+                </div>
+              </div>
+            </div>
+            <!-- Member 7 -->
+            <div class="team-marquee-card">
+              <div class="team-marquee-card-image-box">
+                <img alt="Daniyal Hussain" class="team-marquee-card-img" src="team/Daniyal Hussain.jpeg">
+                <div class="team-marquee-card-overlay">
+                  <h3 class="team-marquee-card-name">Daniyal Hussain</h3>
+                  <p class="team-marquee-card-role">Finance Director</p>
+                </div>
+              </div>
+            </div>
+            <!-- Member 8 -->
+            <div class="team-marquee-card">
+              <div class="team-marquee-card-image-box">
+                <img alt="Shehzad Ali" class="team-marquee-card-img" src="team/Shehzad.jpeg">
+                <div class="team-marquee-card-overlay">
+                  <h3 class="team-marquee-card-name">Shehzad Ali</h3>
+                  <p class="team-marquee-card-role">Operations Manager</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Second Track (Duplicate for seamless infinite scrolling loop) -->
+          <div class="team-marquee-track" aria-hidden="true">
+            <!-- Member 1 -->
+            <div class="team-marquee-card">
+              <div class="team-marquee-card-image-box">
+                <img alt="Sajid" class="team-marquee-card-img" src="team/Sajid Ali.jpeg">
+                <div class="team-marquee-card-overlay">
+                  <h3 class="team-marquee-card-name">Sajid</h3>
+                  <p class="team-marquee-card-role">Founder &amp; CEO</p>
+                </div>
+              </div>
+            </div>
+            <!-- Member 2 -->
+            <div class="team-marquee-card">
+              <div class="team-marquee-card-image-box">
+                <img alt="Ali haider" class="team-marquee-card-img" src="team/Ali Haider.jpeg">
+                <div class="team-marquee-card-overlay">
+                  <h3 class="team-marquee-card-name">Ali haider</h3>
+                  <p class="team-marquee-card-role">Co-Founder &amp; Brand Director</p>
+                </div>
+              </div>
+            </div>
+            <!-- Member 3 -->
+            <div class="team-marquee-card">
+              <div class="team-marquee-card-image-box">
+                <img alt="Daniyal Hussain" class="team-marquee-card-img" src="team/Daniyal Hussain.jpeg">
+                <div class="team-marquee-card-overlay">
+                  <h3 class="team-marquee-card-name">Daniyal Hussain</h3>
+                  <p class="team-marquee-card-role">Finance Director</p>
+                </div>
+              </div>
+            </div>
+            <!-- Member 4 -->
+            <div class="team-marquee-card">
+              <div class="team-marquee-card-image-box">
+                <img alt="Shehzad Ali" class="team-marquee-card-img" src="team/Shehzad.jpeg">
+                <div class="team-marquee-card-overlay">
+                  <h3 class="team-marquee-card-name">Shehzad Ali</h3>
+                  <p class="team-marquee-card-role">Operations Manager</p>
+                </div>
+              </div>
+            </div>
+            <!-- Member 5 -->
+            <div class="team-marquee-card">
+              <div class="team-marquee-card-image-box">
+                <img alt="Sajid" class="team-marquee-card-img" src="team/Sajid Ali.jpeg">
+                <div class="team-marquee-card-overlay">
+                  <h3 class="team-marquee-card-name">Sajid</h3>
+                  <p class="team-marquee-card-role">Founder &amp; CEO</p>
+                </div>
+              </div>
+            </div>
+            <!-- Member 6 -->
+            <div class="team-marquee-card">
+              <div class="team-marquee-card-image-box">
+                <img alt="Ali haider" class="team-marquee-card-img" src="team/Ali Haider.jpeg">
+                <div class="team-marquee-card-overlay">
+                  <h3 class="team-marquee-card-name">Ali haider</h3>
+                  <p class="team-marquee-card-role">Co-Founder &amp; Brand Director</p>
+                </div>
+              </div>
+            </div>
+            <!-- Member 7 -->
+            <div class="team-marquee-card">
+              <div class="team-marquee-card-image-box">
+                <img alt="Daniyal Hussain" class="team-marquee-card-img" src="team/Daniyal Hussain.jpeg">
+                <div class="team-marquee-card-overlay">
+                  <h3 class="team-marquee-card-name">Daniyal Hussain</h3>
+                  <p class="team-marquee-card-role">Finance Director</p>
+                </div>
+              </div>
+            </div>
+            <!-- Member 8 -->
+            <div class="team-marquee-card">
+              <div class="team-marquee-card-image-box">
+                <img alt="Shehzad Ali" class="team-marquee-card-img" src="team/Shehzad.jpeg">
+                <div class="team-marquee-card-overlay">
+                  <h3 class="team-marquee-card-name">Shehzad Ali</h3>
+                  <p class="team-marquee-card-role">Operations Manager</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Testimonial Section -->
+      <div class="team-marquee-testimonial">
+        <p class="team-marquee-testimonial-text">
+          "Safar Silsila made our dream trip to Hunza and Skardu a reality. From the comfortable transport to the warm hospitality of their local hosts, every detail was carefully customized for our family!"
+        </p>
+        <div class="team-marquee-testimonial-avatar-wrapper">
+          <img alt="Ayesha Khan" class="team-marquee-testimonial-avatar" src="team_asma.webp">
+        </div>
+        <div>
+          <h4 class="team-marquee-testimonial-name">Ayesha Khan</h4>
+          <p class="team-marquee-testimonial-role">Verified Traveler · Lahore</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- END: Meet the Travel Experts -->
+
+  <!-- BEGIN: CTA Section -->
+  <section class="section-gap text-center text-snow-peak" style="position: relative; overflow: hidden;">
+    <div class="section-bg-blend">
+      <img alt="Northern sunset landscape" style="width: 100%; height: 100%; object-fit: cover; filter: brightness(0.45);" src="about_sunset.webp">
+      <div style="position: absolute; inset: 0; background-color: rgba(11, 30, 45, 0.8);"></div>
+    </div>
+    
+    <div class="container" style="position: relative; z-index: 1; max-width: 800px;">
+      <h2 class="display-lg-mobile mb-6">Ready to Discover <span class="text-sunset-accent">Northern Pakistan?</span></h2>
+      <p class="body-lg opacity-70 mb-10">Explore Pakistan's most beautiful destinations with a travel company trusted by families, couples, and adventurers since 2019. Let us help you plan the perfect journey.</p>
+      
+      <div class="d-flex flex-center gap-4" style="flex-wrap: wrap;">
+        <a href="tours.html" class="btn btn-secondary btn-lg">Explore Tour Packages <i class="ph ph-arrow-right"></i></a>
+        <a href="custom-tour.html" class="btn btn-outline-white btn-lg">Get a Free Quote</a>
+      </div>
+    </div>
+  </section>
+  <!-- END: CTA Section -->
+
+  <!-- BEGIN: MainFooter -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand-col">
+          <div class="footer-logo"><img src="logo.webp" alt="Safar Silsila Logo"></div>
+          <p class="footer-desc">Safar Silsila is a trusted Pakistan travel company offering tour packages to Hunza, Skardu, Swat, Kumrat, Fairy Meadows, Naran, Kashmir, and more. We specialize in family tours, honeymoon packages, and customized holiday experiences.</p>
+          <div class="social-links">
+            <a class="social-link" href="#"><i class="ph ph-facebook-logo"></i></a>
+            <a class="social-link" href="#"><i class="ph ph-instagram-logo"></i></a>
+            <a class="social-link" href="#"><i class="ph ph-x-logo"></i></a>
+          </div>
+        </div>
+        
+        <div class="footer-links-col">
+          <h4 class="footer-heading">Quick Links</h4>
+          <ul class="footer-links-list">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="tours.html">All Tours</a></li>
+            <li><a href="custom-tour.html">Custom Tour</a></li>
+            <li><a href="transport.html">Transport Services</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+          </ul>
+        </div>
+        
+        <div class="footer-tours-col">
+          <h4 class="footer-heading">Popular Tours</h4>
+          <ul class="footer-links-list">
+            <li><a href="tours.html">Hunza, Skardu &amp; Deosai</a></li>
+            <li><a href="tours.html">Skardu &amp; Deosai Plains</a></li>
+            <li><a href="tours.html">Astore Valley &amp; Minimarg</a></li>
+            <li><a href="tours.html">Fairy Meadows Adventure</a></li>
+            <li><a href="tours.html">Kumrat Valley &amp; Jahaz Banda</a></li>
+          </ul>
+        </div>
+        
+        <div class="footer-contact-col">
+          <h4 class="footer-heading">Get In Touch</h4>
+          <div class="footer-contact-item">
+            <i class="ph ph-map-pin"></i>
+            <p>Office # 9, First Floor, Aslam Business Square, FECHS E-11/2, Islamabad, 44034, Pakistan</p>
+          </div>
+          <div class="footer-contact-item">
+            <i class="ph ph-phone"></i>
+            <p>+92 311 1145456</p>
+          </div>
+          <div class="footer-contact-item">
+            <i class="ph ph-envelope"></i>
+            <p>info@safarsilsila.com</p>
+          </div>
+          
+          <div class="mt-8">
+            <span class="newsletter-title">Newsletter</span>
+            <form class="newsletter-form">
+              <input class="newsletter-input" placeholder="Your email" type="email" required>
+              <button class="newsletter-btn" type="submit"><i class="ph ph-arrow-right"></i></button>
+            </form>
+          </div>
+        </div>
+      </div>
+      
+      <div class="footer-bottom">
+        <p>© 2026 Safar Silsila Tours and Travel Company. All Rights Reserved.</p>
+        <div class="footer-bottom-links">
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms of Service</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- END: MainFooter -->
+
+  <!-- Floating WhatsApp Button -->
+  <a href="#" class="whatsapp-floating-btn whatsapp-action"><i class="ph ph-whatsapp-logo"></i></a>
+
+  <!-- WebGL Shader Background -->
+  <script src="shader-bg.js"></script>
+
+  <!-- Global scripts -->
+  <script src="main.js"></script>
+</body>
+</html>

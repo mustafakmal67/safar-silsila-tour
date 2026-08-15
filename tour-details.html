@@ -1,0 +1,1022 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Tour Details | Safar Silsila</title>
+  
+  <!-- Phosphor Icons -->
+  <link rel="stylesheet" type="text/css" href="phosphor.css">
+  
+  <!-- Nomadic Horizon Stylesheet -->
+  <link rel="stylesheet" href="styles.css">
+
+  <style>
+    /* Premium Tour Details Page Styles */
+    .details-layout {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 32px;
+      margin-top: 40px;
+    }
+    
+    @media (min-width: 992px) {
+      .details-layout {
+        grid-template-columns: 2.2fr 1fr;
+      }
+    }
+
+    .details-main {
+      display: flex;
+      flex-direction: column;
+      gap: 40px;
+    }
+
+    /* Section Cards with Enhanced Contrast */
+    .details-section {
+      background: rgba(10, 20, 30, 0.94); /* Solid dark slate backdrop to isolate text from moving bg */
+      border: 1px solid rgba(255, 255, 255, 0.12);
+      border-radius: var(--radius-xl);
+      padding: 32px;
+      position: relative;
+      backdrop-filter: blur(12px);
+      -webkit-backdrop-filter: blur(12px);
+    }
+
+    .section-title {
+      font-size: 20px;
+      font-weight: 700;
+      color: var(--sunset-accent);
+      margin-bottom: 24px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      letter-spacing: 0.02em;
+      text-shadow: 0 1px 2px rgba(0,0,0,0.5);
+    }
+
+    /* Meta Badges */
+    .tour-meta-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 16px;
+      margin-bottom: 30px;
+    }
+    
+    @media (min-width: 576px) {
+      .tour-meta-grid {
+        grid-template-columns: repeat(4, 1fr);
+      }
+    }
+
+    .meta-badge-card {
+      background: rgba(10, 20, 30, 0.9);
+      border: 1px solid rgba(255, 255, 255, 0.12);
+      border-radius: var(--radius-lg);
+      padding: 16px;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 8px;
+      backdrop-filter: blur(10px);
+    }
+
+    .meta-badge-card i {
+      font-size: 24px;
+      color: var(--sunset-accent);
+    }
+
+    .meta-badge-card span {
+      font-size: 11px;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      color: rgba(255, 255, 255, 0.7); /* Brighter contrast label */
+    }
+
+    .meta-badge-card h4 {
+      font-size: 14px;
+      font-weight: 700;
+      color: var(--snow-peak);
+      margin: 0;
+      text-shadow: 0 1px 2px rgba(0,0,0,0.5);
+    }
+
+    /* Highlights Grid */
+    .highlights-grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 16px;
+    }
+
+    @media (min-width: 768px) {
+      .highlights-grid {
+        grid-template-columns: 1fr 1fr;
+      }
+    }
+
+    .highlight-item {
+      display: flex;
+      align-items: flex-start;
+      gap: 12px;
+      font-size: 14px;
+      line-height: 1.5;
+      color: rgba(255, 255, 255, 0.95); /* Extremely high contrast */
+    }
+
+    .highlight-item i {
+      color: var(--sunset-accent);
+      font-size: 18px;
+      margin-top: 2px;
+    }
+
+    /* Accordion Styles */
+    .accordion-item {
+      background: rgba(255, 255, 255, 0.02);
+      border: 1px solid rgba(255, 255, 255, 0.12);
+      border-radius: var(--radius-md);
+      margin-bottom: 12px;
+      overflow: hidden;
+      transition: all 0.3s ease;
+    }
+
+    .accordion-header {
+      width: 100%;
+      background: none;
+      border: none;
+      padding: 20px 24px;
+      text-align: left;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      color: #ffffff; /* Pure white title */
+      font-weight: 700;
+      font-size: 15px;
+      cursor: pointer;
+      gap: 16px;
+    }
+
+    .accordion-header:hover {
+      background: rgba(255, 255, 255, 0.05);
+    }
+
+    .accordion-title-wrap {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+    }
+
+    .accordion-day-tag {
+      background: var(--sunset-accent);
+      color: #0c1821;
+      padding: 4px 10px;
+      border-radius: var(--radius-full);
+      font-size: 11px;
+      font-weight: 800;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+    }
+
+    .accordion-icon {
+      font-size: 18px;
+      color: var(--sunset-accent);
+      transition: transform 0.3s ease;
+    }
+
+    .accordion-body {
+      max-height: 0;
+      overflow: hidden;
+      transition: max-height 0.3s cubic-bezier(0, 1, 0, 1);
+      background: rgba(0, 0, 0, 0.4);
+    }
+
+    .accordion-content {
+      padding: 20px 24px;
+      font-size: 14px;
+      line-height: 1.6;
+      color: rgba(255, 255, 255, 0.95); /* Highly readable text */
+      border-top: 1px solid rgba(255, 255, 255, 0.08);
+    }
+
+    .accordion-item.open {
+      border-color: rgba(230, 95, 45, 0.6);
+      background: rgba(255, 255, 255, 0.03);
+    }
+
+    .accordion-item.open .accordion-icon {
+      transform: rotate(180deg);
+    }
+
+    .accordion-item.open .accordion-body {
+      max-height: 1000px;
+      transition: max-height 0.3s cubic-bezier(1, 0, 1, 0);
+    }
+
+    /* Included / Excluded Columns */
+    .inc-exc-grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 24px;
+    }
+
+    @media (min-width: 768px) {
+      .inc-exc-grid {
+        grid-template-columns: 1fr 1fr;
+      }
+    }
+
+    .inc-exc-list {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+
+    .inc-exc-list li {
+      display: flex;
+      align-items: flex-start;
+      gap: 12px;
+      font-size: 13.5px;
+      line-height: 1.5;
+      color: rgba(255, 255, 255, 0.95);
+    }
+
+    .inc-exc-list li i {
+      font-size: 16px;
+      margin-top: 2px;
+    }
+
+    .inc-list li i {
+      color: #2ec4b6;
+    }
+
+    .exc-list li i {
+      color: #e63946;
+    }
+
+    /* Choose Package Grid */
+    .packages-flex {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 20px;
+    }
+
+    @media (min-width: 768px) {
+      .packages-flex {
+        grid-template-columns: 1fr 1fr;
+      }
+    }
+
+    .package-option-card {
+      background: rgba(10, 20, 30, 0.9);
+      border: 1px solid rgba(255, 255, 255, 0.12);
+      border-radius: var(--radius-lg);
+      padding: 24px;
+      display: flex;
+      flex-direction: column;
+      transition: all 0.3s ease;
+      position: relative;
+    }
+
+    .package-option-card:hover {
+      border-color: var(--sunset-accent);
+      background: rgba(255, 255, 255, 0.05);
+    }
+
+    .package-badge-popular {
+      position: absolute;
+      top: -12px;
+      right: 24px;
+      background: var(--sunset-accent);
+      color: #0c1821;
+      padding: 4px 12px;
+      border-radius: var(--radius-full);
+      font-size: 10px;
+      font-weight: 800;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+    }
+
+    .package-name {
+      font-size: 16px;
+      font-weight: 700;
+      color: #ffffff;
+      margin-bottom: 8px;
+    }
+
+    .package-price-tag {
+      font-size: 24px;
+      font-weight: 800;
+      color: var(--sunset-accent);
+      margin-bottom: 16px;
+    }
+
+    .package-price-tag small {
+      font-size: 13px;
+      font-weight: 400;
+      color: rgba(255, 255, 255, 0.7);
+    }
+
+    .package-features {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+      margin-top: auto;
+    }
+
+    .package-features li {
+      font-size: 12px;
+      color: rgba(255, 255, 255, 0.9);
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .package-features li i {
+      color: var(--sunset-accent);
+    }
+
+    /* Sticky Sidebar Booking Widget */
+    .booking-sidebar-card {
+      background: rgba(10, 20, 30, 0.96); /* Solid high contrast sidebar bg */
+      border: 1px solid rgba(255, 255, 255, 0.15);
+      border-radius: var(--radius-xl);
+      padding: 32px;
+      position: sticky;
+      top: 100px;
+      box-shadow: var(--shadow-xl);
+      backdrop-filter: blur(12px);
+      -webkit-backdrop-filter: blur(12px);
+    }
+
+    .sidebar-price-label {
+      font-size: 11px;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      color: rgba(255, 255, 255, 0.75); /* Brighter price label */
+      margin-bottom: 4px;
+    }
+
+    .sidebar-price-value {
+      font-size: 28px;
+      font-weight: 800;
+      color: var(--sunset-accent-bright);
+      margin-bottom: 24px;
+    }
+
+    .sidebar-price-value small {
+      font-size: 14px;
+      font-weight: 400;
+      color: rgba(255, 255, 255, 0.7);
+    }
+
+    .sidebar-form-title {
+      font-size: 15px;
+      font-weight: 700;
+      color: #ffffff;
+      margin-bottom: 16px;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.12);
+      padding-bottom: 10px;
+    }
+
+    .sidebar-field-group {
+      margin-bottom: 16px;
+    }
+
+    .sidebar-label {
+      display: block;
+      font-size: 11px;
+      font-weight: 700;
+      color: rgba(255, 255, 255, 0.85); /* Brighter labels */
+      margin-bottom: 6px;
+      text-transform: uppercase;
+      letter-spacing: 0.02em;
+    }
+
+    .sidebar-input {
+      width: 100%;
+      background: rgba(255, 255, 255, 0.04);
+      border: 1px solid rgba(255, 255, 255, 0.25); /* High contrast input border */
+      border-radius: var(--radius-md);
+      padding: 12px 16px;
+      color: #ffffff;
+      font-size: 13px;
+      font-family: inherit;
+      transition: all 0.3s ease;
+    }
+
+    .sidebar-input:focus {
+      outline: none;
+      border-color: var(--sunset-accent);
+      background: rgba(255, 255, 255, 0.04);
+    }
+
+    .sidebar-btn {
+      width: 100%;
+      background: var(--sunset-accent);
+      color: #0c1821;
+      border: none;
+      border-radius: var(--radius-md);
+      padding: 14px;
+      font-weight: 800;
+      font-size: 13px;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      cursor: pointer;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 8px;
+      transition: all 0.3s ease;
+      margin-top: 24px;
+    }
+
+    .sidebar-btn:hover {
+      background: var(--snow-peak);
+      transform: translateY(-2px);
+    }
+
+    .sidebar-whatsapp-action {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 8px;
+      background: #25d366 !important;
+      color: white !important;
+      margin-top: 12px;
+      text-decoration: none;
+      border-radius: var(--radius-md);
+      padding: 14px;
+      font-weight: 800;
+      font-size: 13px;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      transition: all 0.3s ease;
+    }
+
+    .sidebar-whatsapp-action:hover {
+      background: #20ba5a !important;
+      transform: translateY(-2px);
+    }
+
+    /* Map Placeholder */
+    .map-placeholder {
+      border-radius: var(--radius-lg);
+      overflow: hidden;
+      border: 1px solid rgba(255, 255, 255, 0.08);
+      position: relative;
+      height: 250px;
+    }
+
+    .map-placeholder img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .map-overlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: rgba(12, 24, 33, 0.7);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      gap: 12px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- BEGIN: Preloader -->
+  <div id="preloader">
+    <div class="preloader-content">
+      <div class="preloader-spinner-wrap">
+        <div class="preloader-spinner"></div>
+        <div class="preloader-center-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M3 20h18" stroke="var(--sunset-accent)" stroke-width="2"/>
+            <path d="M12 4L4 16h16L12 4z" stroke="var(--sunset-accent-bright)" stroke-width="2" fill="rgba(185, 209, 145, 0.05)"/>
+            <path d="M12 4l-4 8h8l-4-8z" stroke="var(--sunset-accent)" stroke-width="1.5"/>
+            <path d="M8 16c2-3 4-3 6 0" stroke="var(--sunset-accent)" stroke-width="1.5"/>
+          </svg>
+        </div>
+      </div>
+      <div class="preloader-brand-name">Safar Silsila</div>
+      <div class="preloader-accent-line"></div>
+    </div>
+  </div>
+  <!-- END: Preloader -->
+
+  <!-- BEGIN: Header / TopNavBar -->
+  <header class="header">
+    <div class="header-container">
+      <a href="index.html" class="logo"><img src="logo.webp" alt="Safar Silsila Logo"></a>
+      
+      <nav class="nav-menu" id="nav-menu">
+        <a class="nav-link" href="index.html">Home</a>
+        <a class="nav-link active" href="tours.html">Tours</a>
+        <a class="nav-link" href="custom-tour.html">Custom Tour</a>
+        <a class="nav-link" href="transport.html">Transport</a>
+        <a class="nav-link" href="about.html">About</a>
+        <a class="nav-link" href="contact.html">Contact</a>
+      </nav>
+      
+      <div class="header-actions">
+        <a href="custom-tour.html" class="btn btn-secondary btn-sm btn-book">Book Now</a>
+        <button class="nav-toggle" id="nav-toggle"><i class="ph ph-list"></i></button>
+      </div>
+    </div>
+  </header>
+  <!-- END: Header / TopNavBar -->
+
+  <!-- BEGIN: Hero Section -->
+  <section class="hero" style="min-height: 550px;">
+    <img id="hero-img" alt="Tour Hero Image" class="hero-bg brightness-40" src="deosai_plains.webp">
+    <div class="hero-overlay"></div>
+    
+    <div class="container hero-content text-left" style="max-width: 1100px;">
+      <p id="tour-top-location" class="label-lg text-sunset-accent font-medium mb-4" style="letter-spacing: 0.15em; text-transform: uppercase;">Astore Valley</p>
+      <h1 id="tour-main-title" class="display-lg mb-6" style="font-size: 38px; line-height: 1.2; max-width: 800px;">6 Days Astore, Minimarg &amp; Rama Lake Group Tour</h1>
+      <p id="tour-main-desc" class="body-lg opacity-80" style="max-width: 750px;">Explore the unexplored beauty of Astore and Minimarg border valley in a comfortable, planned group departure.</p>
+    </div>
+  </section>
+  <!-- END: Hero Section -->
+
+  <!-- BEGIN: Tour Details Content -->
+  <main class="container section-gap" style="max-width: 1100px; padding-top: 0; margin-top: -60px; position: relative; z-index: 10;">
+    
+    <!-- Meta Cards Grid -->
+    <div class="tour-meta-grid">
+      <div class="meta-badge-card">
+        <i class="ph ph-map-pin"></i>
+        <span>Location</span>
+        <h4 id="meta-location">Astore Valley</h4>
+      </div>
+      <div class="meta-badge-card">
+        <i class="ph ph-clock"></i>
+        <span>Duration</span>
+        <h4 id="meta-duration">6 Days</h4>
+      </div>
+      <div class="meta-badge-card">
+        <i class="ph ph-users"></i>
+        <span>Group Size</span>
+        <h4 id="meta-group">2-20 Persons</h4>
+      </div>
+      <div class="meta-badge-card">
+        <i class="ph ph-gauge"></i>
+        <span>Difficulty</span>
+        <h4 id="meta-difficulty">Medium</h4>
+      </div>
+    </div>
+
+    <!-- Main Two Column Grid -->
+    <div class="details-layout">
+      
+      <!-- Left Content Column -->
+      <div class="details-main">
+        
+        <!-- About Section -->
+        <section class="details-section">
+          <h2 class="section-title"><i class="ph ph-info"></i> About This Tour</h2>
+          <p id="details-about-text" class="body-md opacity-85" style="line-height: 1.7; margin-bottom: 0;">
+            Astore Valley is a magical escape.
+          </p>
+        </section>
+
+        <!-- Highlights Section -->
+        <section class="details-section">
+          <h2 class="section-title"><i class="ph ph-star-of-life"></i> Tour Highlights</h2>
+          <div id="details-highlights-grid" class="highlights-grid">
+            <!-- Dynamic highlights -->
+          </div>
+        </section>
+
+        <!-- Itinerary Section -->
+        <section class="details-section">
+          <h2 class="section-title"><i class="ph ph-compass"></i> Day-by-Day Itinerary</h2>
+          <div id="itinerary-accordion-container">
+            <!-- Dynamic itinerary days -->
+          </div>
+        </section>
+
+        <!-- Inclusions / Exclusions Section -->
+        <section class="details-section">
+          <h2 class="section-title"><i class="ph ph-list-checks"></i> Inclusions &amp; Exclusions</h2>
+          <div class="inc-exc-grid">
+            <div>
+              <h3 style="font-size: 14px; font-weight: 700; color: #2ec4b6; margin-bottom: 16px; text-transform: uppercase; letter-spacing: 0.05em;"><i class="ph ph-check-circle"></i> Included</h3>
+              <ul id="details-inclusions-list" class="inc-exc-list inc-list">
+                <!-- Dynamic Inclusions -->
+              </ul>
+            </div>
+            <div>
+              <h3 style="font-size: 14px; font-weight: 700; color: #e63946; margin-bottom: 16px; text-transform: uppercase; letter-spacing: 0.05em;"><i class="ph ph-x-circle"></i> Excluded</h3>
+              <ul id="details-exclusions-list" class="inc-exc-list exc-list">
+                <!-- Dynamic Exclusions -->
+              </ul>
+            </div>
+          </div>
+        </section>
+
+        <!-- Choose Package Section -->
+        <section class="details-section">
+          <h2 class="section-title"><i class="ph ph-wallet"></i> Choose Your Package</h2>
+          <div id="details-packages-grid" class="packages-flex">
+            <!-- Dynamic Package Options -->
+          </div>
+        </section>
+
+        <!-- Hotel Stays Section -->
+        <section id="details-hotels-section" class="details-section" style="display: none;">
+          <h2 class="section-title"><i class="ph ph-bed"></i> Hotel Stay Details</h2>
+          <div id="details-hotels-container" style="display: flex; flex-direction: column; gap: 24px;">
+            <!-- Dynamic hotels list -->
+          </div>
+        </section>
+
+        <!-- Location Map Section -->
+        <section class="details-section">
+          <h2 class="section-title"><i class="ph ph-map-trifold"></i> Location Map</h2>
+          <div class="map-placeholder">
+            <img src="skardu_valley_by_road.webp" alt="Map background">
+            <div class="map-overlay">
+              <i class="ph ph-lock-key-open" style="font-size: 32px; color: var(--sunset-accent);"></i>
+              <h3 style="font-size: 16px; font-weight: 700; margin: 0; color: var(--snow-peak);">Interactive Route Map</h3>
+              <p class="body-sm opacity-70" style="margin: 0; font-size: 12px; text-align: center;">Route details are verified and provided upon booking confirmation.</p>
+            </div>
+          </div>
+        </section>
+
+        <!-- FAQ Section -->
+        <section class="details-section">
+          <h2 class="section-title"><i class="ph ph-question"></i> Frequently Asked Questions</h2>
+          <div id="faq-accordion-container">
+            <!-- Dynamic FAQs -->
+          </div>
+        </section>
+
+      </div>
+
+      <!-- Right Sidebar Booking Widget -->
+      <aside class="details-sidebar">
+        <div class="booking-sidebar-card">
+          <p class="sidebar-price-label">Package Starting From</p>
+          <div class="sidebar-price-value">Rs <span id="sidebar-price">33,500</span> <small>/ person</small></div>
+          
+          <h3 class="sidebar-form-title">Book / Request A Quote</h3>
+          
+          <form id="booking-quote-form" onsubmit="handleQuoteSubmit(event)">
+            <div class="sidebar-field-group">
+              <label class="sidebar-label" for="booking-name">Full Name *</label>
+              <input class="sidebar-input" id="booking-name" placeholder="E.g. Ali Ahmed" type="text" required>
+            </div>
+            
+            <div class="sidebar-field-group">
+              <label class="sidebar-label" for="booking-whatsapp">WhatsApp Number *</label>
+              <input class="sidebar-input" id="booking-whatsapp" placeholder="E.g. +92 300 1234567" type="tel" required>
+            </div>
+            
+            <div class="sidebar-field-group">
+              <label class="sidebar-label" for="booking-email">Email Address *</label>
+              <input class="sidebar-input" id="booking-email" placeholder="E.g. ali@gmail.com" type="email" required>
+            </div>
+
+            <div class="sidebar-field-group">
+              <label class="sidebar-label" for="booking-package">Select Package *</label>
+              <select class="sidebar-input" id="booking-package" required>
+                <!-- Dynamic dropdown options -->
+              </select>
+            </div>
+
+            <div class="sidebar-field-group" style="display: grid; grid-template-columns: 1.2fr 1fr; gap: 12px;">
+              <div>
+                <label class="sidebar-label" for="booking-date">Departure Date *</label>
+                <input class="sidebar-input" id="booking-date" type="date" required>
+              </div>
+              <div>
+                <label class="sidebar-label" for="booking-travelers">Travelers *</label>
+                <input class="sidebar-input" id="booking-travelers" type="number" min="1" value="1" required>
+              </div>
+            </div>
+
+            <button type="submit" class="sidebar-btn">
+              Submit Request <i class="ph ph-arrow-right"></i>
+            </button>
+
+            <a id="whatsapp-direct-link" href="#" class="sidebar-whatsapp-action" target="_blank">
+              <i class="ph ph-whatsapp-logo" style="font-size: 20px;"></i> Chat on WhatsApp
+            </a>
+          </form>
+        </div>
+      </aside>
+
+    </div>
+  </main>
+  <!-- END: Tour Details Content -->
+
+  <!-- BEGIN: MainFooter -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand-col">
+          <div class="footer-logo"><img src="logo.webp" alt="Safar Silsila Logo"></div>
+          <p class="footer-desc">Safar Silsila is a trusted Pakistan travel company offering tour packages to Hunza, Skardu, Swat, Kumrat, Fairy Meadows, Naran, Kashmir, and more. We specialize in family tours, honeymoon packages, and customized holiday experiences.</p>
+          <div class="social-links">
+            <a class="social-link" href="#"><i class="ph ph-facebook-logo"></i></a>
+            <a class="social-link" href="#"><i class="ph ph-instagram-logo"></i></a>
+            <a class="social-link" href="#"><i class="ph ph-x-logo"></i></a>
+          </div>
+        </div>
+        
+        <div class="footer-links-col">
+          <h4 class="footer-heading">Quick Links</h4>
+          <ul class="footer-links-list">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="tours.html">All Tours</a></li>
+            <li><a href="custom-tour.html">Custom Tour</a></li>
+            <li><a href="transport.html">Transport Services</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+          </ul>
+        </div>
+        
+        <div class="footer-tours-col">
+          <h4 class="footer-heading">Popular Tours</h4>
+          <ul class="footer-links-list">
+            <li><a href="tours.html">Hunza, Skardu &amp; Deosai</a></li>
+            <li><a href="tours.html">Skardu &amp; Deosai Plains</a></li>
+            <li><a href="tours.html">Astore Valley &amp; Minimarg</a></li>
+            <li><a href="tours.html">Fairy Meadows Adventure</a></li>
+            <li><a href="tours.html">Kumrat Valley &amp; Jahaz Banda</a></li>
+          </ul>
+        </div>
+        
+        <div class="footer-contact-col">
+          <h4 class="footer-heading">Get In Touch</h4>
+          <div class="footer-contact-item">
+            <i class="ph ph-map-pin"></i>
+            <p>Office # 9, First Floor, Aslam Business Square, FECHS E-11/2, Islamabad, 44034, Pakistan</p>
+          </div>
+          <div class="footer-contact-item">
+            <i class="ph ph-phone"></i>
+            <p>+92 311 1145456</p>
+          </div>
+          <div class="footer-contact-item">
+            <i class="ph ph-envelope"></i>
+            <p>info@safarsilsila.com</p>
+          </div>
+        </div>
+      </div>
+      
+      <div class="footer-bottom">
+        <p>© 2026 Safar Silsila Tours and Travel Company. All Rights Reserved.</p>
+        <div class="footer-bottom-links">
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms of Service</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- END: MainFooter -->
+
+  <!-- Load Tour Database first -->
+  <script src="tour-data.js"></script>
+
+  <!-- WebGL Shader Background -->
+  <script src="shader-bg.js"></script>
+
+  <!-- Global scripts -->
+  <script src="main.js"></script>
+
+  <script>
+    // Extract query parameter ?tour=tour-id
+    const urlParams = new URLSearchParams(window.location.search);
+    const tourId = urlParams.get('tour');
+
+    // Retrieve selected tour data
+    const tour = window.TOUR_DATA ? window.TOUR_DATA[tourId] : null;
+
+
+
+    // Fallback/Redirect if tour is not found
+    if (!tour) {
+      window.location.href = 'tours.html';
+    } else {
+      // Dynamic rendering of details
+      document.title = `${tour.title} | Safar Silsila`;
+      
+      // Hero Details
+      document.getElementById('hero-img').src = tour.image;
+      document.getElementById('hero-img').alt = tour.title;
+      document.getElementById('tour-top-location').innerText = tour.location;
+      document.getElementById('tour-main-title').innerText = tour.title;
+      document.getElementById('tour-main-desc').innerText = tour.about.substring(0, 150) + '...';
+
+      // Meta Info Badges
+      document.getElementById('meta-location').innerText = tour.location.split(',')[0];
+      document.getElementById('meta-duration').innerText = tour.duration;
+      document.getElementById('meta-group').innerText = tour.maxGroup;
+      document.getElementById('meta-difficulty').innerText = tour.difficulty;
+
+      // About Text
+      document.getElementById('details-about-text').innerText = tour.about;
+
+      // Highlights
+      const highlightsGrid = document.getElementById('details-highlights-grid');
+      highlightsGrid.innerHTML = tour.highlights.map(h => `
+        <div class="highlight-item">
+          <i class="ph ph-check-circle-bold"></i>
+          <span>${h}</span>
+        </div>
+      `).join('');
+
+      // Itinerary Accordion
+      const itineraryContainer = document.getElementById('itinerary-accordion-container');
+      itineraryContainer.innerHTML = tour.itinerary.map((day, idx) => `
+        <div class="accordion-item ${idx === 0 ? 'open' : ''}">
+          <button class="accordion-header" onclick="toggleAccordion(this)">
+            <div class="accordion-title-wrap">
+              <span class="accordion-day-tag">${day.day || `Day ${idx + 1}`}</span>
+              <span>${day.title}</span>
+            </div>
+            <i class="ph ph-caret-down accordion-icon"></i>
+          </button>
+          <div class="accordion-body" style="${idx === 0 ? 'max-height: 1000px;' : ''}">
+            <div class="accordion-content">
+              ${day.desc}
+            </div>
+          </div>
+        </div>
+      `).join('');
+
+      // Inclusions / Exclusions
+      const incList = document.getElementById('details-inclusions-list');
+      incList.innerHTML = tour.inclusions.map(inc => `
+        <li><i class="ph ph-check-bold"></i> ${inc}</li>
+      `).join('');
+
+      const excList = document.getElementById('details-exclusions-list');
+      excList.innerHTML = tour.exclusions.map(exc => `
+        <li><i class="ph ph-x-bold"></i> ${exc}</li>
+      `).join('');
+
+      // Packages
+      const packagesGrid = document.getElementById('details-packages-grid');
+      
+      // Determine if jeep note is needed
+      const jeepNoteHtml = tour.jeepCharges ? `
+        <div style="grid-column: 1 / -1; margin-top: 16px; background: rgba(230, 95, 45, 0.1); border: 1px solid rgba(230, 95, 45, 0.2); border-radius: var(--radius-md); padding: 16px; text-align: center; color: var(--sunset-accent); font-weight: 700; font-size: 13px;">
+          <i class="ph ph-warning-circle" style="vertical-align: middle; font-size: 18px; margin-right: 6px;"></i> Note: Jeep charges aren't included: ${tour.jeepCharges} (payable on spot for local off-road transit).
+        </div>
+      ` : '';
+
+      packagesGrid.innerHTML = tour.packages.map((pkg, idx) => {
+        if (pkg.status === "unavailable" || pkg.price === "N/A") {
+          return `
+            <div class="package-option-card" style="opacity: 0.45; cursor: not-allowed;">
+              <div class="package-name" style="color: rgba(255, 255, 255, 0.4);">${pkg.name}</div>
+              <div style="margin: auto; padding: 24px 0; font-size: 14px; font-weight: 700; color: rgba(255, 255, 255, 0.3); text-transform: uppercase; letter-spacing: 0.05em; text-align: center;">Not Available</div>
+            </div>
+          `;
+        }
+        
+        return `
+          <div class="package-option-card">
+            ${idx === 0 ? '<span class="package-badge-popular">Best Value</span>' : ''}
+            <div class="package-name">${pkg.name}</div>
+            <div class="package-price-tag">Rs ${pkg.price} <small>/ head</small></div>
+            <ul class="package-features">
+              ${pkg.features.map(f => `<li><i class="ph ph-check-bold"></i> ${f}</li>`).join('')}
+            </ul>
+          </div>
+        `;
+      }).join('') + jeepNoteHtml;
+
+      // Hotel Stays
+      const hotelsSection = document.getElementById('details-hotels-section');
+      if (tour.hotelDetails && hotelsSection) {
+        hotelsSection.style.display = 'block';
+        const hotelsContainer = document.getElementById('details-hotels-container');
+        
+        let hotelsHtml = '';
+        for (const tier in tour.hotelDetails) {
+          const tierName = tier.charAt(0).toUpperCase() + tier.slice(1) + ' Package Hotels';
+          hotelsHtml += `
+            <div>
+              <h3 style="font-size: 14px; font-weight: 700; color: var(--sunset-accent); margin-bottom: 12px; text-transform: uppercase; letter-spacing: 0.05em;">${tierName}</h3>
+              <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 16px;">
+                ${tour.hotelDetails[tier].map(h => `
+                  <div style="background: rgba(255,255,255,0.02); border: 1px solid rgba(255,255,255,0.12); border-radius: var(--radius-md); padding: 16px; text-align: center; backdrop-filter: blur(10px); -webkit-backdrop-filter: blur(10px);">
+                    <div style="font-size: 11px; text-transform: uppercase; color: rgba(255,255,255,0.45); margin-bottom: 4px;">${h.city}</div>
+                    <div style="font-size: 14px; font-weight: 700; color: var(--snow-peak); margin-bottom: 4px;">${h.hotel}</div>
+                    <div style="font-size: 11px; color: var(--sunset-accent); font-weight: 600;">${h.nights}</div>
+                  </div>
+                `).join('')}
+              </div>
+            </div>
+          `;
+        }
+        hotelsContainer.innerHTML = hotelsHtml;
+      }
+
+      // Sidebar Price & Dropdown
+      document.getElementById('sidebar-price').innerText = tour.price;
+      
+      const packageDropdown = document.getElementById('booking-package');
+      const availablePackages = tour.packages.filter(pkg => pkg.status !== "unavailable" && pkg.price !== "N/A");
+      packageDropdown.innerHTML = availablePackages.map(pkg => `
+        <option value="${pkg.name} (Rs ${pkg.price})">${pkg.name} (Rs ${pkg.price})</option>
+      `).join('');
+
+      // Set direct whatsapp query link base
+      updateWhatsAppLink();
+    }
+
+    // Toggle Accordion Function
+    function toggleAccordion(button) {
+      const item = button.closest('.accordion-item');
+      const body = item.querySelector('.accordion-body');
+      
+      if (item.classList.contains('open')) {
+        item.classList.remove('open');
+        body.style.maxHeight = '0';
+      } else {
+        // Optional: close other open accordion items
+        const siblings = item.parentNode.querySelectorAll('.accordion-item');
+        siblings.forEach(sib => {
+          sib.classList.remove('open');
+          sib.querySelector('.accordion-body').style.maxHeight = '0';
+        });
+
+        item.classList.add('open');
+        body.style.maxHeight = '1000px';
+      }
+    }
+
+    // Dynamic FAQ accordion toggle (reuse toggleAccordion but for FAQ items)
+    if (tour && tour.faqs) {
+      const faqContainer = document.getElementById('faq-accordion-container');
+      faqContainer.innerHTML = tour.faqs.map((faq, idx) => `
+        <div class="accordion-item">
+          <button class="accordion-header" onclick="toggleAccordion(this)">
+            <span>${faq.q}</span>
+            <i class="ph ph-caret-down accordion-icon"></i>
+          </button>
+          <div class="accordion-body">
+            <div class="accordion-content">
+              ${faq.a}
+            </div>
+          </div>
+        </div>
+      `).join('');
+    }
+
+    // Handle quote submissions and direct WhatsApp messages
+    function updateWhatsAppLink() {
+      const name = encodeURIComponent(document.getElementById('booking-name').value || 'Guest');
+      const pkgVal = encodeURIComponent(document.getElementById('booking-package').value || '');
+      const travelers = encodeURIComponent(document.getElementById('booking-travelers').value || '1');
+      const date = encodeURIComponent(document.getElementById('booking-date').value || 'TBD');
+      
+      const message = `Hi Safar Silsila! I would like to book a trip.%0A%0A*Tour:* ${encodeURIComponent(tour.title)}%0A*Package:* ${pkgVal}%0A*Departure Date:* ${date}%0A*No. of Travelers:* ${travelers}%0A*My Name:* ${name}`;
+      
+      const whatsappUrl = `https://api.whatsapp.com/send?phone=923111145456&text=${message}`;
+      document.getElementById('whatsapp-direct-link').href = whatsappUrl;
+    }
+
+    // Add listeners to update the WhatsApp link dynamically as they type!
+    document.getElementById('booking-name').addEventListener('input', updateWhatsAppLink);
+    document.getElementById('booking-package').addEventListener('change', updateWhatsAppLink);
+    document.getElementById('booking-travelers').addEventListener('input', updateWhatsAppLink);
+    document.getElementById('booking-date').addEventListener('change', updateWhatsAppLink);
+
+    function handleQuoteSubmit(e) {
+      e.preventDefault();
+      // Form values
+      const name = document.getElementById('booking-name').value;
+      const whatsapp = document.getElementById('booking-whatsapp').value;
+      const email = document.getElementById('booking-email').value;
+      const pkg = document.getElementById('booking-package').value;
+      const date = document.getElementById('booking-date').value;
+      const travelers = document.getElementById('booking-travelers').value;
+
+      // Construct message
+      const message = `Hi Safar Silsila! I just submitted a booking inquiry:%0A%0A*Tour:* ${encodeURIComponent(tour.title)}%0A*Package:* ${encodeURIComponent(pkg)}%0A*Departure Date:* ${date}%0A*No. of Travelers:* ${travelers}%0A*Name:* ${encodeURIComponent(name)}%0A*WhatsApp:* ${encodeURIComponent(whatsapp)}%0A*Email:* ${encodeURIComponent(email)}`;
+      
+      const whatsappUrl = `https://api.whatsapp.com/send?phone=923111145456&text=${message}`;
+      
+      // Redirect to WhatsApp
+      window.open(whatsappUrl, '_blank');
+    }
+  </script>
+</body>
+</html>

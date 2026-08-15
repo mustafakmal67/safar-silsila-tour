@@ -1,0 +1,751 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Safar Silsila - Discover Pakistan's Most Beautiful Destinations</title>
+  
+  <!-- Phosphor Icons -->
+  <link rel="stylesheet" type="text/css" href="phosphor.css">
+  
+  <!-- Nomadic Horizon Stylesheet -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- BEGIN: Preloader -->
+  <div id="preloader">
+    <div class="preloader-content">
+      <div class="preloader-spinner-wrap">
+        <div class="preloader-spinner"></div>
+        <div class="preloader-center-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M3 20h18" stroke="var(--sunset-accent)" stroke-width="2"/>
+            <path d="M12 4L4 16h16L12 4z" stroke="var(--sunset-accent-bright)" stroke-width="2" fill="rgba(185, 209, 145, 0.05)"/>
+            <path d="M12 4l-4 8h8l-4-8z" stroke="var(--sunset-accent)" stroke-width="1.5"/>
+            <path d="M8 16c2-3 4-3 6 0" stroke="var(--sunset-accent)" stroke-width="1.5"/>
+          </svg>
+        </div>
+      </div>
+      <div class="preloader-brand-name">Safar Silsila</div>
+      <div class="preloader-accent-line"></div>
+    </div>
+  </div>
+  <!-- END: Preloader -->
+
+  <!-- BEGIN: Header / TopNavBar -->
+  <header class="header">
+    <div class="header-container">
+      <a href="index.html" class="logo"><img src="logo.webp" alt="Safar Silsila Logo"></a>
+      
+      <nav class="nav-menu" id="nav-menu">
+        <a class="nav-link active" href="index.html">Home</a>
+        <a class="nav-link" href="tours.html">Tours</a>
+        <a class="nav-link" href="custom-tour.html">Custom Tour</a>
+        <a class="nav-link" href="transport.html">Transport</a>
+        <a class="nav-link" href="about.html">About</a>
+        <a class="nav-link" href="contact.html">Contact</a>
+      </nav>
+      
+      <div class="header-actions">
+        <button class="search-trigger" onclick="location.href='tours.html'"><i class="ph ph-magnifying-glass"></i></button>
+        <a href="custom-tour.html" class="btn btn-secondary btn-sm btn-book">Book Now</a>
+        <button class="nav-toggle" id="nav-toggle"><i class="ph ph-list"></i></button>
+      </div>
+    </div>
+  </header>
+  <!-- END: Header / TopNavBar -->
+
+  <!-- BEGIN: HeroSection -->
+  <section class="hero" style="min-height: 100vh;">
+    <!-- Hero content floats above the global background image -->
+    
+    <div class="container hero-content text-center">
+
+      <h1 class="display-lg mb-6 text-snow-peak">
+        Discover Pakistan's Most<br>
+        <span class="text-sunset-accent">Beautiful Destinations</span>
+      </h1>
+      <p class="body-lg opacity-80 mb-10" style="max-width: 700px; margin-left: auto; margin-right: auto;">
+        Explore the best Pakistan tour packages with Safar Silsila — from Hunza, Skardu and Swat to Kumrat, Kashmir, Fairy Meadows and Naran. Family tours, honeymoon trips, group adventures and fully customized journeys across Northern Pakistan.
+      </p>
+      
+      <div class="d-flex gap-4 flex-center" style="flex-wrap: wrap;">
+        <a href="tours.html" class="btn btn-secondary btn-lg">
+          Explore Tours <i class="ph ph-arrow-right"></i>
+        </a>
+        <a href="custom-tour.html" class="btn btn-outline-white btn-lg">
+          Plan Your Trip
+        </a>
+      </div>
+      
+      <div class="mt-16 d-flex gap-8 flex-center text-snow-peak opacity-70" style="flex-wrap: wrap; font-size: 14px;">
+        <span class="d-flex gap-2"><i class="ph ph-star text-sunset-accent"></i> 4.9/5 Rating</span>
+        <span class="d-flex gap-2"><i class="ph ph-shield-check text-sunset-accent"></i> Certified Guides</span>
+        <span class="d-flex gap-2"><i class="ph ph-map-pin text-sunset-accent"></i> 20+ Destinations</span>
+      </div>
+    </div>
+  </section>
+  <!-- END: HeroSection -->
+
+  <!-- BEGIN: WhoWeAre -->
+  <section class="section-gap section-who-we-are section-veil">
+    <div class="container text-center">
+      <div class="who-we-are-eyebrow-container reveal-item">
+        <span class="eyebrow-line"></span>
+        <span class="label-lg">WHO WE ARE</span>
+        <span class="eyebrow-line"></span>
+      </div>
+      
+      <h2 class="who-we-are-title display-lg-mobile text-snow-peak reveal-item">
+        Travel With a Trusted <span class="text-sunset-accent">Pakistan Travel Company</span>
+      </h2>
+      
+      <p class="body-lg who-we-are-text opacity-80 reveal-item">
+        Want to travel to northern areas or any city of Pakistan? Safar Silsila is a Pakistan travel agency built to plan a mountain trip like a logistics expert. We help you reach Hunza, Skardu, Fairy Meadows, Swat, Naran Kaghan, Chitral, and Azad Kashmir. If you are traveling from any city or landing in Pakistan, we organize your entire trip from the airport to the mountains.
+      </p>
+      
+      <div class="who-we-are-divider reveal-item"></div>
+    </div>
+  </section>
+  <!-- END: WhoWeAre -->
+
+  <!-- BEGIN: FeaturedTours -->
+  <section class="section-gap section-cinematic section-veil section-ambient-warm">
+    <div class="container">
+      <div class="d-flex mb-12" style="justify-content: space-between; align-items: flex-end; flex-wrap: wrap; gap: 16px;">
+        <div>
+          <span class="text-sunset-accent label-lg">Handpicked Experiences</span>
+          <h2 class="headline-lg mt-2">Our Featured <span class="text-sunset-accent">Tours</span></h2>
+        </div>
+        <a class="text-sunset-accent label-lg" href="tours.html" style="font-weight: 600; letter-spacing: 0.15em;">
+          View All Tours <i class="ph ph-arrow-right"></i>
+        </a>
+      </div>
+      
+      <div class="grid-cols-4 hover-reveal-group">
+        <!-- Tour Card 1 -->
+        <article class="tour-card tour-card-dark">
+          <div class="tour-image-container">
+            <img alt="Hunza, Skardu, Deosai" class="tour-image" src="deosai_plains.webp">
+            <div class="tour-badge-top">
+              <span class="badge badge-navy">MODERATE</span>
+            </div>
+          </div>
+          <div class="tour-content">
+            <div class="tour-meta">
+              <span><i class="ph ph-map-pin"></i> Hunza, Skardu &amp; Deosai</span>
+              <span><i class="ph ph-clock"></i> 8 Days</span>
+            </div>
+            <h3 class="tour-title">8 Days Hunza, Skardu &amp; Deosai Adventure</h3>
+            <ul class="tour-highlights">
+              <li>Explore majestic Hunza Valley &amp; Altit Fort</li>
+              <li>Discover Baltistan deserts &amp; Skardu Valley</li>
+              <li>Excursion to Deosai Plains &amp; Rainbow Lake</li>
+            </ul>
+            <div style="margin-top: 16px; margin-bottom: 16px; padding-top: 12px; border-top: 1px solid rgba(255,255,255,0.08); display: flex; justify-content: space-between; align-items: center;">
+              <div>
+                <span style="font-size: 11px; color: rgba(255,255,255,0.45); text-transform: uppercase; letter-spacing: 0.05em; display: block; margin-bottom: 2px;">Starting From</span>
+                <span class="price-current">PKR 39,500 <small style="font-size: 12px; font-weight: 400; color: rgba(255,255,255,0.45);">/ head</small></span>
+              </div>
+              <span style="font-size: 11px; color: rgba(255,255,255,0.45); text-align: right;">LHR/ISB departures</span>
+            </div>
+            <div class="tour-footer" style="justify-content: flex-end;">
+              <a href="tour-details.html?tour=8-days-hunza-skardu-deosai" class="tour-action-btn">Details <i class="ph ph-arrow-right"></i></a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Tour Card 2 -->
+        <article class="tour-card tour-card-dark">
+          <div class="tour-image-container">
+            <img alt="Skardu &amp; Deosai" class="tour-image" src="skardu_deosai.webp">
+            <div class="tour-badge-top">
+              <span class="badge badge-navy">EASY</span>
+            </div>
+          </div>
+          <div class="tour-content">
+            <div class="tour-meta">
+              <span><i class="ph ph-map-pin"></i> Skardu &amp; Deosai</span>
+              <span><i class="ph ph-clock"></i> 6 Days</span>
+            </div>
+            <h3 class="tour-title">6 Days Skardu Valley &amp; Deosai Plains</h3>
+            <ul class="tour-highlights">
+              <li>Lakeside stay at Shangrila Resort &amp; Kachura</li>
+              <li>Explore historic Shigar Valley &amp; Cold Desert</li>
+              <li>Excursion to high-altitude Deosai National Park</li>
+            </ul>
+            <div style="margin-top: 16px; margin-bottom: 16px; padding-top: 12px; border-top: 1px solid rgba(255,255,255,0.08); display: flex; justify-content: space-between; align-items: center;">
+              <div>
+                <span style="font-size: 11px; color: rgba(255,255,255,0.45); text-transform: uppercase; letter-spacing: 0.05em; display: block; margin-bottom: 2px;">Starting From</span>
+                <span class="price-current">PKR 33,500 <small style="font-size: 12px; font-weight: 400; color: rgba(255,255,255,0.45);">/ head</small></span>
+              </div>
+              <span style="font-size: 11px; color: rgba(255,255,255,0.45); text-align: right;">LHR/ISB departures</span>
+            </div>
+            <div class="tour-footer" style="justify-content: flex-end;">
+              <a href="tour-details.html?tour=6-days-skardu-deosai" class="tour-action-btn">Details <i class="ph ph-arrow-right"></i></a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Tour Card 3 -->
+        <article class="tour-card tour-card-dark">
+          <div class="tour-image-container">
+            <img alt="Astore &amp; Minimarg" class="tour-image" src="astore_minimarg.webp">
+            <div class="tour-badge-top">
+              <span class="badge badge-orange">ADVENTURE PICK</span>
+            </div>
+          </div>
+          <div class="tour-content">
+            <div class="tour-meta">
+              <span><i class="ph ph-map-pin"></i> Astore &amp; Minimarg</span>
+              <span><i class="ph ph-clock"></i> 6 Days</span>
+            </div>
+            <h3 class="tour-title">6 Days Astore Valley &amp; Minimarg</h3>
+            <ul class="tour-highlights">
+              <li>Visit scenic Minimarg border village &amp; Rainbow Lake</li>
+              <li>Explore pristine Rama Meadows &amp; Rama Lake</li>
+              <li>Spectacular views of Nanga Parbat east face</li>
+            </ul>
+            <div style="margin-top: 16px; margin-bottom: 16px; padding-top: 12px; border-top: 1px solid rgba(255,255,255,0.08); display: flex; justify-content: space-between; align-items: center;">
+              <div>
+                <span style="font-size: 11px; color: rgba(255,255,255,0.45); text-transform: uppercase; letter-spacing: 0.05em; display: block; margin-bottom: 2px;">Starting From</span>
+                <span class="price-current">PKR 36,000 <small style="font-size: 12px; font-weight: 400; color: rgba(255,255,255,0.45);">/ head</small></span>
+              </div>
+              <span style="font-size: 11px; color: rgba(255,255,255,0.45); text-align: right;">LHR/ISB departures</span>
+            </div>
+            <div class="tour-footer" style="justify-content: flex-end;">
+              <a href="tour-details.html?tour=6-days-astore-minimarg" class="tour-action-btn">Details <i class="ph ph-arrow-right"></i></a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Tour Card 4 -->
+        <article class="tour-card tour-card-dark">
+          <div class="tour-image-container">
+            <img alt="Fairy Meadows" class="tour-image" src="fairy_meadows.webp">
+            <div class="tour-badge-top">
+              <span class="badge badge-orange">ADVENTURE PICK</span>
+            </div>
+          </div>
+          <div class="tour-content">
+            <div class="tour-meta">
+              <span><i class="ph ph-map-pin"></i> Fairy Meadows</span>
+              <span><i class="ph ph-clock"></i> 5 Days</span>
+            </div>
+            <h3 class="tour-title">5 Days Fairy Meadows &amp; Nanga Parbat</h3>
+            <ul class="tour-highlights">
+              <li>Jeep ride on the famous Fairy Meadows track</li>
+              <li>Trek through pine forests to the alpine meadows</li>
+              <li>Day hike to Nanga Parbat Base Camp (Beyal Camp)</li>
+            </ul>
+            <div style="margin-top: 16px; margin-bottom: 16px; padding-top: 12px; border-top: 1px solid rgba(255,255,255,0.08); display: flex; justify-content: space-between; align-items: center;">
+              <div>
+                <span style="font-size: 11px; color: rgba(255,255,255,0.45); text-transform: uppercase; letter-spacing: 0.05em; display: block; margin-bottom: 2px;">Starting From</span>
+                <span class="price-current">PKR 28,500 <small style="font-size: 12px; font-weight: 400; color: rgba(255,255,255,0.45);">/ head</small></span>
+              </div>
+              <span style="font-size: 11px; color: rgba(255,255,255,0.45); text-align: right;">LHR/ISB departures</span>
+            </div>
+            <div class="tour-footer" style="justify-content: flex-end;">
+              <a href="tour-details.html?tour=5-days-fairy-meadows" class="tour-action-btn">Details <i class="ph ph-arrow-right"></i></a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+  <!-- END: FeaturedTours -->
+
+  <!-- BEGIN: RoamistanDifference -->
+  <section class="section-gap section-cinematic section-veil section-ambient-warm">
+    <div class="container">
+      <div class="text-center" style="max-width: 700px; margin: 0 auto 64px auto;">
+        <span class="text-sunset-accent label-lg">Why Choose Us</span>
+        <h2 class="display-lg-mobile mt-2">Why Travelers Choose <span class="text-sunset-accent">Safar Silsila</span></h2>
+        <p class="body-md mt-4" style="color: rgba(244,240,234,0.55); max-width: 640px; margin-left: auto; margin-right: auto;">We go above and beyond to make your journey through Pakistan's breathtaking landscapes seamless, memorable, and safe.</p>
+      </div>
+      <div class="values-bento hover-reveal-group">
+        <!-- Benefit 1 -->
+        <div class="value-card">
+          <div class="value-icon-box">
+            <i class="ph ph-shield-check"></i>
+          </div>
+          <h3 class="value-title">Safety First</h3>
+          <p class="value-desc">From experienced local drivers to vetted accommodations, your safety and comfort are our top priorities.</p>
+        </div>
+        
+        <!-- Benefit 2 -->
+        <div class="value-card">
+          <div class="value-icon-box">
+            <i class="ph ph-compass"></i>
+          </div>
+          <h3 class="value-title">Local Expertise</h3>
+          <p class="value-desc">Our on-ground teams are native to the regions, offering authentic insights and access to hidden gems.</p>
+        </div>
+        
+        <!-- Benefit 3 -->
+        <div class="value-card">
+          <div class="value-icon-box">
+            <i class="ph ph-sliders"></i>
+          </div>
+          <h3 class="value-title">Customized Itineraries</h3>
+          <p class="value-desc">We tailor every trip to your pace, preferences, and comfort, ensuring a unique travel experience.</p>
+        </div>
+
+        <!-- Benefit 4 -->
+        <div class="value-card">
+          <div class="value-icon-box">
+            <i class="ph ph-calendar-check"></i>
+          </div>
+          <h3 class="value-title">Hassle-Free Booking</h3>
+          <p class="value-desc">From visa assistance to domestic flights and hotel bookings, we handle all logistics from start to finish.</p>
+        </div>
+
+        <!-- Benefit 5 -->
+        <div class="value-card">
+          <div class="value-icon-box">
+            <i class="ph ph-headset"></i>
+          </div>
+          <h3 class="value-title">24/7 Support</h3>
+          <p class="value-desc">Enjoy peace of mind with our round-the-clock support team ready to assist you at every step of your tour.</p>
+        </div>
+
+        <!-- Benefit 6 -->
+        <div class="value-card">
+          <div class="value-icon-box">
+            <i class="ph ph-award"></i>
+          </div>
+          <h3 class="value-title">Premium Experience</h3>
+          <p class="value-desc">We carefully select accommodations and transport to deliver the highest quality of service throughout your trip.</p>
+        </div>
+      </div>
+      
+      <div class="mt-12 text-center">
+        <a href="custom-tour.html" class="btn btn-secondary btn-lg">Start Planning Your Journey <i class="ph ph-arrow-right"></i></a>
+      </div>
+    </div>
+  </section>
+  <!-- END: RoamistanDifference -->  <!-- BEGIN: Testimonials -->
+  <section class="section-gap section-cinematic section-veil" style="overflow: hidden;">
+    <div class="container">
+      <div class="text-center" style="margin-bottom: 72px;">
+        <span class="text-sunset-accent label-lg">Traveler Stories</span>
+        <h2 class="headline-lg mt-2">What Our Travelers <span class="text-sunset-accent">Say</span></h2>
+        <div class="d-flex flex-center gap-2 mt-4" style="font-size: 14px; font-weight: 500;">
+          <span class="text-sunset-accent" style="letter-spacing: 2px;">★★★★★</span>
+          <span style="color: rgba(244,240,234,0.65);">5.0 average · 47 Google reviews</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Scrolling Marquee Rows -->
+    <div class="marquee-container">
+      <!-- Row 1: Scrolls Left -->
+      <div class="marquee-row marquee-left" style="--marquee-duration: 40s;">
+        <div class="marquee-track">
+          <!-- Card 1 -->
+          <div class="marquee-card">
+            <div>
+              <div class="marquee-stars">★★★★★</div>
+              <p class="marquee-text">&ldquo;Highly recommended had the best experience recently, very cooperative and very professional. Hotels were great, transport was spot on and food was tasty ✅&rdquo;</p>
+            </div>
+            <div class="marquee-author">
+              <div class="marquee-avatar avatar-bg-1">M</div>
+              <div class="marquee-author-info">
+                <h4>Mariya Qammar</h4>
+                <span>Google Review</span>
+              </div>
+            </div>
+          </div>
+          <!-- Card 2 -->
+          <div class="marquee-card">
+            <div>
+              <div class="marquee-stars">★★★★★</div>
+              <p class="marquee-text">&ldquo;Honestly says Pakistan best travel company i have been travelling with safarsilsila for 4 years a still travelling with them best for families also&rdquo;</p>
+            </div>
+            <div class="marquee-author">
+              <div class="marquee-avatar avatar-bg-2">A</div>
+              <div class="marquee-author-info">
+                <h4>Alamdar Abbas</h4>
+                <span>Google Review</span>
+              </div>
+            </div>
+          </div>
+          <!-- Card 3 -->
+          <div class="marquee-card">
+            <div>
+              <div class="marquee-stars">★★★★★</div>
+              <p class="marquee-text">&ldquo;The most professional team in Pakistan. Our trip to Hunza was seamless from start to finish. Highly recommend Safar Silsila for family tours!&rdquo;</p>
+            </div>
+            <div class="marquee-author">
+              <div class="marquee-avatar avatar-bg-3">S</div>
+              <div class="marquee-author-info">
+                <h4>Sobia Iftikhar</h4>
+                <span>Google Review</span>
+              </div>
+            </div>
+          </div>
+          <!-- Card 4 -->
+          <div class="marquee-card">
+            <div>
+              <div class="marquee-stars">★★★★★</div>
+              <p class="marquee-text">&ldquo;Had a wonderful experience on our honeymoon trip to Hunza. The hotel views were breathtaking and everything was perfectly arranged. Highly recommended!&rdquo;</p>
+            </div>
+            <div class="marquee-author">
+              <div class="marquee-avatar avatar-bg-4">F</div>
+              <div class="marquee-author-info">
+                <h4>Fatima Sajid</h4>
+                <span>Google Review</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Duplicated track for seamless scroll -->
+        <div class="marquee-track" aria-hidden="true">
+          <!-- Card 1 -->
+          <div class="marquee-card">
+            <div>
+              <div class="marquee-stars">★★★★★</div>
+              <p class="marquee-text">&ldquo;Highly recommended had the best experience recently, very cooperative and very professional. Hotels were great, transport was spot on and food was tasty ✅&rdquo;</p>
+            </div>
+            <div class="marquee-author">
+              <div class="marquee-avatar avatar-bg-1">M</div>
+              <div class="marquee-author-info">
+                <h4>Mariya Qammar</h4>
+                <span>Google Review</span>
+              </div>
+            </div>
+          </div>
+          <!-- Card 2 -->
+          <div class="marquee-card">
+            <div>
+              <div class="marquee-stars">★★★★★</div>
+              <p class="marquee-text">&ldquo;Honestly says Pakistan best travel company i have been travelling with safarsilsila for 4 years a still travelling with them best for families also&rdquo;</p>
+            </div>
+            <div class="marquee-author">
+              <div class="marquee-avatar avatar-bg-2">A</div>
+              <div class="marquee-author-info">
+                <h4>Alamdar Abbas</h4>
+                <span>Google Review</span>
+              </div>
+            </div>
+          </div>
+          <!-- Card 3 -->
+          <div class="marquee-card">
+            <div>
+              <div class="marquee-stars">★★★★★</div>
+              <p class="marquee-text">&ldquo;The most professional team in Pakistan. Our trip to Hunza was seamless from start to finish. Highly recommend Safar Silsila for family tours!&rdquo;</p>
+            </div>
+            <div class="marquee-author">
+              <div class="marquee-avatar avatar-bg-3">S</div>
+              <div class="marquee-author-info">
+                <h4>Sobia Iftikhar</h4>
+                <span>Google Review</span>
+              </div>
+            </div>
+          </div>
+          <!-- Card 4 -->
+          <div class="marquee-card">
+            <div>
+              <div class="marquee-stars">★★★★★</div>
+              <p class="marquee-text">&ldquo;Had a wonderful experience on our honeymoon trip to Hunza. The hotel views were breathtaking and everything was perfectly arranged. Highly recommended!&rdquo;</p>
+            </div>
+            <div class="marquee-author">
+              <div class="marquee-avatar avatar-bg-4">F</div>
+              <div class="marquee-author-info">
+                <h4>Fatima Sajid</h4>
+                <span>Google Review</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Row 2: Scrolls Right -->
+      <div class="marquee-row marquee-right" style="--marquee-duration: 45s;">
+        <div class="marquee-track">
+          <!-- Card 5 -->
+          <div class="marquee-card">
+            <div>
+              <div class="marquee-stars">★★★★★</div>
+              <p class="marquee-text">&ldquo;I recently traveled with this tour company and had an amazing experience. Everything was well organized, from transport to hotel arrangements. The guides were very friendly and professional throughout the trip.&rdquo;</p>
+            </div>
+            <div class="marquee-author">
+              <div class="marquee-avatar avatar-bg-5">K</div>
+              <div class="marquee-author-info">
+                <h4>Kashif Ali</h4>
+                <span>Google Review</span>
+              </div>
+            </div>
+          </div>
+          <!-- Card 6 -->
+          <div class="marquee-card">
+            <div>
+              <div class="marquee-stars">★★★★★</div>
+              <p class="marquee-text">&ldquo;Skardu by air was a dream! The arrangements at Shangrila and the local guidance were top notch. Thanks for the memories.&rdquo;</p>
+            </div>
+            <div class="marquee-author">
+              <div class="marquee-avatar avatar-bg-1">R</div>
+              <div class="marquee-author-info">
+                <h4>Raza Baig</h4>
+                <span>Google Review</span>
+              </div>
+            </div>
+          </div>
+          <!-- Card 7 -->
+          <div class="marquee-card">
+            <div>
+              <div class="marquee-stars">★★★★★</div>
+              <p class="marquee-text">&ldquo;Expert drivers and great hotels. We felt safe throughout our 10-day expedition. Will definitely travel again with Safar Silsila.&rdquo;</p>
+            </div>
+            <div class="marquee-author">
+              <div class="marquee-avatar avatar-bg-2">A</div>
+              <div class="marquee-author-info">
+                <h4>Syed Aftab</h4>
+                <span>Google Review</span>
+              </div>
+            </div>
+          </div>
+          <!-- Card 8 -->
+          <div class="marquee-card">
+            <div>
+              <div class="marquee-stars">★★★★★</div>
+              <p class="marquee-text">&ldquo;Outstanding service. The itinerary was perfectly planned and executed. Our guide was very knowledgeable. Five stars all the way!&rdquo;</p>
+            </div>
+            <div class="marquee-author">
+              <div class="marquee-avatar avatar-bg-3">U</div>
+              <div class="marquee-author-info">
+                <h4>Muhammad Usman</h4>
+                <span>Google Review</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Duplicated track for seamless scroll -->
+        <div class="marquee-track" aria-hidden="true">
+          <!-- Card 5 -->
+          <div class="marquee-card">
+            <div>
+              <div class="marquee-stars">★★★★★</div>
+              <p class="marquee-text">&ldquo;I recently traveled with this tour company and had an amazing experience. Everything was well organized, from transport to hotel arrangements. The guides were very friendly and professional throughout the trip.&rdquo;</p>
+            </div>
+            <div class="marquee-author">
+              <div class="marquee-avatar avatar-bg-5">K</div>
+              <div class="marquee-author-info">
+                <h4>Kashif Ali</h4>
+                <span>Google Review</span>
+              </div>
+            </div>
+          </div>
+          <!-- Card 6 -->
+          <div class="marquee-card">
+            <div>
+              <div class="marquee-stars">★★★★★</div>
+              <p class="marquee-text">&ldquo;Skardu by air was a dream! The arrangements at Shangrila and the local guidance were top notch. Thanks for the memories.&rdquo;</p>
+            </div>
+            <div class="marquee-author">
+              <div class="marquee-avatar avatar-bg-1">R</div>
+              <div class="marquee-author-info">
+                <h4>Raza Baig</h4>
+                <span>Google Review</span>
+              </div>
+            </div>
+          </div>
+          <!-- Card 7 -->
+          <div class="marquee-card">
+            <div>
+              <div class="marquee-stars">★★★★★</div>
+              <p class="marquee-text">&ldquo;Expert drivers and great hotels. We felt safe throughout our 10-day expedition. Will definitely travel again with Safar Silsila.&rdquo;</p>
+            </div>
+            <div class="marquee-author">
+              <div class="marquee-avatar avatar-bg-2">A</div>
+              <div class="marquee-author-info">
+                <h4>Syed Aftab</h4>
+                <span>Google Review</span>
+              </div>
+            </div>
+          </div>
+          <!-- Card 8 -->
+          <div class="marquee-card">
+            <div>
+              <div class="marquee-stars">★★★★★</div>
+              <p class="marquee-text">&ldquo;Outstanding service. The itinerary was perfectly planned and executed. Our guide was very knowledgeable. Five stars all the way!&rdquo;</p>
+            </div>
+            <div class="marquee-author">
+              <div class="marquee-avatar avatar-bg-3">U</div>
+              <div class="marquee-author-info">
+                <h4>Muhammad Usman</h4>
+                <span>Google Review</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="mt-12 text-center">
+        <a href="https://www.google.com/maps/place/Safar+Silsila+Tours+and+Travel+Company/@33.6982452,72.9717459,17z/data=!4m8!3m7!1s0x38df933875903a73:0xe7949cb61db3e291!8m2!3d33.6982452!4d72.9717459!9m1!1b1!16s%2Fg%2F11y1zvq97t" target="_blank" class="btn btn-secondary btn-lg" style="display: inline-flex; align-items: center; gap: 12px;">
+          <svg viewBox="0 0 24 24" width="20" height="20" style="fill: currentColor; vertical-align: middle;">
+            <path d="M21.35,11.1H12v2.7h5.38c-0.24,1.28-1.5,3.77-5.38,3.77c-3.35,0-6.08-2.77-6.08-6.18s2.73-6.18,6.08-6.18c1.91,0,3.19,0.8,3.92,1.5l2.13-2.1c-1.37-1.28-3.14-2.07-6.05-2.07C6.09,2.65,2,6.74,2,11.82c0,5.08,4.09,9.17,9.88,9.17c6.05,0,10.08-4.25,10.08-10.26C21.96,10.07,21.35,11.1,21.35,11.1z"/>
+          </svg>
+          Verify Our Reviews on Google
+        </a>
+      </div>
+    </div>
+  <!-- END: Testimonials -->
+
+  <!-- BEGIN: Visit Our Office & Find Us -->
+  <section class="section-gap section-cinematic section-veil">
+    <div class="container">
+      <div class="text-center" style="max-width: 700px; margin: 0 auto 64px auto;">
+        <span class="text-sunset-accent label-lg">VISIT OUR OFFICE</span>
+        <h2 class="display-lg-mobile mt-2">Find Us &amp; Get in Touch</h2>
+        <p class="body-md mt-4" style="color: rgba(244,240,234,0.55); max-width: 640px; margin-left: auto; margin-right: auto;">
+          Have a question or want to discuss your itinerary? Send us a message or visit our office in Islamabad.
+        </p>
+      </div>
+      
+      <div class="grid-container">
+        <!-- Left Column: Send us a Message (Form) -->
+        <div class="col-span-6">
+          <div class="contact-form-card" style="height: 100%; display: flex; flex-direction: column; justify-content: space-between;">
+            <div class="mb-6">
+              <h3 class="headline-md text-snow-peak">Send Us a Message</h3>
+              <p class="body-md text-muted mt-2" style="color: rgba(255,255,255,0.6) !important;">Fill out the form below and our travel specialists will get back to you shortly.</p>
+            </div>
+            
+            <form id="contact-form" style="display: flex; flex-direction: column; gap: 20px;">
+              <div class="form-group" style="margin-bottom: 0;">
+                <label class="form-label" for="home-form-name">Full Name *</label>
+                <input class="form-input-control" id="home-form-name" placeholder="Your full name" required type="text">
+              </div>
+              <div class="form-group" style="margin-bottom: 0;">
+                <label class="form-label" for="home-form-email">Email Address *</label>
+                <input class="form-input-control" id="home-form-email" placeholder="your@email.com" required type="email">
+              </div>
+              <div class="form-group" style="margin-bottom: 0;">
+                <label class="form-label" for="home-form-message">Message *</label>
+                <textarea class="form-input-control" id="home-form-message" rows="5" style="resize: vertical;" placeholder="How can we help you plan your next journey?" required></textarea>
+              </div>
+              <button class="btn btn-secondary btn-lg w-100" type="submit">Send Message</button>
+            </form>
+          </div>
+        </div>
+        
+        <!-- Right Column: Embedded Map -->
+        <div class="col-span-6">
+          <div class="map-wrapper" style="height: 100%; min-height: 450px; border-radius: var(--radius-xl); overflow: hidden; border: 1px solid var(--glass-border-dark); box-shadow: 0 4px 32px rgba(0,0,0,0.3);">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3319.467475171783!2d72.96956!3d33.6982452!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38df933875903a73%3A0xe7949cb61db3e291!2sSafar%20Silsila%20Tours%20and%20Travel%20Company!5e0!3m2!1sen!2s!4v1714246830501!5m2!1sen!2s" loading="lazy" style="width: 100%; height: 100%; border: none; min-height: 450px;"></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- END: Visit Our Office & Find Us -->
+
+  <!-- BEGIN: CTASection -->
+  <section class="section-gap section-cinematic section-veil section-ambient-warm text-center">
+    <div class="container" style="max-width: 800px;">
+      <span class="text-sunset-accent label-lg">Your Adventure Awaits</span>
+      <h2 class="display-lg-mobile mt-4 mb-6">Ready to Explore <span class="text-sunset-accent">Northern Pakistan?</span></h2>
+      <p class="body-lg mb-10" style="color: rgba(244,240,234,0.6); max-width: 600px; margin-left: auto; margin-right: auto;">Let Safar Silsila help you plan the perfect Pakistan tour package. From family vacations and honeymoon getaways to corporate retreats, we handle every detail.</p>
+      
+      <div class="d-flex flex-center gap-4" style="flex-wrap: wrap;">
+        <a href="tours.html" class="btn btn-secondary btn-lg">View Tour Packages <i class="ph ph-arrow-right"></i></a>
+        <a href="contact.html" class="btn btn-outline-white btn-lg">Get Free Consultation</a>
+      </div>
+      
+      <div class="mt-12 d-flex flex-center gap-6 opacity-50 label-md" style="flex-wrap: wrap;">
+        <span>✓ Free Consultation</span>
+        <span>✓ Flexible Booking</span>
+        <span>✓ Custom Itineraries</span>
+        <span>✓ 24/7 Support</span>
+      </div>
+    </div>
+  </section>
+  <!-- END: CTASection -->
+
+  <!-- BEGIN: MainFooter -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand-col">
+          <div class="footer-logo"><img src="logo.webp" alt="Safar Silsila Logo"></div>
+          <p class="footer-desc">Safar Silsila is a trusted Pakistan travel company offering tour packages to Hunza, Skardu, Swat, Kumrat, Fairy Meadows, Naran, Kashmir, and more. We specialize in family tours, honeymoon packages, and customized holiday experiences.</p>
+          <div class="social-links">
+            <a class="social-link" href="#"><i class="ph ph-facebook-logo"></i></a>
+            <a class="social-link" href="#"><i class="ph ph-instagram-logo"></i></a>
+            <a class="social-link" href="#"><i class="ph ph-x-logo"></i></a>
+          </div>
+        </div>
+        
+        <div class="footer-links-col">
+          <h4 class="footer-heading">Quick Links</h4>
+          <ul class="footer-links-list">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="tours.html">All Tours</a></li>
+            <li><a href="custom-tour.html">Custom Tour</a></li>
+            <li><a href="transport.html">Transport Services</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+          </ul>
+        </div>
+        
+        <div class="footer-tours-col">
+          <h4 class="footer-heading">Popular Tours</h4>
+          <ul class="footer-links-list">
+            <li><a href="tours.html">Hunza, Skardu &amp; Deosai</a></li>
+            <li><a href="tours.html">Skardu &amp; Deosai Plains</a></li>
+            <li><a href="tours.html">Astore Valley &amp; Minimarg</a></li>
+            <li><a href="tours.html">Fairy Meadows Adventure</a></li>
+            <li><a href="tours.html">Kumrat Valley &amp; Jahaz Banda</a></li>
+          </ul>
+        </div>
+        
+        <div class="footer-contact-col">
+          <h4 class="footer-heading">Get In Touch</h4>
+          <div class="footer-contact-item">
+            <i class="ph ph-map-pin"></i>
+            <p>Office # 9, First Floor, Aslam Business Square, FECHS E-11/2, Islamabad, 44034, Pakistan</p>
+          </div>
+          <div class="footer-contact-item">
+            <i class="ph ph-phone"></i>
+            <p>+92 311 1145456</p>
+          </div>
+          <div class="footer-contact-item">
+            <i class="ph ph-envelope"></i>
+            <p>info@safarsilsila.com</p>
+          </div>
+          
+          <div class="mt-8">
+            <span class="newsletter-title">Newsletter</span>
+            <form class="newsletter-form">
+              <input class="newsletter-input" placeholder="Your email" type="email" required>
+              <button class="newsletter-btn" type="submit"><i class="ph ph-arrow-right"></i></button>
+            </form>
+          </div>
+        </div>
+      </div>
+      
+      <div class="footer-bottom">
+        <p>© 2026 Safar Silsila Tours and Travel Company. All Rights Reserved.</p>
+        <div class="footer-bottom-links">
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms of Service</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- END: MainFooter -->
+
+  <!-- Floating WhatsApp Button -->
+  <a href="#" class="whatsapp-floating-btn whatsapp-action"><i class="ph ph-whatsapp-logo"></i></a>
+
+  <!-- WebGL Shader Background -->
+  <script src="shader-bg.js"></script>
+
+  <!-- Global scripts -->
+  <script src="main.js"></script>
+</body>
+</html>

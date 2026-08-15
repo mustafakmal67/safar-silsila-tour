@@ -1,0 +1,680 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Pakistan Tour Packages | Safar Silsila</title>
+  
+  <!-- Phosphor Icons -->
+  <link rel="stylesheet" type="text/css" href="phosphor.css">
+  
+  <!-- Nomadic Horizon Stylesheet -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- BEGIN: Preloader -->
+  <div id="preloader">
+    <div class="preloader-content">
+      <div class="preloader-spinner-wrap">
+        <div class="preloader-spinner"></div>
+        <div class="preloader-center-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M3 20h18" stroke="var(--sunset-accent)" stroke-width="2"/>
+            <path d="M12 4L4 16h16L12 4z" stroke="var(--sunset-accent-bright)" stroke-width="2" fill="rgba(185, 209, 145, 0.05)"/>
+            <path d="M12 4l-4 8h8l-4-8z" stroke="var(--sunset-accent)" stroke-width="1.5"/>
+            <path d="M8 16c2-3 4-3 6 0" stroke="var(--sunset-accent)" stroke-width="1.5"/>
+          </svg>
+        </div>
+      </div>
+      <div class="preloader-brand-name">Safar Silsila</div>
+      <div class="preloader-accent-line"></div>
+    </div>
+  </div>
+  <!-- END: Preloader -->
+
+  <!-- BEGIN: Header / TopNavBar -->
+  <header class="header">
+    <div class="header-container">
+      <a href="index.html" class="logo"><img src="logo.webp" alt="Safar Silsila Logo"></a>
+      
+      <nav class="nav-menu" id="nav-menu">
+        <a class="nav-link" href="index.html">Home</a>
+        <a class="nav-link active" href="tours.html">Tours</a>
+        <a class="nav-link" href="custom-tour.html">Custom Tour</a>
+        <a class="nav-link" href="transport.html">Transport</a>
+        <a class="nav-link" href="about.html">About</a>
+        <a class="nav-link" href="contact.html">Contact</a>
+      </nav>
+      
+      <div class="header-actions">
+        <button class="search-trigger" onclick="document.getElementById('tour-search').focus()"><i class="ph ph-magnifying-glass"></i></button>
+        <a href="custom-tour.html" class="btn btn-secondary btn-sm btn-book">Book Now</a>
+        <button class="nav-toggle" id="nav-toggle"><i class="ph ph-list"></i></button>
+      </div>
+    </div>
+  </header>
+  <!-- END: Header / TopNavBar -->
+
+  <!-- BEGIN: Hero Section -->
+  <section class="hero" style="min-height: 450px;">
+    <!-- Background Image -->
+    <img alt="Hero Landscape" class="hero-bg opacity-60" src="tours_hero.webp"/>
+    <div class="hero-overlay"></div>
+    
+    <div class="container hero-content text-center">
+      <p class="label-lg text-sunset-accent font-medium mb-4" style="letter-spacing: 0.3em;">Explore the North</p>
+      <h1 class="display-lg mb-6">Our Tour <span class="text-sunset-accent">Packages</span></h1>
+      <p class="body-lg opacity-80" style="max-width: 650px; margin: 0 auto;">
+        Carefully curated journeys across Pakistan's most spectacular landscapes — group departures and private customizable options.
+      </p>
+    </div>
+  </section>
+  <!-- END: Hero Section -->
+
+  <!-- BEGIN: Filter Section -->
+  <section class="container" style="margin-top: -50px; position: relative; z-index: 10; margin-bottom: 40px;">
+    <div class="filter-bar">
+      <!-- Top Pills -->
+      <div class="filter-pills">
+        <button class="filter-pill active" data-filter="all">All Tours</button>
+        <button class="filter-pill" data-filter="by-air">By Air Tours</button>
+        <button class="filter-pill" data-filter="group">Group Tours</button>
+      </div>
+      
+      <!-- Search & Dropdowns -->
+      <div class="filter-inputs-grid">
+        <div class="search-input-wrapper">
+          <i class="ph ph-magnifying-glass"></i>
+          <input class="form-input-control" id="tour-search" placeholder="Search by name, location, activity..." type="text">
+        </div>
+        
+        <select class="form-input-control form-select-control" id="tour-location">
+          <option value="all">All Locations</option>
+          <option value="kashmir">Kashmir (Neelum / Kel / Taobat)</option>
+          <option value="skardu">Skardu &amp; Deosai</option>
+          <option value="hunza">Hunza Valley</option>
+          <option value="kumrat">Kumrat Valley</option>
+          <option value="astore">Astore &amp; Minimarg</option>
+          <option value="naran">Naran &amp; Shogran</option>
+          <option value="fairy meadows">Fairy Meadows</option>
+        </select>
+        
+        <select class="form-input-control form-select-control" id="tour-duration">
+          <option value="all">All Durations</option>
+          <option value="3 days">3 Days</option>
+          <option value="4 days">4 Days</option>
+          <option value="5 days">5 Days</option>
+          <option value="6 days">6 Days</option>
+          <option value="8 days">8 Days</option>
+        </select>
+        
+        <select class="form-input-control form-select-control" id="tour-level">
+          <option value="all">All Difficulty Levels</option>
+          <option value="easy">Easy / Relaxed</option>
+          <option value="moderate">Moderate</option>
+          <option value="adventure pick">Adventure Pick</option>
+        </select>
+        
+        <select class="form-input-control form-select-control" id="tour-type">
+          <option value="all">All Trip Types</option>
+          <option value="group">Group departures</option>
+          <option value="private">Private package</option>
+          <option value="premium experience">Premium experience</option>
+        </select>
+      </div>
+    </div>
+    <p class="mt-4 text-muted label-md" id="tour-count" style="color: rgba(255, 255, 255, 0.4) !important;">12 tours found</p>
+  </section>
+  <!-- END: Filter Section -->
+
+  <!-- BEGIN: Tours Grid Section -->
+  <section class="section-gap section-cinematic section-veil section-ambient-warm" style="background: transparent; padding-top: 40px;">
+    <div class="container">
+      <div class="grid-cols-3 hover-reveal-group">
+        <!-- Tour Card 1 -->
+        <article class="tour-card tour-card-dark">
+          <div class="tour-image-container">
+            <img alt="Hunza, Skardu, Deosai" class="tour-image" src="deosai_plains.webp"/>
+            <div class="tour-badge-top">
+              <span class="badge badge-navy">MODERATE</span>
+            </div>
+            <div class="tour-badge-bottom-right">
+              <span class="badge badge-blue">Group</span>
+              <span class="badge badge-navy">Private</span>
+            </div>
+          </div>
+          <div class="tour-content">
+            <div class="tour-meta">
+              <span>📍 Hunza, Skardu &amp; Deosai</span>
+              <span>🕒 8 Days</span>
+            </div>
+            <h3 class="tour-title">8 Days Hunza, Skardu &amp; Deosai Adventure</h3>
+            <ul class="tour-highlights">
+              <li>Explore majestic Hunza Valley &amp; Altit Fort</li>
+              <li>Discover Baltistan deserts &amp; Skardu Valley</li>
+              <li>Excursion to Deosai Plains &amp; Rainbow Lake</li>
+              <li>LHR: Fri Night | ISB: Sat Morning departure</li>
+            </ul>
+            <div style="margin-top: 16px; margin-bottom: 16px; padding-top: 12px; border-top: 1px solid rgba(255,255,255,0.08); display: flex; justify-content: space-between; align-items: center;">
+              <div>
+                <span style="font-size: 11px; color: rgba(255,255,255,0.45); text-transform: uppercase; letter-spacing: 0.05em; display: block; margin-bottom: 2px;">Starting From</span>
+                <span class="price-current">PKR 39,500 <small style="font-size: 12px; font-weight: 400; color: rgba(255,255,255,0.45);">/ head</small></span>
+              </div>
+              <span style="font-size: 11px; color: rgba(255,255,255,0.45); text-align: right;">LHR/ISB departures</span>
+            </div>
+            <div class="tour-footer" style="align-items: center;">
+              <span style="font-size: 12px; color: rgba(255,255,255,0.45); display: flex; align-items: center; gap: 4px;">👤 Max 20</span>
+              <a class="tour-action-btn" href="tour-details.html?tour=8-days-hunza-skardu-deosai">Details <span>→</span></a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Tour Card 2 -->
+        <article class="tour-card tour-card-dark">
+          <div class="tour-image-container">
+            <img alt="Skardu &amp; Deosai" class="tour-image" src="skardu_deosai.webp"/>
+            <div class="tour-badge-top">
+              <span class="badge badge-navy">EASY</span>
+            </div>
+            <div class="tour-badge-bottom-right">
+              <span class="badge badge-blue">Group</span>
+            </div>
+          </div>
+          <div class="tour-content">
+            <div class="tour-meta">
+              <span>📍 Skardu &amp; Deosai</span>
+              <span>🕒 6 Days</span>
+            </div>
+            <h3 class="tour-title">6 Days Skardu Valley &amp; Deosai Plains</h3>
+            <ul class="tour-highlights">
+              <li>Lakeside stay at Shangrila Resort &amp; Kachura</li>
+              <li>Explore historic Shigar Valley &amp; Cold Desert</li>
+              <li>Excursion to high-altitude Deosai National Park</li>
+              <li>LHR: Fri Night | ISB: Sat Morning departure</li>
+            </ul>
+            <div style="margin-top: 16px; margin-bottom: 16px; padding-top: 12px; border-top: 1px solid rgba(255,255,255,0.08); display: flex; justify-content: space-between; align-items: center;">
+              <div>
+                <span style="font-size: 11px; color: rgba(255,255,255,0.45); text-transform: uppercase; letter-spacing: 0.05em; display: block; margin-bottom: 2px;">Starting From</span>
+                <span class="price-current">PKR 33,500 <small style="font-size: 12px; font-weight: 400; color: rgba(255,255,255,0.45);">/ head</small></span>
+              </div>
+              <span style="font-size: 11px; color: rgba(255,255,255,0.45); text-align: right;">LHR/ISB departures</span>
+            </div>
+            <div class="tour-footer" style="align-items: center;">
+              <span style="font-size: 12px; color: rgba(255,255,255,0.45); display: flex; align-items: center; gap: 4px;">👤 2-20</span>
+              <a class="tour-action-btn" href="tour-details.html?tour=6-days-skardu-deosai">Details <span>→</span></a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Tour Card 3 -->
+        <article class="tour-card tour-card-dark">
+          <div class="tour-image-container">
+            <img alt="Astore &amp; Minimarg" class="tour-image" src="astore_minimarg.webp"/>
+            <div class="tour-badge-top">
+              <span class="badge badge-orange">ADVENTURE PICK</span>
+            </div>
+            <div class="tour-badge-bottom-right">
+              <span class="badge badge-blue">Group</span>
+            </div>
+          </div>
+          <div class="tour-content">
+            <div class="tour-meta">
+              <span>📍 Astore &amp; Minimarg</span>
+              <span>🕒 6 Days</span>
+            </div>
+            <h3 class="tour-title">6 Days Astore Valley &amp; Minimarg</h3>
+            <ul class="tour-highlights">
+              <li>Visit scenic Minimarg border village &amp; Rainbow Lake</li>
+              <li>Explore pristine Rama Meadows &amp; Rama Lake</li>
+              <li>Spectacular views of Nanga Parbat east face</li>
+              <li>LHR: Fri Night | ISB: Sat Morning departure</li>
+            </ul>
+            <div style="margin-top: 16px; margin-bottom: 16px; padding-top: 12px; border-top: 1px solid rgba(255,255,255,0.08); display: flex; justify-content: space-between; align-items: center;">
+              <div>
+                <span style="font-size: 11px; color: rgba(255,255,255,0.45); text-transform: uppercase; letter-spacing: 0.05em; display: block; margin-bottom: 2px;">Starting From</span>
+                <span class="price-current">PKR 36,000 <small style="font-size: 12px; font-weight: 400; color: rgba(255,255,255,0.45);">/ head</small></span>
+              </div>
+              <span style="font-size: 11px; color: rgba(255,255,255,0.45); text-align: right;">LHR/ISB departures</span>
+            </div>
+            <div class="tour-footer" style="align-items: center;">
+              <span style="font-size: 12px; color: rgba(255,255,255,0.45); display: flex; align-items: center; gap: 4px;">👤 2-20</span>
+              <a class="tour-action-btn" href="tour-details.html?tour=6-days-astore-minimarg">Details <span>→</span></a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Tour Card 4 -->
+        <article class="tour-card tour-card-dark">
+          <div class="tour-image-container">
+            <img alt="Hunza &amp; Naltar" class="tour-image" src="hunza_naltar.webp"/>
+            <div class="tour-badge-top">
+              <span class="badge badge-navy">EASY</span>
+            </div>
+            <div class="tour-badge-bottom-right">
+              <span class="badge badge-blue">Group</span>
+            </div>
+          </div>
+          <div class="tour-content">
+            <div class="tour-meta">
+              <span>📍 Hunza &amp; Naltar</span>
+              <span>🕒 5 Days</span>
+            </div>
+            <h3 class="tour-title">5 Days Hunza Valley &amp; Naltar Valley</h3>
+            <ul class="tour-highlights">
+              <li>Explore Karimabad, Altit Fort &amp; Eagle's Nest</li>
+              <li>Jeep ride to the colorful lakes of Naltar Valley</li>
+              <li>Visit Attabad Lake &amp; cross Hussaini Bridge</li>
+              <li>LHR: Tue &amp; Fri Night | ISB: Wed &amp; Sat Morning</li>
+            </ul>
+            <div style="margin-top: 16px; margin-bottom: 16px; padding-top: 12px; border-top: 1px solid rgba(255,255,255,0.08); display: flex; justify-content: space-between; align-items: center;">
+              <div>
+                <span style="font-size: 11px; color: rgba(255,255,255,0.45); text-transform: uppercase; letter-spacing: 0.05em; display: block; margin-bottom: 2px;">Starting From</span>
+                <span class="price-current">PKR 29,000 <small style="font-size: 12px; font-weight: 400; color: rgba(255,255,255,0.45);">/ head</small></span>
+              </div>
+              <span style="font-size: 11px; color: rgba(255,255,255,0.45); text-align: right;">LHR/ISB departures</span>
+            </div>
+            <div class="tour-footer" style="align-items: center;">
+              <span style="font-size: 12px; color: rgba(255,255,255,0.45); display: flex; align-items: center; gap: 4px;">👤 2-20</span>
+              <a class="tour-action-btn" href="tour-details.html?tour=5-days-hunza-naltar">Details <span>→</span></a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Tour Card 5 -->
+        <article class="tour-card tour-card-dark">
+          <div class="tour-image-container">
+            <img alt="Fairy Meadows" class="tour-image" src="fairy_meadows.webp"/>
+            <div class="tour-badge-top">
+              <span class="badge badge-orange">ADVENTURE PICK</span>
+            </div>
+            <div class="tour-badge-bottom-right">
+              <span class="badge badge-blue">Group</span>
+            </div>
+          </div>
+          <div class="tour-content">
+            <div class="tour-meta">
+              <span>📍 Fairy Meadows</span>
+              <span>🕒 5 Days</span>
+            </div>
+            <h3 class="tour-title">5 Days Fairy Meadows &amp; Nanga Parbat</h3>
+            <ul class="tour-highlights">
+              <li>Jeep ride on the famous Fairy Meadows track</li>
+              <li>Trek through pine forests to the alpine meadows</li>
+              <li>Day hike to Nanga Parbat Base Camp (Beyal Camp)</li>
+              <li>LHR: Fri Night | ISB: Sat Morning departure</li>
+            </ul>
+            <div style="margin-top: 16px; margin-bottom: 16px; padding-top: 12px; border-top: 1px solid rgba(255,255,255,0.08); display: flex; justify-content: space-between; align-items: center;">
+              <div>
+                <span style="font-size: 11px; color: rgba(255,255,255,0.45); text-transform: uppercase; letter-spacing: 0.05em; display: block; margin-bottom: 2px;">Starting From</span>
+                <span class="price-current">PKR 28,500 <small style="font-size: 12px; font-weight: 400; color: rgba(255,255,255,0.45);">/ head</small></span>
+              </div>
+              <span style="font-size: 11px; color: rgba(255,255,255,0.45); text-align: right;">LHR/ISB departures</span>
+            </div>
+            <div class="tour-footer" style="align-items: center;">
+              <span style="font-size: 12px; color: rgba(255,255,255,0.45); display: flex; align-items: center; gap: 4px;">👤 Max 20</span>
+              <a class="tour-action-btn" href="tour-details.html?tour=5-days-fairy-meadows">Details <span>→</span></a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Tour Card 6 -->
+        <article class="tour-card tour-card-dark">
+          <div class="tour-image-container">
+            <img alt="Kashmir, Ratti Gali &amp; Taobat" class="tour-image" src="kashmir_ratti_gali.webp"/>
+            <div class="tour-badge-top">
+              <span class="badge badge-navy">MODERATE</span>
+            </div>
+            <div class="tour-badge-bottom-right">
+              <span class="badge badge-blue">Group</span>
+            </div>
+          </div>
+          <div class="tour-content">
+            <div class="tour-meta">
+              <span>📍 Kashmir &amp; Ratti Gali</span>
+              <span>🕒 5 Days</span>
+            </div>
+            <h3 class="tour-title">5 Days Kashmir, Ratti Gali &amp; Taobat</h3>
+            <ul class="tour-highlights">
+              <li>Visit the crystal-clear Ratti Gali Alpine Lake</li>
+              <li>Explore Kel, Arang Kel &amp; scenic Taobat village</li>
+              <li>Enjoy stunning drives along the blue Neelum River</li>
+              <li>LHR: Fri Night | ISB: Sat Morning departure</li>
+            </ul>
+            <div style="margin-top: 16px; margin-bottom: 16px; padding-top: 12px; border-top: 1px solid rgba(255,255,255,0.08); display: flex; justify-content: space-between; align-items: center;">
+              <div>
+                <span style="font-size: 11px; color: rgba(255,255,255,0.45); text-transform: uppercase; letter-spacing: 0.05em; display: block; margin-bottom: 2px;">Starting From</span>
+                <span class="price-current">PKR 28,500 <small style="font-size: 12px; font-weight: 400; color: rgba(255,255,255,0.45);">/ head</small></span>
+              </div>
+              <span style="font-size: 11px; color: rgba(255,255,255,0.45); text-align: right;">LHR/ISB departures</span>
+            </div>
+            <div class="tour-footer" style="align-items: center;">
+              <span style="font-size: 12px; color: rgba(255,255,255,0.45); display: flex; align-items: center; gap: 4px;">👤 2-20</span>
+              <a class="tour-action-btn" href="tour-details.html?tour=5-days-kashmir-ratti-gali">Details <span>→</span></a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Tour Card 7 -->
+        <article class="tour-card tour-card-dark">
+          <div class="tour-image-container">
+            <img alt="Kumrat &amp; Jahaz Banda" class="tour-image" src="kumrat_jahaz_banda.webp"/>
+            <div class="tour-badge-top">
+              <span class="badge badge-orange">ADVENTURE PICK</span>
+            </div>
+            <div class="tour-badge-bottom-right">
+              <span class="badge badge-blue">Group</span>
+            </div>
+          </div>
+          <div class="tour-content">
+            <div class="tour-meta">
+              <span>📍 Kumrat Valley</span>
+              <span>🕒 5 Days</span>
+            </div>
+            <h3 class="tour-title">5 Days Kumrat Valley &amp; Jahaz Banda</h3>
+            <ul class="tour-highlights">
+              <li>Explore Kumrat pine forests &amp; Panjkora River</li>
+              <li>Trek up to Jahaz Banda Meadows &amp; Waterfall</li>
+              <li>Enjoy jeep safaris to remote mountain landscapes</li>
+              <li>LHR: Fri Night | ISB: Sat Morning departure</li>
+            </ul>
+            <div style="margin-top: 16px; margin-bottom: 16px; padding-top: 12px; border-top: 1px solid rgba(255,255,255,0.08); display: flex; justify-content: space-between; align-items: center;">
+              <div>
+                <span style="font-size: 11px; color: rgba(255,255,255,0.45); text-transform: uppercase; letter-spacing: 0.05em; display: block; margin-bottom: 2px;">Starting From</span>
+                <span class="price-current">PKR 29,000 <small style="font-size: 12px; font-weight: 400; color: rgba(255,255,255,0.45);">/ head</small></span>
+              </div>
+              <span style="font-size: 11px; color: rgba(255,255,255,0.45); text-align: right;">LHR/ISB departures</span>
+            </div>
+            <div class="tour-footer" style="align-items: center;">
+              <span style="font-size: 12px; color: rgba(255,255,255,0.45); display: flex; align-items: center; gap: 4px;">👤 2-20</span>
+              <a class="tour-action-btn" href="tour-details.html?tour=5-days-kumrat-jahaz-banda">Details <span>→</span></a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Tour Card 8 -->
+        <article class="tour-card tour-card-dark">
+          <div class="tour-image-container">
+            <img alt="Kashmir &amp; Taobat" class="tour-image" src="kashmir_taobat.webp"/>
+            <div class="tour-badge-top">
+              <span class="badge badge-navy">EASY</span>
+            </div>
+            <div class="tour-badge-bottom-right">
+              <span class="badge badge-blue">Group</span>
+            </div>
+          </div>
+          <div class="tour-content">
+            <div class="tour-meta">
+              <span>📍 Kashmir &amp; Taobat</span>
+              <span>🕒 4 Days</span>
+            </div>
+            <h3 class="tour-title">4 Days Kashmir &amp; Taobat Getaway</h3>
+            <ul class="tour-highlights">
+              <li>Explore the scenic border village of Taobat</li>
+              <li>Visit historic Sharda Ruins and Keran</li>
+              <li>Relax by the peaceful Neelum River bank</li>
+              <li>LHR: Wed Night | ISB: Thu Morning departure</li>
+            </ul>
+            <div style="margin-top: 16px; margin-bottom: 16px; padding-top: 12px; border-top: 1px solid rgba(255,255,255,0.08); display: flex; justify-content: space-between; align-items: center;">
+              <div>
+                <span style="font-size: 11px; color: rgba(255,255,255,0.45); text-transform: uppercase; letter-spacing: 0.05em; display: block; margin-bottom: 2px;">Starting From</span>
+                <span class="price-current">PKR 21,500 <small style="font-size: 12px; font-weight: 400; color: rgba(255,255,255,0.45);">/ head</small></span>
+              </div>
+              <span style="font-size: 11px; color: rgba(255,255,255,0.45); text-align: right;">LHR/ISB departures</span>
+            </div>
+            <div class="tour-footer" style="align-items: center;">
+              <span style="font-size: 12px; color: rgba(255,255,255,0.45); display: flex; align-items: center; gap: 4px;">👤 2-15</span>
+              <a class="tour-action-btn" href="tour-details.html?tour=kashmir-taobat-4d">Details <span>→</span></a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Tour Card 9 -->
+        <article class="tour-card tour-card-dark">
+          <div class="tour-image-container">
+            <img alt="Kumrat &amp; Jahaz Banda" class="tour-image" src="kumrat_jahaz_banda.webp"/>
+            <div class="tour-badge-top">
+              <span class="badge badge-navy">MODERATE</span>
+            </div>
+            <div class="tour-badge-bottom-right">
+              <span class="badge badge-blue">Group</span>
+            </div>
+          </div>
+          <div class="tour-content">
+            <div class="tour-meta">
+              <span>📍 Kumrat Valley</span>
+              <span>🕒 4 Days</span>
+            </div>
+            <h3 class="tour-title">4 Days Kumrat Valley &amp; Jahaz Banda Tour</h3>
+            <ul class="tour-highlights">
+              <li>Stay in Jahaz Banda wooden cabins</li>
+              <li>Trek through lush green alpine meadows</li>
+              <li>Explore Kumrat forests &amp; Kala Chashma</li>
+              <li>LHR: Wed Night | ISB: Thu Morning departure</li>
+            </ul>
+            <div style="margin-top: 16px; margin-bottom: 16px; padding-top: 12px; border-top: 1px solid rgba(255,255,255,0.08); display: flex; justify-content: space-between; align-items: center;">
+              <div>
+                <span style="font-size: 11px; color: rgba(255,255,255,0.45); text-transform: uppercase; letter-spacing: 0.05em; display: block; margin-bottom: 2px;">Starting From</span>
+                <span class="price-current">PKR 22,000 <small style="font-size: 12px; font-weight: 400; color: rgba(255,255,255,0.45);">/ head</small></span>
+              </div>
+              <span style="font-size: 11px; color: rgba(255,255,255,0.45); text-align: right;">LHR/ISB departures</span>
+            </div>
+            <div class="tour-footer" style="align-items: center;">
+              <span style="font-size: 12px; color: rgba(255,255,255,0.45); display: flex; align-items: center; gap: 4px;">👤 2-15</span>
+              <a class="tour-action-btn" href="tour-details.html?tour=kumrat-jahaz-banda-4d">Details <span>→</span></a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Tour Card 10 -->
+        <article class="tour-card tour-card-dark">
+          <div class="tour-image-container">
+            <img alt="Naran &amp; Shogran" class="tour-image" src="naran_shogran.webp"/>
+            <div class="tour-badge-top">
+              <span class="badge badge-navy">EASY</span>
+            </div>
+            <div class="tour-badge-bottom-right">
+              <span class="badge badge-blue">Group</span>
+            </div>
+          </div>
+          <div class="tour-content">
+            <div class="tour-meta">
+              <span>📍 Naran &amp; Shogran</span>
+              <span>🕒 3 Days</span>
+            </div>
+            <h3 class="tour-title">3 Days Naran Valley &amp; Shogran Siri Paye</h3>
+            <ul class="tour-highlights">
+              <li>Excursion to legendary Lake Saif-ul-Malook</li>
+              <li>Explore Shogran &amp; Siri Paye high meadows</li>
+              <li>Enjoy the scenic drives along Kunhar River</li>
+              <li>LHR: Thu Night | ISB: Fri Morning departure</li>
+            </ul>
+            <div style="margin-top: 16px; margin-bottom: 16px; padding-top: 12px; border-top: 1px solid rgba(255,255,255,0.08); display: flex; justify-content: space-between; align-items: center;">
+              <div>
+                <span style="font-size: 11px; color: rgba(255,255,255,0.45); text-transform: uppercase; letter-spacing: 0.05em; display: block; margin-bottom: 2px;">Starting From</span>
+                <span class="price-current">PKR 20,000 <small style="font-size: 12px; font-weight: 400; color: rgba(255,255,255,0.45);">/ head</small></span>
+              </div>
+              <span style="font-size: 11px; color: rgba(255,255,255,0.45); text-align: right;">LHR/ISB departures</span>
+            </div>
+            <div class="tour-footer" style="align-items: center;">
+              <span style="font-size: 12px; color: rgba(255,255,255,0.45); display: flex; align-items: center; gap: 4px;">👤 2-20</span>
+              <a class="tour-action-btn" href="tour-details.html?tour=naran-shogran">Details <span>→</span></a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Tour Card 11 -->
+        <article class="tour-card tour-card-dark">
+          <div class="tour-image-container">
+            <img alt="Kumrat &amp; Kala Chashma" class="tour-image" src="kumrat_kala_chashma.webp"/>
+            <div class="tour-badge-top">
+              <span class="badge badge-navy">EASY</span>
+            </div>
+            <div class="tour-badge-bottom-right">
+              <span class="badge badge-blue">Group</span>
+            </div>
+          </div>
+          <div class="tour-content">
+            <div class="tour-meta">
+              <span>📍 Kumrat Valley</span>
+              <span>🕒 3 Days</span>
+            </div>
+            <h3 class="tour-title">3 Days Kumrat Valley &amp; Kala Chashma</h3>
+            <ul class="tour-highlights">
+              <li>Explore majestic Kumrat pine forests</li>
+              <li>Visit the unique crystal spring of Kala Chashma</li>
+              <li>Relax by the clear waters of Panjkora River</li>
+              <li>LHR: Thu Night | ISB: Fri Morning departure</li>
+            </ul>
+            <div style="margin-top: 16px; margin-bottom: 16px; padding-top: 12px; border-top: 1px solid rgba(255,255,255,0.08); display: flex; justify-content: space-between; align-items: center;">
+              <div>
+                <span style="font-size: 11px; color: rgba(255,255,255,0.45); text-transform: uppercase; letter-spacing: 0.05em; display: block; margin-bottom: 2px;">Starting From</span>
+                <span class="price-current">PKR 18,500 <small style="font-size: 12px; font-weight: 400; color: rgba(255,255,255,0.45);">/ head</small></span>
+              </div>
+              <span style="font-size: 11px; color: rgba(255,255,255,0.45); text-align: right;">LHR/ISB departures</span>
+            </div>
+            <div class="tour-footer" style="align-items: center;">
+              <span style="font-size: 12px; color: rgba(255,255,255,0.45); display: flex; align-items: center; gap: 4px;">👤 2-15</span>
+              <a class="tour-action-btn" href="tour-details.html?tour=kumrat-kala-chashma">Details <span>→</span></a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Tour Card 12 -->
+        <article class="tour-card tour-card-dark">
+          <div class="tour-image-container">
+            <img alt="Kashmir &amp; Arang Kel" class="tour-image" src="kashmir_arang_kel.webp"/>
+            <div class="tour-badge-top">
+              <span class="badge badge-navy">MODERATE</span>
+            </div>
+            <div class="tour-badge-bottom-right">
+              <span class="badge badge-blue">Group</span>
+            </div>
+          </div>
+          <div class="tour-content">
+            <div class="tour-meta">
+              <span>📍 Kashmir &amp; Arang Kel</span>
+              <span>🕒 3 Days</span>
+            </div>
+            <h3 class="tour-title">3 Days Kashmir &amp; Arang Kel Adventure</h3>
+            <ul class="tour-highlights">
+              <li>Hike up to the picturesque village of Arang Kel</li>
+              <li>Cross the bridge via manual chairlift adventure</li>
+              <li>Stunning views of surrounding snow-capped peaks</li>
+              <li>LHR: Mon &amp; Thu Night | ISB: Tue &amp; Fri departure</li>
+            </ul>
+            <div style="margin-top: 16px; margin-bottom: 16px; padding-top: 12px; border-top: 1px solid rgba(255,255,255,0.08); display: flex; justify-content: space-between; align-items: center;">
+              <div>
+                <span style="font-size: 11px; color: rgba(255,255,255,0.45); text-transform: uppercase; letter-spacing: 0.05em; display: block; margin-bottom: 2px;">Starting From</span>
+                <span class="price-current">PKR 18,500 <small style="font-size: 12px; font-weight: 400; color: rgba(255,255,255,0.45);">/ head</small></span>
+              </div>
+              <span style="font-size: 11px; color: rgba(255,255,255,0.45); text-align: right;">LHR/ISB departures</span>
+            </div>
+            <div class="tour-footer" style="align-items: center;">
+              <span style="font-size: 12px; color: rgba(255,255,255,0.45); display: flex; align-items: center; gap: 4px;">👤 2-15</span>
+              <a class="tour-action-btn" href="tour-details.html?tour=kashmir-arang-kel">Details <span>→</span></a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+  <!-- END: Tours Grid Section -->
+
+  <!-- BEGIN: Custom CTA Section -->
+  <section class="section-gap text-center text-snow-peak section-veil">
+    <div class="container" style="max-width: 800px;">
+      <div class="value-card" style="background-color: rgba(255,255,255,0.03); border: 1px solid rgba(255,255,255,0.08); border-radius: var(--radius-xl); padding: 48px;">
+        <p class="body-lg opacity-70 mb-4">Can't find exactly what you're looking for?</p>
+        <h3 class="headline-lg text-snow-peak mb-8">Design a custom travel itinerary tailored just for you</h3>
+        <a href="custom-tour.html" class="btn btn-secondary btn-lg">
+          Design a Custom Tour <i class="ph ph-sliders"></i>
+        </a>
+      </div>
+    </div>
+  </section>
+  <!-- END: Custom CTA Section -->
+
+  <!-- BEGIN: MainFooter -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand-col">
+          <div class="footer-logo"><img src="logo.webp" alt="Safar Silsila Logo"></div>
+          <p class="footer-desc">Safar Silsila is a trusted Pakistan travel company offering tour packages to Hunza, Skardu, Swat, Kumrat, Fairy Meadows, Naran, Kashmir, and more. We specialize in family tours, honeymoon packages, and customized holiday experiences.</p>
+          <div class="social-links">
+            <a class="social-link" href="#"><i class="ph ph-facebook-logo"></i></a>
+            <a class="social-link" href="#"><i class="ph ph-instagram-logo"></i></a>
+            <a class="social-link" href="#"><i class="ph ph-x-logo"></i></a>
+          </div>
+        </div>
+        
+        <div class="footer-links-col">
+          <h4 class="footer-heading">Quick Links</h4>
+          <ul class="footer-links-list">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="tours.html">All Tours</a></li>
+            <li><a href="custom-tour.html">Custom Tour</a></li>
+            <li><a href="transport.html">Transport Services</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+          </ul>
+        </div>
+        
+        <div class="footer-tours-col">
+          <h4 class="footer-heading">Popular Tours</h4>
+          <ul class="footer-links-list">
+            <li><a href="tours.html">Hunza, Skardu &amp; Deosai</a></li>
+            <li><a href="tours.html">Skardu &amp; Deosai Plains</a></li>
+            <li><a href="tours.html">Astore Valley &amp; Minimarg</a></li>
+            <li><a href="tours.html">Fairy Meadows Adventure</a></li>
+            <li><a href="tours.html">Kumrat Valley &amp; Jahaz Banda</a></li>
+          </ul>
+        </div>
+        
+        <div class="footer-contact-col">
+          <h4 class="footer-heading">Get In Touch</h4>
+          <div class="footer-contact-item">
+            <i class="ph ph-map-pin"></i>
+            <p>Office # 9, First Floor, Aslam Business Square, FECHS E-11/2, Islamabad, 44034, Pakistan</p>
+          </div>
+          <div class="footer-contact-item">
+            <i class="ph ph-phone"></i>
+            <p>+92 311 1145456</p>
+          </div>
+          <div class="footer-contact-item">
+            <i class="ph ph-envelope"></i>
+            <p>info@safarsilsila.com</p>
+          </div>
+          
+          <div class="mt-8">
+            <span class="newsletter-title">Newsletter</span>
+            <form class="newsletter-form">
+              <input class="newsletter-input" placeholder="Your email" type="email" required>
+              <button class="newsletter-btn" type="submit"><i class="ph ph-arrow-right"></i></button>
+            </form>
+          </div>
+        </div>
+      </div>
+      
+      <div class="footer-bottom">
+        <p>© 2026 Safar Silsila Tours and Travel Company. All Rights Reserved.</p>
+        <div class="footer-bottom-links">
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms of Service</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- END: MainFooter -->
+
+  <!-- Floating WhatsApp Button -->
+  <a href="#" class="whatsapp-floating-btn whatsapp-action"><i class="ph ph-whatsapp-logo"></i></a>
+
+  <!-- WebGL Shader Background -->
+  <script src="shader-bg.js"></script>
+
+  <!-- Global scripts -->
+  <script src="main.js"></script>
+</body>
+</html>

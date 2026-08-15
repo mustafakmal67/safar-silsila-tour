@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Build Your Custom Tour | Safar Silsila</title>
+  
+  <!-- Phosphor Icons -->
+  <link rel="stylesheet" type="text/css" href="phosphor.css">
+  
+  <!-- Nomadic Horizon Stylesheet -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- BEGIN: Preloader -->
+  <div id="preloader">
+    <div class="preloader-content">
+      <div class="preloader-spinner-wrap">
+        <div class="preloader-spinner"></div>
+        <div class="preloader-center-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M3 20h18" stroke="var(--sunset-accent)" stroke-width="2"/>
+            <path d="M12 4L4 16h16L12 4z" stroke="var(--sunset-accent-bright)" stroke-width="2" fill="rgba(185, 209, 145, 0.05)"/>
+            <path d="M12 4l-4 8h8l-4-8z" stroke="var(--sunset-accent)" stroke-width="1.5"/>
+            <path d="M8 16c2-3 4-3 6 0" stroke="var(--sunset-accent)" stroke-width="1.5"/>
+          </svg>
+        </div>
+      </div>
+      <div class="preloader-brand-name">Safar Silsila</div>
+      <div class="preloader-accent-line"></div>
+    </div>
+  </div>
+  <!-- END: Preloader -->
+
+  <!-- BEGIN: Header / TopNavBar -->
+  <header class="header">
+    <div class="header-container">
+      <a href="index.html" class="logo"><img src="logo.webp" alt="Safar Silsila Logo"></a>
+      
+      <nav class="nav-menu" id="nav-menu">
+        <a class="nav-link" href="index.html">Home</a>
+        <a class="nav-link" href="tours.html">Tours</a>
+        <a class="nav-link active" href="custom-tour.html">Custom Tour</a>
+        <a class="nav-link" href="transport.html">Transport</a>
+        <a class="nav-link" href="about.html">About</a>
+        <a class="nav-link" href="contact.html">Contact</a>
+      </nav>
+      
+      <div class="header-actions">
+        <button class="search-trigger" onclick="location.href='tours.html'"><i class="ph ph-magnifying-glass"></i></button>
+        <a href="custom-tour.html" class="btn btn-secondary btn-sm btn-book">Book Now</a>
+        <button class="nav-toggle" id="nav-toggle"><i class="ph ph-list"></i></button>
+      </div>
+    </div>
+  </header>
+  <!-- END: Header / TopNavBar -->
+
+  <!-- BEGIN: Hero Section -->
+  <section class="hero" style="min-height: 400px;">
+    <!-- Background Image -->
+    <img alt="Snowy Mountain Road" class="hero-bg brightness-50" src="custom_hero.webp">
+    <div class="hero-overlay"></div>
+    
+    <div class="container hero-content text-center">
+      <p class="label-lg text-sunset-accent font-medium mb-4" style="letter-spacing: 0.3em;">Tailored Just For You</p>
+      <h1 class="display-lg mb-6">Build Your <span class="text-sunset-accent">Custom</span> Tour</h1>
+      <p class="body-lg opacity-80" style="max-width: 650px; margin: 0 auto;">
+        Tell us your dream Pakistan adventure — we'll craft every detail around your preferences, pace, and comfort.
+      </p>
+      
+      <!-- Trust Badges -->
+      <div class="mt-12 d-flex gap-6 flex-center text-snow-peak label-md" style="flex-wrap: wrap;">
+        <span class="d-flex gap-2" style="background-color: rgba(0,0,0,0.3); padding: 8px 20px; border-radius: var(--radius-full); border: 1px solid rgba(255,255,255,0.08);"><i class="ph ph-check text-sunset-accent"></i> Free Planning Consultation</span>
+        <span class="d-flex gap-2" style="background-color: rgba(0,0,0,0.3); padding: 8px 20px; border-radius: var(--radius-full); border: 1px solid rgba(255,255,255,0.08);"><i class="ph ph-check text-sunset-accent"></i> No Booking Fees</span>
+        <span class="d-flex gap-2" style="background-color: rgba(0,0,0,0.3); padding: 8px 20px; border-radius: var(--radius-full); border: 1px solid rgba(255,255,255,0.08);"><i class="ph ph-check text-sunset-accent"></i> Flexible Itinerary</span>
+      </div>
+    </div>
+  </section>
+  <!-- END: Hero Section -->
+
+  <!-- BEGIN: CustomTourForm -->
+  <main class="container" style="padding-bottom: var(--section-gap);">
+    <div class="form-card">
+      <form id="custom-tour-form">
+        
+        <!-- SECTION 01: Destination -->
+        <div class="form-section-block">
+          <div class="form-section-header">
+            <span class="form-section-num">01</span>
+            <h3 class="form-section-title">Destination</h3>
+          </div>
+          <p class="form-section-desc">Pick your dream destination — or select "Custom" to describe your own.</p>
+          
+          <div class="form-group">
+            <div class="option-grid" data-multi="true">
+              <input type="hidden" name="destination" id="selected-destination" required>
+              <div class="option-card option-card-no-icon" data-value="Hunza Valley">
+                <span class="option-card-title">Hunza Valley</span>
+              </div>
+              <div class="option-card option-card-no-icon" data-value="Skardu">
+                <span class="option-card-title">Skardu</span>
+              </div>
+              <div class="option-card option-card-no-icon" data-value="Fairy Meadows">
+                <span class="option-card-title">Fairy Meadows</span>
+              </div>
+              <div class="option-card option-card-no-icon" data-value="K2 Base Camp">
+                <span class="option-card-title">K2 Base Camp</span>
+              </div>
+              <div class="option-card option-card-no-icon" data-value="Naran &amp; Kaghan">
+                <span class="option-card-title">Naran &amp; Kaghan</span>
+              </div>
+              <div class="option-card option-card-no-icon" data-value="Swat Valley">
+                <span class="option-card-title">Swat Valley</span>
+              </div>
+              <div class="option-card option-card-no-icon" data-value="Gilgit">
+                <span class="option-card-title">Gilgit</span>
+              </div>
+              <div class="option-card option-card-no-icon" data-value="Khunjerab Pass">
+                <span class="option-card-title">Khunjerab Pass</span>
+              </div>
+              <div class="option-card option-card-no-icon" data-value="Deosai Plains">
+                <span class="option-card-title">Deosai Plains</span>
+              </div>
+              <div class="option-card option-card-no-icon" data-value="Shimshal">
+                <span class="option-card-title">Shimshal</span>
+              </div>
+              <div class="option-card option-card-no-icon" data-value="Rakaposhi Base Camp">
+                <span class="option-card-title">Rakaposhi Base Camp</span>
+              </div>
+              <div class="option-card option-card-no-icon" data-value="Custom / Other">
+                <span class="option-card-title">Custom / Other</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- SECTION 02: Duration & Travel Dates -->
+        <div class="form-section-block">
+          <div class="form-section-header">
+            <span class="form-section-num">02</span>
+            <h3 class="form-section-title">Duration &amp; Travel Dates</h3>
+          </div>
+          <div class="grid-cols-2" style="gap: 32px; margin-bottom: 24px;">
+            <div class="form-group">
+              <label class="form-label" for="tour-duration-pref">Duration Preference</label>
+              <select class="form-input-control form-select-control" id="tour-duration-pref" name="duration" required>
+                <option value="">Select duration</option>
+                <option value="3-5 Days">3-5 Days</option>
+                <option value="1 Week">1 Week</option>
+                <option value="2 Weeks">2 Weeks</option>
+                <option value="2 Weeks+">2 Weeks+</option>
+              </select>
+            </div>
+            
+            <div class="form-group">
+              <label class="form-label" for="tour-travelers">Number of Travelers *</label>
+              <select class="form-input-control form-select-control" id="tour-travelers" name="travelers" required>
+                <option value="">Select party size</option>
+                <option value="Solo Traveler">Solo Traveler</option>
+                <option value="2 People">2 People</option>
+                <option value="3-5 People">3-5 People</option>
+                <option value="Group (6+)">Group (6+)</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="form-group" style="margin-bottom: 24px;">
+            <label class="d-flex gap-2" style="align-items: center; cursor: pointer; font-size: 14px; user-select: none;">
+              <input type="checkbox" name="flexible_dates" value="Yes" style="width: 18px; height: 18px; accent-color: var(--sunset-accent);">
+              <span>My dates are flexible</span>
+            </label>
+          </div>
+
+          <div class="grid-cols-2" style="gap: 32px;">
+            <div class="form-group">
+              <label class="form-label" for="start-date">Prepared Start Date</label>
+              <input class="form-input-control" id="start-date" name="start_date" type="date">
+            </div>
+            
+            <div class="form-group">
+              <label class="form-label" for="end-date">Prepared End Date</label>
+              <input class="form-input-control" id="end-date" name="end_date" type="date">
+            </div>
+          </div>
+        </div>
+
+        <!-- SECTION 03: Accommodation Level -->
+        <div class="form-section-block">
+          <div class="form-section-header">
+            <span class="form-section-num">03</span>
+            <h3 class="form-section-title">Accommodation Level</h3>
+          </div>
+          
+          <div class="form-group">
+            <div class="option-grid" data-multi="false">
+              <input type="hidden" name="accommodation" id="selected-accommodation" required>
+              <div class="option-card" data-value="Budget">
+                <i class="ph ph-house-simple option-card-icon"></i>
+                <span class="option-card-title block">Budget</span>
+                <span style="font-size: 10px; color: rgba(255,255,255,0.4); display: block; margin-top: 4px; text-transform: uppercase;">Guesthouses / Hostels</span>
+              </div>
+              <div class="option-card" data-value="Standard">
+                <i class="ph ph-buildings option-card-icon"></i>
+                <span class="option-card-title block">Standard</span>
+                <span style="font-size: 10px; color: rgba(255,255,255,0.4); display: block; margin-top: 4px; text-transform: uppercase;">Comfortable Mid-range</span>
+              </div>
+              <div class="option-card" data-value="Luxury">
+                <i class="ph ph-sparkles option-card-icon"></i>
+                <span class="option-card-title block">Luxury</span>
+                <span style="font-size: 10px; color: rgba(255,255,255,0.4); display: block; margin-top: 4px; text-transform: uppercase;">Premium Lodges</span>
+              </div>
+              <div class="option-card" data-value="Ultra-Luxury">
+                <i class="ph ph-crown option-card-icon"></i>
+                <span class="option-card-title block">Ultra-Luxury</span>
+                <span style="font-size: 10px; color: rgba(255,255,255,0.4); display: block; margin-top: 4px; text-transform: uppercase;">Heritage / 5-Star stays</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- SECTION 04: Activities & Interests -->
+        <div class="form-section-block">
+          <div class="form-section-header">
+            <span class="form-section-num">04</span>
+            <h3 class="form-section-title">Activities &amp; Interests</h3>
+          </div>
+          <p class="form-section-desc">Select everything that excites you — pick as many as you like.</p>
+          
+          <div class="form-group">
+            <div class="option-grid" data-multi="true">
+              <input type="hidden" name="activities" id="selected-activities">
+              <div class="option-card" data-value="Trekking &amp; Hiking">
+                <i class="ph ph-boot option-card-icon"></i>
+                <span class="option-card-title">Trekking &amp; Hiking</span>
+              </div>
+              <div class="option-card" data-value="Photography">
+                <i class="ph ph-camera option-card-icon"></i>
+                <span class="option-card-title">Photography</span>
+              </div>
+              <div class="option-card" data-value="Cultural Interaction">
+                <i class="ph ph-mask-happy option-card-icon"></i>
+                <span class="option-card-title">Cultural Interaction</span>
+              </div>
+              <div class="option-card" data-value="Adventure Sports">
+                <i class="ph ph-parachute option-card-icon"></i>
+                <span class="option-card-title">Adventure Sports</span>
+              </div>
+              <div class="option-card" data-value="Wildlife Spotting">
+                <i class="ph ph-binoculars option-card-icon"></i>
+                <span class="option-card-title">Wildlife Spotting</span>
+              </div>
+              <div class="option-card" data-value="Family Friendly">
+                <i class="ph ph-users option-card-icon"></i>
+                <span class="option-card-title">Family Friendly</span>
+              </div>
+              <div class="option-card" data-value="Honeymoon / Couples">
+                <i class="ph ph-heart option-card-icon"></i>
+                <span class="option-card-title">Honeymoon / Couples</span>
+              </div>
+              <div class="option-card" data-value="Camping &amp; Bonfire">
+                <i class="ph ph-campfire option-card-icon"></i>
+                <span class="option-card-title">Camping &amp; Bonfire</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- SECTION 05: Budget Per Person -->
+        <div class="form-section-block">
+          <div class="form-section-header">
+            <span class="form-section-num">05</span>
+            <h3 class="form-section-title">Budget Per Person</h3>
+          </div>
+          
+          <div class="form-group">
+            <div class="option-grid" data-multi="false">
+              <input type="hidden" name="budget" id="selected-budget" required>
+              <div class="option-card option-card-no-icon" data-value="Under PKR 50,000">
+                <span class="option-card-title">Under PKR 50,000</span>
+              </div>
+              <div class="option-card option-card-no-icon" data-value="PKR 50,000 - 120,000">
+                <span class="option-card-title">PKR 50,000 - 120,000</span>
+              </div>
+              <div class="option-card option-card-no-icon" data-value="PKR 120,000 - 200,000">
+                <span class="option-card-title">PKR 120,000 - 200,000</span>
+              </div>
+              <div class="option-card option-card-no-icon" data-value="PKR 200,000 - 400,000">
+                <span class="option-card-title">PKR 200,000 - 400,000</span>
+              </div>
+              <div class="option-card option-card-no-icon" data-value="PKR 400,000+">
+                <span class="option-card-title">PKR 400,000+</span>
+              </div>
+              <div class="option-card option-card-no-icon" data-value="Flexible / No Limit">
+                <span class="option-card-title">Flexible / No Limit</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- SECTION 06: Special Requirements & Customisations -->
+        <div class="form-section-block">
+          <div class="form-section-header">
+            <span class="form-section-num">06</span>
+            <h3 class="form-section-title">Special Requirements &amp; Customisations</h3>
+          </div>
+          <div class="form-group">
+            <textarea class="form-input-control" id="special-requirements" name="special_requirements" style="height: 120px; resize: vertical;" placeholder="Tell us anything special — dietary needs, accessibility requirements, specific stops, special guide requests, surprise celebrations, etc."></textarea>
+          </div>
+        </div>
+
+        <!-- SECTION 07: Your Contact Details -->
+        <div class="form-section-block">
+          <div class="form-section-header">
+            <span class="form-section-num">07</span>
+            <h3 class="form-section-title">Your Contact Details *</h3>
+          </div>
+          
+          <div class="grid-cols-2" style="gap: 32px; margin-bottom: 24px;">
+            <div class="form-group">
+              <label class="form-label" for="contact-name">Full Name *</label>
+              <input class="form-input-control" id="contact-name" name="name" placeholder="Your full name" type="text" required>
+            </div>
+            
+            <div class="form-group">
+              <label class="form-label" for="contact-email">Email Address *</label>
+              <input class="form-input-control" id="contact-email" name="email" placeholder="yourname@mail.com" type="email" required>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label class="form-label" for="contact-phone">WhatsApp / Phone *</label>
+            <input class="form-input-control" id="contact-phone" name="phone" placeholder="Enter your phone number" type="tel" required>
+          </div>
+        </div>
+
+        <div style="text-align: center; margin-top: 48px;">
+          <button type="submit" class="btn btn-secondary btn-lg" style="padding: 16px 40px; font-size: 16px; border-radius: var(--radius-full); display: inline-flex; align-items: center; gap: 8px;">
+            Send My Custom Tour Request <i class="ph ph-arrow-right"></i>
+          </button>
+          <p class="body-sm text-muted mt-4" style="color: rgba(255,255,255,0.4) !important;">
+            We respond within 24 hours • No obligation • Free consultation
+          </p>
+        </div>
+
+      </form>
+    </div>
+  </main>
+  <!-- END: CustomTourForm -->
+
+  <!-- BEGIN: MainFooter -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand-col">
+          <div class="footer-logo"><img src="logo.webp" alt="Safar Silsila Logo"></div>
+          <p class="footer-desc">Safar Silsila is a trusted Pakistan travel company offering tour packages to Hunza, Skardu, Swat, Kumrat, Fairy Meadows, Naran, Kashmir, and more. We specialize in family tours, honeymoon packages, and customized holiday experiences.</p>
+          <div class="social-links">
+            <a class="social-link" href="#"><i class="ph ph-facebook-logo"></i></a>
+            <a class="social-link" href="#"><i class="ph ph-instagram-logo"></i></a>
+            <a class="social-link" href="#"><i class="ph ph-x-logo"></i></a>
+          </div>
+        </div>
+        
+        <div class="footer-links-col">
+          <h4 class="footer-heading">Quick Links</h4>
+          <ul class="footer-links-list">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="tours.html">All Tours</a></li>
+            <li><a href="custom-tour.html">Custom Tour</a></li>
+            <li><a href="transport.html">Transport Services</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+          </ul>
+        </div>
+        
+        <div class="footer-tours-col">
+          <h4 class="footer-heading">Popular Tours</h4>
+          <ul class="footer-links-list">
+            <li><a href="tours.html">Hunza, Skardu &amp; Deosai</a></li>
+            <li><a href="tours.html">Skardu &amp; Deosai Plains</a></li>
+            <li><a href="tours.html">Astore Valley &amp; Minimarg</a></li>
+            <li><a href="tours.html">Fairy Meadows Adventure</a></li>
+            <li><a href="tours.html">Kumrat Valley &amp; Jahaz Banda</a></li>
+          </ul>
+        </div>
+        
+        <div class="footer-contact-col">
+          <h4 class="footer-heading">Get In Touch</h4>
+          <div class="footer-contact-item">
+            <i class="ph ph-map-pin"></i>
+            <p>Office # 9, First Floor, Aslam Business Square, FECHS E-11/2, Islamabad, 44034, Pakistan</p>
+          </div>
+          <div class="footer-contact-item">
+            <i class="ph ph-phone"></i>
+            <p>+92 311 1145456</p>
+          </div>
+          <div class="footer-contact-item">
+            <i class="ph ph-envelope"></i>
+            <p>info@safarsilsila.com</p>
+          </div>
+          
+          <div class="mt-8">
+            <span class="newsletter-title">Newsletter</span>
+            <form class="newsletter-form">
+              <input class="newsletter-input" placeholder="Your email" type="email" required>
+              <button class="newsletter-btn" type="submit"><i class="ph ph-arrow-right"></i></button>
+            </form>
+          </div>
+        </div>
+      </div>
+      
+      <div class="footer-bottom">
+        <p>© 2026 Safar Silsila Tours and Travel Company. All Rights Reserved.</p>
+        <div class="footer-bottom-links">
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms of Service</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- END: MainFooter -->
+
+  <!-- Floating WhatsApp Button -->
+  <a href="#" class="whatsapp-floating-btn whatsapp-action"><i class="ph ph-whatsapp-logo"></i></a>
+
+  <!-- WebGL Shader Background -->
+  <script src="shader-bg.js"></script>
+
+  <!-- Global scripts -->
+  <script src="main.js"></script>
+</body>
+</html>
