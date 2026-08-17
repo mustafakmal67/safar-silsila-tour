@@ -427,7 +427,7 @@ p, span, li, a, button, label, input, textarea {
 
 .nav-link.active {
   color: var(--sunset-accent);
-  background: rgba(245, 158, 11, 0.12);
+  background: rgba(163, 184, 123, 0.12);
 }
 
 .nav-link::after {
@@ -545,12 +545,12 @@ p, span, li, a, button, label, input, textarea {
   font-size: 12.5px !important;
   padding: 7px 18px !important;
   font-weight: 700 !important;
-  box-shadow: 0 2px 12px rgba(245, 158, 11, 0.3);
+  box-shadow: 0 2px 12px rgba(163, 184, 123, 0.3);
   transition: box-shadow 0.2s ease, transform 0.2s ease !important;
 }
 
 .btn-book:hover {
-  box-shadow: 0 4px 20px rgba(245, 158, 11, 0.5) !important;
+  box-shadow: 0 4px 20px rgba(163, 184, 123, 0.5) !important;
   transform: translateY(-1px) !important;
 }
 
@@ -572,7 +572,7 @@ p, span, li, a, button, label, input, textarea {
 }
 
 .btn-secondary:hover {
-  background-color: #e59306;
+  background-color: var(--sunset-accent-bright);
   transform: translateY(-1px);
 }
 
@@ -661,7 +661,7 @@ p, span, li, a, button, label, input, textarea {
 }
 
 .tour-card-dark:hover {
-  border-color: rgba(245, 158, 11, 0.4);
+  border-color: rgba(163, 184, 123, 0.4);
   box-shadow: 0 20px 50px rgba(0,0,0,0.25), var(--glass-glow-accent);
 }
 
@@ -747,7 +747,7 @@ p, span, li, a, button, label, input, textarea {
 }
 
 .badge-orange-transparent {
-  background-color: rgba(245, 158, 11, 0.85);
+  background-color: rgba(163, 184, 123, 0.85);
   color: var(--snow-peak);
   backdrop-filter: blur(4px);
 }
@@ -898,7 +898,7 @@ p, span, li, a, button, label, input, textarea {
 .team-card:hover {
   transform: translateY(-8px);
   box-shadow: 0 20px 50px rgba(11, 30, 45, 0.1), var(--glass-glow-accent);
-  border-color: rgba(245, 158, 11, 0.2);
+  border-color: rgba(163, 184, 123, 0.2);
 }
 
 .team-img-wrapper {
@@ -1233,7 +1233,7 @@ p, span, li, a, button, label, input, textarea {
   background-color: var(--sunset-accent);
   border-color: var(--sunset-accent);
   color: var(--deep-expedition);
-  box-shadow: 0 0 15px rgba(245, 158, 11, 0.4);
+  box-shadow: 0 0 15px rgba(163, 184, 123, 0.4);
 }
 
 .step-node.completed .step-circle {
@@ -1296,7 +1296,7 @@ p, span, li, a, button, label, input, textarea {
 }
 
 .option-card.active {
-  background: rgba(245, 158, 11, 0.1);
+  background: rgba(163, 184, 123, 0.1);
   border-color: var(--sunset-accent);
   color: var(--snow-peak);
 }
@@ -1428,7 +1428,7 @@ p, span, li, a, button, label, input, textarea {
 
 .form-input-control:focus {
   border-color: var(--sunset-accent) !important;
-  box-shadow: 0 0 0 2px rgba(245, 158, 11, 0.2) !important;
+  box-shadow: 0 0 0 2px rgba(163, 184, 123, 0.2) !important;
 }
 
 .form-select-control {
@@ -1542,7 +1542,7 @@ p, span, li, a, button, label, input, textarea {
 
 .faq-item.active {
   background: rgba(255, 255, 255, 0.1);
-  border-color: rgba(245, 158, 11, 0.3);
+  border-color: rgba(163, 184, 123, 0.3);
 }
 
 .faq-question-btn {
@@ -1609,14 +1609,14 @@ p, span, li, a, button, label, input, textarea {
 }
 
 .contact-detail-card:hover {
-  border-color: rgba(245, 158, 11, 0.2);
+  border-color: rgba(163, 184, 123, 0.2);
   box-shadow: 0 8px 28px rgba(11, 30, 45, 0.08);
 }
 
 .contact-icon-box {
   width: 44px;
   height: 44px;
-  background-color: rgba(245, 158, 11, 0.1);
+  background-color: rgba(163, 184, 123, 0.1);
   border-radius: var(--radius-default);
   display: flex;
   align-items: center;
@@ -1720,7 +1720,7 @@ p, span, li, a, button, label, input, textarea {
 
 .contact-form-card .form-input-control:focus {
   border-color: var(--sunset-accent) !important;
-  box-shadow: 0 0 0 2px rgba(245, 158, 11, 0.15) !important;
+  box-shadow: 0 0 0 2px rgba(163, 184, 123, 0.15) !important;
 }
 
 /* Footer — Floating Glass Panel */
@@ -1747,7 +1747,7 @@ p, span, li, a, button, label, input, textarea {
   width: 320px;
   height: 320px;
   border-radius: 50%;
-  background: radial-gradient(circle, rgba(245, 158, 11, 0.06) 0%, transparent 70%);
+  background: radial-gradient(circle, rgba(163, 184, 123, 0.06) 0%, transparent 70%);
   pointer-events: none;
 }
 
