@@ -1,0 +1,712 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Book Your Tour Packages | Safar Silsila Booking Portal</title>
+  <meta name="description" content="Configure your Pakistan tour package, select add-ons, view live pricing breakdown, and print your booking invoice on Safar Silsila's interactive booking portal.">
+  <meta name="keywords" content="book tours Pakistan, online checkout travel agent, print travel invoice, Pakistan travel planner">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://safarsilsila.pk/booking.html">
+  
+  <!-- OpenGraph Cards -->
+  <meta property="og:title" content="Book Your Tour Packages | Safar Silsila Booking Portal">
+  <meta property="og:description" content="Calculate tour prices in real-time, customize your package with add-ons, and secure your booking via WhatsApp on Safar Silsila.">
+  <meta property="og:image" content="https://safarsilsila.pk/logo-square.webp">
+  <meta property="og:url" content="https://safarsilsila.pk/booking.html">
+  <meta property="og:type" content="website">
+  
+  <!-- Twitter Cards -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Book Your Tour Packages | Safar Silsila Booking Portal">
+  <meta name="twitter:description" content="Calculate tour prices in real-time, customize your package with add-ons, and secure your booking via WhatsApp on Safar Silsila.">
+  <meta name="twitter:image" content="https://safarsilsila.pk/logo-square.webp">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/x-icon" href="logo-square.webp">
+  
+  <!-- Phosphor Icons -->
+  <link rel="stylesheet" type="text/css" href="phosphor.css">
+  
+  <!-- Nomadic Horizon Stylesheet -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- BEGIN: Preloader -->
+  <div id="preloader">
+    <div class="preloader-content">
+      <div class="preloader-spinner-wrap">
+        <div class="preloader-spinner"></div>
+        <div class="preloader-center-icon">
+          <img src="logo-square.webp" alt="Safar Silsila Logo">
+        </div>
+      </div>
+      <div class="preloader-brand-name">Safar Silsila</div>
+      <div class="preloader-accent-line"></div>
+    </div>
+  </div>
+  <!-- END: Preloader -->
+
+  <!-- BEGIN: Header / TopNavBar -->
+  <header class="header">
+    <div class="header-container">
+      <a href="index.html" class="logo"><img src="logo.webp" alt="Safar Silsila Logo"></a>
+      
+      <nav class="nav-menu" id="nav-menu">
+        <a class="nav-link" href="index.html">Home</a>
+        <a class="nav-link" href="tours.html">Tours</a>
+        <a class="nav-link" href="custom-tour.html">Custom Tour</a>
+        <a class="nav-link" href="transport.html">Transport</a>
+        <a class="nav-link" href="blogs.html">Blog</a>
+        <a class="nav-link" href="about.html">About</a>
+        <a class="nav-link" href="contact.html">Contact</a>
+      </nav>
+      
+      <div class="header-actions">
+        <a href="booking.html" class="btn btn-secondary btn-sm btn-book">Book Now</a>
+        <button class="nav-toggle" id="nav-toggle"><i class="ph ph-list"></i></button>
+      </div>
+    </div>
+  </header>
+  <!-- END: Header / TopNavBar -->
+
+  <!-- BEGIN: Hero Section -->
+  <section class="hero" style="min-height: 380px;">
+    <div class="hero-overlay"></div>
+    <div class="container hero-content text-center" style="max-width: 900px;">
+      <span class="text-sunset-accent label-lg mb-4 block" style="letter-spacing: 0.25em;">SECURE YOUR VACATION</span>
+      <h1 class="display-lg mb-6">Booking <span class="text-sunset-accent">Portal</span></h1>
+      <p class="body-lg opacity-80" style="max-width: 700px; margin: 0 auto;">
+        Customize your tour options, calculate live pricing, and download your official invoice.
+      </p>
+    </div>
+  </section>
+  <!-- END: Hero Section -->
+
+  <!-- BEGIN: Booking Layout Section -->
+  <main class="container section-gap" style="max-width: 1200px; padding-top: 0;">
+    
+    <div class="booking-layout">
+      <!-- Checkout Form Panel -->
+      <section class="booking-form-panel">
+        <form id="booking-checkout-form">
+          
+          <!-- STEP 1: SELECT TOUR -->
+          <div class="booking-step-section">
+            <div class="step-title-wrap">
+              <span class="step-badge">1</span>
+              <h2 class="step-title">Choose Your Destination & Package</h2>
+            </div>
+            
+            <div class="form-group-row">
+              <div>
+                <label class="form-field-label" for="booking-tour-select">Select Tour Package</label>
+                <select id="booking-tour-select" class="booking-select" onchange="onTourChange()">
+                  <option value="custom">Custom Itinerary (Build Your Own)</option>
+                  <!-- Dynamically populated -->
+                </select>
+              </div>
+            </div>
+
+            <div style="margin-top: 20px;">
+              <label class="form-field-label">Select Package Surcharge Option</label>
+              <div class="option-pill-grid" id="package-options-container">
+                <!-- Dynamically populated -->
+              </div>
+            </div>
+          </div>
+
+          <!-- STEP 2: DATES & TRAVELERS -->
+          <div class="booking-step-section">
+            <div class="step-title-wrap">
+              <span class="step-badge">2</span>
+              <h2 class="step-title">Travel Dates & Group Size</h2>
+            </div>
+
+            <div class="form-group-row form-group-row-2">
+              <div>
+                <label class="form-field-label" for="booking-start-date">Preferred Start Date</label>
+                <input type="date" id="booking-start-date" class="booking-input" required onchange="calculateTotal()">
+              </div>
+              <div style="display: flex; align-items: flex-end; padding-bottom: 8px;">
+                <label class="d-flex gap-2" style="font-size: 13.5px; color: rgba(255,255,255,0.85); cursor: pointer;">
+                  <input type="checkbox" id="booking-flexible-dates" style="width: 18px; height: 18px; accent-color: var(--sunset-accent);" onchange="calculateTotal()">
+                  <span>My dates are flexible (+/- 3 days)</span>
+                </label>
+              </div>
+            </div>
+
+            <div class="form-group-row form-group-row-2" style="margin-top: 24px; gap: 32px;">
+              <div>
+                <label class="form-field-label">Adults <span style="font-size: 10px; color: rgba(255,255,255,0.4); text-transform: none;">(Age 10+)</span></label>
+                <div class="counter-container">
+                  <button type="button" class="counter-btn" onclick="updateCounter('adults', -1)">-</button>
+                  <span class="counter-value" id="count-adults">1</span>
+                  <button type="button" class="counter-btn" onclick="updateCounter('adults', 1)">+</button>
+                </div>
+              </div>
+              <div>
+                <label class="form-field-label">Children <span style="font-size: 10px; color: rgba(255,255,255,0.4); text-transform: none;">(Age 3-9, 50% discount)</span></label>
+                <div class="counter-container">
+                  <button type="button" class="counter-btn" onclick="updateCounter('children', -1)">-</button>
+                  <span class="counter-value" id="count-children">0</span>
+                  <button type="button" class="counter-btn" onclick="updateCounter('children', 1)">+</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- STEP 3: OPTIONAL ADD-ONS -->
+          <div class="booking-step-section">
+            <div class="step-title-wrap">
+              <span class="step-badge">3</span>
+              <h2 class="step-title">Enhance Your Experience (Optional Add-ons)</h2>
+            </div>
+
+            <div class="option-pill-grid option-pill-grid-wide">
+              <!-- Add-on 1 -->
+              <label class="option-pill-card">
+                <input type="checkbox" id="addon-guide" class="booking-addon" value="Dedicated Tour Guide" data-price="6000" onchange="calculateTotal()">
+                <div class="option-pill-content option-pill-content-left">
+                  <div style="font-size: 22px; color: var(--sunset-accent);"><i class="ph ph-user-gear"></i></div>
+                  <div>
+                    <div class="option-pill-title">Dedicated Tour Guide</div>
+                    <div class="option-pill-desc">Expert local guides native to Hunza/Skardu</div>
+                  </div>
+                  <div class="option-pill-price option-pill-price-right">Rs 6,000</div>
+                </div>
+              </label>
+
+              <!-- Add-on 2 -->
+              <label class="option-pill-card">
+                <input type="checkbox" id="addon-photo" class="booking-addon" value="Professional Photographer" data-price="9000" onchange="calculateTotal()">
+                <div class="option-pill-content option-pill-content-left">
+                  <div style="font-size: 22px; color: var(--sunset-accent);"><i class="ph ph-camera"></i></div>
+                  <div>
+                    <div class="option-pill-title">Professional Photographer</div>
+                    <div class="option-pill-desc">Get high-res edited memories of your trip</div>
+                  </div>
+                  <div class="option-pill-price option-pill-price-right">Rs 9,000</div>
+                </div>
+              </label>
+
+              <!-- Add-on 3 -->
+              <label class="option-pill-card">
+                <input type="checkbox" id="addon-airport" class="booking-addon" value="Airport Transfer" data-price="4000" onchange="calculateTotal()">
+                <div class="option-pill-content option-pill-content-left">
+                  <div style="font-size: 22px; color: var(--sunset-accent);"><i class="ph ph-car"></i></div>
+                  <div>
+                    <div class="option-pill-title">Airport Pickup & Dropoff</div>
+                    <div class="option-pill-desc">Private sedan transfer in Islamabad/Rawalpindi</div>
+                  </div>
+                  <div class="option-pill-price option-pill-price-right">Rs 4,000</div>
+                </div>
+              </label>
+
+              <!-- Add-on 4 -->
+              <label class="option-pill-card">
+                <input type="checkbox" id="addon-hotel" class="booking-addon" value="Room Upgrade" data-price="12000" onchange="calculateTotal()">
+                <div class="option-pill-content option-pill-content-left">
+                  <div style="font-size: 22px; color: var(--sunset-accent);"><i class="ph ph-buildings"></i></div>
+                  <div>
+                    <div class="option-pill-title">Hotel Room Upgrade</div>
+                    <div class="option-pill-desc">Premium views & deluxe room sizing</div>
+                  </div>
+                  <div class="option-pill-price option-pill-price-right">Rs 12,000</div>
+                </div>
+              </label>
+            </div>
+          </div>
+
+          <!-- STEP 4: CONTACT INFO -->
+          <div class="booking-step-section">
+            <div class="step-title-wrap">
+              <span class="step-badge">4</span>
+              <h2 class="step-title">Billing & Lead Traveler Information</h2>
+            </div>
+
+            <div class="form-group-row form-group-row-2">
+              <div>
+                <label class="form-field-label" for="booking-name">Full Name</label>
+                <input type="text" id="booking-name" class="booking-input" required placeholder="John Doe" oninput="calculateTotal()">
+              </div>
+              <div>
+                <label class="form-field-label" for="booking-phone">Phone / WhatsApp Number</label>
+                <input type="tel" id="booking-phone" class="booking-input" required placeholder="03XXXXXXXXX" oninput="calculateTotal()">
+              </div>
+            </div>
+
+            <div class="form-group-row">
+              <div>
+                <label class="form-field-label" for="booking-email">Email Address</label>
+                <input type="email" id="booking-email" class="booking-input" required placeholder="john@example.com" oninput="calculateTotal()">
+              </div>
+            </div>
+
+            <div class="form-group-row" style="margin-top: 12px;">
+              <div>
+                <label class="form-field-label" for="booking-requirements">Special Requests or Instructions</label>
+                <textarea id="booking-requirements" class="booking-textarea" rows="4" placeholder="Flight details, food allergies, extra beds, custom routes..."></textarea>
+              </div>
+            </div>
+          </div>
+
+        </form>
+      </section>
+
+      <!-- Live Invoice Summary Sticky Panel -->
+      <section class="booking-summary-panel">
+        <h2 class="invoice-title">Booking Summary</h2>
+        
+        <!-- Interactive Tour Hero Thumbnail -->
+        <div style="position: relative; height: 160px; border-radius: var(--radius-md); overflow: hidden; margin-bottom: 24px;">
+          <img id="summary-tour-img" src="bg_image.webp" alt="Selected Destination" style="width: 100%; height: 100%; object-fit: cover;">
+          <div style="position: absolute; inset: 0; background: linear-gradient(to top, rgba(9, 15, 6, 0.85) 0%, transparent 100%);"></div>
+          <div style="position: absolute; bottom: 16px; left: 16px; right: 16px;">
+            <div id="summary-tour-location" style="font-size: 10.5px; font-weight: 700; color: var(--sunset-accent); text-transform: uppercase; letter-spacing: 0.1em; margin-bottom: 2px;">Pakistan Frontiers</div>
+            <h3 id="summary-tour-title" style="font-size: 15.5px; font-weight: 700; color: var(--snow-peak); line-height: 1.2;">Custom Itinerary Booking</h3>
+          </div>
+        </div>
+
+        <!-- Hidden printable block for print format client details -->
+        <div id="print-client-details-row" style="display: none;">
+          <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 15px;">
+            <div><strong>Lead Traveler:</strong> <span id="print-client-name">—</span></div>
+            <div><strong>Phone / WhatsApp:</strong> <span id="print-client-phone">—</span></div>
+            <div><strong>Email:</strong> <span id="print-client-email">—</span></div>
+            <div><strong>Departure Date:</strong> <span id="print-client-date">—</span></div>
+            <div style="grid-column: 1 / -1;"><strong>Special Instructions:</strong> <span id="print-client-reqs">—</span></div>
+          </div>
+        </div>
+
+        <div class="invoice-item-list">
+          <!-- Dynamically populated invoice items -->
+          <div class="invoice-row">
+            <span>Selected Package Surcharge:</span>
+            <span id="invoice-package-price">Rs 0</span>
+          </div>
+          <div class="invoice-row">
+            <span>Adults (Count x Base):</span>
+            <span id="invoice-adults-price">Rs 0</span>
+          </div>
+          <div class="invoice-row" id="invoice-children-row" style="display: none;">
+            <span>Children (50% Off):</span>
+            <span id="invoice-children-price">Rs 0</span>
+          </div>
+          <div class="invoice-row" id="invoice-addons-row" style="display: none;">
+            <span>Optional Add-ons:</span>
+            <span id="invoice-addons-price">Rs 0</span>
+          </div>
+          <div class="invoice-row promo" id="invoice-promo-row" style="display: none;">
+            <span>Discount Applied:</span>
+            <span id="invoice-promo-val">-Rs 0</span>
+          </div>
+        </div>
+
+        <div class="invoice-divider"></div>
+
+        <div class="invoice-total-row">
+          <span class="invoice-total-label">Total Payable:</span>
+          <span class="invoice-total-val" id="invoice-grand-total">Rs 0</span>
+        </div>
+
+        <!-- Promo Code Box -->
+        <div class="promo-container">
+          <input type="text" id="promo-code-input" class="promo-input" placeholder="Promo Code">
+          <button type="button" class="promo-btn" onclick="applyPromo()">Apply</button>
+        </div>
+        <div id="promo-msg" style="font-size: 11px; margin-top: 6px; display: none;"></div>
+
+        <!-- Checkout Buttons -->
+        <div style="display: flex; flex-direction: column; gap: 12px; margin-top: 28px;">
+          <button type="button" class="btn btn-secondary btn-lg" onclick="checkoutWhatsApp()" style="width: 100%; border: none;">
+            <i class="ph ph-whatsapp-logo" style="font-size: 20px;"></i> Book via WhatsApp
+          </button>
+          
+          <button type="button" class="btn btn-outline-white btn-sm" onclick="printInvoice()" style="width: 100%; padding: 10px; font-size: 13px;">
+            <i class="ph ph-printer"></i> Download Booking Invoice
+          </button>
+        </div>
+      </section>
+    </div>
+    
+  </main>
+  <!-- END: Booking Layout Section -->
+
+  <!-- BEGIN: Footer -->
+  <footer class="footer section-ambient-warm" style="background: rgba(9, 15, 6, 0.98); border-top: 1px solid rgba(255,255,255,0.06); padding: 64px 0 32px 0;">
+    <div class="container">
+      <div class="grid-container" style="gap: 40px; margin-bottom: 48px;">
+        <div class="col-span-4" style="display: flex; flex-direction: column; gap: 20px;">
+          <a href="index.html" class="logo"><img src="logo.webp" alt="Safar Silsila Logo" style="height: 52px; width: auto; object-fit: contain;"></a>
+          <p class="body-md opacity-60" style="font-size: 13.5px;">Safar Silsila is a logistics-led Pakistan travel company organizing premium mountain escapes, family departures, honeymoon trips, and custom corporate tours across Northern Areas.</p>
+          <div class="d-flex gap-4" style="font-size: 20px; color: var(--sunset-accent);">
+            <a href="https://www.facebook.com/safarsilsila" target="_blank" class="hover-glow"><i class="ph ph-facebook-logo"></i></a>
+            <a href="https://www.instagram.com/safarsilsila" target="_blank" class="hover-glow"><i class="ph ph-instagram-logo"></i></a>
+            <a href="https://wa.me/923111145456" target="_blank" class="hover-glow"><i class="ph ph-whatsapp-logo"></i></a>
+          </div>
+        </div>
+        
+        <div class="col-span-4">
+          <h3 style="font-size: 13px; font-weight: 700; color: var(--sunset-accent); text-transform: uppercase; letter-spacing: 0.15em; margin-bottom: 24px;">Quick Links</h3>
+          <ul style="display: grid; grid-template-columns: 1fr 1fr; gap: 12px; font-size: 14px;">
+            <li><a href="index.html" style="color: rgba(255,255,255,0.7);">Home</a></li>
+            <li><a href="tours.html" style="color: rgba(255,255,255,0.7);">Tours</a></li>
+            <li><a href="custom-tour.html" style="color: rgba(255,255,255,0.7);">Custom Plan</a></li>
+            <li><a href="transport.html" style="color: rgba(255,255,255,0.7);">Transport</a></li>
+            <li><a href="blogs.html" style="color: rgba(255,255,255,0.7);">Travel Blog</a></li>
+            <li><a href="about.html" style="color: rgba(255,255,255,0.7);">About Us</a></li>
+            <li><a href="contact.html" style="color: rgba(255,255,255,0.7);">Contact</a></li>
+          </ul>
+        </div>
+        
+        <div class="col-span-4" style="display: flex; flex-direction: column; gap: 16px;">
+          <h3 style="font-size: 13px; font-weight: 700; color: var(--sunset-accent); text-transform: uppercase; letter-spacing: 0.15em; margin-bottom: 8px;">Contact Info</h3>
+          <ul style="display: flex; flex-direction: column; gap: 14px; font-size: 14px; color: rgba(255,255,255,0.75);">
+            <li class="d-flex gap-3"><i class="ph ph-map-pin text-sunset-accent" style="font-size: 18px;"></i> Office #12, First Floor, Karakoram Heights, Islamabad</li>
+            <li class="d-flex gap-3"><i class="ph ph-phone text-sunset-accent" style="font-size: 18px;"></i> +92 311 1145456</li>
+            <li class="d-flex gap-3"><i class="ph ph-envelope text-sunset-accent" style="font-size: 18px;"></i> booking@safarsilsila.pk</li>
+          </ul>
+        </div>
+      </div>
+      
+      <div style="border-top: 1px solid rgba(255,255,255,0.06); padding-top: 24px; text-align: center; font-size: 12px; color: rgba(255,255,255,0.45);">
+        <p>&copy; 2026 Safar Silsila Travel Agency. All rights reserved. Crafted for Northern Pakistan Explorers.</p>
+      </div>
+    </div>
+  </footer>
+  <!-- END: Footer -->
+
+  <!-- Floating Action Buttons -->
+  <div style="position: fixed; bottom: 24px; right: 24px; display: flex; flex-direction: column; gap: 12px; z-index: 999;">
+    <a href="#" class="whatsapp-action hover-scale" style="width: 54px; height: 54px; background-color: #25D366; border-radius: 50%; display: flex; align-items: center; justify-content: center; color: white; font-size: 28px; box-shadow: 0 4px 16px rgba(37,211,102,0.4); text-decoration: none;">
+      <i class="ph ph-whatsapp-logo"></i>
+    </a>
+  </div>
+
+  <!-- Script Modules -->
+  <script src="tour-data.js"></script>
+  <script src="blog-data.js"></script>
+  <script src="main.js"></script>
+
+  <!-- Live Booking Portal Calculator Logic -->
+  <script>
+    let adultsCount = 1;
+    let childrenCount = 0;
+    let appliedPromo = null;
+
+    const tourSelect = document.getElementById('booking-tour-select');
+    const packageContainer = document.getElementById('package-options-container');
+    const tourHeroImg = document.getElementById('summary-tour-img');
+    const tourHeroLocation = document.getElementById('summary-tour-location');
+    const tourHeroTitle = document.getElementById('summary-tour-title');
+    
+    // Summary row elements
+    const invoicePackagePrice = document.getElementById('invoice-package-price');
+    const invoiceAdultsPrice = document.getElementById('invoice-adults-price');
+    const invoiceChildrenRow = document.getElementById('invoice-children-row');
+    const invoiceChildrenPrice = document.getElementById('invoice-children-price');
+    const invoiceAddonsRow = document.getElementById('invoice-addons-row');
+    const invoiceAddonsPrice = document.getElementById('invoice-addons-price');
+    const invoicePromoRow = document.getElementById('invoice-promo-row');
+    const invoicePromoVal = document.getElementById('invoice-promo-val');
+    const invoiceGrandTotal = document.getElementById('invoice-grand-total');
+
+    // Counters
+    const countAdults = document.getElementById('count-adults');
+    const countChildren = document.getElementById('count-children');
+
+    document.addEventListener('DOMContentLoaded', () => {
+      // Set tomorrow's date as default minimum date
+      const dateInput = document.getElementById('booking-start-date');
+      const tomorrow = new Date();
+      tomorrow.setDate(tomorrow.getDate() + 1);
+      dateInput.min = tomorrow.toISOString().split('T')[0];
+      dateInput.value = tomorrow.toISOString().split('T')[0];
+
+      // Populate tours dropdown from window.TOUR_DATA
+      if (window.TOUR_DATA) {
+        Object.values(window.TOUR_DATA).forEach(tour => {
+          const option = document.createElement('option');
+          option.value = tour.id;
+          option.textContent = tour.title;
+          tourSelect.appendChild(option);
+        });
+      }
+
+      // Read query parameters
+      const urlParams = new URLSearchParams(window.location.search);
+      const selectedTour = urlParams.get('tour');
+      const selectedPackage = urlParams.get('package');
+      const paramTravelers = parseInt(urlParams.get('travelers'));
+      const paramDate = urlParams.get('date');
+      const paramName = urlParams.get('name');
+      const paramPhone = urlParams.get('phone');
+      const paramEmail = urlParams.get('email');
+
+      if (selectedTour) {
+        tourSelect.value = selectedTour;
+      }
+      if (paramTravelers && paramTravelers > 0) {
+        adultsCount = paramTravelers;
+        countAdults.textContent = adultsCount;
+      }
+      if (paramDate) {
+        dateInput.value = paramDate;
+      }
+      if (paramName) {
+        document.getElementById('booking-name').value = paramName;
+      }
+      if (paramPhone) {
+        document.getElementById('booking-phone').value = paramPhone;
+      }
+      if (paramEmail) {
+        document.getElementById('booking-email').value = paramEmail;
+      }
+
+      // Initialize dropdown
+      onTourChange();
+
+      // If package is passed in query, auto-check it
+      if (selectedPackage) {
+        setTimeout(() => {
+          const radios = document.getElementsByName('booking-package');
+          for (let r of radios) {
+            if (r.value === selectedPackage) {
+              r.checked = true;
+              break;
+            }
+          }
+          calculateTotal();
+        }, 100);
+      }
+    });
+
+    function updateCounter(type, change) {
+      if (type === 'adults') {
+        adultsCount = Math.max(1, adultsCount + change);
+        countAdults.textContent = adultsCount;
+      } else if (type === 'children') {
+        childrenCount = Math.max(0, childrenCount + change);
+        countChildren.textContent = childrenCount;
+      }
+      calculateTotal();
+    }
+
+    function onTourChange() {
+      const tourId = tourSelect.value;
+      packageContainer.innerHTML = '';
+
+      if (tourId && tourId !== 'custom' && window.TOUR_DATA && window.TOUR_DATA[tourId]) {
+        const tour = window.TOUR_DATA[tourId];
+        tourHeroImg.src = tour.image;
+        tourHeroLocation.innerText = tour.location;
+        tourHeroTitle.innerText = tour.title;
+
+        // Generate package cards
+        const availablePkgs = tour.packages.filter(p => p.status !== 'unavailable' && p.price !== 'N/A');
+        packageContainer.innerHTML = availablePkgs.map((pkg, idx) => `
+          <label class="option-pill-card">
+            <input type="radio" name="booking-package" value="${pkg.name}" data-price="${pkg.price}" ${idx === 0 ? 'checked' : ''} onchange="calculateTotal()">
+            <div class="option-pill-content">
+              <div class="option-pill-title">${pkg.name}</div>
+              <div class="option-pill-desc">${pkg.features[0] || 'Standard Plan'}</div>
+              <div class="option-pill-price">Rs ${pkg.price}</div>
+            </div>
+          </label>
+        `).join('');
+      } else {
+        // Custom Itinerary defaults
+        tourHeroImg.src = 'bg_image.webp';
+        tourHeroLocation.innerText = 'Northern Pakistan';
+        tourHeroTitle.innerText = 'Custom Tour Itinerary';
+
+        packageContainer.innerHTML = `
+          <label class="option-pill-card">
+            <input type="radio" name="booking-package" value="Standard Package (Quad Sharing)" data-price="35,000" checked onchange="calculateTotal()">
+            <div class="option-pill-content">
+              <div class="option-pill-title">Standard Package (Quad Sharing)</div>
+              <div class="option-pill-desc">Ideal for budget family groups</div>
+              <div class="option-pill-price">Rs 35,000</div>
+            </div>
+          </label>
+          <label class="option-pill-card">
+            <input type="radio" name="booking-package" value="Standard Package (Twin Sharing)" data-price="42,000" onchange="calculateTotal()">
+            <div class="option-pill-content">
+              <div class="option-pill-title">Standard Package (Twin Sharing)</div>
+              <div class="option-pill-desc">Recommended for couples and friends</div>
+              <div class="option-pill-price">Rs 42,000</div>
+            </div>
+          </label>
+          <label class="option-pill-card">
+            <input type="radio" name="booking-package" value="Deluxe Package (Twin Sharing)" data-price="58,500" onchange="calculateTotal()">
+            <div class="option-pill-content">
+              <div class="option-pill-title">Deluxe Package (Twin Sharing)</div>
+              <div class="option-pill-desc">Premium hotels and cabin upgrades</div>
+              <div class="option-pill-price">Rs 58,500</div>
+            </div>
+          </label>
+        `;
+      }
+      calculateTotal();
+    }
+
+    function calculateTotal() {
+      // 1. Get package price
+      const selectedPkgRadio = document.querySelector('input[name="booking-package"]:checked');
+      if (!selectedPkgRadio) return;
+
+      const basePrice = parseFloat(selectedPkgRadio.dataset.price.replace(/,/g, ''));
+      invoicePackagePrice.innerText = `Rs ${basePrice.toLocaleString()}`;
+
+      // 2. Adults cost
+      const adultsCost = basePrice * adultsCount;
+      invoiceAdultsPrice.innerText = `Rs ${adultsCost.toLocaleString()}`;
+
+      // 3. Children cost (50% Off)
+      let childrenCost = 0;
+      if (childrenCount > 0) {
+        invoiceChildrenRow.style.display = 'flex';
+        childrenCost = (basePrice * 0.5) * childrenCount;
+        invoiceChildrenPrice.innerText = `Rs ${childrenCost.toLocaleString()}`;
+      } else {
+        invoiceChildrenRow.style.display = 'none';
+      }
+
+      // 4. Add-ons cost
+      let addonsCost = 0;
+      const selectedAddons = document.querySelectorAll('.booking-addon:checked');
+      if (selectedAddons.length > 0) {
+        invoiceAddonsRow.style.display = 'flex';
+        selectedAddons.forEach(addon => {
+          addonsCost += parseFloat(addon.dataset.price);
+        });
+        invoiceAddonsPrice.innerText = `Rs ${addonsCost.toLocaleString()}`;
+      } else {
+        invoiceAddonsRow.style.display = 'none';
+      }
+
+      // 5. Total before discount
+      const subtotal = adultsCost + childrenCost + addonsCost;
+
+      // 6. Apply Promo Code
+      let discountVal = 0;
+      if (appliedPromo === 'SAFARSILSILA') {
+        discountVal = Math.round(subtotal * 0.05); // 5% Off
+      } else if (appliedPromo === 'MOUNTAINWELCOME') {
+        discountVal = 2000; // Flat PKR 2,000 Off
+      }
+
+      if (discountVal > 0) {
+        invoicePromoRow.style.display = 'flex';
+        invoicePromoVal.innerText = `-Rs ${discountVal.toLocaleString()}`;
+      } else {
+        invoicePromoRow.style.display = 'none';
+      }
+
+      // 7. Grand total
+      const grandTotal = Math.max(0, subtotal - discountVal);
+      invoiceGrandTotal.innerText = `Rs ${grandTotal.toLocaleString()}`;
+    }
+
+    function applyPromo() {
+      const promoInput = document.getElementById('promo-code-input');
+      const promoMsg = document.getElementById('promo-msg');
+      const code = promoInput.value.trim().toUpperCase();
+
+      if (!code) {
+        appliedPromo = null;
+        promoMsg.style.display = 'none';
+        calculateTotal();
+        return;
+      }
+
+      if (code === 'SAFARSILSILA') {
+        appliedPromo = 'SAFARSILSILA';
+        promoMsg.style.color = '#10b981';
+        promoMsg.innerText = 'Promo code "SAFARSILSILA" applied! 5% discount calculated.';
+        promoMsg.style.display = 'block';
+      } else if (code === 'MOUNTAINWELCOME') {
+        appliedPromo = 'MOUNTAINWELCOME';
+        promoMsg.style.color = '#10b981';
+        promoMsg.innerText = 'Promo code "MOUNTAINWELCOME" applied! Flat Rs 2,000 discount calculated.';
+        promoMsg.style.display = 'block';
+      } else {
+        appliedPromo = null;
+        promoMsg.style.color = '#ba1a1a';
+        promoMsg.innerText = 'Invalid Promo Code. Try "SAFARSILSILA".';
+        promoMsg.style.display = 'block';
+      }
+      calculateTotal();
+    }
+
+    function validateForm() {
+      const name = document.getElementById('booking-name').value.trim();
+      const phone = document.getElementById('booking-phone').value.trim();
+      const email = document.getElementById('booking-email').value.trim();
+      const date = document.getElementById('booking-start-date').value;
+
+      if (!name || !phone || !email || !date) {
+        alert('Please fill out all required billing and date fields.');
+        return false;
+      }
+      return true;
+    }
+
+    function checkoutWhatsApp() {
+      if (!validateForm()) return;
+
+      const tourId = tourSelect.value;
+      const tourTitle = tourId === 'custom' ? 'Custom Itinerary' : tourSelect.options[tourSelect.selectedIndex].text;
+      
+      const selectedPkgRadio = document.querySelector('input[name="booking-package"]:checked');
+      const packageName = selectedPkgRadio ? selectedPkgRadio.value : 'Standard';
+      
+      const date = document.getElementById('booking-start-date').value;
+      const flexible = document.getElementById('booking-flexible-dates').checked ? 'Yes' : 'No';
+      
+      const name = document.getElementById('booking-name').value;
+      const phone = document.getElementById('booking-phone').value;
+      const email = document.getElementById('booking-email').value;
+      const requirements = document.getElementById('booking-requirements').value || 'None';
+
+      const selectedAddons = Array.from(document.querySelectorAll('.booking-addon:checked')).map(a => a.value);
+      const addonsStr = selectedAddons.length > 0 ? selectedAddons.join(', ') : 'None';
+      
+      const totalCost = invoiceGrandTotal.innerText;
+
+      // Compile WhatsApp details message
+      const waMessage = `Hello Safar Silsila! I would like to book a trip via the online portal:\n\n` +
+        `🗺️ Tour: ${tourTitle}\n` +
+        `📦 Selected Package: ${packageName}\n` +
+        `📅 Travel Date: ${date} (Flexible: ${flexible})\n` +
+        `👥 Travelers: ${adultsCount} Adults, ${childrenCount} Children\n` +
+        `🎒 Optional Upgrades: ${addonsStr}\n` +
+        `💵 Applied Promo Code: ${appliedPromo || 'None'}\n` +
+        `💰 Total Price Calculated: ${totalCost}\n\n` +
+        `👤 Client Name: ${name}\n` +
+        `📞 Phone / WhatsApp: ${phone}\n` +
+        `✉️ Email: ${email}\n` +
+        `📝 Special Instructions:\n${requirements}`;
+
+      const waUrl = `https://wa.me/923111145456?text=${encodeURIComponent(waMessage)}`;
+      window.open(waUrl, '_blank');
+    }
+
+    function printInvoice() {
+      if (!validateForm()) return;
+
+      // Map values for printable invoice
+      document.getElementById('print-client-name').innerText = document.getElementById('booking-name').value;
+      document.getElementById('print-client-phone').innerText = document.getElementById('booking-phone').value;
+      document.getElementById('print-client-email').innerText = document.getElementById('booking-email').value;
+      document.getElementById('print-client-date').innerText = document.getElementById('booking-start-date').value + (document.getElementById('booking-flexible-dates').checked ? ' (Flexible)' : '');
+      document.getElementById('print-client-reqs').innerText = document.getElementById('booking-requirements').value || 'None';
+
+      // Launch system print dialog
+      window.print();
+    }
+  </script>
+</body>
+</html>

@@ -547,7 +547,7 @@
       </nav>
       
       <div class="header-actions">
-        <a href="custom-tour.html" class="btn btn-secondary btn-sm btn-book">Book Now</a>
+        <a href="booking.html" class="btn btn-secondary btn-sm btn-book">Book Now</a>
         <button class="nav-toggle" id="nav-toggle"><i class="ph ph-list"></i></button>
       </div>
     </div>
@@ -725,11 +725,11 @@
             </div>
 
             <button type="submit" class="sidebar-btn">
-              Submit Request <i class="ph ph-arrow-right"></i>
+              Proceed to Booking Portal <i class="ph ph-arrow-right"></i>
             </button>
 
-            <a id="whatsapp-direct-link" href="#" class="sidebar-whatsapp-action" target="_blank">
-              <i class="ph ph-whatsapp-logo" style="font-size: 20px;"></i> Chat on WhatsApp
+            <a id="whatsapp-direct-link" href="booking.html" class="sidebar-whatsapp-action" style="background: rgba(255,255,255,0.03); border: 1px solid rgba(255,255,255,0.1); color: var(--sunset-accent);">
+              <i class="ph ph-calendar-plus" style="font-size: 20px;"></i> Direct Booking Portal
             </a>
           </form>
         </div>
@@ -1056,20 +1056,22 @@
       `).join('');
     }
 
-    // Handle quote submissions and direct WhatsApp messages
+    // Handle dynamic booking link generation
     function updateWhatsAppLink() {
-      const name = encodeURIComponent(document.getElementById('booking-name').value || 'Guest');
-      const pkgVal = encodeURIComponent(document.getElementById('booking-package').value || '');
+      const name = encodeURIComponent(document.getElementById('booking-name').value || '');
+      const pkgVal = document.getElementById('booking-package').value || '';
+      let pkgName = pkgVal;
+      if (pkgName.includes(' (Rs ')) {
+        pkgName = pkgName.split(' (Rs ')[0];
+      }
       const travelers = encodeURIComponent(document.getElementById('booking-travelers').value || '1');
-      const date = encodeURIComponent(document.getElementById('booking-date').value || 'TBD');
+      const date = encodeURIComponent(document.getElementById('booking-date').value || '');
       
-      const message = `Hi Safar Silsila! I would like to book a trip.%0A%0A*Tour:* ${encodeURIComponent(tour.title)}%0A*Package:* ${pkgVal}%0A*Departure Date:* ${date}%0A*No. of Travelers:* ${travelers}%0A*My Name:* ${name}`;
-      
-      const whatsappUrl = `https://api.whatsapp.com/send?phone=923111145456&text=${message}`;
-      document.getElementById('whatsapp-direct-link').href = whatsappUrl;
+      const portalUrl = `booking.html?tour=${encodeURIComponent(tour.id)}&package=${encodeURIComponent(pkgName)}&travelers=${travelers}&date=${date}&name=${name}`;
+      document.getElementById('whatsapp-direct-link').href = portalUrl;
     }
 
-    // Add listeners to update the WhatsApp link dynamically as they type!
+    // Add listeners to update the Booking link dynamically as they type!
     document.getElementById('booking-name').addEventListener('input', updateWhatsAppLink);
     document.getElementById('booking-package').addEventListener('change', updateWhatsAppLink);
     document.getElementById('booking-travelers').addEventListener('input', updateWhatsAppLink);
@@ -1081,17 +1083,18 @@
       const name = document.getElementById('booking-name').value;
       const whatsapp = document.getElementById('booking-whatsapp').value;
       const email = document.getElementById('booking-email').value;
-      const pkg = document.getElementById('booking-package').value;
+      
+      let pkgVal = document.getElementById('booking-package').value;
+      if (pkgVal.includes(' (Rs ')) {
+        pkgVal = pkgVal.split(' (Rs ')[0];
+      }
+      
       const date = document.getElementById('booking-date').value;
       const travelers = document.getElementById('booking-travelers').value;
 
-      // Construct message
-      const message = `Hi Safar Silsila! I just submitted a booking inquiry:%0A%0A*Tour:* ${encodeURIComponent(tour.title)}%0A*Package:* ${encodeURIComponent(pkg)}%0A*Departure Date:* ${date}%0A*No. of Travelers:* ${travelers}%0A*Name:* ${encodeURIComponent(name)}%0A*WhatsApp:* ${encodeURIComponent(whatsapp)}%0A*Email:* ${encodeURIComponent(email)}`;
-      
-      const whatsappUrl = `https://api.whatsapp.com/send?phone=923111145456&text=${message}`;
-      
-      // Redirect to WhatsApp
-      window.open(whatsappUrl, '_blank');
+      // Redirect to Booking Portal
+      const portalUrl = `booking.html?tour=${encodeURIComponent(tour.id)}&package=${encodeURIComponent(pkgVal)}&travelers=${encodeURIComponent(travelers)}&date=${encodeURIComponent(date)}&name=${encodeURIComponent(name)}&phone=${encodeURIComponent(whatsapp)}&email=${encodeURIComponent(email)}`;
+      window.location.href = portalUrl;
     }
   </script>
 </body>
