@@ -2854,6 +2854,10 @@ p, span, li, a, button, label, input, textarea {
   width: 100%;
   height: 100%;
   object-fit: contain;
+  background-color: #ffffff;
+  border-radius: 50%;
+  padding: 6px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
 }
 
 .preloader-center-icon svg {
@@ -4615,7 +4619,7 @@ p, span, li, a, button, label, input, textarea {
   }
 
   .booking-summary-panel::before {
-    content: "SAFAR SILSILA TRAVEL AGENCY\nOffice #12, First Floor, Karakoram Heights, Islamabad\n+92 311 1145456 | booking@safarsilsila.pk\n\nOFFICIAL BOOKING INVOICE";
+    content: "SAFAR SILSILA TRAVEL AGENCY\nIslamabad Office: Office #12, First Floor, Karakoram Heights, Islamabad\nKarachi Office: Building #7c Street-3, Office No 2, Badar Commercial, DHA Phase-V, Karachi\n+92 311 1145456 | booking@safarsilsila.pk\n\nOFFICIAL BOOKING INVOICE";
     display: block;
     text-align: center;
     font-family: 'Outfit', sans-serif;

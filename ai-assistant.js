@@ -736,11 +736,13 @@
     }
 
     // C5. Office Location & Address
-    if (normalized.includes("address") || normalized.includes("office") || normalized.includes("location") || normalized.includes("where are you") || normalized.includes("islamabad") || normalized.includes("lahore")) {
+    if (normalized.includes("address") || normalized.includes("office") || normalized.includes("location") || normalized.includes("where are you") || normalized.includes("islamabad") || normalized.includes("karachi") || normalized.includes("lahore")) {
       return {
-        text: "You are welcome to visit us! Safar Silsila's head office is located in Islamabad:\n\n" +
-              "📍 **Address**:\n" +
-              "Office # 9, First Floor, Aslam Business Square, FECHS E-11/2, Islamabad, 44034, Pakistan.\n\n" +
+        text: "You are welcome to visit us! Safar Silsila has offices in Islamabad and Karachi:\n\n" +
+              "📍 **Islamabad Office**:\n" +
+              "Office # 9, First Floor, Aslam Business Square, FECHS E-11/2, Islamabad, Pakistan.\n\n" +
+              "📍 **Karachi Office**:\n" +
+              "Building #7c Street-3, Office No 2, Badar Commercial, DHA Phase-V, Karachi, Pakistan.\n\n" +
               "🕒 **Timings**: Monday to Saturday, 10:00 AM to 06:00 PM.\n" +
               "📞 **Phone/WhatsApp**: +92 311 1145456\n\n" +
               "Group departures are organized from **Lahore** (Daewoo Terminal, Thokar Niaz Baig) and **Islamabad** (G-11 Metro Station / Highway junction points). Private tours can start from any city of your choice!",
@@ -758,7 +760,9 @@
         text: "You can reach Safar Silsila through our official channels for instant queries and bookings:\n\n" +
               "- 📞 **Phone & WhatsApp**: [+92 311 1145456](https://wa.me/923111145456)\n" +
               "- ✉️ **Email**: info@safarsilsila.com\n" +
-              "- 📍 **Office Address**: Office # 9, First Floor, Aslam Business Square, FECHS E-11/2, Islamabad, Pakistan.\n\n" +
+              "- 📍 **Office Addresses**:\n" +
+              "  1. *Islamabad*: Office # 9, First Floor, Aslam Business Square, FECHS E-11/2, Islamabad, Pakistan.\n" +
+              "  2. *Karachi*: Building #7c Street-3, Office No 2, Badar Commercial, DHA Phase-V, Karachi, Pakistan.\n\n" +
               "Would you like to open a direct WhatsApp chat to book your tour? Just click the link above or let me know!",
         suggestions: [
           { text: "💬 Open Chat in WhatsApp", query: "Open WhatsApp chat" },
