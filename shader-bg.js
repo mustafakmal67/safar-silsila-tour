@@ -1,5 +1,5 @@
 /**
- * shader-bg.js — Roamistan Cinematic WebGL Background
+ * shader-bg.js — Safar Silsila Cinematic WebGL Background
  * Organic domain-warped FBM flow in deep forest greens, olive, warm gold, evergreen.
  * Visibly animated, smooth, elegant — not distracting.
  */

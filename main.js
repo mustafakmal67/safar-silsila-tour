@@ -501,4 +501,309 @@ document.addEventListener('DOMContentLoaded', () => {
       }
     });
   }
+
+  // ==========================================================================
+  // DYNAMIC SEARCH TRIGGER & OVERLAY SYSTEM
+  // ==========================================================================
+  
+  // 1. Dynamic injection of Search button in header actions
+  const headerActions = document.querySelector('.header-actions');
+  if (headerActions) {
+    const searchTrigger = document.createElement('button');
+    searchTrigger.id = 'global-search-trigger';
+    searchTrigger.className = 'search-trigger';
+    searchTrigger.innerHTML = '<i class="ph ph-magnifying-glass"></i>';
+    searchTrigger.title = 'Search (Ctrl+K)';
+    searchTrigger.style.cssText = `
+      background: none;
+      border: none;
+      color: rgba(255,255,255,0.8);
+      cursor: pointer;
+      font-size: 20px;
+      padding: 6px;
+      border-radius: var(--radius-full);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: all 0.2s ease;
+    `;
+    
+    searchTrigger.addEventListener('mouseenter', () => {
+      searchTrigger.style.color = 'var(--sunset-accent)';
+      searchTrigger.style.background = 'rgba(255,255,255,0.08)';
+    });
+    searchTrigger.addEventListener('mouseleave', () => {
+      searchTrigger.style.color = 'rgba(255,255,255,0.8)';
+      searchTrigger.style.background = 'none';
+    });
+
+    headerActions.insertBefore(searchTrigger, headerActions.firstChild);
+  }
+
+  // 2. Dynamic injection of Search Modal Overlay HTML
+  const searchModalHTML = `
+    <div id="search-modal" class="search-modal-overlay">
+      <div class="search-modal-container">
+        <div class="search-modal-header">
+          <i class="ph ph-magnifying-glass search-modal-icon"></i>
+          <input type="text" id="search-modal-input" placeholder="Search tours, destinations, blogs..." autocomplete="off">
+          <button id="search-modal-close" class="search-modal-close-btn"><i class="ph ph-x"></i></button>
+        </div>
+        <div class="search-modal-body">
+          <div id="search-results-tours" class="search-results-section" style="display: none;">
+            <h3>Tours & Packages</h3>
+            <div class="search-results-list" id="tours-results-list"></div>
+          </div>
+          <div id="search-results-blogs" class="search-results-section" style="display: none;">
+            <h3>Travel Blog & Guides</h3>
+            <div class="search-results-list" id="blogs-results-list"></div>
+          </div>
+          <div id="search-results-empty" class="search-results-empty-state">
+            <i class="ph ph-magnifying-glass" id="empty-state-icon"></i>
+            <p id="empty-state-text">Type to search for tours and articles across Pakistan</p>
+          </div>
+        </div>
+        <div class="search-modal-footer">
+          <span><kbd>ESC</kbd> Close</span>
+          <span><kbd>↑↓</kbd> Navigate</span>
+          <span><kbd>↵</kbd> Select</span>
+        </div>
+      </div>
+    </div>
+  `;
+  const modalWrapper = document.createElement('div');
+  modalWrapper.innerHTML = searchModalHTML;
+  document.body.appendChild(modalWrapper.firstElementChild);
+
+  // 3. Search Interactivity & Logic
+  const searchModal = document.getElementById('search-modal');
+  const searchInput = document.getElementById('search-modal-input');
+  const searchClose = document.getElementById('search-modal-close');
+  const toursSection = document.getElementById('search-results-tours');
+  const toursList = document.getElementById('tours-results-list');
+  const blogsSection = document.getElementById('search-results-blogs');
+  const blogsList = document.getElementById('blogs-results-list');
+  const emptyState = document.getElementById('search-results-empty');
+  const emptyIcon = document.getElementById('empty-state-icon');
+  const emptyText = document.getElementById('empty-state-text');
+  
+  let activeIndex = -1;
+  let resultItems = [];
+
+  const openSearch = () => {
+    searchModal.classList.add('open');
+    document.body.style.overflow = 'hidden';
+    setTimeout(() => searchInput.focus(), 50);
+    resetSearch();
+  };
+
+  const closeSearch = () => {
+    searchModal.classList.remove('open');
+    document.body.style.overflow = '';
+    searchInput.value = '';
+  };
+
+  const resetSearch = () => {
+    toursSection.style.display = 'none';
+    blogsSection.style.display = 'none';
+    emptyState.style.display = 'block';
+    emptyIcon.className = 'ph ph-magnifying-glass';
+    emptyText.innerHTML = 'Type to search for tours and articles across Pakistan';
+    activeIndex = -1;
+    resultItems = [];
+  };
+
+  const highlightText = (text, query) => {
+    if (!query) return text;
+    const escapedQuery = query.replace(/[-\/\\^$*+?.()|[\]{}]/g, '\\$&');
+    const regex = new RegExp(`(${escapedQuery})`, 'gi');
+    return text.replace(regex, '<mark class="search-highlight">$1</mark>');
+  };
+
+  const performSearch = () => {
+    const query = searchInput.value.trim().toLowerCase();
+    if (!query) {
+      resetSearch();
+      return;
+    }
+
+    toursList.innerHTML = '';
+    blogsList.innerHTML = '';
+    
+    let tourMatches = [];
+    let blogMatches = [];
+
+    if (window.TOUR_DATA) {
+      for (const [key, tour] of Object.entries(window.TOUR_DATA)) {
+        const title = tour.title || '';
+        const location = tour.location || '';
+        const about = tour.about || '';
+        const highlights = (tour.highlights || []).join(' ');
+        
+        if (
+          title.toLowerCase().includes(query) ||
+          location.toLowerCase().includes(query) ||
+          about.toLowerCase().includes(query) ||
+          highlights.toLowerCase().includes(query)
+        ) {
+          tourMatches.push(tour);
+        }
+      }
+    }
+
+    if (window.BLOG_DATA) {
+      for (const [key, blog] of Object.entries(window.BLOG_DATA)) {
+        const title = blog.title || '';
+        const summary = blog.summary || '';
+        const category = blog.category || '';
+        const keywords = blog.keywords || '';
+        const contentStr = (blog.content || []).map(c => c.text || '').join(' ');
+
+        if (
+          title.toLowerCase().includes(query) ||
+          summary.toLowerCase().includes(query) ||
+          category.toLowerCase().includes(query) ||
+          keywords.toLowerCase().includes(query) ||
+          contentStr.toLowerCase().includes(query)
+        ) {
+          blogMatches.push(blog);
+        }
+      }
+    }
+
+    if (tourMatches.length === 0 && blogMatches.length === 0) {
+      toursSection.style.display = 'none';
+      blogsSection.style.display = 'none';
+      emptyState.style.display = 'block';
+      emptyIcon.className = 'ph ph-folder-open';
+      emptyText.innerHTML = `No results found for "<strong>${escapeHtml(searchInput.value)}</strong>"`;
+      resultItems = [];
+      activeIndex = -1;
+      return;
+    }
+
+    emptyState.style.display = 'none';
+    resultItems = [];
+
+    if (tourMatches.length > 0) {
+      toursSection.style.display = 'block';
+      tourMatches.forEach(tour => {
+        const item = document.createElement('a');
+        item.href = `tour-details.html?tour=${tour.id}`;
+        item.className = 'search-result-item';
+        item.innerHTML = `
+          <img class="search-result-img" src="${tour.image}" alt="${tour.title}">
+          <div class="search-result-info">
+            <h4 class="search-result-title">${highlightText(tour.title, query)}</h4>
+            <div class="search-result-meta">
+              <span><i class="ph ph-map-pin"></i> ${highlightText(tour.location, query)}</span>
+              <span><i class="ph ph-clock"></i> ${tour.duration}</span>
+              <span><i class="ph ph-tag"></i> Rs ${tour.price}</span>
+            </div>
+          </div>
+          <span class="search-result-badge">${tour.difficulty || 'Tour'}</span>
+        `;
+        toursList.appendChild(item);
+        resultItems.push(item);
+      });
+    } else {
+      toursSection.style.display = 'none';
+    }
+
+    if (blogMatches.length > 0) {
+      blogsSection.style.display = 'block';
+      blogMatches.forEach(blog => {
+        const item = document.createElement('a');
+        item.href = `blog-details.html?post=${blog.id}`;
+        item.className = 'search-result-item';
+        item.innerHTML = `
+          <img class="search-result-img" src="${blog.image}" alt="${blog.title}">
+          <div class="search-result-info">
+            <h4 class="search-result-title">${highlightText(blog.title, query)}</h4>
+            <div class="search-result-meta">
+              <span><i class="ph ph-calendar"></i> ${blog.date}</span>
+              <span><i class="ph ph-clock"></i> ${blog.readTime}</span>
+            </div>
+          </div>
+          <span class="search-result-badge" style="background: rgba(255,255,255,0.06); color: var(--sunset-accent); border: 1px solid rgba(163, 184, 123, 0.25);">${blog.category}</span>
+        `;
+        blogsList.appendChild(item);
+        resultItems.push(item);
+      });
+    } else {
+      blogsSection.style.display = 'none';
+    }
+
+    activeIndex = -1;
+  };
+
+  const escapeHtml = (text) => {
+    return text
+      .replace(/&/g, "&amp;")
+      .replace(/</g, "&lt;")
+      .replace(/>/g, "&gt;")
+      .replace(/"/g, "&quot;")
+      .replace(/'/g, "&#039;");
+  };
+
+  const updateActiveItem = () => {
+    resultItems.forEach((item, idx) => {
+      if (idx === activeIndex) {
+        item.classList.add('active');
+        item.scrollIntoView({ block: 'nearest' });
+      } else {
+        item.classList.remove('active');
+      }
+    });
+  };
+
+  searchInput.addEventListener('keydown', (e) => {
+    if (resultItems.length === 0) return;
+
+    if (e.key === 'ArrowDown') {
+      e.preventDefault();
+      activeIndex = (activeIndex + 1) % resultItems.length;
+      updateActiveItem();
+    } else if (e.key === 'ArrowUp') {
+      e.preventDefault();
+      activeIndex = (activeIndex - 1 + resultItems.length) % resultItems.length;
+      updateActiveItem();
+    } else if (e.key === 'Enter') {
+      e.preventDefault();
+      if (activeIndex >= 0 && activeIndex < resultItems.length) {
+        resultItems[activeIndex].click();
+      } else if (resultItems.length > 0) {
+        resultItems[0].click();
+      }
+    }
+  });
+
+  const searchTriggerBtn = document.getElementById('global-search-trigger');
+  if (searchTriggerBtn) {
+    searchTriggerBtn.addEventListener('click', openSearch);
+  }
+  searchClose.addEventListener('click', closeSearch);
+  searchInput.addEventListener('input', performSearch);
+
+  searchModal.addEventListener('click', (e) => {
+    if (e.target === searchModal) {
+      closeSearch();
+    }
+  });
+
+  window.addEventListener('keydown', (e) => {
+    if ((e.ctrlKey || e.metaKey) && e.key === 'k') {
+      e.preventDefault();
+      searchModal.classList.contains('open') ? closeSearch() : openSearch();
+    }
+    if (e.key === 'Escape' && searchModal.classList.contains('open')) {
+      closeSearch();
+    }
+  });
+
+  // --- Dynamic AI Assistant Injection ---
+  const aiScript = document.createElement('script');
+  aiScript.src = 'ai-assistant.js';
+  aiScript.defer = true;
+  document.body.appendChild(aiScript);
 });

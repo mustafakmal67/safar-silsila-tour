@@ -4,6 +4,26 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
   <title>Tour Details | Safar Silsila</title>
+  <meta name="description" id="meta-description" content="View detailed itineraries, prices, inclusions, and exclusions for Safar Silsila's tour packages. Custom and group departures available.">
+  <meta name="keywords" content="Pakistan travel itinerary, Hunza tour plan, Skardu trip packages, Fairy Meadows hike cost">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" id="canonical-link" href="https://safarsilsila.pk/tour-details.html">
+  
+  <!-- OpenGraph Cards -->
+  <meta property="og:title" id="og-title" content="Tour Details | Safar Silsila">
+  <meta property="og:description" id="og-description" content="Explore detailed itineraries and booking options for Safar Silsila tours.">
+  <meta property="og:image" id="og-image" content="https://safarsilsila.pk/logo-square.webp">
+  <meta property="og:url" id="og-url" content="https://safarsilsila.pk/tour-details.html">
+  <meta property="og:type" content="website">
+  
+  <!-- Twitter Cards -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" id="twitter-title" content="Tour Details | Safar Silsila">
+  <meta name="twitter:description" id="twitter-description" content="Explore detailed itineraries and booking options for Safar Silsila tours.">
+  <meta name="twitter:image" id="twitter-image" content="https://safarsilsila.pk/logo-square.webp">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/x-icon" href="logo-square.webp">
   
   <!-- Phosphor Icons -->
   <link rel="stylesheet" type="text/css" href="phosphor.css">
@@ -521,6 +541,7 @@
         <a class="nav-link active" href="tours.html">Tours</a>
         <a class="nav-link" href="custom-tour.html">Custom Tour</a>
         <a class="nav-link" href="transport.html">Transport</a>
+        <a class="nav-link" href="blogs.html">Blog</a>
         <a class="nav-link" href="about.html">About</a>
         <a class="nav-link" href="contact.html">Contact</a>
       </nav>
@@ -808,6 +829,66 @@
     } else {
       // Dynamic rendering of details
       document.title = `${tour.title} | Safar Silsila`;
+
+      // Dynamic Meta Updates
+      const pageUrl = `https://safarsilsila.pk/tour-details.html?tour=${tour.id}`;
+      const shortDesc = tour.about.substring(0, 155) + '...';
+      
+      const metaDesc = document.getElementById('meta-description');
+      if (metaDesc) metaDesc.content = shortDesc;
+      
+      const canonical = document.getElementById('canonical-link');
+      if (canonical) canonical.href = pageUrl;
+
+      const ogTitle = document.getElementById('og-title');
+      if (ogTitle) ogTitle.content = tour.title;
+      
+      const ogDesc = document.getElementById('og-description');
+      if (ogDesc) ogDesc.content = shortDesc;
+      
+      const ogUrl = document.getElementById('og-url');
+      if (ogUrl) ogUrl.content = pageUrl;
+      
+      const ogImage = document.getElementById('og-image');
+      if (ogImage) ogImage.content = `https://safarsilsila.pk/${tour.image}`;
+      
+      const twTitle = document.getElementById('twitter-title');
+      if (twTitle) twTitle.content = tour.title;
+      
+      const twDesc = document.getElementById('twitter-description');
+      if (twDesc) twDesc.content = shortDesc;
+      
+      const twImage = document.getElementById('twitter-image');
+      if (twImage) twImage.content = `https://safarsilsila.pk/${tour.image}`;
+
+      // Injects Dynamic Product/Tour Schema (JSON-LD)
+      const schemaScript = document.createElement('script');
+      schemaScript.type = 'application/ld+json';
+      
+      const numericPrice = parseFloat(tour.price.replace(/,/g, '')) || 35000;
+      
+      const tourSchema = {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": tour.title,
+        "description": tour.about,
+        "image": `https://safarsilsila.pk/${tour.image}`,
+        "offers": {
+          "@type": "Offer",
+          "url": pageUrl,
+          "priceCurrency": "PKR",
+          "price": numericPrice,
+          "priceValidUntil": "2027-12-31",
+          "availability": "https://schema.org/InStock",
+          "seller": {
+            "@type": "Organization",
+            "name": "Safar Silsila",
+            "url": "https://safarsilsila.pk"
+          }
+        }
+      };
+      schemaScript.text = JSON.stringify(tourSchema);
+      document.head.appendChild(schemaScript);
       
       // Hero Details
       document.getElementById('hero-img').src = tour.image;

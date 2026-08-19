@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Safar Silsila Travel Blog | Northern Pakistan Travel Guides & Tips</title>
+  <meta name="description" content="Discover Pakistan's northern frontiers. Read our travel blogs, guides, tips, and itineraries for Hunza, Skardu, Fairy Meadows, Swat, and Azad Kashmir.">
+  <meta name="keywords" content="Pakistan travel blog, Hunza travel guide, Skardu itinerary, northern areas travel tips, Safar Silsila blog">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://safarsilsila.pk/blogs.html">
+  
+  <!-- OpenGraph Cards -->
+  <meta property="og:title" content="Safar Silsila Travel Blog | Northern Pakistan Travel Guides">
+  <meta property="og:description" content="Explore Pakistan's most beautiful destinations with our travel guides, packing lists, and detailed itineraries. Written by mountain logistics experts.">
+  <meta property="og:image" content="https://safarsilsila.pk/logo-square.webp">
+  <meta property="og:url" content="https://safarsilsila.pk/blogs.html">
+  <meta property="og:type" content="website">
+  
+  <!-- Twitter Cards -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Safar Silsila Travel Blog | Northern Pakistan Travel Guides">
+  <meta name="twitter:description" content="Explore Pakistan's most beautiful destinations with our travel guides, packing lists, and detailed itineraries. Written by mountain logistics experts.">
+  <meta name="twitter:image" content="https://safarsilsila.pk/logo-square.webp">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/x-icon" href="logo-square.webp">
+  
+  <!-- Phosphor Icons -->
+  <link rel="stylesheet" type="text/css" href="phosphor.css">
+  
+  <!-- Nomadic Horizon Stylesheet -->
+  <link rel="stylesheet" href="styles.css">
+
+  <!-- Structured Data (JSON-LD) Breadcrumbs -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [{
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://safarsilsila.pk/index.html"
+    },{
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Blog",
+      "item": "https://safarsilsila.pk/blogs.html"
+    }]
+  }
+  </script>
+</head>
+<body>
+
+  <!-- BEGIN: Preloader -->
+  <div id="preloader">
+    <div class="preloader-content">
+      <div class="preloader-spinner-wrap">
+        <div class="preloader-spinner"></div>
+        <div class="preloader-center-icon">
+          <img src="logo-square.webp" alt="Safar Silsila Logo">
+        </div>
+      </div>
+      <div class="preloader-brand-name">Safar Silsila</div>
+      <div class="preloader-accent-line"></div>
+    </div>
+  </div>
+  <!-- END: Preloader -->
+
+  <!-- BEGIN: Header / TopNavBar -->
+  <header class="header">
+    <div class="header-container">
+      <a href="index.html" class="logo"><img src="logo.webp" alt="Safar Silsila Logo"></a>
+      
+      <nav class="nav-menu" id="nav-menu">
+        <a class="nav-link" href="index.html">Home</a>
+        <a class="nav-link" href="tours.html">Tours</a>
+        <a class="nav-link" href="custom-tour.html">Custom Tour</a>
+        <a class="nav-link" href="transport.html">Transport</a>
+        <a class="nav-link active" href="blogs.html">Blog</a>
+        <a class="nav-link" href="about.html">About</a>
+        <a class="nav-link" href="contact.html">Contact</a>
+      </nav>
+      
+      <div class="header-actions">
+        <a href="custom-tour.html" class="btn btn-secondary btn-sm btn-book">Book Now</a>
+        <button class="nav-toggle" id="nav-toggle"><i class="ph ph-list"></i></button>
+      </div>
+    </div>
+  </header>
+  <!-- END: Header / TopNavBar -->
+
+  <!-- BEGIN: Hero Section -->
+  <section class="hero blog-hero" style="min-height: 480px;">
+    <div class="hero-overlay"></div>
+    
+    <div class="container hero-content text-center" style="max-width: 900px;">
+      <span class="text-sunset-accent label-lg mb-4 block" style="letter-spacing: 0.25em;">EXPLORE THE WILD FRONTIERS</span>
+      <h1 class="display-lg mb-6">Safar Silsila <span class="text-sunset-accent">Travel Blog</span></h1>
+      <p class="body-lg opacity-80" style="max-width: 700px; margin: 0 auto;">
+        Expert guides, packing checklists, itineraries, and stories from our journeys across Northern Pakistan.
+      </p>
+    </div>
+  </section>
+  <!-- END: Hero Section -->
+
+  <!-- BEGIN: Blog Content Section -->
+  <main class="container section-gap" style="max-width: 1200px; padding-top: 0; margin-top: -60px; position: relative; z-index: 10;">
+    
+    <!-- Featured Blog Container -->
+    <div id="featured-blog-container"></div>
+    
+    <!-- Filter Chips -->
+    <div class="blog-filters-container">
+      <button class="blog-filter-chip active" data-category="all">All Stories</button>
+      <button class="blog-filter-chip" data-category="Travel Guides">Travel Guides</button>
+      <button class="blog-filter-chip" data-category="Itineraries">Itineraries</button>
+      <button class="blog-filter-chip" data-category="Adventure">Adventure</button>
+    </div>
+
+    <!-- Blog Grid -->
+    <div class="grid-cols-3" id="blog-grid-container"></div>
+    
+  </main>
+  <!-- END: Blog Content Section -->
+
+  <!-- BEGIN: Newsletter Section -->
+  <section class="section-gap section-cinematic section-veil" style="background: transparent;">
+    <div class="container text-center" style="max-width: 650px;">
+      <div style="width: 54px; height: 54px; background-color: rgba(163, 184, 123, 0.12); border-radius: 50%; display: flex; align-items: center; justify-content: center; color: var(--sunset-accent); font-size: 26px; margin: 0 auto 24px auto;">
+        <i class="ph ph-envelope-open-bold"></i>
+      </div>
+      <h2 class="headline-lg">Stay Inspired</h2>
+      <p class="body-md mt-4 opacity-80" style="color: rgba(244, 240, 234, 0.7) !important;">
+        Subscribe to get seasonal travel checklists, special group discounts, and guides to Pakistan's hidden gems sent straight to your inbox.
+      </p>
+      
+      <form class="newsletter-form mt-8 d-flex gap-4" style="flex-wrap: wrap; justify-content: center;">
+        <input type="email" placeholder="Your Email Address" required style="background: rgba(9, 15, 6, 0.9); border: 1px solid rgba(255,255,255,0.12); border-radius: var(--radius-default); padding: 12px 20px; font-size: 14.5px; color: var(--snow-peak); outline: none; min-width: 280px; flex-grow: 1; max-width: 400px; backdrop-filter: blur(10px); -webkit-backdrop-filter: blur(10px);">
+        <button type="submit" class="btn btn-secondary">Subscribe</button>
+      </form>
+    </div>
+  </section>
+  <!-- END: Newsletter Section -->
+
+  <!-- BEGIN: Footer -->
+  <footer class="footer section-ambient-warm" style="background: rgba(9, 15, 6, 0.98); border-top: 1px solid rgba(255,255,255,0.06); padding: 64px 0 32px 0;">
+    <div class="container">
+      <div class="grid-container" style="gap: 40px; margin-bottom: 48px;">
+        <div class="col-span-4" style="display: flex; flex-direction: column; gap: 20px;">
+          <a href="index.html" class="logo"><img src="logo.webp" alt="Safar Silsila Logo" style="height: 52px; width: auto; object-fit: contain;"></a>
+          <p class="body-md opacity-60" style="font-size: 13.5px;">Safar Silsila is a logistics-led Pakistan travel company organizing premium mountain escapes, family vacations, honeymoon trips, and custom corporate tours across Northern Areas.</p>
+          <div class="d-flex gap-4" style="font-size: 20px; color: var(--sunset-accent);">
+            <a href="https://www.facebook.com/safarsilsila" target="_blank" class="hover-glow"><i class="ph ph-facebook-logo"></i></a>
+            <a href="https://www.instagram.com/safarsilsila" target="_blank" class="hover-glow"><i class="ph ph-instagram-logo"></i></a>
+            <a href="https://wa.me/923111145456" target="_blank" class="hover-glow"><i class="ph ph-whatsapp-logo"></i></a>
+          </div>
+        </div>
+        
+        <div class="col-span-4">
+          <h3 style="font-size: 13px; font-weight: 700; color: var(--sunset-accent); text-transform: uppercase; letter-spacing: 0.15em; margin-bottom: 24px;">Quick Links</h3>
+          <ul style="display: grid; grid-template-columns: 1fr 1fr; gap: 12px; font-size: 14px;">
+            <li><a href="index.html" style="color: rgba(255,255,255,0.7); hover: color: var(--sunset-accent);">Home</a></li>
+            <li><a href="tours.html" style="color: rgba(255,255,255,0.7);">Tours</a></li>
+            <li><a href="custom-tour.html" style="color: rgba(255,255,255,0.7);">Custom Plan</a></li>
+            <li><a href="transport.html" style="color: rgba(255,255,255,0.7);">Transport</a></li>
+            <li><a href="blogs.html" style="color: rgba(255,255,255,0.7);">Travel Blog</a></li>
+            <li><a href="about.html" style="color: rgba(255,255,255,0.7);">About Us</a></li>
+            <li><a href="contact.html" style="color: rgba(255,255,255,0.7);">Contact</a></li>
+          </ul>
+        </div>
+        
+        <div class="col-span-4" style="display: flex; flex-direction: column; gap: 16px;">
+          <h3 style="font-size: 13px; font-weight: 700; color: var(--sunset-accent); text-transform: uppercase; letter-spacing: 0.15em; margin-bottom: 8px;">Contact Info</h3>
+          <ul style="display: flex; flex-direction: column; gap: 14px; font-size: 14px; color: rgba(255,255,255,0.75);">
+            <li class="d-flex gap-3"><i class="ph ph-map-pin text-sunset-accent" style="font-size: 18px;"></i> Office #12, First Floor, Karakoram Heights, Islamabad</li>
+            <li class="d-flex gap-3"><i class="ph ph-phone text-sunset-accent" style="font-size: 18px;"></i> +92 311 1145456</li>
+            <li class="d-flex gap-3"><i class="ph ph-envelope text-sunset-accent" style="font-size: 18px;"></i> booking@safarsilsila.pk</li>
+          </ul>
+        </div>
+      </div>
+      
+      <div style="border-top: 1px solid rgba(255,255,255,0.06); padding-top: 24px; text-align: center; font-size: 12px; color: rgba(255,255,255,0.45);">
+        <p>&copy; 2026 Safar Silsila Travel Agency. All rights reserved. Crafted for Northern Pakistan Explorers.</p>
+      </div>
+    </div>
+  </footer>
+  <!-- END: Footer -->
+
+  <!-- Floating Action Buttons -->
+  <div style="position: fixed; bottom: 24px; right: 24px; display: flex; flex-direction: column; gap: 12px; z-index: 999;">
+    <!-- WhatsApp Action Button -->
+    <a href="#" class="whatsapp-action hover-scale" style="width: 54px; height: 54px; background-color: #25D366; border-radius: 50%; display: flex; align-items: center; justify-content: center; color: white; font-size: 28px; box-shadow: 0 4px 16px rgba(37,211,102,0.4); text-decoration: none;">
+      <i class="ph ph-whatsapp-logo"></i>
+    </a>
+  </div>
+
+  <!-- Load Scripts -->
+  <script src="tour-data.js"></script>
+  <script src="blog-data.js"></script>
+  <script src="main.js"></script>
+
+  <!-- Page Filter Logic -->
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      const featuredContainer = document.getElementById('featured-blog-container');
+      const gridContainer = document.getElementById('blog-grid-container');
+      const filterChips = document.querySelectorAll('.blog-filter-chip');
+
+      const blogs = window.BLOG_DATA ? Object.values(window.BLOG_DATA) : [];
+
+      const renderBlogs = (filterCategory = 'all') => {
+        featuredContainer.innerHTML = '';
+        gridContainer.innerHTML = '';
+
+        // Filter list
+        const filteredList = filterCategory === 'all' 
+          ? blogs 
+          : blogs.filter(b => b.category === filterCategory);
+
+        if (filteredList.length === 0) {
+          gridContainer.innerHTML = `
+            <div style="grid-column: 1 / -1; text-align: center; padding: 64px 0; color: rgba(255,255,255,0.4);">
+              <i class="ph ph-folder-open" style="font-size: 48px; color: var(--sunset-accent); margin-bottom: 12px;"></i>
+              <p>No articles found in this category yet. Check back soon!</p>
+            </div>
+          `;
+          return;
+        }
+
+        // Determine Featured post (always the first one in the current filtered list, or keep first in overall database)
+        let featuredPost = null;
+        let secondaryPosts = [];
+
+        if (filterCategory === 'all') {
+          featuredPost = filteredList[0];
+          secondaryPosts = filteredList.slice(1);
+        } else {
+          // If category is filtered, we don't render a huge featured card, just put everything in grid
+          secondaryPosts = filteredList;
+        }
+
+        // Render Featured Card
+        if (featuredPost) {
+          featuredContainer.innerHTML = `
+            <article class="featured-blog-card">
+              <div class="featured-blog-img-wrap">
+                <img src="${featuredPost.image}" alt="${featuredPost.title}">
+              </div>
+              <div class="featured-blog-content">
+                <span class="blog-badge">${featuredPost.category}</span>
+                <h2 class="featured-blog-title">${featuredPost.title}</h2>
+                <p class="featured-blog-desc">${featuredPost.summary}</p>
+                <div class="blog-meta-footer">
+                  <span><i class="ph ph-user"></i> ${featuredPost.author}</span>
+                  <span><i class="ph ph-calendar"></i> ${featuredPost.date}</span>
+                  <span><i class="ph ph-clock"></i> ${featuredPost.readTime}</span>
+                </div>
+                <a href="blog-details.html?post=${featuredPost.id}" class="btn btn-secondary mt-8" style="align-self: flex-start;">Read Article <i class="ph ph-arrow-right"></i></a>
+              </div>
+            </article>
+          `;
+        }
+
+        // Render Grid Cards
+        gridContainer.innerHTML = secondaryPosts.map(blog => `
+          <article class="blog-card animate-fade-in">
+            <div class="blog-card-img">
+              <img src="${blog.image}" alt="${blog.title}">
+            </div>
+            <div class="blog-card-content">
+              <span class="blog-badge">${blog.category}</span>
+              <h3 class="blog-card-title">${blog.title}</h3>
+              <p class="blog-card-desc">${blog.summary}</p>
+              <div class="blog-meta-footer" style="padding-top: 12px;">
+                <span><i class="ph ph-calendar"></i> ${blog.date}</span>
+                <span><i class="ph ph-clock"></i> ${blog.readTime}</span>
+              </div>
+              <a href="blog-details.html?post=${blog.id}" class="tour-action-btn mt-6" style="margin-top: auto; font-size: 13.5px; font-weight: 700;">Read More <i class="ph ph-arrow-right"></i></a>
+            </div>
+          </article>
+        `).join('');
+      };
+
+      // Filter chips click handler
+      filterChips.forEach(chip => {
+        chip.addEventListener('click', () => {
+          filterChips.forEach(c => c.classList.remove('active'));
+          chip.classList.add('active');
+          renderBlogs(chip.dataset.category);
+        });
+      });
+
+      // Render initial state
+      renderBlogs();
+    });
+  </script>
+</body>
+</html>

@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Blog Reader | Safar Silsila</title>
+  <meta name="description" id="meta-description" content="Read expert travel tips, guides, and itineraries for Northern Pakistan. Custom and group packages by Safar Silsila.">
+  <meta name="keywords" content="Pakistan travel advice, Northern areas Pakistan, mountain trip planning">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" id="canonical-link" href="https://safarsilsila.pk/blog-details.html">
+  
+  <!-- OpenGraph Cards -->
+  <meta property="og:title" id="og-title" content="Blog Reader | Safar Silsila">
+  <meta property="og:description" id="og-description" content="Read expert travel tips, guides, and itineraries for Northern Pakistan. Custom and group packages by Safar Silsila.">
+  <meta property="og:image" id="og-image" content="https://safarsilsila.pk/logo-square.webp">
+  <meta property="og:url" id="og-url" content="https://safarsilsila.pk/blog-details.html">
+  <meta property="og:type" content="article">
+  
+  <!-- Twitter Cards -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" id="twitter-title" content="Blog Reader | Safar Silsila">
+  <meta name="twitter:description" id="twitter-description" content="Read expert travel tips, guides, and itineraries for Northern Pakistan. Custom and group packages by Safar Silsila.">
+  <meta name="twitter:image" id="twitter-image" content="https://safarsilsila.pk/logo-square.webp">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/x-icon" href="logo-square.webp">
+  
+  <!-- Phosphor Icons -->
+  <link rel="stylesheet" type="text/css" href="phosphor.css">
+  
+  <!-- Nomadic Horizon Stylesheet -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- BEGIN: Preloader -->
+  <div id="preloader">
+    <div class="preloader-content">
+      <div class="preloader-spinner-wrap">
+        <div class="preloader-spinner"></div>
+        <div class="preloader-center-icon">
+          <img src="logo-square.webp" alt="Safar Silsila Logo">
+        </div>
+      </div>
+      <div class="preloader-brand-name">Safar Silsila</div>
+      <div class="preloader-accent-line"></div>
+    </div>
+  </div>
+  <!-- END: Preloader -->
+
+  <!-- BEGIN: Header / TopNavBar -->
+  <header class="header">
+    <div class="header-container">
+      <a href="index.html" class="logo"><img src="logo.webp" alt="Safar Silsila Logo"></a>
+      
+      <nav class="nav-menu" id="nav-menu">
+        <a class="nav-link" href="index.html">Home</a>
+        <a class="nav-link" href="tours.html">Tours</a>
+        <a class="nav-link" href="custom-tour.html">Custom Tour</a>
+        <a class="nav-link" href="transport.html">Transport</a>
+        <a class="nav-link active" href="blogs.html">Blog</a>
+        <a class="nav-link" href="about.html">About</a>
+        <a class="nav-link" href="contact.html">Contact</a>
+      </nav>
+      
+      <div class="header-actions">
+        <a href="custom-tour.html" class="btn btn-secondary btn-sm btn-book">Book Now</a>
+        <button class="nav-toggle" id="nav-toggle"><i class="ph ph-list"></i></button>
+      </div>
+    </div>
+  </header>
+  <!-- END: Header / TopNavBar -->
+
+  <!-- BEGIN: Hero Section -->
+  <section class="hero" style="min-height: 520px;">
+    <img id="blog-hero-img" alt="Blog Hero Image" class="hero-bg brightness-35" src="bg_image.webp">
+    <div class="hero-overlay"></div>
+    
+    <div class="container hero-content text-left" style="max-width: 1100px;">
+      <span id="blog-top-category" class="label-lg text-sunset-accent font-medium mb-4" style="letter-spacing: 0.15em; text-transform: uppercase;">Travel Category</span>
+      <h1 id="blog-main-title" class="display-lg mb-6" style="font-size: clamp(24px, 5.5vw, 42px); line-height: 1.2; max-width: 850px;">Article Title Loading...</h1>
+      <div class="blog-meta-footer" style="border: none; padding: 0; color: rgba(255,255,255,0.7);">
+        <span><i class="ph ph-user"></i> <strong id="blog-meta-author">Safar Silsila Team</strong></span>
+        <span><i class="ph ph-calendar"></i> <span id="blog-meta-date">Date</span></span>
+        <span><i class="ph ph-clock"></i> <span id="blog-meta-readtime">Read time</span></span>
+      </div>
+    </div>
+  </section>
+  <!-- END: Hero Section -->
+
+  <!-- BEGIN: Blog Reader Content -->
+  <main class="container section-gap" style="max-width: 1100px; padding-top: 0; margin-top: -60px; position: relative; z-index: 10;">
+    
+    <div class="blog-reader-layout">
+      <!-- Main Content Column -->
+      <section class="blog-reader-main">
+        <div class="blog-content-body" id="blog-body-container">
+          <!-- Dynamically populated body items -->
+        </div>
+
+        <!-- Share Row -->
+        <div class="share-row">
+          <span>Share:</span>
+          <a href="#" id="share-wa" target="_blank" class="share-btn whatsapp"><i class="ph ph-whatsapp-logo"></i></a>
+          <a href="#" id="share-fb" target="_blank" class="share-btn facebook"><i class="ph ph-facebook-logo"></i></a>
+          <a href="#" id="share-tw" target="_blank" class="share-btn twitter"><i class="ph ph-twitter-logo"></i></a>
+        </div>
+      </section>
+
+      <!-- Sidebar Column -->
+      <aside class="blog-sidebar">
+        
+        <!-- Related Tours Widget -->
+        <div class="sidebar-widget" id="related-tours-widget" style="display: none;">
+          <h3 class="sidebar-widget-title">Featured Packages</h3>
+          <div class="sidebar-tours-list" id="sidebar-tours-list"></div>
+        </div>
+
+        <!-- Custom Tour CTA -->
+        <div class="sidebar-widget" style="background: linear-gradient(135deg, rgba(20, 34, 17, 0.96) 0%, rgba(9, 15, 6, 0.98) 100%); text-align: center; border: 1px solid var(--glass-border-dark);">
+          <div style="width: 50px; height: 50px; background-color: rgba(163, 184, 123, 0.12); border-radius: 50%; display: flex; align-items: center; justify-content: center; color: var(--sunset-accent); font-size: 24px; margin: 0 auto 16px auto;">
+            <i class="ph ph-map-trifold-bold"></i>
+          </div>
+          <h3 style="font-size: 18px; font-weight: 700; color: var(--snow-peak); margin-bottom: 8px;">Want a Custom Trip?</h3>
+          <p style="font-size: 13px; color: rgba(244, 240, 234, 0.7); line-height: 1.5; margin-bottom: 20px;">
+            Let our mountain travel logistics experts design a tailor-made dream package for you and your family.
+          </p>
+          <a href="custom-tour.html" class="btn btn-secondary btn-sm" style="display: inline-flex; width: 100%;">Build Your Itinerary</a>
+        </div>
+
+      </aside>
+    </div>
+    
+  </main>
+  <!-- END: Blog Reader Content -->
+
+  <!-- BEGIN: Footer -->
+  <footer class="footer section-ambient-warm" style="background: rgba(9, 15, 6, 0.98); border-top: 1px solid rgba(255,255,255,0.06); padding: 64px 0 32px 0;">
+    <div class="container">
+      <div class="grid-container" style="gap: 40px; margin-bottom: 48px;">
+        <div class="col-span-4" style="display: flex; flex-direction: column; gap: 20px;">
+          <a href="index.html" class="logo"><img src="logo.webp" alt="Safar Silsila Logo" style="height: 52px; width: auto; object-fit: contain;"></a>
+          <p class="body-md opacity-60" style="font-size: 13.5px;">Safar Silsila is a logistics-led Pakistan travel company organizing premium mountain escapes, family departures, honeymoon trips, and custom corporate tours across Northern Areas.</p>
+          <div class="d-flex gap-4" style="font-size: 20px; color: var(--sunset-accent);">
+            <a href="https://www.facebook.com/safarsilsila" target="_blank" class="hover-glow"><i class="ph ph-facebook-logo"></i></a>
+            <a href="https://www.instagram.com/safarsilsila" target="_blank" class="hover-glow"><i class="ph ph-instagram-logo"></i></a>
+            <a href="https://wa.me/923111145456" target="_blank" class="hover-glow"><i class="ph ph-whatsapp-logo"></i></a>
+          </div>
+        </div>
+        
+        <div class="col-span-4">
+          <h3 style="font-size: 13px; font-weight: 700; color: var(--sunset-accent); text-transform: uppercase; letter-spacing: 0.15em; margin-bottom: 24px;">Quick Links</h3>
+          <ul style="display: grid; grid-template-columns: 1fr 1fr; gap: 12px; font-size: 14px;">
+            <li><a href="index.html" style="color: rgba(255,255,255,0.7);">Home</a></li>
+            <li><a href="tours.html" style="color: rgba(255,255,255,0.7);">Tours</a></li>
+            <li><a href="custom-tour.html" style="color: rgba(255,255,255,0.7);">Custom Plan</a></li>
+            <li><a href="transport.html" style="color: rgba(255,255,255,0.7);">Transport</a></li>
+            <li><a href="blogs.html" style="color: rgba(255,255,255,0.7);">Travel Blog</a></li>
+            <li><a href="about.html" style="color: rgba(255,255,255,0.7);">About Us</a></li>
+            <li><a href="contact.html" style="color: rgba(255,255,255,0.7);">Contact</a></li>
+          </ul>
+        </div>
+        
+        <div class="col-span-4" style="display: flex; flex-direction: column; gap: 16px;">
+          <h3 style="font-size: 13px; font-weight: 700; color: var(--sunset-accent); text-transform: uppercase; letter-spacing: 0.15em; margin-bottom: 8px;">Contact Info</h3>
+          <ul style="display: flex; flex-direction: column; gap: 14px; font-size: 14px; color: rgba(255,255,255,0.75);">
+            <li class="d-flex gap-3"><i class="ph ph-map-pin text-sunset-accent" style="font-size: 18px;"></i> Office #12, First Floor, Karakoram Heights, Islamabad</li>
+            <li class="d-flex gap-3"><i class="ph ph-phone text-sunset-accent" style="font-size: 18px;"></i> +92 311 1145456</li>
+            <li class="d-flex gap-3"><i class="ph ph-envelope text-sunset-accent" style="font-size: 18px;"></i> booking@safarsilsila.pk</li>
+          </ul>
+        </div>
+      </div>
+      
+      <div style="border-top: 1px solid rgba(255,255,255,0.06); padding-top: 24px; text-align: center; font-size: 12px; color: rgba(255,255,255,0.45);">
+        <p>&copy; 2026 Safar Silsila Travel Agency. All rights reserved. Crafted for Northern Pakistan Explorers.</p>
+      </div>
+    </div>
+  </footer>
+  <!-- END: Footer -->
+
+  <!-- Floating Action Buttons -->
+  <div style="position: fixed; bottom: 24px; right: 24px; display: flex; flex-direction: column; gap: 12px; z-index: 999;">
+    <a href="#" class="whatsapp-action hover-scale" style="width: 54px; height: 54px; background-color: #25D366; border-radius: 50%; display: flex; align-items: center; justify-content: center; color: white; font-size: 28px; box-shadow: 0 4px 16px rgba(37,211,102,0.4); text-decoration: none;">
+      <i class="ph ph-whatsapp-logo"></i>
+    </a>
+  </div>
+
+  <!-- Load Scripts -->
+  <script src="tour-data.js"></script>
+  <script src="blog-data.js"></script>
+  <script src="main.js"></script>
+
+  <!-- Page Reader Script -->
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      // 1. Parse query parameters
+      const urlParams = new URLSearchParams(window.location.search);
+      const postId = urlParams.get('post');
+
+      // 2. Fetch blog post
+      const blog = window.BLOG_DATA ? window.BLOG_DATA[postId] : null;
+
+      // 3. Fallback / Redirect
+      if (!blog) {
+        window.location.href = 'blogs.html';
+        return;
+      }
+
+      // 4. Update head meta tags dynamically for SEO
+      const pageUrl = `https://safarsilsila.pk/blog-details.html?post=${blog.id}`;
+      document.title = `${blog.title} | Safar Silsila Blog`;
+      
+      const metaDesc = document.getElementById('meta-description');
+      if (metaDesc) metaDesc.content = blog.metaDesc;
+      
+      const canonical = document.getElementById('canonical-link');
+      if (canonical) canonical.href = pageUrl;
+
+      // OpenGraph
+      const ogTitle = document.getElementById('og-title');
+      if (ogTitle) ogTitle.content = blog.title;
+      
+      const ogDesc = document.getElementById('og-description');
+      if (ogDesc) ogDesc.content = blog.metaDesc;
+      
+      const ogUrl = document.getElementById('og-url');
+      if (ogUrl) ogUrl.content = pageUrl;
+      
+      const ogImage = document.getElementById('og-image');
+      if (ogImage) ogImage.content = `https://safarsilsila.pk/${blog.image}`;
+
+      // Twitter
+      const twTitle = document.getElementById('twitter-title');
+      if (twTitle) twTitle.content = blog.title;
+      
+      const twDesc = document.getElementById('twitter-description');
+      if (twDesc) twDesc.content = blog.metaDesc;
+      
+      const twImage = document.getElementById('twitter-image');
+      if (twImage) twImage.content = `https://safarsilsila.pk/${blog.image}`;
+
+      // 5. Injects JSON-LD Article Schema dynamically
+      const schemaScript = document.createElement('script');
+      schemaScript.type = 'application/ld+json';
+      
+      const articleSchema = {
+        "@context": "https://schema.org",
+        "@type": "BlogPosting",
+        "headline": blog.title,
+        "description": blog.metaDesc,
+        "image": `https://safarsilsila.pk/${blog.image}`,
+        "datePublished": "2026-08-19T00:00:00+05:00", // Fallback date matching our project
+        "dateModified": new Date().toISOString(),
+        "author": {
+          "@type": "Organization",
+          "name": "Safar Silsila",
+          "url": "https://safarsilsila.pk"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "name": "Safar Silsila",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://safarsilsila.pk/logo.webp"
+          }
+        },
+        "mainEntityOfPage": {
+          "@type": "WebPage",
+          "@id": pageUrl
+        }
+      };
+      schemaScript.text = JSON.stringify(articleSchema);
+      document.head.appendChild(schemaScript);
+
+      // 6. Populate Hero Information
+      document.getElementById('blog-hero-img').src = blog.image;
+      document.getElementById('blog-hero-img').alt = blog.title;
+      document.getElementById('blog-top-category').innerText = blog.category;
+      document.getElementById('blog-main-title').innerText = blog.title;
+      document.getElementById('blog-meta-author').innerText = blog.author;
+      document.getElementById('blog-meta-date').innerText = blog.date;
+      document.getElementById('blog-meta-readtime').innerText = blog.readTime;
+
+      // 7. Render Blog Article Content Dynamically
+      const bodyContainer = document.getElementById('blog-body-container');
+      bodyContainer.innerHTML = '';
+
+      blog.content.forEach(item => {
+        if (item.type === 'p') {
+          const p = document.createElement('p');
+          p.innerHTML = item.text;
+          bodyContainer.appendChild(p);
+        } else if (item.type === 'h2') {
+          const h2 = document.createElement('h2');
+          h2.innerHTML = item.text;
+          bodyContainer.appendChild(h2);
+        } else if (item.type === 'h3') {
+          const h3 = document.createElement('h3');
+          h3.innerHTML = item.text;
+          bodyContainer.appendChild(h3);
+        } else if (item.type === 'blockquote') {
+          const bq = document.createElement('blockquote');
+          bq.innerHTML = `<p>${item.text}</p>`;
+          bodyContainer.appendChild(bq);
+        } else if (item.type === 'ul') {
+          const ul = document.createElement('ul');
+          item.items.forEach(liText => {
+            const li = document.createElement('li');
+            li.innerHTML = liText;
+            ul.appendChild(li);
+          });
+          bodyContainer.appendChild(ul);
+        } else if (item.type === 'packing') {
+          // A nice lists helper for packing items
+          const ul = document.createElement('ul');
+          ul.style.cssText = "display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 10px; background: rgba(255,255,255,0.02); padding: 20px 20px 20px 40px; border-radius: var(--radius-md); border: 1px solid rgba(255,255,255,0.05); margin-bottom: 24px;";
+          item.items.forEach(liText => {
+            const li = document.createElement('li');
+            li.innerHTML = `<strong>${liText}</strong>`;
+            ul.appendChild(li);
+          });
+          bodyContainer.appendChild(ul);
+        } else if (item.type === 'table') {
+          const tableContainer = document.createElement('div');
+          tableContainer.style.overflowX = 'auto';
+
+          const table = document.createElement('table');
+          
+          const thead = document.createElement('thead');
+          const trHead = document.createElement('tr');
+          item.headers.forEach(h => {
+            const th = document.createElement('th');
+            th.innerHTML = h;
+            trHead.appendChild(th);
+          });
+          thead.appendChild(trHead);
+          table.appendChild(thead);
+          
+          const tbody = document.createElement('tbody');
+          item.rows.forEach(r => {
+            const tr = document.createElement('tr');
+            r.forEach(c => {
+              const td = document.createElement('td');
+              td.innerHTML = c;
+              tr.appendChild(td);
+            });
+            tbody.appendChild(tr);
+          });
+          table.appendChild(tbody);
+          
+          tableContainer.appendChild(table);
+          bodyContainer.appendChild(tableContainer);
+        }
+      });
+
+      // 8. Populate Related Tours Sidebar Widget
+      const relatedWidget = document.getElementById('related-tours-widget');
+      const relatedList = document.getElementById('sidebar-tours-list');
+      
+      if (blog.relatedTours && blog.relatedTours.length > 0 && window.TOUR_DATA) {
+        relatedWidget.style.display = 'block';
+        relatedList.innerHTML = '';
+
+        blog.relatedTours.forEach(tourId => {
+          const tour = window.TOUR_DATA[tourId];
+          if (tour) {
+            const item = document.createElement('a');
+            item.href = `tour-details.html?tour=${tour.id}`;
+            item.className = 'sidebar-tour-item';
+            item.innerHTML = `
+              <img class="sidebar-tour-img" src="${tour.image}" alt="${tour.title}">
+              <div>
+                <div class="sidebar-tour-name">${tour.title}</div>
+                <div class="sidebar-tour-price">Starting from Rs ${tour.price}</div>
+              </div>
+            `;
+            relatedList.appendChild(item);
+          }
+        });
+      }
+
+      // 9. Update Share Buttons links
+      const shareTitle = encodeURIComponent(blog.title);
+      const shareUrl = encodeURIComponent(window.location.href);
+
+      document.getElementById('share-wa').href = `https://api.whatsapp.com/send?text=${shareTitle}%20-%20${shareUrl}`;
+      document.getElementById('share-fb').href = `https://www.facebook.com/sharer/sharer.php?u=${shareUrl}`;
+      document.getElementById('share-tw').href = `https://twitter.com/intent/tweet?text=${shareTitle}&url=${shareUrl}`;
+    });
+  </script>
+</body>
+</html>
