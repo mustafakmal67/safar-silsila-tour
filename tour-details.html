@@ -647,7 +647,7 @@
         <!-- Choose Package Section -->
         <section class="details-section">
           <h2 class="section-title"><i class="ph ph-wallet"></i> Choose Your Package</h2>
-          <div id="details-packages-grid" class="packages-flex">
+          <div id="details-packages-grid">
             <!-- Dynamic Package Options -->
           </div>
         </section>
@@ -954,32 +954,74 @@
       
       // Determine if jeep note is needed
       const jeepNoteHtml = tour.jeepCharges ? `
-        <div style="grid-column: 1 / -1; margin-top: 16px; background: rgba(230, 95, 45, 0.1); border: 1px solid rgba(230, 95, 45, 0.2); border-radius: var(--radius-md); padding: 16px; text-align: center; color: var(--sunset-accent); font-weight: 700; font-size: 13px;">
+        <div style="margin-top: 16px; background: rgba(230, 95, 45, 0.1); border: 1px solid rgba(230, 95, 45, 0.2); border-radius: var(--radius-md); padding: 16px; text-align: center; color: var(--sunset-accent); font-weight: 700; font-size: 13px;">
           <i class="ph ph-warning-circle" style="vertical-align: middle; font-size: 18px; margin-right: 6px;"></i> Note: Jeep charges aren't included: ${tour.jeepCharges} (payable on spot for local off-road transit).
         </div>
       ` : '';
 
-      packagesGrid.innerHTML = tour.packages.map((pkg, idx) => {
-        if (pkg.status === "unavailable" || pkg.price === "N/A") {
-          return `
-            <div class="package-option-card" style="opacity: 0.45; cursor: not-allowed;">
-              <div class="package-name" style="color: rgba(255, 255, 255, 0.4);">${pkg.name}</div>
-              <div style="margin: auto; padding: 24px 0; font-size: 14px; font-weight: 700; color: rgba(255, 255, 255, 0.3); text-transform: uppercase; letter-spacing: 0.05em; text-align: center;">Not Available</div>
+      // Group packages by tier (Standard, Deluxe, Premium, Executive)
+      const groups = {
+        Standard: { name: "Standard Packages", icon: "ph-buildings", list: [] },
+        Deluxe: { name: "Deluxe Packages", icon: "ph-diamond", list: [] },
+        Premium: { name: "Premium Packages", icon: "ph-sparkles", list: [] },
+        Executive: { name: "Executive Packages", icon: "ph-crown", list: [] },
+        Other: { name: "Other Packages", icon: "ph-package", list: [] }
+      };
+
+      tour.packages.forEach((pkg, index) => {
+        const pkgWithIndex = { ...pkg, originalIndex: index };
+        const nameUpper = pkg.name.toUpperCase();
+        if (nameUpper.includes("STANDARD")) {
+          groups.Standard.list.push(pkgWithIndex);
+        } else if (nameUpper.includes("DELUXE")) {
+          groups.Deluxe.list.push(pkgWithIndex);
+        } else if (nameUpper.includes("PREMIUM")) {
+          groups.Premium.list.push(pkgWithIndex);
+        } else if (nameUpper.includes("EXECUTIVE")) {
+          groups.Executive.list.push(pkgWithIndex);
+        } else {
+          groups.Other.list.push(pkgWithIndex);
+        }
+      });
+
+      let packagesHtml = '';
+      for (const key in groups) {
+        const group = groups[key];
+        if (group.list.length > 0) {
+          packagesHtml += `
+            <div class="package-group-container" style="margin-bottom: 32px;">
+              <h3 class="package-group-title" style="font-size: 14px; font-weight: 700; color: var(--sunset-accent); margin-bottom: 16px; text-transform: uppercase; letter-spacing: 0.05em; display: flex; align-items: center; gap: 8px; border-bottom: 1px solid rgba(255,255,255,0.08); padding-bottom: 8px;">
+                <i class="ph ${group.icon}" style="font-size: 18px;"></i> ${group.name}
+              </h3>
+              <div class="packages-flex">
+                ${group.list.map(pkg => {
+                  if (pkg.status === "unavailable" || pkg.price === "N/A") {
+                    return `
+                      <div class="package-option-card" style="opacity: 0.45; cursor: not-allowed;">
+                        <div class="package-name" style="color: rgba(255, 255, 255, 0.4);">${pkg.name}</div>
+                        <div style="margin: auto; padding: 24px 0; font-size: 14px; font-weight: 700; color: rgba(255, 255, 255, 0.3); text-transform: uppercase; letter-spacing: 0.05em; text-align: center;">Not Available</div>
+                      </div>
+                    `;
+                  }
+                  
+                  return `
+                    <div class="package-option-card">
+                      ${pkg.originalIndex === 0 ? '<span class="package-badge-popular">Best Value</span>' : ''}
+                      <div class="package-name">${pkg.name}</div>
+                      <div class="package-price-tag">Rs ${pkg.price} <small>/ head</small></div>
+                      <ul class="package-features">
+                        ${pkg.features.map(f => `<li><i class="ph ph-check-bold"></i> ${f}</li>`).join('')}
+                      </ul>
+                    </div>
+                  `;
+                }).join('')}
+              </div>
             </div>
           `;
         }
-        
-        return `
-          <div class="package-option-card">
-            ${idx === 0 ? '<span class="package-badge-popular">Best Value</span>' : ''}
-            <div class="package-name">${pkg.name}</div>
-            <div class="package-price-tag">Rs ${pkg.price} <small>/ head</small></div>
-            <ul class="package-features">
-              ${pkg.features.map(f => `<li><i class="ph ph-check-bold"></i> ${f}</li>`).join('')}
-            </ul>
-          </div>
-        `;
-      }).join('') + jeepNoteHtml;
+      }
+
+      packagesGrid.innerHTML = packagesHtml + jeepNoteHtml;
 
       // Hotel Stays
       const hotelsSection = document.getElementById('details-hotels-section');
