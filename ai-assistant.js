@@ -819,7 +819,7 @@
     // C10. About Safar Silsila
     if (normalized.includes("about") || normalized.includes("safar silsila") || normalized.includes("history") || normalized.includes("found") || normalized.includes("who are you")) {
       return {
-        text: "**Safar Silsila** (originally operated as Roamistan in early 2019) is a trusted travel agency headquartered in Islamabad, Pakistan. We specialize in curating outstanding tours across Northern Pakistan, including:\n\n" +
+        text: "**Safar Silsila** is a trusted travel agency headquartered in Islamabad, Pakistan. We specialize in curating outstanding tours across Northern Pakistan, including:\n\n" +
               "- **Group Adventures**: Scheduled weekly departures from Lahore and Islamabad.\n" +
               "- **Custom Itineraries**: Private travel tailored to corporate groups, families, and couples.\n" +
               "- **Reliable Vehicle Rentals**: A diverse fleet with professional mountain drivers.\n\n" +
