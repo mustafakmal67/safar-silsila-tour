@@ -709,5 +709,72 @@ window.TOUR_DATA = {
       { q: "Is the chairlift safe?", a: "Yes, the local cable car/chairlift is operated regularly and is the standard way to cross the Neelum River gorge to Kel." },
       { q: "What is the accommodation like in Arang Kel?", a: "We stay in rustic wooden guest houses or campsites right on the grassy plateau, offering spectacular views of the valley." }
     ]
+  },
+  "6-days-haramosh-valley": {
+    id: "6-days-haramosh-valley",
+    title: "6 Days Haramosh Valley & Kutwal Lake Group Tour",
+    duration: "6 Days",
+    location: "Haramosh Valley",
+    maxGroup: "2-20 Persons",
+    difficulty: "Challenging",
+    image: "haramosh_valley.webp",
+    price: "44,000",
+    originalPrice: "42,000",
+    departureDay: "Every Friday Night from Lahore, Every Saturday Morning from Islamabad",
+    about: "Venture deep into the Karakoram to explore Haramosh Valley, a pristine wilderness characterized by the towering Haramosh Peak, the turquoise Kutwal Lake, and the majestic Kutwal Glacier. This 6-day adventure features exciting 4x4 jeep tracks, scenic mountain treks, and alpine meadow camping, offering an unforgettable escape for true trekkers and nature lovers.",
+    highlights: [
+      "Trek to the breathtaking Kutwal Lake & Kutwal Glacier",
+      "Witness close-up views of the mighty Haramosh Peak",
+      "Exciting off-road 4x4 jeep ride from Sassi to Guro Village",
+      "Challenging wilderness camping experience in Kutwal Valley",
+      "Stops at the scenic Babusar Top and Lulusar Lake",
+      "Comfortable return journey with hotel stay in Naran"
+    ],
+    itinerary: [
+      { day: "Day 0", title: "Departure from Lahore", desc: "Departure from Lahore Friday night at 10:30 PM from Daewoo Terminal, Thokar Niaz Baig. Travel towards Islamabad." },
+      { day: "Day 1", title: "Islamabad to Jaglot via Babusar Pass", desc: "Departure of Islamabad participants at 05:00 AM. Travel via the scenic Naran-Kaghan Valley. Stop for breakfast at Naran. Visit Lulusar Lake and cross Babusar Top (one of the highest mountain passes). Descend towards Chilas and travel along the Karakoram Highway to reach Jaglot. Dinner and overnight stay in Jaglot." },
+      { day: "Day 2", title: "Jaglot to Kutwal Valley via Sassi & Guro Village", desc: "After breakfast, drive to Sassi. Transfer to local 4x4 jeeps for an adventurous ride to Guro Village. Start the mountain trek from Guro Village towards Kutwal Valley, passing through lush meadows, pine forests, and wooden bridges. Arrive at Kutwal Valley campsite, set up tents. Dinner and overnight camping at Kutwal Valley." },
+      { day: "Day 3", title: "Kutwal Lake & Kutwal Glacier Excursion", desc: "Breakfast at the campsite. Start a full-day excursion to the stunning turquoise Kutwal Lake. Trek through alpine meadows and glacial streams. Continue towards Kutwal Glacier for spectacular views of Haramosh Peak. Return to the campsite in the afternoon. Bonfire, dinner, and overnight camping under the stars." },
+      { day: "Day 4", title: "Trek to Haramosh Base Camp", desc: "Breakfast at the campsite. Start the trek towards Haramosh Base Camp. Enjoy breathtaking close-up views of the mighty Haramosh Peak and the pristine wilderness of the Karakoram. Spend time exploring the base camp, then trek back to Kutwal Valley campsite. Dinner, bonfire, and overnight stay at the campsite." },
+      { day: "Day 5", title: "Return Trek to Sassi & Drive to Naran", desc: "Breakfast at the campsite. Start the return trek from Kutwal Valley to Guro Village. Transfer to local 4x4 jeeps and ride back to Sassi. Board the coaster/Grand Cabin and drive back towards Naran Valley. Arrive in Naran in the evening, check into the hotel, relax. Dinner and overnight stay in Naran." },
+      { day: "Day 6", title: "Naran to Islamabad / Lahore", desc: "Breakfast at the hotel. Optional rafting activity in the Kunhar River (subject to weather conditions). Spend some leisure time in Naran, then start the return journey. Drop-off Islamabad participants in the evening, and arrive in Lahore late night. End of services." }
+    ],
+    inclusions: [
+      "AC Transport (Saloon Coaster/HiAce Grand Cabin)",
+      "Standard Hotel Accommodations (1 Night Juglot, 1 Night Naran) & Camps (3 Nights Kutwal Valley)",
+      "6 Breakfasts & 5 Dinners",
+      "4x4 Jeeps from Sassi to Guro Village and back",
+      "Professional Tour Guide & Bonfire Nights",
+      "Musical Night & First Aid Kit"
+    ],
+    exclusions: [
+      "Lunch, personal snacks, and refreshments",
+      "Entry tickets for parks, forts, or tourist attractions",
+      "Charges for any activities (boating, zip-lining, rafting, etc.)",
+      "Personal trekking gear or porter services",
+      "Insurance or medical rescue costs"
+    ],
+    packages: [
+      { name: "Standard Package (Quad Sharing)", price: "44,000", status: "available", features: ["Quad Sharing room/tent setup", "AC Coaster/Cabin transport", "All jeep rides included"] },
+      { name: "Standard Package (Twin Sharing)", price: "48,500", status: "available", features: ["Twin sharing room/tent setup", "AC Coaster/Cabin transport", "All jeep rides included"] },
+      { name: "Standard Package (Solo Room)", price: "66,000", status: "available", features: ["Solo private room/tent setup", "AC Coaster/Cabin transport", "All jeep rides included"] },
+      { name: "Deluxe Package (Twin Sharing)", price: "N/A", status: "unavailable", features: [] },
+      { name: "Premium Package (Twin Sharing)", price: "N/A", status: "unavailable", features: [] },
+      { name: "Executive Package (Twin Sharing)", price: "N/A", status: "unavailable", features: [] }
+    ],
+    jeepCharges: "Included in Package",
+    hotelDetails: {
+      standard: [
+        { city: "Juglot", hotel: "Standard Hotel Juglot", nights: "1 Night Stay" },
+        { city: "Kutwal Valley", hotel: "Wilderness Camping (Tents)", nights: "3 Nights Stay" },
+        { city: "Naran", hotel: "Standard Hotel Naran", nights: "1 Night Stay" }
+      ]
+    },
+    faqs: [
+      { q: "Is this tour suitable for beginners?", a: "This tour involves multi-day trekking and camping at high altitudes, and is classified as challenging. While previous trekking experience is highly recommended, anyone with good physical fitness can join." },
+      { q: "What should I pack for the camping nights?", a: "We provide tents and sleeping mattresses, but you should bring warm layers, a personal sleeping bag (rated for cold temperatures), hiking boots, a headlamp, and a water purification method." },
+      { q: "Is there mobile signal or electricity at the campsite?", a: "There is no mobile signal or electricity at the Kutwal Valley campsite. We recommend bringing power banks and notifying family beforehand that you will be off-grid for 3 days." },
+      { q: "What is the departure schedule?", a: "Departures are every Friday night from Lahore at 10:00 PM (Daewoo Terminal Thokar Niaz Baig) and every Saturday morning from Islamabad at 05:00 AM." }
+    ]
   }
 };
