@@ -127,12 +127,15 @@
 
             <div class="form-group-row form-group-row-2">
               <div>
-                <label class="form-field-label" for="booking-start-date">Preferred Start Date</label>
+                <label class="form-field-label" for="booking-start-date" id="booking-date-label">Preferred Start Date</label>
                 <div id="booking-date-container">
                   <input type="date" id="booking-start-date" class="booking-input" required onchange="calculateTotal()">
                 </div>
+                <div id="booking-date-hint" style="font-size: 11.5px; color: var(--sunset-accent); margin-top: 6px; display: none;">
+                  <i class="ph ph-calendar-check"></i> Fixed group departure dates based on weekly schedule.
+                </div>
               </div>
-              <div style="display: flex; align-items: flex-end; padding-bottom: 8px;">
+              <div id="booking-flexible-container" style="display: flex; align-items: flex-end; padding-bottom: 8px;">
                 <label class="d-flex gap-2" style="font-size: 13.5px; color: rgba(255,255,255,0.85); cursor: pointer;">
                   <input type="checkbox" id="booking-flexible-dates" style="width: 18px; height: 18px; accent-color: var(--sunset-accent);" onchange="calculateTotal()">
                   <span>My dates are flexible (+/- 3 days)</span>
@@ -502,6 +505,9 @@
 
     function updateDateField(tour, paramDate) {
       const container = document.getElementById('booking-date-container');
+      const label = document.getElementById('booking-date-label');
+      const flexibleContainer = document.getElementById('booking-flexible-container');
+      const hint = document.getElementById('booking-date-hint');
       if (!container) return;
 
       if (tour && tour.departureDay) {
@@ -522,8 +528,8 @@
           while (dates.length < 8) {
             if (daysOfWeek.includes(current.getDay())) {
               const val = current.toISOString().split('T')[0];
-              const label = current.toLocaleDateString('en-US', { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' });
-              dates.push({ val, label });
+              const labelText = current.toLocaleDateString('en-US', { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' });
+              dates.push({ val, label: labelText });
             }
             current.setDate(current.getDate() + 1);
           }
@@ -533,8 +539,8 @@
             try {
               const d = new Date(paramDate);
               if (!isNaN(d.getTime())) {
-                const label = d.toLocaleDateString('en-US', { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' });
-                dates.unshift({ val: paramDate, label: label + " (Selected)" });
+                const labelText = d.toLocaleDateString('en-US', { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' });
+                dates.unshift({ val: paramDate, label: labelText + " (Selected)" });
               }
             } catch(e) {}
           }
@@ -545,6 +551,19 @@
               ${dates.map(d => `<option value="${d.val}" ${paramDate === d.val ? 'selected' : ''}>${d.label}</option>`).join('')}
             </select>
           `;
+
+          // Update label and show hint for group tours
+          if (label) label.innerText = "Departure Date (Fixed Group Departure)";
+          if (hint) {
+            hint.style.display = "block";
+            hint.innerHTML = `<i class="ph ph-calendar-check"></i> Fixed departures: ${tour.departureDay}`;
+          }
+          if (flexibleContainer) flexibleContainer.style.display = "none";
+          
+          // Uncheck flexible dates when hidden
+          const flexCheckbox = document.getElementById('booking-flexible-dates');
+          if (flexCheckbox) flexCheckbox.checked = false;
+
           return;
         }
       }
@@ -558,6 +577,11 @@
       container.innerHTML = `
         <input type="date" id="booking-start-date" class="booking-input" min="${minDate}" value="${val}" required onchange="calculateTotal()">
       `;
+
+      // Update label and hide hint for custom tours
+      if (label) label.innerText = "Preferred Start Date";
+      if (hint) hint.style.display = "none";
+      if (flexibleContainer) flexibleContainer.style.display = "flex";
     }
 
     function onTourChange(paramDate) {
