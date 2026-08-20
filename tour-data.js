@@ -123,8 +123,8 @@ window.TOUR_DATA = {
     maxGroup: "2-20 Persons",
     difficulty: "Medium",
     image: "astore_minimarg.webp",
-    price: "36,000",
-    originalPrice: "34,000",
+    price: "33,500",
+    originalPrice: "32,000",
     departureDay: "Every Friday Night from Lahore, Every Saturday Morning from Islamabad",
     about: "An off-the-beaten-path journey to Minimarg, featuring dramatic landscapes, high mountain passes, and hidden alpine lakes. Walk through the scenic wilderness of Astore Valley, Rama Meadows, Burzil Top, and the pristine Rainbow Lake at Domail. Includes premium hotel stays and wilderness camping.",
     highlights: [
@@ -156,9 +156,9 @@ window.TOUR_DATA = {
       "Personal expenses, tips, and entry tickets"
     ],
     packages: [
-      { name: "Standard Package (Quad Sharing)", price: "36,000", status: "available", features: ["Quad sharing in hotel/camps", "AC Coaster transport", "Standard meals & tents"] },
-      { name: "Standard Package (Twin Sharing)", price: "41,000", status: "available", features: ["Twin sharing in hotel/camps", "AC Coaster transport", "Standard meals & tents"] },
-      { name: "Standard Package (Solo Room/Tent)", price: "50,000", status: "available", features: ["Private room/tent setup", "AC Coaster transport", "Standard meals & tents"] },
+      { name: "Standard Package (Quad Sharing)", price: "33,500", status: "available", features: ["Quad sharing in hotel/camps", "AC Coaster transport", "Standard meals & tents"] },
+      { name: "Standard Package (Twin Sharing)", price: "39,500", status: "available", features: ["Twin sharing in hotel/camps", "AC Coaster transport", "Standard meals & tents"] },
+      { name: "Standard Package (Solo Room/Tent)", price: "49,500", status: "available", features: ["Private room/tent setup", "AC Coaster transport", "Standard meals & tents"] },
       { name: "Deluxe Package", price: "N/A", status: "unavailable", features: [] },
       { name: "Premium Package", price: "N/A", status: "unavailable", features: [] },
       { name: "Executive Package", price: "N/A", status: "unavailable", features: [] }
