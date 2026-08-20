@@ -34,13 +34,14 @@ window.TOUR_DATA = {
       "AC Transport (Saloon Coaster/HiAce Grand Cabin)",
       "Standard Hotel Accommodations (7 Nights on shared basis)",
       "Daily Breakfast & Dinner",
-      "Jeep rides for Deosai Plains",
+      "Musical Night & Barbecue Night",
       "Professional Tour Guide & Dedicated Driver",
       "First Aid Kit & Road Tolls"
     ],
     exclusions: [
       "Lunch, snacks, and personal beverages",
       "Boating, Fort entry tickets, and chairlift rides",
+      "Jeep rides for Deosai Plains",
       "Personal trekking gear or porter services",
       "Insurance or medical rescue costs"
     ],
