@@ -186,7 +186,7 @@ window.TOUR_DATA = {
     maxGroup: "2-20 Persons",
     difficulty: "Easy",
     image: "hunza_naltar.webp",
-    price: "29,000",
+    price: "27,000",
     originalPrice: "27,000",
     departureDay: "Every Tuesday & Friday Night from Lahore, Every Wednesday & Saturday Morning from Islamabad",
     about: "A beautiful drive to Hunza with majestic mountain views, Naltar Valley lakes, historic Altit and Baltit forts, and vibrant local culture. Travel along the Indus River to Karimabad, Upper Hunza, Attabad Lake, Passu Cones, and the legendary Khunjerab Border.",
@@ -217,15 +217,15 @@ window.TOUR_DATA = {
       "Entry tickets for parks, forts, or boat rides"
     ],
     packages: [
-      { name: "Standard Package (Quad Sharing)", price: "29,000", status: "available", features: ["Quad sharing in standard rooms", "AC Transport", "Chilas: FM Cottage, Hunza: River Garden, Naran: Eagle Resort"] },
-      { name: "Standard Package (Twin Sharing)", price: "34,000", status: "available", features: ["Twin sharing in standard rooms", "AC Transport", "Chilas: FM Cottage, Hunza: River Garden, Naran: Eagle Resort"] },
-      { name: "Standard Package (Solo Room)", price: "44,000", status: "available", features: ["Solo private room", "AC Transport", "Chilas: FM Cottage, Hunza: River Garden, Naran: Eagle Resort"] },
-      { name: "Deluxe Package (Twin Sharing)", price: "43,000", status: "available", features: ["Twin sharing in deluxe rooms", "AC Transport", "Chilas: Grace Continental, Hunza: Northern Sapphire, Naran: Gateway Hotel"] },
-      { name: "Deluxe Package (Solo Room)", price: "62,000", status: "available", features: ["Solo private room", "AC Transport", "Chilas: Grace Continental, Hunza: Northern Sapphire, Naran: Gateway Hotel"] },
-      { name: "Premium Package (Twin Sharing)", price: "63,000", status: "available", features: ["Twin sharing in premium rooms", "AC Transport", "Chilas: Shangrilla Chilas, Hunza: Best Western, Naran: Hotel Home"] },
-      { name: "Premium Package (Solo Room)", price: "86,000", status: "available", features: ["Solo private room", "AC Transport", "Chilas: Shangrilla Chilas, Hunza: Best Western, Naran: Hotel Home"] },
-      { name: "Executive Package (Twin Sharing)", price: "81,000", status: "available", features: ["Twin sharing in executive rooms", "AC Transport", "Chilas: Shangrilla Chilas, Hunza: Ambiance Resort, Naran: Hotel Home"] },
-      { name: "Executive Package (Solo Room)", price: "138,000", status: "available", features: ["Solo private room", "AC Transport", "Chilas: Shangrilla Chilas, Hunza: Ambiance Resort, Naran: Hotel Home"] }
+      { name: "Standard Package (Quad Sharing)", price: "27,000", status: "available", features: ["Quad sharing in standard rooms", "AC Transport", "Chilas: FM Cottage, Hunza: River Garden, Naran: Eagle Resort"] },
+      { name: "Standard Package (Twin Sharing)", price: "32,000", status: "available", features: ["Twin sharing in standard rooms", "AC Transport", "Chilas: FM Cottage, Hunza: River Garden, Naran: Eagle Resort"] },
+      { name: "Standard Package (Solo Room)", price: "42,000", status: "available", features: ["Solo private room", "AC Transport", "Chilas: FM Cottage, Hunza: River Garden, Naran: Eagle Resort"] },
+      { name: "Deluxe Package (Twin Sharing)", price: "41,000", status: "available", features: ["Twin sharing in deluxe rooms", "AC Transport", "Chilas: Grace Continental, Hunza: Northern Sapphire, Naran: Gateway Hotel"] },
+      { name: "Deluxe Package (Solo Room)", price: "60,000", status: "available", features: ["Solo private room", "AC Transport", "Chilas: Grace Continental, Hunza: Northern Sapphire, Naran: Gateway Hotel"] },
+      { name: "Premium Package (Twin Sharing)", price: "61,000", status: "available", features: ["Twin sharing in premium rooms", "AC Transport", "Chilas: Shangrilla Chilas, Hunza: Best Western, Naran: Hotel Home"] },
+      { name: "Premium Package (Solo Room)", price: "84,000", status: "available", features: ["Solo private room", "AC Transport", "Chilas: Shangrilla Chilas, Hunza: Best Western, Naran: Hotel Home"] },
+      { name: "Executive Package (Twin Sharing)", price: "79,000", status: "available", features: ["Twin sharing in executive rooms", "AC Transport", "Chilas: Shangrilla Chilas, Hunza: Ambiance Resort, Naran: Hotel Home"] },
+      { name: "Executive Package (Solo Room)", price: "136,000", status: "available", features: ["Solo private room", "AC Transport", "Chilas: Shangrilla Chilas, Hunza: Ambiance Resort, Naran: Hotel Home"] }
     ],
     jeepCharges: "RS. 3,500 Per Head",
     hotelDetails: {
@@ -264,7 +264,7 @@ window.TOUR_DATA = {
     maxGroup: "Max 20 Persons",
     difficulty: "Adventure Pick",
     image: "fairy_meadows.webp",
-    price: "28,500",
+    price: "27,000",
     originalPrice: "27,000",
     departureDay: "Every Friday Night from Lahore, Every Saturday Morning from Islamabad",
     about: "Embark on a legendary trek. Fairy Meadows is a lush green alpine pasture located at the base of Nanga Parbat (8,126m), the ninth highest mountain in the world. This tour combines a thrilling jeep ride on the world-famous Fairy Meadows track with a trek through thick pine forests, opening up to one of the most iconic mountain views in the world.",
@@ -296,10 +296,25 @@ window.TOUR_DATA = {
       "Lunch, snacks, and extra tea"
     ],
     packages: [
-      { name: "Standard Package (Quad Sharing)", price: "28,500", status: "available", features: ["Standard cabins/tents (3-4 sharing)", "Coaster transport", "Daily meals"] },
-      { name: "Standard Package (Twin Sharing)", price: "34,500", status: "available", features: ["Premium wooden cabins (2 sharing)", "Private hotel rooms in Chilas", "All jeeps included"] }
+      { name: "Standard Package (Quad Sharing)", price: "27,000", status: "available", features: ["Standard cabins/tents (3-4 sharing)", "Coaster transport", "Chilas: FM Cottage, Fairy Meadows: Viewpoint Cottages, Naran: Eagle Resort"] },
+      { name: "Standard Package (Twin Sharing)", price: "32,000", status: "available", features: ["Premium wooden cabins (2 sharing)", "Coaster transport", "Chilas: FM Cottage, Fairy Meadows: Viewpoint Cottages, Naran: Eagle Resort"] },
+      { name: "Standard Package (Solo Room)", price: "41,000", status: "available", features: ["Solo private room", "Coaster transport", "Chilas: FM Cottage, Fairy Meadows: Viewpoint Cottages, Naran: Eagle Resort"] },
+      { name: "Premium Package (Twin Sharing)", price: "54,000", status: "available", features: ["Twin sharing premium setup", "Coaster transport", "Chilas: Shangrilla, Fairy Meadows: Sarai Hotel, Naran: Hotel Home"] },
+      { name: "Premium Package (Solo Room)", price: "81,000", status: "available", features: ["Solo private premium room", "Coaster transport", "Chilas: Shangrilla, Fairy Meadows: Sarai Hotel, Naran: Hotel Home"] }
     ],
-    jeepCharges: "RS. 4,000 Per Head",
+    jeepCharges: "RS. 3,500 Per Head",
+    hotelDetails: {
+      standard: [
+        { city: "Chilas", hotel: "FM Cottage", nights: "1 Night Stay" },
+        { city: "Fairy Meadows", hotel: "Fairy Meadows Viewpoint Cottages", nights: "2 Nights Stay" },
+        { city: "Naran", hotel: "Eagle Resort", nights: "1 Night Stay" }
+      ],
+      premium: [
+        { city: "Chilas", hotel: "Shangrilla Chilas", nights: "1 Night Stay" },
+        { city: "Fairy Meadows", hotel: "Sarai Hotel", nights: "2 Nights Stay" },
+        { city: "Naran", hotel: "Hotel Home", nights: "1 Night Stay" }
+      ]
+    },
     faqs: [
       { q: "How dangerous is the jeep ride to Fairy Meadows?", a: "The Fairy Meadows jeep track is narrow and thrilling, but our local drivers are highly trained and have years of experience navigating this specific track safely." },
       { q: "How long is the trek to Fairy Meadows?", a: "After the jeep ride ends at Tato Village, it is a 3 to 4-hour trek (approx. 5.5 km) uphill to Fairy Meadows. You can also hire a horse/pony locally if you prefer not to hike." },
@@ -472,7 +487,7 @@ window.TOUR_DATA = {
     maxGroup: "2-15 Persons",
     difficulty: "Moderate",
     image: "kumrat_jahaz_banda.webp",
-    price: "22,000",
+    price: "20,000",
     originalPrice: "20,000",
     departureDay: "Every Wednesday Night from Lahore, Every Thursday Morning from Islamabad",
     about: "A fast-paced adventure into Dir. This 4-day tour is perfect for trekking enthusiasts who have limited time but want to experience the magic of Jahaz Banda Meadows and Katora Lake. Hike through the pine forests and stay in comfortable wooden cabins right in the center of the meadows.",
@@ -503,9 +518,9 @@ window.TOUR_DATA = {
       "Room heating charges"
     ],
     packages: [
-      { name: "Standard Package (Quad Sharing)", price: "22,000", status: "available", features: ["Quad sharing in hotel/camps", "AC Transport", "Kumrat: Pamir Cottages, Jahaz Banda: Jahaz International"] },
-      { name: "Standard Package (Twin Sharing)", price: "27,000", status: "available", features: ["Twin sharing in hotel/camps", "AC Transport", "Kumrat: Pamir Cottages, Jahaz Banda: Jahaz International"] },
-      { name: "Standard Package (Solo Room)", price: "32,000", status: "available", features: ["Solo private room", "AC Transport", "Kumrat: Pamir Cottages, Jahaz Banda: Jahaz International"] }
+      { name: "Standard Package (Quad Sharing)", price: "20,000", status: "available", features: ["Quad sharing in hotel/camps", "AC Transport", "Kumrat: Pamir Cottages, Jahaz Banda: Jahaz International"] },
+      { name: "Standard Package (Twin Sharing)", price: "25,000", status: "available", features: ["Twin sharing in hotel/camps", "AC Transport", "Kumrat: Pamir Cottages, Jahaz Banda: Jahaz International"] },
+      { name: "Standard Package (Solo Room)", price: "30,000", status: "available", features: ["Solo private room", "AC Transport", "Kumrat: Pamir Cottages, Jahaz Banda: Jahaz International"] }
     ],
     jeepCharges: "RS. 3,500 Per Head",
     hotelDetails: {
@@ -527,7 +542,7 @@ window.TOUR_DATA = {
     maxGroup: "2-20 Persons",
     difficulty: "Easy",
     image: "naran_shogran.webp",
-    price: "20,000",
+    price: "18,000",
     originalPrice: "18,000",
     departureDay: "Every Thursday Night from Lahore, Every Friday Morning from Islamabad",
     about: "A refreshing weekend day filled with alpine lakes, flowing streams, and majestic mountain passes — showcasing the raw beauty of Lulusar and Babusar Top, making it a truly unforgettable northern experience. Visit Kiwai Waterfall, Shogran Valley, Siri Paye, and Lake Saif-ul-Malook.",
@@ -558,13 +573,13 @@ window.TOUR_DATA = {
       "Rafting fees or horse rides"
     ],
     packages: [
-      { name: "Standard Package (Quad Sharing)", price: "20,000", status: "available", features: ["Quad sharing room setup", "AC Transport", "Naran: Eagle Resort"] },
-      { name: "Standard Package (Twin Sharing)", price: "23,000", status: "available", features: ["Twin sharing room setup", "AC Transport", "Naran: Eagle Resort"] },
-      { name: "Standard Package (Solo Room)", price: "29,000", status: "available", features: ["Solo private room", "AC Transport", "Naran: Eagle Resort"] },
-      { name: "Deluxe Package (Quad Sharing)", price: "28,000", status: "available", features: ["Quad sharing room setup", "AC Transport", "Naran: Gateway Hotel"] },
-      { name: "Deluxe Package (Twin Sharing)", price: "33,000", status: "available", features: ["Twin sharing room setup", "AC Transport", "Naran: Gateway Hotel"] },
-      { name: "Deluxe Package (Solo Room)", price: "51,000", status: "available", features: ["Solo private room", "AC Transport", "Naran: Gateway Hotel"] },
-      { name: "Executive Package (Twin Sharing)", price: "79,000", status: "available", features: ["Twin sharing room setup", "AC Transport", "Naran: Hotel Home (2 Nights)"] },
+      { name: "Standard Package (Quad Sharing)", price: "18,000", status: "available", features: ["Quad sharing room setup", "AC Transport", "Naran: Eagle Resort"] },
+      { name: "Standard Package (Twin Sharing)", price: "21,000", status: "available", features: ["Twin sharing room setup", "AC Transport", "Naran: Eagle Resort"] },
+      { name: "Standard Package (Solo Room)", price: "27,000", status: "available", features: ["Solo private room", "AC Transport", "Naran: Eagle Resort"] },
+      { name: "Deluxe Package (Quad Sharing)", price: "26,000", status: "available", features: ["Quad sharing room setup", "AC Transport", "Naran: Gateway Hotel"] },
+      { name: "Deluxe Package (Twin Sharing)", price: "31,000", status: "available", features: ["Twin sharing room setup", "AC Transport", "Naran: Gateway Hotel"] },
+      { name: "Deluxe Package (Solo Room)", price: "49,000", status: "available", features: ["Solo private room", "AC Transport", "Naran: Gateway Hotel"] },
+      { name: "Executive Package", price: "N/A", status: "unavailable", features: [] },
       { name: "Premium Package", price: "N/A", status: "unavailable", features: [] }
     ],
     jeepCharges: "Included in Package",
@@ -639,7 +654,7 @@ window.TOUR_DATA = {
     maxGroup: "2-15 Persons",
     difficulty: "Moderate",
     image: "kashmir_arang_kel.webp",
-    price: "18,500",
+    price: "17,000",
     originalPrice: "17,000",
     departureDay: "Monday & Thursday Night from Lahore, Tuesday & Friday Morning from Islamabad",
     about: "Hike to the scenic crown jewel of Neelum Valley. This 3-day tour takes you to the fairytale village of Arang Kel, situated on a hill plateau surrounded by pine forests and high peaks. Experience the thrilling manual chairlift across the Neelum River and a short hike to this mountain heaven.",
@@ -664,13 +679,31 @@ window.TOUR_DATA = {
     exclusions: [
       "Cable car tickets",
       "Lunch & refreshments",
+      "Jeep charges for off-road destinations",
       "Porters for hiking"
     ],
     packages: [
-      { name: "Standard Package (Quad Sharing)", price: "18,500", status: "available", features: ["Shared 3-4 person room", "Coaster transport", "Standard meals"] },
-      { name: "Standard Package (Twin Sharing)", price: "22,500", status: "available", features: ["Twin sharing room setup", "Coaster transport", "Standard meals"] },
-      { name: "Standard Package (Solo Room)", price: "27,500", status: "available", features: ["Solo private room", "Coaster transport", "Standard meals"] }
+      { name: "Standard Package (Quad Sharing)", price: "17,000", status: "available", features: ["Shared 3-4 person room", "Coaster transport", "Sharda: Neelum Continental, Arang Kel: Arang kel Inn"] },
+      { name: "Standard Package (Twin Sharing)", price: "20,000", status: "available", features: ["Twin sharing room setup", "Coaster transport", "Sharda: Neelum Continental, Arang Kel: Arang kel Inn"] },
+      { name: "Standard Package (Solo Room)", price: "26,000", status: "available", features: ["Solo private room", "Coaster transport", "Sharda: Neelum Continental, Arang Kel: Arang kel Inn"] },
+      { name: "Deluxe Package (Twin Sharing)", price: "34,000", status: "available", features: ["Twin sharing room setup", "Coaster transport", "Sharda: Shangrilla Sharda, Arang Kel: Corner Cottages"] },
+      { name: "Deluxe Package (Solo Room)", price: "46,000", status: "available", features: ["Solo private room", "Coaster transport", "Sharda: Shangrilla Sharda, Arang Kel: Corner Cottages"] }
     ],
+    jeepCharges: "RS. 2,500 Per Head",
+    hotelDetails: {
+      standard: [
+        { city: "Sharda", hotel: "Neelum Continental", nights: "1 Night Stay" },
+        { city: "Arang Kel", hotel: "Arang kel Inn", nights: "1 Night Stay" }
+      ],
+      deluxe: [
+        { city: "Sharda", hotel: "Shangrilla Sharda", nights: "1 Night Stay" },
+        { city: "Arang Kel", hotel: "Corner Cottages", nights: "1 Night Stay" }
+      ],
+      executive: [
+        { city: "Sharda", hotel: "Vadi Hotel", nights: "1 Night Stay" },
+        { city: "Arang Kel", hotel: "Wanderlust Chapter 1", nights: "1 Night Stay" }
+      ]
+    },
     faqs: [
       { q: "How do we reach Arang Kel?", a: "We travel to Kel, then take a 5-minute chairlift ride across the river, followed by a 30 to 45-minute trek uphill through lush pine forests to the Arang Kel plateau." },
       { q: "Is the chairlift safe?", a: "Yes, the local cable car/chairlift is operated regularly and is the standard way to cross the Neelum River gorge to Kel." },

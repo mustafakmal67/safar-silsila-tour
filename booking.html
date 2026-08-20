@@ -128,7 +128,9 @@
             <div class="form-group-row form-group-row-2">
               <div>
                 <label class="form-field-label" for="booking-start-date">Preferred Start Date</label>
-                <input type="date" id="booking-start-date" class="booking-input" required onchange="calculateTotal()">
+                <div id="booking-date-container">
+                  <input type="date" id="booking-start-date" class="booking-input" required onchange="calculateTotal()">
+                </div>
               </div>
               <div style="display: flex; align-items: flex-end; padding-bottom: 8px;">
                 <label class="d-flex gap-2" style="font-size: 13.5px; color: rgba(255,255,255,0.85); cursor: pointer;">
@@ -459,9 +461,9 @@
         adultsCount = paramTravelers;
         countAdults.textContent = adultsCount;
       }
-      if (paramDate) {
-        dateInput.value = paramDate;
-      }
+      // Initialize dropdown
+      onTourChange(paramDate);
+
       if (paramName) {
         document.getElementById('booking-name').value = paramName;
       }
@@ -471,9 +473,6 @@
       if (paramEmail) {
         document.getElementById('booking-email').value = paramEmail;
       }
-
-      // Initialize dropdown
-      onTourChange();
 
       // If package is passed in query, auto-check it
       if (selectedPackage) {
@@ -501,12 +500,75 @@
       calculateTotal();
     }
 
-    function onTourChange() {
+    function updateDateField(tour, paramDate) {
+      const container = document.getElementById('booking-date-container');
+      if (!container) return;
+
+      if (tour && tour.departureDay) {
+        // Parse days of week from departure text
+        const daysOfWeek = [];
+        const daysMap = ["sunday", "monday", "tuesday", "wednesday", "thursday", "friday", "saturday"];
+        daysMap.forEach((day, index) => {
+          if (tour.departureDay.toLowerCase().includes(day)) {
+            daysOfWeek.push(index);
+          }
+        });
+
+        if (daysOfWeek.length > 0) {
+          // Generate next 8 dates
+          const dates = [];
+          let current = new Date();
+          current.setDate(current.getDate() + 1); // Start from tomorrow
+          while (dates.length < 8) {
+            if (daysOfWeek.includes(current.getDay())) {
+              const val = current.toISOString().split('T')[0];
+              const label = current.toLocaleDateString('en-US', { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' });
+              dates.push({ val, label });
+            }
+            current.setDate(current.getDate() + 1);
+          }
+
+          // If paramDate is set but not in select, add it
+          if (paramDate && !dates.some(d => d.val === paramDate)) {
+            try {
+              const d = new Date(paramDate);
+              if (!isNaN(d.getTime())) {
+                const label = d.toLocaleDateString('en-US', { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' });
+                dates.unshift({ val: paramDate, label: label + " (Selected)" });
+              }
+            } catch(e) {}
+          }
+
+          // Build select element
+          container.innerHTML = `
+            <select id="booking-start-date" class="booking-input" required onchange="calculateTotal()">
+              ${dates.map(d => `<option value="${d.val}" ${paramDate === d.val ? 'selected' : ''}>${d.label}</option>`).join('')}
+            </select>
+          `;
+          return;
+        }
+      }
+
+      // Default back to standard date input
+      const tomorrow = new Date();
+      tomorrow.setDate(tomorrow.getDate() + 1);
+      const minDate = tomorrow.toISOString().split('T')[0];
+      const val = paramDate || minDate;
+      
+      container.innerHTML = `
+        <input type="date" id="booking-start-date" class="booking-input" min="${minDate}" value="${val}" required onchange="calculateTotal()">
+      `;
+    }
+
+    function onTourChange(paramDate) {
       const tourId = tourSelect.value;
       packageContainer.innerHTML = '';
+      const tour = (tourId && tourId !== 'custom' && window.TOUR_DATA) ? window.TOUR_DATA[tourId] : null;
 
-      if (tourId && tourId !== 'custom' && window.TOUR_DATA && window.TOUR_DATA[tourId]) {
-        const tour = window.TOUR_DATA[tourId];
+      // Update date field based on selected tour
+      updateDateField(tour, paramDate);
+
+      if (tour) {
         tourHeroImg.src = tour.image;
         tourHeroLocation.innerText = tour.location;
         tourHeroTitle.innerText = tour.title;

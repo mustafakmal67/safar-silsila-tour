@@ -717,7 +717,9 @@
             <div class="sidebar-field-group" style="display: grid; grid-template-columns: 1.2fr 1fr; gap: 12px;">
               <div>
                 <label class="sidebar-label" for="booking-date">Departure Date *</label>
-                <input class="sidebar-input" id="booking-date" type="date" required>
+                <div id="booking-date-container">
+                  <input class="sidebar-input" id="booking-date" type="date" required>
+                </div>
               </div>
               <div>
                 <label class="sidebar-label" for="booking-travelers">Travelers *</label>
@@ -1058,6 +1060,46 @@
       packageDropdown.innerHTML = availablePackages.map(pkg => `
         <option value="${pkg.name} (Rs ${pkg.price})">${pkg.name} (Rs ${pkg.price})</option>
       `).join('');
+
+      // Populate sidebar date dropdown
+      const sidebarDateContainer = document.getElementById('booking-date-container');
+      if (sidebarDateContainer && tour.departureDay) {
+        const daysOfWeek = [];
+        const daysMap = ["sunday", "monday", "tuesday", "wednesday", "thursday", "friday", "saturday"];
+        daysMap.forEach((day, index) => {
+          if (tour.departureDay.toLowerCase().includes(day)) {
+            daysOfWeek.push(index);
+          }
+        });
+
+        if (daysOfWeek.length > 0) {
+          const dates = [];
+          let current = new Date();
+          current.setDate(current.getDate() + 1); // Start from tomorrow
+          while (dates.length < 8) {
+            if (daysOfWeek.includes(current.getDay())) {
+              const val = current.toISOString().split('T')[0];
+              const label = current.toLocaleDateString('en-US', { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' });
+              dates.push({ val, label });
+            }
+            current.setDate(current.getDate() + 1);
+          }
+
+          sidebarDateContainer.innerHTML = `
+            <select id="booking-date" class="sidebar-input" required onchange="updateWhatsAppLink()">
+              ${dates.map(d => `<option value="${d.val}">${d.label}</option>`).join('')}
+            </select>
+          `;
+        } else {
+          // If no specific days, default min date tomorrow
+          const tomorrow = new Date();
+          tomorrow.setDate(tomorrow.getDate() + 1);
+          const minDate = tomorrow.toISOString().split('T')[0];
+          sidebarDateContainer.innerHTML = `
+            <input class="sidebar-input" id="booking-date" type="date" min="${minDate}" value="${minDate}" required onchange="updateWhatsAppLink()">
+          `;
+        }
+      }
 
       // Set direct whatsapp query link base
       updateWhatsAppLink();
