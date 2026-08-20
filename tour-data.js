@@ -21,7 +21,7 @@ window.TOUR_DATA = {
       "Boat ride on pristine Attabad Lake"
     ],
     itinerary: [
-      { day: "Day 1", title: "Islamabad to Chilas via Karakoram Highway", desc: "Departure from Islamabad early morning. Drive through the scenic Karakoram Highway. Stop at Besham, Summer Nallah, and Dassu. Arrive in Chilas by evening for overnight stay." },
+      { day: "Day 1", title: "Islamabad to Chilas via Karakoram Highway", desc: "Departure from Islamabad early morning. Drive to the scenic Karakoram Highway. Stop at Balakot, Kiwai Waterfall, Kaghan, Lulusar Lake, Babusar Top. Arrive in Chilas by evening for overnight stay." },
       { day: "Day 2", title: "Chilas to Hunza Karimabad", desc: "Drive from Chilas to Hunza. Stops at Nanga Parbat view point and the unique junction point where three mighty mountain ranges meet. Arrive in Karimabad, visit Baltit Fort and Karimabad Bazaar. Overnight in Hunza." },
       { day: "Day 3", title: "Excursion to Attabad Lake & Passu Cones", desc: "Travel to Upper Hunza. Enjoy a boat ride on Attabad Lake. Visit Hussaini Suspension Bridge and view the iconic Passu Cones. Drive back to Karimabad for overnight stay." },
       { day: "Day 4", title: "Karimabad to Skardu Valley", desc: "Drive from Hunza to Skardu along the Indus River gorge. Stop at Astak Nala for lunch. Arrive in Skardu, visit the Cold Desert of Katpana. Overnight in Skardu." },
