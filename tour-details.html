@@ -593,6 +593,11 @@
         <span>Difficulty</span>
         <h4 id="meta-difficulty">Medium</h4>
       </div>
+      <div class="meta-badge-card" style="grid-column: 1 / -1; border-color: rgba(230,175,46,0.3); background: rgba(230,175,46,0.06);">
+        <i class="ph ph-calendar-check" style="color: var(--sunset-accent);"></i>
+        <span style="color: var(--sunset-accent); font-weight: 600;">Fixed Departure Schedule</span>
+        <h4 id="meta-departure" style="font-size: 13.5px; color: #ffffff; font-weight: 600; margin-top: 2px;">Every Friday Night (LHR) / Every Saturday Morning (ISB)</h4>
+      </div>
     </div>
 
     <!-- Main Two Column Grid -->
@@ -911,6 +916,9 @@
       document.getElementById('meta-duration').innerText = tour.duration;
       document.getElementById('meta-group').innerText = tour.maxGroup;
       document.getElementById('meta-difficulty').innerText = tour.difficulty;
+      if (document.getElementById('meta-departure') && tour.departureDay) {
+        document.getElementById('meta-departure').innerText = tour.departureDay;
+      }
 
       // About Text
       document.getElementById('details-about-text').innerText = tour.about;
@@ -1092,6 +1100,9 @@
             <select id="booking-date" class="sidebar-input" required onchange="updateWhatsAppLink()">
               ${dates.map(d => `<option value="${d.val}">${d.label}</option>`).join('')}
             </select>
+            <div style="font-size: 11.5px; color: var(--sunset-accent); margin-top: 8px; line-height: 1.4; display: flex; align-items: flex-start; gap: 6px;">
+              <i class="ph ph-calendar-check" style="font-size: 14px; margin-top: 1px;"></i> <span><strong>Fixed Schedule:</strong> ${tour.departureDay}</span>
+            </div>
           `;
         } else {
           // If no specific days, default min date tomorrow
