@@ -780,27 +780,28 @@ window.TOUR_DATA = {
 };
 
 
-// Append 52 City Tours into window.TOUR_DATA
+
+
+// Append ALL 146 International & Regional Tours into window.TOUR_DATA
 if (window.TOUR_DATA) {
   Object.assign(window.TOUR_DATA, {
-  "city-tour-1": {
-    "id": "city-tour-1",
-    "title": "Islamabad Tour – 04 Days",
+  "city-1": {
+    "id": "city-1",
+    "title": "Islamabad Tour – 04 Days",
     "duration": "4 Day 3 Night",
-    "location": "Islamabad & Northern Pakistan",
+    "location": "Pakistan",
     "maxGroup": "Private & Group Options",
-    "difficulty": "Easy / Cultural",
+    "difficulty": "Easy / Moderate",
     "image": "images/city-tours/tour_1.webp",
     "price": "14,000",
     "originalPrice": "16,100",
-    "departureDay": "Daily Private Departures & Weekly Group Departures",
-    "about": "Experience the official Islamabad Tour – 04 Days with Safar Silsila. This curated excursion offers an unforgettable journey through ancient heritage, vibrant local culture, stunning landscapes, and legendary culinary delights. Guided by certified local historians and travel experts, with private air-conditioned vehicles, full ticket entry logistics, and official visa assistance.",
+    "departureDay": "Daily Private Departures & Fixed Group Departures",
+    "about": "Experience Islamabad Tour – 04 Days with Safar Silsila. This curated itinerary offers a complete journey through iconic landmarks, rich local culture, breathtaking scenery, and legendary regional cuisine. Includes professional guide, luxury AC transport, full ticket entry logistics, and official visa support.",
     "highlights": [
-      "Full guided excursion for Islamabad Tour – 04 Days",
-      "Private air-conditioned luxury transport with professional driver & fuel",
-      "Sightseeing at historical monuments, bazaars & scenic viewpoints",
-      "Authentic local food & tea tasting experiences",
-      "Full ticket entry passes & VIP protocol assistance",
+      "Complete guided excursion for Islamabad Tour – 04 Days",
+      "Private AC transport with driver, fuel, tolls & parking",
+      "Sightseeing at historical monuments, bazaars & viewpoints",
+      "Authentic regional food & tea tasting",
       "24/7 dedicated travel concierge & emergency support"
     ],
     "itinerary": [
@@ -812,7 +813,7 @@ if (window.TOUR_DATA) {
       {
         "day": "Afternoon",
         "title": "Guided Monument & Activity Exploration",
-        "desc": "Arrive at destination. Guided tour of key monuments, scenic viewpoints, water sports activities, and photography stops."
+        "desc": "Arrive at destination. Guided tour of key monuments, scenic viewpoints, water activities, and photography stops."
       },
       {
         "day": "Evening",
@@ -824,7 +825,7 @@ if (window.TOUR_DATA) {
       "Private AC Transport (Car / Prado / Coaster) with driver & fuel",
       "Official Tour Guide & Historian Services",
       "All Toll Taxes, Parking & Highway Charges",
-      "Complimentary Mineral Water & Tea",
+      "Complimentary Mineral Water & Refreshments",
       "Hotel Pickup & Drop-off Services"
     ],
     "exclusions": [
@@ -834,44 +835,44 @@ if (window.TOUR_DATA) {
     ],
     "packages": [
       {
-        "name": "Sedan Car Option (Up to 3 Persons)",
+        "name": "Standard Package",
         "price": "14,000",
         "status": "available",
         "features": [
-          "Toyota Corolla / Honda City",
-          "Driver & Fuel Included",
-          "Hotel Pickup & Drop-off"
+          "AC Coaster / Sedan Transport",
+          "Standard Hotel / Day Trip",
+          "Driver & Fuel Included"
         ]
       },
       {
-        "name": "SUV / Prado Option (Up to 5 Persons)",
-        "price": "18,000",
+        "name": "Deluxe Package",
+        "price": "18,900",
         "status": "available",
         "features": [
-          "Toyota Prado / BRV SUV",
-          "Driver & Fuel Included",
-          "Luxury Reclining Seats"
+          "AC Grand Cabin / Prado",
+          "Deluxe Hotel / Private Guide",
+          "Full Inclusions"
         ]
       },
       {
-        "name": "Coaster / HiAce Option (Groups)",
-        "price": "24,000",
+        "name": "Executive Package",
+        "price": "24,500",
         "status": "available",
         "features": [
-          "22-Seater Coaster / Grand Cabin",
-          "Driver & Fuel Included",
-          "Ideal for Family & Corporate Groups"
+          "Luxury 4x4 Prado / SUV",
+          "Luxury 4-Star / 5-Star Hotel",
+          "VIP Concierge & Protocol"
         ]
       }
     ],
     "faqs": [
       {
-        "q": "What is included in the private tour pricing?",
+        "q": "What is included in the tour pricing?",
         "a": "Pricing includes private AC transport, professional driver, fuel, highway tolls, parking fees, and guide assistance."
       },
       {
-        "q": "Can this tour be customized for specific dates or pick-up locations?",
-        "a": "Yes! All city tours can be customized for your exact pick-up location, time, and special itinerary preferences."
+        "q": "Can this tour be customized?",
+        "a": "Yes! All tours can be customized for your exact pick-up location, time, and special itinerary preferences."
       },
       {
         "q": "How do I book or confirm my reservation?",
@@ -879,24 +880,23 @@ if (window.TOUR_DATA) {
       }
     ]
   },
-  "city-tour-2": {
-    "id": "city-tour-2",
-    "title": "Hazara & Khanpur Tour (Day Trip from Islamabad)  – 01 Day",
+  "city-2": {
+    "id": "city-2",
+    "title": "Hazara & Khanpur Tour (Day Trip from Islamabad) – 01 Day",
     "duration": "1 Day",
-    "location": "Islamabad & Northern Pakistan",
+    "location": "Pakistan",
     "maxGroup": "Private & Group Options",
-    "difficulty": "Easy / Cultural",
+    "difficulty": "Easy / Moderate",
     "image": "images/city-tours/tour_2.webp",
     "price": "14,000",
     "originalPrice": "16,100",
-    "departureDay": "Daily Private Departures & Weekly Group Departures",
-    "about": "Experience the official Hazara & Khanpur Tour (Day Trip from Islamabad)  – 01 Day with Safar Silsila. This curated excursion offers an unforgettable journey through ancient heritage, vibrant local culture, stunning landscapes, and legendary culinary delights. Guided by certified local historians and travel experts, with private air-conditioned vehicles, full ticket entry logistics, and official visa assistance.",
+    "departureDay": "Daily Private Departures & Fixed Group Departures",
+    "about": "Experience Hazara & Khanpur Tour (Day Trip from Islamabad) – 01 Day with Safar Silsila. This curated itinerary offers a complete journey through iconic landmarks, rich local culture, breathtaking scenery, and legendary regional cuisine. Includes professional guide, luxury AC transport, full ticket entry logistics, and official visa support.",
     "highlights": [
-      "Full guided excursion for Hazara & Khanpur Tour (Day Trip from Islamabad)  – 01 Day",
-      "Private air-conditioned luxury transport with professional driver & fuel",
-      "Sightseeing at historical monuments, bazaars & scenic viewpoints",
-      "Authentic local food & tea tasting experiences",
-      "Full ticket entry passes & VIP protocol assistance",
+      "Complete guided excursion for Hazara & Khanpur Tour (Day Trip from Islamabad) – 01 Day",
+      "Private AC transport with driver, fuel, tolls & parking",
+      "Sightseeing at historical monuments, bazaars & viewpoints",
+      "Authentic regional food & tea tasting",
       "24/7 dedicated travel concierge & emergency support"
     ],
     "itinerary": [
@@ -908,7 +908,7 @@ if (window.TOUR_DATA) {
       {
         "day": "Afternoon",
         "title": "Guided Monument & Activity Exploration",
-        "desc": "Arrive at destination. Guided tour of key monuments, scenic viewpoints, water sports activities, and photography stops."
+        "desc": "Arrive at destination. Guided tour of key monuments, scenic viewpoints, water activities, and photography stops."
       },
       {
         "day": "Evening",
@@ -920,7 +920,7 @@ if (window.TOUR_DATA) {
       "Private AC Transport (Car / Prado / Coaster) with driver & fuel",
       "Official Tour Guide & Historian Services",
       "All Toll Taxes, Parking & Highway Charges",
-      "Complimentary Mineral Water & Tea",
+      "Complimentary Mineral Water & Refreshments",
       "Hotel Pickup & Drop-off Services"
     ],
     "exclusions": [
@@ -930,44 +930,44 @@ if (window.TOUR_DATA) {
     ],
     "packages": [
       {
-        "name": "Sedan Car Option (Up to 3 Persons)",
+        "name": "Standard Package",
         "price": "14,000",
         "status": "available",
         "features": [
-          "Toyota Corolla / Honda City",
-          "Driver & Fuel Included",
-          "Hotel Pickup & Drop-off"
+          "AC Coaster / Sedan Transport",
+          "Standard Hotel / Day Trip",
+          "Driver & Fuel Included"
         ]
       },
       {
-        "name": "SUV / Prado Option (Up to 5 Persons)",
-        "price": "18,000",
+        "name": "Deluxe Package",
+        "price": "18,900",
         "status": "available",
         "features": [
-          "Toyota Prado / BRV SUV",
-          "Driver & Fuel Included",
-          "Luxury Reclining Seats"
+          "AC Grand Cabin / Prado",
+          "Deluxe Hotel / Private Guide",
+          "Full Inclusions"
         ]
       },
       {
-        "name": "Coaster / HiAce Option (Groups)",
-        "price": "24,000",
+        "name": "Executive Package",
+        "price": "24,500",
         "status": "available",
         "features": [
-          "22-Seater Coaster / Grand Cabin",
-          "Driver & Fuel Included",
-          "Ideal for Family & Corporate Groups"
+          "Luxury 4x4 Prado / SUV",
+          "Luxury 4-Star / 5-Star Hotel",
+          "VIP Concierge & Protocol"
         ]
       }
     ],
     "faqs": [
       {
-        "q": "What is included in the private tour pricing?",
+        "q": "What is included in the tour pricing?",
         "a": "Pricing includes private AC transport, professional driver, fuel, highway tolls, parking fees, and guide assistance."
       },
       {
-        "q": "Can this tour be customized for specific dates or pick-up locations?",
-        "a": "Yes! All city tours can be customized for your exact pick-up location, time, and special itinerary preferences."
+        "q": "Can this tour be customized?",
+        "a": "Yes! All tours can be customized for your exact pick-up location, time, and special itinerary preferences."
       },
       {
         "q": "How do I book or confirm my reservation?",
@@ -975,24 +975,23 @@ if (window.TOUR_DATA) {
       }
     ]
   },
-  "city-tour-3": {
-    "id": "city-tour-3",
-    "title": "Ayubia & Nathia Gali Tour (Day Trip from Islamabad)  – 01 Day",
+  "city-3": {
+    "id": "city-3",
+    "title": "Ayubia & Nathia Gali Tour (Day Trip from Islamabad) – 01 Day",
     "duration": "1 Day",
-    "location": "Islamabad & Northern Pakistan",
+    "location": "Pakistan",
     "maxGroup": "Private & Group Options",
-    "difficulty": "Easy / Cultural",
+    "difficulty": "Easy / Moderate",
     "image": "images/city-tours/tour_3.webp",
     "price": "14,000",
     "originalPrice": "16,100",
-    "departureDay": "Daily Private Departures & Weekly Group Departures",
-    "about": "Experience the official Ayubia & Nathia Gali Tour (Day Trip from Islamabad)  – 01 Day with Safar Silsila. This curated excursion offers an unforgettable journey through ancient heritage, vibrant local culture, stunning landscapes, and legendary culinary delights. Guided by certified local historians and travel experts, with private air-conditioned vehicles, full ticket entry logistics, and official visa assistance.",
+    "departureDay": "Daily Private Departures & Fixed Group Departures",
+    "about": "Experience Ayubia & Nathia Gali Tour (Day Trip from Islamabad) – 01 Day with Safar Silsila. This curated itinerary offers a complete journey through iconic landmarks, rich local culture, breathtaking scenery, and legendary regional cuisine. Includes professional guide, luxury AC transport, full ticket entry logistics, and official visa support.",
     "highlights": [
-      "Full guided excursion for Ayubia & Nathia Gali Tour (Day Trip from Islamabad)  – 01 Day",
-      "Private air-conditioned luxury transport with professional driver & fuel",
-      "Sightseeing at historical monuments, bazaars & scenic viewpoints",
-      "Authentic local food & tea tasting experiences",
-      "Full ticket entry passes & VIP protocol assistance",
+      "Complete guided excursion for Ayubia & Nathia Gali Tour (Day Trip from Islamabad) – 01 Day",
+      "Private AC transport with driver, fuel, tolls & parking",
+      "Sightseeing at historical monuments, bazaars & viewpoints",
+      "Authentic regional food & tea tasting",
       "24/7 dedicated travel concierge & emergency support"
     ],
     "itinerary": [
@@ -1004,7 +1003,7 @@ if (window.TOUR_DATA) {
       {
         "day": "Afternoon",
         "title": "Guided Monument & Activity Exploration",
-        "desc": "Arrive at destination. Guided tour of key monuments, scenic viewpoints, water sports activities, and photography stops."
+        "desc": "Arrive at destination. Guided tour of key monuments, scenic viewpoints, water activities, and photography stops."
       },
       {
         "day": "Evening",
@@ -1016,7 +1015,7 @@ if (window.TOUR_DATA) {
       "Private AC Transport (Car / Prado / Coaster) with driver & fuel",
       "Official Tour Guide & Historian Services",
       "All Toll Taxes, Parking & Highway Charges",
-      "Complimentary Mineral Water & Tea",
+      "Complimentary Mineral Water & Refreshments",
       "Hotel Pickup & Drop-off Services"
     ],
     "exclusions": [
@@ -1026,44 +1025,44 @@ if (window.TOUR_DATA) {
     ],
     "packages": [
       {
-        "name": "Sedan Car Option (Up to 3 Persons)",
+        "name": "Standard Package",
         "price": "14,000",
         "status": "available",
         "features": [
-          "Toyota Corolla / Honda City",
-          "Driver & Fuel Included",
-          "Hotel Pickup & Drop-off"
+          "AC Coaster / Sedan Transport",
+          "Standard Hotel / Day Trip",
+          "Driver & Fuel Included"
         ]
       },
       {
-        "name": "SUV / Prado Option (Up to 5 Persons)",
-        "price": "18,000",
+        "name": "Deluxe Package",
+        "price": "18,900",
         "status": "available",
         "features": [
-          "Toyota Prado / BRV SUV",
-          "Driver & Fuel Included",
-          "Luxury Reclining Seats"
+          "AC Grand Cabin / Prado",
+          "Deluxe Hotel / Private Guide",
+          "Full Inclusions"
         ]
       },
       {
-        "name": "Coaster / HiAce Option (Groups)",
-        "price": "24,000",
+        "name": "Executive Package",
+        "price": "24,500",
         "status": "available",
         "features": [
-          "22-Seater Coaster / Grand Cabin",
-          "Driver & Fuel Included",
-          "Ideal for Family & Corporate Groups"
+          "Luxury 4x4 Prado / SUV",
+          "Luxury 4-Star / 5-Star Hotel",
+          "VIP Concierge & Protocol"
         ]
       }
     ],
     "faqs": [
       {
-        "q": "What is included in the private tour pricing?",
+        "q": "What is included in the tour pricing?",
         "a": "Pricing includes private AC transport, professional driver, fuel, highway tolls, parking fees, and guide assistance."
       },
       {
-        "q": "Can this tour be customized for specific dates or pick-up locations?",
-        "a": "Yes! All city tours can be customized for your exact pick-up location, time, and special itinerary preferences."
+        "q": "Can this tour be customized?",
+        "a": "Yes! All tours can be customized for your exact pick-up location, time, and special itinerary preferences."
       },
       {
         "q": "How do I book or confirm my reservation?",
@@ -1071,24 +1070,23 @@ if (window.TOUR_DATA) {
       }
     ]
   },
-  "city-tour-4": {
-    "id": "city-tour-4",
-    "title": "Panjpeer Rocks Tour (Day Trip from Islamabad)  – 01 Day",
+  "city-4": {
+    "id": "city-4",
+    "title": "Panjpeer Rocks Tour (Day Trip from Islamabad) – 01 Day",
     "duration": "1 Day",
-    "location": "Islamabad & Northern Pakistan",
+    "location": "Pakistan",
     "maxGroup": "Private & Group Options",
-    "difficulty": "Easy / Cultural",
+    "difficulty": "Easy / Moderate",
     "image": "images/city-tours/tour_4.webp",
     "price": "14,000",
     "originalPrice": "16,100",
-    "departureDay": "Daily Private Departures & Weekly Group Departures",
-    "about": "Experience the official Panjpeer Rocks Tour (Day Trip from Islamabad)  – 01 Day with Safar Silsila. This curated excursion offers an unforgettable journey through ancient heritage, vibrant local culture, stunning landscapes, and legendary culinary delights. Guided by certified local historians and travel experts, with private air-conditioned vehicles, full ticket entry logistics, and official visa assistance.",
+    "departureDay": "Daily Private Departures & Fixed Group Departures",
+    "about": "Experience Panjpeer Rocks Tour (Day Trip from Islamabad) – 01 Day with Safar Silsila. This curated itinerary offers a complete journey through iconic landmarks, rich local culture, breathtaking scenery, and legendary regional cuisine. Includes professional guide, luxury AC transport, full ticket entry logistics, and official visa support.",
     "highlights": [
-      "Full guided excursion for Panjpeer Rocks Tour (Day Trip from Islamabad)  – 01 Day",
-      "Private air-conditioned luxury transport with professional driver & fuel",
-      "Sightseeing at historical monuments, bazaars & scenic viewpoints",
-      "Authentic local food & tea tasting experiences",
-      "Full ticket entry passes & VIP protocol assistance",
+      "Complete guided excursion for Panjpeer Rocks Tour (Day Trip from Islamabad) – 01 Day",
+      "Private AC transport with driver, fuel, tolls & parking",
+      "Sightseeing at historical monuments, bazaars & viewpoints",
+      "Authentic regional food & tea tasting",
       "24/7 dedicated travel concierge & emergency support"
     ],
     "itinerary": [
@@ -1100,7 +1098,7 @@ if (window.TOUR_DATA) {
       {
         "day": "Afternoon",
         "title": "Guided Monument & Activity Exploration",
-        "desc": "Arrive at destination. Guided tour of key monuments, scenic viewpoints, water sports activities, and photography stops."
+        "desc": "Arrive at destination. Guided tour of key monuments, scenic viewpoints, water activities, and photography stops."
       },
       {
         "day": "Evening",
@@ -1112,7 +1110,7 @@ if (window.TOUR_DATA) {
       "Private AC Transport (Car / Prado / Coaster) with driver & fuel",
       "Official Tour Guide & Historian Services",
       "All Toll Taxes, Parking & Highway Charges",
-      "Complimentary Mineral Water & Tea",
+      "Complimentary Mineral Water & Refreshments",
       "Hotel Pickup & Drop-off Services"
     ],
     "exclusions": [
@@ -1122,44 +1120,44 @@ if (window.TOUR_DATA) {
     ],
     "packages": [
       {
-        "name": "Sedan Car Option (Up to 3 Persons)",
+        "name": "Standard Package",
         "price": "14,000",
         "status": "available",
         "features": [
-          "Toyota Corolla / Honda City",
-          "Driver & Fuel Included",
-          "Hotel Pickup & Drop-off"
+          "AC Coaster / Sedan Transport",
+          "Standard Hotel / Day Trip",
+          "Driver & Fuel Included"
         ]
       },
       {
-        "name": "SUV / Prado Option (Up to 5 Persons)",
-        "price": "18,000",
+        "name": "Deluxe Package",
+        "price": "18,900",
         "status": "available",
         "features": [
-          "Toyota Prado / BRV SUV",
-          "Driver & Fuel Included",
-          "Luxury Reclining Seats"
+          "AC Grand Cabin / Prado",
+          "Deluxe Hotel / Private Guide",
+          "Full Inclusions"
         ]
       },
       {
-        "name": "Coaster / HiAce Option (Groups)",
-        "price": "24,000",
+        "name": "Executive Package",
+        "price": "24,500",
         "status": "available",
         "features": [
-          "22-Seater Coaster / Grand Cabin",
-          "Driver & Fuel Included",
-          "Ideal for Family & Corporate Groups"
+          "Luxury 4x4 Prado / SUV",
+          "Luxury 4-Star / 5-Star Hotel",
+          "VIP Concierge & Protocol"
         ]
       }
     ],
     "faqs": [
       {
-        "q": "What is included in the private tour pricing?",
+        "q": "What is included in the tour pricing?",
         "a": "Pricing includes private AC transport, professional driver, fuel, highway tolls, parking fees, and guide assistance."
       },
       {
-        "q": "Can this tour be customized for specific dates or pick-up locations?",
-        "a": "Yes! All city tours can be customized for your exact pick-up location, time, and special itinerary preferences."
+        "q": "Can this tour be customized?",
+        "a": "Yes! All tours can be customized for your exact pick-up location, time, and special itinerary preferences."
       },
       {
         "q": "How do I book or confirm my reservation?",
@@ -1167,24 +1165,23 @@ if (window.TOUR_DATA) {
       }
     ]
   },
-  "city-tour-5": {
-    "id": "city-tour-5",
+  "city-5": {
+    "id": "city-5",
     "title": "Mabali Resort Tour (Day Trip from Islamabad) – 01 Day",
     "duration": "1 Day",
-    "location": "Islamabad & Northern Pakistan",
+    "location": "Pakistan",
     "maxGroup": "Private & Group Options",
-    "difficulty": "Easy / Cultural",
+    "difficulty": "Easy / Moderate",
     "image": "images/city-tours/tour_5.webp",
     "price": "14,000",
     "originalPrice": "16,100",
-    "departureDay": "Daily Private Departures & Weekly Group Departures",
-    "about": "Experience the official Mabali Resort Tour (Day Trip from Islamabad) – 01 Day with Safar Silsila. This curated excursion offers an unforgettable journey through ancient heritage, vibrant local culture, stunning landscapes, and legendary culinary delights. Guided by certified local historians and travel experts, with private air-conditioned vehicles, full ticket entry logistics, and official visa assistance.",
+    "departureDay": "Daily Private Departures & Fixed Group Departures",
+    "about": "Experience Mabali Resort Tour (Day Trip from Islamabad) – 01 Day with Safar Silsila. This curated itinerary offers a complete journey through iconic landmarks, rich local culture, breathtaking scenery, and legendary regional cuisine. Includes professional guide, luxury AC transport, full ticket entry logistics, and official visa support.",
     "highlights": [
-      "Full guided excursion for Mabali Resort Tour (Day Trip from Islamabad) – 01 Day",
-      "Private air-conditioned luxury transport with professional driver & fuel",
-      "Sightseeing at historical monuments, bazaars & scenic viewpoints",
-      "Authentic local food & tea tasting experiences",
-      "Full ticket entry passes & VIP protocol assistance",
+      "Complete guided excursion for Mabali Resort Tour (Day Trip from Islamabad) – 01 Day",
+      "Private AC transport with driver, fuel, tolls & parking",
+      "Sightseeing at historical monuments, bazaars & viewpoints",
+      "Authentic regional food & tea tasting",
       "24/7 dedicated travel concierge & emergency support"
     ],
     "itinerary": [
@@ -1196,7 +1193,7 @@ if (window.TOUR_DATA) {
       {
         "day": "Afternoon",
         "title": "Guided Monument & Activity Exploration",
-        "desc": "Arrive at destination. Guided tour of key monuments, scenic viewpoints, water sports activities, and photography stops."
+        "desc": "Arrive at destination. Guided tour of key monuments, scenic viewpoints, water activities, and photography stops."
       },
       {
         "day": "Evening",
@@ -1208,7 +1205,7 @@ if (window.TOUR_DATA) {
       "Private AC Transport (Car / Prado / Coaster) with driver & fuel",
       "Official Tour Guide & Historian Services",
       "All Toll Taxes, Parking & Highway Charges",
-      "Complimentary Mineral Water & Tea",
+      "Complimentary Mineral Water & Refreshments",
       "Hotel Pickup & Drop-off Services"
     ],
     "exclusions": [
@@ -1218,44 +1215,44 @@ if (window.TOUR_DATA) {
     ],
     "packages": [
       {
-        "name": "Sedan Car Option (Up to 3 Persons)",
+        "name": "Standard Package",
         "price": "14,000",
         "status": "available",
         "features": [
-          "Toyota Corolla / Honda City",
-          "Driver & Fuel Included",
-          "Hotel Pickup & Drop-off"
+          "AC Coaster / Sedan Transport",
+          "Standard Hotel / Day Trip",
+          "Driver & Fuel Included"
         ]
       },
       {
-        "name": "SUV / Prado Option (Up to 5 Persons)",
-        "price": "18,000",
+        "name": "Deluxe Package",
+        "price": "18,900",
         "status": "available",
         "features": [
-          "Toyota Prado / BRV SUV",
-          "Driver & Fuel Included",
-          "Luxury Reclining Seats"
+          "AC Grand Cabin / Prado",
+          "Deluxe Hotel / Private Guide",
+          "Full Inclusions"
         ]
       },
       {
-        "name": "Coaster / HiAce Option (Groups)",
-        "price": "24,000",
+        "name": "Executive Package",
+        "price": "24,500",
         "status": "available",
         "features": [
-          "22-Seater Coaster / Grand Cabin",
-          "Driver & Fuel Included",
-          "Ideal for Family & Corporate Groups"
+          "Luxury 4x4 Prado / SUV",
+          "Luxury 4-Star / 5-Star Hotel",
+          "VIP Concierge & Protocol"
         ]
       }
     ],
     "faqs": [
       {
-        "q": "What is included in the private tour pricing?",
+        "q": "What is included in the tour pricing?",
         "a": "Pricing includes private AC transport, professional driver, fuel, highway tolls, parking fees, and guide assistance."
       },
       {
-        "q": "Can this tour be customized for specific dates or pick-up locations?",
-        "a": "Yes! All city tours can be customized for your exact pick-up location, time, and special itinerary preferences."
+        "q": "Can this tour be customized?",
+        "a": "Yes! All tours can be customized for your exact pick-up location, time, and special itinerary preferences."
       },
       {
         "q": "How do I book or confirm my reservation?",
@@ -1263,24 +1260,23 @@ if (window.TOUR_DATA) {
       }
     ]
   },
-  "city-tour-6": {
-    "id": "city-tour-6",
-    "title": "Southern Pakistan: Journey Through The Indus Valley  – 12 Days",
+  "city-6": {
+    "id": "city-6",
+    "title": "Southern Pakistan: Journey Through The Indus Valley – 12 Days",
     "duration": "12 Days 11 Nights",
-    "location": "Islamabad & Northern Pakistan",
+    "location": "Pakistan",
     "maxGroup": "Private & Group Options",
-    "difficulty": "Easy / Cultural",
+    "difficulty": "Easy / Moderate",
     "image": "images/city-tours/tour_6.webp",
     "price": "35,000",
     "originalPrice": "40,250",
-    "departureDay": "Daily Private Departures & Weekly Group Departures",
-    "about": "Experience the official Southern Pakistan: Journey Through The Indus Valley  – 12 Days with Safar Silsila. This curated excursion offers an unforgettable journey through ancient heritage, vibrant local culture, stunning landscapes, and legendary culinary delights. Guided by certified local historians and travel experts, with private air-conditioned vehicles, full ticket entry logistics, and official visa assistance.",
+    "departureDay": "Daily Private Departures & Fixed Group Departures",
+    "about": "Experience Southern Pakistan: Journey Through The Indus Valley – 12 Days with Safar Silsila. This curated itinerary offers a complete journey through iconic landmarks, rich local culture, breathtaking scenery, and legendary regional cuisine. Includes professional guide, luxury AC transport, full ticket entry logistics, and official visa support.",
     "highlights": [
-      "Full guided excursion for Southern Pakistan: Journey Through The Indus Valley  – 12 Days",
-      "Private air-conditioned luxury transport with professional driver & fuel",
-      "Sightseeing at historical monuments, bazaars & scenic viewpoints",
-      "Authentic local food & tea tasting experiences",
-      "Full ticket entry passes & VIP protocol assistance",
+      "Complete guided excursion for Southern Pakistan: Journey Through The Indus Valley – 12 Days",
+      "Private AC transport with driver, fuel, tolls & parking",
+      "Sightseeing at historical monuments, bazaars & viewpoints",
+      "Authentic regional food & tea tasting",
       "24/7 dedicated travel concierge & emergency support"
     ],
     "itinerary": [
@@ -1291,25 +1287,25 @@ if (window.TOUR_DATA) {
       },
       {
         "day": "Day 2",
-        "title": "Heritage Monuments & Cultural Sightseeing",
+        "title": "Monuments & Cultural Sightseeing",
         "desc": "Full day guided exploration of major historical monuments, ancient forts, and museum archives with expert local guide."
       },
       {
         "day": "Day 3",
         "title": "Scenic Valleys & Local Artisans",
-        "desc": "Visit artisan workshops, local handicrafts markets, and surrounding natural viewpoints. Dinner at famous local food street."
+        "desc": "Visit artisan workshops, local markets, and surrounding natural viewpoints. Evening food street dinner."
       },
       {
         "day": "Day 4",
         "title": "Final Excursions & Departure",
-        "desc": "Morning shopping and photography tour. Drop-off at airport or hotel with fond memories of Pakistan."
+        "desc": "Morning shopping and photography tour. Drop-off at airport or hotel with fond memories."
       }
     ],
     "inclusions": [
       "Private AC Transport (Car / Prado / Coaster) with driver & fuel",
       "Official Tour Guide & Historian Services",
       "All Toll Taxes, Parking & Highway Charges",
-      "Complimentary Mineral Water & Tea",
+      "Complimentary Mineral Water & Refreshments",
       "Hotel Pickup & Drop-off Services"
     ],
     "exclusions": [
@@ -1319,44 +1315,44 @@ if (window.TOUR_DATA) {
     ],
     "packages": [
       {
-        "name": "Sedan Car Option (Up to 3 Persons)",
+        "name": "Standard Package",
         "price": "35,000",
         "status": "available",
         "features": [
-          "Toyota Corolla / Honda City",
-          "Driver & Fuel Included",
-          "Hotel Pickup & Drop-off"
+          "AC Coaster / Sedan Transport",
+          "Standard Hotel / Day Trip",
+          "Driver & Fuel Included"
         ]
       },
       {
-        "name": "SUV / Prado Option (Up to 5 Persons)",
-        "price": "55,000",
+        "name": "Deluxe Package",
+        "price": "47,250",
         "status": "available",
         "features": [
-          "Toyota Prado / BRV SUV",
-          "Driver & Fuel Included",
-          "Luxury Reclining Seats"
+          "AC Grand Cabin / Prado",
+          "Deluxe Hotel / Private Guide",
+          "Full Inclusions"
         ]
       },
       {
-        "name": "Coaster / HiAce Option (Groups)",
-        "price": "85,000",
+        "name": "Executive Package",
+        "price": "61,250",
         "status": "available",
         "features": [
-          "22-Seater Coaster / Grand Cabin",
-          "Driver & Fuel Included",
-          "Ideal for Family & Corporate Groups"
+          "Luxury 4x4 Prado / SUV",
+          "Luxury 4-Star / 5-Star Hotel",
+          "VIP Concierge & Protocol"
         ]
       }
     ],
     "faqs": [
       {
-        "q": "What is included in the private tour pricing?",
+        "q": "What is included in the tour pricing?",
         "a": "Pricing includes private AC transport, professional driver, fuel, highway tolls, parking fees, and guide assistance."
       },
       {
-        "q": "Can this tour be customized for specific dates or pick-up locations?",
-        "a": "Yes! All city tours can be customized for your exact pick-up location, time, and special itinerary preferences."
+        "q": "Can this tour be customized?",
+        "a": "Yes! All tours can be customized for your exact pick-up location, time, and special itinerary preferences."
       },
       {
         "q": "How do I book or confirm my reservation?",
@@ -1364,24 +1360,23 @@ if (window.TOUR_DATA) {
       }
     ]
   },
-  "city-tour-7": {
-    "id": "city-tour-7",
+  "city-7": {
+    "id": "city-7",
     "title": "Undiscovered Southern Pakistan – 12 Days",
     "duration": "12 Days 11 Nights",
-    "location": "Islamabad & Northern Pakistan",
+    "location": "Pakistan",
     "maxGroup": "Private & Group Options",
-    "difficulty": "Easy / Cultural",
+    "difficulty": "Easy / Moderate",
     "image": "images/city-tours/tour_7.webp",
     "price": "35,000",
     "originalPrice": "40,250",
-    "departureDay": "Daily Private Departures & Weekly Group Departures",
-    "about": "Experience the official Undiscovered Southern Pakistan – 12 Days with Safar Silsila. This curated excursion offers an unforgettable journey through ancient heritage, vibrant local culture, stunning landscapes, and legendary culinary delights. Guided by certified local historians and travel experts, with private air-conditioned vehicles, full ticket entry logistics, and official visa assistance.",
+    "departureDay": "Daily Private Departures & Fixed Group Departures",
+    "about": "Experience Undiscovered Southern Pakistan – 12 Days with Safar Silsila. This curated itinerary offers a complete journey through iconic landmarks, rich local culture, breathtaking scenery, and legendary regional cuisine. Includes professional guide, luxury AC transport, full ticket entry logistics, and official visa support.",
     "highlights": [
-      "Full guided excursion for Undiscovered Southern Pakistan – 12 Days",
-      "Private air-conditioned luxury transport with professional driver & fuel",
-      "Sightseeing at historical monuments, bazaars & scenic viewpoints",
-      "Authentic local food & tea tasting experiences",
-      "Full ticket entry passes & VIP protocol assistance",
+      "Complete guided excursion for Undiscovered Southern Pakistan – 12 Days",
+      "Private AC transport with driver, fuel, tolls & parking",
+      "Sightseeing at historical monuments, bazaars & viewpoints",
+      "Authentic regional food & tea tasting",
       "24/7 dedicated travel concierge & emergency support"
     ],
     "itinerary": [
@@ -1392,25 +1387,25 @@ if (window.TOUR_DATA) {
       },
       {
         "day": "Day 2",
-        "title": "Heritage Monuments & Cultural Sightseeing",
+        "title": "Monuments & Cultural Sightseeing",
         "desc": "Full day guided exploration of major historical monuments, ancient forts, and museum archives with expert local guide."
       },
       {
         "day": "Day 3",
         "title": "Scenic Valleys & Local Artisans",
-        "desc": "Visit artisan workshops, local handicrafts markets, and surrounding natural viewpoints. Dinner at famous local food street."
+        "desc": "Visit artisan workshops, local markets, and surrounding natural viewpoints. Evening food street dinner."
       },
       {
         "day": "Day 4",
         "title": "Final Excursions & Departure",
-        "desc": "Morning shopping and photography tour. Drop-off at airport or hotel with fond memories of Pakistan."
+        "desc": "Morning shopping and photography tour. Drop-off at airport or hotel with fond memories."
       }
     ],
     "inclusions": [
       "Private AC Transport (Car / Prado / Coaster) with driver & fuel",
       "Official Tour Guide & Historian Services",
       "All Toll Taxes, Parking & Highway Charges",
-      "Complimentary Mineral Water & Tea",
+      "Complimentary Mineral Water & Refreshments",
       "Hotel Pickup & Drop-off Services"
     ],
     "exclusions": [
@@ -1420,44 +1415,44 @@ if (window.TOUR_DATA) {
     ],
     "packages": [
       {
-        "name": "Sedan Car Option (Up to 3 Persons)",
+        "name": "Standard Package",
         "price": "35,000",
         "status": "available",
         "features": [
-          "Toyota Corolla / Honda City",
-          "Driver & Fuel Included",
-          "Hotel Pickup & Drop-off"
+          "AC Coaster / Sedan Transport",
+          "Standard Hotel / Day Trip",
+          "Driver & Fuel Included"
         ]
       },
       {
-        "name": "SUV / Prado Option (Up to 5 Persons)",
-        "price": "55,000",
+        "name": "Deluxe Package",
+        "price": "47,250",
         "status": "available",
         "features": [
-          "Toyota Prado / BRV SUV",
-          "Driver & Fuel Included",
-          "Luxury Reclining Seats"
+          "AC Grand Cabin / Prado",
+          "Deluxe Hotel / Private Guide",
+          "Full Inclusions"
         ]
       },
       {
-        "name": "Coaster / HiAce Option (Groups)",
-        "price": "85,000",
+        "name": "Executive Package",
+        "price": "61,250",
         "status": "available",
         "features": [
-          "22-Seater Coaster / Grand Cabin",
-          "Driver & Fuel Included",
-          "Ideal for Family & Corporate Groups"
+          "Luxury 4x4 Prado / SUV",
+          "Luxury 4-Star / 5-Star Hotel",
+          "VIP Concierge & Protocol"
         ]
       }
     ],
     "faqs": [
       {
-        "q": "What is included in the private tour pricing?",
+        "q": "What is included in the tour pricing?",
         "a": "Pricing includes private AC transport, professional driver, fuel, highway tolls, parking fees, and guide assistance."
       },
       {
-        "q": "Can this tour be customized for specific dates or pick-up locations?",
-        "a": "Yes! All city tours can be customized for your exact pick-up location, time, and special itinerary preferences."
+        "q": "Can this tour be customized?",
+        "a": "Yes! All tours can be customized for your exact pick-up location, time, and special itinerary preferences."
       },
       {
         "q": "How do I book or confirm my reservation?",
@@ -1465,24 +1460,23 @@ if (window.TOUR_DATA) {
       }
     ]
   },
-  "city-tour-8": {
-    "id": "city-tour-8",
+  "city-8": {
+    "id": "city-8",
     "title": "Full-Day Private Guided Tour of Taxila Gandhara Civilization – 01 Day",
     "duration": "1 Day",
-    "location": "Taxila, Punjab",
+    "location": "Pakistan",
     "maxGroup": "Private & Group Options",
-    "difficulty": "Easy / Cultural",
+    "difficulty": "Easy / Moderate",
     "image": "images/city-tours/tour_8.webp",
     "price": "14,000",
     "originalPrice": "16,100",
-    "departureDay": "Daily Private Departures & Weekly Group Departures",
-    "about": "Experience the official Full-Day Private Guided Tour of Taxila Gandhara Civilization – 01 Day with Safar Silsila. This curated excursion offers an unforgettable journey through ancient heritage, vibrant local culture, stunning landscapes, and legendary culinary delights. Guided by certified local historians and travel experts, with private air-conditioned vehicles, full ticket entry logistics, and official visa assistance.",
+    "departureDay": "Daily Private Departures & Fixed Group Departures",
+    "about": "Experience Full-Day Private Guided Tour of Taxila Gandhara Civilization – 01 Day with Safar Silsila. This curated itinerary offers a complete journey through iconic landmarks, rich local culture, breathtaking scenery, and legendary regional cuisine. Includes professional guide, luxury AC transport, full ticket entry logistics, and official visa support.",
     "highlights": [
-      "Full guided excursion for Full-Day Private Guided Tour of Taxila Gandhara Civilization – 01 Day",
-      "Private air-conditioned luxury transport with professional driver & fuel",
-      "Sightseeing at historical monuments, bazaars & scenic viewpoints",
-      "Authentic local food & tea tasting experiences",
-      "Full ticket entry passes & VIP protocol assistance",
+      "Complete guided excursion for Full-Day Private Guided Tour of Taxila Gandhara Civilization – 01 Day",
+      "Private AC transport with driver, fuel, tolls & parking",
+      "Sightseeing at historical monuments, bazaars & viewpoints",
+      "Authentic regional food & tea tasting",
       "24/7 dedicated travel concierge & emergency support"
     ],
     "itinerary": [
@@ -1494,7 +1488,7 @@ if (window.TOUR_DATA) {
       {
         "day": "Afternoon",
         "title": "Guided Monument & Activity Exploration",
-        "desc": "Arrive at destination. Guided tour of key monuments, scenic viewpoints, water sports activities, and photography stops."
+        "desc": "Arrive at destination. Guided tour of key monuments, scenic viewpoints, water activities, and photography stops."
       },
       {
         "day": "Evening",
@@ -1506,7 +1500,7 @@ if (window.TOUR_DATA) {
       "Private AC Transport (Car / Prado / Coaster) with driver & fuel",
       "Official Tour Guide & Historian Services",
       "All Toll Taxes, Parking & Highway Charges",
-      "Complimentary Mineral Water & Tea",
+      "Complimentary Mineral Water & Refreshments",
       "Hotel Pickup & Drop-off Services"
     ],
     "exclusions": [
@@ -1516,44 +1510,44 @@ if (window.TOUR_DATA) {
     ],
     "packages": [
       {
-        "name": "Sedan Car Option (Up to 3 Persons)",
+        "name": "Standard Package",
         "price": "14,000",
         "status": "available",
         "features": [
-          "Toyota Corolla / Honda City",
-          "Driver & Fuel Included",
-          "Hotel Pickup & Drop-off"
+          "AC Coaster / Sedan Transport",
+          "Standard Hotel / Day Trip",
+          "Driver & Fuel Included"
         ]
       },
       {
-        "name": "SUV / Prado Option (Up to 5 Persons)",
-        "price": "18,000",
+        "name": "Deluxe Package",
+        "price": "18,900",
         "status": "available",
         "features": [
-          "Toyota Prado / BRV SUV",
-          "Driver & Fuel Included",
-          "Luxury Reclining Seats"
+          "AC Grand Cabin / Prado",
+          "Deluxe Hotel / Private Guide",
+          "Full Inclusions"
         ]
       },
       {
-        "name": "Coaster / HiAce Option (Groups)",
-        "price": "24,000",
+        "name": "Executive Package",
+        "price": "24,500",
         "status": "available",
         "features": [
-          "22-Seater Coaster / Grand Cabin",
-          "Driver & Fuel Included",
-          "Ideal for Family & Corporate Groups"
+          "Luxury 4x4 Prado / SUV",
+          "Luxury 4-Star / 5-Star Hotel",
+          "VIP Concierge & Protocol"
         ]
       }
     ],
     "faqs": [
       {
-        "q": "What is included in the private tour pricing?",
+        "q": "What is included in the tour pricing?",
         "a": "Pricing includes private AC transport, professional driver, fuel, highway tolls, parking fees, and guide assistance."
       },
       {
-        "q": "Can this tour be customized for specific dates or pick-up locations?",
-        "a": "Yes! All city tours can be customized for your exact pick-up location, time, and special itinerary preferences."
+        "q": "Can this tour be customized?",
+        "a": "Yes! All tours can be customized for your exact pick-up location, time, and special itinerary preferences."
       },
       {
         "q": "How do I book or confirm my reservation?",
@@ -1561,24 +1555,23 @@ if (window.TOUR_DATA) {
       }
     ]
   },
-  "city-tour-9": {
-    "id": "city-tour-9",
+  "city-9": {
+    "id": "city-9",
     "title": "Full-Day Private Murree Nathiagali Tour – 01 Day",
     "duration": "1 Day",
-    "location": "Islamabad & Northern Pakistan",
+    "location": "Pakistan",
     "maxGroup": "Private & Group Options",
-    "difficulty": "Easy / Cultural",
+    "difficulty": "Easy / Moderate",
     "image": "images/city-tours/tour_9.jpg",
     "price": "14,000",
     "originalPrice": "16,100",
-    "departureDay": "Daily Private Departures & Weekly Group Departures",
-    "about": "Experience the official Full-Day Private Murree Nathiagali Tour – 01 Day with Safar Silsila. This curated excursion offers an unforgettable journey through ancient heritage, vibrant local culture, stunning landscapes, and legendary culinary delights. Guided by certified local historians and travel experts, with private air-conditioned vehicles, full ticket entry logistics, and official visa assistance.",
+    "departureDay": "Daily Private Departures & Fixed Group Departures",
+    "about": "Experience Full-Day Private Murree Nathiagali Tour – 01 Day with Safar Silsila. This curated itinerary offers a complete journey through iconic landmarks, rich local culture, breathtaking scenery, and legendary regional cuisine. Includes professional guide, luxury AC transport, full ticket entry logistics, and official visa support.",
     "highlights": [
-      "Full guided excursion for Full-Day Private Murree Nathiagali Tour – 01 Day",
-      "Private air-conditioned luxury transport with professional driver & fuel",
-      "Sightseeing at historical monuments, bazaars & scenic viewpoints",
-      "Authentic local food & tea tasting experiences",
-      "Full ticket entry passes & VIP protocol assistance",
+      "Complete guided excursion for Full-Day Private Murree Nathiagali Tour – 01 Day",
+      "Private AC transport with driver, fuel, tolls & parking",
+      "Sightseeing at historical monuments, bazaars & viewpoints",
+      "Authentic regional food & tea tasting",
       "24/7 dedicated travel concierge & emergency support"
     ],
     "itinerary": [
@@ -1590,7 +1583,7 @@ if (window.TOUR_DATA) {
       {
         "day": "Afternoon",
         "title": "Guided Monument & Activity Exploration",
-        "desc": "Arrive at destination. Guided tour of key monuments, scenic viewpoints, water sports activities, and photography stops."
+        "desc": "Arrive at destination. Guided tour of key monuments, scenic viewpoints, water activities, and photography stops."
       },
       {
         "day": "Evening",
@@ -1602,7 +1595,7 @@ if (window.TOUR_DATA) {
       "Private AC Transport (Car / Prado / Coaster) with driver & fuel",
       "Official Tour Guide & Historian Services",
       "All Toll Taxes, Parking & Highway Charges",
-      "Complimentary Mineral Water & Tea",
+      "Complimentary Mineral Water & Refreshments",
       "Hotel Pickup & Drop-off Services"
     ],
     "exclusions": [
@@ -1612,44 +1605,44 @@ if (window.TOUR_DATA) {
     ],
     "packages": [
       {
-        "name": "Sedan Car Option (Up to 3 Persons)",
+        "name": "Standard Package",
         "price": "14,000",
         "status": "available",
         "features": [
-          "Toyota Corolla / Honda City",
-          "Driver & Fuel Included",
-          "Hotel Pickup & Drop-off"
+          "AC Coaster / Sedan Transport",
+          "Standard Hotel / Day Trip",
+          "Driver & Fuel Included"
         ]
       },
       {
-        "name": "SUV / Prado Option (Up to 5 Persons)",
-        "price": "18,000",
+        "name": "Deluxe Package",
+        "price": "18,900",
         "status": "available",
         "features": [
-          "Toyota Prado / BRV SUV",
-          "Driver & Fuel Included",
-          "Luxury Reclining Seats"
+          "AC Grand Cabin / Prado",
+          "Deluxe Hotel / Private Guide",
+          "Full Inclusions"
         ]
       },
       {
-        "name": "Coaster / HiAce Option (Groups)",
-        "price": "24,000",
+        "name": "Executive Package",
+        "price": "24,500",
         "status": "available",
         "features": [
-          "22-Seater Coaster / Grand Cabin",
-          "Driver & Fuel Included",
-          "Ideal for Family & Corporate Groups"
+          "Luxury 4x4 Prado / SUV",
+          "Luxury 4-Star / 5-Star Hotel",
+          "VIP Concierge & Protocol"
         ]
       }
     ],
     "faqs": [
       {
-        "q": "What is included in the private tour pricing?",
+        "q": "What is included in the tour pricing?",
         "a": "Pricing includes private AC transport, professional driver, fuel, highway tolls, parking fees, and guide assistance."
       },
       {
-        "q": "Can this tour be customized for specific dates or pick-up locations?",
-        "a": "Yes! All city tours can be customized for your exact pick-up location, time, and special itinerary preferences."
+        "q": "Can this tour be customized?",
+        "a": "Yes! All tours can be customized for your exact pick-up location, time, and special itinerary preferences."
       },
       {
         "q": "How do I book or confirm my reservation?",
@@ -1657,24 +1650,23 @@ if (window.TOUR_DATA) {
       }
     ]
   },
-  "city-tour-10": {
-    "id": "city-tour-10",
+  "city-10": {
+    "id": "city-10",
     "title": "One-day tour of Islamabad that includes the Faisal Mosque and the Pakistan Monument",
     "duration": "1 Day",
-    "location": "Islamabad & Northern Pakistan",
+    "location": "Pakistan",
     "maxGroup": "Private & Group Options",
-    "difficulty": "Easy / Cultural",
+    "difficulty": "Easy / Moderate",
     "image": "images/city-tours/tour_10.jpg",
     "price": "14,000",
     "originalPrice": "16,100",
-    "departureDay": "Daily Private Departures & Weekly Group Departures",
-    "about": "Experience the official One-day tour of Islamabad that includes the Faisal Mosque and the Pakistan Monument with Safar Silsila. This curated excursion offers an unforgettable journey through ancient heritage, vibrant local culture, stunning landscapes, and legendary culinary delights. Guided by certified local historians and travel experts, with private air-conditioned vehicles, full ticket entry logistics, and official visa assistance.",
+    "departureDay": "Daily Private Departures & Fixed Group Departures",
+    "about": "Experience One-day tour of Islamabad that includes the Faisal Mosque and the Pakistan Monument with Safar Silsila. This curated itinerary offers a complete journey through iconic landmarks, rich local culture, breathtaking scenery, and legendary regional cuisine. Includes professional guide, luxury AC transport, full ticket entry logistics, and official visa support.",
     "highlights": [
-      "Full guided excursion for One-day tour of Islamabad that includes the Faisal Mosque and the Pakistan Monument",
-      "Private air-conditioned luxury transport with professional driver & fuel",
-      "Sightseeing at historical monuments, bazaars & scenic viewpoints",
-      "Authentic local food & tea tasting experiences",
-      "Full ticket entry passes & VIP protocol assistance",
+      "Complete guided excursion for One-day tour of Islamabad that includes the Faisal Mosque and the Pakistan Monument",
+      "Private AC transport with driver, fuel, tolls & parking",
+      "Sightseeing at historical monuments, bazaars & viewpoints",
+      "Authentic regional food & tea tasting",
       "24/7 dedicated travel concierge & emergency support"
     ],
     "itinerary": [
@@ -1686,7 +1678,7 @@ if (window.TOUR_DATA) {
       {
         "day": "Afternoon",
         "title": "Guided Monument & Activity Exploration",
-        "desc": "Arrive at destination. Guided tour of key monuments, scenic viewpoints, water sports activities, and photography stops."
+        "desc": "Arrive at destination. Guided tour of key monuments, scenic viewpoints, water activities, and photography stops."
       },
       {
         "day": "Evening",
@@ -1698,7 +1690,7 @@ if (window.TOUR_DATA) {
       "Private AC Transport (Car / Prado / Coaster) with driver & fuel",
       "Official Tour Guide & Historian Services",
       "All Toll Taxes, Parking & Highway Charges",
-      "Complimentary Mineral Water & Tea",
+      "Complimentary Mineral Water & Refreshments",
       "Hotel Pickup & Drop-off Services"
     ],
     "exclusions": [
@@ -1708,44 +1700,44 @@ if (window.TOUR_DATA) {
     ],
     "packages": [
       {
-        "name": "Sedan Car Option (Up to 3 Persons)",
+        "name": "Standard Package",
         "price": "14,000",
         "status": "available",
         "features": [
-          "Toyota Corolla / Honda City",
-          "Driver & Fuel Included",
-          "Hotel Pickup & Drop-off"
+          "AC Coaster / Sedan Transport",
+          "Standard Hotel / Day Trip",
+          "Driver & Fuel Included"
         ]
       },
       {
-        "name": "SUV / Prado Option (Up to 5 Persons)",
-        "price": "18,000",
+        "name": "Deluxe Package",
+        "price": "18,900",
         "status": "available",
         "features": [
-          "Toyota Prado / BRV SUV",
-          "Driver & Fuel Included",
-          "Luxury Reclining Seats"
+          "AC Grand Cabin / Prado",
+          "Deluxe Hotel / Private Guide",
+          "Full Inclusions"
         ]
       },
       {
-        "name": "Coaster / HiAce Option (Groups)",
-        "price": "24,000",
+        "name": "Executive Package",
+        "price": "24,500",
         "status": "available",
         "features": [
-          "22-Seater Coaster / Grand Cabin",
-          "Driver & Fuel Included",
-          "Ideal for Family & Corporate Groups"
+          "Luxury 4x4 Prado / SUV",
+          "Luxury 4-Star / 5-Star Hotel",
+          "VIP Concierge & Protocol"
         ]
       }
     ],
     "faqs": [
       {
-        "q": "What is included in the private tour pricing?",
+        "q": "What is included in the tour pricing?",
         "a": "Pricing includes private AC transport, professional driver, fuel, highway tolls, parking fees, and guide assistance."
       },
       {
-        "q": "Can this tour be customized for specific dates or pick-up locations?",
-        "a": "Yes! All city tours can be customized for your exact pick-up location, time, and special itinerary preferences."
+        "q": "Can this tour be customized?",
+        "a": "Yes! All tours can be customized for your exact pick-up location, time, and special itinerary preferences."
       },
       {
         "q": "How do I book or confirm my reservation?",
@@ -1753,24 +1745,23 @@ if (window.TOUR_DATA) {
       }
     ]
   },
-  "city-tour-11": {
-    "id": "city-tour-11",
+  "city-11": {
+    "id": "city-11",
     "title": "7-Day Tour to Swat, Malam Jabba, and Hunza",
     "duration": "7 Days 6 Nights",
-    "location": "Islamabad & Northern Pakistan",
+    "location": "Hunza Valley",
     "maxGroup": "Private & Group Options",
-    "difficulty": "Easy / Cultural",
+    "difficulty": "Easy / Moderate",
     "image": "images/city-tours/tour_11.jpg",
     "price": "35,000",
     "originalPrice": "40,250",
-    "departureDay": "Daily Private Departures & Weekly Group Departures",
-    "about": "Experience the official 7-Day Tour to Swat, Malam Jabba, and Hunza with Safar Silsila. This curated excursion offers an unforgettable journey through ancient heritage, vibrant local culture, stunning landscapes, and legendary culinary delights. Guided by certified local historians and travel experts, with private air-conditioned vehicles, full ticket entry logistics, and official visa assistance.",
+    "departureDay": "Daily Private Departures & Fixed Group Departures",
+    "about": "Experience 7-Day Tour to Swat, Malam Jabba, and Hunza with Safar Silsila. This curated itinerary offers a complete journey through iconic landmarks, rich local culture, breathtaking scenery, and legendary regional cuisine. Includes professional guide, luxury AC transport, full ticket entry logistics, and official visa support.",
     "highlights": [
-      "Full guided excursion for 7-Day Tour to Swat, Malam Jabba, and Hunza",
-      "Private air-conditioned luxury transport with professional driver & fuel",
-      "Sightseeing at historical monuments, bazaars & scenic viewpoints",
-      "Authentic local food & tea tasting experiences",
-      "Full ticket entry passes & VIP protocol assistance",
+      "Complete guided excursion for 7-Day Tour to Swat, Malam Jabba, and Hunza",
+      "Private AC transport with driver, fuel, tolls & parking",
+      "Sightseeing at historical monuments, bazaars & viewpoints",
+      "Authentic regional food & tea tasting",
       "24/7 dedicated travel concierge & emergency support"
     ],
     "itinerary": [
@@ -1781,25 +1772,25 @@ if (window.TOUR_DATA) {
       },
       {
         "day": "Day 2",
-        "title": "Heritage Monuments & Cultural Sightseeing",
+        "title": "Monuments & Cultural Sightseeing",
         "desc": "Full day guided exploration of major historical monuments, ancient forts, and museum archives with expert local guide."
       },
       {
         "day": "Day 3",
         "title": "Scenic Valleys & Local Artisans",
-        "desc": "Visit artisan workshops, local handicrafts markets, and surrounding natural viewpoints. Dinner at famous local food street."
+        "desc": "Visit artisan workshops, local markets, and surrounding natural viewpoints. Evening food street dinner."
       },
       {
         "day": "Day 4",
         "title": "Final Excursions & Departure",
-        "desc": "Morning shopping and photography tour. Drop-off at airport or hotel with fond memories of Pakistan."
+        "desc": "Morning shopping and photography tour. Drop-off at airport or hotel with fond memories."
       }
     ],
     "inclusions": [
       "Private AC Transport (Car / Prado / Coaster) with driver & fuel",
       "Official Tour Guide & Historian Services",
       "All Toll Taxes, Parking & Highway Charges",
-      "Complimentary Mineral Water & Tea",
+      "Complimentary Mineral Water & Refreshments",
       "Hotel Pickup & Drop-off Services"
     ],
     "exclusions": [
@@ -1809,44 +1800,44 @@ if (window.TOUR_DATA) {
     ],
     "packages": [
       {
-        "name": "Sedan Car Option (Up to 3 Persons)",
+        "name": "Standard Package",
         "price": "35,000",
         "status": "available",
         "features": [
-          "Toyota Corolla / Honda City",
-          "Driver & Fuel Included",
-          "Hotel Pickup & Drop-off"
+          "AC Coaster / Sedan Transport",
+          "Standard Hotel / Day Trip",
+          "Driver & Fuel Included"
         ]
       },
       {
-        "name": "SUV / Prado Option (Up to 5 Persons)",
-        "price": "55,000",
+        "name": "Deluxe Package",
+        "price": "47,250",
         "status": "available",
         "features": [
-          "Toyota Prado / BRV SUV",
-          "Driver & Fuel Included",
-          "Luxury Reclining Seats"
+          "AC Grand Cabin / Prado",
+          "Deluxe Hotel / Private Guide",
+          "Full Inclusions"
         ]
       },
       {
-        "name": "Coaster / HiAce Option (Groups)",
-        "price": "85,000",
+        "name": "Executive Package",
+        "price": "61,250",
         "status": "available",
         "features": [
-          "22-Seater Coaster / Grand Cabin",
-          "Driver & Fuel Included",
-          "Ideal for Family & Corporate Groups"
+          "Luxury 4x4 Prado / SUV",
+          "Luxury 4-Star / 5-Star Hotel",
+          "VIP Concierge & Protocol"
         ]
       }
     ],
     "faqs": [
       {
-        "q": "What is included in the private tour pricing?",
+        "q": "What is included in the tour pricing?",
         "a": "Pricing includes private AC transport, professional driver, fuel, highway tolls, parking fees, and guide assistance."
       },
       {
-        "q": "Can this tour be customized for specific dates or pick-up locations?",
-        "a": "Yes! All city tours can be customized for your exact pick-up location, time, and special itinerary preferences."
+        "q": "Can this tour be customized?",
+        "a": "Yes! All tours can be customized for your exact pick-up location, time, and special itinerary preferences."
       },
       {
         "q": "How do I book or confirm my reservation?",
@@ -1854,24 +1845,23 @@ if (window.TOUR_DATA) {
       }
     ]
   },
-  "city-tour-12": {
-    "id": "city-tour-12",
+  "city-12": {
+    "id": "city-12",
     "title": "Cultural Tour in Kathmandu – 02 Days",
     "duration": "2 Days 1 Night",
-    "location": "Islamabad & Northern Pakistan",
+    "location": "Pakistan",
     "maxGroup": "Private & Group Options",
-    "difficulty": "Easy / Cultural",
+    "difficulty": "Easy / Moderate",
     "image": "images/city-tours/tour_12.jpg",
     "price": "35,000",
     "originalPrice": "40,250",
-    "departureDay": "Daily Private Departures & Weekly Group Departures",
-    "about": "Experience the official Cultural Tour in Kathmandu – 02 Days with Safar Silsila. This curated excursion offers an unforgettable journey through ancient heritage, vibrant local culture, stunning landscapes, and legendary culinary delights. Guided by certified local historians and travel experts, with private air-conditioned vehicles, full ticket entry logistics, and official visa assistance.",
+    "departureDay": "Daily Private Departures & Fixed Group Departures",
+    "about": "Experience Cultural Tour in Kathmandu – 02 Days with Safar Silsila. This curated itinerary offers a complete journey through iconic landmarks, rich local culture, breathtaking scenery, and legendary regional cuisine. Includes professional guide, luxury AC transport, full ticket entry logistics, and official visa support.",
     "highlights": [
-      "Full guided excursion for Cultural Tour in Kathmandu – 02 Days",
-      "Private air-conditioned luxury transport with professional driver & fuel",
-      "Sightseeing at historical monuments, bazaars & scenic viewpoints",
-      "Authentic local food & tea tasting experiences",
-      "Full ticket entry passes & VIP protocol assistance",
+      "Complete guided excursion for Cultural Tour in Kathmandu – 02 Days",
+      "Private AC transport with driver, fuel, tolls & parking",
+      "Sightseeing at historical monuments, bazaars & viewpoints",
+      "Authentic regional food & tea tasting",
       "24/7 dedicated travel concierge & emergency support"
     ],
     "itinerary": [
@@ -1882,25 +1872,25 @@ if (window.TOUR_DATA) {
       },
       {
         "day": "Day 2",
-        "title": "Heritage Monuments & Cultural Sightseeing",
+        "title": "Monuments & Cultural Sightseeing",
         "desc": "Full day guided exploration of major historical monuments, ancient forts, and museum archives with expert local guide."
       },
       {
         "day": "Day 3",
         "title": "Scenic Valleys & Local Artisans",
-        "desc": "Visit artisan workshops, local handicrafts markets, and surrounding natural viewpoints. Dinner at famous local food street."
+        "desc": "Visit artisan workshops, local markets, and surrounding natural viewpoints. Evening food street dinner."
       },
       {
         "day": "Day 4",
         "title": "Final Excursions & Departure",
-        "desc": "Morning shopping and photography tour. Drop-off at airport or hotel with fond memories of Pakistan."
+        "desc": "Morning shopping and photography tour. Drop-off at airport or hotel with fond memories."
       }
     ],
     "inclusions": [
       "Private AC Transport (Car / Prado / Coaster) with driver & fuel",
       "Official Tour Guide & Historian Services",
       "All Toll Taxes, Parking & Highway Charges",
-      "Complimentary Mineral Water & Tea",
+      "Complimentary Mineral Water & Refreshments",
       "Hotel Pickup & Drop-off Services"
     ],
     "exclusions": [
@@ -1910,44 +1900,44 @@ if (window.TOUR_DATA) {
     ],
     "packages": [
       {
-        "name": "Sedan Car Option (Up to 3 Persons)",
+        "name": "Standard Package",
         "price": "35,000",
         "status": "available",
         "features": [
-          "Toyota Corolla / Honda City",
-          "Driver & Fuel Included",
-          "Hotel Pickup & Drop-off"
+          "AC Coaster / Sedan Transport",
+          "Standard Hotel / Day Trip",
+          "Driver & Fuel Included"
         ]
       },
       {
-        "name": "SUV / Prado Option (Up to 5 Persons)",
-        "price": "55,000",
+        "name": "Deluxe Package",
+        "price": "47,250",
         "status": "available",
         "features": [
-          "Toyota Prado / BRV SUV",
-          "Driver & Fuel Included",
-          "Luxury Reclining Seats"
+          "AC Grand Cabin / Prado",
+          "Deluxe Hotel / Private Guide",
+          "Full Inclusions"
         ]
       },
       {
-        "name": "Coaster / HiAce Option (Groups)",
-        "price": "85,000",
+        "name": "Executive Package",
+        "price": "61,250",
         "status": "available",
         "features": [
-          "22-Seater Coaster / Grand Cabin",
-          "Driver & Fuel Included",
-          "Ideal for Family & Corporate Groups"
+          "Luxury 4x4 Prado / SUV",
+          "Luxury 4-Star / 5-Star Hotel",
+          "VIP Concierge & Protocol"
         ]
       }
     ],
     "faqs": [
       {
-        "q": "What is included in the private tour pricing?",
+        "q": "What is included in the tour pricing?",
         "a": "Pricing includes private AC transport, professional driver, fuel, highway tolls, parking fees, and guide assistance."
       },
       {
-        "q": "Can this tour be customized for specific dates or pick-up locations?",
-        "a": "Yes! All city tours can be customized for your exact pick-up location, time, and special itinerary preferences."
+        "q": "Can this tour be customized?",
+        "a": "Yes! All tours can be customized for your exact pick-up location, time, and special itinerary preferences."
       },
       {
         "q": "How do I book or confirm my reservation?",
@@ -1955,24 +1945,23 @@ if (window.TOUR_DATA) {
       }
     ]
   },
-  "city-tour-13": {
-    "id": "city-tour-13",
+  "city-13": {
+    "id": "city-13",
     "title": "Kathmandu Sightseeing with Nagarkot Sunrise – 03 Days",
     "duration": "3 Days 2 Nights",
-    "location": "Islamabad & Northern Pakistan",
+    "location": "Pakistan",
     "maxGroup": "Private & Group Options",
-    "difficulty": "Easy / Cultural",
+    "difficulty": "Easy / Moderate",
     "image": "images/city-tours/tour_13.webp",
     "price": "35,000",
     "originalPrice": "40,250",
-    "departureDay": "Daily Private Departures & Weekly Group Departures",
-    "about": "Experience the official Kathmandu Sightseeing with Nagarkot Sunrise – 03 Days with Safar Silsila. This curated excursion offers an unforgettable journey through ancient heritage, vibrant local culture, stunning landscapes, and legendary culinary delights. Guided by certified local historians and travel experts, with private air-conditioned vehicles, full ticket entry logistics, and official visa assistance.",
+    "departureDay": "Daily Private Departures & Fixed Group Departures",
+    "about": "Experience Kathmandu Sightseeing with Nagarkot Sunrise – 03 Days with Safar Silsila. This curated itinerary offers a complete journey through iconic landmarks, rich local culture, breathtaking scenery, and legendary regional cuisine. Includes professional guide, luxury AC transport, full ticket entry logistics, and official visa support.",
     "highlights": [
-      "Full guided excursion for Kathmandu Sightseeing with Nagarkot Sunrise – 03 Days",
-      "Private air-conditioned luxury transport with professional driver & fuel",
-      "Sightseeing at historical monuments, bazaars & scenic viewpoints",
-      "Authentic local food & tea tasting experiences",
-      "Full ticket entry passes & VIP protocol assistance",
+      "Complete guided excursion for Kathmandu Sightseeing with Nagarkot Sunrise – 03 Days",
+      "Private AC transport with driver, fuel, tolls & parking",
+      "Sightseeing at historical monuments, bazaars & viewpoints",
+      "Authentic regional food & tea tasting",
       "24/7 dedicated travel concierge & emergency support"
     ],
     "itinerary": [
@@ -1983,25 +1972,25 @@ if (window.TOUR_DATA) {
       },
       {
         "day": "Day 2",
-        "title": "Heritage Monuments & Cultural Sightseeing",
+        "title": "Monuments & Cultural Sightseeing",
         "desc": "Full day guided exploration of major historical monuments, ancient forts, and museum archives with expert local guide."
       },
       {
         "day": "Day 3",
         "title": "Scenic Valleys & Local Artisans",
-        "desc": "Visit artisan workshops, local handicrafts markets, and surrounding natural viewpoints. Dinner at famous local food street."
+        "desc": "Visit artisan workshops, local markets, and surrounding natural viewpoints. Evening food street dinner."
       },
       {
         "day": "Day 4",
         "title": "Final Excursions & Departure",
-        "desc": "Morning shopping and photography tour. Drop-off at airport or hotel with fond memories of Pakistan."
+        "desc": "Morning shopping and photography tour. Drop-off at airport or hotel with fond memories."
       }
     ],
     "inclusions": [
       "Private AC Transport (Car / Prado / Coaster) with driver & fuel",
       "Official Tour Guide & Historian Services",
       "All Toll Taxes, Parking & Highway Charges",
-      "Complimentary Mineral Water & Tea",
+      "Complimentary Mineral Water & Refreshments",
       "Hotel Pickup & Drop-off Services"
     ],
     "exclusions": [
@@ -2011,44 +2000,44 @@ if (window.TOUR_DATA) {
     ],
     "packages": [
       {
-        "name": "Sedan Car Option (Up to 3 Persons)",
+        "name": "Standard Package",
         "price": "35,000",
         "status": "available",
         "features": [
-          "Toyota Corolla / Honda City",
-          "Driver & Fuel Included",
-          "Hotel Pickup & Drop-off"
+          "AC Coaster / Sedan Transport",
+          "Standard Hotel / Day Trip",
+          "Driver & Fuel Included"
         ]
       },
       {
-        "name": "SUV / Prado Option (Up to 5 Persons)",
-        "price": "55,000",
+        "name": "Deluxe Package",
+        "price": "47,250",
         "status": "available",
         "features": [
-          "Toyota Prado / BRV SUV",
-          "Driver & Fuel Included",
-          "Luxury Reclining Seats"
+          "AC Grand Cabin / Prado",
+          "Deluxe Hotel / Private Guide",
+          "Full Inclusions"
         ]
       },
       {
-        "name": "Coaster / HiAce Option (Groups)",
-        "price": "85,000",
+        "name": "Executive Package",
+        "price": "61,250",
         "status": "available",
         "features": [
-          "22-Seater Coaster / Grand Cabin",
-          "Driver & Fuel Included",
-          "Ideal for Family & Corporate Groups"
+          "Luxury 4x4 Prado / SUV",
+          "Luxury 4-Star / 5-Star Hotel",
+          "VIP Concierge & Protocol"
         ]
       }
     ],
     "faqs": [
       {
-        "q": "What is included in the private tour pricing?",
+        "q": "What is included in the tour pricing?",
         "a": "Pricing includes private AC transport, professional driver, fuel, highway tolls, parking fees, and guide assistance."
       },
       {
-        "q": "Can this tour be customized for specific dates or pick-up locations?",
-        "a": "Yes! All city tours can be customized for your exact pick-up location, time, and special itinerary preferences."
+        "q": "Can this tour be customized?",
+        "a": "Yes! All tours can be customized for your exact pick-up location, time, and special itinerary preferences."
       },
       {
         "q": "How do I book or confirm my reservation?",
@@ -2056,24 +2045,23 @@ if (window.TOUR_DATA) {
       }
     ]
   },
-  "city-tour-14": {
-    "id": "city-tour-14",
+  "city-14": {
+    "id": "city-14",
     "title": "Kathmandu Valley and Chandragiri Hills Excursion Tour – 04 Days",
     "duration": "4 Days 3 Nights",
-    "location": "Islamabad & Northern Pakistan",
+    "location": "Pakistan",
     "maxGroup": "Private & Group Options",
-    "difficulty": "Easy / Cultural",
+    "difficulty": "Easy / Moderate",
     "image": "images/city-tours/tour_14.jpg",
     "price": "35,000",
     "originalPrice": "40,250",
-    "departureDay": "Daily Private Departures & Weekly Group Departures",
-    "about": "Experience the official Kathmandu Valley and Chandragiri Hills Excursion Tour – 04 Days with Safar Silsila. This curated excursion offers an unforgettable journey through ancient heritage, vibrant local culture, stunning landscapes, and legendary culinary delights. Guided by certified local historians and travel experts, with private air-conditioned vehicles, full ticket entry logistics, and official visa assistance.",
+    "departureDay": "Daily Private Departures & Fixed Group Departures",
+    "about": "Experience Kathmandu Valley and Chandragiri Hills Excursion Tour – 04 Days with Safar Silsila. This curated itinerary offers a complete journey through iconic landmarks, rich local culture, breathtaking scenery, and legendary regional cuisine. Includes professional guide, luxury AC transport, full ticket entry logistics, and official visa support.",
     "highlights": [
-      "Full guided excursion for Kathmandu Valley and Chandragiri Hills Excursion Tour – 04 Days",
-      "Private air-conditioned luxury transport with professional driver & fuel",
-      "Sightseeing at historical monuments, bazaars & scenic viewpoints",
-      "Authentic local food & tea tasting experiences",
-      "Full ticket entry passes & VIP protocol assistance",
+      "Complete guided excursion for Kathmandu Valley and Chandragiri Hills Excursion Tour – 04 Days",
+      "Private AC transport with driver, fuel, tolls & parking",
+      "Sightseeing at historical monuments, bazaars & viewpoints",
+      "Authentic regional food & tea tasting",
       "24/7 dedicated travel concierge & emergency support"
     ],
     "itinerary": [
@@ -2084,25 +2072,25 @@ if (window.TOUR_DATA) {
       },
       {
         "day": "Day 2",
-        "title": "Heritage Monuments & Cultural Sightseeing",
+        "title": "Monuments & Cultural Sightseeing",
         "desc": "Full day guided exploration of major historical monuments, ancient forts, and museum archives with expert local guide."
       },
       {
         "day": "Day 3",
         "title": "Scenic Valleys & Local Artisans",
-        "desc": "Visit artisan workshops, local handicrafts markets, and surrounding natural viewpoints. Dinner at famous local food street."
+        "desc": "Visit artisan workshops, local markets, and surrounding natural viewpoints. Evening food street dinner."
       },
       {
         "day": "Day 4",
         "title": "Final Excursions & Departure",
-        "desc": "Morning shopping and photography tour. Drop-off at airport or hotel with fond memories of Pakistan."
+        "desc": "Morning shopping and photography tour. Drop-off at airport or hotel with fond memories."
       }
     ],
     "inclusions": [
       "Private AC Transport (Car / Prado / Coaster) with driver & fuel",
       "Official Tour Guide & Historian Services",
       "All Toll Taxes, Parking & Highway Charges",
-      "Complimentary Mineral Water & Tea",
+      "Complimentary Mineral Water & Refreshments",
       "Hotel Pickup & Drop-off Services"
     ],
     "exclusions": [
@@ -2112,44 +2100,44 @@ if (window.TOUR_DATA) {
     ],
     "packages": [
       {
-        "name": "Sedan Car Option (Up to 3 Persons)",
+        "name": "Standard Package",
         "price": "35,000",
         "status": "available",
         "features": [
-          "Toyota Corolla / Honda City",
-          "Driver & Fuel Included",
-          "Hotel Pickup & Drop-off"
+          "AC Coaster / Sedan Transport",
+          "Standard Hotel / Day Trip",
+          "Driver & Fuel Included"
         ]
       },
       {
-        "name": "SUV / Prado Option (Up to 5 Persons)",
-        "price": "55,000",
+        "name": "Deluxe Package",
+        "price": "47,250",
         "status": "available",
         "features": [
-          "Toyota Prado / BRV SUV",
-          "Driver & Fuel Included",
-          "Luxury Reclining Seats"
+          "AC Grand Cabin / Prado",
+          "Deluxe Hotel / Private Guide",
+          "Full Inclusions"
         ]
       },
       {
-        "name": "Coaster / HiAce Option (Groups)",
-        "price": "85,000",
+        "name": "Executive Package",
+        "price": "61,250",
         "status": "available",
         "features": [
-          "22-Seater Coaster / Grand Cabin",
-          "Driver & Fuel Included",
-          "Ideal for Family & Corporate Groups"
+          "Luxury 4x4 Prado / SUV",
+          "Luxury 4-Star / 5-Star Hotel",
+          "VIP Concierge & Protocol"
         ]
       }
     ],
     "faqs": [
       {
-        "q": "What is included in the private tour pricing?",
+        "q": "What is included in the tour pricing?",
         "a": "Pricing includes private AC transport, professional driver, fuel, highway tolls, parking fees, and guide assistance."
       },
       {
-        "q": "Can this tour be customized for specific dates or pick-up locations?",
-        "a": "Yes! All city tours can be customized for your exact pick-up location, time, and special itinerary preferences."
+        "q": "Can this tour be customized?",
+        "a": "Yes! All tours can be customized for your exact pick-up location, time, and special itinerary preferences."
       },
       {
         "q": "How do I book or confirm my reservation?",
@@ -2157,24 +2145,23 @@ if (window.TOUR_DATA) {
       }
     ]
   },
-  "city-tour-15": {
-    "id": "city-tour-15",
+  "city-15": {
+    "id": "city-15",
     "title": "Kathmandu Cultural Tour – 05 Days",
     "duration": "5 Days 4 Nights",
-    "location": "Islamabad & Northern Pakistan",
+    "location": "Pakistan",
     "maxGroup": "Private & Group Options",
-    "difficulty": "Easy / Cultural",
+    "difficulty": "Easy / Moderate",
     "image": "images/city-tours/tour_15.jpg",
     "price": "35,000",
     "originalPrice": "40,250",
-    "departureDay": "Daily Private Departures & Weekly Group Departures",
-    "about": "Experience the official Kathmandu Cultural Tour – 05 Days with Safar Silsila. This curated excursion offers an unforgettable journey through ancient heritage, vibrant local culture, stunning landscapes, and legendary culinary delights. Guided by certified local historians and travel experts, with private air-conditioned vehicles, full ticket entry logistics, and official visa assistance.",
+    "departureDay": "Daily Private Departures & Fixed Group Departures",
+    "about": "Experience Kathmandu Cultural Tour – 05 Days with Safar Silsila. This curated itinerary offers a complete journey through iconic landmarks, rich local culture, breathtaking scenery, and legendary regional cuisine. Includes professional guide, luxury AC transport, full ticket entry logistics, and official visa support.",
     "highlights": [
-      "Full guided excursion for Kathmandu Cultural Tour – 05 Days",
-      "Private air-conditioned luxury transport with professional driver & fuel",
-      "Sightseeing at historical monuments, bazaars & scenic viewpoints",
-      "Authentic local food & tea tasting experiences",
-      "Full ticket entry passes & VIP protocol assistance",
+      "Complete guided excursion for Kathmandu Cultural Tour – 05 Days",
+      "Private AC transport with driver, fuel, tolls & parking",
+      "Sightseeing at historical monuments, bazaars & viewpoints",
+      "Authentic regional food & tea tasting",
       "24/7 dedicated travel concierge & emergency support"
     ],
     "itinerary": [
@@ -2185,25 +2172,25 @@ if (window.TOUR_DATA) {
       },
       {
         "day": "Day 2",
-        "title": "Heritage Monuments & Cultural Sightseeing",
+        "title": "Monuments & Cultural Sightseeing",
         "desc": "Full day guided exploration of major historical monuments, ancient forts, and museum archives with expert local guide."
       },
       {
         "day": "Day 3",
         "title": "Scenic Valleys & Local Artisans",
-        "desc": "Visit artisan workshops, local handicrafts markets, and surrounding natural viewpoints. Dinner at famous local food street."
+        "desc": "Visit artisan workshops, local markets, and surrounding natural viewpoints. Evening food street dinner."
       },
       {
         "day": "Day 4",
         "title": "Final Excursions & Departure",
-        "desc": "Morning shopping and photography tour. Drop-off at airport or hotel with fond memories of Pakistan."
+        "desc": "Morning shopping and photography tour. Drop-off at airport or hotel with fond memories."
       }
     ],
     "inclusions": [
       "Private AC Transport (Car / Prado / Coaster) with driver & fuel",
       "Official Tour Guide & Historian Services",
       "All Toll Taxes, Parking & Highway Charges",
-      "Complimentary Mineral Water & Tea",
+      "Complimentary Mineral Water & Refreshments",
       "Hotel Pickup & Drop-off Services"
     ],
     "exclusions": [
@@ -2213,44 +2200,44 @@ if (window.TOUR_DATA) {
     ],
     "packages": [
       {
-        "name": "Sedan Car Option (Up to 3 Persons)",
+        "name": "Standard Package",
         "price": "35,000",
         "status": "available",
         "features": [
-          "Toyota Corolla / Honda City",
-          "Driver & Fuel Included",
-          "Hotel Pickup & Drop-off"
+          "AC Coaster / Sedan Transport",
+          "Standard Hotel / Day Trip",
+          "Driver & Fuel Included"
         ]
       },
       {
-        "name": "SUV / Prado Option (Up to 5 Persons)",
-        "price": "55,000",
+        "name": "Deluxe Package",
+        "price": "47,250",
         "status": "available",
         "features": [
-          "Toyota Prado / BRV SUV",
-          "Driver & Fuel Included",
-          "Luxury Reclining Seats"
+          "AC Grand Cabin / Prado",
+          "Deluxe Hotel / Private Guide",
+          "Full Inclusions"
         ]
       },
       {
-        "name": "Coaster / HiAce Option (Groups)",
-        "price": "85,000",
+        "name": "Executive Package",
+        "price": "61,250",
         "status": "available",
         "features": [
-          "22-Seater Coaster / Grand Cabin",
-          "Driver & Fuel Included",
-          "Ideal for Family & Corporate Groups"
+          "Luxury 4x4 Prado / SUV",
+          "Luxury 4-Star / 5-Star Hotel",
+          "VIP Concierge & Protocol"
         ]
       }
     ],
     "faqs": [
       {
-        "q": "What is included in the private tour pricing?",
+        "q": "What is included in the tour pricing?",
         "a": "Pricing includes private AC transport, professional driver, fuel, highway tolls, parking fees, and guide assistance."
       },
       {
-        "q": "Can this tour be customized for specific dates or pick-up locations?",
-        "a": "Yes! All city tours can be customized for your exact pick-up location, time, and special itinerary preferences."
+        "q": "Can this tour be customized?",
+        "a": "Yes! All tours can be customized for your exact pick-up location, time, and special itinerary preferences."
       },
       {
         "q": "How do I book or confirm my reservation?",
@@ -2258,24 +2245,23 @@ if (window.TOUR_DATA) {
       }
     ]
   },
-  "city-tour-16": {
-    "id": "city-tour-16",
+  "city-16": {
+    "id": "city-16",
     "title": "Kathmandu and Pokhara Sightseeing Tour– 06 Days",
     "duration": "6 Days 5 Nights",
-    "location": "Islamabad & Northern Pakistan",
+    "location": "Pakistan",
     "maxGroup": "Private & Group Options",
-    "difficulty": "Easy / Cultural",
+    "difficulty": "Easy / Moderate",
     "image": "images/city-tours/tour_16.jpg",
     "price": "35,000",
     "originalPrice": "40,250",
-    "departureDay": "Daily Private Departures & Weekly Group Departures",
-    "about": "Experience the official Kathmandu and Pokhara Sightseeing Tour– 06 Days with Safar Silsila. This curated excursion offers an unforgettable journey through ancient heritage, vibrant local culture, stunning landscapes, and legendary culinary delights. Guided by certified local historians and travel experts, with private air-conditioned vehicles, full ticket entry logistics, and official visa assistance.",
+    "departureDay": "Daily Private Departures & Fixed Group Departures",
+    "about": "Experience Kathmandu and Pokhara Sightseeing Tour– 06 Days with Safar Silsila. This curated itinerary offers a complete journey through iconic landmarks, rich local culture, breathtaking scenery, and legendary regional cuisine. Includes professional guide, luxury AC transport, full ticket entry logistics, and official visa support.",
     "highlights": [
-      "Full guided excursion for Kathmandu and Pokhara Sightseeing Tour– 06 Days",
-      "Private air-conditioned luxury transport with professional driver & fuel",
-      "Sightseeing at historical monuments, bazaars & scenic viewpoints",
-      "Authentic local food & tea tasting experiences",
-      "Full ticket entry passes & VIP protocol assistance",
+      "Complete guided excursion for Kathmandu and Pokhara Sightseeing Tour– 06 Days",
+      "Private AC transport with driver, fuel, tolls & parking",
+      "Sightseeing at historical monuments, bazaars & viewpoints",
+      "Authentic regional food & tea tasting",
       "24/7 dedicated travel concierge & emergency support"
     ],
     "itinerary": [
@@ -2286,25 +2272,25 @@ if (window.TOUR_DATA) {
       },
       {
         "day": "Day 2",
-        "title": "Heritage Monuments & Cultural Sightseeing",
+        "title": "Monuments & Cultural Sightseeing",
         "desc": "Full day guided exploration of major historical monuments, ancient forts, and museum archives with expert local guide."
       },
       {
         "day": "Day 3",
         "title": "Scenic Valleys & Local Artisans",
-        "desc": "Visit artisan workshops, local handicrafts markets, and surrounding natural viewpoints. Dinner at famous local food street."
+        "desc": "Visit artisan workshops, local markets, and surrounding natural viewpoints. Evening food street dinner."
       },
       {
         "day": "Day 4",
         "title": "Final Excursions & Departure",
-        "desc": "Morning shopping and photography tour. Drop-off at airport or hotel with fond memories of Pakistan."
+        "desc": "Morning shopping and photography tour. Drop-off at airport or hotel with fond memories."
       }
     ],
     "inclusions": [
       "Private AC Transport (Car / Prado / Coaster) with driver & fuel",
       "Official Tour Guide & Historian Services",
       "All Toll Taxes, Parking & Highway Charges",
-      "Complimentary Mineral Water & Tea",
+      "Complimentary Mineral Water & Refreshments",
       "Hotel Pickup & Drop-off Services"
     ],
     "exclusions": [
@@ -2314,44 +2300,44 @@ if (window.TOUR_DATA) {
     ],
     "packages": [
       {
-        "name": "Sedan Car Option (Up to 3 Persons)",
+        "name": "Standard Package",
         "price": "35,000",
         "status": "available",
         "features": [
-          "Toyota Corolla / Honda City",
-          "Driver & Fuel Included",
-          "Hotel Pickup & Drop-off"
+          "AC Coaster / Sedan Transport",
+          "Standard Hotel / Day Trip",
+          "Driver & Fuel Included"
         ]
       },
       {
-        "name": "SUV / Prado Option (Up to 5 Persons)",
-        "price": "55,000",
+        "name": "Deluxe Package",
+        "price": "47,250",
         "status": "available",
         "features": [
-          "Toyota Prado / BRV SUV",
-          "Driver & Fuel Included",
-          "Luxury Reclining Seats"
+          "AC Grand Cabin / Prado",
+          "Deluxe Hotel / Private Guide",
+          "Full Inclusions"
         ]
       },
       {
-        "name": "Coaster / HiAce Option (Groups)",
-        "price": "85,000",
+        "name": "Executive Package",
+        "price": "61,250",
         "status": "available",
         "features": [
-          "22-Seater Coaster / Grand Cabin",
-          "Driver & Fuel Included",
-          "Ideal for Family & Corporate Groups"
+          "Luxury 4x4 Prado / SUV",
+          "Luxury 4-Star / 5-Star Hotel",
+          "VIP Concierge & Protocol"
         ]
       }
     ],
     "faqs": [
       {
-        "q": "What is included in the private tour pricing?",
+        "q": "What is included in the tour pricing?",
         "a": "Pricing includes private AC transport, professional driver, fuel, highway tolls, parking fees, and guide assistance."
       },
       {
-        "q": "Can this tour be customized for specific dates or pick-up locations?",
-        "a": "Yes! All city tours can be customized for your exact pick-up location, time, and special itinerary preferences."
+        "q": "Can this tour be customized?",
+        "a": "Yes! All tours can be customized for your exact pick-up location, time, and special itinerary preferences."
       },
       {
         "q": "How do I book or confirm my reservation?",
@@ -2359,24 +2345,23 @@ if (window.TOUR_DATA) {
       }
     ]
   },
-  "city-tour-17": {
-    "id": "city-tour-17",
-    "title": "Kathmandu Pokhara and Chitwan Tour  – 09 Days",
+  "city-17": {
+    "id": "city-17",
+    "title": "Kathmandu Pokhara and Chitwan Tour – 09 Days",
     "duration": "9 Day 8 Nights",
-    "location": "Islamabad & Northern Pakistan",
+    "location": "Pakistan",
     "maxGroup": "Private & Group Options",
-    "difficulty": "Easy / Cultural",
+    "difficulty": "Easy / Moderate",
     "image": "images/city-tours/tour_17.jpg",
     "price": "14,000",
     "originalPrice": "16,100",
-    "departureDay": "Daily Private Departures & Weekly Group Departures",
-    "about": "Experience the official Kathmandu Pokhara and Chitwan Tour  – 09 Days with Safar Silsila. This curated excursion offers an unforgettable journey through ancient heritage, vibrant local culture, stunning landscapes, and legendary culinary delights. Guided by certified local historians and travel experts, with private air-conditioned vehicles, full ticket entry logistics, and official visa assistance.",
+    "departureDay": "Daily Private Departures & Fixed Group Departures",
+    "about": "Experience Kathmandu Pokhara and Chitwan Tour – 09 Days with Safar Silsila. This curated itinerary offers a complete journey through iconic landmarks, rich local culture, breathtaking scenery, and legendary regional cuisine. Includes professional guide, luxury AC transport, full ticket entry logistics, and official visa support.",
     "highlights": [
-      "Full guided excursion for Kathmandu Pokhara and Chitwan Tour  – 09 Days",
-      "Private air-conditioned luxury transport with professional driver & fuel",
-      "Sightseeing at historical monuments, bazaars & scenic viewpoints",
-      "Authentic local food & tea tasting experiences",
-      "Full ticket entry passes & VIP protocol assistance",
+      "Complete guided excursion for Kathmandu Pokhara and Chitwan Tour – 09 Days",
+      "Private AC transport with driver, fuel, tolls & parking",
+      "Sightseeing at historical monuments, bazaars & viewpoints",
+      "Authentic regional food & tea tasting",
       "24/7 dedicated travel concierge & emergency support"
     ],
     "itinerary": [
@@ -2388,7 +2373,7 @@ if (window.TOUR_DATA) {
       {
         "day": "Afternoon",
         "title": "Guided Monument & Activity Exploration",
-        "desc": "Arrive at destination. Guided tour of key monuments, scenic viewpoints, water sports activities, and photography stops."
+        "desc": "Arrive at destination. Guided tour of key monuments, scenic viewpoints, water activities, and photography stops."
       },
       {
         "day": "Evening",
@@ -2400,7 +2385,7 @@ if (window.TOUR_DATA) {
       "Private AC Transport (Car / Prado / Coaster) with driver & fuel",
       "Official Tour Guide & Historian Services",
       "All Toll Taxes, Parking & Highway Charges",
-      "Complimentary Mineral Water & Tea",
+      "Complimentary Mineral Water & Refreshments",
       "Hotel Pickup & Drop-off Services"
     ],
     "exclusions": [
@@ -2410,44 +2395,44 @@ if (window.TOUR_DATA) {
     ],
     "packages": [
       {
-        "name": "Sedan Car Option (Up to 3 Persons)",
+        "name": "Standard Package",
         "price": "14,000",
         "status": "available",
         "features": [
-          "Toyota Corolla / Honda City",
-          "Driver & Fuel Included",
-          "Hotel Pickup & Drop-off"
+          "AC Coaster / Sedan Transport",
+          "Standard Hotel / Day Trip",
+          "Driver & Fuel Included"
         ]
       },
       {
-        "name": "SUV / Prado Option (Up to 5 Persons)",
-        "price": "18,000",
+        "name": "Deluxe Package",
+        "price": "18,900",
         "status": "available",
         "features": [
-          "Toyota Prado / BRV SUV",
-          "Driver & Fuel Included",
-          "Luxury Reclining Seats"
+          "AC Grand Cabin / Prado",
+          "Deluxe Hotel / Private Guide",
+          "Full Inclusions"
         ]
       },
       {
-        "name": "Coaster / HiAce Option (Groups)",
-        "price": "24,000",
+        "name": "Executive Package",
+        "price": "24,500",
         "status": "available",
         "features": [
-          "22-Seater Coaster / Grand Cabin",
-          "Driver & Fuel Included",
-          "Ideal for Family & Corporate Groups"
+          "Luxury 4x4 Prado / SUV",
+          "Luxury 4-Star / 5-Star Hotel",
+          "VIP Concierge & Protocol"
         ]
       }
     ],
     "faqs": [
       {
-        "q": "What is included in the private tour pricing?",
+        "q": "What is included in the tour pricing?",
         "a": "Pricing includes private AC transport, professional driver, fuel, highway tolls, parking fees, and guide assistance."
       },
       {
-        "q": "Can this tour be customized for specific dates or pick-up locations?",
-        "a": "Yes! All city tours can be customized for your exact pick-up location, time, and special itinerary preferences."
+        "q": "Can this tour be customized?",
+        "a": "Yes! All tours can be customized for your exact pick-up location, time, and special itinerary preferences."
       },
       {
         "q": "How do I book or confirm my reservation?",
@@ -2455,24 +2440,23 @@ if (window.TOUR_DATA) {
       }
     ]
   },
-  "city-tour-18": {
-    "id": "city-tour-18",
-    "title": "Chunda Valley Tour  – 07 Days",
+  "city-18": {
+    "id": "city-18",
+    "title": "Chunda Valley Tour – 07 Days",
     "duration": "7 Day 6 Nights",
-    "location": "Islamabad & Northern Pakistan",
+    "location": "Pakistan",
     "maxGroup": "Private & Group Options",
-    "difficulty": "Easy / Cultural",
+    "difficulty": "Easy / Moderate",
     "image": "images/city-tours/tour_18.webp",
     "price": "14,000",
     "originalPrice": "16,100",
-    "departureDay": "Daily Private Departures & Weekly Group Departures",
-    "about": "Experience the official Chunda Valley Tour  – 07 Days with Safar Silsila. This curated excursion offers an unforgettable journey through ancient heritage, vibrant local culture, stunning landscapes, and legendary culinary delights. Guided by certified local historians and travel experts, with private air-conditioned vehicles, full ticket entry logistics, and official visa assistance.",
+    "departureDay": "Daily Private Departures & Fixed Group Departures",
+    "about": "Experience Chunda Valley Tour – 07 Days with Safar Silsila. This curated itinerary offers a complete journey through iconic landmarks, rich local culture, breathtaking scenery, and legendary regional cuisine. Includes professional guide, luxury AC transport, full ticket entry logistics, and official visa support.",
     "highlights": [
-      "Full guided excursion for Chunda Valley Tour  – 07 Days",
-      "Private air-conditioned luxury transport with professional driver & fuel",
-      "Sightseeing at historical monuments, bazaars & scenic viewpoints",
-      "Authentic local food & tea tasting experiences",
-      "Full ticket entry passes & VIP protocol assistance",
+      "Complete guided excursion for Chunda Valley Tour – 07 Days",
+      "Private AC transport with driver, fuel, tolls & parking",
+      "Sightseeing at historical monuments, bazaars & viewpoints",
+      "Authentic regional food & tea tasting",
       "24/7 dedicated travel concierge & emergency support"
     ],
     "itinerary": [
@@ -2484,7 +2468,7 @@ if (window.TOUR_DATA) {
       {
         "day": "Afternoon",
         "title": "Guided Monument & Activity Exploration",
-        "desc": "Arrive at destination. Guided tour of key monuments, scenic viewpoints, water sports activities, and photography stops."
+        "desc": "Arrive at destination. Guided tour of key monuments, scenic viewpoints, water activities, and photography stops."
       },
       {
         "day": "Evening",
@@ -2496,7 +2480,7 @@ if (window.TOUR_DATA) {
       "Private AC Transport (Car / Prado / Coaster) with driver & fuel",
       "Official Tour Guide & Historian Services",
       "All Toll Taxes, Parking & Highway Charges",
-      "Complimentary Mineral Water & Tea",
+      "Complimentary Mineral Water & Refreshments",
       "Hotel Pickup & Drop-off Services"
     ],
     "exclusions": [
@@ -2506,44 +2490,44 @@ if (window.TOUR_DATA) {
     ],
     "packages": [
       {
-        "name": "Sedan Car Option (Up to 3 Persons)",
+        "name": "Standard Package",
         "price": "14,000",
         "status": "available",
         "features": [
-          "Toyota Corolla / Honda City",
-          "Driver & Fuel Included",
-          "Hotel Pickup & Drop-off"
+          "AC Coaster / Sedan Transport",
+          "Standard Hotel / Day Trip",
+          "Driver & Fuel Included"
         ]
       },
       {
-        "name": "SUV / Prado Option (Up to 5 Persons)",
-        "price": "18,000",
+        "name": "Deluxe Package",
+        "price": "18,900",
         "status": "available",
         "features": [
-          "Toyota Prado / BRV SUV",
-          "Driver & Fuel Included",
-          "Luxury Reclining Seats"
+          "AC Grand Cabin / Prado",
+          "Deluxe Hotel / Private Guide",
+          "Full Inclusions"
         ]
       },
       {
-        "name": "Coaster / HiAce Option (Groups)",
-        "price": "24,000",
+        "name": "Executive Package",
+        "price": "24,500",
         "status": "available",
         "features": [
-          "22-Seater Coaster / Grand Cabin",
-          "Driver & Fuel Included",
-          "Ideal for Family & Corporate Groups"
+          "Luxury 4x4 Prado / SUV",
+          "Luxury 4-Star / 5-Star Hotel",
+          "VIP Concierge & Protocol"
         ]
       }
     ],
     "faqs": [
       {
-        "q": "What is included in the private tour pricing?",
+        "q": "What is included in the tour pricing?",
         "a": "Pricing includes private AC transport, professional driver, fuel, highway tolls, parking fees, and guide assistance."
       },
       {
-        "q": "Can this tour be customized for specific dates or pick-up locations?",
-        "a": "Yes! All city tours can be customized for your exact pick-up location, time, and special itinerary preferences."
+        "q": "Can this tour be customized?",
+        "a": "Yes! All tours can be customized for your exact pick-up location, time, and special itinerary preferences."
       },
       {
         "q": "How do I book or confirm my reservation?",
@@ -2551,24 +2535,23 @@ if (window.TOUR_DATA) {
       }
     ]
   },
-  "city-tour-19": {
-    "id": "city-tour-19",
+  "city-19": {
+    "id": "city-19",
     "title": "Kumrat Valley Tour – 05 Days",
     "duration": "5 Days 4 Nights",
-    "location": "Islamabad & Northern Pakistan",
+    "location": "Pakistan",
     "maxGroup": "Private & Group Options",
-    "difficulty": "Easy / Cultural",
+    "difficulty": "Easy / Moderate",
     "image": "images/city-tours/tour_19.jpg",
     "price": "35,000",
     "originalPrice": "40,250",
-    "departureDay": "Daily Private Departures & Weekly Group Departures",
-    "about": "Experience the official Kumrat Valley Tour – 05 Days with Safar Silsila. This curated excursion offers an unforgettable journey through ancient heritage, vibrant local culture, stunning landscapes, and legendary culinary delights. Guided by certified local historians and travel experts, with private air-conditioned vehicles, full ticket entry logistics, and official visa assistance.",
+    "departureDay": "Daily Private Departures & Fixed Group Departures",
+    "about": "Experience Kumrat Valley Tour – 05 Days with Safar Silsila. This curated itinerary offers a complete journey through iconic landmarks, rich local culture, breathtaking scenery, and legendary regional cuisine. Includes professional guide, luxury AC transport, full ticket entry logistics, and official visa support.",
     "highlights": [
-      "Full guided excursion for Kumrat Valley Tour – 05 Days",
-      "Private air-conditioned luxury transport with professional driver & fuel",
-      "Sightseeing at historical monuments, bazaars & scenic viewpoints",
-      "Authentic local food & tea tasting experiences",
-      "Full ticket entry passes & VIP protocol assistance",
+      "Complete guided excursion for Kumrat Valley Tour – 05 Days",
+      "Private AC transport with driver, fuel, tolls & parking",
+      "Sightseeing at historical monuments, bazaars & viewpoints",
+      "Authentic regional food & tea tasting",
       "24/7 dedicated travel concierge & emergency support"
     ],
     "itinerary": [
@@ -2579,25 +2562,25 @@ if (window.TOUR_DATA) {
       },
       {
         "day": "Day 2",
-        "title": "Heritage Monuments & Cultural Sightseeing",
+        "title": "Monuments & Cultural Sightseeing",
         "desc": "Full day guided exploration of major historical monuments, ancient forts, and museum archives with expert local guide."
       },
       {
         "day": "Day 3",
         "title": "Scenic Valleys & Local Artisans",
-        "desc": "Visit artisan workshops, local handicrafts markets, and surrounding natural viewpoints. Dinner at famous local food street."
+        "desc": "Visit artisan workshops, local markets, and surrounding natural viewpoints. Evening food street dinner."
       },
       {
         "day": "Day 4",
         "title": "Final Excursions & Departure",
-        "desc": "Morning shopping and photography tour. Drop-off at airport or hotel with fond memories of Pakistan."
+        "desc": "Morning shopping and photography tour. Drop-off at airport or hotel with fond memories."
       }
     ],
     "inclusions": [
       "Private AC Transport (Car / Prado / Coaster) with driver & fuel",
       "Official Tour Guide & Historian Services",
       "All Toll Taxes, Parking & Highway Charges",
-      "Complimentary Mineral Water & Tea",
+      "Complimentary Mineral Water & Refreshments",
       "Hotel Pickup & Drop-off Services"
     ],
     "exclusions": [
@@ -2607,44 +2590,44 @@ if (window.TOUR_DATA) {
     ],
     "packages": [
       {
-        "name": "Sedan Car Option (Up to 3 Persons)",
+        "name": "Standard Package",
         "price": "35,000",
         "status": "available",
         "features": [
-          "Toyota Corolla / Honda City",
-          "Driver & Fuel Included",
-          "Hotel Pickup & Drop-off"
+          "AC Coaster / Sedan Transport",
+          "Standard Hotel / Day Trip",
+          "Driver & Fuel Included"
         ]
       },
       {
-        "name": "SUV / Prado Option (Up to 5 Persons)",
-        "price": "55,000",
+        "name": "Deluxe Package",
+        "price": "47,250",
         "status": "available",
         "features": [
-          "Toyota Prado / BRV SUV",
-          "Driver & Fuel Included",
-          "Luxury Reclining Seats"
+          "AC Grand Cabin / Prado",
+          "Deluxe Hotel / Private Guide",
+          "Full Inclusions"
         ]
       },
       {
-        "name": "Coaster / HiAce Option (Groups)",
-        "price": "85,000",
+        "name": "Executive Package",
+        "price": "61,250",
         "status": "available",
         "features": [
-          "22-Seater Coaster / Grand Cabin",
-          "Driver & Fuel Included",
-          "Ideal for Family & Corporate Groups"
+          "Luxury 4x4 Prado / SUV",
+          "Luxury 4-Star / 5-Star Hotel",
+          "VIP Concierge & Protocol"
         ]
       }
     ],
     "faqs": [
       {
-        "q": "What is included in the private tour pricing?",
+        "q": "What is included in the tour pricing?",
         "a": "Pricing includes private AC transport, professional driver, fuel, highway tolls, parking fees, and guide assistance."
       },
       {
-        "q": "Can this tour be customized for specific dates or pick-up locations?",
-        "a": "Yes! All city tours can be customized for your exact pick-up location, time, and special itinerary preferences."
+        "q": "Can this tour be customized?",
+        "a": "Yes! All tours can be customized for your exact pick-up location, time, and special itinerary preferences."
       },
       {
         "q": "How do I book or confirm my reservation?",
@@ -2652,24 +2635,23 @@ if (window.TOUR_DATA) {
       }
     ]
   },
-  "city-tour-20": {
-    "id": "city-tour-20",
+  "city-20": {
+    "id": "city-20",
     "title": "Kumrat Valley Tour – 03 Days",
     "duration": "3 Days 2 Nights",
-    "location": "Islamabad & Northern Pakistan",
+    "location": "Pakistan",
     "maxGroup": "Private & Group Options",
-    "difficulty": "Easy / Cultural",
+    "difficulty": "Easy / Moderate",
     "image": "images/city-tours/tour_20.webp",
     "price": "35,000",
     "originalPrice": "40,250",
-    "departureDay": "Daily Private Departures & Weekly Group Departures",
-    "about": "Experience the official Kumrat Valley Tour – 03 Days with Safar Silsila. This curated excursion offers an unforgettable journey through ancient heritage, vibrant local culture, stunning landscapes, and legendary culinary delights. Guided by certified local historians and travel experts, with private air-conditioned vehicles, full ticket entry logistics, and official visa assistance.",
+    "departureDay": "Daily Private Departures & Fixed Group Departures",
+    "about": "Experience Kumrat Valley Tour – 03 Days with Safar Silsila. This curated itinerary offers a complete journey through iconic landmarks, rich local culture, breathtaking scenery, and legendary regional cuisine. Includes professional guide, luxury AC transport, full ticket entry logistics, and official visa support.",
     "highlights": [
-      "Full guided excursion for Kumrat Valley Tour – 03 Days",
-      "Private air-conditioned luxury transport with professional driver & fuel",
-      "Sightseeing at historical monuments, bazaars & scenic viewpoints",
-      "Authentic local food & tea tasting experiences",
-      "Full ticket entry passes & VIP protocol assistance",
+      "Complete guided excursion for Kumrat Valley Tour – 03 Days",
+      "Private AC transport with driver, fuel, tolls & parking",
+      "Sightseeing at historical monuments, bazaars & viewpoints",
+      "Authentic regional food & tea tasting",
       "24/7 dedicated travel concierge & emergency support"
     ],
     "itinerary": [
@@ -2680,25 +2662,25 @@ if (window.TOUR_DATA) {
       },
       {
         "day": "Day 2",
-        "title": "Heritage Monuments & Cultural Sightseeing",
+        "title": "Monuments & Cultural Sightseeing",
         "desc": "Full day guided exploration of major historical monuments, ancient forts, and museum archives with expert local guide."
       },
       {
         "day": "Day 3",
         "title": "Scenic Valleys & Local Artisans",
-        "desc": "Visit artisan workshops, local handicrafts markets, and surrounding natural viewpoints. Dinner at famous local food street."
+        "desc": "Visit artisan workshops, local markets, and surrounding natural viewpoints. Evening food street dinner."
       },
       {
         "day": "Day 4",
         "title": "Final Excursions & Departure",
-        "desc": "Morning shopping and photography tour. Drop-off at airport or hotel with fond memories of Pakistan."
+        "desc": "Morning shopping and photography tour. Drop-off at airport or hotel with fond memories."
       }
     ],
     "inclusions": [
       "Private AC Transport (Car / Prado / Coaster) with driver & fuel",
       "Official Tour Guide & Historian Services",
       "All Toll Taxes, Parking & Highway Charges",
-      "Complimentary Mineral Water & Tea",
+      "Complimentary Mineral Water & Refreshments",
       "Hotel Pickup & Drop-off Services"
     ],
     "exclusions": [
@@ -2708,44 +2690,44 @@ if (window.TOUR_DATA) {
     ],
     "packages": [
       {
-        "name": "Sedan Car Option (Up to 3 Persons)",
+        "name": "Standard Package",
         "price": "35,000",
         "status": "available",
         "features": [
-          "Toyota Corolla / Honda City",
-          "Driver & Fuel Included",
-          "Hotel Pickup & Drop-off"
+          "AC Coaster / Sedan Transport",
+          "Standard Hotel / Day Trip",
+          "Driver & Fuel Included"
         ]
       },
       {
-        "name": "SUV / Prado Option (Up to 5 Persons)",
-        "price": "55,000",
+        "name": "Deluxe Package",
+        "price": "47,250",
         "status": "available",
         "features": [
-          "Toyota Prado / BRV SUV",
-          "Driver & Fuel Included",
-          "Luxury Reclining Seats"
+          "AC Grand Cabin / Prado",
+          "Deluxe Hotel / Private Guide",
+          "Full Inclusions"
         ]
       },
       {
-        "name": "Coaster / HiAce Option (Groups)",
-        "price": "85,000",
+        "name": "Executive Package",
+        "price": "61,250",
         "status": "available",
         "features": [
-          "22-Seater Coaster / Grand Cabin",
-          "Driver & Fuel Included",
-          "Ideal for Family & Corporate Groups"
+          "Luxury 4x4 Prado / SUV",
+          "Luxury 4-Star / 5-Star Hotel",
+          "VIP Concierge & Protocol"
         ]
       }
     ],
     "faqs": [
       {
-        "q": "What is included in the private tour pricing?",
+        "q": "What is included in the tour pricing?",
         "a": "Pricing includes private AC transport, professional driver, fuel, highway tolls, parking fees, and guide assistance."
       },
       {
-        "q": "Can this tour be customized for specific dates or pick-up locations?",
-        "a": "Yes! All city tours can be customized for your exact pick-up location, time, and special itinerary preferences."
+        "q": "Can this tour be customized?",
+        "a": "Yes! All tours can be customized for your exact pick-up location, time, and special itinerary preferences."
       },
       {
         "q": "How do I book or confirm my reservation?",
@@ -2753,24 +2735,23 @@ if (window.TOUR_DATA) {
       }
     ]
   },
-  "city-tour-21": {
-    "id": "city-tour-21",
+  "city-21": {
+    "id": "city-21",
     "title": "Nagar Valley Tour – 07 Days",
     "duration": "7 Days 6 Nights",
-    "location": "Islamabad & Northern Pakistan",
+    "location": "Pakistan",
     "maxGroup": "Private & Group Options",
-    "difficulty": "Easy / Cultural",
+    "difficulty": "Easy / Moderate",
     "image": "images/city-tours/tour_21.jpg",
     "price": "35,000",
     "originalPrice": "40,250",
-    "departureDay": "Daily Private Departures & Weekly Group Departures",
-    "about": "Experience the official Nagar Valley Tour – 07 Days with Safar Silsila. This curated excursion offers an unforgettable journey through ancient heritage, vibrant local culture, stunning landscapes, and legendary culinary delights. Guided by certified local historians and travel experts, with private air-conditioned vehicles, full ticket entry logistics, and official visa assistance.",
+    "departureDay": "Daily Private Departures & Fixed Group Departures",
+    "about": "Experience Nagar Valley Tour – 07 Days with Safar Silsila. This curated itinerary offers a complete journey through iconic landmarks, rich local culture, breathtaking scenery, and legendary regional cuisine. Includes professional guide, luxury AC transport, full ticket entry logistics, and official visa support.",
     "highlights": [
-      "Full guided excursion for Nagar Valley Tour – 07 Days",
-      "Private air-conditioned luxury transport with professional driver & fuel",
-      "Sightseeing at historical monuments, bazaars & scenic viewpoints",
-      "Authentic local food & tea tasting experiences",
-      "Full ticket entry passes & VIP protocol assistance",
+      "Complete guided excursion for Nagar Valley Tour – 07 Days",
+      "Private AC transport with driver, fuel, tolls & parking",
+      "Sightseeing at historical monuments, bazaars & viewpoints",
+      "Authentic regional food & tea tasting",
       "24/7 dedicated travel concierge & emergency support"
     ],
     "itinerary": [
@@ -2781,25 +2762,25 @@ if (window.TOUR_DATA) {
       },
       {
         "day": "Day 2",
-        "title": "Heritage Monuments & Cultural Sightseeing",
+        "title": "Monuments & Cultural Sightseeing",
         "desc": "Full day guided exploration of major historical monuments, ancient forts, and museum archives with expert local guide."
       },
       {
         "day": "Day 3",
         "title": "Scenic Valleys & Local Artisans",
-        "desc": "Visit artisan workshops, local handicrafts markets, and surrounding natural viewpoints. Dinner at famous local food street."
+        "desc": "Visit artisan workshops, local markets, and surrounding natural viewpoints. Evening food street dinner."
       },
       {
         "day": "Day 4",
         "title": "Final Excursions & Departure",
-        "desc": "Morning shopping and photography tour. Drop-off at airport or hotel with fond memories of Pakistan."
+        "desc": "Morning shopping and photography tour. Drop-off at airport or hotel with fond memories."
       }
     ],
     "inclusions": [
       "Private AC Transport (Car / Prado / Coaster) with driver & fuel",
       "Official Tour Guide & Historian Services",
       "All Toll Taxes, Parking & Highway Charges",
-      "Complimentary Mineral Water & Tea",
+      "Complimentary Mineral Water & Refreshments",
       "Hotel Pickup & Drop-off Services"
     ],
     "exclusions": [
@@ -2809,44 +2790,44 @@ if (window.TOUR_DATA) {
     ],
     "packages": [
       {
-        "name": "Sedan Car Option (Up to 3 Persons)",
+        "name": "Standard Package",
         "price": "35,000",
         "status": "available",
         "features": [
-          "Toyota Corolla / Honda City",
-          "Driver & Fuel Included",
-          "Hotel Pickup & Drop-off"
+          "AC Coaster / Sedan Transport",
+          "Standard Hotel / Day Trip",
+          "Driver & Fuel Included"
         ]
       },
       {
-        "name": "SUV / Prado Option (Up to 5 Persons)",
-        "price": "55,000",
+        "name": "Deluxe Package",
+        "price": "47,250",
         "status": "available",
         "features": [
-          "Toyota Prado / BRV SUV",
-          "Driver & Fuel Included",
-          "Luxury Reclining Seats"
+          "AC Grand Cabin / Prado",
+          "Deluxe Hotel / Private Guide",
+          "Full Inclusions"
         ]
       },
       {
-        "name": "Coaster / HiAce Option (Groups)",
-        "price": "85,000",
+        "name": "Executive Package",
+        "price": "61,250",
         "status": "available",
         "features": [
-          "22-Seater Coaster / Grand Cabin",
-          "Driver & Fuel Included",
-          "Ideal for Family & Corporate Groups"
+          "Luxury 4x4 Prado / SUV",
+          "Luxury 4-Star / 5-Star Hotel",
+          "VIP Concierge & Protocol"
         ]
       }
     ],
     "faqs": [
       {
-        "q": "What is included in the private tour pricing?",
+        "q": "What is included in the tour pricing?",
         "a": "Pricing includes private AC transport, professional driver, fuel, highway tolls, parking fees, and guide assistance."
       },
       {
-        "q": "Can this tour be customized for specific dates or pick-up locations?",
-        "a": "Yes! All city tours can be customized for your exact pick-up location, time, and special itinerary preferences."
+        "q": "Can this tour be customized?",
+        "a": "Yes! All tours can be customized for your exact pick-up location, time, and special itinerary preferences."
       },
       {
         "q": "How do I book or confirm my reservation?",
@@ -2854,24 +2835,23 @@ if (window.TOUR_DATA) {
       }
     ]
   },
-  "city-tour-22": {
-    "id": "city-tour-22",
+  "city-22": {
+    "id": "city-22",
     "title": "Neelum Valley Keran Tour – 03 Days",
     "duration": "3 Days 2 Nights",
-    "location": "Islamabad & Northern Pakistan",
+    "location": "Pakistan",
     "maxGroup": "Private & Group Options",
-    "difficulty": "Easy / Cultural",
+    "difficulty": "Easy / Moderate",
     "image": "images/city-tours/tour_22.jpg",
     "price": "35,000",
     "originalPrice": "40,250",
-    "departureDay": "Daily Private Departures & Weekly Group Departures",
-    "about": "Experience the official Neelum Valley Keran Tour – 03 Days with Safar Silsila. This curated excursion offers an unforgettable journey through ancient heritage, vibrant local culture, stunning landscapes, and legendary culinary delights. Guided by certified local historians and travel experts, with private air-conditioned vehicles, full ticket entry logistics, and official visa assistance.",
+    "departureDay": "Daily Private Departures & Fixed Group Departures",
+    "about": "Experience Neelum Valley Keran Tour – 03 Days with Safar Silsila. This curated itinerary offers a complete journey through iconic landmarks, rich local culture, breathtaking scenery, and legendary regional cuisine. Includes professional guide, luxury AC transport, full ticket entry logistics, and official visa support.",
     "highlights": [
-      "Full guided excursion for Neelum Valley Keran Tour – 03 Days",
-      "Private air-conditioned luxury transport with professional driver & fuel",
-      "Sightseeing at historical monuments, bazaars & scenic viewpoints",
-      "Authentic local food & tea tasting experiences",
-      "Full ticket entry passes & VIP protocol assistance",
+      "Complete guided excursion for Neelum Valley Keran Tour – 03 Days",
+      "Private AC transport with driver, fuel, tolls & parking",
+      "Sightseeing at historical monuments, bazaars & viewpoints",
+      "Authentic regional food & tea tasting",
       "24/7 dedicated travel concierge & emergency support"
     ],
     "itinerary": [
@@ -2882,25 +2862,25 @@ if (window.TOUR_DATA) {
       },
       {
         "day": "Day 2",
-        "title": "Heritage Monuments & Cultural Sightseeing",
+        "title": "Monuments & Cultural Sightseeing",
         "desc": "Full day guided exploration of major historical monuments, ancient forts, and museum archives with expert local guide."
       },
       {
         "day": "Day 3",
         "title": "Scenic Valleys & Local Artisans",
-        "desc": "Visit artisan workshops, local handicrafts markets, and surrounding natural viewpoints. Dinner at famous local food street."
+        "desc": "Visit artisan workshops, local markets, and surrounding natural viewpoints. Evening food street dinner."
       },
       {
         "day": "Day 4",
         "title": "Final Excursions & Departure",
-        "desc": "Morning shopping and photography tour. Drop-off at airport or hotel with fond memories of Pakistan."
+        "desc": "Morning shopping and photography tour. Drop-off at airport or hotel with fond memories."
       }
     ],
     "inclusions": [
       "Private AC Transport (Car / Prado / Coaster) with driver & fuel",
       "Official Tour Guide & Historian Services",
       "All Toll Taxes, Parking & Highway Charges",
-      "Complimentary Mineral Water & Tea",
+      "Complimentary Mineral Water & Refreshments",
       "Hotel Pickup & Drop-off Services"
     ],
     "exclusions": [
@@ -2910,44 +2890,44 @@ if (window.TOUR_DATA) {
     ],
     "packages": [
       {
-        "name": "Sedan Car Option (Up to 3 Persons)",
+        "name": "Standard Package",
         "price": "35,000",
         "status": "available",
         "features": [
-          "Toyota Corolla / Honda City",
-          "Driver & Fuel Included",
-          "Hotel Pickup & Drop-off"
+          "AC Coaster / Sedan Transport",
+          "Standard Hotel / Day Trip",
+          "Driver & Fuel Included"
         ]
       },
       {
-        "name": "SUV / Prado Option (Up to 5 Persons)",
-        "price": "55,000",
+        "name": "Deluxe Package",
+        "price": "47,250",
         "status": "available",
         "features": [
-          "Toyota Prado / BRV SUV",
-          "Driver & Fuel Included",
-          "Luxury Reclining Seats"
+          "AC Grand Cabin / Prado",
+          "Deluxe Hotel / Private Guide",
+          "Full Inclusions"
         ]
       },
       {
-        "name": "Coaster / HiAce Option (Groups)",
-        "price": "85,000",
+        "name": "Executive Package",
+        "price": "61,250",
         "status": "available",
         "features": [
-          "22-Seater Coaster / Grand Cabin",
-          "Driver & Fuel Included",
-          "Ideal for Family & Corporate Groups"
+          "Luxury 4x4 Prado / SUV",
+          "Luxury 4-Star / 5-Star Hotel",
+          "VIP Concierge & Protocol"
         ]
       }
     ],
     "faqs": [
       {
-        "q": "What is included in the private tour pricing?",
+        "q": "What is included in the tour pricing?",
         "a": "Pricing includes private AC transport, professional driver, fuel, highway tolls, parking fees, and guide assistance."
       },
       {
-        "q": "Can this tour be customized for specific dates or pick-up locations?",
-        "a": "Yes! All city tours can be customized for your exact pick-up location, time, and special itinerary preferences."
+        "q": "Can this tour be customized?",
+        "a": "Yes! All tours can be customized for your exact pick-up location, time, and special itinerary preferences."
       },
       {
         "q": "How do I book or confirm my reservation?",
@@ -2955,24 +2935,23 @@ if (window.TOUR_DATA) {
       }
     ]
   },
-  "city-tour-23": {
-    "id": "city-tour-23",
+  "city-23": {
+    "id": "city-23",
     "title": "Kashmir Tour Arang Kel Taobat – 04 Days",
     "duration": "4 Day s3 Nights",
-    "location": "Islamabad & Northern Pakistan",
+    "location": "Pakistan",
     "maxGroup": "Private & Group Options",
-    "difficulty": "Easy / Cultural",
+    "difficulty": "Easy / Moderate",
     "image": "images/city-tours/tour_23.webp",
     "price": "14,000",
     "originalPrice": "16,100",
-    "departureDay": "Daily Private Departures & Weekly Group Departures",
-    "about": "Experience the official Kashmir Tour Arang Kel Taobat – 04 Days with Safar Silsila. This curated excursion offers an unforgettable journey through ancient heritage, vibrant local culture, stunning landscapes, and legendary culinary delights. Guided by certified local historians and travel experts, with private air-conditioned vehicles, full ticket entry logistics, and official visa assistance.",
+    "departureDay": "Daily Private Departures & Fixed Group Departures",
+    "about": "Experience Kashmir Tour Arang Kel Taobat – 04 Days with Safar Silsila. This curated itinerary offers a complete journey through iconic landmarks, rich local culture, breathtaking scenery, and legendary regional cuisine. Includes professional guide, luxury AC transport, full ticket entry logistics, and official visa support.",
     "highlights": [
-      "Full guided excursion for Kashmir Tour Arang Kel Taobat – 04 Days",
-      "Private air-conditioned luxury transport with professional driver & fuel",
-      "Sightseeing at historical monuments, bazaars & scenic viewpoints",
-      "Authentic local food & tea tasting experiences",
-      "Full ticket entry passes & VIP protocol assistance",
+      "Complete guided excursion for Kashmir Tour Arang Kel Taobat – 04 Days",
+      "Private AC transport with driver, fuel, tolls & parking",
+      "Sightseeing at historical monuments, bazaars & viewpoints",
+      "Authentic regional food & tea tasting",
       "24/7 dedicated travel concierge & emergency support"
     ],
     "itinerary": [
@@ -2984,7 +2963,7 @@ if (window.TOUR_DATA) {
       {
         "day": "Afternoon",
         "title": "Guided Monument & Activity Exploration",
-        "desc": "Arrive at destination. Guided tour of key monuments, scenic viewpoints, water sports activities, and photography stops."
+        "desc": "Arrive at destination. Guided tour of key monuments, scenic viewpoints, water activities, and photography stops."
       },
       {
         "day": "Evening",
@@ -2996,7 +2975,7 @@ if (window.TOUR_DATA) {
       "Private AC Transport (Car / Prado / Coaster) with driver & fuel",
       "Official Tour Guide & Historian Services",
       "All Toll Taxes, Parking & Highway Charges",
-      "Complimentary Mineral Water & Tea",
+      "Complimentary Mineral Water & Refreshments",
       "Hotel Pickup & Drop-off Services"
     ],
     "exclusions": [
@@ -3006,44 +2985,44 @@ if (window.TOUR_DATA) {
     ],
     "packages": [
       {
-        "name": "Sedan Car Option (Up to 3 Persons)",
+        "name": "Standard Package",
         "price": "14,000",
         "status": "available",
         "features": [
-          "Toyota Corolla / Honda City",
-          "Driver & Fuel Included",
-          "Hotel Pickup & Drop-off"
+          "AC Coaster / Sedan Transport",
+          "Standard Hotel / Day Trip",
+          "Driver & Fuel Included"
         ]
       },
       {
-        "name": "SUV / Prado Option (Up to 5 Persons)",
-        "price": "18,000",
+        "name": "Deluxe Package",
+        "price": "18,900",
         "status": "available",
         "features": [
-          "Toyota Prado / BRV SUV",
-          "Driver & Fuel Included",
-          "Luxury Reclining Seats"
+          "AC Grand Cabin / Prado",
+          "Deluxe Hotel / Private Guide",
+          "Full Inclusions"
         ]
       },
       {
-        "name": "Coaster / HiAce Option (Groups)",
-        "price": "24,000",
+        "name": "Executive Package",
+        "price": "24,500",
         "status": "available",
         "features": [
-          "22-Seater Coaster / Grand Cabin",
-          "Driver & Fuel Included",
-          "Ideal for Family & Corporate Groups"
+          "Luxury 4x4 Prado / SUV",
+          "Luxury 4-Star / 5-Star Hotel",
+          "VIP Concierge & Protocol"
         ]
       }
     ],
     "faqs": [
       {
-        "q": "What is included in the private tour pricing?",
+        "q": "What is included in the tour pricing?",
         "a": "Pricing includes private AC transport, professional driver, fuel, highway tolls, parking fees, and guide assistance."
       },
       {
-        "q": "Can this tour be customized for specific dates or pick-up locations?",
-        "a": "Yes! All city tours can be customized for your exact pick-up location, time, and special itinerary preferences."
+        "q": "Can this tour be customized?",
+        "a": "Yes! All tours can be customized for your exact pick-up location, time, and special itinerary preferences."
       },
       {
         "q": "How do I book or confirm my reservation?",
@@ -3051,24 +3030,23 @@ if (window.TOUR_DATA) {
       }
     ]
   },
-  "city-tour-24": {
-    "id": "city-tour-24",
+  "city-24": {
+    "id": "city-24",
     "title": "Murree & Azad Kashmir Tour (05 Days)",
     "duration": "5 Days 4 Nights",
-    "location": "Islamabad & Northern Pakistan",
+    "location": "Pakistan",
     "maxGroup": "Private & Group Options",
-    "difficulty": "Easy / Cultural",
+    "difficulty": "Easy / Moderate",
     "image": "images/city-tours/tour_24.jpg",
     "price": "35,000",
     "originalPrice": "40,250",
-    "departureDay": "Daily Private Departures & Weekly Group Departures",
-    "about": "Experience the official Murree & Azad Kashmir Tour (05 Days) with Safar Silsila. This curated excursion offers an unforgettable journey through ancient heritage, vibrant local culture, stunning landscapes, and legendary culinary delights. Guided by certified local historians and travel experts, with private air-conditioned vehicles, full ticket entry logistics, and official visa assistance.",
+    "departureDay": "Daily Private Departures & Fixed Group Departures",
+    "about": "Experience Murree & Azad Kashmir Tour (05 Days) with Safar Silsila. This curated itinerary offers a complete journey through iconic landmarks, rich local culture, breathtaking scenery, and legendary regional cuisine. Includes professional guide, luxury AC transport, full ticket entry logistics, and official visa support.",
     "highlights": [
-      "Full guided excursion for Murree & Azad Kashmir Tour (05 Days)",
-      "Private air-conditioned luxury transport with professional driver & fuel",
-      "Sightseeing at historical monuments, bazaars & scenic viewpoints",
-      "Authentic local food & tea tasting experiences",
-      "Full ticket entry passes & VIP protocol assistance",
+      "Complete guided excursion for Murree & Azad Kashmir Tour (05 Days)",
+      "Private AC transport with driver, fuel, tolls & parking",
+      "Sightseeing at historical monuments, bazaars & viewpoints",
+      "Authentic regional food & tea tasting",
       "24/7 dedicated travel concierge & emergency support"
     ],
     "itinerary": [
@@ -3079,25 +3057,25 @@ if (window.TOUR_DATA) {
       },
       {
         "day": "Day 2",
-        "title": "Heritage Monuments & Cultural Sightseeing",
+        "title": "Monuments & Cultural Sightseeing",
         "desc": "Full day guided exploration of major historical monuments, ancient forts, and museum archives with expert local guide."
       },
       {
         "day": "Day 3",
         "title": "Scenic Valleys & Local Artisans",
-        "desc": "Visit artisan workshops, local handicrafts markets, and surrounding natural viewpoints. Dinner at famous local food street."
+        "desc": "Visit artisan workshops, local markets, and surrounding natural viewpoints. Evening food street dinner."
       },
       {
         "day": "Day 4",
         "title": "Final Excursions & Departure",
-        "desc": "Morning shopping and photography tour. Drop-off at airport or hotel with fond memories of Pakistan."
+        "desc": "Morning shopping and photography tour. Drop-off at airport or hotel with fond memories."
       }
     ],
     "inclusions": [
       "Private AC Transport (Car / Prado / Coaster) with driver & fuel",
       "Official Tour Guide & Historian Services",
       "All Toll Taxes, Parking & Highway Charges",
-      "Complimentary Mineral Water & Tea",
+      "Complimentary Mineral Water & Refreshments",
       "Hotel Pickup & Drop-off Services"
     ],
     "exclusions": [
@@ -3107,44 +3085,44 @@ if (window.TOUR_DATA) {
     ],
     "packages": [
       {
-        "name": "Sedan Car Option (Up to 3 Persons)",
+        "name": "Standard Package",
         "price": "35,000",
         "status": "available",
         "features": [
-          "Toyota Corolla / Honda City",
-          "Driver & Fuel Included",
-          "Hotel Pickup & Drop-off"
+          "AC Coaster / Sedan Transport",
+          "Standard Hotel / Day Trip",
+          "Driver & Fuel Included"
         ]
       },
       {
-        "name": "SUV / Prado Option (Up to 5 Persons)",
-        "price": "55,000",
+        "name": "Deluxe Package",
+        "price": "47,250",
         "status": "available",
         "features": [
-          "Toyota Prado / BRV SUV",
-          "Driver & Fuel Included",
-          "Luxury Reclining Seats"
+          "AC Grand Cabin / Prado",
+          "Deluxe Hotel / Private Guide",
+          "Full Inclusions"
         ]
       },
       {
-        "name": "Coaster / HiAce Option (Groups)",
-        "price": "85,000",
+        "name": "Executive Package",
+        "price": "61,250",
         "status": "available",
         "features": [
-          "22-Seater Coaster / Grand Cabin",
-          "Driver & Fuel Included",
-          "Ideal for Family & Corporate Groups"
+          "Luxury 4x4 Prado / SUV",
+          "Luxury 4-Star / 5-Star Hotel",
+          "VIP Concierge & Protocol"
         ]
       }
     ],
     "faqs": [
       {
-        "q": "What is included in the private tour pricing?",
+        "q": "What is included in the tour pricing?",
         "a": "Pricing includes private AC transport, professional driver, fuel, highway tolls, parking fees, and guide assistance."
       },
       {
-        "q": "Can this tour be customized for specific dates or pick-up locations?",
-        "a": "Yes! All city tours can be customized for your exact pick-up location, time, and special itinerary preferences."
+        "q": "Can this tour be customized?",
+        "a": "Yes! All tours can be customized for your exact pick-up location, time, and special itinerary preferences."
       },
       {
         "q": "How do I book or confirm my reservation?",
@@ -3152,24 +3130,23 @@ if (window.TOUR_DATA) {
       }
     ]
   },
-  "city-tour-25": {
-    "id": "city-tour-25",
+  "city-25": {
+    "id": "city-25",
     "title": "Ganga Choti Tour – 04 Days",
     "duration": "4 Days 3 Nights",
-    "location": "Islamabad & Northern Pakistan",
+    "location": "Pakistan",
     "maxGroup": "Private & Group Options",
-    "difficulty": "Easy / Cultural",
+    "difficulty": "Easy / Moderate",
     "image": "images/city-tours/tour_25.jpg",
     "price": "35,000",
     "originalPrice": "40,250",
-    "departureDay": "Daily Private Departures & Weekly Group Departures",
-    "about": "Experience the official Ganga Choti Tour – 04 Days with Safar Silsila. This curated excursion offers an unforgettable journey through ancient heritage, vibrant local culture, stunning landscapes, and legendary culinary delights. Guided by certified local historians and travel experts, with private air-conditioned vehicles, full ticket entry logistics, and official visa assistance.",
+    "departureDay": "Daily Private Departures & Fixed Group Departures",
+    "about": "Experience Ganga Choti Tour – 04 Days with Safar Silsila. This curated itinerary offers a complete journey through iconic landmarks, rich local culture, breathtaking scenery, and legendary regional cuisine. Includes professional guide, luxury AC transport, full ticket entry logistics, and official visa support.",
     "highlights": [
-      "Full guided excursion for Ganga Choti Tour – 04 Days",
-      "Private air-conditioned luxury transport with professional driver & fuel",
-      "Sightseeing at historical monuments, bazaars & scenic viewpoints",
-      "Authentic local food & tea tasting experiences",
-      "Full ticket entry passes & VIP protocol assistance",
+      "Complete guided excursion for Ganga Choti Tour – 04 Days",
+      "Private AC transport with driver, fuel, tolls & parking",
+      "Sightseeing at historical monuments, bazaars & viewpoints",
+      "Authentic regional food & tea tasting",
       "24/7 dedicated travel concierge & emergency support"
     ],
     "itinerary": [
@@ -3180,25 +3157,25 @@ if (window.TOUR_DATA) {
       },
       {
         "day": "Day 2",
-        "title": "Heritage Monuments & Cultural Sightseeing",
+        "title": "Monuments & Cultural Sightseeing",
         "desc": "Full day guided exploration of major historical monuments, ancient forts, and museum archives with expert local guide."
       },
       {
         "day": "Day 3",
         "title": "Scenic Valleys & Local Artisans",
-        "desc": "Visit artisan workshops, local handicrafts markets, and surrounding natural viewpoints. Dinner at famous local food street."
+        "desc": "Visit artisan workshops, local markets, and surrounding natural viewpoints. Evening food street dinner."
       },
       {
         "day": "Day 4",
         "title": "Final Excursions & Departure",
-        "desc": "Morning shopping and photography tour. Drop-off at airport or hotel with fond memories of Pakistan."
+        "desc": "Morning shopping and photography tour. Drop-off at airport or hotel with fond memories."
       }
     ],
     "inclusions": [
       "Private AC Transport (Car / Prado / Coaster) with driver & fuel",
       "Official Tour Guide & Historian Services",
       "All Toll Taxes, Parking & Highway Charges",
-      "Complimentary Mineral Water & Tea",
+      "Complimentary Mineral Water & Refreshments",
       "Hotel Pickup & Drop-off Services"
     ],
     "exclusions": [
@@ -3208,44 +3185,44 @@ if (window.TOUR_DATA) {
     ],
     "packages": [
       {
-        "name": "Sedan Car Option (Up to 3 Persons)",
+        "name": "Standard Package",
         "price": "35,000",
         "status": "available",
         "features": [
-          "Toyota Corolla / Honda City",
-          "Driver & Fuel Included",
-          "Hotel Pickup & Drop-off"
+          "AC Coaster / Sedan Transport",
+          "Standard Hotel / Day Trip",
+          "Driver & Fuel Included"
         ]
       },
       {
-        "name": "SUV / Prado Option (Up to 5 Persons)",
-        "price": "55,000",
+        "name": "Deluxe Package",
+        "price": "47,250",
         "status": "available",
         "features": [
-          "Toyota Prado / BRV SUV",
-          "Driver & Fuel Included",
-          "Luxury Reclining Seats"
+          "AC Grand Cabin / Prado",
+          "Deluxe Hotel / Private Guide",
+          "Full Inclusions"
         ]
       },
       {
-        "name": "Coaster / HiAce Option (Groups)",
-        "price": "85,000",
+        "name": "Executive Package",
+        "price": "61,250",
         "status": "available",
         "features": [
-          "22-Seater Coaster / Grand Cabin",
-          "Driver & Fuel Included",
-          "Ideal for Family & Corporate Groups"
+          "Luxury 4x4 Prado / SUV",
+          "Luxury 4-Star / 5-Star Hotel",
+          "VIP Concierge & Protocol"
         ]
       }
     ],
     "faqs": [
       {
-        "q": "What is included in the private tour pricing?",
+        "q": "What is included in the tour pricing?",
         "a": "Pricing includes private AC transport, professional driver, fuel, highway tolls, parking fees, and guide assistance."
       },
       {
-        "q": "Can this tour be customized for specific dates or pick-up locations?",
-        "a": "Yes! All city tours can be customized for your exact pick-up location, time, and special itinerary preferences."
+        "q": "Can this tour be customized?",
+        "a": "Yes! All tours can be customized for your exact pick-up location, time, and special itinerary preferences."
       },
       {
         "q": "How do I book or confirm my reservation?",
@@ -3253,24 +3230,23 @@ if (window.TOUR_DATA) {
       }
     ]
   },
-  "city-tour-26": {
-    "id": "city-tour-26",
+  "city-26": {
+    "id": "city-26",
     "title": "Multan City Tour: Explore the Land of Mystics",
     "duration": "5 Days 4 Nights",
-    "location": "Multan, Punjab",
+    "location": "Pakistan",
     "maxGroup": "Private & Group Options",
-    "difficulty": "Easy / Cultural",
+    "difficulty": "Easy / Moderate",
     "image": "images/city-tours/tour_26.jpg",
     "price": "35,000",
     "originalPrice": "40,250",
-    "departureDay": "Daily Private Departures & Weekly Group Departures",
-    "about": "Experience the official Multan City Tour: Explore the Land of Mystics with Safar Silsila. This curated excursion offers an unforgettable journey through ancient heritage, vibrant local culture, stunning landscapes, and legendary culinary delights. Guided by certified local historians and travel experts, with private air-conditioned vehicles, full ticket entry logistics, and official visa assistance.",
+    "departureDay": "Daily Private Departures & Fixed Group Departures",
+    "about": "Experience Multan City Tour: Explore the Land of Mystics with Safar Silsila. This curated itinerary offers a complete journey through iconic landmarks, rich local culture, breathtaking scenery, and legendary regional cuisine. Includes professional guide, luxury AC transport, full ticket entry logistics, and official visa support.",
     "highlights": [
-      "Full guided excursion for Multan City Tour: Explore the Land of Mystics",
-      "Private air-conditioned luxury transport with professional driver & fuel",
-      "Sightseeing at historical monuments, bazaars & scenic viewpoints",
-      "Authentic local food & tea tasting experiences",
-      "Full ticket entry passes & VIP protocol assistance",
+      "Complete guided excursion for Multan City Tour: Explore the Land of Mystics",
+      "Private AC transport with driver, fuel, tolls & parking",
+      "Sightseeing at historical monuments, bazaars & viewpoints",
+      "Authentic regional food & tea tasting",
       "24/7 dedicated travel concierge & emergency support"
     ],
     "itinerary": [
@@ -3281,25 +3257,25 @@ if (window.TOUR_DATA) {
       },
       {
         "day": "Day 2",
-        "title": "Heritage Monuments & Cultural Sightseeing",
+        "title": "Monuments & Cultural Sightseeing",
         "desc": "Full day guided exploration of major historical monuments, ancient forts, and museum archives with expert local guide."
       },
       {
         "day": "Day 3",
         "title": "Scenic Valleys & Local Artisans",
-        "desc": "Visit artisan workshops, local handicrafts markets, and surrounding natural viewpoints. Dinner at famous local food street."
+        "desc": "Visit artisan workshops, local markets, and surrounding natural viewpoints. Evening food street dinner."
       },
       {
         "day": "Day 4",
         "title": "Final Excursions & Departure",
-        "desc": "Morning shopping and photography tour. Drop-off at airport or hotel with fond memories of Pakistan."
+        "desc": "Morning shopping and photography tour. Drop-off at airport or hotel with fond memories."
       }
     ],
     "inclusions": [
       "Private AC Transport (Car / Prado / Coaster) with driver & fuel",
       "Official Tour Guide & Historian Services",
       "All Toll Taxes, Parking & Highway Charges",
-      "Complimentary Mineral Water & Tea",
+      "Complimentary Mineral Water & Refreshments",
       "Hotel Pickup & Drop-off Services"
     ],
     "exclusions": [
@@ -3309,44 +3285,44 @@ if (window.TOUR_DATA) {
     ],
     "packages": [
       {
-        "name": "Sedan Car Option (Up to 3 Persons)",
+        "name": "Standard Package",
         "price": "35,000",
         "status": "available",
         "features": [
-          "Toyota Corolla / Honda City",
-          "Driver & Fuel Included",
-          "Hotel Pickup & Drop-off"
+          "AC Coaster / Sedan Transport",
+          "Standard Hotel / Day Trip",
+          "Driver & Fuel Included"
         ]
       },
       {
-        "name": "SUV / Prado Option (Up to 5 Persons)",
-        "price": "55,000",
+        "name": "Deluxe Package",
+        "price": "47,250",
         "status": "available",
         "features": [
-          "Toyota Prado / BRV SUV",
-          "Driver & Fuel Included",
-          "Luxury Reclining Seats"
+          "AC Grand Cabin / Prado",
+          "Deluxe Hotel / Private Guide",
+          "Full Inclusions"
         ]
       },
       {
-        "name": "Coaster / HiAce Option (Groups)",
-        "price": "85,000",
+        "name": "Executive Package",
+        "price": "61,250",
         "status": "available",
         "features": [
-          "22-Seater Coaster / Grand Cabin",
-          "Driver & Fuel Included",
-          "Ideal for Family & Corporate Groups"
+          "Luxury 4x4 Prado / SUV",
+          "Luxury 4-Star / 5-Star Hotel",
+          "VIP Concierge & Protocol"
         ]
       }
     ],
     "faqs": [
       {
-        "q": "What is included in the private tour pricing?",
+        "q": "What is included in the tour pricing?",
         "a": "Pricing includes private AC transport, professional driver, fuel, highway tolls, parking fees, and guide assistance."
       },
       {
-        "q": "Can this tour be customized for specific dates or pick-up locations?",
-        "a": "Yes! All city tours can be customized for your exact pick-up location, time, and special itinerary preferences."
+        "q": "Can this tour be customized?",
+        "a": "Yes! All tours can be customized for your exact pick-up location, time, and special itinerary preferences."
       },
       {
         "q": "How do I book or confirm my reservation?",
@@ -3354,24 +3330,23 @@ if (window.TOUR_DATA) {
       }
     ]
   },
-  "city-tour-27": {
-    "id": "city-tour-27",
+  "city-27": {
+    "id": "city-27",
     "title": "Faisalabad City Tour: A Journey through Culture & Industry",
     "duration": "2 Days 1 Night",
-    "location": "Islamabad & Northern Pakistan",
+    "location": "Pakistan",
     "maxGroup": "Private & Group Options",
-    "difficulty": "Easy / Cultural",
+    "difficulty": "Easy / Moderate",
     "image": "images/city-tours/tour_27.jpg",
     "price": "35,000",
     "originalPrice": "40,250",
-    "departureDay": "Daily Private Departures & Weekly Group Departures",
-    "about": "Experience the official Faisalabad City Tour: A Journey through Culture & Industry with Safar Silsila. This curated excursion offers an unforgettable journey through ancient heritage, vibrant local culture, stunning landscapes, and legendary culinary delights. Guided by certified local historians and travel experts, with private air-conditioned vehicles, full ticket entry logistics, and official visa assistance.",
+    "departureDay": "Daily Private Departures & Fixed Group Departures",
+    "about": "Experience Faisalabad City Tour: A Journey through Culture & Industry with Safar Silsila. This curated itinerary offers a complete journey through iconic landmarks, rich local culture, breathtaking scenery, and legendary regional cuisine. Includes professional guide, luxury AC transport, full ticket entry logistics, and official visa support.",
     "highlights": [
-      "Full guided excursion for Faisalabad City Tour: A Journey through Culture & Industry",
-      "Private air-conditioned luxury transport with professional driver & fuel",
-      "Sightseeing at historical monuments, bazaars & scenic viewpoints",
-      "Authentic local food & tea tasting experiences",
-      "Full ticket entry passes & VIP protocol assistance",
+      "Complete guided excursion for Faisalabad City Tour: A Journey through Culture & Industry",
+      "Private AC transport with driver, fuel, tolls & parking",
+      "Sightseeing at historical monuments, bazaars & viewpoints",
+      "Authentic regional food & tea tasting",
       "24/7 dedicated travel concierge & emergency support"
     ],
     "itinerary": [
@@ -3382,25 +3357,25 @@ if (window.TOUR_DATA) {
       },
       {
         "day": "Day 2",
-        "title": "Heritage Monuments & Cultural Sightseeing",
+        "title": "Monuments & Cultural Sightseeing",
         "desc": "Full day guided exploration of major historical monuments, ancient forts, and museum archives with expert local guide."
       },
       {
         "day": "Day 3",
         "title": "Scenic Valleys & Local Artisans",
-        "desc": "Visit artisan workshops, local handicrafts markets, and surrounding natural viewpoints. Dinner at famous local food street."
+        "desc": "Visit artisan workshops, local markets, and surrounding natural viewpoints. Evening food street dinner."
       },
       {
         "day": "Day 4",
         "title": "Final Excursions & Departure",
-        "desc": "Morning shopping and photography tour. Drop-off at airport or hotel with fond memories of Pakistan."
+        "desc": "Morning shopping and photography tour. Drop-off at airport or hotel with fond memories."
       }
     ],
     "inclusions": [
       "Private AC Transport (Car / Prado / Coaster) with driver & fuel",
       "Official Tour Guide & Historian Services",
       "All Toll Taxes, Parking & Highway Charges",
-      "Complimentary Mineral Water & Tea",
+      "Complimentary Mineral Water & Refreshments",
       "Hotel Pickup & Drop-off Services"
     ],
     "exclusions": [
@@ -3410,44 +3385,44 @@ if (window.TOUR_DATA) {
     ],
     "packages": [
       {
-        "name": "Sedan Car Option (Up to 3 Persons)",
+        "name": "Standard Package",
         "price": "35,000",
         "status": "available",
         "features": [
-          "Toyota Corolla / Honda City",
-          "Driver & Fuel Included",
-          "Hotel Pickup & Drop-off"
+          "AC Coaster / Sedan Transport",
+          "Standard Hotel / Day Trip",
+          "Driver & Fuel Included"
         ]
       },
       {
-        "name": "SUV / Prado Option (Up to 5 Persons)",
-        "price": "55,000",
+        "name": "Deluxe Package",
+        "price": "47,250",
         "status": "available",
         "features": [
-          "Toyota Prado / BRV SUV",
-          "Driver & Fuel Included",
-          "Luxury Reclining Seats"
+          "AC Grand Cabin / Prado",
+          "Deluxe Hotel / Private Guide",
+          "Full Inclusions"
         ]
       },
       {
-        "name": "Coaster / HiAce Option (Groups)",
-        "price": "85,000",
+        "name": "Executive Package",
+        "price": "61,250",
         "status": "available",
         "features": [
-          "22-Seater Coaster / Grand Cabin",
-          "Driver & Fuel Included",
-          "Ideal for Family & Corporate Groups"
+          "Luxury 4x4 Prado / SUV",
+          "Luxury 4-Star / 5-Star Hotel",
+          "VIP Concierge & Protocol"
         ]
       }
     ],
     "faqs": [
       {
-        "q": "What is included in the private tour pricing?",
+        "q": "What is included in the tour pricing?",
         "a": "Pricing includes private AC transport, professional driver, fuel, highway tolls, parking fees, and guide assistance."
       },
       {
-        "q": "Can this tour be customized for specific dates or pick-up locations?",
-        "a": "Yes! All city tours can be customized for your exact pick-up location, time, and special itinerary preferences."
+        "q": "Can this tour be customized?",
+        "a": "Yes! All tours can be customized for your exact pick-up location, time, and special itinerary preferences."
       },
       {
         "q": "How do I book or confirm my reservation?",
@@ -3455,24 +3430,23 @@ if (window.TOUR_DATA) {
       }
     ]
   },
-  "city-tour-28": {
-    "id": "city-tour-28",
+  "city-28": {
+    "id": "city-28",
     "title": "Sialkot City Tour",
     "duration": "3 Days 2 Nights",
-    "location": "Islamabad & Northern Pakistan",
+    "location": "Pakistan",
     "maxGroup": "Private & Group Options",
-    "difficulty": "Easy / Cultural",
+    "difficulty": "Easy / Moderate",
     "image": "images/city-tours/tour_28.jpg",
     "price": "35,000",
     "originalPrice": "40,250",
-    "departureDay": "Daily Private Departures & Weekly Group Departures",
-    "about": "Experience the official Sialkot City Tour with Safar Silsila. This curated excursion offers an unforgettable journey through ancient heritage, vibrant local culture, stunning landscapes, and legendary culinary delights. Guided by certified local historians and travel experts, with private air-conditioned vehicles, full ticket entry logistics, and official visa assistance.",
+    "departureDay": "Daily Private Departures & Fixed Group Departures",
+    "about": "Experience Sialkot City Tour with Safar Silsila. This curated itinerary offers a complete journey through iconic landmarks, rich local culture, breathtaking scenery, and legendary regional cuisine. Includes professional guide, luxury AC transport, full ticket entry logistics, and official visa support.",
     "highlights": [
-      "Full guided excursion for Sialkot City Tour",
-      "Private air-conditioned luxury transport with professional driver & fuel",
-      "Sightseeing at historical monuments, bazaars & scenic viewpoints",
-      "Authentic local food & tea tasting experiences",
-      "Full ticket entry passes & VIP protocol assistance",
+      "Complete guided excursion for Sialkot City Tour",
+      "Private AC transport with driver, fuel, tolls & parking",
+      "Sightseeing at historical monuments, bazaars & viewpoints",
+      "Authentic regional food & tea tasting",
       "24/7 dedicated travel concierge & emergency support"
     ],
     "itinerary": [
@@ -3483,25 +3457,25 @@ if (window.TOUR_DATA) {
       },
       {
         "day": "Day 2",
-        "title": "Heritage Monuments & Cultural Sightseeing",
+        "title": "Monuments & Cultural Sightseeing",
         "desc": "Full day guided exploration of major historical monuments, ancient forts, and museum archives with expert local guide."
       },
       {
         "day": "Day 3",
         "title": "Scenic Valleys & Local Artisans",
-        "desc": "Visit artisan workshops, local handicrafts markets, and surrounding natural viewpoints. Dinner at famous local food street."
+        "desc": "Visit artisan workshops, local markets, and surrounding natural viewpoints. Evening food street dinner."
       },
       {
         "day": "Day 4",
         "title": "Final Excursions & Departure",
-        "desc": "Morning shopping and photography tour. Drop-off at airport or hotel with fond memories of Pakistan."
+        "desc": "Morning shopping and photography tour. Drop-off at airport or hotel with fond memories."
       }
     ],
     "inclusions": [
       "Private AC Transport (Car / Prado / Coaster) with driver & fuel",
       "Official Tour Guide & Historian Services",
       "All Toll Taxes, Parking & Highway Charges",
-      "Complimentary Mineral Water & Tea",
+      "Complimentary Mineral Water & Refreshments",
       "Hotel Pickup & Drop-off Services"
     ],
     "exclusions": [
@@ -3511,44 +3485,44 @@ if (window.TOUR_DATA) {
     ],
     "packages": [
       {
-        "name": "Sedan Car Option (Up to 3 Persons)",
+        "name": "Standard Package",
         "price": "35,000",
         "status": "available",
         "features": [
-          "Toyota Corolla / Honda City",
-          "Driver & Fuel Included",
-          "Hotel Pickup & Drop-off"
+          "AC Coaster / Sedan Transport",
+          "Standard Hotel / Day Trip",
+          "Driver & Fuel Included"
         ]
       },
       {
-        "name": "SUV / Prado Option (Up to 5 Persons)",
-        "price": "55,000",
+        "name": "Deluxe Package",
+        "price": "47,250",
         "status": "available",
         "features": [
-          "Toyota Prado / BRV SUV",
-          "Driver & Fuel Included",
-          "Luxury Reclining Seats"
+          "AC Grand Cabin / Prado",
+          "Deluxe Hotel / Private Guide",
+          "Full Inclusions"
         ]
       },
       {
-        "name": "Coaster / HiAce Option (Groups)",
-        "price": "85,000",
+        "name": "Executive Package",
+        "price": "61,250",
         "status": "available",
         "features": [
-          "22-Seater Coaster / Grand Cabin",
-          "Driver & Fuel Included",
-          "Ideal for Family & Corporate Groups"
+          "Luxury 4x4 Prado / SUV",
+          "Luxury 4-Star / 5-Star Hotel",
+          "VIP Concierge & Protocol"
         ]
       }
     ],
     "faqs": [
       {
-        "q": "What is included in the private tour pricing?",
+        "q": "What is included in the tour pricing?",
         "a": "Pricing includes private AC transport, professional driver, fuel, highway tolls, parking fees, and guide assistance."
       },
       {
-        "q": "Can this tour be customized for specific dates or pick-up locations?",
-        "a": "Yes! All city tours can be customized for your exact pick-up location, time, and special itinerary preferences."
+        "q": "Can this tour be customized?",
+        "a": "Yes! All tours can be customized for your exact pick-up location, time, and special itinerary preferences."
       },
       {
         "q": "How do I book or confirm my reservation?",
@@ -3556,24 +3530,23 @@ if (window.TOUR_DATA) {
       }
     ]
   },
-  "city-tour-29": {
-    "id": "city-tour-29",
+  "city-29": {
+    "id": "city-29",
     "title": "Peshawar City Tour",
     "duration": "2 Days 1 Night",
     "location": "Peshawar, KP",
     "maxGroup": "Private & Group Options",
-    "difficulty": "Easy / Cultural",
+    "difficulty": "Easy / Moderate",
     "image": "images/city-tours/tour_29.jpg",
     "price": "35,000",
     "originalPrice": "40,250",
-    "departureDay": "Daily Private Departures & Weekly Group Departures",
-    "about": "Experience the official Peshawar City Tour with Safar Silsila. This curated excursion offers an unforgettable journey through ancient heritage, vibrant local culture, stunning landscapes, and legendary culinary delights. Guided by certified local historians and travel experts, with private air-conditioned vehicles, full ticket entry logistics, and official visa assistance.",
+    "departureDay": "Daily Private Departures & Fixed Group Departures",
+    "about": "Experience Peshawar City Tour with Safar Silsila. This curated itinerary offers a complete journey through iconic landmarks, rich local culture, breathtaking scenery, and legendary regional cuisine. Includes professional guide, luxury AC transport, full ticket entry logistics, and official visa support.",
     "highlights": [
-      "Full guided excursion for Peshawar City Tour",
-      "Private air-conditioned luxury transport with professional driver & fuel",
-      "Sightseeing at historical monuments, bazaars & scenic viewpoints",
-      "Authentic local food & tea tasting experiences",
-      "Full ticket entry passes & VIP protocol assistance",
+      "Complete guided excursion for Peshawar City Tour",
+      "Private AC transport with driver, fuel, tolls & parking",
+      "Sightseeing at historical monuments, bazaars & viewpoints",
+      "Authentic regional food & tea tasting",
       "24/7 dedicated travel concierge & emergency support"
     ],
     "itinerary": [
@@ -3584,25 +3557,25 @@ if (window.TOUR_DATA) {
       },
       {
         "day": "Day 2",
-        "title": "Heritage Monuments & Cultural Sightseeing",
+        "title": "Monuments & Cultural Sightseeing",
         "desc": "Full day guided exploration of major historical monuments, ancient forts, and museum archives with expert local guide."
       },
       {
         "day": "Day 3",
         "title": "Scenic Valleys & Local Artisans",
-        "desc": "Visit artisan workshops, local handicrafts markets, and surrounding natural viewpoints. Dinner at famous local food street."
+        "desc": "Visit artisan workshops, local markets, and surrounding natural viewpoints. Evening food street dinner."
       },
       {
         "day": "Day 4",
         "title": "Final Excursions & Departure",
-        "desc": "Morning shopping and photography tour. Drop-off at airport or hotel with fond memories of Pakistan."
+        "desc": "Morning shopping and photography tour. Drop-off at airport or hotel with fond memories."
       }
     ],
     "inclusions": [
       "Private AC Transport (Car / Prado / Coaster) with driver & fuel",
       "Official Tour Guide & Historian Services",
       "All Toll Taxes, Parking & Highway Charges",
-      "Complimentary Mineral Water & Tea",
+      "Complimentary Mineral Water & Refreshments",
       "Hotel Pickup & Drop-off Services"
     ],
     "exclusions": [
@@ -3612,44 +3585,44 @@ if (window.TOUR_DATA) {
     ],
     "packages": [
       {
-        "name": "Sedan Car Option (Up to 3 Persons)",
+        "name": "Standard Package",
         "price": "35,000",
         "status": "available",
         "features": [
-          "Toyota Corolla / Honda City",
-          "Driver & Fuel Included",
-          "Hotel Pickup & Drop-off"
+          "AC Coaster / Sedan Transport",
+          "Standard Hotel / Day Trip",
+          "Driver & Fuel Included"
         ]
       },
       {
-        "name": "SUV / Prado Option (Up to 5 Persons)",
-        "price": "55,000",
+        "name": "Deluxe Package",
+        "price": "47,250",
         "status": "available",
         "features": [
-          "Toyota Prado / BRV SUV",
-          "Driver & Fuel Included",
-          "Luxury Reclining Seats"
+          "AC Grand Cabin / Prado",
+          "Deluxe Hotel / Private Guide",
+          "Full Inclusions"
         ]
       },
       {
-        "name": "Coaster / HiAce Option (Groups)",
-        "price": "85,000",
+        "name": "Executive Package",
+        "price": "61,250",
         "status": "available",
         "features": [
-          "22-Seater Coaster / Grand Cabin",
-          "Driver & Fuel Included",
-          "Ideal for Family & Corporate Groups"
+          "Luxury 4x4 Prado / SUV",
+          "Luxury 4-Star / 5-Star Hotel",
+          "VIP Concierge & Protocol"
         ]
       }
     ],
     "faqs": [
       {
-        "q": "What is included in the private tour pricing?",
+        "q": "What is included in the tour pricing?",
         "a": "Pricing includes private AC transport, professional driver, fuel, highway tolls, parking fees, and guide assistance."
       },
       {
-        "q": "Can this tour be customized for specific dates or pick-up locations?",
-        "a": "Yes! All city tours can be customized for your exact pick-up location, time, and special itinerary preferences."
+        "q": "Can this tour be customized?",
+        "a": "Yes! All tours can be customized for your exact pick-up location, time, and special itinerary preferences."
       },
       {
         "q": "How do I book or confirm my reservation?",
@@ -3657,24 +3630,23 @@ if (window.TOUR_DATA) {
       }
     ]
   },
-  "city-tour-30": {
-    "id": "city-tour-30",
+  "city-30": {
+    "id": "city-30",
     "title": "Gujranwala City Tour",
     "duration": "5 Days 4 Nights",
-    "location": "Islamabad & Northern Pakistan",
+    "location": "Pakistan",
     "maxGroup": "Private & Group Options",
-    "difficulty": "Easy / Cultural",
+    "difficulty": "Easy / Moderate",
     "image": "images/city-tours/tour_30.jpg",
     "price": "35,000",
     "originalPrice": "40,250",
-    "departureDay": "Daily Private Departures & Weekly Group Departures",
-    "about": "Experience the official Gujranwala City Tour with Safar Silsila. This curated excursion offers an unforgettable journey through ancient heritage, vibrant local culture, stunning landscapes, and legendary culinary delights. Guided by certified local historians and travel experts, with private air-conditioned vehicles, full ticket entry logistics, and official visa assistance.",
+    "departureDay": "Daily Private Departures & Fixed Group Departures",
+    "about": "Experience Gujranwala City Tour with Safar Silsila. This curated itinerary offers a complete journey through iconic landmarks, rich local culture, breathtaking scenery, and legendary regional cuisine. Includes professional guide, luxury AC transport, full ticket entry logistics, and official visa support.",
     "highlights": [
-      "Full guided excursion for Gujranwala City Tour",
-      "Private air-conditioned luxury transport with professional driver & fuel",
-      "Sightseeing at historical monuments, bazaars & scenic viewpoints",
-      "Authentic local food & tea tasting experiences",
-      "Full ticket entry passes & VIP protocol assistance",
+      "Complete guided excursion for Gujranwala City Tour",
+      "Private AC transport with driver, fuel, tolls & parking",
+      "Sightseeing at historical monuments, bazaars & viewpoints",
+      "Authentic regional food & tea tasting",
       "24/7 dedicated travel concierge & emergency support"
     ],
     "itinerary": [
@@ -3685,25 +3657,25 @@ if (window.TOUR_DATA) {
       },
       {
         "day": "Day 2",
-        "title": "Heritage Monuments & Cultural Sightseeing",
+        "title": "Monuments & Cultural Sightseeing",
         "desc": "Full day guided exploration of major historical monuments, ancient forts, and museum archives with expert local guide."
       },
       {
         "day": "Day 3",
         "title": "Scenic Valleys & Local Artisans",
-        "desc": "Visit artisan workshops, local handicrafts markets, and surrounding natural viewpoints. Dinner at famous local food street."
+        "desc": "Visit artisan workshops, local markets, and surrounding natural viewpoints. Evening food street dinner."
       },
       {
         "day": "Day 4",
         "title": "Final Excursions & Departure",
-        "desc": "Morning shopping and photography tour. Drop-off at airport or hotel with fond memories of Pakistan."
+        "desc": "Morning shopping and photography tour. Drop-off at airport or hotel with fond memories."
       }
     ],
     "inclusions": [
       "Private AC Transport (Car / Prado / Coaster) with driver & fuel",
       "Official Tour Guide & Historian Services",
       "All Toll Taxes, Parking & Highway Charges",
-      "Complimentary Mineral Water & Tea",
+      "Complimentary Mineral Water & Refreshments",
       "Hotel Pickup & Drop-off Services"
     ],
     "exclusions": [
@@ -3713,44 +3685,44 @@ if (window.TOUR_DATA) {
     ],
     "packages": [
       {
-        "name": "Sedan Car Option (Up to 3 Persons)",
+        "name": "Standard Package",
         "price": "35,000",
         "status": "available",
         "features": [
-          "Toyota Corolla / Honda City",
-          "Driver & Fuel Included",
-          "Hotel Pickup & Drop-off"
+          "AC Coaster / Sedan Transport",
+          "Standard Hotel / Day Trip",
+          "Driver & Fuel Included"
         ]
       },
       {
-        "name": "SUV / Prado Option (Up to 5 Persons)",
-        "price": "55,000",
+        "name": "Deluxe Package",
+        "price": "47,250",
         "status": "available",
         "features": [
-          "Toyota Prado / BRV SUV",
-          "Driver & Fuel Included",
-          "Luxury Reclining Seats"
+          "AC Grand Cabin / Prado",
+          "Deluxe Hotel / Private Guide",
+          "Full Inclusions"
         ]
       },
       {
-        "name": "Coaster / HiAce Option (Groups)",
-        "price": "85,000",
+        "name": "Executive Package",
+        "price": "61,250",
         "status": "available",
         "features": [
-          "22-Seater Coaster / Grand Cabin",
-          "Driver & Fuel Included",
-          "Ideal for Family & Corporate Groups"
+          "Luxury 4x4 Prado / SUV",
+          "Luxury 4-Star / 5-Star Hotel",
+          "VIP Concierge & Protocol"
         ]
       }
     ],
     "faqs": [
       {
-        "q": "What is included in the private tour pricing?",
+        "q": "What is included in the tour pricing?",
         "a": "Pricing includes private AC transport, professional driver, fuel, highway tolls, parking fees, and guide assistance."
       },
       {
-        "q": "Can this tour be customized for specific dates or pick-up locations?",
-        "a": "Yes! All city tours can be customized for your exact pick-up location, time, and special itinerary preferences."
+        "q": "Can this tour be customized?",
+        "a": "Yes! All tours can be customized for your exact pick-up location, time, and special itinerary preferences."
       },
       {
         "q": "How do I book or confirm my reservation?",
@@ -3758,24 +3730,23 @@ if (window.TOUR_DATA) {
       }
     ]
   },
-  "city-tour-31": {
-    "id": "city-tour-31",
+  "city-31": {
+    "id": "city-31",
     "title": "Changa Manga and Head Balloki Tour",
     "duration": "1 Day",
-    "location": "Islamabad & Northern Pakistan",
+    "location": "Pakistan",
     "maxGroup": "Private & Group Options",
-    "difficulty": "Easy / Cultural",
+    "difficulty": "Easy / Moderate",
     "image": "images/city-tours/tour_31.jpg",
     "price": "14,000",
     "originalPrice": "16,100",
-    "departureDay": "Daily Private Departures & Weekly Group Departures",
-    "about": "Experience the official Changa Manga and Head Balloki Tour with Safar Silsila. This curated excursion offers an unforgettable journey through ancient heritage, vibrant local culture, stunning landscapes, and legendary culinary delights. Guided by certified local historians and travel experts, with private air-conditioned vehicles, full ticket entry logistics, and official visa assistance.",
+    "departureDay": "Daily Private Departures & Fixed Group Departures",
+    "about": "Experience Changa Manga and Head Balloki Tour with Safar Silsila. This curated itinerary offers a complete journey through iconic landmarks, rich local culture, breathtaking scenery, and legendary regional cuisine. Includes professional guide, luxury AC transport, full ticket entry logistics, and official visa support.",
     "highlights": [
-      "Full guided excursion for Changa Manga and Head Balloki Tour",
-      "Private air-conditioned luxury transport with professional driver & fuel",
-      "Sightseeing at historical monuments, bazaars & scenic viewpoints",
-      "Authentic local food & tea tasting experiences",
-      "Full ticket entry passes & VIP protocol assistance",
+      "Complete guided excursion for Changa Manga and Head Balloki Tour",
+      "Private AC transport with driver, fuel, tolls & parking",
+      "Sightseeing at historical monuments, bazaars & viewpoints",
+      "Authentic regional food & tea tasting",
       "24/7 dedicated travel concierge & emergency support"
     ],
     "itinerary": [
@@ -3787,7 +3758,7 @@ if (window.TOUR_DATA) {
       {
         "day": "Afternoon",
         "title": "Guided Monument & Activity Exploration",
-        "desc": "Arrive at destination. Guided tour of key monuments, scenic viewpoints, water sports activities, and photography stops."
+        "desc": "Arrive at destination. Guided tour of key monuments, scenic viewpoints, water activities, and photography stops."
       },
       {
         "day": "Evening",
@@ -3799,7 +3770,7 @@ if (window.TOUR_DATA) {
       "Private AC Transport (Car / Prado / Coaster) with driver & fuel",
       "Official Tour Guide & Historian Services",
       "All Toll Taxes, Parking & Highway Charges",
-      "Complimentary Mineral Water & Tea",
+      "Complimentary Mineral Water & Refreshments",
       "Hotel Pickup & Drop-off Services"
     ],
     "exclusions": [
@@ -3809,44 +3780,44 @@ if (window.TOUR_DATA) {
     ],
     "packages": [
       {
-        "name": "Sedan Car Option (Up to 3 Persons)",
+        "name": "Standard Package",
         "price": "14,000",
         "status": "available",
         "features": [
-          "Toyota Corolla / Honda City",
-          "Driver & Fuel Included",
-          "Hotel Pickup & Drop-off"
+          "AC Coaster / Sedan Transport",
+          "Standard Hotel / Day Trip",
+          "Driver & Fuel Included"
         ]
       },
       {
-        "name": "SUV / Prado Option (Up to 5 Persons)",
-        "price": "18,000",
+        "name": "Deluxe Package",
+        "price": "18,900",
         "status": "available",
         "features": [
-          "Toyota Prado / BRV SUV",
-          "Driver & Fuel Included",
-          "Luxury Reclining Seats"
+          "AC Grand Cabin / Prado",
+          "Deluxe Hotel / Private Guide",
+          "Full Inclusions"
         ]
       },
       {
-        "name": "Coaster / HiAce Option (Groups)",
-        "price": "24,000",
+        "name": "Executive Package",
+        "price": "24,500",
         "status": "available",
         "features": [
-          "22-Seater Coaster / Grand Cabin",
-          "Driver & Fuel Included",
-          "Ideal for Family & Corporate Groups"
+          "Luxury 4x4 Prado / SUV",
+          "Luxury 4-Star / 5-Star Hotel",
+          "VIP Concierge & Protocol"
         ]
       }
     ],
     "faqs": [
       {
-        "q": "What is included in the private tour pricing?",
+        "q": "What is included in the tour pricing?",
         "a": "Pricing includes private AC transport, professional driver, fuel, highway tolls, parking fees, and guide assistance."
       },
       {
-        "q": "Can this tour be customized for specific dates or pick-up locations?",
-        "a": "Yes! All city tours can be customized for your exact pick-up location, time, and special itinerary preferences."
+        "q": "Can this tour be customized?",
+        "a": "Yes! All tours can be customized for your exact pick-up location, time, and special itinerary preferences."
       },
       {
         "q": "How do I book or confirm my reservation?",
@@ -3854,24 +3825,23 @@ if (window.TOUR_DATA) {
       }
     ]
   },
-  "city-tour-32": {
-    "id": "city-tour-32",
+  "city-32": {
+    "id": "city-32",
     "title": "Pakistan Food Tour: A Journey of Flavors",
     "duration": "8 Days 7 Nights",
-    "location": "Islamabad & Northern Pakistan",
+    "location": "Pakistan",
     "maxGroup": "Private & Group Options",
-    "difficulty": "Easy / Cultural",
+    "difficulty": "Easy / Moderate",
     "image": "images/city-tours/tour_32.jpg",
     "price": "35,000",
     "originalPrice": "40,250",
-    "departureDay": "Daily Private Departures & Weekly Group Departures",
-    "about": "Experience the official Pakistan Food Tour: A Journey of Flavors with Safar Silsila. This curated excursion offers an unforgettable journey through ancient heritage, vibrant local culture, stunning landscapes, and legendary culinary delights. Guided by certified local historians and travel experts, with private air-conditioned vehicles, full ticket entry logistics, and official visa assistance.",
+    "departureDay": "Daily Private Departures & Fixed Group Departures",
+    "about": "Experience Pakistan Food Tour: A Journey of Flavors with Safar Silsila. This curated itinerary offers a complete journey through iconic landmarks, rich local culture, breathtaking scenery, and legendary regional cuisine. Includes professional guide, luxury AC transport, full ticket entry logistics, and official visa support.",
     "highlights": [
-      "Full guided excursion for Pakistan Food Tour: A Journey of Flavors",
-      "Private air-conditioned luxury transport with professional driver & fuel",
-      "Sightseeing at historical monuments, bazaars & scenic viewpoints",
-      "Authentic local food & tea tasting experiences",
-      "Full ticket entry passes & VIP protocol assistance",
+      "Complete guided excursion for Pakistan Food Tour: A Journey of Flavors",
+      "Private AC transport with driver, fuel, tolls & parking",
+      "Sightseeing at historical monuments, bazaars & viewpoints",
+      "Authentic regional food & tea tasting",
       "24/7 dedicated travel concierge & emergency support"
     ],
     "itinerary": [
@@ -3882,25 +3852,25 @@ if (window.TOUR_DATA) {
       },
       {
         "day": "Day 2",
-        "title": "Heritage Monuments & Cultural Sightseeing",
+        "title": "Monuments & Cultural Sightseeing",
         "desc": "Full day guided exploration of major historical monuments, ancient forts, and museum archives with expert local guide."
       },
       {
         "day": "Day 3",
         "title": "Scenic Valleys & Local Artisans",
-        "desc": "Visit artisan workshops, local handicrafts markets, and surrounding natural viewpoints. Dinner at famous local food street."
+        "desc": "Visit artisan workshops, local markets, and surrounding natural viewpoints. Evening food street dinner."
       },
       {
         "day": "Day 4",
         "title": "Final Excursions & Departure",
-        "desc": "Morning shopping and photography tour. Drop-off at airport or hotel with fond memories of Pakistan."
+        "desc": "Morning shopping and photography tour. Drop-off at airport or hotel with fond memories."
       }
     ],
     "inclusions": [
       "Private AC Transport (Car / Prado / Coaster) with driver & fuel",
       "Official Tour Guide & Historian Services",
       "All Toll Taxes, Parking & Highway Charges",
-      "Complimentary Mineral Water & Tea",
+      "Complimentary Mineral Water & Refreshments",
       "Hotel Pickup & Drop-off Services"
     ],
     "exclusions": [
@@ -3910,44 +3880,44 @@ if (window.TOUR_DATA) {
     ],
     "packages": [
       {
-        "name": "Sedan Car Option (Up to 3 Persons)",
+        "name": "Standard Package",
         "price": "35,000",
         "status": "available",
         "features": [
-          "Toyota Corolla / Honda City",
-          "Driver & Fuel Included",
-          "Hotel Pickup & Drop-off"
+          "AC Coaster / Sedan Transport",
+          "Standard Hotel / Day Trip",
+          "Driver & Fuel Included"
         ]
       },
       {
-        "name": "SUV / Prado Option (Up to 5 Persons)",
-        "price": "55,000",
+        "name": "Deluxe Package",
+        "price": "47,250",
         "status": "available",
         "features": [
-          "Toyota Prado / BRV SUV",
-          "Driver & Fuel Included",
-          "Luxury Reclining Seats"
+          "AC Grand Cabin / Prado",
+          "Deluxe Hotel / Private Guide",
+          "Full Inclusions"
         ]
       },
       {
-        "name": "Coaster / HiAce Option (Groups)",
-        "price": "85,000",
+        "name": "Executive Package",
+        "price": "61,250",
         "status": "available",
         "features": [
-          "22-Seater Coaster / Grand Cabin",
-          "Driver & Fuel Included",
-          "Ideal for Family & Corporate Groups"
+          "Luxury 4x4 Prado / SUV",
+          "Luxury 4-Star / 5-Star Hotel",
+          "VIP Concierge & Protocol"
         ]
       }
     ],
     "faqs": [
       {
-        "q": "What is included in the private tour pricing?",
+        "q": "What is included in the tour pricing?",
         "a": "Pricing includes private AC transport, professional driver, fuel, highway tolls, parking fees, and guide assistance."
       },
       {
-        "q": "Can this tour be customized for specific dates or pick-up locations?",
-        "a": "Yes! All city tours can be customized for your exact pick-up location, time, and special itinerary preferences."
+        "q": "Can this tour be customized?",
+        "a": "Yes! All tours can be customized for your exact pick-up location, time, and special itinerary preferences."
       },
       {
         "q": "How do I book or confirm my reservation?",
@@ -3955,24 +3925,23 @@ if (window.TOUR_DATA) {
       }
     ]
   },
-  "city-tour-33": {
-    "id": "city-tour-33",
+  "city-33": {
+    "id": "city-33",
     "title": "Peshawar Street Food Tour",
     "duration": "2 Days 1 Night",
     "location": "Peshawar, KP",
     "maxGroup": "Private & Group Options",
-    "difficulty": "Easy / Cultural",
+    "difficulty": "Easy / Moderate",
     "image": "images/city-tours/tour_33.jpg",
     "price": "35,000",
     "originalPrice": "40,250",
-    "departureDay": "Daily Private Departures & Weekly Group Departures",
-    "about": "Experience the official Peshawar Street Food Tour with Safar Silsila. This curated excursion offers an unforgettable journey through ancient heritage, vibrant local culture, stunning landscapes, and legendary culinary delights. Guided by certified local historians and travel experts, with private air-conditioned vehicles, full ticket entry logistics, and official visa assistance.",
+    "departureDay": "Daily Private Departures & Fixed Group Departures",
+    "about": "Experience Peshawar Street Food Tour with Safar Silsila. This curated itinerary offers a complete journey through iconic landmarks, rich local culture, breathtaking scenery, and legendary regional cuisine. Includes professional guide, luxury AC transport, full ticket entry logistics, and official visa support.",
     "highlights": [
-      "Full guided excursion for Peshawar Street Food Tour",
-      "Private air-conditioned luxury transport with professional driver & fuel",
-      "Sightseeing at historical monuments, bazaars & scenic viewpoints",
-      "Authentic local food & tea tasting experiences",
-      "Full ticket entry passes & VIP protocol assistance",
+      "Complete guided excursion for Peshawar Street Food Tour",
+      "Private AC transport with driver, fuel, tolls & parking",
+      "Sightseeing at historical monuments, bazaars & viewpoints",
+      "Authentic regional food & tea tasting",
       "24/7 dedicated travel concierge & emergency support"
     ],
     "itinerary": [
@@ -3983,25 +3952,25 @@ if (window.TOUR_DATA) {
       },
       {
         "day": "Day 2",
-        "title": "Heritage Monuments & Cultural Sightseeing",
+        "title": "Monuments & Cultural Sightseeing",
         "desc": "Full day guided exploration of major historical monuments, ancient forts, and museum archives with expert local guide."
       },
       {
         "day": "Day 3",
         "title": "Scenic Valleys & Local Artisans",
-        "desc": "Visit artisan workshops, local handicrafts markets, and surrounding natural viewpoints. Dinner at famous local food street."
+        "desc": "Visit artisan workshops, local markets, and surrounding natural viewpoints. Evening food street dinner."
       },
       {
         "day": "Day 4",
         "title": "Final Excursions & Departure",
-        "desc": "Morning shopping and photography tour. Drop-off at airport or hotel with fond memories of Pakistan."
+        "desc": "Morning shopping and photography tour. Drop-off at airport or hotel with fond memories."
       }
     ],
     "inclusions": [
       "Private AC Transport (Car / Prado / Coaster) with driver & fuel",
       "Official Tour Guide & Historian Services",
       "All Toll Taxes, Parking & Highway Charges",
-      "Complimentary Mineral Water & Tea",
+      "Complimentary Mineral Water & Refreshments",
       "Hotel Pickup & Drop-off Services"
     ],
     "exclusions": [
@@ -4011,44 +3980,44 @@ if (window.TOUR_DATA) {
     ],
     "packages": [
       {
-        "name": "Sedan Car Option (Up to 3 Persons)",
+        "name": "Standard Package",
         "price": "35,000",
         "status": "available",
         "features": [
-          "Toyota Corolla / Honda City",
-          "Driver & Fuel Included",
-          "Hotel Pickup & Drop-off"
+          "AC Coaster / Sedan Transport",
+          "Standard Hotel / Day Trip",
+          "Driver & Fuel Included"
         ]
       },
       {
-        "name": "SUV / Prado Option (Up to 5 Persons)",
-        "price": "55,000",
+        "name": "Deluxe Package",
+        "price": "47,250",
         "status": "available",
         "features": [
-          "Toyota Prado / BRV SUV",
-          "Driver & Fuel Included",
-          "Luxury Reclining Seats"
+          "AC Grand Cabin / Prado",
+          "Deluxe Hotel / Private Guide",
+          "Full Inclusions"
         ]
       },
       {
-        "name": "Coaster / HiAce Option (Groups)",
-        "price": "85,000",
+        "name": "Executive Package",
+        "price": "61,250",
         "status": "available",
         "features": [
-          "22-Seater Coaster / Grand Cabin",
-          "Driver & Fuel Included",
-          "Ideal for Family & Corporate Groups"
+          "Luxury 4x4 Prado / SUV",
+          "Luxury 4-Star / 5-Star Hotel",
+          "VIP Concierge & Protocol"
         ]
       }
     ],
     "faqs": [
       {
-        "q": "What is included in the private tour pricing?",
+        "q": "What is included in the tour pricing?",
         "a": "Pricing includes private AC transport, professional driver, fuel, highway tolls, parking fees, and guide assistance."
       },
       {
-        "q": "Can this tour be customized for specific dates or pick-up locations?",
-        "a": "Yes! All city tours can be customized for your exact pick-up location, time, and special itinerary preferences."
+        "q": "Can this tour be customized?",
+        "a": "Yes! All tours can be customized for your exact pick-up location, time, and special itinerary preferences."
       },
       {
         "q": "How do I book or confirm my reservation?",
@@ -4056,24 +4025,23 @@ if (window.TOUR_DATA) {
       }
     ]
   },
-  "city-tour-34": {
-    "id": "city-tour-34",
+  "city-34": {
+    "id": "city-34",
     "title": "Balochistan Street Food Tour",
     "duration": "3 Days 2 Nights",
-    "location": "Islamabad & Northern Pakistan",
+    "location": "Pakistan",
     "maxGroup": "Private & Group Options",
-    "difficulty": "Easy / Cultural",
+    "difficulty": "Easy / Moderate",
     "image": "images/city-tours/tour_34.jpg",
     "price": "35,000",
     "originalPrice": "40,250",
-    "departureDay": "Daily Private Departures & Weekly Group Departures",
-    "about": "Experience the official Balochistan Street Food Tour with Safar Silsila. This curated excursion offers an unforgettable journey through ancient heritage, vibrant local culture, stunning landscapes, and legendary culinary delights. Guided by certified local historians and travel experts, with private air-conditioned vehicles, full ticket entry logistics, and official visa assistance.",
+    "departureDay": "Daily Private Departures & Fixed Group Departures",
+    "about": "Experience Balochistan Street Food Tour with Safar Silsila. This curated itinerary offers a complete journey through iconic landmarks, rich local culture, breathtaking scenery, and legendary regional cuisine. Includes professional guide, luxury AC transport, full ticket entry logistics, and official visa support.",
     "highlights": [
-      "Full guided excursion for Balochistan Street Food Tour",
-      "Private air-conditioned luxury transport with professional driver & fuel",
-      "Sightseeing at historical monuments, bazaars & scenic viewpoints",
-      "Authentic local food & tea tasting experiences",
-      "Full ticket entry passes & VIP protocol assistance",
+      "Complete guided excursion for Balochistan Street Food Tour",
+      "Private AC transport with driver, fuel, tolls & parking",
+      "Sightseeing at historical monuments, bazaars & viewpoints",
+      "Authentic regional food & tea tasting",
       "24/7 dedicated travel concierge & emergency support"
     ],
     "itinerary": [
@@ -4084,25 +4052,25 @@ if (window.TOUR_DATA) {
       },
       {
         "day": "Day 2",
-        "title": "Heritage Monuments & Cultural Sightseeing",
+        "title": "Monuments & Cultural Sightseeing",
         "desc": "Full day guided exploration of major historical monuments, ancient forts, and museum archives with expert local guide."
       },
       {
         "day": "Day 3",
         "title": "Scenic Valleys & Local Artisans",
-        "desc": "Visit artisan workshops, local handicrafts markets, and surrounding natural viewpoints. Dinner at famous local food street."
+        "desc": "Visit artisan workshops, local markets, and surrounding natural viewpoints. Evening food street dinner."
       },
       {
         "day": "Day 4",
         "title": "Final Excursions & Departure",
-        "desc": "Morning shopping and photography tour. Drop-off at airport or hotel with fond memories of Pakistan."
+        "desc": "Morning shopping and photography tour. Drop-off at airport or hotel with fond memories."
       }
     ],
     "inclusions": [
       "Private AC Transport (Car / Prado / Coaster) with driver & fuel",
       "Official Tour Guide & Historian Services",
       "All Toll Taxes, Parking & Highway Charges",
-      "Complimentary Mineral Water & Tea",
+      "Complimentary Mineral Water & Refreshments",
       "Hotel Pickup & Drop-off Services"
     ],
     "exclusions": [
@@ -4112,44 +4080,44 @@ if (window.TOUR_DATA) {
     ],
     "packages": [
       {
-        "name": "Sedan Car Option (Up to 3 Persons)",
+        "name": "Standard Package",
         "price": "35,000",
         "status": "available",
         "features": [
-          "Toyota Corolla / Honda City",
-          "Driver & Fuel Included",
-          "Hotel Pickup & Drop-off"
+          "AC Coaster / Sedan Transport",
+          "Standard Hotel / Day Trip",
+          "Driver & Fuel Included"
         ]
       },
       {
-        "name": "SUV / Prado Option (Up to 5 Persons)",
-        "price": "55,000",
+        "name": "Deluxe Package",
+        "price": "47,250",
         "status": "available",
         "features": [
-          "Toyota Prado / BRV SUV",
-          "Driver & Fuel Included",
-          "Luxury Reclining Seats"
+          "AC Grand Cabin / Prado",
+          "Deluxe Hotel / Private Guide",
+          "Full Inclusions"
         ]
       },
       {
-        "name": "Coaster / HiAce Option (Groups)",
-        "price": "85,000",
+        "name": "Executive Package",
+        "price": "61,250",
         "status": "available",
         "features": [
-          "22-Seater Coaster / Grand Cabin",
-          "Driver & Fuel Included",
-          "Ideal for Family & Corporate Groups"
+          "Luxury 4x4 Prado / SUV",
+          "Luxury 4-Star / 5-Star Hotel",
+          "VIP Concierge & Protocol"
         ]
       }
     ],
     "faqs": [
       {
-        "q": "What is included in the private tour pricing?",
+        "q": "What is included in the tour pricing?",
         "a": "Pricing includes private AC transport, professional driver, fuel, highway tolls, parking fees, and guide assistance."
       },
       {
-        "q": "Can this tour be customized for specific dates or pick-up locations?",
-        "a": "Yes! All city tours can be customized for your exact pick-up location, time, and special itinerary preferences."
+        "q": "Can this tour be customized?",
+        "a": "Yes! All tours can be customized for your exact pick-up location, time, and special itinerary preferences."
       },
       {
         "q": "How do I book or confirm my reservation?",
@@ -4157,24 +4125,23 @@ if (window.TOUR_DATA) {
       }
     ]
   },
-  "city-tour-35": {
-    "id": "city-tour-35",
+  "city-35": {
+    "id": "city-35",
     "title": "Quetta Street Food Tour",
     "duration": "2 Days 1 Night",
-    "location": "Islamabad & Northern Pakistan",
+    "location": "Pakistan",
     "maxGroup": "Private & Group Options",
-    "difficulty": "Easy / Cultural",
+    "difficulty": "Easy / Moderate",
     "image": "images/city-tours/tour_35.jpg",
     "price": "35,000",
     "originalPrice": "40,250",
-    "departureDay": "Daily Private Departures & Weekly Group Departures",
-    "about": "Experience the official Quetta Street Food Tour with Safar Silsila. This curated excursion offers an unforgettable journey through ancient heritage, vibrant local culture, stunning landscapes, and legendary culinary delights. Guided by certified local historians and travel experts, with private air-conditioned vehicles, full ticket entry logistics, and official visa assistance.",
+    "departureDay": "Daily Private Departures & Fixed Group Departures",
+    "about": "Experience Quetta Street Food Tour with Safar Silsila. This curated itinerary offers a complete journey through iconic landmarks, rich local culture, breathtaking scenery, and legendary regional cuisine. Includes professional guide, luxury AC transport, full ticket entry logistics, and official visa support.",
     "highlights": [
-      "Full guided excursion for Quetta Street Food Tour",
-      "Private air-conditioned luxury transport with professional driver & fuel",
-      "Sightseeing at historical monuments, bazaars & scenic viewpoints",
-      "Authentic local food & tea tasting experiences",
-      "Full ticket entry passes & VIP protocol assistance",
+      "Complete guided excursion for Quetta Street Food Tour",
+      "Private AC transport with driver, fuel, tolls & parking",
+      "Sightseeing at historical monuments, bazaars & viewpoints",
+      "Authentic regional food & tea tasting",
       "24/7 dedicated travel concierge & emergency support"
     ],
     "itinerary": [
@@ -4185,25 +4152,25 @@ if (window.TOUR_DATA) {
       },
       {
         "day": "Day 2",
-        "title": "Heritage Monuments & Cultural Sightseeing",
+        "title": "Monuments & Cultural Sightseeing",
         "desc": "Full day guided exploration of major historical monuments, ancient forts, and museum archives with expert local guide."
       },
       {
         "day": "Day 3",
         "title": "Scenic Valleys & Local Artisans",
-        "desc": "Visit artisan workshops, local handicrafts markets, and surrounding natural viewpoints. Dinner at famous local food street."
+        "desc": "Visit artisan workshops, local markets, and surrounding natural viewpoints. Evening food street dinner."
       },
       {
         "day": "Day 4",
         "title": "Final Excursions & Departure",
-        "desc": "Morning shopping and photography tour. Drop-off at airport or hotel with fond memories of Pakistan."
+        "desc": "Morning shopping and photography tour. Drop-off at airport or hotel with fond memories."
       }
     ],
     "inclusions": [
       "Private AC Transport (Car / Prado / Coaster) with driver & fuel",
       "Official Tour Guide & Historian Services",
       "All Toll Taxes, Parking & Highway Charges",
-      "Complimentary Mineral Water & Tea",
+      "Complimentary Mineral Water & Refreshments",
       "Hotel Pickup & Drop-off Services"
     ],
     "exclusions": [
@@ -4213,44 +4180,44 @@ if (window.TOUR_DATA) {
     ],
     "packages": [
       {
-        "name": "Sedan Car Option (Up to 3 Persons)",
+        "name": "Standard Package",
         "price": "35,000",
         "status": "available",
         "features": [
-          "Toyota Corolla / Honda City",
-          "Driver & Fuel Included",
-          "Hotel Pickup & Drop-off"
+          "AC Coaster / Sedan Transport",
+          "Standard Hotel / Day Trip",
+          "Driver & Fuel Included"
         ]
       },
       {
-        "name": "SUV / Prado Option (Up to 5 Persons)",
-        "price": "55,000",
+        "name": "Deluxe Package",
+        "price": "47,250",
         "status": "available",
         "features": [
-          "Toyota Prado / BRV SUV",
-          "Driver & Fuel Included",
-          "Luxury Reclining Seats"
+          "AC Grand Cabin / Prado",
+          "Deluxe Hotel / Private Guide",
+          "Full Inclusions"
         ]
       },
       {
-        "name": "Coaster / HiAce Option (Groups)",
-        "price": "85,000",
+        "name": "Executive Package",
+        "price": "61,250",
         "status": "available",
         "features": [
-          "22-Seater Coaster / Grand Cabin",
-          "Driver & Fuel Included",
-          "Ideal for Family & Corporate Groups"
+          "Luxury 4x4 Prado / SUV",
+          "Luxury 4-Star / 5-Star Hotel",
+          "VIP Concierge & Protocol"
         ]
       }
     ],
     "faqs": [
       {
-        "q": "What is included in the private tour pricing?",
+        "q": "What is included in the tour pricing?",
         "a": "Pricing includes private AC transport, professional driver, fuel, highway tolls, parking fees, and guide assistance."
       },
       {
-        "q": "Can this tour be customized for specific dates or pick-up locations?",
-        "a": "Yes! All city tours can be customized for your exact pick-up location, time, and special itinerary preferences."
+        "q": "Can this tour be customized?",
+        "a": "Yes! All tours can be customized for your exact pick-up location, time, and special itinerary preferences."
       },
       {
         "q": "How do I book or confirm my reservation?",
@@ -4258,24 +4225,23 @@ if (window.TOUR_DATA) {
       }
     ]
   },
-  "city-tour-36": {
-    "id": "city-tour-36",
+  "city-36": {
+    "id": "city-36",
     "title": "Quetta Tour",
     "duration": "4 Days 3 Nights",
-    "location": "Islamabad & Northern Pakistan",
+    "location": "Pakistan",
     "maxGroup": "Private & Group Options",
-    "difficulty": "Easy / Cultural",
+    "difficulty": "Easy / Moderate",
     "image": "images/city-tours/tour_36.jpg",
     "price": "35,000",
     "originalPrice": "40,250",
-    "departureDay": "Daily Private Departures & Weekly Group Departures",
-    "about": "Experience the official Quetta Tour with Safar Silsila. This curated excursion offers an unforgettable journey through ancient heritage, vibrant local culture, stunning landscapes, and legendary culinary delights. Guided by certified local historians and travel experts, with private air-conditioned vehicles, full ticket entry logistics, and official visa assistance.",
+    "departureDay": "Daily Private Departures & Fixed Group Departures",
+    "about": "Experience Quetta Tour with Safar Silsila. This curated itinerary offers a complete journey through iconic landmarks, rich local culture, breathtaking scenery, and legendary regional cuisine. Includes professional guide, luxury AC transport, full ticket entry logistics, and official visa support.",
     "highlights": [
-      "Full guided excursion for Quetta Tour",
-      "Private air-conditioned luxury transport with professional driver & fuel",
-      "Sightseeing at historical monuments, bazaars & scenic viewpoints",
-      "Authentic local food & tea tasting experiences",
-      "Full ticket entry passes & VIP protocol assistance",
+      "Complete guided excursion for Quetta Tour",
+      "Private AC transport with driver, fuel, tolls & parking",
+      "Sightseeing at historical monuments, bazaars & viewpoints",
+      "Authentic regional food & tea tasting",
       "24/7 dedicated travel concierge & emergency support"
     ],
     "itinerary": [
@@ -4286,25 +4252,25 @@ if (window.TOUR_DATA) {
       },
       {
         "day": "Day 2",
-        "title": "Heritage Monuments & Cultural Sightseeing",
+        "title": "Monuments & Cultural Sightseeing",
         "desc": "Full day guided exploration of major historical monuments, ancient forts, and museum archives with expert local guide."
       },
       {
         "day": "Day 3",
         "title": "Scenic Valleys & Local Artisans",
-        "desc": "Visit artisan workshops, local handicrafts markets, and surrounding natural viewpoints. Dinner at famous local food street."
+        "desc": "Visit artisan workshops, local markets, and surrounding natural viewpoints. Evening food street dinner."
       },
       {
         "day": "Day 4",
         "title": "Final Excursions & Departure",
-        "desc": "Morning shopping and photography tour. Drop-off at airport or hotel with fond memories of Pakistan."
+        "desc": "Morning shopping and photography tour. Drop-off at airport or hotel with fond memories."
       }
     ],
     "inclusions": [
       "Private AC Transport (Car / Prado / Coaster) with driver & fuel",
       "Official Tour Guide & Historian Services",
       "All Toll Taxes, Parking & Highway Charges",
-      "Complimentary Mineral Water & Tea",
+      "Complimentary Mineral Water & Refreshments",
       "Hotel Pickup & Drop-off Services"
     ],
     "exclusions": [
@@ -4314,44 +4280,44 @@ if (window.TOUR_DATA) {
     ],
     "packages": [
       {
-        "name": "Sedan Car Option (Up to 3 Persons)",
+        "name": "Standard Package",
         "price": "35,000",
         "status": "available",
         "features": [
-          "Toyota Corolla / Honda City",
-          "Driver & Fuel Included",
-          "Hotel Pickup & Drop-off"
+          "AC Coaster / Sedan Transport",
+          "Standard Hotel / Day Trip",
+          "Driver & Fuel Included"
         ]
       },
       {
-        "name": "SUV / Prado Option (Up to 5 Persons)",
-        "price": "55,000",
+        "name": "Deluxe Package",
+        "price": "47,250",
         "status": "available",
         "features": [
-          "Toyota Prado / BRV SUV",
-          "Driver & Fuel Included",
-          "Luxury Reclining Seats"
+          "AC Grand Cabin / Prado",
+          "Deluxe Hotel / Private Guide",
+          "Full Inclusions"
         ]
       },
       {
-        "name": "Coaster / HiAce Option (Groups)",
-        "price": "85,000",
+        "name": "Executive Package",
+        "price": "61,250",
         "status": "available",
         "features": [
-          "22-Seater Coaster / Grand Cabin",
-          "Driver & Fuel Included",
-          "Ideal for Family & Corporate Groups"
+          "Luxury 4x4 Prado / SUV",
+          "Luxury 4-Star / 5-Star Hotel",
+          "VIP Concierge & Protocol"
         ]
       }
     ],
     "faqs": [
       {
-        "q": "What is included in the private tour pricing?",
+        "q": "What is included in the tour pricing?",
         "a": "Pricing includes private AC transport, professional driver, fuel, highway tolls, parking fees, and guide assistance."
       },
       {
-        "q": "Can this tour be customized for specific dates or pick-up locations?",
-        "a": "Yes! All city tours can be customized for your exact pick-up location, time, and special itinerary preferences."
+        "q": "Can this tour be customized?",
+        "a": "Yes! All tours can be customized for your exact pick-up location, time, and special itinerary preferences."
       },
       {
         "q": "How do I book or confirm my reservation?",
@@ -4359,24 +4325,23 @@ if (window.TOUR_DATA) {
       }
     ]
   },
-  "city-tour-37": {
-    "id": "city-tour-37",
+  "city-37": {
+    "id": "city-37",
     "title": "Taxila Tour",
     "duration": "1 Day",
-    "location": "Taxila, Punjab",
+    "location": "Pakistan",
     "maxGroup": "Private & Group Options",
-    "difficulty": "Easy / Cultural",
+    "difficulty": "Easy / Moderate",
     "image": "images/city-tours/tour_37.jpg",
     "price": "14,000",
     "originalPrice": "16,100",
-    "departureDay": "Daily Private Departures & Weekly Group Departures",
-    "about": "Experience the official Taxila Tour with Safar Silsila. This curated excursion offers an unforgettable journey through ancient heritage, vibrant local culture, stunning landscapes, and legendary culinary delights. Guided by certified local historians and travel experts, with private air-conditioned vehicles, full ticket entry logistics, and official visa assistance.",
+    "departureDay": "Daily Private Departures & Fixed Group Departures",
+    "about": "Experience Taxila Tour with Safar Silsila. This curated itinerary offers a complete journey through iconic landmarks, rich local culture, breathtaking scenery, and legendary regional cuisine. Includes professional guide, luxury AC transport, full ticket entry logistics, and official visa support.",
     "highlights": [
-      "Full guided excursion for Taxila Tour",
-      "Private air-conditioned luxury transport with professional driver & fuel",
-      "Sightseeing at historical monuments, bazaars & scenic viewpoints",
-      "Authentic local food & tea tasting experiences",
-      "Full ticket entry passes & VIP protocol assistance",
+      "Complete guided excursion for Taxila Tour",
+      "Private AC transport with driver, fuel, tolls & parking",
+      "Sightseeing at historical monuments, bazaars & viewpoints",
+      "Authentic regional food & tea tasting",
       "24/7 dedicated travel concierge & emergency support"
     ],
     "itinerary": [
@@ -4388,7 +4353,7 @@ if (window.TOUR_DATA) {
       {
         "day": "Afternoon",
         "title": "Guided Monument & Activity Exploration",
-        "desc": "Arrive at destination. Guided tour of key monuments, scenic viewpoints, water sports activities, and photography stops."
+        "desc": "Arrive at destination. Guided tour of key monuments, scenic viewpoints, water activities, and photography stops."
       },
       {
         "day": "Evening",
@@ -4400,7 +4365,7 @@ if (window.TOUR_DATA) {
       "Private AC Transport (Car / Prado / Coaster) with driver & fuel",
       "Official Tour Guide & Historian Services",
       "All Toll Taxes, Parking & Highway Charges",
-      "Complimentary Mineral Water & Tea",
+      "Complimentary Mineral Water & Refreshments",
       "Hotel Pickup & Drop-off Services"
     ],
     "exclusions": [
@@ -4410,44 +4375,44 @@ if (window.TOUR_DATA) {
     ],
     "packages": [
       {
-        "name": "Sedan Car Option (Up to 3 Persons)",
+        "name": "Standard Package",
         "price": "14,000",
         "status": "available",
         "features": [
-          "Toyota Corolla / Honda City",
-          "Driver & Fuel Included",
-          "Hotel Pickup & Drop-off"
+          "AC Coaster / Sedan Transport",
+          "Standard Hotel / Day Trip",
+          "Driver & Fuel Included"
         ]
       },
       {
-        "name": "SUV / Prado Option (Up to 5 Persons)",
-        "price": "18,000",
+        "name": "Deluxe Package",
+        "price": "18,900",
         "status": "available",
         "features": [
-          "Toyota Prado / BRV SUV",
-          "Driver & Fuel Included",
-          "Luxury Reclining Seats"
+          "AC Grand Cabin / Prado",
+          "Deluxe Hotel / Private Guide",
+          "Full Inclusions"
         ]
       },
       {
-        "name": "Coaster / HiAce Option (Groups)",
-        "price": "24,000",
+        "name": "Executive Package",
+        "price": "24,500",
         "status": "available",
         "features": [
-          "22-Seater Coaster / Grand Cabin",
-          "Driver & Fuel Included",
-          "Ideal for Family & Corporate Groups"
+          "Luxury 4x4 Prado / SUV",
+          "Luxury 4-Star / 5-Star Hotel",
+          "VIP Concierge & Protocol"
         ]
       }
     ],
     "faqs": [
       {
-        "q": "What is included in the private tour pricing?",
+        "q": "What is included in the tour pricing?",
         "a": "Pricing includes private AC transport, professional driver, fuel, highway tolls, parking fees, and guide assistance."
       },
       {
-        "q": "Can this tour be customized for specific dates or pick-up locations?",
-        "a": "Yes! All city tours can be customized for your exact pick-up location, time, and special itinerary preferences."
+        "q": "Can this tour be customized?",
+        "a": "Yes! All tours can be customized for your exact pick-up location, time, and special itinerary preferences."
       },
       {
         "q": "How do I book or confirm my reservation?",
@@ -4455,24 +4420,23 @@ if (window.TOUR_DATA) {
       }
     ]
   },
-  "city-tour-38": {
-    "id": "city-tour-38",
+  "city-38": {
+    "id": "city-38",
     "title": "Bolan Pass Train Tour",
     "duration": "4 Days 3 Nights",
-    "location": "Islamabad & Northern Pakistan",
+    "location": "Pakistan",
     "maxGroup": "Private & Group Options",
-    "difficulty": "Easy / Cultural",
+    "difficulty": "Easy / Moderate",
     "image": "images/city-tours/tour_38.jpg",
     "price": "35,000",
     "originalPrice": "40,250",
-    "departureDay": "Daily Private Departures & Weekly Group Departures",
-    "about": "Experience the official Bolan Pass Train Tour with Safar Silsila. This curated excursion offers an unforgettable journey through ancient heritage, vibrant local culture, stunning landscapes, and legendary culinary delights. Guided by certified local historians and travel experts, with private air-conditioned vehicles, full ticket entry logistics, and official visa assistance.",
+    "departureDay": "Daily Private Departures & Fixed Group Departures",
+    "about": "Experience Bolan Pass Train Tour with Safar Silsila. This curated itinerary offers a complete journey through iconic landmarks, rich local culture, breathtaking scenery, and legendary regional cuisine. Includes professional guide, luxury AC transport, full ticket entry logistics, and official visa support.",
     "highlights": [
-      "Full guided excursion for Bolan Pass Train Tour",
-      "Private air-conditioned luxury transport with professional driver & fuel",
-      "Sightseeing at historical monuments, bazaars & scenic viewpoints",
-      "Authentic local food & tea tasting experiences",
-      "Full ticket entry passes & VIP protocol assistance",
+      "Complete guided excursion for Bolan Pass Train Tour",
+      "Private AC transport with driver, fuel, tolls & parking",
+      "Sightseeing at historical monuments, bazaars & viewpoints",
+      "Authentic regional food & tea tasting",
       "24/7 dedicated travel concierge & emergency support"
     ],
     "itinerary": [
@@ -4483,25 +4447,25 @@ if (window.TOUR_DATA) {
       },
       {
         "day": "Day 2",
-        "title": "Heritage Monuments & Cultural Sightseeing",
+        "title": "Monuments & Cultural Sightseeing",
         "desc": "Full day guided exploration of major historical monuments, ancient forts, and museum archives with expert local guide."
       },
       {
         "day": "Day 3",
         "title": "Scenic Valleys & Local Artisans",
-        "desc": "Visit artisan workshops, local handicrafts markets, and surrounding natural viewpoints. Dinner at famous local food street."
+        "desc": "Visit artisan workshops, local markets, and surrounding natural viewpoints. Evening food street dinner."
       },
       {
         "day": "Day 4",
         "title": "Final Excursions & Departure",
-        "desc": "Morning shopping and photography tour. Drop-off at airport or hotel with fond memories of Pakistan."
+        "desc": "Morning shopping and photography tour. Drop-off at airport or hotel with fond memories."
       }
     ],
     "inclusions": [
       "Private AC Transport (Car / Prado / Coaster) with driver & fuel",
       "Official Tour Guide & Historian Services",
       "All Toll Taxes, Parking & Highway Charges",
-      "Complimentary Mineral Water & Tea",
+      "Complimentary Mineral Water & Refreshments",
       "Hotel Pickup & Drop-off Services"
     ],
     "exclusions": [
@@ -4511,44 +4475,44 @@ if (window.TOUR_DATA) {
     ],
     "packages": [
       {
-        "name": "Sedan Car Option (Up to 3 Persons)",
+        "name": "Standard Package",
         "price": "35,000",
         "status": "available",
         "features": [
-          "Toyota Corolla / Honda City",
-          "Driver & Fuel Included",
-          "Hotel Pickup & Drop-off"
+          "AC Coaster / Sedan Transport",
+          "Standard Hotel / Day Trip",
+          "Driver & Fuel Included"
         ]
       },
       {
-        "name": "SUV / Prado Option (Up to 5 Persons)",
-        "price": "55,000",
+        "name": "Deluxe Package",
+        "price": "47,250",
         "status": "available",
         "features": [
-          "Toyota Prado / BRV SUV",
-          "Driver & Fuel Included",
-          "Luxury Reclining Seats"
+          "AC Grand Cabin / Prado",
+          "Deluxe Hotel / Private Guide",
+          "Full Inclusions"
         ]
       },
       {
-        "name": "Coaster / HiAce Option (Groups)",
-        "price": "85,000",
+        "name": "Executive Package",
+        "price": "61,250",
         "status": "available",
         "features": [
-          "22-Seater Coaster / Grand Cabin",
-          "Driver & Fuel Included",
-          "Ideal for Family & Corporate Groups"
+          "Luxury 4x4 Prado / SUV",
+          "Luxury 4-Star / 5-Star Hotel",
+          "VIP Concierge & Protocol"
         ]
       }
     ],
     "faqs": [
       {
-        "q": "What is included in the private tour pricing?",
+        "q": "What is included in the tour pricing?",
         "a": "Pricing includes private AC transport, professional driver, fuel, highway tolls, parking fees, and guide assistance."
       },
       {
-        "q": "Can this tour be customized for specific dates or pick-up locations?",
-        "a": "Yes! All city tours can be customized for your exact pick-up location, time, and special itinerary preferences."
+        "q": "Can this tour be customized?",
+        "a": "Yes! All tours can be customized for your exact pick-up location, time, and special itinerary preferences."
       },
       {
         "q": "How do I book or confirm my reservation?",
@@ -4556,24 +4520,23 @@ if (window.TOUR_DATA) {
       }
     ]
   },
-  "city-tour-39": {
-    "id": "city-tour-39",
+  "city-39": {
+    "id": "city-39",
     "title": "Vesaki Day Festival Taxila Tour",
     "duration": "1 Day",
-    "location": "Taxila, Punjab",
+    "location": "Pakistan",
     "maxGroup": "Private & Group Options",
-    "difficulty": "Easy / Cultural",
+    "difficulty": "Easy / Moderate",
     "image": "images/city-tours/tour_39.jpg",
     "price": "14,000",
     "originalPrice": "16,100",
-    "departureDay": "Daily Private Departures & Weekly Group Departures",
-    "about": "Experience the official Vesaki Day Festival Taxila Tour with Safar Silsila. This curated excursion offers an unforgettable journey through ancient heritage, vibrant local culture, stunning landscapes, and legendary culinary delights. Guided by certified local historians and travel experts, with private air-conditioned vehicles, full ticket entry logistics, and official visa assistance.",
+    "departureDay": "Daily Private Departures & Fixed Group Departures",
+    "about": "Experience Vesaki Day Festival Taxila Tour with Safar Silsila. This curated itinerary offers a complete journey through iconic landmarks, rich local culture, breathtaking scenery, and legendary regional cuisine. Includes professional guide, luxury AC transport, full ticket entry logistics, and official visa support.",
     "highlights": [
-      "Full guided excursion for Vesaki Day Festival Taxila Tour",
-      "Private air-conditioned luxury transport with professional driver & fuel",
-      "Sightseeing at historical monuments, bazaars & scenic viewpoints",
-      "Authentic local food & tea tasting experiences",
-      "Full ticket entry passes & VIP protocol assistance",
+      "Complete guided excursion for Vesaki Day Festival Taxila Tour",
+      "Private AC transport with driver, fuel, tolls & parking",
+      "Sightseeing at historical monuments, bazaars & viewpoints",
+      "Authentic regional food & tea tasting",
       "24/7 dedicated travel concierge & emergency support"
     ],
     "itinerary": [
@@ -4585,7 +4548,7 @@ if (window.TOUR_DATA) {
       {
         "day": "Afternoon",
         "title": "Guided Monument & Activity Exploration",
-        "desc": "Arrive at destination. Guided tour of key monuments, scenic viewpoints, water sports activities, and photography stops."
+        "desc": "Arrive at destination. Guided tour of key monuments, scenic viewpoints, water activities, and photography stops."
       },
       {
         "day": "Evening",
@@ -4597,7 +4560,7 @@ if (window.TOUR_DATA) {
       "Private AC Transport (Car / Prado / Coaster) with driver & fuel",
       "Official Tour Guide & Historian Services",
       "All Toll Taxes, Parking & Highway Charges",
-      "Complimentary Mineral Water & Tea",
+      "Complimentary Mineral Water & Refreshments",
       "Hotel Pickup & Drop-off Services"
     ],
     "exclusions": [
@@ -4607,44 +4570,44 @@ if (window.TOUR_DATA) {
     ],
     "packages": [
       {
-        "name": "Sedan Car Option (Up to 3 Persons)",
+        "name": "Standard Package",
         "price": "14,000",
         "status": "available",
         "features": [
-          "Toyota Corolla / Honda City",
-          "Driver & Fuel Included",
-          "Hotel Pickup & Drop-off"
+          "AC Coaster / Sedan Transport",
+          "Standard Hotel / Day Trip",
+          "Driver & Fuel Included"
         ]
       },
       {
-        "name": "SUV / Prado Option (Up to 5 Persons)",
-        "price": "18,000",
+        "name": "Deluxe Package",
+        "price": "18,900",
         "status": "available",
         "features": [
-          "Toyota Prado / BRV SUV",
-          "Driver & Fuel Included",
-          "Luxury Reclining Seats"
+          "AC Grand Cabin / Prado",
+          "Deluxe Hotel / Private Guide",
+          "Full Inclusions"
         ]
       },
       {
-        "name": "Coaster / HiAce Option (Groups)",
-        "price": "24,000",
+        "name": "Executive Package",
+        "price": "24,500",
         "status": "available",
         "features": [
-          "22-Seater Coaster / Grand Cabin",
-          "Driver & Fuel Included",
-          "Ideal for Family & Corporate Groups"
+          "Luxury 4x4 Prado / SUV",
+          "Luxury 4-Star / 5-Star Hotel",
+          "VIP Concierge & Protocol"
         ]
       }
     ],
     "faqs": [
       {
-        "q": "What is included in the private tour pricing?",
+        "q": "What is included in the tour pricing?",
         "a": "Pricing includes private AC transport, professional driver, fuel, highway tolls, parking fees, and guide assistance."
       },
       {
-        "q": "Can this tour be customized for specific dates or pick-up locations?",
-        "a": "Yes! All city tours can be customized for your exact pick-up location, time, and special itinerary preferences."
+        "q": "Can this tour be customized?",
+        "a": "Yes! All tours can be customized for your exact pick-up location, time, and special itinerary preferences."
       },
       {
         "q": "How do I book or confirm my reservation?",
@@ -4652,24 +4615,23 @@ if (window.TOUR_DATA) {
       }
     ]
   },
-  "city-tour-40": {
-    "id": "city-tour-40",
+  "city-40": {
+    "id": "city-40",
     "title": "Tirah Valley Tour",
     "duration": "4 Days 3 Nights",
-    "location": "Islamabad & Northern Pakistan",
+    "location": "Pakistan",
     "maxGroup": "Private & Group Options",
-    "difficulty": "Easy / Cultural",
+    "difficulty": "Easy / Moderate",
     "image": "images/city-tours/tour_40.jpg",
     "price": "35,000",
     "originalPrice": "40,250",
-    "departureDay": "Daily Private Departures & Weekly Group Departures",
-    "about": "Experience the official Tirah Valley Tour with Safar Silsila. This curated excursion offers an unforgettable journey through ancient heritage, vibrant local culture, stunning landscapes, and legendary culinary delights. Guided by certified local historians and travel experts, with private air-conditioned vehicles, full ticket entry logistics, and official visa assistance.",
+    "departureDay": "Daily Private Departures & Fixed Group Departures",
+    "about": "Experience Tirah Valley Tour with Safar Silsila. This curated itinerary offers a complete journey through iconic landmarks, rich local culture, breathtaking scenery, and legendary regional cuisine. Includes professional guide, luxury AC transport, full ticket entry logistics, and official visa support.",
     "highlights": [
-      "Full guided excursion for Tirah Valley Tour",
-      "Private air-conditioned luxury transport with professional driver & fuel",
-      "Sightseeing at historical monuments, bazaars & scenic viewpoints",
-      "Authentic local food & tea tasting experiences",
-      "Full ticket entry passes & VIP protocol assistance",
+      "Complete guided excursion for Tirah Valley Tour",
+      "Private AC transport with driver, fuel, tolls & parking",
+      "Sightseeing at historical monuments, bazaars & viewpoints",
+      "Authentic regional food & tea tasting",
       "24/7 dedicated travel concierge & emergency support"
     ],
     "itinerary": [
@@ -4680,25 +4642,25 @@ if (window.TOUR_DATA) {
       },
       {
         "day": "Day 2",
-        "title": "Heritage Monuments & Cultural Sightseeing",
+        "title": "Monuments & Cultural Sightseeing",
         "desc": "Full day guided exploration of major historical monuments, ancient forts, and museum archives with expert local guide."
       },
       {
         "day": "Day 3",
         "title": "Scenic Valleys & Local Artisans",
-        "desc": "Visit artisan workshops, local handicrafts markets, and surrounding natural viewpoints. Dinner at famous local food street."
+        "desc": "Visit artisan workshops, local markets, and surrounding natural viewpoints. Evening food street dinner."
       },
       {
         "day": "Day 4",
         "title": "Final Excursions & Departure",
-        "desc": "Morning shopping and photography tour. Drop-off at airport or hotel with fond memories of Pakistan."
+        "desc": "Morning shopping and photography tour. Drop-off at airport or hotel with fond memories."
       }
     ],
     "inclusions": [
       "Private AC Transport (Car / Prado / Coaster) with driver & fuel",
       "Official Tour Guide & Historian Services",
       "All Toll Taxes, Parking & Highway Charges",
-      "Complimentary Mineral Water & Tea",
+      "Complimentary Mineral Water & Refreshments",
       "Hotel Pickup & Drop-off Services"
     ],
     "exclusions": [
@@ -4708,44 +4670,44 @@ if (window.TOUR_DATA) {
     ],
     "packages": [
       {
-        "name": "Sedan Car Option (Up to 3 Persons)",
+        "name": "Standard Package",
         "price": "35,000",
         "status": "available",
         "features": [
-          "Toyota Corolla / Honda City",
-          "Driver & Fuel Included",
-          "Hotel Pickup & Drop-off"
+          "AC Coaster / Sedan Transport",
+          "Standard Hotel / Day Trip",
+          "Driver & Fuel Included"
         ]
       },
       {
-        "name": "SUV / Prado Option (Up to 5 Persons)",
-        "price": "55,000",
+        "name": "Deluxe Package",
+        "price": "47,250",
         "status": "available",
         "features": [
-          "Toyota Prado / BRV SUV",
-          "Driver & Fuel Included",
-          "Luxury Reclining Seats"
+          "AC Grand Cabin / Prado",
+          "Deluxe Hotel / Private Guide",
+          "Full Inclusions"
         ]
       },
       {
-        "name": "Coaster / HiAce Option (Groups)",
-        "price": "85,000",
+        "name": "Executive Package",
+        "price": "61,250",
         "status": "available",
         "features": [
-          "22-Seater Coaster / Grand Cabin",
-          "Driver & Fuel Included",
-          "Ideal for Family & Corporate Groups"
+          "Luxury 4x4 Prado / SUV",
+          "Luxury 4-Star / 5-Star Hotel",
+          "VIP Concierge & Protocol"
         ]
       }
     ],
     "faqs": [
       {
-        "q": "What is included in the private tour pricing?",
+        "q": "What is included in the tour pricing?",
         "a": "Pricing includes private AC transport, professional driver, fuel, highway tolls, parking fees, and guide assistance."
       },
       {
-        "q": "Can this tour be customized for specific dates or pick-up locations?",
-        "a": "Yes! All city tours can be customized for your exact pick-up location, time, and special itinerary preferences."
+        "q": "Can this tour be customized?",
+        "a": "Yes! All tours can be customized for your exact pick-up location, time, and special itinerary preferences."
       },
       {
         "q": "How do I book or confirm my reservation?",
@@ -4753,24 +4715,23 @@ if (window.TOUR_DATA) {
       }
     ]
   },
-  "city-tour-41": {
-    "id": "city-tour-41",
+  "city-41": {
+    "id": "city-41",
     "title": "Paragliding in Islamabad",
     "duration": "1 Day",
-    "location": "Islamabad & Northern Pakistan",
+    "location": "Pakistan",
     "maxGroup": "Private & Group Options",
-    "difficulty": "Easy / Cultural",
+    "difficulty": "Easy / Moderate",
     "image": "images/city-tours/tour_41.jpg",
     "price": "14,000",
     "originalPrice": "16,100",
-    "departureDay": "Daily Private Departures & Weekly Group Departures",
-    "about": "Experience the official Paragliding in Islamabad with Safar Silsila. This curated excursion offers an unforgettable journey through ancient heritage, vibrant local culture, stunning landscapes, and legendary culinary delights. Guided by certified local historians and travel experts, with private air-conditioned vehicles, full ticket entry logistics, and official visa assistance.",
+    "departureDay": "Daily Private Departures & Fixed Group Departures",
+    "about": "Experience Paragliding in Islamabad with Safar Silsila. This curated itinerary offers a complete journey through iconic landmarks, rich local culture, breathtaking scenery, and legendary regional cuisine. Includes professional guide, luxury AC transport, full ticket entry logistics, and official visa support.",
     "highlights": [
-      "Full guided excursion for Paragliding in Islamabad",
-      "Private air-conditioned luxury transport with professional driver & fuel",
-      "Sightseeing at historical monuments, bazaars & scenic viewpoints",
-      "Authentic local food & tea tasting experiences",
-      "Full ticket entry passes & VIP protocol assistance",
+      "Complete guided excursion for Paragliding in Islamabad",
+      "Private AC transport with driver, fuel, tolls & parking",
+      "Sightseeing at historical monuments, bazaars & viewpoints",
+      "Authentic regional food & tea tasting",
       "24/7 dedicated travel concierge & emergency support"
     ],
     "itinerary": [
@@ -4782,7 +4743,7 @@ if (window.TOUR_DATA) {
       {
         "day": "Afternoon",
         "title": "Guided Monument & Activity Exploration",
-        "desc": "Arrive at destination. Guided tour of key monuments, scenic viewpoints, water sports activities, and photography stops."
+        "desc": "Arrive at destination. Guided tour of key monuments, scenic viewpoints, water activities, and photography stops."
       },
       {
         "day": "Evening",
@@ -4794,7 +4755,7 @@ if (window.TOUR_DATA) {
       "Private AC Transport (Car / Prado / Coaster) with driver & fuel",
       "Official Tour Guide & Historian Services",
       "All Toll Taxes, Parking & Highway Charges",
-      "Complimentary Mineral Water & Tea",
+      "Complimentary Mineral Water & Refreshments",
       "Hotel Pickup & Drop-off Services"
     ],
     "exclusions": [
@@ -4804,44 +4765,44 @@ if (window.TOUR_DATA) {
     ],
     "packages": [
       {
-        "name": "Sedan Car Option (Up to 3 Persons)",
+        "name": "Standard Package",
         "price": "14,000",
         "status": "available",
         "features": [
-          "Toyota Corolla / Honda City",
-          "Driver & Fuel Included",
-          "Hotel Pickup & Drop-off"
+          "AC Coaster / Sedan Transport",
+          "Standard Hotel / Day Trip",
+          "Driver & Fuel Included"
         ]
       },
       {
-        "name": "SUV / Prado Option (Up to 5 Persons)",
-        "price": "18,000",
+        "name": "Deluxe Package",
+        "price": "18,900",
         "status": "available",
         "features": [
-          "Toyota Prado / BRV SUV",
-          "Driver & Fuel Included",
-          "Luxury Reclining Seats"
+          "AC Grand Cabin / Prado",
+          "Deluxe Hotel / Private Guide",
+          "Full Inclusions"
         ]
       },
       {
-        "name": "Coaster / HiAce Option (Groups)",
-        "price": "24,000",
+        "name": "Executive Package",
+        "price": "24,500",
         "status": "available",
         "features": [
-          "22-Seater Coaster / Grand Cabin",
-          "Driver & Fuel Included",
-          "Ideal for Family & Corporate Groups"
+          "Luxury 4x4 Prado / SUV",
+          "Luxury 4-Star / 5-Star Hotel",
+          "VIP Concierge & Protocol"
         ]
       }
     ],
     "faqs": [
       {
-        "q": "What is included in the private tour pricing?",
+        "q": "What is included in the tour pricing?",
         "a": "Pricing includes private AC transport, professional driver, fuel, highway tolls, parking fees, and guide assistance."
       },
       {
-        "q": "Can this tour be customized for specific dates or pick-up locations?",
-        "a": "Yes! All city tours can be customized for your exact pick-up location, time, and special itinerary preferences."
+        "q": "Can this tour be customized?",
+        "a": "Yes! All tours can be customized for your exact pick-up location, time, and special itinerary preferences."
       },
       {
         "q": "How do I book or confirm my reservation?",
@@ -4849,24 +4810,23 @@ if (window.TOUR_DATA) {
       }
     ]
   },
-  "city-tour-42": {
-    "id": "city-tour-42",
+  "city-42": {
+    "id": "city-42",
     "title": "Parasailing in Islamabad",
     "duration": "1 Day",
-    "location": "Islamabad & Northern Pakistan",
+    "location": "Pakistan",
     "maxGroup": "Private & Group Options",
-    "difficulty": "Easy / Cultural",
+    "difficulty": "Easy / Moderate",
     "image": "images/city-tours/tour_42.jpg",
     "price": "14,000",
     "originalPrice": "16,100",
-    "departureDay": "Daily Private Departures & Weekly Group Departures",
-    "about": "Experience the official Parasailing in Islamabad with Safar Silsila. This curated excursion offers an unforgettable journey through ancient heritage, vibrant local culture, stunning landscapes, and legendary culinary delights. Guided by certified local historians and travel experts, with private air-conditioned vehicles, full ticket entry logistics, and official visa assistance.",
+    "departureDay": "Daily Private Departures & Fixed Group Departures",
+    "about": "Experience Parasailing in Islamabad with Safar Silsila. This curated itinerary offers a complete journey through iconic landmarks, rich local culture, breathtaking scenery, and legendary regional cuisine. Includes professional guide, luxury AC transport, full ticket entry logistics, and official visa support.",
     "highlights": [
-      "Full guided excursion for Parasailing in Islamabad",
-      "Private air-conditioned luxury transport with professional driver & fuel",
-      "Sightseeing at historical monuments, bazaars & scenic viewpoints",
-      "Authentic local food & tea tasting experiences",
-      "Full ticket entry passes & VIP protocol assistance",
+      "Complete guided excursion for Parasailing in Islamabad",
+      "Private AC transport with driver, fuel, tolls & parking",
+      "Sightseeing at historical monuments, bazaars & viewpoints",
+      "Authentic regional food & tea tasting",
       "24/7 dedicated travel concierge & emergency support"
     ],
     "itinerary": [
@@ -4878,7 +4838,7 @@ if (window.TOUR_DATA) {
       {
         "day": "Afternoon",
         "title": "Guided Monument & Activity Exploration",
-        "desc": "Arrive at destination. Guided tour of key monuments, scenic viewpoints, water sports activities, and photography stops."
+        "desc": "Arrive at destination. Guided tour of key monuments, scenic viewpoints, water activities, and photography stops."
       },
       {
         "day": "Evening",
@@ -4890,7 +4850,7 @@ if (window.TOUR_DATA) {
       "Private AC Transport (Car / Prado / Coaster) with driver & fuel",
       "Official Tour Guide & Historian Services",
       "All Toll Taxes, Parking & Highway Charges",
-      "Complimentary Mineral Water & Tea",
+      "Complimentary Mineral Water & Refreshments",
       "Hotel Pickup & Drop-off Services"
     ],
     "exclusions": [
@@ -4900,44 +4860,44 @@ if (window.TOUR_DATA) {
     ],
     "packages": [
       {
-        "name": "Sedan Car Option (Up to 3 Persons)",
+        "name": "Standard Package",
         "price": "14,000",
         "status": "available",
         "features": [
-          "Toyota Corolla / Honda City",
-          "Driver & Fuel Included",
-          "Hotel Pickup & Drop-off"
+          "AC Coaster / Sedan Transport",
+          "Standard Hotel / Day Trip",
+          "Driver & Fuel Included"
         ]
       },
       {
-        "name": "SUV / Prado Option (Up to 5 Persons)",
-        "price": "18,000",
+        "name": "Deluxe Package",
+        "price": "18,900",
         "status": "available",
         "features": [
-          "Toyota Prado / BRV SUV",
-          "Driver & Fuel Included",
-          "Luxury Reclining Seats"
+          "AC Grand Cabin / Prado",
+          "Deluxe Hotel / Private Guide",
+          "Full Inclusions"
         ]
       },
       {
-        "name": "Coaster / HiAce Option (Groups)",
-        "price": "24,000",
+        "name": "Executive Package",
+        "price": "24,500",
         "status": "available",
         "features": [
-          "22-Seater Coaster / Grand Cabin",
-          "Driver & Fuel Included",
-          "Ideal for Family & Corporate Groups"
+          "Luxury 4x4 Prado / SUV",
+          "Luxury 4-Star / 5-Star Hotel",
+          "VIP Concierge & Protocol"
         ]
       }
     ],
     "faqs": [
       {
-        "q": "What is included in the private tour pricing?",
+        "q": "What is included in the tour pricing?",
         "a": "Pricing includes private AC transport, professional driver, fuel, highway tolls, parking fees, and guide assistance."
       },
       {
-        "q": "Can this tour be customized for specific dates or pick-up locations?",
-        "a": "Yes! All city tours can be customized for your exact pick-up location, time, and special itinerary preferences."
+        "q": "Can this tour be customized?",
+        "a": "Yes! All tours can be customized for your exact pick-up location, time, and special itinerary preferences."
       },
       {
         "q": "How do I book or confirm my reservation?",
@@ -4945,24 +4905,23 @@ if (window.TOUR_DATA) {
       }
     ]
   },
-  "city-tour-43": {
-    "id": "city-tour-43",
+  "city-43": {
+    "id": "city-43",
     "title": "Tanda Lake Kohat Tour (2024-25)",
     "duration": "2 Days 1 Night",
-    "location": "Islamabad & Northern Pakistan",
+    "location": "Pakistan",
     "maxGroup": "Private & Group Options",
-    "difficulty": "Easy / Cultural",
+    "difficulty": "Easy / Moderate",
     "image": "images/city-tours/tour_43.jpg",
     "price": "35,000",
     "originalPrice": "40,250",
-    "departureDay": "Daily Private Departures & Weekly Group Departures",
-    "about": "Experience the official Tanda Lake Kohat Tour (2024-25) with Safar Silsila. This curated excursion offers an unforgettable journey through ancient heritage, vibrant local culture, stunning landscapes, and legendary culinary delights. Guided by certified local historians and travel experts, with private air-conditioned vehicles, full ticket entry logistics, and official visa assistance.",
+    "departureDay": "Daily Private Departures & Fixed Group Departures",
+    "about": "Experience Tanda Lake Kohat Tour (2024-25) with Safar Silsila. This curated itinerary offers a complete journey through iconic landmarks, rich local culture, breathtaking scenery, and legendary regional cuisine. Includes professional guide, luxury AC transport, full ticket entry logistics, and official visa support.",
     "highlights": [
-      "Full guided excursion for Tanda Lake Kohat Tour (2024-25)",
-      "Private air-conditioned luxury transport with professional driver & fuel",
-      "Sightseeing at historical monuments, bazaars & scenic viewpoints",
-      "Authentic local food & tea tasting experiences",
-      "Full ticket entry passes & VIP protocol assistance",
+      "Complete guided excursion for Tanda Lake Kohat Tour (2024-25)",
+      "Private AC transport with driver, fuel, tolls & parking",
+      "Sightseeing at historical monuments, bazaars & viewpoints",
+      "Authentic regional food & tea tasting",
       "24/7 dedicated travel concierge & emergency support"
     ],
     "itinerary": [
@@ -4973,25 +4932,25 @@ if (window.TOUR_DATA) {
       },
       {
         "day": "Day 2",
-        "title": "Heritage Monuments & Cultural Sightseeing",
+        "title": "Monuments & Cultural Sightseeing",
         "desc": "Full day guided exploration of major historical monuments, ancient forts, and museum archives with expert local guide."
       },
       {
         "day": "Day 3",
         "title": "Scenic Valleys & Local Artisans",
-        "desc": "Visit artisan workshops, local handicrafts markets, and surrounding natural viewpoints. Dinner at famous local food street."
+        "desc": "Visit artisan workshops, local markets, and surrounding natural viewpoints. Evening food street dinner."
       },
       {
         "day": "Day 4",
         "title": "Final Excursions & Departure",
-        "desc": "Morning shopping and photography tour. Drop-off at airport or hotel with fond memories of Pakistan."
+        "desc": "Morning shopping and photography tour. Drop-off at airport or hotel with fond memories."
       }
     ],
     "inclusions": [
       "Private AC Transport (Car / Prado / Coaster) with driver & fuel",
       "Official Tour Guide & Historian Services",
       "All Toll Taxes, Parking & Highway Charges",
-      "Complimentary Mineral Water & Tea",
+      "Complimentary Mineral Water & Refreshments",
       "Hotel Pickup & Drop-off Services"
     ],
     "exclusions": [
@@ -5001,44 +4960,44 @@ if (window.TOUR_DATA) {
     ],
     "packages": [
       {
-        "name": "Sedan Car Option (Up to 3 Persons)",
+        "name": "Standard Package",
         "price": "35,000",
         "status": "available",
         "features": [
-          "Toyota Corolla / Honda City",
-          "Driver & Fuel Included",
-          "Hotel Pickup & Drop-off"
+          "AC Coaster / Sedan Transport",
+          "Standard Hotel / Day Trip",
+          "Driver & Fuel Included"
         ]
       },
       {
-        "name": "SUV / Prado Option (Up to 5 Persons)",
-        "price": "55,000",
+        "name": "Deluxe Package",
+        "price": "47,250",
         "status": "available",
         "features": [
-          "Toyota Prado / BRV SUV",
-          "Driver & Fuel Included",
-          "Luxury Reclining Seats"
+          "AC Grand Cabin / Prado",
+          "Deluxe Hotel / Private Guide",
+          "Full Inclusions"
         ]
       },
       {
-        "name": "Coaster / HiAce Option (Groups)",
-        "price": "85,000",
+        "name": "Executive Package",
+        "price": "61,250",
         "status": "available",
         "features": [
-          "22-Seater Coaster / Grand Cabin",
-          "Driver & Fuel Included",
-          "Ideal for Family & Corporate Groups"
+          "Luxury 4x4 Prado / SUV",
+          "Luxury 4-Star / 5-Star Hotel",
+          "VIP Concierge & Protocol"
         ]
       }
     ],
     "faqs": [
       {
-        "q": "What is included in the private tour pricing?",
+        "q": "What is included in the tour pricing?",
         "a": "Pricing includes private AC transport, professional driver, fuel, highway tolls, parking fees, and guide assistance."
       },
       {
-        "q": "Can this tour be customized for specific dates or pick-up locations?",
-        "a": "Yes! All city tours can be customized for your exact pick-up location, time, and special itinerary preferences."
+        "q": "Can this tour be customized?",
+        "a": "Yes! All tours can be customized for your exact pick-up location, time, and special itinerary preferences."
       },
       {
         "q": "How do I book or confirm my reservation?",
@@ -5046,24 +5005,23 @@ if (window.TOUR_DATA) {
       }
     ]
   },
-  "city-tour-44": {
-    "id": "city-tour-44",
+  "city-44": {
+    "id": "city-44",
     "title": "Makran Coastal Highway Tour (2024-25)",
     "duration": "10 Days 9 Nights",
-    "location": "Islamabad & Northern Pakistan",
+    "location": "Pakistan",
     "maxGroup": "Private & Group Options",
-    "difficulty": "Easy / Cultural",
+    "difficulty": "Easy / Moderate",
     "image": "images/city-tours/tour_44.jpg",
     "price": "35,000",
     "originalPrice": "40,250",
-    "departureDay": "Daily Private Departures & Weekly Group Departures",
-    "about": "Experience the official Makran Coastal Highway Tour (2024-25) with Safar Silsila. This curated excursion offers an unforgettable journey through ancient heritage, vibrant local culture, stunning landscapes, and legendary culinary delights. Guided by certified local historians and travel experts, with private air-conditioned vehicles, full ticket entry logistics, and official visa assistance.",
+    "departureDay": "Daily Private Departures & Fixed Group Departures",
+    "about": "Experience Makran Coastal Highway Tour (2024-25) with Safar Silsila. This curated itinerary offers a complete journey through iconic landmarks, rich local culture, breathtaking scenery, and legendary regional cuisine. Includes professional guide, luxury AC transport, full ticket entry logistics, and official visa support.",
     "highlights": [
-      "Full guided excursion for Makran Coastal Highway Tour (2024-25)",
-      "Private air-conditioned luxury transport with professional driver & fuel",
-      "Sightseeing at historical monuments, bazaars & scenic viewpoints",
-      "Authentic local food & tea tasting experiences",
-      "Full ticket entry passes & VIP protocol assistance",
+      "Complete guided excursion for Makran Coastal Highway Tour (2024-25)",
+      "Private AC transport with driver, fuel, tolls & parking",
+      "Sightseeing at historical monuments, bazaars & viewpoints",
+      "Authentic regional food & tea tasting",
       "24/7 dedicated travel concierge & emergency support"
     ],
     "itinerary": [
@@ -5074,25 +5032,25 @@ if (window.TOUR_DATA) {
       },
       {
         "day": "Day 2",
-        "title": "Heritage Monuments & Cultural Sightseeing",
+        "title": "Monuments & Cultural Sightseeing",
         "desc": "Full day guided exploration of major historical monuments, ancient forts, and museum archives with expert local guide."
       },
       {
         "day": "Day 3",
         "title": "Scenic Valleys & Local Artisans",
-        "desc": "Visit artisan workshops, local handicrafts markets, and surrounding natural viewpoints. Dinner at famous local food street."
+        "desc": "Visit artisan workshops, local markets, and surrounding natural viewpoints. Evening food street dinner."
       },
       {
         "day": "Day 4",
         "title": "Final Excursions & Departure",
-        "desc": "Morning shopping and photography tour. Drop-off at airport or hotel with fond memories of Pakistan."
+        "desc": "Morning shopping and photography tour. Drop-off at airport or hotel with fond memories."
       }
     ],
     "inclusions": [
       "Private AC Transport (Car / Prado / Coaster) with driver & fuel",
       "Official Tour Guide & Historian Services",
       "All Toll Taxes, Parking & Highway Charges",
-      "Complimentary Mineral Water & Tea",
+      "Complimentary Mineral Water & Refreshments",
       "Hotel Pickup & Drop-off Services"
     ],
     "exclusions": [
@@ -5102,44 +5060,44 @@ if (window.TOUR_DATA) {
     ],
     "packages": [
       {
-        "name": "Sedan Car Option (Up to 3 Persons)",
+        "name": "Standard Package",
         "price": "35,000",
         "status": "available",
         "features": [
-          "Toyota Corolla / Honda City",
-          "Driver & Fuel Included",
-          "Hotel Pickup & Drop-off"
+          "AC Coaster / Sedan Transport",
+          "Standard Hotel / Day Trip",
+          "Driver & Fuel Included"
         ]
       },
       {
-        "name": "SUV / Prado Option (Up to 5 Persons)",
-        "price": "55,000",
+        "name": "Deluxe Package",
+        "price": "47,250",
         "status": "available",
         "features": [
-          "Toyota Prado / BRV SUV",
-          "Driver & Fuel Included",
-          "Luxury Reclining Seats"
+          "AC Grand Cabin / Prado",
+          "Deluxe Hotel / Private Guide",
+          "Full Inclusions"
         ]
       },
       {
-        "name": "Coaster / HiAce Option (Groups)",
-        "price": "85,000",
+        "name": "Executive Package",
+        "price": "61,250",
         "status": "available",
         "features": [
-          "22-Seater Coaster / Grand Cabin",
-          "Driver & Fuel Included",
-          "Ideal for Family & Corporate Groups"
+          "Luxury 4x4 Prado / SUV",
+          "Luxury 4-Star / 5-Star Hotel",
+          "VIP Concierge & Protocol"
         ]
       }
     ],
     "faqs": [
       {
-        "q": "What is included in the private tour pricing?",
+        "q": "What is included in the tour pricing?",
         "a": "Pricing includes private AC transport, professional driver, fuel, highway tolls, parking fees, and guide assistance."
       },
       {
-        "q": "Can this tour be customized for specific dates or pick-up locations?",
-        "a": "Yes! All city tours can be customized for your exact pick-up location, time, and special itinerary preferences."
+        "q": "Can this tour be customized?",
+        "a": "Yes! All tours can be customized for your exact pick-up location, time, and special itinerary preferences."
       },
       {
         "q": "How do I book or confirm my reservation?",
@@ -5147,24 +5105,23 @@ if (window.TOUR_DATA) {
       }
     ]
   },
-  "city-tour-45": {
-    "id": "city-tour-45",
+  "city-45": {
+    "id": "city-45",
     "title": "Mangla Dam Tour",
     "duration": "1 Day",
-    "location": "Islamabad & Northern Pakistan",
+    "location": "Pakistan",
     "maxGroup": "Private & Group Options",
-    "difficulty": "Easy / Cultural",
+    "difficulty": "Easy / Moderate",
     "image": "images/city-tours/tour_45.jpg",
     "price": "14,000",
     "originalPrice": "16,100",
-    "departureDay": "Daily Private Departures & Weekly Group Departures",
-    "about": "Experience the official Mangla Dam Tour with Safar Silsila. This curated excursion offers an unforgettable journey through ancient heritage, vibrant local culture, stunning landscapes, and legendary culinary delights. Guided by certified local historians and travel experts, with private air-conditioned vehicles, full ticket entry logistics, and official visa assistance.",
+    "departureDay": "Daily Private Departures & Fixed Group Departures",
+    "about": "Experience Mangla Dam Tour with Safar Silsila. This curated itinerary offers a complete journey through iconic landmarks, rich local culture, breathtaking scenery, and legendary regional cuisine. Includes professional guide, luxury AC transport, full ticket entry logistics, and official visa support.",
     "highlights": [
-      "Full guided excursion for Mangla Dam Tour",
-      "Private air-conditioned luxury transport with professional driver & fuel",
-      "Sightseeing at historical monuments, bazaars & scenic viewpoints",
-      "Authentic local food & tea tasting experiences",
-      "Full ticket entry passes & VIP protocol assistance",
+      "Complete guided excursion for Mangla Dam Tour",
+      "Private AC transport with driver, fuel, tolls & parking",
+      "Sightseeing at historical monuments, bazaars & viewpoints",
+      "Authentic regional food & tea tasting",
       "24/7 dedicated travel concierge & emergency support"
     ],
     "itinerary": [
@@ -5176,7 +5133,7 @@ if (window.TOUR_DATA) {
       {
         "day": "Afternoon",
         "title": "Guided Monument & Activity Exploration",
-        "desc": "Arrive at destination. Guided tour of key monuments, scenic viewpoints, water sports activities, and photography stops."
+        "desc": "Arrive at destination. Guided tour of key monuments, scenic viewpoints, water activities, and photography stops."
       },
       {
         "day": "Evening",
@@ -5188,7 +5145,7 @@ if (window.TOUR_DATA) {
       "Private AC Transport (Car / Prado / Coaster) with driver & fuel",
       "Official Tour Guide & Historian Services",
       "All Toll Taxes, Parking & Highway Charges",
-      "Complimentary Mineral Water & Tea",
+      "Complimentary Mineral Water & Refreshments",
       "Hotel Pickup & Drop-off Services"
     ],
     "exclusions": [
@@ -5198,44 +5155,44 @@ if (window.TOUR_DATA) {
     ],
     "packages": [
       {
-        "name": "Sedan Car Option (Up to 3 Persons)",
+        "name": "Standard Package",
         "price": "14,000",
         "status": "available",
         "features": [
-          "Toyota Corolla / Honda City",
-          "Driver & Fuel Included",
-          "Hotel Pickup & Drop-off"
+          "AC Coaster / Sedan Transport",
+          "Standard Hotel / Day Trip",
+          "Driver & Fuel Included"
         ]
       },
       {
-        "name": "SUV / Prado Option (Up to 5 Persons)",
-        "price": "18,000",
+        "name": "Deluxe Package",
+        "price": "18,900",
         "status": "available",
         "features": [
-          "Toyota Prado / BRV SUV",
-          "Driver & Fuel Included",
-          "Luxury Reclining Seats"
+          "AC Grand Cabin / Prado",
+          "Deluxe Hotel / Private Guide",
+          "Full Inclusions"
         ]
       },
       {
-        "name": "Coaster / HiAce Option (Groups)",
-        "price": "24,000",
+        "name": "Executive Package",
+        "price": "24,500",
         "status": "available",
         "features": [
-          "22-Seater Coaster / Grand Cabin",
-          "Driver & Fuel Included",
-          "Ideal for Family & Corporate Groups"
+          "Luxury 4x4 Prado / SUV",
+          "Luxury 4-Star / 5-Star Hotel",
+          "VIP Concierge & Protocol"
         ]
       }
     ],
     "faqs": [
       {
-        "q": "What is included in the private tour pricing?",
+        "q": "What is included in the tour pricing?",
         "a": "Pricing includes private AC transport, professional driver, fuel, highway tolls, parking fees, and guide assistance."
       },
       {
-        "q": "Can this tour be customized for specific dates or pick-up locations?",
-        "a": "Yes! All city tours can be customized for your exact pick-up location, time, and special itinerary preferences."
+        "q": "Can this tour be customized?",
+        "a": "Yes! All tours can be customized for your exact pick-up location, time, and special itinerary preferences."
       },
       {
         "q": "How do I book or confirm my reservation?",
@@ -5243,24 +5200,23 @@ if (window.TOUR_DATA) {
       }
     ]
   },
-  "city-tour-46": {
-    "id": "city-tour-46",
+  "city-46": {
+    "id": "city-46",
     "title": "Kalabagh Tour",
     "duration": "3 Days 2 Nights",
-    "location": "Islamabad & Northern Pakistan",
+    "location": "Pakistan",
     "maxGroup": "Private & Group Options",
-    "difficulty": "Easy / Cultural",
+    "difficulty": "Easy / Moderate",
     "image": "images/city-tours/tour_46.jpg",
     "price": "35,000",
     "originalPrice": "40,250",
-    "departureDay": "Daily Private Departures & Weekly Group Departures",
-    "about": "Experience the official Kalabagh Tour with Safar Silsila. This curated excursion offers an unforgettable journey through ancient heritage, vibrant local culture, stunning landscapes, and legendary culinary delights. Guided by certified local historians and travel experts, with private air-conditioned vehicles, full ticket entry logistics, and official visa assistance.",
+    "departureDay": "Daily Private Departures & Fixed Group Departures",
+    "about": "Experience Kalabagh Tour with Safar Silsila. This curated itinerary offers a complete journey through iconic landmarks, rich local culture, breathtaking scenery, and legendary regional cuisine. Includes professional guide, luxury AC transport, full ticket entry logistics, and official visa support.",
     "highlights": [
-      "Full guided excursion for Kalabagh Tour",
-      "Private air-conditioned luxury transport with professional driver & fuel",
-      "Sightseeing at historical monuments, bazaars & scenic viewpoints",
-      "Authentic local food & tea tasting experiences",
-      "Full ticket entry passes & VIP protocol assistance",
+      "Complete guided excursion for Kalabagh Tour",
+      "Private AC transport with driver, fuel, tolls & parking",
+      "Sightseeing at historical monuments, bazaars & viewpoints",
+      "Authentic regional food & tea tasting",
       "24/7 dedicated travel concierge & emergency support"
     ],
     "itinerary": [
@@ -5271,25 +5227,25 @@ if (window.TOUR_DATA) {
       },
       {
         "day": "Day 2",
-        "title": "Heritage Monuments & Cultural Sightseeing",
+        "title": "Monuments & Cultural Sightseeing",
         "desc": "Full day guided exploration of major historical monuments, ancient forts, and museum archives with expert local guide."
       },
       {
         "day": "Day 3",
         "title": "Scenic Valleys & Local Artisans",
-        "desc": "Visit artisan workshops, local handicrafts markets, and surrounding natural viewpoints. Dinner at famous local food street."
+        "desc": "Visit artisan workshops, local markets, and surrounding natural viewpoints. Evening food street dinner."
       },
       {
         "day": "Day 4",
         "title": "Final Excursions & Departure",
-        "desc": "Morning shopping and photography tour. Drop-off at airport or hotel with fond memories of Pakistan."
+        "desc": "Morning shopping and photography tour. Drop-off at airport or hotel with fond memories."
       }
     ],
     "inclusions": [
       "Private AC Transport (Car / Prado / Coaster) with driver & fuel",
       "Official Tour Guide & Historian Services",
       "All Toll Taxes, Parking & Highway Charges",
-      "Complimentary Mineral Water & Tea",
+      "Complimentary Mineral Water & Refreshments",
       "Hotel Pickup & Drop-off Services"
     ],
     "exclusions": [
@@ -5299,44 +5255,44 @@ if (window.TOUR_DATA) {
     ],
     "packages": [
       {
-        "name": "Sedan Car Option (Up to 3 Persons)",
+        "name": "Standard Package",
         "price": "35,000",
         "status": "available",
         "features": [
-          "Toyota Corolla / Honda City",
-          "Driver & Fuel Included",
-          "Hotel Pickup & Drop-off"
+          "AC Coaster / Sedan Transport",
+          "Standard Hotel / Day Trip",
+          "Driver & Fuel Included"
         ]
       },
       {
-        "name": "SUV / Prado Option (Up to 5 Persons)",
-        "price": "55,000",
+        "name": "Deluxe Package",
+        "price": "47,250",
         "status": "available",
         "features": [
-          "Toyota Prado / BRV SUV",
-          "Driver & Fuel Included",
-          "Luxury Reclining Seats"
+          "AC Grand Cabin / Prado",
+          "Deluxe Hotel / Private Guide",
+          "Full Inclusions"
         ]
       },
       {
-        "name": "Coaster / HiAce Option (Groups)",
-        "price": "85,000",
+        "name": "Executive Package",
+        "price": "61,250",
         "status": "available",
         "features": [
-          "22-Seater Coaster / Grand Cabin",
-          "Driver & Fuel Included",
-          "Ideal for Family & Corporate Groups"
+          "Luxury 4x4 Prado / SUV",
+          "Luxury 4-Star / 5-Star Hotel",
+          "VIP Concierge & Protocol"
         ]
       }
     ],
     "faqs": [
       {
-        "q": "What is included in the private tour pricing?",
+        "q": "What is included in the tour pricing?",
         "a": "Pricing includes private AC transport, professional driver, fuel, highway tolls, parking fees, and guide assistance."
       },
       {
-        "q": "Can this tour be customized for specific dates or pick-up locations?",
-        "a": "Yes! All city tours can be customized for your exact pick-up location, time, and special itinerary preferences."
+        "q": "Can this tour be customized?",
+        "a": "Yes! All tours can be customized for your exact pick-up location, time, and special itinerary preferences."
       },
       {
         "q": "How do I book or confirm my reservation?",
@@ -5344,24 +5300,23 @@ if (window.TOUR_DATA) {
       }
     ]
   },
-  "city-tour-47": {
-    "id": "city-tour-47",
+  "city-47": {
+    "id": "city-47",
     "title": "Lahore City Tour – 02 Days",
     "duration": "2 Days 1 Night",
     "location": "Lahore, Punjab",
     "maxGroup": "Private & Group Options",
-    "difficulty": "Easy / Cultural",
+    "difficulty": "Easy / Moderate",
     "image": "images/city-tours/tour_47.jpg",
     "price": "35,000",
     "originalPrice": "40,250",
-    "departureDay": "Daily Private Departures & Weekly Group Departures",
-    "about": "Experience the official Lahore City Tour – 02 Days with Safar Silsila. This curated excursion offers an unforgettable journey through ancient heritage, vibrant local culture, stunning landscapes, and legendary culinary delights. Guided by certified local historians and travel experts, with private air-conditioned vehicles, full ticket entry logistics, and official visa assistance.",
+    "departureDay": "Daily Private Departures & Fixed Group Departures",
+    "about": "Experience Lahore City Tour – 02 Days with Safar Silsila. This curated itinerary offers a complete journey through iconic landmarks, rich local culture, breathtaking scenery, and legendary regional cuisine. Includes professional guide, luxury AC transport, full ticket entry logistics, and official visa support.",
     "highlights": [
-      "Full guided excursion for Lahore City Tour – 02 Days",
-      "Private air-conditioned luxury transport with professional driver & fuel",
-      "Sightseeing at historical monuments, bazaars & scenic viewpoints",
-      "Authentic local food & tea tasting experiences",
-      "Full ticket entry passes & VIP protocol assistance",
+      "Complete guided excursion for Lahore City Tour – 02 Days",
+      "Private AC transport with driver, fuel, tolls & parking",
+      "Sightseeing at historical monuments, bazaars & viewpoints",
+      "Authentic regional food & tea tasting",
       "24/7 dedicated travel concierge & emergency support"
     ],
     "itinerary": [
@@ -5372,25 +5327,25 @@ if (window.TOUR_DATA) {
       },
       {
         "day": "Day 2",
-        "title": "Heritage Monuments & Cultural Sightseeing",
+        "title": "Monuments & Cultural Sightseeing",
         "desc": "Full day guided exploration of major historical monuments, ancient forts, and museum archives with expert local guide."
       },
       {
         "day": "Day 3",
         "title": "Scenic Valleys & Local Artisans",
-        "desc": "Visit artisan workshops, local handicrafts markets, and surrounding natural viewpoints. Dinner at famous local food street."
+        "desc": "Visit artisan workshops, local markets, and surrounding natural viewpoints. Evening food street dinner."
       },
       {
         "day": "Day 4",
         "title": "Final Excursions & Departure",
-        "desc": "Morning shopping and photography tour. Drop-off at airport or hotel with fond memories of Pakistan."
+        "desc": "Morning shopping and photography tour. Drop-off at airport or hotel with fond memories."
       }
     ],
     "inclusions": [
       "Private AC Transport (Car / Prado / Coaster) with driver & fuel",
       "Official Tour Guide & Historian Services",
       "All Toll Taxes, Parking & Highway Charges",
-      "Complimentary Mineral Water & Tea",
+      "Complimentary Mineral Water & Refreshments",
       "Hotel Pickup & Drop-off Services"
     ],
     "exclusions": [
@@ -5400,44 +5355,44 @@ if (window.TOUR_DATA) {
     ],
     "packages": [
       {
-        "name": "Sedan Car Option (Up to 3 Persons)",
+        "name": "Standard Package",
         "price": "35,000",
         "status": "available",
         "features": [
-          "Toyota Corolla / Honda City",
-          "Driver & Fuel Included",
-          "Hotel Pickup & Drop-off"
+          "AC Coaster / Sedan Transport",
+          "Standard Hotel / Day Trip",
+          "Driver & Fuel Included"
         ]
       },
       {
-        "name": "SUV / Prado Option (Up to 5 Persons)",
-        "price": "55,000",
+        "name": "Deluxe Package",
+        "price": "47,250",
         "status": "available",
         "features": [
-          "Toyota Prado / BRV SUV",
-          "Driver & Fuel Included",
-          "Luxury Reclining Seats"
+          "AC Grand Cabin / Prado",
+          "Deluxe Hotel / Private Guide",
+          "Full Inclusions"
         ]
       },
       {
-        "name": "Coaster / HiAce Option (Groups)",
-        "price": "85,000",
+        "name": "Executive Package",
+        "price": "61,250",
         "status": "available",
         "features": [
-          "22-Seater Coaster / Grand Cabin",
-          "Driver & Fuel Included",
-          "Ideal for Family & Corporate Groups"
+          "Luxury 4x4 Prado / SUV",
+          "Luxury 4-Star / 5-Star Hotel",
+          "VIP Concierge & Protocol"
         ]
       }
     ],
     "faqs": [
       {
-        "q": "What is included in the private tour pricing?",
+        "q": "What is included in the tour pricing?",
         "a": "Pricing includes private AC transport, professional driver, fuel, highway tolls, parking fees, and guide assistance."
       },
       {
-        "q": "Can this tour be customized for specific dates or pick-up locations?",
-        "a": "Yes! All city tours can be customized for your exact pick-up location, time, and special itinerary preferences."
+        "q": "Can this tour be customized?",
+        "a": "Yes! All tours can be customized for your exact pick-up location, time, and special itinerary preferences."
       },
       {
         "q": "How do I book or confirm my reservation?",
@@ -5445,24 +5400,23 @@ if (window.TOUR_DATA) {
       }
     ]
   },
-  "city-tour-48": {
-    "id": "city-tour-48",
+  "city-48": {
+    "id": "city-48",
     "title": "Tour of Karachi – 03 Days",
     "duration": "3 Says 2 Nights",
-    "location": "Karachi, Sindh",
+    "location": "Pakistan",
     "maxGroup": "Private & Group Options",
-    "difficulty": "Easy / Cultural",
+    "difficulty": "Easy / Moderate",
     "image": "images/city-tours/tour_48.jpg",
     "price": "14,000",
     "originalPrice": "16,100",
-    "departureDay": "Daily Private Departures & Weekly Group Departures",
-    "about": "Experience the official Tour of Karachi – 03 Days with Safar Silsila. This curated excursion offers an unforgettable journey through ancient heritage, vibrant local culture, stunning landscapes, and legendary culinary delights. Guided by certified local historians and travel experts, with private air-conditioned vehicles, full ticket entry logistics, and official visa assistance.",
+    "departureDay": "Daily Private Departures & Fixed Group Departures",
+    "about": "Experience Tour of Karachi – 03 Days with Safar Silsila. This curated itinerary offers a complete journey through iconic landmarks, rich local culture, breathtaking scenery, and legendary regional cuisine. Includes professional guide, luxury AC transport, full ticket entry logistics, and official visa support.",
     "highlights": [
-      "Full guided excursion for Tour of Karachi – 03 Days",
-      "Private air-conditioned luxury transport with professional driver & fuel",
-      "Sightseeing at historical monuments, bazaars & scenic viewpoints",
-      "Authentic local food & tea tasting experiences",
-      "Full ticket entry passes & VIP protocol assistance",
+      "Complete guided excursion for Tour of Karachi – 03 Days",
+      "Private AC transport with driver, fuel, tolls & parking",
+      "Sightseeing at historical monuments, bazaars & viewpoints",
+      "Authentic regional food & tea tasting",
       "24/7 dedicated travel concierge & emergency support"
     ],
     "itinerary": [
@@ -5474,7 +5428,7 @@ if (window.TOUR_DATA) {
       {
         "day": "Afternoon",
         "title": "Guided Monument & Activity Exploration",
-        "desc": "Arrive at destination. Guided tour of key monuments, scenic viewpoints, water sports activities, and photography stops."
+        "desc": "Arrive at destination. Guided tour of key monuments, scenic viewpoints, water activities, and photography stops."
       },
       {
         "day": "Evening",
@@ -5486,7 +5440,7 @@ if (window.TOUR_DATA) {
       "Private AC Transport (Car / Prado / Coaster) with driver & fuel",
       "Official Tour Guide & Historian Services",
       "All Toll Taxes, Parking & Highway Charges",
-      "Complimentary Mineral Water & Tea",
+      "Complimentary Mineral Water & Refreshments",
       "Hotel Pickup & Drop-off Services"
     ],
     "exclusions": [
@@ -5496,44 +5450,44 @@ if (window.TOUR_DATA) {
     ],
     "packages": [
       {
-        "name": "Sedan Car Option (Up to 3 Persons)",
+        "name": "Standard Package",
         "price": "14,000",
         "status": "available",
         "features": [
-          "Toyota Corolla / Honda City",
-          "Driver & Fuel Included",
-          "Hotel Pickup & Drop-off"
+          "AC Coaster / Sedan Transport",
+          "Standard Hotel / Day Trip",
+          "Driver & Fuel Included"
         ]
       },
       {
-        "name": "SUV / Prado Option (Up to 5 Persons)",
-        "price": "18,000",
+        "name": "Deluxe Package",
+        "price": "18,900",
         "status": "available",
         "features": [
-          "Toyota Prado / BRV SUV",
-          "Driver & Fuel Included",
-          "Luxury Reclining Seats"
+          "AC Grand Cabin / Prado",
+          "Deluxe Hotel / Private Guide",
+          "Full Inclusions"
         ]
       },
       {
-        "name": "Coaster / HiAce Option (Groups)",
-        "price": "24,000",
+        "name": "Executive Package",
+        "price": "24,500",
         "status": "available",
         "features": [
-          "22-Seater Coaster / Grand Cabin",
-          "Driver & Fuel Included",
-          "Ideal for Family & Corporate Groups"
+          "Luxury 4x4 Prado / SUV",
+          "Luxury 4-Star / 5-Star Hotel",
+          "VIP Concierge & Protocol"
         ]
       }
     ],
     "faqs": [
       {
-        "q": "What is included in the private tour pricing?",
+        "q": "What is included in the tour pricing?",
         "a": "Pricing includes private AC transport, professional driver, fuel, highway tolls, parking fees, and guide assistance."
       },
       {
-        "q": "Can this tour be customized for specific dates or pick-up locations?",
-        "a": "Yes! All city tours can be customized for your exact pick-up location, time, and special itinerary preferences."
+        "q": "Can this tour be customized?",
+        "a": "Yes! All tours can be customized for your exact pick-up location, time, and special itinerary preferences."
       },
       {
         "q": "How do I book or confirm my reservation?",
@@ -5541,24 +5495,23 @@ if (window.TOUR_DATA) {
       }
     ]
   },
-  "city-tour-49": {
-    "id": "city-tour-49",
-    "title": "General Peshawar City Tour  – 02 Days",
+  "city-49": {
+    "id": "city-49",
+    "title": "General Peshawar City Tour – 02 Days",
     "duration": "2 Days 1 Night",
     "location": "Peshawar, KP",
     "maxGroup": "Private & Group Options",
-    "difficulty": "Easy / Cultural",
+    "difficulty": "Easy / Moderate",
     "image": "images/city-tours/tour_49.jpg",
     "price": "35,000",
     "originalPrice": "40,250",
-    "departureDay": "Daily Private Departures & Weekly Group Departures",
-    "about": "Experience the official General Peshawar City Tour  – 02 Days with Safar Silsila. This curated excursion offers an unforgettable journey through ancient heritage, vibrant local culture, stunning landscapes, and legendary culinary delights. Guided by certified local historians and travel experts, with private air-conditioned vehicles, full ticket entry logistics, and official visa assistance.",
+    "departureDay": "Daily Private Departures & Fixed Group Departures",
+    "about": "Experience General Peshawar City Tour – 02 Days with Safar Silsila. This curated itinerary offers a complete journey through iconic landmarks, rich local culture, breathtaking scenery, and legendary regional cuisine. Includes professional guide, luxury AC transport, full ticket entry logistics, and official visa support.",
     "highlights": [
-      "Full guided excursion for General Peshawar City Tour  – 02 Days",
-      "Private air-conditioned luxury transport with professional driver & fuel",
-      "Sightseeing at historical monuments, bazaars & scenic viewpoints",
-      "Authentic local food & tea tasting experiences",
-      "Full ticket entry passes & VIP protocol assistance",
+      "Complete guided excursion for General Peshawar City Tour – 02 Days",
+      "Private AC transport with driver, fuel, tolls & parking",
+      "Sightseeing at historical monuments, bazaars & viewpoints",
+      "Authentic regional food & tea tasting",
       "24/7 dedicated travel concierge & emergency support"
     ],
     "itinerary": [
@@ -5569,25 +5522,25 @@ if (window.TOUR_DATA) {
       },
       {
         "day": "Day 2",
-        "title": "Heritage Monuments & Cultural Sightseeing",
+        "title": "Monuments & Cultural Sightseeing",
         "desc": "Full day guided exploration of major historical monuments, ancient forts, and museum archives with expert local guide."
       },
       {
         "day": "Day 3",
         "title": "Scenic Valleys & Local Artisans",
-        "desc": "Visit artisan workshops, local handicrafts markets, and surrounding natural viewpoints. Dinner at famous local food street."
+        "desc": "Visit artisan workshops, local markets, and surrounding natural viewpoints. Evening food street dinner."
       },
       {
         "day": "Day 4",
         "title": "Final Excursions & Departure",
-        "desc": "Morning shopping and photography tour. Drop-off at airport or hotel with fond memories of Pakistan."
+        "desc": "Morning shopping and photography tour. Drop-off at airport or hotel with fond memories."
       }
     ],
     "inclusions": [
       "Private AC Transport (Car / Prado / Coaster) with driver & fuel",
       "Official Tour Guide & Historian Services",
       "All Toll Taxes, Parking & Highway Charges",
-      "Complimentary Mineral Water & Tea",
+      "Complimentary Mineral Water & Refreshments",
       "Hotel Pickup & Drop-off Services"
     ],
     "exclusions": [
@@ -5597,44 +5550,44 @@ if (window.TOUR_DATA) {
     ],
     "packages": [
       {
-        "name": "Sedan Car Option (Up to 3 Persons)",
+        "name": "Standard Package",
         "price": "35,000",
         "status": "available",
         "features": [
-          "Toyota Corolla / Honda City",
-          "Driver & Fuel Included",
-          "Hotel Pickup & Drop-off"
+          "AC Coaster / Sedan Transport",
+          "Standard Hotel / Day Trip",
+          "Driver & Fuel Included"
         ]
       },
       {
-        "name": "SUV / Prado Option (Up to 5 Persons)",
-        "price": "55,000",
+        "name": "Deluxe Package",
+        "price": "47,250",
         "status": "available",
         "features": [
-          "Toyota Prado / BRV SUV",
-          "Driver & Fuel Included",
-          "Luxury Reclining Seats"
+          "AC Grand Cabin / Prado",
+          "Deluxe Hotel / Private Guide",
+          "Full Inclusions"
         ]
       },
       {
-        "name": "Coaster / HiAce Option (Groups)",
-        "price": "85,000",
+        "name": "Executive Package",
+        "price": "61,250",
         "status": "available",
         "features": [
-          "22-Seater Coaster / Grand Cabin",
-          "Driver & Fuel Included",
-          "Ideal for Family & Corporate Groups"
+          "Luxury 4x4 Prado / SUV",
+          "Luxury 4-Star / 5-Star Hotel",
+          "VIP Concierge & Protocol"
         ]
       }
     ],
     "faqs": [
       {
-        "q": "What is included in the private tour pricing?",
+        "q": "What is included in the tour pricing?",
         "a": "Pricing includes private AC transport, professional driver, fuel, highway tolls, parking fees, and guide assistance."
       },
       {
-        "q": "Can this tour be customized for specific dates or pick-up locations?",
-        "a": "Yes! All city tours can be customized for your exact pick-up location, time, and special itinerary preferences."
+        "q": "Can this tour be customized?",
+        "a": "Yes! All tours can be customized for your exact pick-up location, time, and special itinerary preferences."
       },
       {
         "q": "How do I book or confirm my reservation?",
@@ -5642,24 +5595,23 @@ if (window.TOUR_DATA) {
       }
     ]
   },
-  "city-tour-50": {
-    "id": "city-tour-50",
-    "title": "Taxila Tour (Day Trip from Islamabad)   – 01 Day",
+  "city-50": {
+    "id": "city-50",
+    "title": "Taxila Tour (Day Trip from Islamabad) – 01 Day",
     "duration": "1 Day",
-    "location": "Taxila, Punjab",
+    "location": "Pakistan",
     "maxGroup": "Private & Group Options",
-    "difficulty": "Easy / Cultural",
+    "difficulty": "Easy / Moderate",
     "image": "images/city-tours/tour_50.jpg",
     "price": "14,000",
     "originalPrice": "16,100",
-    "departureDay": "Daily Private Departures & Weekly Group Departures",
-    "about": "Experience the official Taxila Tour (Day Trip from Islamabad)   – 01 Day with Safar Silsila. This curated excursion offers an unforgettable journey through ancient heritage, vibrant local culture, stunning landscapes, and legendary culinary delights. Guided by certified local historians and travel experts, with private air-conditioned vehicles, full ticket entry logistics, and official visa assistance.",
+    "departureDay": "Daily Private Departures & Fixed Group Departures",
+    "about": "Experience Taxila Tour (Day Trip from Islamabad) – 01 Day with Safar Silsila. This curated itinerary offers a complete journey through iconic landmarks, rich local culture, breathtaking scenery, and legendary regional cuisine. Includes professional guide, luxury AC transport, full ticket entry logistics, and official visa support.",
     "highlights": [
-      "Full guided excursion for Taxila Tour (Day Trip from Islamabad)   – 01 Day",
-      "Private air-conditioned luxury transport with professional driver & fuel",
-      "Sightseeing at historical monuments, bazaars & scenic viewpoints",
-      "Authentic local food & tea tasting experiences",
-      "Full ticket entry passes & VIP protocol assistance",
+      "Complete guided excursion for Taxila Tour (Day Trip from Islamabad) – 01 Day",
+      "Private AC transport with driver, fuel, tolls & parking",
+      "Sightseeing at historical monuments, bazaars & viewpoints",
+      "Authentic regional food & tea tasting",
       "24/7 dedicated travel concierge & emergency support"
     ],
     "itinerary": [
@@ -5671,7 +5623,7 @@ if (window.TOUR_DATA) {
       {
         "day": "Afternoon",
         "title": "Guided Monument & Activity Exploration",
-        "desc": "Arrive at destination. Guided tour of key monuments, scenic viewpoints, water sports activities, and photography stops."
+        "desc": "Arrive at destination. Guided tour of key monuments, scenic viewpoints, water activities, and photography stops."
       },
       {
         "day": "Evening",
@@ -5683,7 +5635,7 @@ if (window.TOUR_DATA) {
       "Private AC Transport (Car / Prado / Coaster) with driver & fuel",
       "Official Tour Guide & Historian Services",
       "All Toll Taxes, Parking & Highway Charges",
-      "Complimentary Mineral Water & Tea",
+      "Complimentary Mineral Water & Refreshments",
       "Hotel Pickup & Drop-off Services"
     ],
     "exclusions": [
@@ -5693,44 +5645,44 @@ if (window.TOUR_DATA) {
     ],
     "packages": [
       {
-        "name": "Sedan Car Option (Up to 3 Persons)",
+        "name": "Standard Package",
         "price": "14,000",
         "status": "available",
         "features": [
-          "Toyota Corolla / Honda City",
-          "Driver & Fuel Included",
-          "Hotel Pickup & Drop-off"
+          "AC Coaster / Sedan Transport",
+          "Standard Hotel / Day Trip",
+          "Driver & Fuel Included"
         ]
       },
       {
-        "name": "SUV / Prado Option (Up to 5 Persons)",
-        "price": "18,000",
+        "name": "Deluxe Package",
+        "price": "18,900",
         "status": "available",
         "features": [
-          "Toyota Prado / BRV SUV",
-          "Driver & Fuel Included",
-          "Luxury Reclining Seats"
+          "AC Grand Cabin / Prado",
+          "Deluxe Hotel / Private Guide",
+          "Full Inclusions"
         ]
       },
       {
-        "name": "Coaster / HiAce Option (Groups)",
-        "price": "24,000",
+        "name": "Executive Package",
+        "price": "24,500",
         "status": "available",
         "features": [
-          "22-Seater Coaster / Grand Cabin",
-          "Driver & Fuel Included",
-          "Ideal for Family & Corporate Groups"
+          "Luxury 4x4 Prado / SUV",
+          "Luxury 4-Star / 5-Star Hotel",
+          "VIP Concierge & Protocol"
         ]
       }
     ],
     "faqs": [
       {
-        "q": "What is included in the private tour pricing?",
+        "q": "What is included in the tour pricing?",
         "a": "Pricing includes private AC transport, professional driver, fuel, highway tolls, parking fees, and guide assistance."
       },
       {
-        "q": "Can this tour be customized for specific dates or pick-up locations?",
-        "a": "Yes! All city tours can be customized for your exact pick-up location, time, and special itinerary preferences."
+        "q": "Can this tour be customized?",
+        "a": "Yes! All tours can be customized for your exact pick-up location, time, and special itinerary preferences."
       },
       {
         "q": "How do I book or confirm my reservation?",
@@ -5738,24 +5690,23 @@ if (window.TOUR_DATA) {
       }
     ]
   },
-  "city-tour-51": {
-    "id": "city-tour-51",
+  "city-51": {
+    "id": "city-51",
     "title": "Gurdwara Panja Sahib Tour (Day Trip from Islamabad) – 01 Day",
     "duration": "1 Day",
-    "location": "Islamabad & Northern Pakistan",
+    "location": "Pakistan",
     "maxGroup": "Private & Group Options",
-    "difficulty": "Easy / Cultural",
+    "difficulty": "Easy / Moderate",
     "image": "images/city-tours/tour_51.jpg",
     "price": "14,000",
     "originalPrice": "16,100",
-    "departureDay": "Daily Private Departures & Weekly Group Departures",
-    "about": "Experience the official Gurdwara Panja Sahib Tour (Day Trip from Islamabad) – 01 Day with Safar Silsila. This curated excursion offers an unforgettable journey through ancient heritage, vibrant local culture, stunning landscapes, and legendary culinary delights. Guided by certified local historians and travel experts, with private air-conditioned vehicles, full ticket entry logistics, and official visa assistance.",
+    "departureDay": "Daily Private Departures & Fixed Group Departures",
+    "about": "Experience Gurdwara Panja Sahib Tour (Day Trip from Islamabad) – 01 Day with Safar Silsila. This curated itinerary offers a complete journey through iconic landmarks, rich local culture, breathtaking scenery, and legendary regional cuisine. Includes professional guide, luxury AC transport, full ticket entry logistics, and official visa support.",
     "highlights": [
-      "Full guided excursion for Gurdwara Panja Sahib Tour (Day Trip from Islamabad) – 01 Day",
-      "Private air-conditioned luxury transport with professional driver & fuel",
-      "Sightseeing at historical monuments, bazaars & scenic viewpoints",
-      "Authentic local food & tea tasting experiences",
-      "Full ticket entry passes & VIP protocol assistance",
+      "Complete guided excursion for Gurdwara Panja Sahib Tour (Day Trip from Islamabad) – 01 Day",
+      "Private AC transport with driver, fuel, tolls & parking",
+      "Sightseeing at historical monuments, bazaars & viewpoints",
+      "Authentic regional food & tea tasting",
       "24/7 dedicated travel concierge & emergency support"
     ],
     "itinerary": [
@@ -5767,7 +5718,7 @@ if (window.TOUR_DATA) {
       {
         "day": "Afternoon",
         "title": "Guided Monument & Activity Exploration",
-        "desc": "Arrive at destination. Guided tour of key monuments, scenic viewpoints, water sports activities, and photography stops."
+        "desc": "Arrive at destination. Guided tour of key monuments, scenic viewpoints, water activities, and photography stops."
       },
       {
         "day": "Evening",
@@ -5779,7 +5730,7 @@ if (window.TOUR_DATA) {
       "Private AC Transport (Car / Prado / Coaster) with driver & fuel",
       "Official Tour Guide & Historian Services",
       "All Toll Taxes, Parking & Highway Charges",
-      "Complimentary Mineral Water & Tea",
+      "Complimentary Mineral Water & Refreshments",
       "Hotel Pickup & Drop-off Services"
     ],
     "exclusions": [
@@ -5789,44 +5740,44 @@ if (window.TOUR_DATA) {
     ],
     "packages": [
       {
-        "name": "Sedan Car Option (Up to 3 Persons)",
+        "name": "Standard Package",
         "price": "14,000",
         "status": "available",
         "features": [
-          "Toyota Corolla / Honda City",
-          "Driver & Fuel Included",
-          "Hotel Pickup & Drop-off"
+          "AC Coaster / Sedan Transport",
+          "Standard Hotel / Day Trip",
+          "Driver & Fuel Included"
         ]
       },
       {
-        "name": "SUV / Prado Option (Up to 5 Persons)",
-        "price": "18,000",
+        "name": "Deluxe Package",
+        "price": "18,900",
         "status": "available",
         "features": [
-          "Toyota Prado / BRV SUV",
-          "Driver & Fuel Included",
-          "Luxury Reclining Seats"
+          "AC Grand Cabin / Prado",
+          "Deluxe Hotel / Private Guide",
+          "Full Inclusions"
         ]
       },
       {
-        "name": "Coaster / HiAce Option (Groups)",
-        "price": "24,000",
+        "name": "Executive Package",
+        "price": "24,500",
         "status": "available",
         "features": [
-          "22-Seater Coaster / Grand Cabin",
-          "Driver & Fuel Included",
-          "Ideal for Family & Corporate Groups"
+          "Luxury 4x4 Prado / SUV",
+          "Luxury 4-Star / 5-Star Hotel",
+          "VIP Concierge & Protocol"
         ]
       }
     ],
     "faqs": [
       {
-        "q": "What is included in the private tour pricing?",
+        "q": "What is included in the tour pricing?",
         "a": "Pricing includes private AC transport, professional driver, fuel, highway tolls, parking fees, and guide assistance."
       },
       {
-        "q": "Can this tour be customized for specific dates or pick-up locations?",
-        "a": "Yes! All city tours can be customized for your exact pick-up location, time, and special itinerary preferences."
+        "q": "Can this tour be customized?",
+        "a": "Yes! All tours can be customized for your exact pick-up location, time, and special itinerary preferences."
       },
       {
         "q": "How do I book or confirm my reservation?",
@@ -5834,24 +5785,23 @@ if (window.TOUR_DATA) {
       }
     ]
   },
-  "city-tour-52": {
-    "id": "city-tour-52",
-    "title": "Katas Raj & Kallar Kahar Tour (Day Trip from Islamabad)  – 01 Day",
+  "city-52": {
+    "id": "city-52",
+    "title": "Katas Raj & Kallar Kahar Tour (Day Trip from Islamabad) – 01 Day",
     "duration": "1 Day",
-    "location": "Islamabad & Northern Pakistan",
+    "location": "Pakistan",
     "maxGroup": "Private & Group Options",
-    "difficulty": "Easy / Cultural",
+    "difficulty": "Easy / Moderate",
     "image": "images/city-tours/tour_52.jpg",
     "price": "14,000",
     "originalPrice": "16,100",
-    "departureDay": "Daily Private Departures & Weekly Group Departures",
-    "about": "Experience the official Katas Raj & Kallar Kahar Tour (Day Trip from Islamabad)  – 01 Day with Safar Silsila. This curated excursion offers an unforgettable journey through ancient heritage, vibrant local culture, stunning landscapes, and legendary culinary delights. Guided by certified local historians and travel experts, with private air-conditioned vehicles, full ticket entry logistics, and official visa assistance.",
+    "departureDay": "Daily Private Departures & Fixed Group Departures",
+    "about": "Experience Katas Raj & Kallar Kahar Tour (Day Trip from Islamabad) – 01 Day with Safar Silsila. This curated itinerary offers a complete journey through iconic landmarks, rich local culture, breathtaking scenery, and legendary regional cuisine. Includes professional guide, luxury AC transport, full ticket entry logistics, and official visa support.",
     "highlights": [
-      "Full guided excursion for Katas Raj & Kallar Kahar Tour (Day Trip from Islamabad)  – 01 Day",
-      "Private air-conditioned luxury transport with professional driver & fuel",
-      "Sightseeing at historical monuments, bazaars & scenic viewpoints",
-      "Authentic local food & tea tasting experiences",
-      "Full ticket entry passes & VIP protocol assistance",
+      "Complete guided excursion for Katas Raj & Kallar Kahar Tour (Day Trip from Islamabad) – 01 Day",
+      "Private AC transport with driver, fuel, tolls & parking",
+      "Sightseeing at historical monuments, bazaars & viewpoints",
+      "Authentic regional food & tea tasting",
       "24/7 dedicated travel concierge & emergency support"
     ],
     "itinerary": [
@@ -5863,7 +5813,7 @@ if (window.TOUR_DATA) {
       {
         "day": "Afternoon",
         "title": "Guided Monument & Activity Exploration",
-        "desc": "Arrive at destination. Guided tour of key monuments, scenic viewpoints, water sports activities, and photography stops."
+        "desc": "Arrive at destination. Guided tour of key monuments, scenic viewpoints, water activities, and photography stops."
       },
       {
         "day": "Evening",
@@ -5875,7 +5825,7 @@ if (window.TOUR_DATA) {
       "Private AC Transport (Car / Prado / Coaster) with driver & fuel",
       "Official Tour Guide & Historian Services",
       "All Toll Taxes, Parking & Highway Charges",
-      "Complimentary Mineral Water & Tea",
+      "Complimentary Mineral Water & Refreshments",
       "Hotel Pickup & Drop-off Services"
     ],
     "exclusions": [
@@ -5885,44 +5835,11359 @@ if (window.TOUR_DATA) {
     ],
     "packages": [
       {
-        "name": "Sedan Car Option (Up to 3 Persons)",
+        "name": "Standard Package",
         "price": "14,000",
         "status": "available",
         "features": [
-          "Toyota Corolla / Honda City",
-          "Driver & Fuel Included",
-          "Hotel Pickup & Drop-off"
+          "AC Coaster / Sedan Transport",
+          "Standard Hotel / Day Trip",
+          "Driver & Fuel Included"
         ]
       },
       {
-        "name": "SUV / Prado Option (Up to 5 Persons)",
-        "price": "18,000",
+        "name": "Deluxe Package",
+        "price": "18,900",
         "status": "available",
         "features": [
-          "Toyota Prado / BRV SUV",
-          "Driver & Fuel Included",
-          "Luxury Reclining Seats"
+          "AC Grand Cabin / Prado",
+          "Deluxe Hotel / Private Guide",
+          "Full Inclusions"
         ]
       },
       {
-        "name": "Coaster / HiAce Option (Groups)",
-        "price": "24,000",
+        "name": "Executive Package",
+        "price": "24,500",
         "status": "available",
         "features": [
-          "22-Seater Coaster / Grand Cabin",
-          "Driver & Fuel Included",
-          "Ideal for Family & Corporate Groups"
+          "Luxury 4x4 Prado / SUV",
+          "Luxury 4-Star / 5-Star Hotel",
+          "VIP Concierge & Protocol"
         ]
       }
     ],
     "faqs": [
       {
-        "q": "What is included in the private tour pricing?",
+        "q": "What is included in the tour pricing?",
         "a": "Pricing includes private AC transport, professional driver, fuel, highway tolls, parking fees, and guide assistance."
       },
       {
-        "q": "Can this tour be customized for specific dates or pick-up locations?",
-        "a": "Yes! All city tours can be customized for your exact pick-up location, time, and special itinerary preferences."
+        "q": "Can this tour be customized?",
+        "a": "Yes! All tours can be customized for your exact pick-up location, time, and special itinerary preferences."
+      },
+      {
+        "q": "How do I book or confirm my reservation?",
+        "a": "You can book directly by clicking 'Book Now' or contacting our 24/7 WhatsApp concierge at +92 311 1145456."
+      }
+    ]
+  },
+  "festivals-1": {
+    "id": "festivals-1",
+    "title": "Shandur Polo Festival",
+    "duration": "14 Days 13 Nights",
+    "location": "Pakistan",
+    "maxGroup": "Private & Group Options",
+    "difficulty": "Easy / Moderate",
+    "image": "images/festivals/item_1.webp",
+    "price": "495,000",
+    "originalPrice": "569,250",
+    "departureDay": "Daily Private Departures & Fixed Group Departures",
+    "about": "Experience Shandur Polo Festival with Safar Silsila. This curated itinerary offers a complete journey through iconic landmarks, rich local culture, breathtaking scenery, and legendary regional cuisine. Includes professional guide, luxury AC transport, full ticket entry logistics, and official visa support.",
+    "highlights": [
+      "Complete guided excursion for Shandur Polo Festival",
+      "Private AC transport with driver, fuel, tolls & parking",
+      "Sightseeing at historical monuments, bazaars & viewpoints",
+      "Authentic regional food & tea tasting",
+      "24/7 dedicated travel concierge & emergency support"
+    ],
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "title": "Arrival & City Orientation",
+        "desc": "Pickup from hotel/airport. Orientation drive through historic landmarks, visit local bazaars, and enjoy welcome dinner."
+      },
+      {
+        "day": "Day 2",
+        "title": "Monuments & Cultural Sightseeing",
+        "desc": "Full day guided exploration of major historical monuments, ancient forts, and museum archives with expert local guide."
+      },
+      {
+        "day": "Day 3",
+        "title": "Scenic Valleys & Local Artisans",
+        "desc": "Visit artisan workshops, local markets, and surrounding natural viewpoints. Evening food street dinner."
+      },
+      {
+        "day": "Day 4",
+        "title": "Final Excursions & Departure",
+        "desc": "Morning shopping and photography tour. Drop-off at airport or hotel with fond memories."
+      }
+    ],
+    "inclusions": [
+      "Private AC Transport (Car / Prado / Coaster) with driver & fuel",
+      "Official Tour Guide & Historian Services",
+      "All Toll Taxes, Parking & Highway Charges",
+      "Complimentary Mineral Water & Refreshments",
+      "Hotel Pickup & Drop-off Services"
+    ],
+    "exclusions": [
+      "Personal shopping & optional activities",
+      "Boating, water sports or chairlift tickets (unless specified)",
+      "Tips for guide & driver"
+    ],
+    "packages": [
+      {
+        "name": "Standard Package",
+        "price": "495,000",
+        "status": "available",
+        "features": [
+          "AC Coaster / Sedan Transport",
+          "Standard Hotel / Day Trip",
+          "Driver & Fuel Included"
+        ]
+      },
+      {
+        "name": "Deluxe Package",
+        "price": "668,250",
+        "status": "available",
+        "features": [
+          "AC Grand Cabin / Prado",
+          "Deluxe Hotel / Private Guide",
+          "Full Inclusions"
+        ]
+      },
+      {
+        "name": "Executive Package",
+        "price": "866,250",
+        "status": "available",
+        "features": [
+          "Luxury 4x4 Prado / SUV",
+          "Luxury 4-Star / 5-Star Hotel",
+          "VIP Concierge & Protocol"
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "q": "What is included in the tour pricing?",
+        "a": "Pricing includes private AC transport, professional driver, fuel, highway tolls, parking fees, and guide assistance."
+      },
+      {
+        "q": "Can this tour be customized?",
+        "a": "Yes! All tours can be customized for your exact pick-up location, time, and special itinerary preferences."
+      },
+      {
+        "q": "How do I book or confirm my reservation?",
+        "a": "You can book directly by clicking 'Book Now' or contacting our 24/7 WhatsApp concierge at +92 311 1145456."
+      }
+    ]
+  },
+  "festivals-2": {
+    "id": "festivals-2",
+    "title": "Shogun Bohor Festival Tour – A Celebration of Culture & Heritage",
+    "duration": "5 Days 4 Nights",
+    "location": "Pakistan",
+    "maxGroup": "Private & Group Options",
+    "difficulty": "Easy / Moderate",
+    "image": "images/festivals/item_2.webp",
+    "price": "140,000",
+    "originalPrice": "161,000",
+    "departureDay": "Daily Private Departures & Fixed Group Departures",
+    "about": "Experience Shogun Bohor Festival Tour – A Celebration of Culture & Heritage with Safar Silsila. This curated itinerary offers a complete journey through iconic landmarks, rich local culture, breathtaking scenery, and legendary regional cuisine. Includes professional guide, luxury AC transport, full ticket entry logistics, and official visa support.",
+    "highlights": [
+      "Complete guided excursion for Shogun Bohor Festival Tour – A Celebration of Culture & Heritage",
+      "Private AC transport with driver, fuel, tolls & parking",
+      "Sightseeing at historical monuments, bazaars & viewpoints",
+      "Authentic regional food & tea tasting",
+      "24/7 dedicated travel concierge & emergency support"
+    ],
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "title": "Arrival & City Orientation",
+        "desc": "Pickup from hotel/airport. Orientation drive through historic landmarks, visit local bazaars, and enjoy welcome dinner."
+      },
+      {
+        "day": "Day 2",
+        "title": "Monuments & Cultural Sightseeing",
+        "desc": "Full day guided exploration of major historical monuments, ancient forts, and museum archives with expert local guide."
+      },
+      {
+        "day": "Day 3",
+        "title": "Scenic Valleys & Local Artisans",
+        "desc": "Visit artisan workshops, local markets, and surrounding natural viewpoints. Evening food street dinner."
+      },
+      {
+        "day": "Day 4",
+        "title": "Final Excursions & Departure",
+        "desc": "Morning shopping and photography tour. Drop-off at airport or hotel with fond memories."
+      }
+    ],
+    "inclusions": [
+      "Private AC Transport (Car / Prado / Coaster) with driver & fuel",
+      "Official Tour Guide & Historian Services",
+      "All Toll Taxes, Parking & Highway Charges",
+      "Complimentary Mineral Water & Refreshments",
+      "Hotel Pickup & Drop-off Services"
+    ],
+    "exclusions": [
+      "Personal shopping & optional activities",
+      "Boating, water sports or chairlift tickets (unless specified)",
+      "Tips for guide & driver"
+    ],
+    "packages": [
+      {
+        "name": "Standard Package",
+        "price": "140,000",
+        "status": "available",
+        "features": [
+          "AC Coaster / Sedan Transport",
+          "Standard Hotel / Day Trip",
+          "Driver & Fuel Included"
+        ]
+      },
+      {
+        "name": "Deluxe Package",
+        "price": "189,000",
+        "status": "available",
+        "features": [
+          "AC Grand Cabin / Prado",
+          "Deluxe Hotel / Private Guide",
+          "Full Inclusions"
+        ]
+      },
+      {
+        "name": "Executive Package",
+        "price": "245,000",
+        "status": "available",
+        "features": [
+          "Luxury 4x4 Prado / SUV",
+          "Luxury 4-Star / 5-Star Hotel",
+          "VIP Concierge & Protocol"
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "q": "What is included in the tour pricing?",
+        "a": "Pricing includes private AC transport, professional driver, fuel, highway tolls, parking fees, and guide assistance."
+      },
+      {
+        "q": "Can this tour be customized?",
+        "a": "Yes! All tours can be customized for your exact pick-up location, time, and special itinerary preferences."
+      },
+      {
+        "q": "How do I book or confirm my reservation?",
+        "a": "You can book directly by clicking 'Book Now' or contacting our 24/7 WhatsApp concierge at +92 311 1145456."
+      }
+    ]
+  },
+  "festivals-3": {
+    "id": "festivals-3",
+    "title": "Ko-Polo Hurchus Valley Winter Sports",
+    "duration": "6 Days 5 Nigts",
+    "location": "Pakistan",
+    "maxGroup": "Private & Group Options",
+    "difficulty": "Easy / Moderate",
+    "image": "images/festivals/item_3.webp",
+    "price": "180,000",
+    "originalPrice": "207,000",
+    "departureDay": "Daily Private Departures & Fixed Group Departures",
+    "about": "Experience Ko-Polo Hurchus Valley Winter Sports with Safar Silsila. This curated itinerary offers a complete journey through iconic landmarks, rich local culture, breathtaking scenery, and legendary regional cuisine. Includes professional guide, luxury AC transport, full ticket entry logistics, and official visa support.",
+    "highlights": [
+      "Complete guided excursion for Ko-Polo Hurchus Valley Winter Sports",
+      "Private AC transport with driver, fuel, tolls & parking",
+      "Sightseeing at historical monuments, bazaars & viewpoints",
+      "Authentic regional food & tea tasting",
+      "24/7 dedicated travel concierge & emergency support"
+    ],
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "title": "Arrival & City Orientation",
+        "desc": "Pickup from hotel/airport. Orientation drive through historic landmarks, visit local bazaars, and enjoy welcome dinner."
+      },
+      {
+        "day": "Day 2",
+        "title": "Monuments & Cultural Sightseeing",
+        "desc": "Full day guided exploration of major historical monuments, ancient forts, and museum archives with expert local guide."
+      },
+      {
+        "day": "Day 3",
+        "title": "Scenic Valleys & Local Artisans",
+        "desc": "Visit artisan workshops, local markets, and surrounding natural viewpoints. Evening food street dinner."
+      },
+      {
+        "day": "Day 4",
+        "title": "Final Excursions & Departure",
+        "desc": "Morning shopping and photography tour. Drop-off at airport or hotel with fond memories."
+      }
+    ],
+    "inclusions": [
+      "Private AC Transport (Car / Prado / Coaster) with driver & fuel",
+      "Official Tour Guide & Historian Services",
+      "All Toll Taxes, Parking & Highway Charges",
+      "Complimentary Mineral Water & Refreshments",
+      "Hotel Pickup & Drop-off Services"
+    ],
+    "exclusions": [
+      "Personal shopping & optional activities",
+      "Boating, water sports or chairlift tickets (unless specified)",
+      "Tips for guide & driver"
+    ],
+    "packages": [
+      {
+        "name": "Standard Package",
+        "price": "180,000",
+        "status": "available",
+        "features": [
+          "AC Coaster / Sedan Transport",
+          "Standard Hotel / Day Trip",
+          "Driver & Fuel Included"
+        ]
+      },
+      {
+        "name": "Deluxe Package",
+        "price": "243,000",
+        "status": "available",
+        "features": [
+          "AC Grand Cabin / Prado",
+          "Deluxe Hotel / Private Guide",
+          "Full Inclusions"
+        ]
+      },
+      {
+        "name": "Executive Package",
+        "price": "315,000",
+        "status": "available",
+        "features": [
+          "Luxury 4x4 Prado / SUV",
+          "Luxury 4-Star / 5-Star Hotel",
+          "VIP Concierge & Protocol"
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "q": "What is included in the tour pricing?",
+        "a": "Pricing includes private AC transport, professional driver, fuel, highway tolls, parking fees, and guide assistance."
+      },
+      {
+        "q": "Can this tour be customized?",
+        "a": "Yes! All tours can be customized for your exact pick-up location, time, and special itinerary preferences."
+      },
+      {
+        "q": "How do I book or confirm my reservation?",
+        "a": "You can book directly by clicking 'Book Now' or contacting our 24/7 WhatsApp concierge at +92 311 1145456."
+      }
+    ]
+  },
+  "festivals-4": {
+    "id": "festivals-4",
+    "title": "Shyok Winter Festival: Celebrate the Magic of Winter",
+    "duration": "5 Days 4 Nights",
+    "location": "Pakistan",
+    "maxGroup": "Private & Group Options",
+    "difficulty": "Easy / Moderate",
+    "image": "images/festivals/item_4.webp",
+    "price": "150,000",
+    "originalPrice": "172,500",
+    "departureDay": "Daily Private Departures & Fixed Group Departures",
+    "about": "Experience Shyok Winter Festival: Celebrate the Magic of Winter with Safar Silsila. This curated itinerary offers a complete journey through iconic landmarks, rich local culture, breathtaking scenery, and legendary regional cuisine. Includes professional guide, luxury AC transport, full ticket entry logistics, and official visa support.",
+    "highlights": [
+      "Complete guided excursion for Shyok Winter Festival: Celebrate the Magic of Winter",
+      "Private AC transport with driver, fuel, tolls & parking",
+      "Sightseeing at historical monuments, bazaars & viewpoints",
+      "Authentic regional food & tea tasting",
+      "24/7 dedicated travel concierge & emergency support"
+    ],
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "title": "Arrival & City Orientation",
+        "desc": "Pickup from hotel/airport. Orientation drive through historic landmarks, visit local bazaars, and enjoy welcome dinner."
+      },
+      {
+        "day": "Day 2",
+        "title": "Monuments & Cultural Sightseeing",
+        "desc": "Full day guided exploration of major historical monuments, ancient forts, and museum archives with expert local guide."
+      },
+      {
+        "day": "Day 3",
+        "title": "Scenic Valleys & Local Artisans",
+        "desc": "Visit artisan workshops, local markets, and surrounding natural viewpoints. Evening food street dinner."
+      },
+      {
+        "day": "Day 4",
+        "title": "Final Excursions & Departure",
+        "desc": "Morning shopping and photography tour. Drop-off at airport or hotel with fond memories."
+      }
+    ],
+    "inclusions": [
+      "Private AC Transport (Car / Prado / Coaster) with driver & fuel",
+      "Official Tour Guide & Historian Services",
+      "All Toll Taxes, Parking & Highway Charges",
+      "Complimentary Mineral Water & Refreshments",
+      "Hotel Pickup & Drop-off Services"
+    ],
+    "exclusions": [
+      "Personal shopping & optional activities",
+      "Boating, water sports or chairlift tickets (unless specified)",
+      "Tips for guide & driver"
+    ],
+    "packages": [
+      {
+        "name": "Standard Package",
+        "price": "150,000",
+        "status": "available",
+        "features": [
+          "AC Coaster / Sedan Transport",
+          "Standard Hotel / Day Trip",
+          "Driver & Fuel Included"
+        ]
+      },
+      {
+        "name": "Deluxe Package",
+        "price": "202,500",
+        "status": "available",
+        "features": [
+          "AC Grand Cabin / Prado",
+          "Deluxe Hotel / Private Guide",
+          "Full Inclusions"
+        ]
+      },
+      {
+        "name": "Executive Package",
+        "price": "262,500",
+        "status": "available",
+        "features": [
+          "Luxury 4x4 Prado / SUV",
+          "Luxury 4-Star / 5-Star Hotel",
+          "VIP Concierge & Protocol"
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "q": "What is included in the tour pricing?",
+        "a": "Pricing includes private AC transport, professional driver, fuel, highway tolls, parking fees, and guide assistance."
+      },
+      {
+        "q": "Can this tour be customized?",
+        "a": "Yes! All tours can be customized for your exact pick-up location, time, and special itinerary preferences."
+      },
+      {
+        "q": "How do I book or confirm my reservation?",
+        "a": "You can book directly by clicking 'Book Now' or contacting our 24/7 WhatsApp concierge at +92 311 1145456."
+      }
+    ]
+  },
+  "festivals-5": {
+    "id": "festivals-5",
+    "title": "Jashan-e-Gultari: Celebrate Spring with Nature’s Beauty",
+    "duration": "7 Days 6 Nights",
+    "location": "Pakistan",
+    "maxGroup": "Private & Group Options",
+    "difficulty": "Easy / Moderate",
+    "image": "images/festivals/item_5.webp",
+    "price": "215,000",
+    "originalPrice": "247,250",
+    "departureDay": "Daily Private Departures & Fixed Group Departures",
+    "about": "Experience Jashan-e-Gultari: Celebrate Spring with Nature’s Beauty with Safar Silsila. This curated itinerary offers a complete journey through iconic landmarks, rich local culture, breathtaking scenery, and legendary regional cuisine. Includes professional guide, luxury AC transport, full ticket entry logistics, and official visa support.",
+    "highlights": [
+      "Complete guided excursion for Jashan-e-Gultari: Celebrate Spring with Nature’s Beauty",
+      "Private AC transport with driver, fuel, tolls & parking",
+      "Sightseeing at historical monuments, bazaars & viewpoints",
+      "Authentic regional food & tea tasting",
+      "24/7 dedicated travel concierge & emergency support"
+    ],
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "title": "Arrival & City Orientation",
+        "desc": "Pickup from hotel/airport. Orientation drive through historic landmarks, visit local bazaars, and enjoy welcome dinner."
+      },
+      {
+        "day": "Day 2",
+        "title": "Monuments & Cultural Sightseeing",
+        "desc": "Full day guided exploration of major historical monuments, ancient forts, and museum archives with expert local guide."
+      },
+      {
+        "day": "Day 3",
+        "title": "Scenic Valleys & Local Artisans",
+        "desc": "Visit artisan workshops, local markets, and surrounding natural viewpoints. Evening food street dinner."
+      },
+      {
+        "day": "Day 4",
+        "title": "Final Excursions & Departure",
+        "desc": "Morning shopping and photography tour. Drop-off at airport or hotel with fond memories."
+      }
+    ],
+    "inclusions": [
+      "Private AC Transport (Car / Prado / Coaster) with driver & fuel",
+      "Official Tour Guide & Historian Services",
+      "All Toll Taxes, Parking & Highway Charges",
+      "Complimentary Mineral Water & Refreshments",
+      "Hotel Pickup & Drop-off Services"
+    ],
+    "exclusions": [
+      "Personal shopping & optional activities",
+      "Boating, water sports or chairlift tickets (unless specified)",
+      "Tips for guide & driver"
+    ],
+    "packages": [
+      {
+        "name": "Standard Package",
+        "price": "215,000",
+        "status": "available",
+        "features": [
+          "AC Coaster / Sedan Transport",
+          "Standard Hotel / Day Trip",
+          "Driver & Fuel Included"
+        ]
+      },
+      {
+        "name": "Deluxe Package",
+        "price": "290,250",
+        "status": "available",
+        "features": [
+          "AC Grand Cabin / Prado",
+          "Deluxe Hotel / Private Guide",
+          "Full Inclusions"
+        ]
+      },
+      {
+        "name": "Executive Package",
+        "price": "376,250",
+        "status": "available",
+        "features": [
+          "Luxury 4x4 Prado / SUV",
+          "Luxury 4-Star / 5-Star Hotel",
+          "VIP Concierge & Protocol"
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "q": "What is included in the tour pricing?",
+        "a": "Pricing includes private AC transport, professional driver, fuel, highway tolls, parking fees, and guide assistance."
+      },
+      {
+        "q": "Can this tour be customized?",
+        "a": "Yes! All tours can be customized for your exact pick-up location, time, and special itinerary preferences."
+      },
+      {
+        "q": "How do I book or confirm my reservation?",
+        "a": "You can book directly by clicking 'Book Now' or contacting our 24/7 WhatsApp concierge at +92 311 1145456."
+      }
+    ]
+  },
+  "festivals-6": {
+    "id": "festivals-6",
+    "title": "Taghm Spring Festival: A Celebration of Culture and Nature",
+    "duration": "9 Days 8 Nights",
+    "location": "Pakistan",
+    "maxGroup": "Private & Group Options",
+    "difficulty": "Easy / Moderate",
+    "image": "images/festivals/item_6.webp",
+    "price": "260,000",
+    "originalPrice": "299,000",
+    "departureDay": "Daily Private Departures & Fixed Group Departures",
+    "about": "Experience Taghm Spring Festival: A Celebration of Culture and Nature with Safar Silsila. This curated itinerary offers a complete journey through iconic landmarks, rich local culture, breathtaking scenery, and legendary regional cuisine. Includes professional guide, luxury AC transport, full ticket entry logistics, and official visa support.",
+    "highlights": [
+      "Complete guided excursion for Taghm Spring Festival: A Celebration of Culture and Nature",
+      "Private AC transport with driver, fuel, tolls & parking",
+      "Sightseeing at historical monuments, bazaars & viewpoints",
+      "Authentic regional food & tea tasting",
+      "24/7 dedicated travel concierge & emergency support"
+    ],
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "title": "Arrival & City Orientation",
+        "desc": "Pickup from hotel/airport. Orientation drive through historic landmarks, visit local bazaars, and enjoy welcome dinner."
+      },
+      {
+        "day": "Day 2",
+        "title": "Monuments & Cultural Sightseeing",
+        "desc": "Full day guided exploration of major historical monuments, ancient forts, and museum archives with expert local guide."
+      },
+      {
+        "day": "Day 3",
+        "title": "Scenic Valleys & Local Artisans",
+        "desc": "Visit artisan workshops, local markets, and surrounding natural viewpoints. Evening food street dinner."
+      },
+      {
+        "day": "Day 4",
+        "title": "Final Excursions & Departure",
+        "desc": "Morning shopping and photography tour. Drop-off at airport or hotel with fond memories."
+      }
+    ],
+    "inclusions": [
+      "Private AC Transport (Car / Prado / Coaster) with driver & fuel",
+      "Official Tour Guide & Historian Services",
+      "All Toll Taxes, Parking & Highway Charges",
+      "Complimentary Mineral Water & Refreshments",
+      "Hotel Pickup & Drop-off Services"
+    ],
+    "exclusions": [
+      "Personal shopping & optional activities",
+      "Boating, water sports or chairlift tickets (unless specified)",
+      "Tips for guide & driver"
+    ],
+    "packages": [
+      {
+        "name": "Standard Package",
+        "price": "260,000",
+        "status": "available",
+        "features": [
+          "AC Coaster / Sedan Transport",
+          "Standard Hotel / Day Trip",
+          "Driver & Fuel Included"
+        ]
+      },
+      {
+        "name": "Deluxe Package",
+        "price": "351,000",
+        "status": "available",
+        "features": [
+          "AC Grand Cabin / Prado",
+          "Deluxe Hotel / Private Guide",
+          "Full Inclusions"
+        ]
+      },
+      {
+        "name": "Executive Package",
+        "price": "455,000",
+        "status": "available",
+        "features": [
+          "Luxury 4x4 Prado / SUV",
+          "Luxury 4-Star / 5-Star Hotel",
+          "VIP Concierge & Protocol"
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "q": "What is included in the tour pricing?",
+        "a": "Pricing includes private AC transport, professional driver, fuel, highway tolls, parking fees, and guide assistance."
+      },
+      {
+        "q": "Can this tour be customized?",
+        "a": "Yes! All tours can be customized for your exact pick-up location, time, and special itinerary preferences."
+      },
+      {
+        "q": "How do I book or confirm my reservation?",
+        "a": "You can book directly by clicking 'Book Now' or contacting our 24/7 WhatsApp concierge at +92 311 1145456."
+      }
+    ]
+  },
+  "festivals-7": {
+    "id": "festivals-7",
+    "title": "Sut Das Darel Festival – An Unforgettable Cultural Journey",
+    "duration": "9 Days 8 Nights",
+    "location": "Pakistan",
+    "maxGroup": "Private & Group Options",
+    "difficulty": "Easy / Moderate",
+    "image": "images/festivals/item_7.webp",
+    "price": "35,000",
+    "originalPrice": "40,250",
+    "departureDay": "Daily Private Departures & Fixed Group Departures",
+    "about": "Experience Sut Das Darel Festival – An Unforgettable Cultural Journey with Safar Silsila. This curated itinerary offers a complete journey through iconic landmarks, rich local culture, breathtaking scenery, and legendary regional cuisine. Includes professional guide, luxury AC transport, full ticket entry logistics, and official visa support.",
+    "highlights": [
+      "Complete guided excursion for Sut Das Darel Festival – An Unforgettable Cultural Journey",
+      "Private AC transport with driver, fuel, tolls & parking",
+      "Sightseeing at historical monuments, bazaars & viewpoints",
+      "Authentic regional food & tea tasting",
+      "24/7 dedicated travel concierge & emergency support"
+    ],
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "title": "Arrival & City Orientation",
+        "desc": "Pickup from hotel/airport. Orientation drive through historic landmarks, visit local bazaars, and enjoy welcome dinner."
+      },
+      {
+        "day": "Day 2",
+        "title": "Monuments & Cultural Sightseeing",
+        "desc": "Full day guided exploration of major historical monuments, ancient forts, and museum archives with expert local guide."
+      },
+      {
+        "day": "Day 3",
+        "title": "Scenic Valleys & Local Artisans",
+        "desc": "Visit artisan workshops, local markets, and surrounding natural viewpoints. Evening food street dinner."
+      },
+      {
+        "day": "Day 4",
+        "title": "Final Excursions & Departure",
+        "desc": "Morning shopping and photography tour. Drop-off at airport or hotel with fond memories."
+      }
+    ],
+    "inclusions": [
+      "Private AC Transport (Car / Prado / Coaster) with driver & fuel",
+      "Official Tour Guide & Historian Services",
+      "All Toll Taxes, Parking & Highway Charges",
+      "Complimentary Mineral Water & Refreshments",
+      "Hotel Pickup & Drop-off Services"
+    ],
+    "exclusions": [
+      "Personal shopping & optional activities",
+      "Boating, water sports or chairlift tickets (unless specified)",
+      "Tips for guide & driver"
+    ],
+    "packages": [
+      {
+        "name": "Standard Package",
+        "price": "35,000",
+        "status": "available",
+        "features": [
+          "AC Coaster / Sedan Transport",
+          "Standard Hotel / Day Trip",
+          "Driver & Fuel Included"
+        ]
+      },
+      {
+        "name": "Deluxe Package",
+        "price": "47,250",
+        "status": "available",
+        "features": [
+          "AC Grand Cabin / Prado",
+          "Deluxe Hotel / Private Guide",
+          "Full Inclusions"
+        ]
+      },
+      {
+        "name": "Executive Package",
+        "price": "61,250",
+        "status": "available",
+        "features": [
+          "Luxury 4x4 Prado / SUV",
+          "Luxury 4-Star / 5-Star Hotel",
+          "VIP Concierge & Protocol"
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "q": "What is included in the tour pricing?",
+        "a": "Pricing includes private AC transport, professional driver, fuel, highway tolls, parking fees, and guide assistance."
+      },
+      {
+        "q": "Can this tour be customized?",
+        "a": "Yes! All tours can be customized for your exact pick-up location, time, and special itinerary preferences."
+      },
+      {
+        "q": "How do I book or confirm my reservation?",
+        "a": "You can book directly by clicking 'Book Now' or contacting our 24/7 WhatsApp concierge at +92 311 1145456."
+      }
+    ]
+  },
+  "festivals-8": {
+    "id": "festivals-8",
+    "title": "Hunza Winter Festival – A Magical 9-Day Adventure",
+    "duration": "9 Days 8 Nights",
+    "location": "Hunza Valley",
+    "maxGroup": "Private & Group Options",
+    "difficulty": "Easy / Moderate",
+    "image": "images/festivals/item_8.webp",
+    "price": "35,000",
+    "originalPrice": "40,250",
+    "departureDay": "Daily Private Departures & Fixed Group Departures",
+    "about": "Experience Hunza Winter Festival – A Magical 9-Day Adventure with Safar Silsila. This curated itinerary offers a complete journey through iconic landmarks, rich local culture, breathtaking scenery, and legendary regional cuisine. Includes professional guide, luxury AC transport, full ticket entry logistics, and official visa support.",
+    "highlights": [
+      "Complete guided excursion for Hunza Winter Festival – A Magical 9-Day Adventure",
+      "Private AC transport with driver, fuel, tolls & parking",
+      "Sightseeing at historical monuments, bazaars & viewpoints",
+      "Authentic regional food & tea tasting",
+      "24/7 dedicated travel concierge & emergency support"
+    ],
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "title": "Arrival & City Orientation",
+        "desc": "Pickup from hotel/airport. Orientation drive through historic landmarks, visit local bazaars, and enjoy welcome dinner."
+      },
+      {
+        "day": "Day 2",
+        "title": "Monuments & Cultural Sightseeing",
+        "desc": "Full day guided exploration of major historical monuments, ancient forts, and museum archives with expert local guide."
+      },
+      {
+        "day": "Day 3",
+        "title": "Scenic Valleys & Local Artisans",
+        "desc": "Visit artisan workshops, local markets, and surrounding natural viewpoints. Evening food street dinner."
+      },
+      {
+        "day": "Day 4",
+        "title": "Final Excursions & Departure",
+        "desc": "Morning shopping and photography tour. Drop-off at airport or hotel with fond memories."
+      }
+    ],
+    "inclusions": [
+      "Private AC Transport (Car / Prado / Coaster) with driver & fuel",
+      "Official Tour Guide & Historian Services",
+      "All Toll Taxes, Parking & Highway Charges",
+      "Complimentary Mineral Water & Refreshments",
+      "Hotel Pickup & Drop-off Services"
+    ],
+    "exclusions": [
+      "Personal shopping & optional activities",
+      "Boating, water sports or chairlift tickets (unless specified)",
+      "Tips for guide & driver"
+    ],
+    "packages": [
+      {
+        "name": "Standard Package",
+        "price": "35,000",
+        "status": "available",
+        "features": [
+          "AC Coaster / Sedan Transport",
+          "Standard Hotel / Day Trip",
+          "Driver & Fuel Included"
+        ]
+      },
+      {
+        "name": "Deluxe Package",
+        "price": "47,250",
+        "status": "available",
+        "features": [
+          "AC Grand Cabin / Prado",
+          "Deluxe Hotel / Private Guide",
+          "Full Inclusions"
+        ]
+      },
+      {
+        "name": "Executive Package",
+        "price": "61,250",
+        "status": "available",
+        "features": [
+          "Luxury 4x4 Prado / SUV",
+          "Luxury 4-Star / 5-Star Hotel",
+          "VIP Concierge & Protocol"
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "q": "What is included in the tour pricing?",
+        "a": "Pricing includes private AC transport, professional driver, fuel, highway tolls, parking fees, and guide assistance."
+      },
+      {
+        "q": "Can this tour be customized?",
+        "a": "Yes! All tours can be customized for your exact pick-up location, time, and special itinerary preferences."
+      },
+      {
+        "q": "How do I book or confirm my reservation?",
+        "a": "You can book directly by clicking 'Book Now' or contacting our 24/7 WhatsApp concierge at +92 311 1145456."
+      }
+    ]
+  },
+  "festivals-9": {
+    "id": "festivals-9",
+    "title": "Shimshal Kuch Festival – A 17-Day Cultural Experience",
+    "duration": "17 Days 16 Nights",
+    "location": "Pakistan",
+    "maxGroup": "Private & Group Options",
+    "difficulty": "Easy / Moderate",
+    "image": "images/festivals/item_9.webp",
+    "price": "35,000",
+    "originalPrice": "40,250",
+    "departureDay": "Daily Private Departures & Fixed Group Departures",
+    "about": "Experience Shimshal Kuch Festival – A 17-Day Cultural Experience with Safar Silsila. This curated itinerary offers a complete journey through iconic landmarks, rich local culture, breathtaking scenery, and legendary regional cuisine. Includes professional guide, luxury AC transport, full ticket entry logistics, and official visa support.",
+    "highlights": [
+      "Complete guided excursion for Shimshal Kuch Festival – A 17-Day Cultural Experience",
+      "Private AC transport with driver, fuel, tolls & parking",
+      "Sightseeing at historical monuments, bazaars & viewpoints",
+      "Authentic regional food & tea tasting",
+      "24/7 dedicated travel concierge & emergency support"
+    ],
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "title": "Arrival & City Orientation",
+        "desc": "Pickup from hotel/airport. Orientation drive through historic landmarks, visit local bazaars, and enjoy welcome dinner."
+      },
+      {
+        "day": "Day 2",
+        "title": "Monuments & Cultural Sightseeing",
+        "desc": "Full day guided exploration of major historical monuments, ancient forts, and museum archives with expert local guide."
+      },
+      {
+        "day": "Day 3",
+        "title": "Scenic Valleys & Local Artisans",
+        "desc": "Visit artisan workshops, local markets, and surrounding natural viewpoints. Evening food street dinner."
+      },
+      {
+        "day": "Day 4",
+        "title": "Final Excursions & Departure",
+        "desc": "Morning shopping and photography tour. Drop-off at airport or hotel with fond memories."
+      }
+    ],
+    "inclusions": [
+      "Private AC Transport (Car / Prado / Coaster) with driver & fuel",
+      "Official Tour Guide & Historian Services",
+      "All Toll Taxes, Parking & Highway Charges",
+      "Complimentary Mineral Water & Refreshments",
+      "Hotel Pickup & Drop-off Services"
+    ],
+    "exclusions": [
+      "Personal shopping & optional activities",
+      "Boating, water sports or chairlift tickets (unless specified)",
+      "Tips for guide & driver"
+    ],
+    "packages": [
+      {
+        "name": "Standard Package",
+        "price": "35,000",
+        "status": "available",
+        "features": [
+          "AC Coaster / Sedan Transport",
+          "Standard Hotel / Day Trip",
+          "Driver & Fuel Included"
+        ]
+      },
+      {
+        "name": "Deluxe Package",
+        "price": "47,250",
+        "status": "available",
+        "features": [
+          "AC Grand Cabin / Prado",
+          "Deluxe Hotel / Private Guide",
+          "Full Inclusions"
+        ]
+      },
+      {
+        "name": "Executive Package",
+        "price": "61,250",
+        "status": "available",
+        "features": [
+          "Luxury 4x4 Prado / SUV",
+          "Luxury 4-Star / 5-Star Hotel",
+          "VIP Concierge & Protocol"
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "q": "What is included in the tour pricing?",
+        "a": "Pricing includes private AC transport, professional driver, fuel, highway tolls, parking fees, and guide assistance."
+      },
+      {
+        "q": "Can this tour be customized?",
+        "a": "Yes! All tours can be customized for your exact pick-up location, time, and special itinerary preferences."
+      },
+      {
+        "q": "How do I book or confirm my reservation?",
+        "a": "You can book directly by clicking 'Book Now' or contacting our 24/7 WhatsApp concierge at +92 311 1145456."
+      }
+    ]
+  },
+  "festivals-10": {
+    "id": "festivals-10",
+    "title": "Sikh Pilgrimages – 10 Days",
+    "duration": "10 Days 9 Nights",
+    "location": "Pakistan",
+    "maxGroup": "Private & Group Options",
+    "difficulty": "Easy / Moderate",
+    "image": "images/festivals/item_10.jpg",
+    "price": "35,000",
+    "originalPrice": "40,250",
+    "departureDay": "Daily Private Departures & Fixed Group Departures",
+    "about": "Experience Sikh Pilgrimages – 10 Days with Safar Silsila. This curated itinerary offers a complete journey through iconic landmarks, rich local culture, breathtaking scenery, and legendary regional cuisine. Includes professional guide, luxury AC transport, full ticket entry logistics, and official visa support.",
+    "highlights": [
+      "Complete guided excursion for Sikh Pilgrimages – 10 Days",
+      "Private AC transport with driver, fuel, tolls & parking",
+      "Sightseeing at historical monuments, bazaars & viewpoints",
+      "Authentic regional food & tea tasting",
+      "24/7 dedicated travel concierge & emergency support"
+    ],
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "title": "Arrival & City Orientation",
+        "desc": "Pickup from hotel/airport. Orientation drive through historic landmarks, visit local bazaars, and enjoy welcome dinner."
+      },
+      {
+        "day": "Day 2",
+        "title": "Monuments & Cultural Sightseeing",
+        "desc": "Full day guided exploration of major historical monuments, ancient forts, and museum archives with expert local guide."
+      },
+      {
+        "day": "Day 3",
+        "title": "Scenic Valleys & Local Artisans",
+        "desc": "Visit artisan workshops, local markets, and surrounding natural viewpoints. Evening food street dinner."
+      },
+      {
+        "day": "Day 4",
+        "title": "Final Excursions & Departure",
+        "desc": "Morning shopping and photography tour. Drop-off at airport or hotel with fond memories."
+      }
+    ],
+    "inclusions": [
+      "Private AC Transport (Car / Prado / Coaster) with driver & fuel",
+      "Official Tour Guide & Historian Services",
+      "All Toll Taxes, Parking & Highway Charges",
+      "Complimentary Mineral Water & Refreshments",
+      "Hotel Pickup & Drop-off Services"
+    ],
+    "exclusions": [
+      "Personal shopping & optional activities",
+      "Boating, water sports or chairlift tickets (unless specified)",
+      "Tips for guide & driver"
+    ],
+    "packages": [
+      {
+        "name": "Standard Package",
+        "price": "35,000",
+        "status": "available",
+        "features": [
+          "AC Coaster / Sedan Transport",
+          "Standard Hotel / Day Trip",
+          "Driver & Fuel Included"
+        ]
+      },
+      {
+        "name": "Deluxe Package",
+        "price": "47,250",
+        "status": "available",
+        "features": [
+          "AC Grand Cabin / Prado",
+          "Deluxe Hotel / Private Guide",
+          "Full Inclusions"
+        ]
+      },
+      {
+        "name": "Executive Package",
+        "price": "61,250",
+        "status": "available",
+        "features": [
+          "Luxury 4x4 Prado / SUV",
+          "Luxury 4-Star / 5-Star Hotel",
+          "VIP Concierge & Protocol"
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "q": "What is included in the tour pricing?",
+        "a": "Pricing includes private AC transport, professional driver, fuel, highway tolls, parking fees, and guide assistance."
+      },
+      {
+        "q": "Can this tour be customized?",
+        "a": "Yes! All tours can be customized for your exact pick-up location, time, and special itinerary preferences."
+      },
+      {
+        "q": "How do I book or confirm my reservation?",
+        "a": "You can book directly by clicking 'Book Now' or contacting our 24/7 WhatsApp concierge at +92 311 1145456."
+      }
+    ]
+  },
+  "festivals-11": {
+    "id": "festivals-11",
+    "title": "Qaqlasht Festival Tour",
+    "duration": "6 Days 5 Nights",
+    "location": "Pakistan",
+    "maxGroup": "Private & Group Options",
+    "difficulty": "Easy / Moderate",
+    "image": "images/festivals/item_11.jpg",
+    "price": "35,000",
+    "originalPrice": "40,250",
+    "departureDay": "Daily Private Departures & Fixed Group Departures",
+    "about": "Experience Qaqlasht Festival Tour with Safar Silsila. This curated itinerary offers a complete journey through iconic landmarks, rich local culture, breathtaking scenery, and legendary regional cuisine. Includes professional guide, luxury AC transport, full ticket entry logistics, and official visa support.",
+    "highlights": [
+      "Complete guided excursion for Qaqlasht Festival Tour",
+      "Private AC transport with driver, fuel, tolls & parking",
+      "Sightseeing at historical monuments, bazaars & viewpoints",
+      "Authentic regional food & tea tasting",
+      "24/7 dedicated travel concierge & emergency support"
+    ],
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "title": "Arrival & City Orientation",
+        "desc": "Pickup from hotel/airport. Orientation drive through historic landmarks, visit local bazaars, and enjoy welcome dinner."
+      },
+      {
+        "day": "Day 2",
+        "title": "Monuments & Cultural Sightseeing",
+        "desc": "Full day guided exploration of major historical monuments, ancient forts, and museum archives with expert local guide."
+      },
+      {
+        "day": "Day 3",
+        "title": "Scenic Valleys & Local Artisans",
+        "desc": "Visit artisan workshops, local markets, and surrounding natural viewpoints. Evening food street dinner."
+      },
+      {
+        "day": "Day 4",
+        "title": "Final Excursions & Departure",
+        "desc": "Morning shopping and photography tour. Drop-off at airport or hotel with fond memories."
+      }
+    ],
+    "inclusions": [
+      "Private AC Transport (Car / Prado / Coaster) with driver & fuel",
+      "Official Tour Guide & Historian Services",
+      "All Toll Taxes, Parking & Highway Charges",
+      "Complimentary Mineral Water & Refreshments",
+      "Hotel Pickup & Drop-off Services"
+    ],
+    "exclusions": [
+      "Personal shopping & optional activities",
+      "Boating, water sports or chairlift tickets (unless specified)",
+      "Tips for guide & driver"
+    ],
+    "packages": [
+      {
+        "name": "Standard Package",
+        "price": "35,000",
+        "status": "available",
+        "features": [
+          "AC Coaster / Sedan Transport",
+          "Standard Hotel / Day Trip",
+          "Driver & Fuel Included"
+        ]
+      },
+      {
+        "name": "Deluxe Package",
+        "price": "47,250",
+        "status": "available",
+        "features": [
+          "AC Grand Cabin / Prado",
+          "Deluxe Hotel / Private Guide",
+          "Full Inclusions"
+        ]
+      },
+      {
+        "name": "Executive Package",
+        "price": "61,250",
+        "status": "available",
+        "features": [
+          "Luxury 4x4 Prado / SUV",
+          "Luxury 4-Star / 5-Star Hotel",
+          "VIP Concierge & Protocol"
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "q": "What is included in the tour pricing?",
+        "a": "Pricing includes private AC transport, professional driver, fuel, highway tolls, parking fees, and guide assistance."
+      },
+      {
+        "q": "Can this tour be customized?",
+        "a": "Yes! All tours can be customized for your exact pick-up location, time, and special itinerary preferences."
+      },
+      {
+        "q": "How do I book or confirm my reservation?",
+        "a": "You can book directly by clicking 'Book Now' or contacting our 24/7 WhatsApp concierge at +92 311 1145456."
+      }
+    ]
+  },
+  "festivals-12": {
+    "id": "festivals-12",
+    "title": "Vesaki Day Festival Taxila Tour",
+    "duration": "1 Day",
+    "location": "Pakistan",
+    "maxGroup": "Private & Group Options",
+    "difficulty": "Easy / Moderate",
+    "image": "images/festivals/item_12.jpg",
+    "price": "14,000",
+    "originalPrice": "16,100",
+    "departureDay": "Daily Private Departures & Fixed Group Departures",
+    "about": "Experience Vesaki Day Festival Taxila Tour with Safar Silsila. This curated itinerary offers a complete journey through iconic landmarks, rich local culture, breathtaking scenery, and legendary regional cuisine. Includes professional guide, luxury AC transport, full ticket entry logistics, and official visa support.",
+    "highlights": [
+      "Complete guided excursion for Vesaki Day Festival Taxila Tour",
+      "Private AC transport with driver, fuel, tolls & parking",
+      "Sightseeing at historical monuments, bazaars & viewpoints",
+      "Authentic regional food & tea tasting",
+      "24/7 dedicated travel concierge & emergency support"
+    ],
+    "itinerary": [
+      {
+        "day": "Morning",
+        "title": "Pickup & Departure",
+        "desc": "07:30 AM pickup from hotel/residence in private AC vehicle. Drive along scenic highway with morning refreshment stop."
+      },
+      {
+        "day": "Afternoon",
+        "title": "Guided Monument & Activity Exploration",
+        "desc": "Arrive at destination. Guided tour of key monuments, scenic viewpoints, water activities, and photography stops."
+      },
+      {
+        "day": "Evening",
+        "title": "Local Food Tasting & Return",
+        "desc": "Enjoy famous local street food feast & traditional chai. Return drive with drop-off at your hotel by 07:00 PM."
+      }
+    ],
+    "inclusions": [
+      "Private AC Transport (Car / Prado / Coaster) with driver & fuel",
+      "Official Tour Guide & Historian Services",
+      "All Toll Taxes, Parking & Highway Charges",
+      "Complimentary Mineral Water & Refreshments",
+      "Hotel Pickup & Drop-off Services"
+    ],
+    "exclusions": [
+      "Personal shopping & optional activities",
+      "Boating, water sports or chairlift tickets (unless specified)",
+      "Tips for guide & driver"
+    ],
+    "packages": [
+      {
+        "name": "Standard Package",
+        "price": "14,000",
+        "status": "available",
+        "features": [
+          "AC Coaster / Sedan Transport",
+          "Standard Hotel / Day Trip",
+          "Driver & Fuel Included"
+        ]
+      },
+      {
+        "name": "Deluxe Package",
+        "price": "18,900",
+        "status": "available",
+        "features": [
+          "AC Grand Cabin / Prado",
+          "Deluxe Hotel / Private Guide",
+          "Full Inclusions"
+        ]
+      },
+      {
+        "name": "Executive Package",
+        "price": "24,500",
+        "status": "available",
+        "features": [
+          "Luxury 4x4 Prado / SUV",
+          "Luxury 4-Star / 5-Star Hotel",
+          "VIP Concierge & Protocol"
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "q": "What is included in the tour pricing?",
+        "a": "Pricing includes private AC transport, professional driver, fuel, highway tolls, parking fees, and guide assistance."
+      },
+      {
+        "q": "Can this tour be customized?",
+        "a": "Yes! All tours can be customized for your exact pick-up location, time, and special itinerary preferences."
+      },
+      {
+        "q": "How do I book or confirm my reservation?",
+        "a": "You can book directly by clicking 'Book Now' or contacting our 24/7 WhatsApp concierge at +92 311 1145456."
+      }
+    ]
+  },
+  "festivals-13": {
+    "id": "festivals-13",
+    "title": "Taleno Thumishalling Festival",
+    "duration": "8 Days 7 Nights",
+    "location": "Pakistan",
+    "maxGroup": "Private & Group Options",
+    "difficulty": "Easy / Moderate",
+    "image": "images/festivals/item_13.jpg",
+    "price": "35,000",
+    "originalPrice": "40,250",
+    "departureDay": "Daily Private Departures & Fixed Group Departures",
+    "about": "Experience Taleno Thumishalling Festival with Safar Silsila. This curated itinerary offers a complete journey through iconic landmarks, rich local culture, breathtaking scenery, and legendary regional cuisine. Includes professional guide, luxury AC transport, full ticket entry logistics, and official visa support.",
+    "highlights": [
+      "Complete guided excursion for Taleno Thumishalling Festival",
+      "Private AC transport with driver, fuel, tolls & parking",
+      "Sightseeing at historical monuments, bazaars & viewpoints",
+      "Authentic regional food & tea tasting",
+      "24/7 dedicated travel concierge & emergency support"
+    ],
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "title": "Arrival & City Orientation",
+        "desc": "Pickup from hotel/airport. Orientation drive through historic landmarks, visit local bazaars, and enjoy welcome dinner."
+      },
+      {
+        "day": "Day 2",
+        "title": "Monuments & Cultural Sightseeing",
+        "desc": "Full day guided exploration of major historical monuments, ancient forts, and museum archives with expert local guide."
+      },
+      {
+        "day": "Day 3",
+        "title": "Scenic Valleys & Local Artisans",
+        "desc": "Visit artisan workshops, local markets, and surrounding natural viewpoints. Evening food street dinner."
+      },
+      {
+        "day": "Day 4",
+        "title": "Final Excursions & Departure",
+        "desc": "Morning shopping and photography tour. Drop-off at airport or hotel with fond memories."
+      }
+    ],
+    "inclusions": [
+      "Private AC Transport (Car / Prado / Coaster) with driver & fuel",
+      "Official Tour Guide & Historian Services",
+      "All Toll Taxes, Parking & Highway Charges",
+      "Complimentary Mineral Water & Refreshments",
+      "Hotel Pickup & Drop-off Services"
+    ],
+    "exclusions": [
+      "Personal shopping & optional activities",
+      "Boating, water sports or chairlift tickets (unless specified)",
+      "Tips for guide & driver"
+    ],
+    "packages": [
+      {
+        "name": "Standard Package",
+        "price": "35,000",
+        "status": "available",
+        "features": [
+          "AC Coaster / Sedan Transport",
+          "Standard Hotel / Day Trip",
+          "Driver & Fuel Included"
+        ]
+      },
+      {
+        "name": "Deluxe Package",
+        "price": "47,250",
+        "status": "available",
+        "features": [
+          "AC Grand Cabin / Prado",
+          "Deluxe Hotel / Private Guide",
+          "Full Inclusions"
+        ]
+      },
+      {
+        "name": "Executive Package",
+        "price": "61,250",
+        "status": "available",
+        "features": [
+          "Luxury 4x4 Prado / SUV",
+          "Luxury 4-Star / 5-Star Hotel",
+          "VIP Concierge & Protocol"
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "q": "What is included in the tour pricing?",
+        "a": "Pricing includes private AC transport, professional driver, fuel, highway tolls, parking fees, and guide assistance."
+      },
+      {
+        "q": "Can this tour be customized?",
+        "a": "Yes! All tours can be customized for your exact pick-up location, time, and special itinerary preferences."
+      },
+      {
+        "q": "How do I book or confirm my reservation?",
+        "a": "You can book directly by clicking 'Book Now' or contacting our 24/7 WhatsApp concierge at +92 311 1145456."
+      }
+    ]
+  },
+  "festivals-14": {
+    "id": "festivals-14",
+    "title": "Paragliding in Islamabad",
+    "duration": "1 Day",
+    "location": "Pakistan",
+    "maxGroup": "Private & Group Options",
+    "difficulty": "Easy / Moderate",
+    "image": "images/festivals/item_14.jpg",
+    "price": "14,000",
+    "originalPrice": "16,100",
+    "departureDay": "Daily Private Departures & Fixed Group Departures",
+    "about": "Experience Paragliding in Islamabad with Safar Silsila. This curated itinerary offers a complete journey through iconic landmarks, rich local culture, breathtaking scenery, and legendary regional cuisine. Includes professional guide, luxury AC transport, full ticket entry logistics, and official visa support.",
+    "highlights": [
+      "Complete guided excursion for Paragliding in Islamabad",
+      "Private AC transport with driver, fuel, tolls & parking",
+      "Sightseeing at historical monuments, bazaars & viewpoints",
+      "Authentic regional food & tea tasting",
+      "24/7 dedicated travel concierge & emergency support"
+    ],
+    "itinerary": [
+      {
+        "day": "Morning",
+        "title": "Pickup & Departure",
+        "desc": "07:30 AM pickup from hotel/residence in private AC vehicle. Drive along scenic highway with morning refreshment stop."
+      },
+      {
+        "day": "Afternoon",
+        "title": "Guided Monument & Activity Exploration",
+        "desc": "Arrive at destination. Guided tour of key monuments, scenic viewpoints, water activities, and photography stops."
+      },
+      {
+        "day": "Evening",
+        "title": "Local Food Tasting & Return",
+        "desc": "Enjoy famous local street food feast & traditional chai. Return drive with drop-off at your hotel by 07:00 PM."
+      }
+    ],
+    "inclusions": [
+      "Private AC Transport (Car / Prado / Coaster) with driver & fuel",
+      "Official Tour Guide & Historian Services",
+      "All Toll Taxes, Parking & Highway Charges",
+      "Complimentary Mineral Water & Refreshments",
+      "Hotel Pickup & Drop-off Services"
+    ],
+    "exclusions": [
+      "Personal shopping & optional activities",
+      "Boating, water sports or chairlift tickets (unless specified)",
+      "Tips for guide & driver"
+    ],
+    "packages": [
+      {
+        "name": "Standard Package",
+        "price": "14,000",
+        "status": "available",
+        "features": [
+          "AC Coaster / Sedan Transport",
+          "Standard Hotel / Day Trip",
+          "Driver & Fuel Included"
+        ]
+      },
+      {
+        "name": "Deluxe Package",
+        "price": "18,900",
+        "status": "available",
+        "features": [
+          "AC Grand Cabin / Prado",
+          "Deluxe Hotel / Private Guide",
+          "Full Inclusions"
+        ]
+      },
+      {
+        "name": "Executive Package",
+        "price": "24,500",
+        "status": "available",
+        "features": [
+          "Luxury 4x4 Prado / SUV",
+          "Luxury 4-Star / 5-Star Hotel",
+          "VIP Concierge & Protocol"
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "q": "What is included in the tour pricing?",
+        "a": "Pricing includes private AC transport, professional driver, fuel, highway tolls, parking fees, and guide assistance."
+      },
+      {
+        "q": "Can this tour be customized?",
+        "a": "Yes! All tours can be customized for your exact pick-up location, time, and special itinerary preferences."
+      },
+      {
+        "q": "How do I book or confirm my reservation?",
+        "a": "You can book directly by clicking 'Book Now' or contacting our 24/7 WhatsApp concierge at +92 311 1145456."
+      }
+    ]
+  },
+  "festivals-15": {
+    "id": "festivals-15",
+    "title": "Parasailing in Islamabad",
+    "duration": "1 Day",
+    "location": "Pakistan",
+    "maxGroup": "Private & Group Options",
+    "difficulty": "Easy / Moderate",
+    "image": "images/festivals/item_15.jpg",
+    "price": "14,000",
+    "originalPrice": "16,100",
+    "departureDay": "Daily Private Departures & Fixed Group Departures",
+    "about": "Experience Parasailing in Islamabad with Safar Silsila. This curated itinerary offers a complete journey through iconic landmarks, rich local culture, breathtaking scenery, and legendary regional cuisine. Includes professional guide, luxury AC transport, full ticket entry logistics, and official visa support.",
+    "highlights": [
+      "Complete guided excursion for Parasailing in Islamabad",
+      "Private AC transport with driver, fuel, tolls & parking",
+      "Sightseeing at historical monuments, bazaars & viewpoints",
+      "Authentic regional food & tea tasting",
+      "24/7 dedicated travel concierge & emergency support"
+    ],
+    "itinerary": [
+      {
+        "day": "Morning",
+        "title": "Pickup & Departure",
+        "desc": "07:30 AM pickup from hotel/residence in private AC vehicle. Drive along scenic highway with morning refreshment stop."
+      },
+      {
+        "day": "Afternoon",
+        "title": "Guided Monument & Activity Exploration",
+        "desc": "Arrive at destination. Guided tour of key monuments, scenic viewpoints, water activities, and photography stops."
+      },
+      {
+        "day": "Evening",
+        "title": "Local Food Tasting & Return",
+        "desc": "Enjoy famous local street food feast & traditional chai. Return drive with drop-off at your hotel by 07:00 PM."
+      }
+    ],
+    "inclusions": [
+      "Private AC Transport (Car / Prado / Coaster) with driver & fuel",
+      "Official Tour Guide & Historian Services",
+      "All Toll Taxes, Parking & Highway Charges",
+      "Complimentary Mineral Water & Refreshments",
+      "Hotel Pickup & Drop-off Services"
+    ],
+    "exclusions": [
+      "Personal shopping & optional activities",
+      "Boating, water sports or chairlift tickets (unless specified)",
+      "Tips for guide & driver"
+    ],
+    "packages": [
+      {
+        "name": "Standard Package",
+        "price": "14,000",
+        "status": "available",
+        "features": [
+          "AC Coaster / Sedan Transport",
+          "Standard Hotel / Day Trip",
+          "Driver & Fuel Included"
+        ]
+      },
+      {
+        "name": "Deluxe Package",
+        "price": "18,900",
+        "status": "available",
+        "features": [
+          "AC Grand Cabin / Prado",
+          "Deluxe Hotel / Private Guide",
+          "Full Inclusions"
+        ]
+      },
+      {
+        "name": "Executive Package",
+        "price": "24,500",
+        "status": "available",
+        "features": [
+          "Luxury 4x4 Prado / SUV",
+          "Luxury 4-Star / 5-Star Hotel",
+          "VIP Concierge & Protocol"
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "q": "What is included in the tour pricing?",
+        "a": "Pricing includes private AC transport, professional driver, fuel, highway tolls, parking fees, and guide assistance."
+      },
+      {
+        "q": "Can this tour be customized?",
+        "a": "Yes! All tours can be customized for your exact pick-up location, time, and special itinerary preferences."
+      },
+      {
+        "q": "How do I book or confirm my reservation?",
+        "a": "You can book directly by clicking 'Book Now' or contacting our 24/7 WhatsApp concierge at +92 311 1145456."
+      }
+    ]
+  },
+  "festivals-16": {
+    "id": "festivals-16",
+    "title": "Hindukush Snow Festival",
+    "duration": "6 Days 5 Nights",
+    "location": "Pakistan",
+    "maxGroup": "Private & Group Options",
+    "difficulty": "Easy / Moderate",
+    "image": "images/festivals/item_16.jpg",
+    "price": "35,000",
+    "originalPrice": "40,250",
+    "departureDay": "Daily Private Departures & Fixed Group Departures",
+    "about": "Experience Hindukush Snow Festival with Safar Silsila. This curated itinerary offers a complete journey through iconic landmarks, rich local culture, breathtaking scenery, and legendary regional cuisine. Includes professional guide, luxury AC transport, full ticket entry logistics, and official visa support.",
+    "highlights": [
+      "Complete guided excursion for Hindukush Snow Festival",
+      "Private AC transport with driver, fuel, tolls & parking",
+      "Sightseeing at historical monuments, bazaars & viewpoints",
+      "Authentic regional food & tea tasting",
+      "24/7 dedicated travel concierge & emergency support"
+    ],
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "title": "Arrival & City Orientation",
+        "desc": "Pickup from hotel/airport. Orientation drive through historic landmarks, visit local bazaars, and enjoy welcome dinner."
+      },
+      {
+        "day": "Day 2",
+        "title": "Monuments & Cultural Sightseeing",
+        "desc": "Full day guided exploration of major historical monuments, ancient forts, and museum archives with expert local guide."
+      },
+      {
+        "day": "Day 3",
+        "title": "Scenic Valleys & Local Artisans",
+        "desc": "Visit artisan workshops, local markets, and surrounding natural viewpoints. Evening food street dinner."
+      },
+      {
+        "day": "Day 4",
+        "title": "Final Excursions & Departure",
+        "desc": "Morning shopping and photography tour. Drop-off at airport or hotel with fond memories."
+      }
+    ],
+    "inclusions": [
+      "Private AC Transport (Car / Prado / Coaster) with driver & fuel",
+      "Official Tour Guide & Historian Services",
+      "All Toll Taxes, Parking & Highway Charges",
+      "Complimentary Mineral Water & Refreshments",
+      "Hotel Pickup & Drop-off Services"
+    ],
+    "exclusions": [
+      "Personal shopping & optional activities",
+      "Boating, water sports or chairlift tickets (unless specified)",
+      "Tips for guide & driver"
+    ],
+    "packages": [
+      {
+        "name": "Standard Package",
+        "price": "35,000",
+        "status": "available",
+        "features": [
+          "AC Coaster / Sedan Transport",
+          "Standard Hotel / Day Trip",
+          "Driver & Fuel Included"
+        ]
+      },
+      {
+        "name": "Deluxe Package",
+        "price": "47,250",
+        "status": "available",
+        "features": [
+          "AC Grand Cabin / Prado",
+          "Deluxe Hotel / Private Guide",
+          "Full Inclusions"
+        ]
+      },
+      {
+        "name": "Executive Package",
+        "price": "61,250",
+        "status": "available",
+        "features": [
+          "Luxury 4x4 Prado / SUV",
+          "Luxury 4-Star / 5-Star Hotel",
+          "VIP Concierge & Protocol"
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "q": "What is included in the tour pricing?",
+        "a": "Pricing includes private AC transport, professional driver, fuel, highway tolls, parking fees, and guide assistance."
+      },
+      {
+        "q": "Can this tour be customized?",
+        "a": "Yes! All tours can be customized for your exact pick-up location, time, and special itinerary preferences."
+      },
+      {
+        "q": "How do I book or confirm my reservation?",
+        "a": "You can book directly by clicking 'Book Now' or contacting our 24/7 WhatsApp concierge at +92 311 1145456."
+      }
+    ]
+  },
+  "festivals-17": {
+    "id": "festivals-17",
+    "title": "Mayfung Fire Festival Skardu",
+    "duration": "6 Days 5 Nights",
+    "location": "Skardu, Baltistan",
+    "maxGroup": "Private & Group Options",
+    "difficulty": "Easy / Moderate",
+    "image": "images/festivals/item_17.jpg",
+    "price": "35,000",
+    "originalPrice": "40,250",
+    "departureDay": "Daily Private Departures & Fixed Group Departures",
+    "about": "Experience Mayfung Fire Festival Skardu with Safar Silsila. This curated itinerary offers a complete journey through iconic landmarks, rich local culture, breathtaking scenery, and legendary regional cuisine. Includes professional guide, luxury AC transport, full ticket entry logistics, and official visa support.",
+    "highlights": [
+      "Complete guided excursion for Mayfung Fire Festival Skardu",
+      "Private AC transport with driver, fuel, tolls & parking",
+      "Sightseeing at historical monuments, bazaars & viewpoints",
+      "Authentic regional food & tea tasting",
+      "24/7 dedicated travel concierge & emergency support"
+    ],
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "title": "Arrival & City Orientation",
+        "desc": "Pickup from hotel/airport. Orientation drive through historic landmarks, visit local bazaars, and enjoy welcome dinner."
+      },
+      {
+        "day": "Day 2",
+        "title": "Monuments & Cultural Sightseeing",
+        "desc": "Full day guided exploration of major historical monuments, ancient forts, and museum archives with expert local guide."
+      },
+      {
+        "day": "Day 3",
+        "title": "Scenic Valleys & Local Artisans",
+        "desc": "Visit artisan workshops, local markets, and surrounding natural viewpoints. Evening food street dinner."
+      },
+      {
+        "day": "Day 4",
+        "title": "Final Excursions & Departure",
+        "desc": "Morning shopping and photography tour. Drop-off at airport or hotel with fond memories."
+      }
+    ],
+    "inclusions": [
+      "Private AC Transport (Car / Prado / Coaster) with driver & fuel",
+      "Official Tour Guide & Historian Services",
+      "All Toll Taxes, Parking & Highway Charges",
+      "Complimentary Mineral Water & Refreshments",
+      "Hotel Pickup & Drop-off Services"
+    ],
+    "exclusions": [
+      "Personal shopping & optional activities",
+      "Boating, water sports or chairlift tickets (unless specified)",
+      "Tips for guide & driver"
+    ],
+    "packages": [
+      {
+        "name": "Standard Package",
+        "price": "35,000",
+        "status": "available",
+        "features": [
+          "AC Coaster / Sedan Transport",
+          "Standard Hotel / Day Trip",
+          "Driver & Fuel Included"
+        ]
+      },
+      {
+        "name": "Deluxe Package",
+        "price": "47,250",
+        "status": "available",
+        "features": [
+          "AC Grand Cabin / Prado",
+          "Deluxe Hotel / Private Guide",
+          "Full Inclusions"
+        ]
+      },
+      {
+        "name": "Executive Package",
+        "price": "61,250",
+        "status": "available",
+        "features": [
+          "Luxury 4x4 Prado / SUV",
+          "Luxury 4-Star / 5-Star Hotel",
+          "VIP Concierge & Protocol"
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "q": "What is included in the tour pricing?",
+        "a": "Pricing includes private AC transport, professional driver, fuel, highway tolls, parking fees, and guide assistance."
+      },
+      {
+        "q": "Can this tour be customized?",
+        "a": "Yes! All tours can be customized for your exact pick-up location, time, and special itinerary preferences."
+      },
+      {
+        "q": "How do I book or confirm my reservation?",
+        "a": "You can book directly by clicking 'Book Now' or contacting our 24/7 WhatsApp concierge at +92 311 1145456."
+      }
+    ]
+  },
+  "festivals-18": {
+    "id": "festivals-18",
+    "title": "Ice Hockey in Hunza GB",
+    "duration": "7 Days 06 Nights",
+    "location": "Hunza Valley",
+    "maxGroup": "Private & Group Options",
+    "difficulty": "Easy / Moderate",
+    "image": "images/festivals/item_18.jpg",
+    "price": "35,000",
+    "originalPrice": "40,250",
+    "departureDay": "Daily Private Departures & Fixed Group Departures",
+    "about": "Experience Ice Hockey in Hunza GB with Safar Silsila. This curated itinerary offers a complete journey through iconic landmarks, rich local culture, breathtaking scenery, and legendary regional cuisine. Includes professional guide, luxury AC transport, full ticket entry logistics, and official visa support.",
+    "highlights": [
+      "Complete guided excursion for Ice Hockey in Hunza GB",
+      "Private AC transport with driver, fuel, tolls & parking",
+      "Sightseeing at historical monuments, bazaars & viewpoints",
+      "Authentic regional food & tea tasting",
+      "24/7 dedicated travel concierge & emergency support"
+    ],
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "title": "Arrival & City Orientation",
+        "desc": "Pickup from hotel/airport. Orientation drive through historic landmarks, visit local bazaars, and enjoy welcome dinner."
+      },
+      {
+        "day": "Day 2",
+        "title": "Monuments & Cultural Sightseeing",
+        "desc": "Full day guided exploration of major historical monuments, ancient forts, and museum archives with expert local guide."
+      },
+      {
+        "day": "Day 3",
+        "title": "Scenic Valleys & Local Artisans",
+        "desc": "Visit artisan workshops, local markets, and surrounding natural viewpoints. Evening food street dinner."
+      },
+      {
+        "day": "Day 4",
+        "title": "Final Excursions & Departure",
+        "desc": "Morning shopping and photography tour. Drop-off at airport or hotel with fond memories."
+      }
+    ],
+    "inclusions": [
+      "Private AC Transport (Car / Prado / Coaster) with driver & fuel",
+      "Official Tour Guide & Historian Services",
+      "All Toll Taxes, Parking & Highway Charges",
+      "Complimentary Mineral Water & Refreshments",
+      "Hotel Pickup & Drop-off Services"
+    ],
+    "exclusions": [
+      "Personal shopping & optional activities",
+      "Boating, water sports or chairlift tickets (unless specified)",
+      "Tips for guide & driver"
+    ],
+    "packages": [
+      {
+        "name": "Standard Package",
+        "price": "35,000",
+        "status": "available",
+        "features": [
+          "AC Coaster / Sedan Transport",
+          "Standard Hotel / Day Trip",
+          "Driver & Fuel Included"
+        ]
+      },
+      {
+        "name": "Deluxe Package",
+        "price": "47,250",
+        "status": "available",
+        "features": [
+          "AC Grand Cabin / Prado",
+          "Deluxe Hotel / Private Guide",
+          "Full Inclusions"
+        ]
+      },
+      {
+        "name": "Executive Package",
+        "price": "61,250",
+        "status": "available",
+        "features": [
+          "Luxury 4x4 Prado / SUV",
+          "Luxury 4-Star / 5-Star Hotel",
+          "VIP Concierge & Protocol"
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "q": "What is included in the tour pricing?",
+        "a": "Pricing includes private AC transport, professional driver, fuel, highway tolls, parking fees, and guide assistance."
+      },
+      {
+        "q": "Can this tour be customized?",
+        "a": "Yes! All tours can be customized for your exact pick-up location, time, and special itinerary preferences."
+      },
+      {
+        "q": "How do I book or confirm my reservation?",
+        "a": "You can book directly by clicking 'Book Now' or contacting our 24/7 WhatsApp concierge at +92 311 1145456."
+      }
+    ]
+  },
+  "festivals-19": {
+    "id": "festivals-19",
+    "title": "10 Days Cycling Event on KARAKURAM HIGHWAY",
+    "duration": "10 Days",
+    "location": "Pakistan",
+    "maxGroup": "Private & Group Options",
+    "difficulty": "Easy / Moderate",
+    "image": "images/festivals/item_19.jpg",
+    "price": "35,000",
+    "originalPrice": "40,250",
+    "departureDay": "Daily Private Departures & Fixed Group Departures",
+    "about": "Experience 10 Days Cycling Event on KARAKURAM HIGHWAY with Safar Silsila. This curated itinerary offers a complete journey through iconic landmarks, rich local culture, breathtaking scenery, and legendary regional cuisine. Includes professional guide, luxury AC transport, full ticket entry logistics, and official visa support.",
+    "highlights": [
+      "Complete guided excursion for 10 Days Cycling Event on KARAKURAM HIGHWAY",
+      "Private AC transport with driver, fuel, tolls & parking",
+      "Sightseeing at historical monuments, bazaars & viewpoints",
+      "Authentic regional food & tea tasting",
+      "24/7 dedicated travel concierge & emergency support"
+    ],
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "title": "Arrival & City Orientation",
+        "desc": "Pickup from hotel/airport. Orientation drive through historic landmarks, visit local bazaars, and enjoy welcome dinner."
+      },
+      {
+        "day": "Day 2",
+        "title": "Monuments & Cultural Sightseeing",
+        "desc": "Full day guided exploration of major historical monuments, ancient forts, and museum archives with expert local guide."
+      },
+      {
+        "day": "Day 3",
+        "title": "Scenic Valleys & Local Artisans",
+        "desc": "Visit artisan workshops, local markets, and surrounding natural viewpoints. Evening food street dinner."
+      },
+      {
+        "day": "Day 4",
+        "title": "Final Excursions & Departure",
+        "desc": "Morning shopping and photography tour. Drop-off at airport or hotel with fond memories."
+      }
+    ],
+    "inclusions": [
+      "Private AC Transport (Car / Prado / Coaster) with driver & fuel",
+      "Official Tour Guide & Historian Services",
+      "All Toll Taxes, Parking & Highway Charges",
+      "Complimentary Mineral Water & Refreshments",
+      "Hotel Pickup & Drop-off Services"
+    ],
+    "exclusions": [
+      "Personal shopping & optional activities",
+      "Boating, water sports or chairlift tickets (unless specified)",
+      "Tips for guide & driver"
+    ],
+    "packages": [
+      {
+        "name": "Standard Package",
+        "price": "35,000",
+        "status": "available",
+        "features": [
+          "AC Coaster / Sedan Transport",
+          "Standard Hotel / Day Trip",
+          "Driver & Fuel Included"
+        ]
+      },
+      {
+        "name": "Deluxe Package",
+        "price": "47,250",
+        "status": "available",
+        "features": [
+          "AC Grand Cabin / Prado",
+          "Deluxe Hotel / Private Guide",
+          "Full Inclusions"
+        ]
+      },
+      {
+        "name": "Executive Package",
+        "price": "61,250",
+        "status": "available",
+        "features": [
+          "Luxury 4x4 Prado / SUV",
+          "Luxury 4-Star / 5-Star Hotel",
+          "VIP Concierge & Protocol"
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "q": "What is included in the tour pricing?",
+        "a": "Pricing includes private AC transport, professional driver, fuel, highway tolls, parking fees, and guide assistance."
+      },
+      {
+        "q": "Can this tour be customized?",
+        "a": "Yes! All tours can be customized for your exact pick-up location, time, and special itinerary preferences."
+      },
+      {
+        "q": "How do I book or confirm my reservation?",
+        "a": "You can book directly by clicking 'Book Now' or contacting our 24/7 WhatsApp concierge at +92 311 1145456."
+      }
+    ]
+  },
+  "north-1": {
+    "id": "north-1",
+    "title": "5 Days Kumrat | Jahaz Banda Tour",
+    "duration": "5 Days 4 Nights",
+    "location": "Pakistan",
+    "maxGroup": "Private & Group Options",
+    "difficulty": "Easy / Moderate",
+    "image": "images/north/item_1.png",
+    "price": "28,000",
+    "originalPrice": "32,200",
+    "departureDay": "Daily Private Departures & Fixed Group Departures",
+    "about": "Experience 5 Days Kumrat | Jahaz Banda Tour with Safar Silsila. This curated itinerary offers a complete journey through iconic landmarks, rich local culture, breathtaking scenery, and legendary regional cuisine. Includes professional guide, luxury AC transport, full ticket entry logistics, and official visa support.",
+    "highlights": [
+      "Complete guided excursion for 5 Days Kumrat | Jahaz Banda Tour",
+      "Private AC transport with driver, fuel, tolls & parking",
+      "Sightseeing at historical monuments, bazaars & viewpoints",
+      "Authentic regional food & tea tasting",
+      "24/7 dedicated travel concierge & emergency support"
+    ],
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "title": "Arrival & City Orientation",
+        "desc": "Pickup from hotel/airport. Orientation drive through historic landmarks, visit local bazaars, and enjoy welcome dinner."
+      },
+      {
+        "day": "Day 2",
+        "title": "Monuments & Cultural Sightseeing",
+        "desc": "Full day guided exploration of major historical monuments, ancient forts, and museum archives with expert local guide."
+      },
+      {
+        "day": "Day 3",
+        "title": "Scenic Valleys & Local Artisans",
+        "desc": "Visit artisan workshops, local markets, and surrounding natural viewpoints. Evening food street dinner."
+      },
+      {
+        "day": "Day 4",
+        "title": "Final Excursions & Departure",
+        "desc": "Morning shopping and photography tour. Drop-off at airport or hotel with fond memories."
+      }
+    ],
+    "inclusions": [
+      "Private AC Transport (Car / Prado / Coaster) with driver & fuel",
+      "Official Tour Guide & Historian Services",
+      "All Toll Taxes, Parking & Highway Charges",
+      "Complimentary Mineral Water & Refreshments",
+      "Hotel Pickup & Drop-off Services"
+    ],
+    "exclusions": [
+      "Personal shopping & optional activities",
+      "Boating, water sports or chairlift tickets (unless specified)",
+      "Tips for guide & driver"
+    ],
+    "packages": [
+      {
+        "name": "Standard Package",
+        "price": "28,000",
+        "status": "available",
+        "features": [
+          "AC Coaster / Sedan Transport",
+          "Standard Hotel / Day Trip",
+          "Driver & Fuel Included"
+        ]
+      },
+      {
+        "name": "Deluxe Package",
+        "price": "37,800",
+        "status": "available",
+        "features": [
+          "AC Grand Cabin / Prado",
+          "Deluxe Hotel / Private Guide",
+          "Full Inclusions"
+        ]
+      },
+      {
+        "name": "Executive Package",
+        "price": "49,000",
+        "status": "available",
+        "features": [
+          "Luxury 4x4 Prado / SUV",
+          "Luxury 4-Star / 5-Star Hotel",
+          "VIP Concierge & Protocol"
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "q": "What is included in the tour pricing?",
+        "a": "Pricing includes private AC transport, professional driver, fuel, highway tolls, parking fees, and guide assistance."
+      },
+      {
+        "q": "Can this tour be customized?",
+        "a": "Yes! All tours can be customized for your exact pick-up location, time, and special itinerary preferences."
+      },
+      {
+        "q": "How do I book or confirm my reservation?",
+        "a": "You can book directly by clicking 'Book Now' or contacting our 24/7 WhatsApp concierge at +92 311 1145456."
+      }
+    ]
+  },
+  "north-2": {
+    "id": "north-2",
+    "title": "3-Day Honeymoon in Hunza – By Air",
+    "duration": "3 Days 2 Nights",
+    "location": "Hunza Valley",
+    "maxGroup": "Private & Group Options",
+    "difficulty": "Easy / Moderate",
+    "image": "images/north/item_2.webp",
+    "price": "35,000",
+    "originalPrice": "40,250",
+    "departureDay": "Daily Private Departures & Fixed Group Departures",
+    "about": "Experience 3-Day Honeymoon in Hunza – By Air with Safar Silsila. This curated itinerary offers a complete journey through iconic landmarks, rich local culture, breathtaking scenery, and legendary regional cuisine. Includes professional guide, luxury AC transport, full ticket entry logistics, and official visa support.",
+    "highlights": [
+      "Complete guided excursion for 3-Day Honeymoon in Hunza – By Air",
+      "Private AC transport with driver, fuel, tolls & parking",
+      "Sightseeing at historical monuments, bazaars & viewpoints",
+      "Authentic regional food & tea tasting",
+      "24/7 dedicated travel concierge & emergency support"
+    ],
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "title": "Arrival & City Orientation",
+        "desc": "Pickup from hotel/airport. Orientation drive through historic landmarks, visit local bazaars, and enjoy welcome dinner."
+      },
+      {
+        "day": "Day 2",
+        "title": "Monuments & Cultural Sightseeing",
+        "desc": "Full day guided exploration of major historical monuments, ancient forts, and museum archives with expert local guide."
+      },
+      {
+        "day": "Day 3",
+        "title": "Scenic Valleys & Local Artisans",
+        "desc": "Visit artisan workshops, local markets, and surrounding natural viewpoints. Evening food street dinner."
+      },
+      {
+        "day": "Day 4",
+        "title": "Final Excursions & Departure",
+        "desc": "Morning shopping and photography tour. Drop-off at airport or hotel with fond memories."
+      }
+    ],
+    "inclusions": [
+      "Private AC Transport (Car / Prado / Coaster) with driver & fuel",
+      "Official Tour Guide & Historian Services",
+      "All Toll Taxes, Parking & Highway Charges",
+      "Complimentary Mineral Water & Refreshments",
+      "Hotel Pickup & Drop-off Services"
+    ],
+    "exclusions": [
+      "Personal shopping & optional activities",
+      "Boating, water sports or chairlift tickets (unless specified)",
+      "Tips for guide & driver"
+    ],
+    "packages": [
+      {
+        "name": "Standard Package",
+        "price": "35,000",
+        "status": "available",
+        "features": [
+          "AC Coaster / Sedan Transport",
+          "Standard Hotel / Day Trip",
+          "Driver & Fuel Included"
+        ]
+      },
+      {
+        "name": "Deluxe Package",
+        "price": "47,250",
+        "status": "available",
+        "features": [
+          "AC Grand Cabin / Prado",
+          "Deluxe Hotel / Private Guide",
+          "Full Inclusions"
+        ]
+      },
+      {
+        "name": "Executive Package",
+        "price": "61,250",
+        "status": "available",
+        "features": [
+          "Luxury 4x4 Prado / SUV",
+          "Luxury 4-Star / 5-Star Hotel",
+          "VIP Concierge & Protocol"
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "q": "What is included in the tour pricing?",
+        "a": "Pricing includes private AC transport, professional driver, fuel, highway tolls, parking fees, and guide assistance."
+      },
+      {
+        "q": "Can this tour be customized?",
+        "a": "Yes! All tours can be customized for your exact pick-up location, time, and special itinerary preferences."
+      },
+      {
+        "q": "How do I book or confirm my reservation?",
+        "a": "You can book directly by clicking 'Book Now' or contacting our 24/7 WhatsApp concierge at +92 311 1145456."
+      }
+    ]
+  },
+  "north-3": {
+    "id": "north-3",
+    "title": "Darwaza Pass Trek",
+    "duration": "8 Days 7 Nights",
+    "location": "Pakistan",
+    "maxGroup": "Private & Group Options",
+    "difficulty": "Easy / Moderate",
+    "image": "images/north/item_3.jpg",
+    "price": "35,000",
+    "originalPrice": "40,250",
+    "departureDay": "Daily Private Departures & Fixed Group Departures",
+    "about": "Experience Darwaza Pass Trek with Safar Silsila. This curated itinerary offers a complete journey through iconic landmarks, rich local culture, breathtaking scenery, and legendary regional cuisine. Includes professional guide, luxury AC transport, full ticket entry logistics, and official visa support.",
+    "highlights": [
+      "Complete guided excursion for Darwaza Pass Trek",
+      "Private AC transport with driver, fuel, tolls & parking",
+      "Sightseeing at historical monuments, bazaars & viewpoints",
+      "Authentic regional food & tea tasting",
+      "24/7 dedicated travel concierge & emergency support"
+    ],
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "title": "Arrival & City Orientation",
+        "desc": "Pickup from hotel/airport. Orientation drive through historic landmarks, visit local bazaars, and enjoy welcome dinner."
+      },
+      {
+        "day": "Day 2",
+        "title": "Monuments & Cultural Sightseeing",
+        "desc": "Full day guided exploration of major historical monuments, ancient forts, and museum archives with expert local guide."
+      },
+      {
+        "day": "Day 3",
+        "title": "Scenic Valleys & Local Artisans",
+        "desc": "Visit artisan workshops, local markets, and surrounding natural viewpoints. Evening food street dinner."
+      },
+      {
+        "day": "Day 4",
+        "title": "Final Excursions & Departure",
+        "desc": "Morning shopping and photography tour. Drop-off at airport or hotel with fond memories."
+      }
+    ],
+    "inclusions": [
+      "Private AC Transport (Car / Prado / Coaster) with driver & fuel",
+      "Official Tour Guide & Historian Services",
+      "All Toll Taxes, Parking & Highway Charges",
+      "Complimentary Mineral Water & Refreshments",
+      "Hotel Pickup & Drop-off Services"
+    ],
+    "exclusions": [
+      "Personal shopping & optional activities",
+      "Boating, water sports or chairlift tickets (unless specified)",
+      "Tips for guide & driver"
+    ],
+    "packages": [
+      {
+        "name": "Standard Package",
+        "price": "35,000",
+        "status": "available",
+        "features": [
+          "AC Coaster / Sedan Transport",
+          "Standard Hotel / Day Trip",
+          "Driver & Fuel Included"
+        ]
+      },
+      {
+        "name": "Deluxe Package",
+        "price": "47,250",
+        "status": "available",
+        "features": [
+          "AC Grand Cabin / Prado",
+          "Deluxe Hotel / Private Guide",
+          "Full Inclusions"
+        ]
+      },
+      {
+        "name": "Executive Package",
+        "price": "61,250",
+        "status": "available",
+        "features": [
+          "Luxury 4x4 Prado / SUV",
+          "Luxury 4-Star / 5-Star Hotel",
+          "VIP Concierge & Protocol"
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "q": "What is included in the tour pricing?",
+        "a": "Pricing includes private AC transport, professional driver, fuel, highway tolls, parking fees, and guide assistance."
+      },
+      {
+        "q": "Can this tour be customized?",
+        "a": "Yes! All tours can be customized for your exact pick-up location, time, and special itinerary preferences."
+      },
+      {
+        "q": "How do I book or confirm my reservation?",
+        "a": "You can book directly by clicking 'Book Now' or contacting our 24/7 WhatsApp concierge at +92 311 1145456."
+      }
+    ]
+  },
+  "north-4": {
+    "id": "north-4",
+    "title": "Ghilam Harish Trek",
+    "duration": "6 Days 5 Nights",
+    "location": "Pakistan",
+    "maxGroup": "Private & Group Options",
+    "difficulty": "Easy / Moderate",
+    "image": "images/north/item_4.jpg",
+    "price": "35,000",
+    "originalPrice": "40,250",
+    "departureDay": "Daily Private Departures & Fixed Group Departures",
+    "about": "Experience Ghilam Harish Trek with Safar Silsila. This curated itinerary offers a complete journey through iconic landmarks, rich local culture, breathtaking scenery, and legendary regional cuisine. Includes professional guide, luxury AC transport, full ticket entry logistics, and official visa support.",
+    "highlights": [
+      "Complete guided excursion for Ghilam Harish Trek",
+      "Private AC transport with driver, fuel, tolls & parking",
+      "Sightseeing at historical monuments, bazaars & viewpoints",
+      "Authentic regional food & tea tasting",
+      "24/7 dedicated travel concierge & emergency support"
+    ],
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "title": "Arrival & City Orientation",
+        "desc": "Pickup from hotel/airport. Orientation drive through historic landmarks, visit local bazaars, and enjoy welcome dinner."
+      },
+      {
+        "day": "Day 2",
+        "title": "Monuments & Cultural Sightseeing",
+        "desc": "Full day guided exploration of major historical monuments, ancient forts, and museum archives with expert local guide."
+      },
+      {
+        "day": "Day 3",
+        "title": "Scenic Valleys & Local Artisans",
+        "desc": "Visit artisan workshops, local markets, and surrounding natural viewpoints. Evening food street dinner."
+      },
+      {
+        "day": "Day 4",
+        "title": "Final Excursions & Departure",
+        "desc": "Morning shopping and photography tour. Drop-off at airport or hotel with fond memories."
+      }
+    ],
+    "inclusions": [
+      "Private AC Transport (Car / Prado / Coaster) with driver & fuel",
+      "Official Tour Guide & Historian Services",
+      "All Toll Taxes, Parking & Highway Charges",
+      "Complimentary Mineral Water & Refreshments",
+      "Hotel Pickup & Drop-off Services"
+    ],
+    "exclusions": [
+      "Personal shopping & optional activities",
+      "Boating, water sports or chairlift tickets (unless specified)",
+      "Tips for guide & driver"
+    ],
+    "packages": [
+      {
+        "name": "Standard Package",
+        "price": "35,000",
+        "status": "available",
+        "features": [
+          "AC Coaster / Sedan Transport",
+          "Standard Hotel / Day Trip",
+          "Driver & Fuel Included"
+        ]
+      },
+      {
+        "name": "Deluxe Package",
+        "price": "47,250",
+        "status": "available",
+        "features": [
+          "AC Grand Cabin / Prado",
+          "Deluxe Hotel / Private Guide",
+          "Full Inclusions"
+        ]
+      },
+      {
+        "name": "Executive Package",
+        "price": "61,250",
+        "status": "available",
+        "features": [
+          "Luxury 4x4 Prado / SUV",
+          "Luxury 4-Star / 5-Star Hotel",
+          "VIP Concierge & Protocol"
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "q": "What is included in the tour pricing?",
+        "a": "Pricing includes private AC transport, professional driver, fuel, highway tolls, parking fees, and guide assistance."
+      },
+      {
+        "q": "Can this tour be customized?",
+        "a": "Yes! All tours can be customized for your exact pick-up location, time, and special itinerary preferences."
+      },
+      {
+        "q": "How do I book or confirm my reservation?",
+        "a": "You can book directly by clicking 'Book Now' or contacting our 24/7 WhatsApp concierge at +92 311 1145456."
+      }
+    ]
+  },
+  "north-5": {
+    "id": "north-5",
+    "title": "EXPLORE PAKISTAN: Kumrat | Phandar | Chitral (12 Days Trip: By Road)",
+    "duration": "12 Days 10 Nights",
+    "location": "Pakistan",
+    "maxGroup": "Private & Group Options",
+    "difficulty": "Easy / Moderate",
+    "image": "images/north/item_5.jpg",
+    "price": "35,000",
+    "originalPrice": "40,250",
+    "departureDay": "Daily Private Departures & Fixed Group Departures",
+    "about": "Experience EXPLORE PAKISTAN: Kumrat | Phandar | Chitral (12 Days Trip: By Road) with Safar Silsila. This curated itinerary offers a complete journey through iconic landmarks, rich local culture, breathtaking scenery, and legendary regional cuisine. Includes professional guide, luxury AC transport, full ticket entry logistics, and official visa support.",
+    "highlights": [
+      "Complete guided excursion for EXPLORE PAKISTAN: Kumrat | Phandar | Chitral (12 Days Trip: By Road)",
+      "Private AC transport with driver, fuel, tolls & parking",
+      "Sightseeing at historical monuments, bazaars & viewpoints",
+      "Authentic regional food & tea tasting",
+      "24/7 dedicated travel concierge & emergency support"
+    ],
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "title": "Arrival & City Orientation",
+        "desc": "Pickup from hotel/airport. Orientation drive through historic landmarks, visit local bazaars, and enjoy welcome dinner."
+      },
+      {
+        "day": "Day 2",
+        "title": "Monuments & Cultural Sightseeing",
+        "desc": "Full day guided exploration of major historical monuments, ancient forts, and museum archives with expert local guide."
+      },
+      {
+        "day": "Day 3",
+        "title": "Scenic Valleys & Local Artisans",
+        "desc": "Visit artisan workshops, local markets, and surrounding natural viewpoints. Evening food street dinner."
+      },
+      {
+        "day": "Day 4",
+        "title": "Final Excursions & Departure",
+        "desc": "Morning shopping and photography tour. Drop-off at airport or hotel with fond memories."
+      }
+    ],
+    "inclusions": [
+      "Private AC Transport (Car / Prado / Coaster) with driver & fuel",
+      "Official Tour Guide & Historian Services",
+      "All Toll Taxes, Parking & Highway Charges",
+      "Complimentary Mineral Water & Refreshments",
+      "Hotel Pickup & Drop-off Services"
+    ],
+    "exclusions": [
+      "Personal shopping & optional activities",
+      "Boating, water sports or chairlift tickets (unless specified)",
+      "Tips for guide & driver"
+    ],
+    "packages": [
+      {
+        "name": "Standard Package",
+        "price": "35,000",
+        "status": "available",
+        "features": [
+          "AC Coaster / Sedan Transport",
+          "Standard Hotel / Day Trip",
+          "Driver & Fuel Included"
+        ]
+      },
+      {
+        "name": "Deluxe Package",
+        "price": "47,250",
+        "status": "available",
+        "features": [
+          "AC Grand Cabin / Prado",
+          "Deluxe Hotel / Private Guide",
+          "Full Inclusions"
+        ]
+      },
+      {
+        "name": "Executive Package",
+        "price": "61,250",
+        "status": "available",
+        "features": [
+          "Luxury 4x4 Prado / SUV",
+          "Luxury 4-Star / 5-Star Hotel",
+          "VIP Concierge & Protocol"
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "q": "What is included in the tour pricing?",
+        "a": "Pricing includes private AC transport, professional driver, fuel, highway tolls, parking fees, and guide assistance."
+      },
+      {
+        "q": "Can this tour be customized?",
+        "a": "Yes! All tours can be customized for your exact pick-up location, time, and special itinerary preferences."
+      },
+      {
+        "q": "How do I book or confirm my reservation?",
+        "a": "You can book directly by clicking 'Book Now' or contacting our 24/7 WhatsApp concierge at +92 311 1145456."
+      }
+    ]
+  },
+  "north-6": {
+    "id": "north-6",
+    "title": "Explore Pakistan: Hunza | Skardu | Islamabad (12 Days Trip: By Road)",
+    "duration": "12 Days 10 Nights",
+    "location": "Skardu, Baltistan",
+    "maxGroup": "Private & Group Options",
+    "difficulty": "Easy / Moderate",
+    "image": "images/north/item_6.jpg",
+    "price": "35,000",
+    "originalPrice": "40,250",
+    "departureDay": "Daily Private Departures & Fixed Group Departures",
+    "about": "Experience Explore Pakistan: Hunza | Skardu | Islamabad (12 Days Trip: By Road) with Safar Silsila. This curated itinerary offers a complete journey through iconic landmarks, rich local culture, breathtaking scenery, and legendary regional cuisine. Includes professional guide, luxury AC transport, full ticket entry logistics, and official visa support.",
+    "highlights": [
+      "Complete guided excursion for Explore Pakistan: Hunza | Skardu | Islamabad (12 Days Trip: By Road)",
+      "Private AC transport with driver, fuel, tolls & parking",
+      "Sightseeing at historical monuments, bazaars & viewpoints",
+      "Authentic regional food & tea tasting",
+      "24/7 dedicated travel concierge & emergency support"
+    ],
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "title": "Arrival & City Orientation",
+        "desc": "Pickup from hotel/airport. Orientation drive through historic landmarks, visit local bazaars, and enjoy welcome dinner."
+      },
+      {
+        "day": "Day 2",
+        "title": "Monuments & Cultural Sightseeing",
+        "desc": "Full day guided exploration of major historical monuments, ancient forts, and museum archives with expert local guide."
+      },
+      {
+        "day": "Day 3",
+        "title": "Scenic Valleys & Local Artisans",
+        "desc": "Visit artisan workshops, local markets, and surrounding natural viewpoints. Evening food street dinner."
+      },
+      {
+        "day": "Day 4",
+        "title": "Final Excursions & Departure",
+        "desc": "Morning shopping and photography tour. Drop-off at airport or hotel with fond memories."
+      }
+    ],
+    "inclusions": [
+      "Private AC Transport (Car / Prado / Coaster) with driver & fuel",
+      "Official Tour Guide & Historian Services",
+      "All Toll Taxes, Parking & Highway Charges",
+      "Complimentary Mineral Water & Refreshments",
+      "Hotel Pickup & Drop-off Services"
+    ],
+    "exclusions": [
+      "Personal shopping & optional activities",
+      "Boating, water sports or chairlift tickets (unless specified)",
+      "Tips for guide & driver"
+    ],
+    "packages": [
+      {
+        "name": "Standard Package",
+        "price": "35,000",
+        "status": "available",
+        "features": [
+          "AC Coaster / Sedan Transport",
+          "Standard Hotel / Day Trip",
+          "Driver & Fuel Included"
+        ]
+      },
+      {
+        "name": "Deluxe Package",
+        "price": "47,250",
+        "status": "available",
+        "features": [
+          "AC Grand Cabin / Prado",
+          "Deluxe Hotel / Private Guide",
+          "Full Inclusions"
+        ]
+      },
+      {
+        "name": "Executive Package",
+        "price": "61,250",
+        "status": "available",
+        "features": [
+          "Luxury 4x4 Prado / SUV",
+          "Luxury 4-Star / 5-Star Hotel",
+          "VIP Concierge & Protocol"
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "q": "What is included in the tour pricing?",
+        "a": "Pricing includes private AC transport, professional driver, fuel, highway tolls, parking fees, and guide assistance."
+      },
+      {
+        "q": "Can this tour be customized?",
+        "a": "Yes! All tours can be customized for your exact pick-up location, time, and special itinerary preferences."
+      },
+      {
+        "q": "How do I book or confirm my reservation?",
+        "a": "You can book directly by clicking 'Book Now' or contacting our 24/7 WhatsApp concierge at +92 311 1145456."
+      }
+    ]
+  },
+  "north-7": {
+    "id": "north-7",
+    "title": "Discover Pakistan: Hunza | Skardu | Islamabad (12 Days Trip: By Air & By Road)",
+    "duration": "12 Days 10 Nights",
+    "location": "Skardu, Baltistan",
+    "maxGroup": "Private & Group Options",
+    "difficulty": "Easy / Moderate",
+    "image": "images/north/item_7.jpg",
+    "price": "35,000",
+    "originalPrice": "40,250",
+    "departureDay": "Daily Private Departures & Fixed Group Departures",
+    "about": "Experience Discover Pakistan: Hunza | Skardu | Islamabad (12 Days Trip: By Air & By Road) with Safar Silsila. This curated itinerary offers a complete journey through iconic landmarks, rich local culture, breathtaking scenery, and legendary regional cuisine. Includes professional guide, luxury AC transport, full ticket entry logistics, and official visa support.",
+    "highlights": [
+      "Complete guided excursion for Discover Pakistan: Hunza | Skardu | Islamabad (12 Days Trip: By Air & By Road)",
+      "Private AC transport with driver, fuel, tolls & parking",
+      "Sightseeing at historical monuments, bazaars & viewpoints",
+      "Authentic regional food & tea tasting",
+      "24/7 dedicated travel concierge & emergency support"
+    ],
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "title": "Arrival & City Orientation",
+        "desc": "Pickup from hotel/airport. Orientation drive through historic landmarks, visit local bazaars, and enjoy welcome dinner."
+      },
+      {
+        "day": "Day 2",
+        "title": "Monuments & Cultural Sightseeing",
+        "desc": "Full day guided exploration of major historical monuments, ancient forts, and museum archives with expert local guide."
+      },
+      {
+        "day": "Day 3",
+        "title": "Scenic Valleys & Local Artisans",
+        "desc": "Visit artisan workshops, local markets, and surrounding natural viewpoints. Evening food street dinner."
+      },
+      {
+        "day": "Day 4",
+        "title": "Final Excursions & Departure",
+        "desc": "Morning shopping and photography tour. Drop-off at airport or hotel with fond memories."
+      }
+    ],
+    "inclusions": [
+      "Private AC Transport (Car / Prado / Coaster) with driver & fuel",
+      "Official Tour Guide & Historian Services",
+      "All Toll Taxes, Parking & Highway Charges",
+      "Complimentary Mineral Water & Refreshments",
+      "Hotel Pickup & Drop-off Services"
+    ],
+    "exclusions": [
+      "Personal shopping & optional activities",
+      "Boating, water sports or chairlift tickets (unless specified)",
+      "Tips for guide & driver"
+    ],
+    "packages": [
+      {
+        "name": "Standard Package",
+        "price": "35,000",
+        "status": "available",
+        "features": [
+          "AC Coaster / Sedan Transport",
+          "Standard Hotel / Day Trip",
+          "Driver & Fuel Included"
+        ]
+      },
+      {
+        "name": "Deluxe Package",
+        "price": "47,250",
+        "status": "available",
+        "features": [
+          "AC Grand Cabin / Prado",
+          "Deluxe Hotel / Private Guide",
+          "Full Inclusions"
+        ]
+      },
+      {
+        "name": "Executive Package",
+        "price": "61,250",
+        "status": "available",
+        "features": [
+          "Luxury 4x4 Prado / SUV",
+          "Luxury 4-Star / 5-Star Hotel",
+          "VIP Concierge & Protocol"
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "q": "What is included in the tour pricing?",
+        "a": "Pricing includes private AC transport, professional driver, fuel, highway tolls, parking fees, and guide assistance."
+      },
+      {
+        "q": "Can this tour be customized?",
+        "a": "Yes! All tours can be customized for your exact pick-up location, time, and special itinerary preferences."
+      },
+      {
+        "q": "How do I book or confirm my reservation?",
+        "a": "You can book directly by clicking 'Book Now' or contacting our 24/7 WhatsApp concierge at +92 311 1145456."
+      }
+    ]
+  },
+  "north-8": {
+    "id": "north-8",
+    "title": "Discover Pakistan: Hunza | Skardu | Islamabad (12 Days Trip)",
+    "duration": "12 Days 10 Nights",
+    "location": "Skardu, Baltistan",
+    "maxGroup": "Private & Group Options",
+    "difficulty": "Easy / Moderate",
+    "image": "images/north/item_8.jpg",
+    "price": "35,000",
+    "originalPrice": "40,250",
+    "departureDay": "Daily Private Departures & Fixed Group Departures",
+    "about": "Experience Discover Pakistan: Hunza | Skardu | Islamabad (12 Days Trip) with Safar Silsila. This curated itinerary offers a complete journey through iconic landmarks, rich local culture, breathtaking scenery, and legendary regional cuisine. Includes professional guide, luxury AC transport, full ticket entry logistics, and official visa support.",
+    "highlights": [
+      "Complete guided excursion for Discover Pakistan: Hunza | Skardu | Islamabad (12 Days Trip)",
+      "Private AC transport with driver, fuel, tolls & parking",
+      "Sightseeing at historical monuments, bazaars & viewpoints",
+      "Authentic regional food & tea tasting",
+      "24/7 dedicated travel concierge & emergency support"
+    ],
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "title": "Arrival & City Orientation",
+        "desc": "Pickup from hotel/airport. Orientation drive through historic landmarks, visit local bazaars, and enjoy welcome dinner."
+      },
+      {
+        "day": "Day 2",
+        "title": "Monuments & Cultural Sightseeing",
+        "desc": "Full day guided exploration of major historical monuments, ancient forts, and museum archives with expert local guide."
+      },
+      {
+        "day": "Day 3",
+        "title": "Scenic Valleys & Local Artisans",
+        "desc": "Visit artisan workshops, local markets, and surrounding natural viewpoints. Evening food street dinner."
+      },
+      {
+        "day": "Day 4",
+        "title": "Final Excursions & Departure",
+        "desc": "Morning shopping and photography tour. Drop-off at airport or hotel with fond memories."
+      }
+    ],
+    "inclusions": [
+      "Private AC Transport (Car / Prado / Coaster) with driver & fuel",
+      "Official Tour Guide & Historian Services",
+      "All Toll Taxes, Parking & Highway Charges",
+      "Complimentary Mineral Water & Refreshments",
+      "Hotel Pickup & Drop-off Services"
+    ],
+    "exclusions": [
+      "Personal shopping & optional activities",
+      "Boating, water sports or chairlift tickets (unless specified)",
+      "Tips for guide & driver"
+    ],
+    "packages": [
+      {
+        "name": "Standard Package",
+        "price": "35,000",
+        "status": "available",
+        "features": [
+          "AC Coaster / Sedan Transport",
+          "Standard Hotel / Day Trip",
+          "Driver & Fuel Included"
+        ]
+      },
+      {
+        "name": "Deluxe Package",
+        "price": "47,250",
+        "status": "available",
+        "features": [
+          "AC Grand Cabin / Prado",
+          "Deluxe Hotel / Private Guide",
+          "Full Inclusions"
+        ]
+      },
+      {
+        "name": "Executive Package",
+        "price": "61,250",
+        "status": "available",
+        "features": [
+          "Luxury 4x4 Prado / SUV",
+          "Luxury 4-Star / 5-Star Hotel",
+          "VIP Concierge & Protocol"
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "q": "What is included in the tour pricing?",
+        "a": "Pricing includes private AC transport, professional driver, fuel, highway tolls, parking fees, and guide assistance."
+      },
+      {
+        "q": "Can this tour be customized?",
+        "a": "Yes! All tours can be customized for your exact pick-up location, time, and special itinerary preferences."
+      },
+      {
+        "q": "How do I book or confirm my reservation?",
+        "a": "You can book directly by clicking 'Book Now' or contacting our 24/7 WhatsApp concierge at +92 311 1145456."
+      }
+    ]
+  },
+  "north-9": {
+    "id": "north-9",
+    "title": "Discover Pakistan: Hunza | Skardu | Islamabad (9 Days Trip)",
+    "duration": "9 Days 8 Nights",
+    "location": "Skardu, Baltistan",
+    "maxGroup": "Private & Group Options",
+    "difficulty": "Easy / Moderate",
+    "image": "images/north/item_9.jpg",
+    "price": "35,000",
+    "originalPrice": "40,250",
+    "departureDay": "Daily Private Departures & Fixed Group Departures",
+    "about": "Experience Discover Pakistan: Hunza | Skardu | Islamabad (9 Days Trip) with Safar Silsila. This curated itinerary offers a complete journey through iconic landmarks, rich local culture, breathtaking scenery, and legendary regional cuisine. Includes professional guide, luxury AC transport, full ticket entry logistics, and official visa support.",
+    "highlights": [
+      "Complete guided excursion for Discover Pakistan: Hunza | Skardu | Islamabad (9 Days Trip)",
+      "Private AC transport with driver, fuel, tolls & parking",
+      "Sightseeing at historical monuments, bazaars & viewpoints",
+      "Authentic regional food & tea tasting",
+      "24/7 dedicated travel concierge & emergency support"
+    ],
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "title": "Arrival & City Orientation",
+        "desc": "Pickup from hotel/airport. Orientation drive through historic landmarks, visit local bazaars, and enjoy welcome dinner."
+      },
+      {
+        "day": "Day 2",
+        "title": "Monuments & Cultural Sightseeing",
+        "desc": "Full day guided exploration of major historical monuments, ancient forts, and museum archives with expert local guide."
+      },
+      {
+        "day": "Day 3",
+        "title": "Scenic Valleys & Local Artisans",
+        "desc": "Visit artisan workshops, local markets, and surrounding natural viewpoints. Evening food street dinner."
+      },
+      {
+        "day": "Day 4",
+        "title": "Final Excursions & Departure",
+        "desc": "Morning shopping and photography tour. Drop-off at airport or hotel with fond memories."
+      }
+    ],
+    "inclusions": [
+      "Private AC Transport (Car / Prado / Coaster) with driver & fuel",
+      "Official Tour Guide & Historian Services",
+      "All Toll Taxes, Parking & Highway Charges",
+      "Complimentary Mineral Water & Refreshments",
+      "Hotel Pickup & Drop-off Services"
+    ],
+    "exclusions": [
+      "Personal shopping & optional activities",
+      "Boating, water sports or chairlift tickets (unless specified)",
+      "Tips for guide & driver"
+    ],
+    "packages": [
+      {
+        "name": "Standard Package",
+        "price": "35,000",
+        "status": "available",
+        "features": [
+          "AC Coaster / Sedan Transport",
+          "Standard Hotel / Day Trip",
+          "Driver & Fuel Included"
+        ]
+      },
+      {
+        "name": "Deluxe Package",
+        "price": "47,250",
+        "status": "available",
+        "features": [
+          "AC Grand Cabin / Prado",
+          "Deluxe Hotel / Private Guide",
+          "Full Inclusions"
+        ]
+      },
+      {
+        "name": "Executive Package",
+        "price": "61,250",
+        "status": "available",
+        "features": [
+          "Luxury 4x4 Prado / SUV",
+          "Luxury 4-Star / 5-Star Hotel",
+          "VIP Concierge & Protocol"
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "q": "What is included in the tour pricing?",
+        "a": "Pricing includes private AC transport, professional driver, fuel, highway tolls, parking fees, and guide assistance."
+      },
+      {
+        "q": "Can this tour be customized?",
+        "a": "Yes! All tours can be customized for your exact pick-up location, time, and special itinerary preferences."
+      },
+      {
+        "q": "How do I book or confirm my reservation?",
+        "a": "You can book directly by clicking 'Book Now' or contacting our 24/7 WhatsApp concierge at +92 311 1145456."
+      }
+    ]
+  },
+  "north-10": {
+    "id": "north-10",
+    "title": "Discover Pakistan: Hunza | Skardu | Lahore | Islamabad (8 Days Trip)",
+    "duration": "8 Days 7 Nights",
+    "location": "Lahore, Punjab",
+    "maxGroup": "Private & Group Options",
+    "difficulty": "Easy / Moderate",
+    "image": "images/north/item_10.jpg",
+    "price": "35,000",
+    "originalPrice": "40,250",
+    "departureDay": "Daily Private Departures & Fixed Group Departures",
+    "about": "Experience Discover Pakistan: Hunza | Skardu | Lahore | Islamabad (8 Days Trip) with Safar Silsila. This curated itinerary offers a complete journey through iconic landmarks, rich local culture, breathtaking scenery, and legendary regional cuisine. Includes professional guide, luxury AC transport, full ticket entry logistics, and official visa support.",
+    "highlights": [
+      "Complete guided excursion for Discover Pakistan: Hunza | Skardu | Lahore | Islamabad (8 Days Trip)",
+      "Private AC transport with driver, fuel, tolls & parking",
+      "Sightseeing at historical monuments, bazaars & viewpoints",
+      "Authentic regional food & tea tasting",
+      "24/7 dedicated travel concierge & emergency support"
+    ],
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "title": "Arrival & City Orientation",
+        "desc": "Pickup from hotel/airport. Orientation drive through historic landmarks, visit local bazaars, and enjoy welcome dinner."
+      },
+      {
+        "day": "Day 2",
+        "title": "Monuments & Cultural Sightseeing",
+        "desc": "Full day guided exploration of major historical monuments, ancient forts, and museum archives with expert local guide."
+      },
+      {
+        "day": "Day 3",
+        "title": "Scenic Valleys & Local Artisans",
+        "desc": "Visit artisan workshops, local markets, and surrounding natural viewpoints. Evening food street dinner."
+      },
+      {
+        "day": "Day 4",
+        "title": "Final Excursions & Departure",
+        "desc": "Morning shopping and photography tour. Drop-off at airport or hotel with fond memories."
+      }
+    ],
+    "inclusions": [
+      "Private AC Transport (Car / Prado / Coaster) with driver & fuel",
+      "Official Tour Guide & Historian Services",
+      "All Toll Taxes, Parking & Highway Charges",
+      "Complimentary Mineral Water & Refreshments",
+      "Hotel Pickup & Drop-off Services"
+    ],
+    "exclusions": [
+      "Personal shopping & optional activities",
+      "Boating, water sports or chairlift tickets (unless specified)",
+      "Tips for guide & driver"
+    ],
+    "packages": [
+      {
+        "name": "Standard Package",
+        "price": "35,000",
+        "status": "available",
+        "features": [
+          "AC Coaster / Sedan Transport",
+          "Standard Hotel / Day Trip",
+          "Driver & Fuel Included"
+        ]
+      },
+      {
+        "name": "Deluxe Package",
+        "price": "47,250",
+        "status": "available",
+        "features": [
+          "AC Grand Cabin / Prado",
+          "Deluxe Hotel / Private Guide",
+          "Full Inclusions"
+        ]
+      },
+      {
+        "name": "Executive Package",
+        "price": "61,250",
+        "status": "available",
+        "features": [
+          "Luxury 4x4 Prado / SUV",
+          "Luxury 4-Star / 5-Star Hotel",
+          "VIP Concierge & Protocol"
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "q": "What is included in the tour pricing?",
+        "a": "Pricing includes private AC transport, professional driver, fuel, highway tolls, parking fees, and guide assistance."
+      },
+      {
+        "q": "Can this tour be customized?",
+        "a": "Yes! All tours can be customized for your exact pick-up location, time, and special itinerary preferences."
+      },
+      {
+        "q": "How do I book or confirm my reservation?",
+        "a": "You can book directly by clicking 'Book Now' or contacting our 24/7 WhatsApp concierge at +92 311 1145456."
+      }
+    ]
+  },
+  "north-11": {
+    "id": "north-11",
+    "title": "Panjpeer Rocks Tour (Day Trip from Islamabad) – 01 Day",
+    "duration": "1 Day",
+    "location": "Pakistan",
+    "maxGroup": "Private & Group Options",
+    "difficulty": "Easy / Moderate",
+    "image": "images/north/item_11.webp",
+    "price": "14,000",
+    "originalPrice": "16,100",
+    "departureDay": "Daily Private Departures & Fixed Group Departures",
+    "about": "Experience Panjpeer Rocks Tour (Day Trip from Islamabad) – 01 Day with Safar Silsila. This curated itinerary offers a complete journey through iconic landmarks, rich local culture, breathtaking scenery, and legendary regional cuisine. Includes professional guide, luxury AC transport, full ticket entry logistics, and official visa support.",
+    "highlights": [
+      "Complete guided excursion for Panjpeer Rocks Tour (Day Trip from Islamabad) – 01 Day",
+      "Private AC transport with driver, fuel, tolls & parking",
+      "Sightseeing at historical monuments, bazaars & viewpoints",
+      "Authentic regional food & tea tasting",
+      "24/7 dedicated travel concierge & emergency support"
+    ],
+    "itinerary": [
+      {
+        "day": "Morning",
+        "title": "Pickup & Departure",
+        "desc": "07:30 AM pickup from hotel/residence in private AC vehicle. Drive along scenic highway with morning refreshment stop."
+      },
+      {
+        "day": "Afternoon",
+        "title": "Guided Monument & Activity Exploration",
+        "desc": "Arrive at destination. Guided tour of key monuments, scenic viewpoints, water activities, and photography stops."
+      },
+      {
+        "day": "Evening",
+        "title": "Local Food Tasting & Return",
+        "desc": "Enjoy famous local street food feast & traditional chai. Return drive with drop-off at your hotel by 07:00 PM."
+      }
+    ],
+    "inclusions": [
+      "Private AC Transport (Car / Prado / Coaster) with driver & fuel",
+      "Official Tour Guide & Historian Services",
+      "All Toll Taxes, Parking & Highway Charges",
+      "Complimentary Mineral Water & Refreshments",
+      "Hotel Pickup & Drop-off Services"
+    ],
+    "exclusions": [
+      "Personal shopping & optional activities",
+      "Boating, water sports or chairlift tickets (unless specified)",
+      "Tips for guide & driver"
+    ],
+    "packages": [
+      {
+        "name": "Standard Package",
+        "price": "14,000",
+        "status": "available",
+        "features": [
+          "AC Coaster / Sedan Transport",
+          "Standard Hotel / Day Trip",
+          "Driver & Fuel Included"
+        ]
+      },
+      {
+        "name": "Deluxe Package",
+        "price": "18,900",
+        "status": "available",
+        "features": [
+          "AC Grand Cabin / Prado",
+          "Deluxe Hotel / Private Guide",
+          "Full Inclusions"
+        ]
+      },
+      {
+        "name": "Executive Package",
+        "price": "24,500",
+        "status": "available",
+        "features": [
+          "Luxury 4x4 Prado / SUV",
+          "Luxury 4-Star / 5-Star Hotel",
+          "VIP Concierge & Protocol"
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "q": "What is included in the tour pricing?",
+        "a": "Pricing includes private AC transport, professional driver, fuel, highway tolls, parking fees, and guide assistance."
+      },
+      {
+        "q": "Can this tour be customized?",
+        "a": "Yes! All tours can be customized for your exact pick-up location, time, and special itinerary preferences."
+      },
+      {
+        "q": "How do I book or confirm my reservation?",
+        "a": "You can book directly by clicking 'Book Now' or contacting our 24/7 WhatsApp concierge at +92 311 1145456."
+      }
+    ]
+  },
+  "north-12": {
+    "id": "north-12",
+    "title": "Pakistan: Summer Mountain Adventure – 21 Days",
+    "duration": "21 Days 20 Nights",
+    "location": "Pakistan",
+    "maxGroup": "Private & Group Options",
+    "difficulty": "Easy / Moderate",
+    "image": "images/north/item_12.webp",
+    "price": "14,000",
+    "originalPrice": "16,100",
+    "departureDay": "Daily Private Departures & Fixed Group Departures",
+    "about": "Experience Pakistan: Summer Mountain Adventure – 21 Days with Safar Silsila. This curated itinerary offers a complete journey through iconic landmarks, rich local culture, breathtaking scenery, and legendary regional cuisine. Includes professional guide, luxury AC transport, full ticket entry logistics, and official visa support.",
+    "highlights": [
+      "Complete guided excursion for Pakistan: Summer Mountain Adventure – 21 Days",
+      "Private AC transport with driver, fuel, tolls & parking",
+      "Sightseeing at historical monuments, bazaars & viewpoints",
+      "Authentic regional food & tea tasting",
+      "24/7 dedicated travel concierge & emergency support"
+    ],
+    "itinerary": [
+      {
+        "day": "Morning",
+        "title": "Pickup & Departure",
+        "desc": "07:30 AM pickup from hotel/residence in private AC vehicle. Drive along scenic highway with morning refreshment stop."
+      },
+      {
+        "day": "Afternoon",
+        "title": "Guided Monument & Activity Exploration",
+        "desc": "Arrive at destination. Guided tour of key monuments, scenic viewpoints, water activities, and photography stops."
+      },
+      {
+        "day": "Evening",
+        "title": "Local Food Tasting & Return",
+        "desc": "Enjoy famous local street food feast & traditional chai. Return drive with drop-off at your hotel by 07:00 PM."
+      }
+    ],
+    "inclusions": [
+      "Private AC Transport (Car / Prado / Coaster) with driver & fuel",
+      "Official Tour Guide & Historian Services",
+      "All Toll Taxes, Parking & Highway Charges",
+      "Complimentary Mineral Water & Refreshments",
+      "Hotel Pickup & Drop-off Services"
+    ],
+    "exclusions": [
+      "Personal shopping & optional activities",
+      "Boating, water sports or chairlift tickets (unless specified)",
+      "Tips for guide & driver"
+    ],
+    "packages": [
+      {
+        "name": "Standard Package",
+        "price": "14,000",
+        "status": "available",
+        "features": [
+          "AC Coaster / Sedan Transport",
+          "Standard Hotel / Day Trip",
+          "Driver & Fuel Included"
+        ]
+      },
+      {
+        "name": "Deluxe Package",
+        "price": "18,900",
+        "status": "available",
+        "features": [
+          "AC Grand Cabin / Prado",
+          "Deluxe Hotel / Private Guide",
+          "Full Inclusions"
+        ]
+      },
+      {
+        "name": "Executive Package",
+        "price": "24,500",
+        "status": "available",
+        "features": [
+          "Luxury 4x4 Prado / SUV",
+          "Luxury 4-Star / 5-Star Hotel",
+          "VIP Concierge & Protocol"
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "q": "What is included in the tour pricing?",
+        "a": "Pricing includes private AC transport, professional driver, fuel, highway tolls, parking fees, and guide assistance."
+      },
+      {
+        "q": "Can this tour be customized?",
+        "a": "Yes! All tours can be customized for your exact pick-up location, time, and special itinerary preferences."
+      },
+      {
+        "q": "How do I book or confirm my reservation?",
+        "a": "You can book directly by clicking 'Book Now' or contacting our 24/7 WhatsApp concierge at +92 311 1145456."
+      }
+    ]
+  },
+  "north-13": {
+    "id": "north-13",
+    "title": "Complete Northern Pakistan – 23 Days",
+    "duration": "23 Day 22 Nights",
+    "location": "Pakistan",
+    "maxGroup": "Private & Group Options",
+    "difficulty": "Easy / Moderate",
+    "image": "images/north/item_13.webp",
+    "price": "14,000",
+    "originalPrice": "16,100",
+    "departureDay": "Daily Private Departures & Fixed Group Departures",
+    "about": "Experience Complete Northern Pakistan – 23 Days with Safar Silsila. This curated itinerary offers a complete journey through iconic landmarks, rich local culture, breathtaking scenery, and legendary regional cuisine. Includes professional guide, luxury AC transport, full ticket entry logistics, and official visa support.",
+    "highlights": [
+      "Complete guided excursion for Complete Northern Pakistan – 23 Days",
+      "Private AC transport with driver, fuel, tolls & parking",
+      "Sightseeing at historical monuments, bazaars & viewpoints",
+      "Authentic regional food & tea tasting",
+      "24/7 dedicated travel concierge & emergency support"
+    ],
+    "itinerary": [
+      {
+        "day": "Morning",
+        "title": "Pickup & Departure",
+        "desc": "07:30 AM pickup from hotel/residence in private AC vehicle. Drive along scenic highway with morning refreshment stop."
+      },
+      {
+        "day": "Afternoon",
+        "title": "Guided Monument & Activity Exploration",
+        "desc": "Arrive at destination. Guided tour of key monuments, scenic viewpoints, water activities, and photography stops."
+      },
+      {
+        "day": "Evening",
+        "title": "Local Food Tasting & Return",
+        "desc": "Enjoy famous local street food feast & traditional chai. Return drive with drop-off at your hotel by 07:00 PM."
+      }
+    ],
+    "inclusions": [
+      "Private AC Transport (Car / Prado / Coaster) with driver & fuel",
+      "Official Tour Guide & Historian Services",
+      "All Toll Taxes, Parking & Highway Charges",
+      "Complimentary Mineral Water & Refreshments",
+      "Hotel Pickup & Drop-off Services"
+    ],
+    "exclusions": [
+      "Personal shopping & optional activities",
+      "Boating, water sports or chairlift tickets (unless specified)",
+      "Tips for guide & driver"
+    ],
+    "packages": [
+      {
+        "name": "Standard Package",
+        "price": "14,000",
+        "status": "available",
+        "features": [
+          "AC Coaster / Sedan Transport",
+          "Standard Hotel / Day Trip",
+          "Driver & Fuel Included"
+        ]
+      },
+      {
+        "name": "Deluxe Package",
+        "price": "18,900",
+        "status": "available",
+        "features": [
+          "AC Grand Cabin / Prado",
+          "Deluxe Hotel / Private Guide",
+          "Full Inclusions"
+        ]
+      },
+      {
+        "name": "Executive Package",
+        "price": "24,500",
+        "status": "available",
+        "features": [
+          "Luxury 4x4 Prado / SUV",
+          "Luxury 4-Star / 5-Star Hotel",
+          "VIP Concierge & Protocol"
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "q": "What is included in the tour pricing?",
+        "a": "Pricing includes private AC transport, professional driver, fuel, highway tolls, parking fees, and guide assistance."
+      },
+      {
+        "q": "Can this tour be customized?",
+        "a": "Yes! All tours can be customized for your exact pick-up location, time, and special itinerary preferences."
+      },
+      {
+        "q": "How do I book or confirm my reservation?",
+        "a": "You can book directly by clicking 'Book Now' or contacting our 24/7 WhatsApp concierge at +92 311 1145456."
+      }
+    ]
+  },
+  "north-14": {
+    "id": "north-14",
+    "title": "7-Day Tour to Swat, Malam Jabba, and Hunza",
+    "duration": "7 Days 6 Nights",
+    "location": "Hunza Valley",
+    "maxGroup": "Private & Group Options",
+    "difficulty": "Easy / Moderate",
+    "image": "images/north/item_14.jpg",
+    "price": "35,000",
+    "originalPrice": "40,250",
+    "departureDay": "Daily Private Departures & Fixed Group Departures",
+    "about": "Experience 7-Day Tour to Swat, Malam Jabba, and Hunza with Safar Silsila. This curated itinerary offers a complete journey through iconic landmarks, rich local culture, breathtaking scenery, and legendary regional cuisine. Includes professional guide, luxury AC transport, full ticket entry logistics, and official visa support.",
+    "highlights": [
+      "Complete guided excursion for 7-Day Tour to Swat, Malam Jabba, and Hunza",
+      "Private AC transport with driver, fuel, tolls & parking",
+      "Sightseeing at historical monuments, bazaars & viewpoints",
+      "Authentic regional food & tea tasting",
+      "24/7 dedicated travel concierge & emergency support"
+    ],
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "title": "Arrival & City Orientation",
+        "desc": "Pickup from hotel/airport. Orientation drive through historic landmarks, visit local bazaars, and enjoy welcome dinner."
+      },
+      {
+        "day": "Day 2",
+        "title": "Monuments & Cultural Sightseeing",
+        "desc": "Full day guided exploration of major historical monuments, ancient forts, and museum archives with expert local guide."
+      },
+      {
+        "day": "Day 3",
+        "title": "Scenic Valleys & Local Artisans",
+        "desc": "Visit artisan workshops, local markets, and surrounding natural viewpoints. Evening food street dinner."
+      },
+      {
+        "day": "Day 4",
+        "title": "Final Excursions & Departure",
+        "desc": "Morning shopping and photography tour. Drop-off at airport or hotel with fond memories."
+      }
+    ],
+    "inclusions": [
+      "Private AC Transport (Car / Prado / Coaster) with driver & fuel",
+      "Official Tour Guide & Historian Services",
+      "All Toll Taxes, Parking & Highway Charges",
+      "Complimentary Mineral Water & Refreshments",
+      "Hotel Pickup & Drop-off Services"
+    ],
+    "exclusions": [
+      "Personal shopping & optional activities",
+      "Boating, water sports or chairlift tickets (unless specified)",
+      "Tips for guide & driver"
+    ],
+    "packages": [
+      {
+        "name": "Standard Package",
+        "price": "35,000",
+        "status": "available",
+        "features": [
+          "AC Coaster / Sedan Transport",
+          "Standard Hotel / Day Trip",
+          "Driver & Fuel Included"
+        ]
+      },
+      {
+        "name": "Deluxe Package",
+        "price": "47,250",
+        "status": "available",
+        "features": [
+          "AC Grand Cabin / Prado",
+          "Deluxe Hotel / Private Guide",
+          "Full Inclusions"
+        ]
+      },
+      {
+        "name": "Executive Package",
+        "price": "61,250",
+        "status": "available",
+        "features": [
+          "Luxury 4x4 Prado / SUV",
+          "Luxury 4-Star / 5-Star Hotel",
+          "VIP Concierge & Protocol"
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "q": "What is included in the tour pricing?",
+        "a": "Pricing includes private AC transport, professional driver, fuel, highway tolls, parking fees, and guide assistance."
+      },
+      {
+        "q": "Can this tour be customized?",
+        "a": "Yes! All tours can be customized for your exact pick-up location, time, and special itinerary preferences."
+      },
+      {
+        "q": "How do I book or confirm my reservation?",
+        "a": "You can book directly by clicking 'Book Now' or contacting our 24/7 WhatsApp concierge at +92 311 1145456."
+      }
+    ]
+  },
+  "north-15": {
+    "id": "north-15",
+    "title": "Swat, Kalam & Mahodand Tour – 04 Days",
+    "duration": "4 Days 3 Nights",
+    "location": "Pakistan",
+    "maxGroup": "Private & Group Options",
+    "difficulty": "Easy / Moderate",
+    "image": "images/north/item_15.jpg",
+    "price": "35,000",
+    "originalPrice": "40,250",
+    "departureDay": "Daily Private Departures & Fixed Group Departures",
+    "about": "Experience Swat, Kalam & Mahodand Tour – 04 Days with Safar Silsila. This curated itinerary offers a complete journey through iconic landmarks, rich local culture, breathtaking scenery, and legendary regional cuisine. Includes professional guide, luxury AC transport, full ticket entry logistics, and official visa support.",
+    "highlights": [
+      "Complete guided excursion for Swat, Kalam & Mahodand Tour – 04 Days",
+      "Private AC transport with driver, fuel, tolls & parking",
+      "Sightseeing at historical monuments, bazaars & viewpoints",
+      "Authentic regional food & tea tasting",
+      "24/7 dedicated travel concierge & emergency support"
+    ],
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "title": "Arrival & City Orientation",
+        "desc": "Pickup from hotel/airport. Orientation drive through historic landmarks, visit local bazaars, and enjoy welcome dinner."
+      },
+      {
+        "day": "Day 2",
+        "title": "Monuments & Cultural Sightseeing",
+        "desc": "Full day guided exploration of major historical monuments, ancient forts, and museum archives with expert local guide."
+      },
+      {
+        "day": "Day 3",
+        "title": "Scenic Valleys & Local Artisans",
+        "desc": "Visit artisan workshops, local markets, and surrounding natural viewpoints. Evening food street dinner."
+      },
+      {
+        "day": "Day 4",
+        "title": "Final Excursions & Departure",
+        "desc": "Morning shopping and photography tour. Drop-off at airport or hotel with fond memories."
+      }
+    ],
+    "inclusions": [
+      "Private AC Transport (Car / Prado / Coaster) with driver & fuel",
+      "Official Tour Guide & Historian Services",
+      "All Toll Taxes, Parking & Highway Charges",
+      "Complimentary Mineral Water & Refreshments",
+      "Hotel Pickup & Drop-off Services"
+    ],
+    "exclusions": [
+      "Personal shopping & optional activities",
+      "Boating, water sports or chairlift tickets (unless specified)",
+      "Tips for guide & driver"
+    ],
+    "packages": [
+      {
+        "name": "Standard Package",
+        "price": "35,000",
+        "status": "available",
+        "features": [
+          "AC Coaster / Sedan Transport",
+          "Standard Hotel / Day Trip",
+          "Driver & Fuel Included"
+        ]
+      },
+      {
+        "name": "Deluxe Package",
+        "price": "47,250",
+        "status": "available",
+        "features": [
+          "AC Grand Cabin / Prado",
+          "Deluxe Hotel / Private Guide",
+          "Full Inclusions"
+        ]
+      },
+      {
+        "name": "Executive Package",
+        "price": "61,250",
+        "status": "available",
+        "features": [
+          "Luxury 4x4 Prado / SUV",
+          "Luxury 4-Star / 5-Star Hotel",
+          "VIP Concierge & Protocol"
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "q": "What is included in the tour pricing?",
+        "a": "Pricing includes private AC transport, professional driver, fuel, highway tolls, parking fees, and guide assistance."
+      },
+      {
+        "q": "Can this tour be customized?",
+        "a": "Yes! All tours can be customized for your exact pick-up location, time, and special itinerary preferences."
+      },
+      {
+        "q": "How do I book or confirm my reservation?",
+        "a": "You can book directly by clicking 'Book Now' or contacting our 24/7 WhatsApp concierge at +92 311 1145456."
+      }
+    ]
+  },
+  "north-16": {
+    "id": "north-16",
+    "title": "Sankhu Nagarkot & Changunarayan Hike with Sunrise – 02 Days",
+    "duration": "2 Days 1 Night",
+    "location": "Pakistan",
+    "maxGroup": "Private & Group Options",
+    "difficulty": "Easy / Moderate",
+    "image": "images/north/item_16.webp",
+    "price": "35,000",
+    "originalPrice": "40,250",
+    "departureDay": "Daily Private Departures & Fixed Group Departures",
+    "about": "Experience Sankhu Nagarkot & Changunarayan Hike with Sunrise – 02 Days with Safar Silsila. This curated itinerary offers a complete journey through iconic landmarks, rich local culture, breathtaking scenery, and legendary regional cuisine. Includes professional guide, luxury AC transport, full ticket entry logistics, and official visa support.",
+    "highlights": [
+      "Complete guided excursion for Sankhu Nagarkot & Changunarayan Hike with Sunrise – 02 Days",
+      "Private AC transport with driver, fuel, tolls & parking",
+      "Sightseeing at historical monuments, bazaars & viewpoints",
+      "Authentic regional food & tea tasting",
+      "24/7 dedicated travel concierge & emergency support"
+    ],
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "title": "Arrival & City Orientation",
+        "desc": "Pickup from hotel/airport. Orientation drive through historic landmarks, visit local bazaars, and enjoy welcome dinner."
+      },
+      {
+        "day": "Day 2",
+        "title": "Monuments & Cultural Sightseeing",
+        "desc": "Full day guided exploration of major historical monuments, ancient forts, and museum archives with expert local guide."
+      },
+      {
+        "day": "Day 3",
+        "title": "Scenic Valleys & Local Artisans",
+        "desc": "Visit artisan workshops, local markets, and surrounding natural viewpoints. Evening food street dinner."
+      },
+      {
+        "day": "Day 4",
+        "title": "Final Excursions & Departure",
+        "desc": "Morning shopping and photography tour. Drop-off at airport or hotel with fond memories."
+      }
+    ],
+    "inclusions": [
+      "Private AC Transport (Car / Prado / Coaster) with driver & fuel",
+      "Official Tour Guide & Historian Services",
+      "All Toll Taxes, Parking & Highway Charges",
+      "Complimentary Mineral Water & Refreshments",
+      "Hotel Pickup & Drop-off Services"
+    ],
+    "exclusions": [
+      "Personal shopping & optional activities",
+      "Boating, water sports or chairlift tickets (unless specified)",
+      "Tips for guide & driver"
+    ],
+    "packages": [
+      {
+        "name": "Standard Package",
+        "price": "35,000",
+        "status": "available",
+        "features": [
+          "AC Coaster / Sedan Transport",
+          "Standard Hotel / Day Trip",
+          "Driver & Fuel Included"
+        ]
+      },
+      {
+        "name": "Deluxe Package",
+        "price": "47,250",
+        "status": "available",
+        "features": [
+          "AC Grand Cabin / Prado",
+          "Deluxe Hotel / Private Guide",
+          "Full Inclusions"
+        ]
+      },
+      {
+        "name": "Executive Package",
+        "price": "61,250",
+        "status": "available",
+        "features": [
+          "Luxury 4x4 Prado / SUV",
+          "Luxury 4-Star / 5-Star Hotel",
+          "VIP Concierge & Protocol"
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "q": "What is included in the tour pricing?",
+        "a": "Pricing includes private AC transport, professional driver, fuel, highway tolls, parking fees, and guide assistance."
+      },
+      {
+        "q": "Can this tour be customized?",
+        "a": "Yes! All tours can be customized for your exact pick-up location, time, and special itinerary preferences."
+      },
+      {
+        "q": "How do I book or confirm my reservation?",
+        "a": "You can book directly by clicking 'Book Now' or contacting our 24/7 WhatsApp concierge at +92 311 1145456."
+      }
+    ]
+  },
+  "north-17": {
+    "id": "north-17",
+    "title": "Kathmandu Valley and Chandragiri Hills Excursion Tour – 04 Days",
+    "duration": "4 Days 3 Nights",
+    "location": "Pakistan",
+    "maxGroup": "Private & Group Options",
+    "difficulty": "Easy / Moderate",
+    "image": "images/north/item_17.jpg",
+    "price": "35,000",
+    "originalPrice": "40,250",
+    "departureDay": "Daily Private Departures & Fixed Group Departures",
+    "about": "Experience Kathmandu Valley and Chandragiri Hills Excursion Tour – 04 Days with Safar Silsila. This curated itinerary offers a complete journey through iconic landmarks, rich local culture, breathtaking scenery, and legendary regional cuisine. Includes professional guide, luxury AC transport, full ticket entry logistics, and official visa support.",
+    "highlights": [
+      "Complete guided excursion for Kathmandu Valley and Chandragiri Hills Excursion Tour – 04 Days",
+      "Private AC transport with driver, fuel, tolls & parking",
+      "Sightseeing at historical monuments, bazaars & viewpoints",
+      "Authentic regional food & tea tasting",
+      "24/7 dedicated travel concierge & emergency support"
+    ],
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "title": "Arrival & City Orientation",
+        "desc": "Pickup from hotel/airport. Orientation drive through historic landmarks, visit local bazaars, and enjoy welcome dinner."
+      },
+      {
+        "day": "Day 2",
+        "title": "Monuments & Cultural Sightseeing",
+        "desc": "Full day guided exploration of major historical monuments, ancient forts, and museum archives with expert local guide."
+      },
+      {
+        "day": "Day 3",
+        "title": "Scenic Valleys & Local Artisans",
+        "desc": "Visit artisan workshops, local markets, and surrounding natural viewpoints. Evening food street dinner."
+      },
+      {
+        "day": "Day 4",
+        "title": "Final Excursions & Departure",
+        "desc": "Morning shopping and photography tour. Drop-off at airport or hotel with fond memories."
+      }
+    ],
+    "inclusions": [
+      "Private AC Transport (Car / Prado / Coaster) with driver & fuel",
+      "Official Tour Guide & Historian Services",
+      "All Toll Taxes, Parking & Highway Charges",
+      "Complimentary Mineral Water & Refreshments",
+      "Hotel Pickup & Drop-off Services"
+    ],
+    "exclusions": [
+      "Personal shopping & optional activities",
+      "Boating, water sports or chairlift tickets (unless specified)",
+      "Tips for guide & driver"
+    ],
+    "packages": [
+      {
+        "name": "Standard Package",
+        "price": "35,000",
+        "status": "available",
+        "features": [
+          "AC Coaster / Sedan Transport",
+          "Standard Hotel / Day Trip",
+          "Driver & Fuel Included"
+        ]
+      },
+      {
+        "name": "Deluxe Package",
+        "price": "47,250",
+        "status": "available",
+        "features": [
+          "AC Grand Cabin / Prado",
+          "Deluxe Hotel / Private Guide",
+          "Full Inclusions"
+        ]
+      },
+      {
+        "name": "Executive Package",
+        "price": "61,250",
+        "status": "available",
+        "features": [
+          "Luxury 4x4 Prado / SUV",
+          "Luxury 4-Star / 5-Star Hotel",
+          "VIP Concierge & Protocol"
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "q": "What is included in the tour pricing?",
+        "a": "Pricing includes private AC transport, professional driver, fuel, highway tolls, parking fees, and guide assistance."
+      },
+      {
+        "q": "Can this tour be customized?",
+        "a": "Yes! All tours can be customized for your exact pick-up location, time, and special itinerary preferences."
+      },
+      {
+        "q": "How do I book or confirm my reservation?",
+        "a": "You can book directly by clicking 'Book Now' or contacting our 24/7 WhatsApp concierge at +92 311 1145456."
+      }
+    ]
+  },
+  "north-18": {
+    "id": "north-18",
+    "title": "Kathmandu and Pokhara Sightseeing Tour– 06 Days",
+    "duration": "6 Days 5 Nights",
+    "location": "Pakistan",
+    "maxGroup": "Private & Group Options",
+    "difficulty": "Easy / Moderate",
+    "image": "images/north/item_18.jpg",
+    "price": "35,000",
+    "originalPrice": "40,250",
+    "departureDay": "Daily Private Departures & Fixed Group Departures",
+    "about": "Experience Kathmandu and Pokhara Sightseeing Tour– 06 Days with Safar Silsila. This curated itinerary offers a complete journey through iconic landmarks, rich local culture, breathtaking scenery, and legendary regional cuisine. Includes professional guide, luxury AC transport, full ticket entry logistics, and official visa support.",
+    "highlights": [
+      "Complete guided excursion for Kathmandu and Pokhara Sightseeing Tour– 06 Days",
+      "Private AC transport with driver, fuel, tolls & parking",
+      "Sightseeing at historical monuments, bazaars & viewpoints",
+      "Authentic regional food & tea tasting",
+      "24/7 dedicated travel concierge & emergency support"
+    ],
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "title": "Arrival & City Orientation",
+        "desc": "Pickup from hotel/airport. Orientation drive through historic landmarks, visit local bazaars, and enjoy welcome dinner."
+      },
+      {
+        "day": "Day 2",
+        "title": "Monuments & Cultural Sightseeing",
+        "desc": "Full day guided exploration of major historical monuments, ancient forts, and museum archives with expert local guide."
+      },
+      {
+        "day": "Day 3",
+        "title": "Scenic Valleys & Local Artisans",
+        "desc": "Visit artisan workshops, local markets, and surrounding natural viewpoints. Evening food street dinner."
+      },
+      {
+        "day": "Day 4",
+        "title": "Final Excursions & Departure",
+        "desc": "Morning shopping and photography tour. Drop-off at airport or hotel with fond memories."
+      }
+    ],
+    "inclusions": [
+      "Private AC Transport (Car / Prado / Coaster) with driver & fuel",
+      "Official Tour Guide & Historian Services",
+      "All Toll Taxes, Parking & Highway Charges",
+      "Complimentary Mineral Water & Refreshments",
+      "Hotel Pickup & Drop-off Services"
+    ],
+    "exclusions": [
+      "Personal shopping & optional activities",
+      "Boating, water sports or chairlift tickets (unless specified)",
+      "Tips for guide & driver"
+    ],
+    "packages": [
+      {
+        "name": "Standard Package",
+        "price": "35,000",
+        "status": "available",
+        "features": [
+          "AC Coaster / Sedan Transport",
+          "Standard Hotel / Day Trip",
+          "Driver & Fuel Included"
+        ]
+      },
+      {
+        "name": "Deluxe Package",
+        "price": "47,250",
+        "status": "available",
+        "features": [
+          "AC Grand Cabin / Prado",
+          "Deluxe Hotel / Private Guide",
+          "Full Inclusions"
+        ]
+      },
+      {
+        "name": "Executive Package",
+        "price": "61,250",
+        "status": "available",
+        "features": [
+          "Luxury 4x4 Prado / SUV",
+          "Luxury 4-Star / 5-Star Hotel",
+          "VIP Concierge & Protocol"
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "q": "What is included in the tour pricing?",
+        "a": "Pricing includes private AC transport, professional driver, fuel, highway tolls, parking fees, and guide assistance."
+      },
+      {
+        "q": "Can this tour be customized?",
+        "a": "Yes! All tours can be customized for your exact pick-up location, time, and special itinerary preferences."
+      },
+      {
+        "q": "How do I book or confirm my reservation?",
+        "a": "You can book directly by clicking 'Book Now' or contacting our 24/7 WhatsApp concierge at +92 311 1145456."
+      }
+    ]
+  },
+  "north-19": {
+    "id": "north-19",
+    "title": "Kathmandu Pokhara and Chitwan Tour – 09 Days",
+    "duration": "9 Day 8 Nights",
+    "location": "Pakistan",
+    "maxGroup": "Private & Group Options",
+    "difficulty": "Easy / Moderate",
+    "image": "images/north/item_19.jpg",
+    "price": "14,000",
+    "originalPrice": "16,100",
+    "departureDay": "Daily Private Departures & Fixed Group Departures",
+    "about": "Experience Kathmandu Pokhara and Chitwan Tour – 09 Days with Safar Silsila. This curated itinerary offers a complete journey through iconic landmarks, rich local culture, breathtaking scenery, and legendary regional cuisine. Includes professional guide, luxury AC transport, full ticket entry logistics, and official visa support.",
+    "highlights": [
+      "Complete guided excursion for Kathmandu Pokhara and Chitwan Tour – 09 Days",
+      "Private AC transport with driver, fuel, tolls & parking",
+      "Sightseeing at historical monuments, bazaars & viewpoints",
+      "Authentic regional food & tea tasting",
+      "24/7 dedicated travel concierge & emergency support"
+    ],
+    "itinerary": [
+      {
+        "day": "Morning",
+        "title": "Pickup & Departure",
+        "desc": "07:30 AM pickup from hotel/residence in private AC vehicle. Drive along scenic highway with morning refreshment stop."
+      },
+      {
+        "day": "Afternoon",
+        "title": "Guided Monument & Activity Exploration",
+        "desc": "Arrive at destination. Guided tour of key monuments, scenic viewpoints, water activities, and photography stops."
+      },
+      {
+        "day": "Evening",
+        "title": "Local Food Tasting & Return",
+        "desc": "Enjoy famous local street food feast & traditional chai. Return drive with drop-off at your hotel by 07:00 PM."
+      }
+    ],
+    "inclusions": [
+      "Private AC Transport (Car / Prado / Coaster) with driver & fuel",
+      "Official Tour Guide & Historian Services",
+      "All Toll Taxes, Parking & Highway Charges",
+      "Complimentary Mineral Water & Refreshments",
+      "Hotel Pickup & Drop-off Services"
+    ],
+    "exclusions": [
+      "Personal shopping & optional activities",
+      "Boating, water sports or chairlift tickets (unless specified)",
+      "Tips for guide & driver"
+    ],
+    "packages": [
+      {
+        "name": "Standard Package",
+        "price": "14,000",
+        "status": "available",
+        "features": [
+          "AC Coaster / Sedan Transport",
+          "Standard Hotel / Day Trip",
+          "Driver & Fuel Included"
+        ]
+      },
+      {
+        "name": "Deluxe Package",
+        "price": "18,900",
+        "status": "available",
+        "features": [
+          "AC Grand Cabin / Prado",
+          "Deluxe Hotel / Private Guide",
+          "Full Inclusions"
+        ]
+      },
+      {
+        "name": "Executive Package",
+        "price": "24,500",
+        "status": "available",
+        "features": [
+          "Luxury 4x4 Prado / SUV",
+          "Luxury 4-Star / 5-Star Hotel",
+          "VIP Concierge & Protocol"
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "q": "What is included in the tour pricing?",
+        "a": "Pricing includes private AC transport, professional driver, fuel, highway tolls, parking fees, and guide assistance."
+      },
+      {
+        "q": "Can this tour be customized?",
+        "a": "Yes! All tours can be customized for your exact pick-up location, time, and special itinerary preferences."
+      },
+      {
+        "q": "How do I book or confirm my reservation?",
+        "a": "You can book directly by clicking 'Book Now' or contacting our 24/7 WhatsApp concierge at +92 311 1145456."
+      }
+    ]
+  },
+  "north-20": {
+    "id": "north-20",
+    "title": "Chunda Valley Tour – 07 Days",
+    "duration": "7 Day 6 Nights",
+    "location": "Pakistan",
+    "maxGroup": "Private & Group Options",
+    "difficulty": "Easy / Moderate",
+    "image": "images/north/item_20.webp",
+    "price": "14,000",
+    "originalPrice": "16,100",
+    "departureDay": "Daily Private Departures & Fixed Group Departures",
+    "about": "Experience Chunda Valley Tour – 07 Days with Safar Silsila. This curated itinerary offers a complete journey through iconic landmarks, rich local culture, breathtaking scenery, and legendary regional cuisine. Includes professional guide, luxury AC transport, full ticket entry logistics, and official visa support.",
+    "highlights": [
+      "Complete guided excursion for Chunda Valley Tour – 07 Days",
+      "Private AC transport with driver, fuel, tolls & parking",
+      "Sightseeing at historical monuments, bazaars & viewpoints",
+      "Authentic regional food & tea tasting",
+      "24/7 dedicated travel concierge & emergency support"
+    ],
+    "itinerary": [
+      {
+        "day": "Morning",
+        "title": "Pickup & Departure",
+        "desc": "07:30 AM pickup from hotel/residence in private AC vehicle. Drive along scenic highway with morning refreshment stop."
+      },
+      {
+        "day": "Afternoon",
+        "title": "Guided Monument & Activity Exploration",
+        "desc": "Arrive at destination. Guided tour of key monuments, scenic viewpoints, water activities, and photography stops."
+      },
+      {
+        "day": "Evening",
+        "title": "Local Food Tasting & Return",
+        "desc": "Enjoy famous local street food feast & traditional chai. Return drive with drop-off at your hotel by 07:00 PM."
+      }
+    ],
+    "inclusions": [
+      "Private AC Transport (Car / Prado / Coaster) with driver & fuel",
+      "Official Tour Guide & Historian Services",
+      "All Toll Taxes, Parking & Highway Charges",
+      "Complimentary Mineral Water & Refreshments",
+      "Hotel Pickup & Drop-off Services"
+    ],
+    "exclusions": [
+      "Personal shopping & optional activities",
+      "Boating, water sports or chairlift tickets (unless specified)",
+      "Tips for guide & driver"
+    ],
+    "packages": [
+      {
+        "name": "Standard Package",
+        "price": "14,000",
+        "status": "available",
+        "features": [
+          "AC Coaster / Sedan Transport",
+          "Standard Hotel / Day Trip",
+          "Driver & Fuel Included"
+        ]
+      },
+      {
+        "name": "Deluxe Package",
+        "price": "18,900",
+        "status": "available",
+        "features": [
+          "AC Grand Cabin / Prado",
+          "Deluxe Hotel / Private Guide",
+          "Full Inclusions"
+        ]
+      },
+      {
+        "name": "Executive Package",
+        "price": "24,500",
+        "status": "available",
+        "features": [
+          "Luxury 4x4 Prado / SUV",
+          "Luxury 4-Star / 5-Star Hotel",
+          "VIP Concierge & Protocol"
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "q": "What is included in the tour pricing?",
+        "a": "Pricing includes private AC transport, professional driver, fuel, highway tolls, parking fees, and guide assistance."
+      },
+      {
+        "q": "Can this tour be customized?",
+        "a": "Yes! All tours can be customized for your exact pick-up location, time, and special itinerary preferences."
+      },
+      {
+        "q": "How do I book or confirm my reservation?",
+        "a": "You can book directly by clicking 'Book Now' or contacting our 24/7 WhatsApp concierge at +92 311 1145456."
+      }
+    ]
+  },
+  "north-21": {
+    "id": "north-21",
+    "title": "Kumrat Valley Tour – 05 Days",
+    "duration": "5 Days 4 Nights",
+    "location": "Pakistan",
+    "maxGroup": "Private & Group Options",
+    "difficulty": "Easy / Moderate",
+    "image": "images/north/item_21.jpg",
+    "price": "35,000",
+    "originalPrice": "40,250",
+    "departureDay": "Daily Private Departures & Fixed Group Departures",
+    "about": "Experience Kumrat Valley Tour – 05 Days with Safar Silsila. This curated itinerary offers a complete journey through iconic landmarks, rich local culture, breathtaking scenery, and legendary regional cuisine. Includes professional guide, luxury AC transport, full ticket entry logistics, and official visa support.",
+    "highlights": [
+      "Complete guided excursion for Kumrat Valley Tour – 05 Days",
+      "Private AC transport with driver, fuel, tolls & parking",
+      "Sightseeing at historical monuments, bazaars & viewpoints",
+      "Authentic regional food & tea tasting",
+      "24/7 dedicated travel concierge & emergency support"
+    ],
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "title": "Arrival & City Orientation",
+        "desc": "Pickup from hotel/airport. Orientation drive through historic landmarks, visit local bazaars, and enjoy welcome dinner."
+      },
+      {
+        "day": "Day 2",
+        "title": "Monuments & Cultural Sightseeing",
+        "desc": "Full day guided exploration of major historical monuments, ancient forts, and museum archives with expert local guide."
+      },
+      {
+        "day": "Day 3",
+        "title": "Scenic Valleys & Local Artisans",
+        "desc": "Visit artisan workshops, local markets, and surrounding natural viewpoints. Evening food street dinner."
+      },
+      {
+        "day": "Day 4",
+        "title": "Final Excursions & Departure",
+        "desc": "Morning shopping and photography tour. Drop-off at airport or hotel with fond memories."
+      }
+    ],
+    "inclusions": [
+      "Private AC Transport (Car / Prado / Coaster) with driver & fuel",
+      "Official Tour Guide & Historian Services",
+      "All Toll Taxes, Parking & Highway Charges",
+      "Complimentary Mineral Water & Refreshments",
+      "Hotel Pickup & Drop-off Services"
+    ],
+    "exclusions": [
+      "Personal shopping & optional activities",
+      "Boating, water sports or chairlift tickets (unless specified)",
+      "Tips for guide & driver"
+    ],
+    "packages": [
+      {
+        "name": "Standard Package",
+        "price": "35,000",
+        "status": "available",
+        "features": [
+          "AC Coaster / Sedan Transport",
+          "Standard Hotel / Day Trip",
+          "Driver & Fuel Included"
+        ]
+      },
+      {
+        "name": "Deluxe Package",
+        "price": "47,250",
+        "status": "available",
+        "features": [
+          "AC Grand Cabin / Prado",
+          "Deluxe Hotel / Private Guide",
+          "Full Inclusions"
+        ]
+      },
+      {
+        "name": "Executive Package",
+        "price": "61,250",
+        "status": "available",
+        "features": [
+          "Luxury 4x4 Prado / SUV",
+          "Luxury 4-Star / 5-Star Hotel",
+          "VIP Concierge & Protocol"
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "q": "What is included in the tour pricing?",
+        "a": "Pricing includes private AC transport, professional driver, fuel, highway tolls, parking fees, and guide assistance."
+      },
+      {
+        "q": "Can this tour be customized?",
+        "a": "Yes! All tours can be customized for your exact pick-up location, time, and special itinerary preferences."
+      },
+      {
+        "q": "How do I book or confirm my reservation?",
+        "a": "You can book directly by clicking 'Book Now' or contacting our 24/7 WhatsApp concierge at +92 311 1145456."
+      }
+    ]
+  },
+  "north-22": {
+    "id": "north-22",
+    "title": "Kumrat Valley Tour – 04 Days",
+    "duration": "4 Days 3 Nights",
+    "location": "Pakistan",
+    "maxGroup": "Private & Group Options",
+    "difficulty": "Easy / Moderate",
+    "image": "images/north/item_22.webp",
+    "price": "35,000",
+    "originalPrice": "40,250",
+    "departureDay": "Daily Private Departures & Fixed Group Departures",
+    "about": "Experience Kumrat Valley Tour – 04 Days with Safar Silsila. This curated itinerary offers a complete journey through iconic landmarks, rich local culture, breathtaking scenery, and legendary regional cuisine. Includes professional guide, luxury AC transport, full ticket entry logistics, and official visa support.",
+    "highlights": [
+      "Complete guided excursion for Kumrat Valley Tour – 04 Days",
+      "Private AC transport with driver, fuel, tolls & parking",
+      "Sightseeing at historical monuments, bazaars & viewpoints",
+      "Authentic regional food & tea tasting",
+      "24/7 dedicated travel concierge & emergency support"
+    ],
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "title": "Arrival & City Orientation",
+        "desc": "Pickup from hotel/airport. Orientation drive through historic landmarks, visit local bazaars, and enjoy welcome dinner."
+      },
+      {
+        "day": "Day 2",
+        "title": "Monuments & Cultural Sightseeing",
+        "desc": "Full day guided exploration of major historical monuments, ancient forts, and museum archives with expert local guide."
+      },
+      {
+        "day": "Day 3",
+        "title": "Scenic Valleys & Local Artisans",
+        "desc": "Visit artisan workshops, local markets, and surrounding natural viewpoints. Evening food street dinner."
+      },
+      {
+        "day": "Day 4",
+        "title": "Final Excursions & Departure",
+        "desc": "Morning shopping and photography tour. Drop-off at airport or hotel with fond memories."
+      }
+    ],
+    "inclusions": [
+      "Private AC Transport (Car / Prado / Coaster) with driver & fuel",
+      "Official Tour Guide & Historian Services",
+      "All Toll Taxes, Parking & Highway Charges",
+      "Complimentary Mineral Water & Refreshments",
+      "Hotel Pickup & Drop-off Services"
+    ],
+    "exclusions": [
+      "Personal shopping & optional activities",
+      "Boating, water sports or chairlift tickets (unless specified)",
+      "Tips for guide & driver"
+    ],
+    "packages": [
+      {
+        "name": "Standard Package",
+        "price": "35,000",
+        "status": "available",
+        "features": [
+          "AC Coaster / Sedan Transport",
+          "Standard Hotel / Day Trip",
+          "Driver & Fuel Included"
+        ]
+      },
+      {
+        "name": "Deluxe Package",
+        "price": "47,250",
+        "status": "available",
+        "features": [
+          "AC Grand Cabin / Prado",
+          "Deluxe Hotel / Private Guide",
+          "Full Inclusions"
+        ]
+      },
+      {
+        "name": "Executive Package",
+        "price": "61,250",
+        "status": "available",
+        "features": [
+          "Luxury 4x4 Prado / SUV",
+          "Luxury 4-Star / 5-Star Hotel",
+          "VIP Concierge & Protocol"
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "q": "What is included in the tour pricing?",
+        "a": "Pricing includes private AC transport, professional driver, fuel, highway tolls, parking fees, and guide assistance."
+      },
+      {
+        "q": "Can this tour be customized?",
+        "a": "Yes! All tours can be customized for your exact pick-up location, time, and special itinerary preferences."
+      },
+      {
+        "q": "How do I book or confirm my reservation?",
+        "a": "You can book directly by clicking 'Book Now' or contacting our 24/7 WhatsApp concierge at +92 311 1145456."
+      }
+    ]
+  },
+  "north-23": {
+    "id": "north-23",
+    "title": "Kumrat Valley Tour – 03 Days",
+    "duration": "3 Days 2 Nights",
+    "location": "Pakistan",
+    "maxGroup": "Private & Group Options",
+    "difficulty": "Easy / Moderate",
+    "image": "images/north/item_23.webp",
+    "price": "35,000",
+    "originalPrice": "40,250",
+    "departureDay": "Daily Private Departures & Fixed Group Departures",
+    "about": "Experience Kumrat Valley Tour – 03 Days with Safar Silsila. This curated itinerary offers a complete journey through iconic landmarks, rich local culture, breathtaking scenery, and legendary regional cuisine. Includes professional guide, luxury AC transport, full ticket entry logistics, and official visa support.",
+    "highlights": [
+      "Complete guided excursion for Kumrat Valley Tour – 03 Days",
+      "Private AC transport with driver, fuel, tolls & parking",
+      "Sightseeing at historical monuments, bazaars & viewpoints",
+      "Authentic regional food & tea tasting",
+      "24/7 dedicated travel concierge & emergency support"
+    ],
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "title": "Arrival & City Orientation",
+        "desc": "Pickup from hotel/airport. Orientation drive through historic landmarks, visit local bazaars, and enjoy welcome dinner."
+      },
+      {
+        "day": "Day 2",
+        "title": "Monuments & Cultural Sightseeing",
+        "desc": "Full day guided exploration of major historical monuments, ancient forts, and museum archives with expert local guide."
+      },
+      {
+        "day": "Day 3",
+        "title": "Scenic Valleys & Local Artisans",
+        "desc": "Visit artisan workshops, local markets, and surrounding natural viewpoints. Evening food street dinner."
+      },
+      {
+        "day": "Day 4",
+        "title": "Final Excursions & Departure",
+        "desc": "Morning shopping and photography tour. Drop-off at airport or hotel with fond memories."
+      }
+    ],
+    "inclusions": [
+      "Private AC Transport (Car / Prado / Coaster) with driver & fuel",
+      "Official Tour Guide & Historian Services",
+      "All Toll Taxes, Parking & Highway Charges",
+      "Complimentary Mineral Water & Refreshments",
+      "Hotel Pickup & Drop-off Services"
+    ],
+    "exclusions": [
+      "Personal shopping & optional activities",
+      "Boating, water sports or chairlift tickets (unless specified)",
+      "Tips for guide & driver"
+    ],
+    "packages": [
+      {
+        "name": "Standard Package",
+        "price": "35,000",
+        "status": "available",
+        "features": [
+          "AC Coaster / Sedan Transport",
+          "Standard Hotel / Day Trip",
+          "Driver & Fuel Included"
+        ]
+      },
+      {
+        "name": "Deluxe Package",
+        "price": "47,250",
+        "status": "available",
+        "features": [
+          "AC Grand Cabin / Prado",
+          "Deluxe Hotel / Private Guide",
+          "Full Inclusions"
+        ]
+      },
+      {
+        "name": "Executive Package",
+        "price": "61,250",
+        "status": "available",
+        "features": [
+          "Luxury 4x4 Prado / SUV",
+          "Luxury 4-Star / 5-Star Hotel",
+          "VIP Concierge & Protocol"
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "q": "What is included in the tour pricing?",
+        "a": "Pricing includes private AC transport, professional driver, fuel, highway tolls, parking fees, and guide assistance."
+      },
+      {
+        "q": "Can this tour be customized?",
+        "a": "Yes! All tours can be customized for your exact pick-up location, time, and special itinerary preferences."
+      },
+      {
+        "q": "How do I book or confirm my reservation?",
+        "a": "You can book directly by clicking 'Book Now' or contacting our 24/7 WhatsApp concierge at +92 311 1145456."
+      }
+    ]
+  },
+  "north-24": {
+    "id": "north-24",
+    "title": "Nagar Valley Tour – 07 Days",
+    "duration": "7 Days 6 Nights",
+    "location": "Pakistan",
+    "maxGroup": "Private & Group Options",
+    "difficulty": "Easy / Moderate",
+    "image": "images/north/item_24.jpg",
+    "price": "35,000",
+    "originalPrice": "40,250",
+    "departureDay": "Daily Private Departures & Fixed Group Departures",
+    "about": "Experience Nagar Valley Tour – 07 Days with Safar Silsila. This curated itinerary offers a complete journey through iconic landmarks, rich local culture, breathtaking scenery, and legendary regional cuisine. Includes professional guide, luxury AC transport, full ticket entry logistics, and official visa support.",
+    "highlights": [
+      "Complete guided excursion for Nagar Valley Tour – 07 Days",
+      "Private AC transport with driver, fuel, tolls & parking",
+      "Sightseeing at historical monuments, bazaars & viewpoints",
+      "Authentic regional food & tea tasting",
+      "24/7 dedicated travel concierge & emergency support"
+    ],
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "title": "Arrival & City Orientation",
+        "desc": "Pickup from hotel/airport. Orientation drive through historic landmarks, visit local bazaars, and enjoy welcome dinner."
+      },
+      {
+        "day": "Day 2",
+        "title": "Monuments & Cultural Sightseeing",
+        "desc": "Full day guided exploration of major historical monuments, ancient forts, and museum archives with expert local guide."
+      },
+      {
+        "day": "Day 3",
+        "title": "Scenic Valleys & Local Artisans",
+        "desc": "Visit artisan workshops, local markets, and surrounding natural viewpoints. Evening food street dinner."
+      },
+      {
+        "day": "Day 4",
+        "title": "Final Excursions & Departure",
+        "desc": "Morning shopping and photography tour. Drop-off at airport or hotel with fond memories."
+      }
+    ],
+    "inclusions": [
+      "Private AC Transport (Car / Prado / Coaster) with driver & fuel",
+      "Official Tour Guide & Historian Services",
+      "All Toll Taxes, Parking & Highway Charges",
+      "Complimentary Mineral Water & Refreshments",
+      "Hotel Pickup & Drop-off Services"
+    ],
+    "exclusions": [
+      "Personal shopping & optional activities",
+      "Boating, water sports or chairlift tickets (unless specified)",
+      "Tips for guide & driver"
+    ],
+    "packages": [
+      {
+        "name": "Standard Package",
+        "price": "35,000",
+        "status": "available",
+        "features": [
+          "AC Coaster / Sedan Transport",
+          "Standard Hotel / Day Trip",
+          "Driver & Fuel Included"
+        ]
+      },
+      {
+        "name": "Deluxe Package",
+        "price": "47,250",
+        "status": "available",
+        "features": [
+          "AC Grand Cabin / Prado",
+          "Deluxe Hotel / Private Guide",
+          "Full Inclusions"
+        ]
+      },
+      {
+        "name": "Executive Package",
+        "price": "61,250",
+        "status": "available",
+        "features": [
+          "Luxury 4x4 Prado / SUV",
+          "Luxury 4-Star / 5-Star Hotel",
+          "VIP Concierge & Protocol"
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "q": "What is included in the tour pricing?",
+        "a": "Pricing includes private AC transport, professional driver, fuel, highway tolls, parking fees, and guide assistance."
+      },
+      {
+        "q": "Can this tour be customized?",
+        "a": "Yes! All tours can be customized for your exact pick-up location, time, and special itinerary preferences."
+      },
+      {
+        "q": "How do I book or confirm my reservation?",
+        "a": "You can book directly by clicking 'Book Now' or contacting our 24/7 WhatsApp concierge at +92 311 1145456."
+      }
+    ]
+  },
+  "north-25": {
+    "id": "north-25",
+    "title": "Arang Kel, Sharda – 03 Days",
+    "duration": "3 Days 2 Nights",
+    "location": "Pakistan",
+    "maxGroup": "Private & Group Options",
+    "difficulty": "Easy / Moderate",
+    "image": "images/north/item_25.jpg",
+    "price": "35,000",
+    "originalPrice": "40,250",
+    "departureDay": "Daily Private Departures & Fixed Group Departures",
+    "about": "Experience Arang Kel, Sharda – 03 Days with Safar Silsila. This curated itinerary offers a complete journey through iconic landmarks, rich local culture, breathtaking scenery, and legendary regional cuisine. Includes professional guide, luxury AC transport, full ticket entry logistics, and official visa support.",
+    "highlights": [
+      "Complete guided excursion for Arang Kel, Sharda – 03 Days",
+      "Private AC transport with driver, fuel, tolls & parking",
+      "Sightseeing at historical monuments, bazaars & viewpoints",
+      "Authentic regional food & tea tasting",
+      "24/7 dedicated travel concierge & emergency support"
+    ],
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "title": "Arrival & City Orientation",
+        "desc": "Pickup from hotel/airport. Orientation drive through historic landmarks, visit local bazaars, and enjoy welcome dinner."
+      },
+      {
+        "day": "Day 2",
+        "title": "Monuments & Cultural Sightseeing",
+        "desc": "Full day guided exploration of major historical monuments, ancient forts, and museum archives with expert local guide."
+      },
+      {
+        "day": "Day 3",
+        "title": "Scenic Valleys & Local Artisans",
+        "desc": "Visit artisan workshops, local markets, and surrounding natural viewpoints. Evening food street dinner."
+      },
+      {
+        "day": "Day 4",
+        "title": "Final Excursions & Departure",
+        "desc": "Morning shopping and photography tour. Drop-off at airport or hotel with fond memories."
+      }
+    ],
+    "inclusions": [
+      "Private AC Transport (Car / Prado / Coaster) with driver & fuel",
+      "Official Tour Guide & Historian Services",
+      "All Toll Taxes, Parking & Highway Charges",
+      "Complimentary Mineral Water & Refreshments",
+      "Hotel Pickup & Drop-off Services"
+    ],
+    "exclusions": [
+      "Personal shopping & optional activities",
+      "Boating, water sports or chairlift tickets (unless specified)",
+      "Tips for guide & driver"
+    ],
+    "packages": [
+      {
+        "name": "Standard Package",
+        "price": "35,000",
+        "status": "available",
+        "features": [
+          "AC Coaster / Sedan Transport",
+          "Standard Hotel / Day Trip",
+          "Driver & Fuel Included"
+        ]
+      },
+      {
+        "name": "Deluxe Package",
+        "price": "47,250",
+        "status": "available",
+        "features": [
+          "AC Grand Cabin / Prado",
+          "Deluxe Hotel / Private Guide",
+          "Full Inclusions"
+        ]
+      },
+      {
+        "name": "Executive Package",
+        "price": "61,250",
+        "status": "available",
+        "features": [
+          "Luxury 4x4 Prado / SUV",
+          "Luxury 4-Star / 5-Star Hotel",
+          "VIP Concierge & Protocol"
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "q": "What is included in the tour pricing?",
+        "a": "Pricing includes private AC transport, professional driver, fuel, highway tolls, parking fees, and guide assistance."
+      },
+      {
+        "q": "Can this tour be customized?",
+        "a": "Yes! All tours can be customized for your exact pick-up location, time, and special itinerary preferences."
+      },
+      {
+        "q": "How do I book or confirm my reservation?",
+        "a": "You can book directly by clicking 'Book Now' or contacting our 24/7 WhatsApp concierge at +92 311 1145456."
+      }
+    ]
+  },
+  "north-26": {
+    "id": "north-26",
+    "title": "Neelum Valley Keran Tour – 03 Days",
+    "duration": "3 Days 2 Nights",
+    "location": "Pakistan",
+    "maxGroup": "Private & Group Options",
+    "difficulty": "Easy / Moderate",
+    "image": "images/north/item_26.jpg",
+    "price": "35,000",
+    "originalPrice": "40,250",
+    "departureDay": "Daily Private Departures & Fixed Group Departures",
+    "about": "Experience Neelum Valley Keran Tour – 03 Days with Safar Silsila. This curated itinerary offers a complete journey through iconic landmarks, rich local culture, breathtaking scenery, and legendary regional cuisine. Includes professional guide, luxury AC transport, full ticket entry logistics, and official visa support.",
+    "highlights": [
+      "Complete guided excursion for Neelum Valley Keran Tour – 03 Days",
+      "Private AC transport with driver, fuel, tolls & parking",
+      "Sightseeing at historical monuments, bazaars & viewpoints",
+      "Authentic regional food & tea tasting",
+      "24/7 dedicated travel concierge & emergency support"
+    ],
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "title": "Arrival & City Orientation",
+        "desc": "Pickup from hotel/airport. Orientation drive through historic landmarks, visit local bazaars, and enjoy welcome dinner."
+      },
+      {
+        "day": "Day 2",
+        "title": "Monuments & Cultural Sightseeing",
+        "desc": "Full day guided exploration of major historical monuments, ancient forts, and museum archives with expert local guide."
+      },
+      {
+        "day": "Day 3",
+        "title": "Scenic Valleys & Local Artisans",
+        "desc": "Visit artisan workshops, local markets, and surrounding natural viewpoints. Evening food street dinner."
+      },
+      {
+        "day": "Day 4",
+        "title": "Final Excursions & Departure",
+        "desc": "Morning shopping and photography tour. Drop-off at airport or hotel with fond memories."
+      }
+    ],
+    "inclusions": [
+      "Private AC Transport (Car / Prado / Coaster) with driver & fuel",
+      "Official Tour Guide & Historian Services",
+      "All Toll Taxes, Parking & Highway Charges",
+      "Complimentary Mineral Water & Refreshments",
+      "Hotel Pickup & Drop-off Services"
+    ],
+    "exclusions": [
+      "Personal shopping & optional activities",
+      "Boating, water sports or chairlift tickets (unless specified)",
+      "Tips for guide & driver"
+    ],
+    "packages": [
+      {
+        "name": "Standard Package",
+        "price": "35,000",
+        "status": "available",
+        "features": [
+          "AC Coaster / Sedan Transport",
+          "Standard Hotel / Day Trip",
+          "Driver & Fuel Included"
+        ]
+      },
+      {
+        "name": "Deluxe Package",
+        "price": "47,250",
+        "status": "available",
+        "features": [
+          "AC Grand Cabin / Prado",
+          "Deluxe Hotel / Private Guide",
+          "Full Inclusions"
+        ]
+      },
+      {
+        "name": "Executive Package",
+        "price": "61,250",
+        "status": "available",
+        "features": [
+          "Luxury 4x4 Prado / SUV",
+          "Luxury 4-Star / 5-Star Hotel",
+          "VIP Concierge & Protocol"
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "q": "What is included in the tour pricing?",
+        "a": "Pricing includes private AC transport, professional driver, fuel, highway tolls, parking fees, and guide assistance."
+      },
+      {
+        "q": "Can this tour be customized?",
+        "a": "Yes! All tours can be customized for your exact pick-up location, time, and special itinerary preferences."
+      },
+      {
+        "q": "How do I book or confirm my reservation?",
+        "a": "You can book directly by clicking 'Book Now' or contacting our 24/7 WhatsApp concierge at +92 311 1145456."
+      }
+    ]
+  },
+  "north-27": {
+    "id": "north-27",
+    "title": "Ratti Gali Lake – 03 Days",
+    "duration": "3 Days 2 Nights",
+    "location": "Pakistan",
+    "maxGroup": "Private & Group Options",
+    "difficulty": "Easy / Moderate",
+    "image": "images/north/item_27.webp",
+    "price": "35,000",
+    "originalPrice": "40,250",
+    "departureDay": "Daily Private Departures & Fixed Group Departures",
+    "about": "Experience Ratti Gali Lake – 03 Days with Safar Silsila. This curated itinerary offers a complete journey through iconic landmarks, rich local culture, breathtaking scenery, and legendary regional cuisine. Includes professional guide, luxury AC transport, full ticket entry logistics, and official visa support.",
+    "highlights": [
+      "Complete guided excursion for Ratti Gali Lake – 03 Days",
+      "Private AC transport with driver, fuel, tolls & parking",
+      "Sightseeing at historical monuments, bazaars & viewpoints",
+      "Authentic regional food & tea tasting",
+      "24/7 dedicated travel concierge & emergency support"
+    ],
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "title": "Arrival & City Orientation",
+        "desc": "Pickup from hotel/airport. Orientation drive through historic landmarks, visit local bazaars, and enjoy welcome dinner."
+      },
+      {
+        "day": "Day 2",
+        "title": "Monuments & Cultural Sightseeing",
+        "desc": "Full day guided exploration of major historical monuments, ancient forts, and museum archives with expert local guide."
+      },
+      {
+        "day": "Day 3",
+        "title": "Scenic Valleys & Local Artisans",
+        "desc": "Visit artisan workshops, local markets, and surrounding natural viewpoints. Evening food street dinner."
+      },
+      {
+        "day": "Day 4",
+        "title": "Final Excursions & Departure",
+        "desc": "Morning shopping and photography tour. Drop-off at airport or hotel with fond memories."
+      }
+    ],
+    "inclusions": [
+      "Private AC Transport (Car / Prado / Coaster) with driver & fuel",
+      "Official Tour Guide & Historian Services",
+      "All Toll Taxes, Parking & Highway Charges",
+      "Complimentary Mineral Water & Refreshments",
+      "Hotel Pickup & Drop-off Services"
+    ],
+    "exclusions": [
+      "Personal shopping & optional activities",
+      "Boating, water sports or chairlift tickets (unless specified)",
+      "Tips for guide & driver"
+    ],
+    "packages": [
+      {
+        "name": "Standard Package",
+        "price": "35,000",
+        "status": "available",
+        "features": [
+          "AC Coaster / Sedan Transport",
+          "Standard Hotel / Day Trip",
+          "Driver & Fuel Included"
+        ]
+      },
+      {
+        "name": "Deluxe Package",
+        "price": "47,250",
+        "status": "available",
+        "features": [
+          "AC Grand Cabin / Prado",
+          "Deluxe Hotel / Private Guide",
+          "Full Inclusions"
+        ]
+      },
+      {
+        "name": "Executive Package",
+        "price": "61,250",
+        "status": "available",
+        "features": [
+          "Luxury 4x4 Prado / SUV",
+          "Luxury 4-Star / 5-Star Hotel",
+          "VIP Concierge & Protocol"
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "q": "What is included in the tour pricing?",
+        "a": "Pricing includes private AC transport, professional driver, fuel, highway tolls, parking fees, and guide assistance."
+      },
+      {
+        "q": "Can this tour be customized?",
+        "a": "Yes! All tours can be customized for your exact pick-up location, time, and special itinerary preferences."
+      },
+      {
+        "q": "How do I book or confirm my reservation?",
+        "a": "You can book directly by clicking 'Book Now' or contacting our 24/7 WhatsApp concierge at +92 311 1145456."
+      }
+    ]
+  },
+  "north-28": {
+    "id": "north-28",
+    "title": "Kashmir Tour Arang Kel Taobat – 04 Days",
+    "duration": "4 Day s3 Nights",
+    "location": "Pakistan",
+    "maxGroup": "Private & Group Options",
+    "difficulty": "Easy / Moderate",
+    "image": "images/north/item_28.webp",
+    "price": "14,000",
+    "originalPrice": "16,100",
+    "departureDay": "Daily Private Departures & Fixed Group Departures",
+    "about": "Experience Kashmir Tour Arang Kel Taobat – 04 Days with Safar Silsila. This curated itinerary offers a complete journey through iconic landmarks, rich local culture, breathtaking scenery, and legendary regional cuisine. Includes professional guide, luxury AC transport, full ticket entry logistics, and official visa support.",
+    "highlights": [
+      "Complete guided excursion for Kashmir Tour Arang Kel Taobat – 04 Days",
+      "Private AC transport with driver, fuel, tolls & parking",
+      "Sightseeing at historical monuments, bazaars & viewpoints",
+      "Authentic regional food & tea tasting",
+      "24/7 dedicated travel concierge & emergency support"
+    ],
+    "itinerary": [
+      {
+        "day": "Morning",
+        "title": "Pickup & Departure",
+        "desc": "07:30 AM pickup from hotel/residence in private AC vehicle. Drive along scenic highway with morning refreshment stop."
+      },
+      {
+        "day": "Afternoon",
+        "title": "Guided Monument & Activity Exploration",
+        "desc": "Arrive at destination. Guided tour of key monuments, scenic viewpoints, water activities, and photography stops."
+      },
+      {
+        "day": "Evening",
+        "title": "Local Food Tasting & Return",
+        "desc": "Enjoy famous local street food feast & traditional chai. Return drive with drop-off at your hotel by 07:00 PM."
+      }
+    ],
+    "inclusions": [
+      "Private AC Transport (Car / Prado / Coaster) with driver & fuel",
+      "Official Tour Guide & Historian Services",
+      "All Toll Taxes, Parking & Highway Charges",
+      "Complimentary Mineral Water & Refreshments",
+      "Hotel Pickup & Drop-off Services"
+    ],
+    "exclusions": [
+      "Personal shopping & optional activities",
+      "Boating, water sports or chairlift tickets (unless specified)",
+      "Tips for guide & driver"
+    ],
+    "packages": [
+      {
+        "name": "Standard Package",
+        "price": "14,000",
+        "status": "available",
+        "features": [
+          "AC Coaster / Sedan Transport",
+          "Standard Hotel / Day Trip",
+          "Driver & Fuel Included"
+        ]
+      },
+      {
+        "name": "Deluxe Package",
+        "price": "18,900",
+        "status": "available",
+        "features": [
+          "AC Grand Cabin / Prado",
+          "Deluxe Hotel / Private Guide",
+          "Full Inclusions"
+        ]
+      },
+      {
+        "name": "Executive Package",
+        "price": "24,500",
+        "status": "available",
+        "features": [
+          "Luxury 4x4 Prado / SUV",
+          "Luxury 4-Star / 5-Star Hotel",
+          "VIP Concierge & Protocol"
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "q": "What is included in the tour pricing?",
+        "a": "Pricing includes private AC transport, professional driver, fuel, highway tolls, parking fees, and guide assistance."
+      },
+      {
+        "q": "Can this tour be customized?",
+        "a": "Yes! All tours can be customized for your exact pick-up location, time, and special itinerary preferences."
+      },
+      {
+        "q": "How do I book or confirm my reservation?",
+        "a": "You can book directly by clicking 'Book Now' or contacting our 24/7 WhatsApp concierge at +92 311 1145456."
+      }
+    ]
+  },
+  "north-29": {
+    "id": "north-29",
+    "title": "Ratti Gali Lake & Arang Kel Tour – 04 Days",
+    "duration": "4 Days 3 Nights",
+    "location": "Pakistan",
+    "maxGroup": "Private & Group Options",
+    "difficulty": "Easy / Moderate",
+    "image": "images/north/item_29.webp",
+    "price": "35,000",
+    "originalPrice": "40,250",
+    "departureDay": "Daily Private Departures & Fixed Group Departures",
+    "about": "Experience Ratti Gali Lake & Arang Kel Tour – 04 Days with Safar Silsila. This curated itinerary offers a complete journey through iconic landmarks, rich local culture, breathtaking scenery, and legendary regional cuisine. Includes professional guide, luxury AC transport, full ticket entry logistics, and official visa support.",
+    "highlights": [
+      "Complete guided excursion for Ratti Gali Lake & Arang Kel Tour – 04 Days",
+      "Private AC transport with driver, fuel, tolls & parking",
+      "Sightseeing at historical monuments, bazaars & viewpoints",
+      "Authentic regional food & tea tasting",
+      "24/7 dedicated travel concierge & emergency support"
+    ],
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "title": "Arrival & City Orientation",
+        "desc": "Pickup from hotel/airport. Orientation drive through historic landmarks, visit local bazaars, and enjoy welcome dinner."
+      },
+      {
+        "day": "Day 2",
+        "title": "Monuments & Cultural Sightseeing",
+        "desc": "Full day guided exploration of major historical monuments, ancient forts, and museum archives with expert local guide."
+      },
+      {
+        "day": "Day 3",
+        "title": "Scenic Valleys & Local Artisans",
+        "desc": "Visit artisan workshops, local markets, and surrounding natural viewpoints. Evening food street dinner."
+      },
+      {
+        "day": "Day 4",
+        "title": "Final Excursions & Departure",
+        "desc": "Morning shopping and photography tour. Drop-off at airport or hotel with fond memories."
+      }
+    ],
+    "inclusions": [
+      "Private AC Transport (Car / Prado / Coaster) with driver & fuel",
+      "Official Tour Guide & Historian Services",
+      "All Toll Taxes, Parking & Highway Charges",
+      "Complimentary Mineral Water & Refreshments",
+      "Hotel Pickup & Drop-off Services"
+    ],
+    "exclusions": [
+      "Personal shopping & optional activities",
+      "Boating, water sports or chairlift tickets (unless specified)",
+      "Tips for guide & driver"
+    ],
+    "packages": [
+      {
+        "name": "Standard Package",
+        "price": "35,000",
+        "status": "available",
+        "features": [
+          "AC Coaster / Sedan Transport",
+          "Standard Hotel / Day Trip",
+          "Driver & Fuel Included"
+        ]
+      },
+      {
+        "name": "Deluxe Package",
+        "price": "47,250",
+        "status": "available",
+        "features": [
+          "AC Grand Cabin / Prado",
+          "Deluxe Hotel / Private Guide",
+          "Full Inclusions"
+        ]
+      },
+      {
+        "name": "Executive Package",
+        "price": "61,250",
+        "status": "available",
+        "features": [
+          "Luxury 4x4 Prado / SUV",
+          "Luxury 4-Star / 5-Star Hotel",
+          "VIP Concierge & Protocol"
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "q": "What is included in the tour pricing?",
+        "a": "Pricing includes private AC transport, professional driver, fuel, highway tolls, parking fees, and guide assistance."
+      },
+      {
+        "q": "Can this tour be customized?",
+        "a": "Yes! All tours can be customized for your exact pick-up location, time, and special itinerary preferences."
+      },
+      {
+        "q": "How do I book or confirm my reservation?",
+        "a": "You can book directly by clicking 'Book Now' or contacting our 24/7 WhatsApp concierge at +92 311 1145456."
+      }
+    ]
+  },
+  "north-30": {
+    "id": "north-30",
+    "title": "Toli Peer, Banjosa Lake, Rawalakot Tour – 04 Days",
+    "duration": "4 Days 3 Nights",
+    "location": "Pakistan",
+    "maxGroup": "Private & Group Options",
+    "difficulty": "Easy / Moderate",
+    "image": "images/north/item_30.jpg",
+    "price": "35,000",
+    "originalPrice": "40,250",
+    "departureDay": "Daily Private Departures & Fixed Group Departures",
+    "about": "Experience Toli Peer, Banjosa Lake, Rawalakot Tour – 04 Days with Safar Silsila. This curated itinerary offers a complete journey through iconic landmarks, rich local culture, breathtaking scenery, and legendary regional cuisine. Includes professional guide, luxury AC transport, full ticket entry logistics, and official visa support.",
+    "highlights": [
+      "Complete guided excursion for Toli Peer, Banjosa Lake, Rawalakot Tour – 04 Days",
+      "Private AC transport with driver, fuel, tolls & parking",
+      "Sightseeing at historical monuments, bazaars & viewpoints",
+      "Authentic regional food & tea tasting",
+      "24/7 dedicated travel concierge & emergency support"
+    ],
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "title": "Arrival & City Orientation",
+        "desc": "Pickup from hotel/airport. Orientation drive through historic landmarks, visit local bazaars, and enjoy welcome dinner."
+      },
+      {
+        "day": "Day 2",
+        "title": "Monuments & Cultural Sightseeing",
+        "desc": "Full day guided exploration of major historical monuments, ancient forts, and museum archives with expert local guide."
+      },
+      {
+        "day": "Day 3",
+        "title": "Scenic Valleys & Local Artisans",
+        "desc": "Visit artisan workshops, local markets, and surrounding natural viewpoints. Evening food street dinner."
+      },
+      {
+        "day": "Day 4",
+        "title": "Final Excursions & Departure",
+        "desc": "Morning shopping and photography tour. Drop-off at airport or hotel with fond memories."
+      }
+    ],
+    "inclusions": [
+      "Private AC Transport (Car / Prado / Coaster) with driver & fuel",
+      "Official Tour Guide & Historian Services",
+      "All Toll Taxes, Parking & Highway Charges",
+      "Complimentary Mineral Water & Refreshments",
+      "Hotel Pickup & Drop-off Services"
+    ],
+    "exclusions": [
+      "Personal shopping & optional activities",
+      "Boating, water sports or chairlift tickets (unless specified)",
+      "Tips for guide & driver"
+    ],
+    "packages": [
+      {
+        "name": "Standard Package",
+        "price": "35,000",
+        "status": "available",
+        "features": [
+          "AC Coaster / Sedan Transport",
+          "Standard Hotel / Day Trip",
+          "Driver & Fuel Included"
+        ]
+      },
+      {
+        "name": "Deluxe Package",
+        "price": "47,250",
+        "status": "available",
+        "features": [
+          "AC Grand Cabin / Prado",
+          "Deluxe Hotel / Private Guide",
+          "Full Inclusions"
+        ]
+      },
+      {
+        "name": "Executive Package",
+        "price": "61,250",
+        "status": "available",
+        "features": [
+          "Luxury 4x4 Prado / SUV",
+          "Luxury 4-Star / 5-Star Hotel",
+          "VIP Concierge & Protocol"
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "q": "What is included in the tour pricing?",
+        "a": "Pricing includes private AC transport, professional driver, fuel, highway tolls, parking fees, and guide assistance."
+      },
+      {
+        "q": "Can this tour be customized?",
+        "a": "Yes! All tours can be customized for your exact pick-up location, time, and special itinerary preferences."
+      },
+      {
+        "q": "How do I book or confirm my reservation?",
+        "a": "You can book directly by clicking 'Book Now' or contacting our 24/7 WhatsApp concierge at +92 311 1145456."
+      }
+    ]
+  },
+  "north-31": {
+    "id": "north-31",
+    "title": "Couple Tour To Kashmir From Islamabad – 05 Days",
+    "duration": "5 Days 4 Nights",
+    "location": "Pakistan",
+    "maxGroup": "Private & Group Options",
+    "difficulty": "Easy / Moderate",
+    "image": "images/north/item_31.jpg",
+    "price": "35,000",
+    "originalPrice": "40,250",
+    "departureDay": "Daily Private Departures & Fixed Group Departures",
+    "about": "Experience Couple Tour To Kashmir From Islamabad – 05 Days with Safar Silsila. This curated itinerary offers a complete journey through iconic landmarks, rich local culture, breathtaking scenery, and legendary regional cuisine. Includes professional guide, luxury AC transport, full ticket entry logistics, and official visa support.",
+    "highlights": [
+      "Complete guided excursion for Couple Tour To Kashmir From Islamabad – 05 Days",
+      "Private AC transport with driver, fuel, tolls & parking",
+      "Sightseeing at historical monuments, bazaars & viewpoints",
+      "Authentic regional food & tea tasting",
+      "24/7 dedicated travel concierge & emergency support"
+    ],
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "title": "Arrival & City Orientation",
+        "desc": "Pickup from hotel/airport. Orientation drive through historic landmarks, visit local bazaars, and enjoy welcome dinner."
+      },
+      {
+        "day": "Day 2",
+        "title": "Monuments & Cultural Sightseeing",
+        "desc": "Full day guided exploration of major historical monuments, ancient forts, and museum archives with expert local guide."
+      },
+      {
+        "day": "Day 3",
+        "title": "Scenic Valleys & Local Artisans",
+        "desc": "Visit artisan workshops, local markets, and surrounding natural viewpoints. Evening food street dinner."
+      },
+      {
+        "day": "Day 4",
+        "title": "Final Excursions & Departure",
+        "desc": "Morning shopping and photography tour. Drop-off at airport or hotel with fond memories."
+      }
+    ],
+    "inclusions": [
+      "Private AC Transport (Car / Prado / Coaster) with driver & fuel",
+      "Official Tour Guide & Historian Services",
+      "All Toll Taxes, Parking & Highway Charges",
+      "Complimentary Mineral Water & Refreshments",
+      "Hotel Pickup & Drop-off Services"
+    ],
+    "exclusions": [
+      "Personal shopping & optional activities",
+      "Boating, water sports or chairlift tickets (unless specified)",
+      "Tips for guide & driver"
+    ],
+    "packages": [
+      {
+        "name": "Standard Package",
+        "price": "35,000",
+        "status": "available",
+        "features": [
+          "AC Coaster / Sedan Transport",
+          "Standard Hotel / Day Trip",
+          "Driver & Fuel Included"
+        ]
+      },
+      {
+        "name": "Deluxe Package",
+        "price": "47,250",
+        "status": "available",
+        "features": [
+          "AC Grand Cabin / Prado",
+          "Deluxe Hotel / Private Guide",
+          "Full Inclusions"
+        ]
+      },
+      {
+        "name": "Executive Package",
+        "price": "61,250",
+        "status": "available",
+        "features": [
+          "Luxury 4x4 Prado / SUV",
+          "Luxury 4-Star / 5-Star Hotel",
+          "VIP Concierge & Protocol"
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "q": "What is included in the tour pricing?",
+        "a": "Pricing includes private AC transport, professional driver, fuel, highway tolls, parking fees, and guide assistance."
+      },
+      {
+        "q": "Can this tour be customized?",
+        "a": "Yes! All tours can be customized for your exact pick-up location, time, and special itinerary preferences."
+      },
+      {
+        "q": "How do I book or confirm my reservation?",
+        "a": "You can book directly by clicking 'Book Now' or contacting our 24/7 WhatsApp concierge at +92 311 1145456."
+      }
+    ]
+  },
+  "north-32": {
+    "id": "north-32",
+    "title": "Hunza, Naran, Azad Kashmir Tour – 08 Days",
+    "duration": "8 Days 7 Nights",
+    "location": "Hunza Valley",
+    "maxGroup": "Private & Group Options",
+    "difficulty": "Easy / Moderate",
+    "image": "images/north/item_32.jpg",
+    "price": "35,000",
+    "originalPrice": "40,250",
+    "departureDay": "Daily Private Departures & Fixed Group Departures",
+    "about": "Experience Hunza, Naran, Azad Kashmir Tour – 08 Days with Safar Silsila. This curated itinerary offers a complete journey through iconic landmarks, rich local culture, breathtaking scenery, and legendary regional cuisine. Includes professional guide, luxury AC transport, full ticket entry logistics, and official visa support.",
+    "highlights": [
+      "Complete guided excursion for Hunza, Naran, Azad Kashmir Tour – 08 Days",
+      "Private AC transport with driver, fuel, tolls & parking",
+      "Sightseeing at historical monuments, bazaars & viewpoints",
+      "Authentic regional food & tea tasting",
+      "24/7 dedicated travel concierge & emergency support"
+    ],
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "title": "Arrival & City Orientation",
+        "desc": "Pickup from hotel/airport. Orientation drive through historic landmarks, visit local bazaars, and enjoy welcome dinner."
+      },
+      {
+        "day": "Day 2",
+        "title": "Monuments & Cultural Sightseeing",
+        "desc": "Full day guided exploration of major historical monuments, ancient forts, and museum archives with expert local guide."
+      },
+      {
+        "day": "Day 3",
+        "title": "Scenic Valleys & Local Artisans",
+        "desc": "Visit artisan workshops, local markets, and surrounding natural viewpoints. Evening food street dinner."
+      },
+      {
+        "day": "Day 4",
+        "title": "Final Excursions & Departure",
+        "desc": "Morning shopping and photography tour. Drop-off at airport or hotel with fond memories."
+      }
+    ],
+    "inclusions": [
+      "Private AC Transport (Car / Prado / Coaster) with driver & fuel",
+      "Official Tour Guide & Historian Services",
+      "All Toll Taxes, Parking & Highway Charges",
+      "Complimentary Mineral Water & Refreshments",
+      "Hotel Pickup & Drop-off Services"
+    ],
+    "exclusions": [
+      "Personal shopping & optional activities",
+      "Boating, water sports or chairlift tickets (unless specified)",
+      "Tips for guide & driver"
+    ],
+    "packages": [
+      {
+        "name": "Standard Package",
+        "price": "35,000",
+        "status": "available",
+        "features": [
+          "AC Coaster / Sedan Transport",
+          "Standard Hotel / Day Trip",
+          "Driver & Fuel Included"
+        ]
+      },
+      {
+        "name": "Deluxe Package",
+        "price": "47,250",
+        "status": "available",
+        "features": [
+          "AC Grand Cabin / Prado",
+          "Deluxe Hotel / Private Guide",
+          "Full Inclusions"
+        ]
+      },
+      {
+        "name": "Executive Package",
+        "price": "61,250",
+        "status": "available",
+        "features": [
+          "Luxury 4x4 Prado / SUV",
+          "Luxury 4-Star / 5-Star Hotel",
+          "VIP Concierge & Protocol"
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "q": "What is included in the tour pricing?",
+        "a": "Pricing includes private AC transport, professional driver, fuel, highway tolls, parking fees, and guide assistance."
+      },
+      {
+        "q": "Can this tour be customized?",
+        "a": "Yes! All tours can be customized for your exact pick-up location, time, and special itinerary preferences."
+      },
+      {
+        "q": "How do I book or confirm my reservation?",
+        "a": "You can book directly by clicking 'Book Now' or contacting our 24/7 WhatsApp concierge at +92 311 1145456."
+      }
+    ]
+  },
+  "north-33": {
+    "id": "north-33",
+    "title": "Grand Kashmir Tour – 10 Days",
+    "duration": "10 Days 9 Nights",
+    "location": "Pakistan",
+    "maxGroup": "Private & Group Options",
+    "difficulty": "Easy / Moderate",
+    "image": "images/north/item_33.jpg",
+    "price": "35,000",
+    "originalPrice": "40,250",
+    "departureDay": "Daily Private Departures & Fixed Group Departures",
+    "about": "Experience Grand Kashmir Tour – 10 Days with Safar Silsila. This curated itinerary offers a complete journey through iconic landmarks, rich local culture, breathtaking scenery, and legendary regional cuisine. Includes professional guide, luxury AC transport, full ticket entry logistics, and official visa support.",
+    "highlights": [
+      "Complete guided excursion for Grand Kashmir Tour – 10 Days",
+      "Private AC transport with driver, fuel, tolls & parking",
+      "Sightseeing at historical monuments, bazaars & viewpoints",
+      "Authentic regional food & tea tasting",
+      "24/7 dedicated travel concierge & emergency support"
+    ],
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "title": "Arrival & City Orientation",
+        "desc": "Pickup from hotel/airport. Orientation drive through historic landmarks, visit local bazaars, and enjoy welcome dinner."
+      },
+      {
+        "day": "Day 2",
+        "title": "Monuments & Cultural Sightseeing",
+        "desc": "Full day guided exploration of major historical monuments, ancient forts, and museum archives with expert local guide."
+      },
+      {
+        "day": "Day 3",
+        "title": "Scenic Valleys & Local Artisans",
+        "desc": "Visit artisan workshops, local markets, and surrounding natural viewpoints. Evening food street dinner."
+      },
+      {
+        "day": "Day 4",
+        "title": "Final Excursions & Departure",
+        "desc": "Morning shopping and photography tour. Drop-off at airport or hotel with fond memories."
+      }
+    ],
+    "inclusions": [
+      "Private AC Transport (Car / Prado / Coaster) with driver & fuel",
+      "Official Tour Guide & Historian Services",
+      "All Toll Taxes, Parking & Highway Charges",
+      "Complimentary Mineral Water & Refreshments",
+      "Hotel Pickup & Drop-off Services"
+    ],
+    "exclusions": [
+      "Personal shopping & optional activities",
+      "Boating, water sports or chairlift tickets (unless specified)",
+      "Tips for guide & driver"
+    ],
+    "packages": [
+      {
+        "name": "Standard Package",
+        "price": "35,000",
+        "status": "available",
+        "features": [
+          "AC Coaster / Sedan Transport",
+          "Standard Hotel / Day Trip",
+          "Driver & Fuel Included"
+        ]
+      },
+      {
+        "name": "Deluxe Package",
+        "price": "47,250",
+        "status": "available",
+        "features": [
+          "AC Grand Cabin / Prado",
+          "Deluxe Hotel / Private Guide",
+          "Full Inclusions"
+        ]
+      },
+      {
+        "name": "Executive Package",
+        "price": "61,250",
+        "status": "available",
+        "features": [
+          "Luxury 4x4 Prado / SUV",
+          "Luxury 4-Star / 5-Star Hotel",
+          "VIP Concierge & Protocol"
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "q": "What is included in the tour pricing?",
+        "a": "Pricing includes private AC transport, professional driver, fuel, highway tolls, parking fees, and guide assistance."
+      },
+      {
+        "q": "Can this tour be customized?",
+        "a": "Yes! All tours can be customized for your exact pick-up location, time, and special itinerary preferences."
+      },
+      {
+        "q": "How do I book or confirm my reservation?",
+        "a": "You can book directly by clicking 'Book Now' or contacting our 24/7 WhatsApp concierge at +92 311 1145456."
+      }
+    ]
+  },
+  "north-34": {
+    "id": "north-34",
+    "title": "Ganga Choti Tour – 04 Days",
+    "duration": "4 Days 3 Nights",
+    "location": "Pakistan",
+    "maxGroup": "Private & Group Options",
+    "difficulty": "Easy / Moderate",
+    "image": "images/north/item_34.jpg",
+    "price": "35,000",
+    "originalPrice": "40,250",
+    "departureDay": "Daily Private Departures & Fixed Group Departures",
+    "about": "Experience Ganga Choti Tour – 04 Days with Safar Silsila. This curated itinerary offers a complete journey through iconic landmarks, rich local culture, breathtaking scenery, and legendary regional cuisine. Includes professional guide, luxury AC transport, full ticket entry logistics, and official visa support.",
+    "highlights": [
+      "Complete guided excursion for Ganga Choti Tour – 04 Days",
+      "Private AC transport with driver, fuel, tolls & parking",
+      "Sightseeing at historical monuments, bazaars & viewpoints",
+      "Authentic regional food & tea tasting",
+      "24/7 dedicated travel concierge & emergency support"
+    ],
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "title": "Arrival & City Orientation",
+        "desc": "Pickup from hotel/airport. Orientation drive through historic landmarks, visit local bazaars, and enjoy welcome dinner."
+      },
+      {
+        "day": "Day 2",
+        "title": "Monuments & Cultural Sightseeing",
+        "desc": "Full day guided exploration of major historical monuments, ancient forts, and museum archives with expert local guide."
+      },
+      {
+        "day": "Day 3",
+        "title": "Scenic Valleys & Local Artisans",
+        "desc": "Visit artisan workshops, local markets, and surrounding natural viewpoints. Evening food street dinner."
+      },
+      {
+        "day": "Day 4",
+        "title": "Final Excursions & Departure",
+        "desc": "Morning shopping and photography tour. Drop-off at airport or hotel with fond memories."
+      }
+    ],
+    "inclusions": [
+      "Private AC Transport (Car / Prado / Coaster) with driver & fuel",
+      "Official Tour Guide & Historian Services",
+      "All Toll Taxes, Parking & Highway Charges",
+      "Complimentary Mineral Water & Refreshments",
+      "Hotel Pickup & Drop-off Services"
+    ],
+    "exclusions": [
+      "Personal shopping & optional activities",
+      "Boating, water sports or chairlift tickets (unless specified)",
+      "Tips for guide & driver"
+    ],
+    "packages": [
+      {
+        "name": "Standard Package",
+        "price": "35,000",
+        "status": "available",
+        "features": [
+          "AC Coaster / Sedan Transport",
+          "Standard Hotel / Day Trip",
+          "Driver & Fuel Included"
+        ]
+      },
+      {
+        "name": "Deluxe Package",
+        "price": "47,250",
+        "status": "available",
+        "features": [
+          "AC Grand Cabin / Prado",
+          "Deluxe Hotel / Private Guide",
+          "Full Inclusions"
+        ]
+      },
+      {
+        "name": "Executive Package",
+        "price": "61,250",
+        "status": "available",
+        "features": [
+          "Luxury 4x4 Prado / SUV",
+          "Luxury 4-Star / 5-Star Hotel",
+          "VIP Concierge & Protocol"
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "q": "What is included in the tour pricing?",
+        "a": "Pricing includes private AC transport, professional driver, fuel, highway tolls, parking fees, and guide assistance."
+      },
+      {
+        "q": "Can this tour be customized?",
+        "a": "Yes! All tours can be customized for your exact pick-up location, time, and special itinerary preferences."
+      },
+      {
+        "q": "How do I book or confirm my reservation?",
+        "a": "You can book directly by clicking 'Book Now' or contacting our 24/7 WhatsApp concierge at +92 311 1145456."
+      }
+    ]
+  },
+  "north-35": {
+    "id": "north-35",
+    "title": "Minimerg Tour",
+    "duration": "6 Days 5 Nights",
+    "location": "Pakistan",
+    "maxGroup": "Private & Group Options",
+    "difficulty": "Easy / Moderate",
+    "image": "images/north/item_35.jpg",
+    "price": "35,000",
+    "originalPrice": "40,250",
+    "departureDay": "Daily Private Departures & Fixed Group Departures",
+    "about": "Experience Minimerg Tour with Safar Silsila. This curated itinerary offers a complete journey through iconic landmarks, rich local culture, breathtaking scenery, and legendary regional cuisine. Includes professional guide, luxury AC transport, full ticket entry logistics, and official visa support.",
+    "highlights": [
+      "Complete guided excursion for Minimerg Tour",
+      "Private AC transport with driver, fuel, tolls & parking",
+      "Sightseeing at historical monuments, bazaars & viewpoints",
+      "Authentic regional food & tea tasting",
+      "24/7 dedicated travel concierge & emergency support"
+    ],
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "title": "Arrival & City Orientation",
+        "desc": "Pickup from hotel/airport. Orientation drive through historic landmarks, visit local bazaars, and enjoy welcome dinner."
+      },
+      {
+        "day": "Day 2",
+        "title": "Monuments & Cultural Sightseeing",
+        "desc": "Full day guided exploration of major historical monuments, ancient forts, and museum archives with expert local guide."
+      },
+      {
+        "day": "Day 3",
+        "title": "Scenic Valleys & Local Artisans",
+        "desc": "Visit artisan workshops, local markets, and surrounding natural viewpoints. Evening food street dinner."
+      },
+      {
+        "day": "Day 4",
+        "title": "Final Excursions & Departure",
+        "desc": "Morning shopping and photography tour. Drop-off at airport or hotel with fond memories."
+      }
+    ],
+    "inclusions": [
+      "Private AC Transport (Car / Prado / Coaster) with driver & fuel",
+      "Official Tour Guide & Historian Services",
+      "All Toll Taxes, Parking & Highway Charges",
+      "Complimentary Mineral Water & Refreshments",
+      "Hotel Pickup & Drop-off Services"
+    ],
+    "exclusions": [
+      "Personal shopping & optional activities",
+      "Boating, water sports or chairlift tickets (unless specified)",
+      "Tips for guide & driver"
+    ],
+    "packages": [
+      {
+        "name": "Standard Package",
+        "price": "35,000",
+        "status": "available",
+        "features": [
+          "AC Coaster / Sedan Transport",
+          "Standard Hotel / Day Trip",
+          "Driver & Fuel Included"
+        ]
+      },
+      {
+        "name": "Deluxe Package",
+        "price": "47,250",
+        "status": "available",
+        "features": [
+          "AC Grand Cabin / Prado",
+          "Deluxe Hotel / Private Guide",
+          "Full Inclusions"
+        ]
+      },
+      {
+        "name": "Executive Package",
+        "price": "61,250",
+        "status": "available",
+        "features": [
+          "Luxury 4x4 Prado / SUV",
+          "Luxury 4-Star / 5-Star Hotel",
+          "VIP Concierge & Protocol"
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "q": "What is included in the tour pricing?",
+        "a": "Pricing includes private AC transport, professional driver, fuel, highway tolls, parking fees, and guide assistance."
+      },
+      {
+        "q": "Can this tour be customized?",
+        "a": "Yes! All tours can be customized for your exact pick-up location, time, and special itinerary preferences."
+      },
+      {
+        "q": "How do I book or confirm my reservation?",
+        "a": "You can book directly by clicking 'Book Now' or contacting our 24/7 WhatsApp concierge at +92 311 1145456."
+      }
+    ]
+  },
+  "north-36": {
+    "id": "north-36",
+    "title": "Ghizer Valley Tour",
+    "duration": "9 Days 8 Nights",
+    "location": "Pakistan",
+    "maxGroup": "Private & Group Options",
+    "difficulty": "Easy / Moderate",
+    "image": "images/north/item_36.jpg",
+    "price": "35,000",
+    "originalPrice": "40,250",
+    "departureDay": "Daily Private Departures & Fixed Group Departures",
+    "about": "Experience Ghizer Valley Tour with Safar Silsila. This curated itinerary offers a complete journey through iconic landmarks, rich local culture, breathtaking scenery, and legendary regional cuisine. Includes professional guide, luxury AC transport, full ticket entry logistics, and official visa support.",
+    "highlights": [
+      "Complete guided excursion for Ghizer Valley Tour",
+      "Private AC transport with driver, fuel, tolls & parking",
+      "Sightseeing at historical monuments, bazaars & viewpoints",
+      "Authentic regional food & tea tasting",
+      "24/7 dedicated travel concierge & emergency support"
+    ],
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "title": "Arrival & City Orientation",
+        "desc": "Pickup from hotel/airport. Orientation drive through historic landmarks, visit local bazaars, and enjoy welcome dinner."
+      },
+      {
+        "day": "Day 2",
+        "title": "Monuments & Cultural Sightseeing",
+        "desc": "Full day guided exploration of major historical monuments, ancient forts, and museum archives with expert local guide."
+      },
+      {
+        "day": "Day 3",
+        "title": "Scenic Valleys & Local Artisans",
+        "desc": "Visit artisan workshops, local markets, and surrounding natural viewpoints. Evening food street dinner."
+      },
+      {
+        "day": "Day 4",
+        "title": "Final Excursions & Departure",
+        "desc": "Morning shopping and photography tour. Drop-off at airport or hotel with fond memories."
+      }
+    ],
+    "inclusions": [
+      "Private AC Transport (Car / Prado / Coaster) with driver & fuel",
+      "Official Tour Guide & Historian Services",
+      "All Toll Taxes, Parking & Highway Charges",
+      "Complimentary Mineral Water & Refreshments",
+      "Hotel Pickup & Drop-off Services"
+    ],
+    "exclusions": [
+      "Personal shopping & optional activities",
+      "Boating, water sports or chairlift tickets (unless specified)",
+      "Tips for guide & driver"
+    ],
+    "packages": [
+      {
+        "name": "Standard Package",
+        "price": "35,000",
+        "status": "available",
+        "features": [
+          "AC Coaster / Sedan Transport",
+          "Standard Hotel / Day Trip",
+          "Driver & Fuel Included"
+        ]
+      },
+      {
+        "name": "Deluxe Package",
+        "price": "47,250",
+        "status": "available",
+        "features": [
+          "AC Grand Cabin / Prado",
+          "Deluxe Hotel / Private Guide",
+          "Full Inclusions"
+        ]
+      },
+      {
+        "name": "Executive Package",
+        "price": "61,250",
+        "status": "available",
+        "features": [
+          "Luxury 4x4 Prado / SUV",
+          "Luxury 4-Star / 5-Star Hotel",
+          "VIP Concierge & Protocol"
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "q": "What is included in the tour pricing?",
+        "a": "Pricing includes private AC transport, professional driver, fuel, highway tolls, parking fees, and guide assistance."
+      },
+      {
+        "q": "Can this tour be customized?",
+        "a": "Yes! All tours can be customized for your exact pick-up location, time, and special itinerary preferences."
+      },
+      {
+        "q": "How do I book or confirm my reservation?",
+        "a": "You can book directly by clicking 'Book Now' or contacting our 24/7 WhatsApp concierge at +92 311 1145456."
+      }
+    ]
+  },
+  "north-37": {
+    "id": "north-37",
+    "title": "Ishkoman Valley Tour",
+    "duration": "9 Days 8 Nights",
+    "location": "Pakistan",
+    "maxGroup": "Private & Group Options",
+    "difficulty": "Easy / Moderate",
+    "image": "images/north/item_37.jpg",
+    "price": "35,000",
+    "originalPrice": "40,250",
+    "departureDay": "Daily Private Departures & Fixed Group Departures",
+    "about": "Experience Ishkoman Valley Tour with Safar Silsila. This curated itinerary offers a complete journey through iconic landmarks, rich local culture, breathtaking scenery, and legendary regional cuisine. Includes professional guide, luxury AC transport, full ticket entry logistics, and official visa support.",
+    "highlights": [
+      "Complete guided excursion for Ishkoman Valley Tour",
+      "Private AC transport with driver, fuel, tolls & parking",
+      "Sightseeing at historical monuments, bazaars & viewpoints",
+      "Authentic regional food & tea tasting",
+      "24/7 dedicated travel concierge & emergency support"
+    ],
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "title": "Arrival & City Orientation",
+        "desc": "Pickup from hotel/airport. Orientation drive through historic landmarks, visit local bazaars, and enjoy welcome dinner."
+      },
+      {
+        "day": "Day 2",
+        "title": "Monuments & Cultural Sightseeing",
+        "desc": "Full day guided exploration of major historical monuments, ancient forts, and museum archives with expert local guide."
+      },
+      {
+        "day": "Day 3",
+        "title": "Scenic Valleys & Local Artisans",
+        "desc": "Visit artisan workshops, local markets, and surrounding natural viewpoints. Evening food street dinner."
+      },
+      {
+        "day": "Day 4",
+        "title": "Final Excursions & Departure",
+        "desc": "Morning shopping and photography tour. Drop-off at airport or hotel with fond memories."
+      }
+    ],
+    "inclusions": [
+      "Private AC Transport (Car / Prado / Coaster) with driver & fuel",
+      "Official Tour Guide & Historian Services",
+      "All Toll Taxes, Parking & Highway Charges",
+      "Complimentary Mineral Water & Refreshments",
+      "Hotel Pickup & Drop-off Services"
+    ],
+    "exclusions": [
+      "Personal shopping & optional activities",
+      "Boating, water sports or chairlift tickets (unless specified)",
+      "Tips for guide & driver"
+    ],
+    "packages": [
+      {
+        "name": "Standard Package",
+        "price": "35,000",
+        "status": "available",
+        "features": [
+          "AC Coaster / Sedan Transport",
+          "Standard Hotel / Day Trip",
+          "Driver & Fuel Included"
+        ]
+      },
+      {
+        "name": "Deluxe Package",
+        "price": "47,250",
+        "status": "available",
+        "features": [
+          "AC Grand Cabin / Prado",
+          "Deluxe Hotel / Private Guide",
+          "Full Inclusions"
+        ]
+      },
+      {
+        "name": "Executive Package",
+        "price": "61,250",
+        "status": "available",
+        "features": [
+          "Luxury 4x4 Prado / SUV",
+          "Luxury 4-Star / 5-Star Hotel",
+          "VIP Concierge & Protocol"
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "q": "What is included in the tour pricing?",
+        "a": "Pricing includes private AC transport, professional driver, fuel, highway tolls, parking fees, and guide assistance."
+      },
+      {
+        "q": "Can this tour be customized?",
+        "a": "Yes! All tours can be customized for your exact pick-up location, time, and special itinerary preferences."
+      },
+      {
+        "q": "How do I book or confirm my reservation?",
+        "a": "You can book directly by clicking 'Book Now' or contacting our 24/7 WhatsApp concierge at +92 311 1145456."
+      }
+    ]
+  },
+  "north-38": {
+    "id": "north-38",
+    "title": "Yasin Valley Tour",
+    "duration": "8 Days 7 Nights",
+    "location": "Pakistan",
+    "maxGroup": "Private & Group Options",
+    "difficulty": "Easy / Moderate",
+    "image": "images/north/item_38.jpg",
+    "price": "35,000",
+    "originalPrice": "40,250",
+    "departureDay": "Daily Private Departures & Fixed Group Departures",
+    "about": "Experience Yasin Valley Tour with Safar Silsila. This curated itinerary offers a complete journey through iconic landmarks, rich local culture, breathtaking scenery, and legendary regional cuisine. Includes professional guide, luxury AC transport, full ticket entry logistics, and official visa support.",
+    "highlights": [
+      "Complete guided excursion for Yasin Valley Tour",
+      "Private AC transport with driver, fuel, tolls & parking",
+      "Sightseeing at historical monuments, bazaars & viewpoints",
+      "Authentic regional food & tea tasting",
+      "24/7 dedicated travel concierge & emergency support"
+    ],
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "title": "Arrival & City Orientation",
+        "desc": "Pickup from hotel/airport. Orientation drive through historic landmarks, visit local bazaars, and enjoy welcome dinner."
+      },
+      {
+        "day": "Day 2",
+        "title": "Monuments & Cultural Sightseeing",
+        "desc": "Full day guided exploration of major historical monuments, ancient forts, and museum archives with expert local guide."
+      },
+      {
+        "day": "Day 3",
+        "title": "Scenic Valleys & Local Artisans",
+        "desc": "Visit artisan workshops, local markets, and surrounding natural viewpoints. Evening food street dinner."
+      },
+      {
+        "day": "Day 4",
+        "title": "Final Excursions & Departure",
+        "desc": "Morning shopping and photography tour. Drop-off at airport or hotel with fond memories."
+      }
+    ],
+    "inclusions": [
+      "Private AC Transport (Car / Prado / Coaster) with driver & fuel",
+      "Official Tour Guide & Historian Services",
+      "All Toll Taxes, Parking & Highway Charges",
+      "Complimentary Mineral Water & Refreshments",
+      "Hotel Pickup & Drop-off Services"
+    ],
+    "exclusions": [
+      "Personal shopping & optional activities",
+      "Boating, water sports or chairlift tickets (unless specified)",
+      "Tips for guide & driver"
+    ],
+    "packages": [
+      {
+        "name": "Standard Package",
+        "price": "35,000",
+        "status": "available",
+        "features": [
+          "AC Coaster / Sedan Transport",
+          "Standard Hotel / Day Trip",
+          "Driver & Fuel Included"
+        ]
+      },
+      {
+        "name": "Deluxe Package",
+        "price": "47,250",
+        "status": "available",
+        "features": [
+          "AC Grand Cabin / Prado",
+          "Deluxe Hotel / Private Guide",
+          "Full Inclusions"
+        ]
+      },
+      {
+        "name": "Executive Package",
+        "price": "61,250",
+        "status": "available",
+        "features": [
+          "Luxury 4x4 Prado / SUV",
+          "Luxury 4-Star / 5-Star Hotel",
+          "VIP Concierge & Protocol"
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "q": "What is included in the tour pricing?",
+        "a": "Pricing includes private AC transport, professional driver, fuel, highway tolls, parking fees, and guide assistance."
+      },
+      {
+        "q": "Can this tour be customized?",
+        "a": "Yes! All tours can be customized for your exact pick-up location, time, and special itinerary preferences."
+      },
+      {
+        "q": "How do I book or confirm my reservation?",
+        "a": "You can book directly by clicking 'Book Now' or contacting our 24/7 WhatsApp concierge at +92 311 1145456."
+      }
+    ]
+  },
+  "north-39": {
+    "id": "north-39",
+    "title": "Qaqlasht Festival Tour",
+    "duration": "6 Days 5 Nights",
+    "location": "Pakistan",
+    "maxGroup": "Private & Group Options",
+    "difficulty": "Easy / Moderate",
+    "image": "images/north/item_39.jpg",
+    "price": "35,000",
+    "originalPrice": "40,250",
+    "departureDay": "Daily Private Departures & Fixed Group Departures",
+    "about": "Experience Qaqlasht Festival Tour with Safar Silsila. This curated itinerary offers a complete journey through iconic landmarks, rich local culture, breathtaking scenery, and legendary regional cuisine. Includes professional guide, luxury AC transport, full ticket entry logistics, and official visa support.",
+    "highlights": [
+      "Complete guided excursion for Qaqlasht Festival Tour",
+      "Private AC transport with driver, fuel, tolls & parking",
+      "Sightseeing at historical monuments, bazaars & viewpoints",
+      "Authentic regional food & tea tasting",
+      "24/7 dedicated travel concierge & emergency support"
+    ],
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "title": "Arrival & City Orientation",
+        "desc": "Pickup from hotel/airport. Orientation drive through historic landmarks, visit local bazaars, and enjoy welcome dinner."
+      },
+      {
+        "day": "Day 2",
+        "title": "Monuments & Cultural Sightseeing",
+        "desc": "Full day guided exploration of major historical monuments, ancient forts, and museum archives with expert local guide."
+      },
+      {
+        "day": "Day 3",
+        "title": "Scenic Valleys & Local Artisans",
+        "desc": "Visit artisan workshops, local markets, and surrounding natural viewpoints. Evening food street dinner."
+      },
+      {
+        "day": "Day 4",
+        "title": "Final Excursions & Departure",
+        "desc": "Morning shopping and photography tour. Drop-off at airport or hotel with fond memories."
+      }
+    ],
+    "inclusions": [
+      "Private AC Transport (Car / Prado / Coaster) with driver & fuel",
+      "Official Tour Guide & Historian Services",
+      "All Toll Taxes, Parking & Highway Charges",
+      "Complimentary Mineral Water & Refreshments",
+      "Hotel Pickup & Drop-off Services"
+    ],
+    "exclusions": [
+      "Personal shopping & optional activities",
+      "Boating, water sports or chairlift tickets (unless specified)",
+      "Tips for guide & driver"
+    ],
+    "packages": [
+      {
+        "name": "Standard Package",
+        "price": "35,000",
+        "status": "available",
+        "features": [
+          "AC Coaster / Sedan Transport",
+          "Standard Hotel / Day Trip",
+          "Driver & Fuel Included"
+        ]
+      },
+      {
+        "name": "Deluxe Package",
+        "price": "47,250",
+        "status": "available",
+        "features": [
+          "AC Grand Cabin / Prado",
+          "Deluxe Hotel / Private Guide",
+          "Full Inclusions"
+        ]
+      },
+      {
+        "name": "Executive Package",
+        "price": "61,250",
+        "status": "available",
+        "features": [
+          "Luxury 4x4 Prado / SUV",
+          "Luxury 4-Star / 5-Star Hotel",
+          "VIP Concierge & Protocol"
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "q": "What is included in the tour pricing?",
+        "a": "Pricing includes private AC transport, professional driver, fuel, highway tolls, parking fees, and guide assistance."
+      },
+      {
+        "q": "Can this tour be customized?",
+        "a": "Yes! All tours can be customized for your exact pick-up location, time, and special itinerary preferences."
+      },
+      {
+        "q": "How do I book or confirm my reservation?",
+        "a": "You can book directly by clicking 'Book Now' or contacting our 24/7 WhatsApp concierge at +92 311 1145456."
+      }
+    ]
+  },
+  "north-40": {
+    "id": "north-40",
+    "title": "Soq Valley Tour",
+    "duration": "7 Days 6 Nights",
+    "location": "Pakistan",
+    "maxGroup": "Private & Group Options",
+    "difficulty": "Easy / Moderate",
+    "image": "images/north/item_40.webp",
+    "price": "35,000",
+    "originalPrice": "40,250",
+    "departureDay": "Daily Private Departures & Fixed Group Departures",
+    "about": "Experience Soq Valley Tour with Safar Silsila. This curated itinerary offers a complete journey through iconic landmarks, rich local culture, breathtaking scenery, and legendary regional cuisine. Includes professional guide, luxury AC transport, full ticket entry logistics, and official visa support.",
+    "highlights": [
+      "Complete guided excursion for Soq Valley Tour",
+      "Private AC transport with driver, fuel, tolls & parking",
+      "Sightseeing at historical monuments, bazaars & viewpoints",
+      "Authentic regional food & tea tasting",
+      "24/7 dedicated travel concierge & emergency support"
+    ],
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "title": "Arrival & City Orientation",
+        "desc": "Pickup from hotel/airport. Orientation drive through historic landmarks, visit local bazaars, and enjoy welcome dinner."
+      },
+      {
+        "day": "Day 2",
+        "title": "Monuments & Cultural Sightseeing",
+        "desc": "Full day guided exploration of major historical monuments, ancient forts, and museum archives with expert local guide."
+      },
+      {
+        "day": "Day 3",
+        "title": "Scenic Valleys & Local Artisans",
+        "desc": "Visit artisan workshops, local markets, and surrounding natural viewpoints. Evening food street dinner."
+      },
+      {
+        "day": "Day 4",
+        "title": "Final Excursions & Departure",
+        "desc": "Morning shopping and photography tour. Drop-off at airport or hotel with fond memories."
+      }
+    ],
+    "inclusions": [
+      "Private AC Transport (Car / Prado / Coaster) with driver & fuel",
+      "Official Tour Guide & Historian Services",
+      "All Toll Taxes, Parking & Highway Charges",
+      "Complimentary Mineral Water & Refreshments",
+      "Hotel Pickup & Drop-off Services"
+    ],
+    "exclusions": [
+      "Personal shopping & optional activities",
+      "Boating, water sports or chairlift tickets (unless specified)",
+      "Tips for guide & driver"
+    ],
+    "packages": [
+      {
+        "name": "Standard Package",
+        "price": "35,000",
+        "status": "available",
+        "features": [
+          "AC Coaster / Sedan Transport",
+          "Standard Hotel / Day Trip",
+          "Driver & Fuel Included"
+        ]
+      },
+      {
+        "name": "Deluxe Package",
+        "price": "47,250",
+        "status": "available",
+        "features": [
+          "AC Grand Cabin / Prado",
+          "Deluxe Hotel / Private Guide",
+          "Full Inclusions"
+        ]
+      },
+      {
+        "name": "Executive Package",
+        "price": "61,250",
+        "status": "available",
+        "features": [
+          "Luxury 4x4 Prado / SUV",
+          "Luxury 4-Star / 5-Star Hotel",
+          "VIP Concierge & Protocol"
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "q": "What is included in the tour pricing?",
+        "a": "Pricing includes private AC transport, professional driver, fuel, highway tolls, parking fees, and guide assistance."
+      },
+      {
+        "q": "Can this tour be customized?",
+        "a": "Yes! All tours can be customized for your exact pick-up location, time, and special itinerary preferences."
+      },
+      {
+        "q": "How do I book or confirm my reservation?",
+        "a": "You can book directly by clicking 'Book Now' or contacting our 24/7 WhatsApp concierge at +92 311 1145456."
+      }
+    ]
+  },
+  "north-41": {
+    "id": "north-41",
+    "title": "Shogran Siri Paye Tour",
+    "duration": "3 Days 2 Nights",
+    "location": "Pakistan",
+    "maxGroup": "Private & Group Options",
+    "difficulty": "Easy / Moderate",
+    "image": "images/north/item_41.jpg",
+    "price": "35,000",
+    "originalPrice": "40,250",
+    "departureDay": "Daily Private Departures & Fixed Group Departures",
+    "about": "Experience Shogran Siri Paye Tour with Safar Silsila. This curated itinerary offers a complete journey through iconic landmarks, rich local culture, breathtaking scenery, and legendary regional cuisine. Includes professional guide, luxury AC transport, full ticket entry logistics, and official visa support.",
+    "highlights": [
+      "Complete guided excursion for Shogran Siri Paye Tour",
+      "Private AC transport with driver, fuel, tolls & parking",
+      "Sightseeing at historical monuments, bazaars & viewpoints",
+      "Authentic regional food & tea tasting",
+      "24/7 dedicated travel concierge & emergency support"
+    ],
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "title": "Arrival & City Orientation",
+        "desc": "Pickup from hotel/airport. Orientation drive through historic landmarks, visit local bazaars, and enjoy welcome dinner."
+      },
+      {
+        "day": "Day 2",
+        "title": "Monuments & Cultural Sightseeing",
+        "desc": "Full day guided exploration of major historical monuments, ancient forts, and museum archives with expert local guide."
+      },
+      {
+        "day": "Day 3",
+        "title": "Scenic Valleys & Local Artisans",
+        "desc": "Visit artisan workshops, local markets, and surrounding natural viewpoints. Evening food street dinner."
+      },
+      {
+        "day": "Day 4",
+        "title": "Final Excursions & Departure",
+        "desc": "Morning shopping and photography tour. Drop-off at airport or hotel with fond memories."
+      }
+    ],
+    "inclusions": [
+      "Private AC Transport (Car / Prado / Coaster) with driver & fuel",
+      "Official Tour Guide & Historian Services",
+      "All Toll Taxes, Parking & Highway Charges",
+      "Complimentary Mineral Water & Refreshments",
+      "Hotel Pickup & Drop-off Services"
+    ],
+    "exclusions": [
+      "Personal shopping & optional activities",
+      "Boating, water sports or chairlift tickets (unless specified)",
+      "Tips for guide & driver"
+    ],
+    "packages": [
+      {
+        "name": "Standard Package",
+        "price": "35,000",
+        "status": "available",
+        "features": [
+          "AC Coaster / Sedan Transport",
+          "Standard Hotel / Day Trip",
+          "Driver & Fuel Included"
+        ]
+      },
+      {
+        "name": "Deluxe Package",
+        "price": "47,250",
+        "status": "available",
+        "features": [
+          "AC Grand Cabin / Prado",
+          "Deluxe Hotel / Private Guide",
+          "Full Inclusions"
+        ]
+      },
+      {
+        "name": "Executive Package",
+        "price": "61,250",
+        "status": "available",
+        "features": [
+          "Luxury 4x4 Prado / SUV",
+          "Luxury 4-Star / 5-Star Hotel",
+          "VIP Concierge & Protocol"
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "q": "What is included in the tour pricing?",
+        "a": "Pricing includes private AC transport, professional driver, fuel, highway tolls, parking fees, and guide assistance."
+      },
+      {
+        "q": "Can this tour be customized?",
+        "a": "Yes! All tours can be customized for your exact pick-up location, time, and special itinerary preferences."
+      },
+      {
+        "q": "How do I book or confirm my reservation?",
+        "a": "You can book directly by clicking 'Book Now' or contacting our 24/7 WhatsApp concierge at +92 311 1145456."
+      }
+    ]
+  },
+  "north-42": {
+    "id": "north-42",
+    "title": "Katora Lake Trek",
+    "duration": "4 Days 3 Nights",
+    "location": "Pakistan",
+    "maxGroup": "Private & Group Options",
+    "difficulty": "Easy / Moderate",
+    "image": "images/north/item_42.jpg",
+    "price": "35,000",
+    "originalPrice": "40,250",
+    "departureDay": "Daily Private Departures & Fixed Group Departures",
+    "about": "Experience Katora Lake Trek with Safar Silsila. This curated itinerary offers a complete journey through iconic landmarks, rich local culture, breathtaking scenery, and legendary regional cuisine. Includes professional guide, luxury AC transport, full ticket entry logistics, and official visa support.",
+    "highlights": [
+      "Complete guided excursion for Katora Lake Trek",
+      "Private AC transport with driver, fuel, tolls & parking",
+      "Sightseeing at historical monuments, bazaars & viewpoints",
+      "Authentic regional food & tea tasting",
+      "24/7 dedicated travel concierge & emergency support"
+    ],
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "title": "Arrival & City Orientation",
+        "desc": "Pickup from hotel/airport. Orientation drive through historic landmarks, visit local bazaars, and enjoy welcome dinner."
+      },
+      {
+        "day": "Day 2",
+        "title": "Monuments & Cultural Sightseeing",
+        "desc": "Full day guided exploration of major historical monuments, ancient forts, and museum archives with expert local guide."
+      },
+      {
+        "day": "Day 3",
+        "title": "Scenic Valleys & Local Artisans",
+        "desc": "Visit artisan workshops, local markets, and surrounding natural viewpoints. Evening food street dinner."
+      },
+      {
+        "day": "Day 4",
+        "title": "Final Excursions & Departure",
+        "desc": "Morning shopping and photography tour. Drop-off at airport or hotel with fond memories."
+      }
+    ],
+    "inclusions": [
+      "Private AC Transport (Car / Prado / Coaster) with driver & fuel",
+      "Official Tour Guide & Historian Services",
+      "All Toll Taxes, Parking & Highway Charges",
+      "Complimentary Mineral Water & Refreshments",
+      "Hotel Pickup & Drop-off Services"
+    ],
+    "exclusions": [
+      "Personal shopping & optional activities",
+      "Boating, water sports or chairlift tickets (unless specified)",
+      "Tips for guide & driver"
+    ],
+    "packages": [
+      {
+        "name": "Standard Package",
+        "price": "35,000",
+        "status": "available",
+        "features": [
+          "AC Coaster / Sedan Transport",
+          "Standard Hotel / Day Trip",
+          "Driver & Fuel Included"
+        ]
+      },
+      {
+        "name": "Deluxe Package",
+        "price": "47,250",
+        "status": "available",
+        "features": [
+          "AC Grand Cabin / Prado",
+          "Deluxe Hotel / Private Guide",
+          "Full Inclusions"
+        ]
+      },
+      {
+        "name": "Executive Package",
+        "price": "61,250",
+        "status": "available",
+        "features": [
+          "Luxury 4x4 Prado / SUV",
+          "Luxury 4-Star / 5-Star Hotel",
+          "VIP Concierge & Protocol"
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "q": "What is included in the tour pricing?",
+        "a": "Pricing includes private AC transport, professional driver, fuel, highway tolls, parking fees, and guide assistance."
+      },
+      {
+        "q": "Can this tour be customized?",
+        "a": "Yes! All tours can be customized for your exact pick-up location, time, and special itinerary preferences."
+      },
+      {
+        "q": "How do I book or confirm my reservation?",
+        "a": "You can book directly by clicking 'Book Now' or contacting our 24/7 WhatsApp concierge at +92 311 1145456."
+      }
+    ]
+  },
+  "north-43": {
+    "id": "north-43",
+    "title": "Badgoi Top Dasht Laila Tour",
+    "duration": "4 Days 3 Nights",
+    "location": "Pakistan",
+    "maxGroup": "Private & Group Options",
+    "difficulty": "Easy / Moderate",
+    "image": "images/north/item_43.jpg",
+    "price": "35,000",
+    "originalPrice": "40,250",
+    "departureDay": "Daily Private Departures & Fixed Group Departures",
+    "about": "Experience Badgoi Top Dasht Laila Tour with Safar Silsila. This curated itinerary offers a complete journey through iconic landmarks, rich local culture, breathtaking scenery, and legendary regional cuisine. Includes professional guide, luxury AC transport, full ticket entry logistics, and official visa support.",
+    "highlights": [
+      "Complete guided excursion for Badgoi Top Dasht Laila Tour",
+      "Private AC transport with driver, fuel, tolls & parking",
+      "Sightseeing at historical monuments, bazaars & viewpoints",
+      "Authentic regional food & tea tasting",
+      "24/7 dedicated travel concierge & emergency support"
+    ],
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "title": "Arrival & City Orientation",
+        "desc": "Pickup from hotel/airport. Orientation drive through historic landmarks, visit local bazaars, and enjoy welcome dinner."
+      },
+      {
+        "day": "Day 2",
+        "title": "Monuments & Cultural Sightseeing",
+        "desc": "Full day guided exploration of major historical monuments, ancient forts, and museum archives with expert local guide."
+      },
+      {
+        "day": "Day 3",
+        "title": "Scenic Valleys & Local Artisans",
+        "desc": "Visit artisan workshops, local markets, and surrounding natural viewpoints. Evening food street dinner."
+      },
+      {
+        "day": "Day 4",
+        "title": "Final Excursions & Departure",
+        "desc": "Morning shopping and photography tour. Drop-off at airport or hotel with fond memories."
+      }
+    ],
+    "inclusions": [
+      "Private AC Transport (Car / Prado / Coaster) with driver & fuel",
+      "Official Tour Guide & Historian Services",
+      "All Toll Taxes, Parking & Highway Charges",
+      "Complimentary Mineral Water & Refreshments",
+      "Hotel Pickup & Drop-off Services"
+    ],
+    "exclusions": [
+      "Personal shopping & optional activities",
+      "Boating, water sports or chairlift tickets (unless specified)",
+      "Tips for guide & driver"
+    ],
+    "packages": [
+      {
+        "name": "Standard Package",
+        "price": "35,000",
+        "status": "available",
+        "features": [
+          "AC Coaster / Sedan Transport",
+          "Standard Hotel / Day Trip",
+          "Driver & Fuel Included"
+        ]
+      },
+      {
+        "name": "Deluxe Package",
+        "price": "47,250",
+        "status": "available",
+        "features": [
+          "AC Grand Cabin / Prado",
+          "Deluxe Hotel / Private Guide",
+          "Full Inclusions"
+        ]
+      },
+      {
+        "name": "Executive Package",
+        "price": "61,250",
+        "status": "available",
+        "features": [
+          "Luxury 4x4 Prado / SUV",
+          "Luxury 4-Star / 5-Star Hotel",
+          "VIP Concierge & Protocol"
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "q": "What is included in the tour pricing?",
+        "a": "Pricing includes private AC transport, professional driver, fuel, highway tolls, parking fees, and guide assistance."
+      },
+      {
+        "q": "Can this tour be customized?",
+        "a": "Yes! All tours can be customized for your exact pick-up location, time, and special itinerary preferences."
+      },
+      {
+        "q": "How do I book or confirm my reservation?",
+        "a": "You can book directly by clicking 'Book Now' or contacting our 24/7 WhatsApp concierge at +92 311 1145456."
+      }
+    ]
+  },
+  "north-44": {
+    "id": "north-44",
+    "title": "Jahaz Banda Katora Tour",
+    "duration": "4 Days 3 Nights",
+    "location": "Pakistan",
+    "maxGroup": "Private & Group Options",
+    "difficulty": "Easy / Moderate",
+    "image": "images/north/item_44.jpg",
+    "price": "35,000",
+    "originalPrice": "40,250",
+    "departureDay": "Daily Private Departures & Fixed Group Departures",
+    "about": "Experience Jahaz Banda Katora Tour with Safar Silsila. This curated itinerary offers a complete journey through iconic landmarks, rich local culture, breathtaking scenery, and legendary regional cuisine. Includes professional guide, luxury AC transport, full ticket entry logistics, and official visa support.",
+    "highlights": [
+      "Complete guided excursion for Jahaz Banda Katora Tour",
+      "Private AC transport with driver, fuel, tolls & parking",
+      "Sightseeing at historical monuments, bazaars & viewpoints",
+      "Authentic regional food & tea tasting",
+      "24/7 dedicated travel concierge & emergency support"
+    ],
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "title": "Arrival & City Orientation",
+        "desc": "Pickup from hotel/airport. Orientation drive through historic landmarks, visit local bazaars, and enjoy welcome dinner."
+      },
+      {
+        "day": "Day 2",
+        "title": "Monuments & Cultural Sightseeing",
+        "desc": "Full day guided exploration of major historical monuments, ancient forts, and museum archives with expert local guide."
+      },
+      {
+        "day": "Day 3",
+        "title": "Scenic Valleys & Local Artisans",
+        "desc": "Visit artisan workshops, local markets, and surrounding natural viewpoints. Evening food street dinner."
+      },
+      {
+        "day": "Day 4",
+        "title": "Final Excursions & Departure",
+        "desc": "Morning shopping and photography tour. Drop-off at airport or hotel with fond memories."
+      }
+    ],
+    "inclusions": [
+      "Private AC Transport (Car / Prado / Coaster) with driver & fuel",
+      "Official Tour Guide & Historian Services",
+      "All Toll Taxes, Parking & Highway Charges",
+      "Complimentary Mineral Water & Refreshments",
+      "Hotel Pickup & Drop-off Services"
+    ],
+    "exclusions": [
+      "Personal shopping & optional activities",
+      "Boating, water sports or chairlift tickets (unless specified)",
+      "Tips for guide & driver"
+    ],
+    "packages": [
+      {
+        "name": "Standard Package",
+        "price": "35,000",
+        "status": "available",
+        "features": [
+          "AC Coaster / Sedan Transport",
+          "Standard Hotel / Day Trip",
+          "Driver & Fuel Included"
+        ]
+      },
+      {
+        "name": "Deluxe Package",
+        "price": "47,250",
+        "status": "available",
+        "features": [
+          "AC Grand Cabin / Prado",
+          "Deluxe Hotel / Private Guide",
+          "Full Inclusions"
+        ]
+      },
+      {
+        "name": "Executive Package",
+        "price": "61,250",
+        "status": "available",
+        "features": [
+          "Luxury 4x4 Prado / SUV",
+          "Luxury 4-Star / 5-Star Hotel",
+          "VIP Concierge & Protocol"
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "q": "What is included in the tour pricing?",
+        "a": "Pricing includes private AC transport, professional driver, fuel, highway tolls, parking fees, and guide assistance."
+      },
+      {
+        "q": "Can this tour be customized?",
+        "a": "Yes! All tours can be customized for your exact pick-up location, time, and special itinerary preferences."
+      },
+      {
+        "q": "How do I book or confirm my reservation?",
+        "a": "You can book directly by clicking 'Book Now' or contacting our 24/7 WhatsApp concierge at +92 311 1145456."
+      }
+    ]
+  },
+  "north-45": {
+    "id": "north-45",
+    "title": "Siran Valley Tour",
+    "duration": "4 Days 3 Nights",
+    "location": "Pakistan",
+    "maxGroup": "Private & Group Options",
+    "difficulty": "Easy / Moderate",
+    "image": "images/north/item_45.jpg",
+    "price": "35,000",
+    "originalPrice": "40,250",
+    "departureDay": "Daily Private Departures & Fixed Group Departures",
+    "about": "Experience Siran Valley Tour with Safar Silsila. This curated itinerary offers a complete journey through iconic landmarks, rich local culture, breathtaking scenery, and legendary regional cuisine. Includes professional guide, luxury AC transport, full ticket entry logistics, and official visa support.",
+    "highlights": [
+      "Complete guided excursion for Siran Valley Tour",
+      "Private AC transport with driver, fuel, tolls & parking",
+      "Sightseeing at historical monuments, bazaars & viewpoints",
+      "Authentic regional food & tea tasting",
+      "24/7 dedicated travel concierge & emergency support"
+    ],
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "title": "Arrival & City Orientation",
+        "desc": "Pickup from hotel/airport. Orientation drive through historic landmarks, visit local bazaars, and enjoy welcome dinner."
+      },
+      {
+        "day": "Day 2",
+        "title": "Monuments & Cultural Sightseeing",
+        "desc": "Full day guided exploration of major historical monuments, ancient forts, and museum archives with expert local guide."
+      },
+      {
+        "day": "Day 3",
+        "title": "Scenic Valleys & Local Artisans",
+        "desc": "Visit artisan workshops, local markets, and surrounding natural viewpoints. Evening food street dinner."
+      },
+      {
+        "day": "Day 4",
+        "title": "Final Excursions & Departure",
+        "desc": "Morning shopping and photography tour. Drop-off at airport or hotel with fond memories."
+      }
+    ],
+    "inclusions": [
+      "Private AC Transport (Car / Prado / Coaster) with driver & fuel",
+      "Official Tour Guide & Historian Services",
+      "All Toll Taxes, Parking & Highway Charges",
+      "Complimentary Mineral Water & Refreshments",
+      "Hotel Pickup & Drop-off Services"
+    ],
+    "exclusions": [
+      "Personal shopping & optional activities",
+      "Boating, water sports or chairlift tickets (unless specified)",
+      "Tips for guide & driver"
+    ],
+    "packages": [
+      {
+        "name": "Standard Package",
+        "price": "35,000",
+        "status": "available",
+        "features": [
+          "AC Coaster / Sedan Transport",
+          "Standard Hotel / Day Trip",
+          "Driver & Fuel Included"
+        ]
+      },
+      {
+        "name": "Deluxe Package",
+        "price": "47,250",
+        "status": "available",
+        "features": [
+          "AC Grand Cabin / Prado",
+          "Deluxe Hotel / Private Guide",
+          "Full Inclusions"
+        ]
+      },
+      {
+        "name": "Executive Package",
+        "price": "61,250",
+        "status": "available",
+        "features": [
+          "Luxury 4x4 Prado / SUV",
+          "Luxury 4-Star / 5-Star Hotel",
+          "VIP Concierge & Protocol"
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "q": "What is included in the tour pricing?",
+        "a": "Pricing includes private AC transport, professional driver, fuel, highway tolls, parking fees, and guide assistance."
+      },
+      {
+        "q": "Can this tour be customized?",
+        "a": "Yes! All tours can be customized for your exact pick-up location, time, and special itinerary preferences."
+      },
+      {
+        "q": "How do I book or confirm my reservation?",
+        "a": "You can book directly by clicking 'Book Now' or contacting our 24/7 WhatsApp concierge at +92 311 1145456."
+      }
+    ]
+  },
+  "north-46": {
+    "id": "north-46",
+    "title": "Parsan Valley Tour",
+    "duration": "7 Days 6 Nights",
+    "location": "Pakistan",
+    "maxGroup": "Private & Group Options",
+    "difficulty": "Easy / Moderate",
+    "image": "images/north/item_46.jpg",
+    "price": "35,000",
+    "originalPrice": "40,250",
+    "departureDay": "Daily Private Departures & Fixed Group Departures",
+    "about": "Experience Parsan Valley Tour with Safar Silsila. This curated itinerary offers a complete journey through iconic landmarks, rich local culture, breathtaking scenery, and legendary regional cuisine. Includes professional guide, luxury AC transport, full ticket entry logistics, and official visa support.",
+    "highlights": [
+      "Complete guided excursion for Parsan Valley Tour",
+      "Private AC transport with driver, fuel, tolls & parking",
+      "Sightseeing at historical monuments, bazaars & viewpoints",
+      "Authentic regional food & tea tasting",
+      "24/7 dedicated travel concierge & emergency support"
+    ],
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "title": "Arrival & City Orientation",
+        "desc": "Pickup from hotel/airport. Orientation drive through historic landmarks, visit local bazaars, and enjoy welcome dinner."
+      },
+      {
+        "day": "Day 2",
+        "title": "Monuments & Cultural Sightseeing",
+        "desc": "Full day guided exploration of major historical monuments, ancient forts, and museum archives with expert local guide."
+      },
+      {
+        "day": "Day 3",
+        "title": "Scenic Valleys & Local Artisans",
+        "desc": "Visit artisan workshops, local markets, and surrounding natural viewpoints. Evening food street dinner."
+      },
+      {
+        "day": "Day 4",
+        "title": "Final Excursions & Departure",
+        "desc": "Morning shopping and photography tour. Drop-off at airport or hotel with fond memories."
+      }
+    ],
+    "inclusions": [
+      "Private AC Transport (Car / Prado / Coaster) with driver & fuel",
+      "Official Tour Guide & Historian Services",
+      "All Toll Taxes, Parking & Highway Charges",
+      "Complimentary Mineral Water & Refreshments",
+      "Hotel Pickup & Drop-off Services"
+    ],
+    "exclusions": [
+      "Personal shopping & optional activities",
+      "Boating, water sports or chairlift tickets (unless specified)",
+      "Tips for guide & driver"
+    ],
+    "packages": [
+      {
+        "name": "Standard Package",
+        "price": "35,000",
+        "status": "available",
+        "features": [
+          "AC Coaster / Sedan Transport",
+          "Standard Hotel / Day Trip",
+          "Driver & Fuel Included"
+        ]
+      },
+      {
+        "name": "Deluxe Package",
+        "price": "47,250",
+        "status": "available",
+        "features": [
+          "AC Grand Cabin / Prado",
+          "Deluxe Hotel / Private Guide",
+          "Full Inclusions"
+        ]
+      },
+      {
+        "name": "Executive Package",
+        "price": "61,250",
+        "status": "available",
+        "features": [
+          "Luxury 4x4 Prado / SUV",
+          "Luxury 4-Star / 5-Star Hotel",
+          "VIP Concierge & Protocol"
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "q": "What is included in the tour pricing?",
+        "a": "Pricing includes private AC transport, professional driver, fuel, highway tolls, parking fees, and guide assistance."
+      },
+      {
+        "q": "Can this tour be customized?",
+        "a": "Yes! All tours can be customized for your exact pick-up location, time, and special itinerary preferences."
+      },
+      {
+        "q": "How do I book or confirm my reservation?",
+        "a": "You can book directly by clicking 'Book Now' or contacting our 24/7 WhatsApp concierge at +92 311 1145456."
+      }
+    ]
+  },
+  "north-47": {
+    "id": "north-47",
+    "title": "Taleno Thumishalling Festival",
+    "duration": "8 Days 7 Nights",
+    "location": "Pakistan",
+    "maxGroup": "Private & Group Options",
+    "difficulty": "Easy / Moderate",
+    "image": "images/north/item_47.jpg",
+    "price": "35,000",
+    "originalPrice": "40,250",
+    "departureDay": "Daily Private Departures & Fixed Group Departures",
+    "about": "Experience Taleno Thumishalling Festival with Safar Silsila. This curated itinerary offers a complete journey through iconic landmarks, rich local culture, breathtaking scenery, and legendary regional cuisine. Includes professional guide, luxury AC transport, full ticket entry logistics, and official visa support.",
+    "highlights": [
+      "Complete guided excursion for Taleno Thumishalling Festival",
+      "Private AC transport with driver, fuel, tolls & parking",
+      "Sightseeing at historical monuments, bazaars & viewpoints",
+      "Authentic regional food & tea tasting",
+      "24/7 dedicated travel concierge & emergency support"
+    ],
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "title": "Arrival & City Orientation",
+        "desc": "Pickup from hotel/airport. Orientation drive through historic landmarks, visit local bazaars, and enjoy welcome dinner."
+      },
+      {
+        "day": "Day 2",
+        "title": "Monuments & Cultural Sightseeing",
+        "desc": "Full day guided exploration of major historical monuments, ancient forts, and museum archives with expert local guide."
+      },
+      {
+        "day": "Day 3",
+        "title": "Scenic Valleys & Local Artisans",
+        "desc": "Visit artisan workshops, local markets, and surrounding natural viewpoints. Evening food street dinner."
+      },
+      {
+        "day": "Day 4",
+        "title": "Final Excursions & Departure",
+        "desc": "Morning shopping and photography tour. Drop-off at airport or hotel with fond memories."
+      }
+    ],
+    "inclusions": [
+      "Private AC Transport (Car / Prado / Coaster) with driver & fuel",
+      "Official Tour Guide & Historian Services",
+      "All Toll Taxes, Parking & Highway Charges",
+      "Complimentary Mineral Water & Refreshments",
+      "Hotel Pickup & Drop-off Services"
+    ],
+    "exclusions": [
+      "Personal shopping & optional activities",
+      "Boating, water sports or chairlift tickets (unless specified)",
+      "Tips for guide & driver"
+    ],
+    "packages": [
+      {
+        "name": "Standard Package",
+        "price": "35,000",
+        "status": "available",
+        "features": [
+          "AC Coaster / Sedan Transport",
+          "Standard Hotel / Day Trip",
+          "Driver & Fuel Included"
+        ]
+      },
+      {
+        "name": "Deluxe Package",
+        "price": "47,250",
+        "status": "available",
+        "features": [
+          "AC Grand Cabin / Prado",
+          "Deluxe Hotel / Private Guide",
+          "Full Inclusions"
+        ]
+      },
+      {
+        "name": "Executive Package",
+        "price": "61,250",
+        "status": "available",
+        "features": [
+          "Luxury 4x4 Prado / SUV",
+          "Luxury 4-Star / 5-Star Hotel",
+          "VIP Concierge & Protocol"
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "q": "What is included in the tour pricing?",
+        "a": "Pricing includes private AC transport, professional driver, fuel, highway tolls, parking fees, and guide assistance."
+      },
+      {
+        "q": "Can this tour be customized?",
+        "a": "Yes! All tours can be customized for your exact pick-up location, time, and special itinerary preferences."
+      },
+      {
+        "q": "How do I book or confirm my reservation?",
+        "a": "You can book directly by clicking 'Book Now' or contacting our 24/7 WhatsApp concierge at +92 311 1145456."
+      }
+    ]
+  },
+  "north-48": {
+    "id": "north-48",
+    "title": "Nazbar Valley Tour",
+    "duration": "8 Days 7 Nights",
+    "location": "Pakistan",
+    "maxGroup": "Private & Group Options",
+    "difficulty": "Easy / Moderate",
+    "image": "images/north/item_48.webp",
+    "price": "35,000",
+    "originalPrice": "40,250",
+    "departureDay": "Daily Private Departures & Fixed Group Departures",
+    "about": "Experience Nazbar Valley Tour with Safar Silsila. This curated itinerary offers a complete journey through iconic landmarks, rich local culture, breathtaking scenery, and legendary regional cuisine. Includes professional guide, luxury AC transport, full ticket entry logistics, and official visa support.",
+    "highlights": [
+      "Complete guided excursion for Nazbar Valley Tour",
+      "Private AC transport with driver, fuel, tolls & parking",
+      "Sightseeing at historical monuments, bazaars & viewpoints",
+      "Authentic regional food & tea tasting",
+      "24/7 dedicated travel concierge & emergency support"
+    ],
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "title": "Arrival & City Orientation",
+        "desc": "Pickup from hotel/airport. Orientation drive through historic landmarks, visit local bazaars, and enjoy welcome dinner."
+      },
+      {
+        "day": "Day 2",
+        "title": "Monuments & Cultural Sightseeing",
+        "desc": "Full day guided exploration of major historical monuments, ancient forts, and museum archives with expert local guide."
+      },
+      {
+        "day": "Day 3",
+        "title": "Scenic Valleys & Local Artisans",
+        "desc": "Visit artisan workshops, local markets, and surrounding natural viewpoints. Evening food street dinner."
+      },
+      {
+        "day": "Day 4",
+        "title": "Final Excursions & Departure",
+        "desc": "Morning shopping and photography tour. Drop-off at airport or hotel with fond memories."
+      }
+    ],
+    "inclusions": [
+      "Private AC Transport (Car / Prado / Coaster) with driver & fuel",
+      "Official Tour Guide & Historian Services",
+      "All Toll Taxes, Parking & Highway Charges",
+      "Complimentary Mineral Water & Refreshments",
+      "Hotel Pickup & Drop-off Services"
+    ],
+    "exclusions": [
+      "Personal shopping & optional activities",
+      "Boating, water sports or chairlift tickets (unless specified)",
+      "Tips for guide & driver"
+    ],
+    "packages": [
+      {
+        "name": "Standard Package",
+        "price": "35,000",
+        "status": "available",
+        "features": [
+          "AC Coaster / Sedan Transport",
+          "Standard Hotel / Day Trip",
+          "Driver & Fuel Included"
+        ]
+      },
+      {
+        "name": "Deluxe Package",
+        "price": "47,250",
+        "status": "available",
+        "features": [
+          "AC Grand Cabin / Prado",
+          "Deluxe Hotel / Private Guide",
+          "Full Inclusions"
+        ]
+      },
+      {
+        "name": "Executive Package",
+        "price": "61,250",
+        "status": "available",
+        "features": [
+          "Luxury 4x4 Prado / SUV",
+          "Luxury 4-Star / 5-Star Hotel",
+          "VIP Concierge & Protocol"
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "q": "What is included in the tour pricing?",
+        "a": "Pricing includes private AC transport, professional driver, fuel, highway tolls, parking fees, and guide assistance."
+      },
+      {
+        "q": "Can this tour be customized?",
+        "a": "Yes! All tours can be customized for your exact pick-up location, time, and special itinerary preferences."
+      },
+      {
+        "q": "How do I book or confirm my reservation?",
+        "a": "You can book directly by clicking 'Book Now' or contacting our 24/7 WhatsApp concierge at +92 311 1145456."
+      }
+    ]
+  },
+  "north-49": {
+    "id": "north-49",
+    "title": "Bagrot Valley Tour",
+    "duration": "7 Days 6 Nights",
+    "location": "Pakistan",
+    "maxGroup": "Private & Group Options",
+    "difficulty": "Easy / Moderate",
+    "image": "images/north/item_49.jpg",
+    "price": "35,000",
+    "originalPrice": "40,250",
+    "departureDay": "Daily Private Departures & Fixed Group Departures",
+    "about": "Experience Bagrot Valley Tour with Safar Silsila. This curated itinerary offers a complete journey through iconic landmarks, rich local culture, breathtaking scenery, and legendary regional cuisine. Includes professional guide, luxury AC transport, full ticket entry logistics, and official visa support.",
+    "highlights": [
+      "Complete guided excursion for Bagrot Valley Tour",
+      "Private AC transport with driver, fuel, tolls & parking",
+      "Sightseeing at historical monuments, bazaars & viewpoints",
+      "Authentic regional food & tea tasting",
+      "24/7 dedicated travel concierge & emergency support"
+    ],
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "title": "Arrival & City Orientation",
+        "desc": "Pickup from hotel/airport. Orientation drive through historic landmarks, visit local bazaars, and enjoy welcome dinner."
+      },
+      {
+        "day": "Day 2",
+        "title": "Monuments & Cultural Sightseeing",
+        "desc": "Full day guided exploration of major historical monuments, ancient forts, and museum archives with expert local guide."
+      },
+      {
+        "day": "Day 3",
+        "title": "Scenic Valleys & Local Artisans",
+        "desc": "Visit artisan workshops, local markets, and surrounding natural viewpoints. Evening food street dinner."
+      },
+      {
+        "day": "Day 4",
+        "title": "Final Excursions & Departure",
+        "desc": "Morning shopping and photography tour. Drop-off at airport or hotel with fond memories."
+      }
+    ],
+    "inclusions": [
+      "Private AC Transport (Car / Prado / Coaster) with driver & fuel",
+      "Official Tour Guide & Historian Services",
+      "All Toll Taxes, Parking & Highway Charges",
+      "Complimentary Mineral Water & Refreshments",
+      "Hotel Pickup & Drop-off Services"
+    ],
+    "exclusions": [
+      "Personal shopping & optional activities",
+      "Boating, water sports or chairlift tickets (unless specified)",
+      "Tips for guide & driver"
+    ],
+    "packages": [
+      {
+        "name": "Standard Package",
+        "price": "35,000",
+        "status": "available",
+        "features": [
+          "AC Coaster / Sedan Transport",
+          "Standard Hotel / Day Trip",
+          "Driver & Fuel Included"
+        ]
+      },
+      {
+        "name": "Deluxe Package",
+        "price": "47,250",
+        "status": "available",
+        "features": [
+          "AC Grand Cabin / Prado",
+          "Deluxe Hotel / Private Guide",
+          "Full Inclusions"
+        ]
+      },
+      {
+        "name": "Executive Package",
+        "price": "61,250",
+        "status": "available",
+        "features": [
+          "Luxury 4x4 Prado / SUV",
+          "Luxury 4-Star / 5-Star Hotel",
+          "VIP Concierge & Protocol"
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "q": "What is included in the tour pricing?",
+        "a": "Pricing includes private AC transport, professional driver, fuel, highway tolls, parking fees, and guide assistance."
+      },
+      {
+        "q": "Can this tour be customized?",
+        "a": "Yes! All tours can be customized for your exact pick-up location, time, and special itinerary preferences."
+      },
+      {
+        "q": "How do I book or confirm my reservation?",
+        "a": "You can book directly by clicking 'Book Now' or contacting our 24/7 WhatsApp concierge at +92 311 1145456."
+      }
+    ]
+  },
+  "north-50": {
+    "id": "north-50",
+    "title": "Old Silk Road Hunza Tour",
+    "duration": "12 Days 11 Nights",
+    "location": "Hunza Valley",
+    "maxGroup": "Private & Group Options",
+    "difficulty": "Easy / Moderate",
+    "image": "images/north/item_50.jpg",
+    "price": "35,000",
+    "originalPrice": "40,250",
+    "departureDay": "Daily Private Departures & Fixed Group Departures",
+    "about": "Experience Old Silk Road Hunza Tour with Safar Silsila. This curated itinerary offers a complete journey through iconic landmarks, rich local culture, breathtaking scenery, and legendary regional cuisine. Includes professional guide, luxury AC transport, full ticket entry logistics, and official visa support.",
+    "highlights": [
+      "Complete guided excursion for Old Silk Road Hunza Tour",
+      "Private AC transport with driver, fuel, tolls & parking",
+      "Sightseeing at historical monuments, bazaars & viewpoints",
+      "Authentic regional food & tea tasting",
+      "24/7 dedicated travel concierge & emergency support"
+    ],
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "title": "Arrival & City Orientation",
+        "desc": "Pickup from hotel/airport. Orientation drive through historic landmarks, visit local bazaars, and enjoy welcome dinner."
+      },
+      {
+        "day": "Day 2",
+        "title": "Monuments & Cultural Sightseeing",
+        "desc": "Full day guided exploration of major historical monuments, ancient forts, and museum archives with expert local guide."
+      },
+      {
+        "day": "Day 3",
+        "title": "Scenic Valleys & Local Artisans",
+        "desc": "Visit artisan workshops, local markets, and surrounding natural viewpoints. Evening food street dinner."
+      },
+      {
+        "day": "Day 4",
+        "title": "Final Excursions & Departure",
+        "desc": "Morning shopping and photography tour. Drop-off at airport or hotel with fond memories."
+      }
+    ],
+    "inclusions": [
+      "Private AC Transport (Car / Prado / Coaster) with driver & fuel",
+      "Official Tour Guide & Historian Services",
+      "All Toll Taxes, Parking & Highway Charges",
+      "Complimentary Mineral Water & Refreshments",
+      "Hotel Pickup & Drop-off Services"
+    ],
+    "exclusions": [
+      "Personal shopping & optional activities",
+      "Boating, water sports or chairlift tickets (unless specified)",
+      "Tips for guide & driver"
+    ],
+    "packages": [
+      {
+        "name": "Standard Package",
+        "price": "35,000",
+        "status": "available",
+        "features": [
+          "AC Coaster / Sedan Transport",
+          "Standard Hotel / Day Trip",
+          "Driver & Fuel Included"
+        ]
+      },
+      {
+        "name": "Deluxe Package",
+        "price": "47,250",
+        "status": "available",
+        "features": [
+          "AC Grand Cabin / Prado",
+          "Deluxe Hotel / Private Guide",
+          "Full Inclusions"
+        ]
+      },
+      {
+        "name": "Executive Package",
+        "price": "61,250",
+        "status": "available",
+        "features": [
+          "Luxury 4x4 Prado / SUV",
+          "Luxury 4-Star / 5-Star Hotel",
+          "VIP Concierge & Protocol"
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "q": "What is included in the tour pricing?",
+        "a": "Pricing includes private AC transport, professional driver, fuel, highway tolls, parking fees, and guide assistance."
+      },
+      {
+        "q": "Can this tour be customized?",
+        "a": "Yes! All tours can be customized for your exact pick-up location, time, and special itinerary preferences."
+      },
+      {
+        "q": "How do I book or confirm my reservation?",
+        "a": "You can book directly by clicking 'Book Now' or contacting our 24/7 WhatsApp concierge at +92 311 1145456."
+      }
+    ]
+  },
+  "north-51": {
+    "id": "north-51",
+    "title": "Tour of the Darel and Tangir Valley",
+    "duration": "5 Dyas 4 Nights",
+    "location": "Pakistan",
+    "maxGroup": "Private & Group Options",
+    "difficulty": "Easy / Moderate",
+    "image": "images/north/item_51.jpg",
+    "price": "14,000",
+    "originalPrice": "16,100",
+    "departureDay": "Daily Private Departures & Fixed Group Departures",
+    "about": "Experience Tour of the Darel and Tangir Valley with Safar Silsila. This curated itinerary offers a complete journey through iconic landmarks, rich local culture, breathtaking scenery, and legendary regional cuisine. Includes professional guide, luxury AC transport, full ticket entry logistics, and official visa support.",
+    "highlights": [
+      "Complete guided excursion for Tour of the Darel and Tangir Valley",
+      "Private AC transport with driver, fuel, tolls & parking",
+      "Sightseeing at historical monuments, bazaars & viewpoints",
+      "Authentic regional food & tea tasting",
+      "24/7 dedicated travel concierge & emergency support"
+    ],
+    "itinerary": [
+      {
+        "day": "Morning",
+        "title": "Pickup & Departure",
+        "desc": "07:30 AM pickup from hotel/residence in private AC vehicle. Drive along scenic highway with morning refreshment stop."
+      },
+      {
+        "day": "Afternoon",
+        "title": "Guided Monument & Activity Exploration",
+        "desc": "Arrive at destination. Guided tour of key monuments, scenic viewpoints, water activities, and photography stops."
+      },
+      {
+        "day": "Evening",
+        "title": "Local Food Tasting & Return",
+        "desc": "Enjoy famous local street food feast & traditional chai. Return drive with drop-off at your hotel by 07:00 PM."
+      }
+    ],
+    "inclusions": [
+      "Private AC Transport (Car / Prado / Coaster) with driver & fuel",
+      "Official Tour Guide & Historian Services",
+      "All Toll Taxes, Parking & Highway Charges",
+      "Complimentary Mineral Water & Refreshments",
+      "Hotel Pickup & Drop-off Services"
+    ],
+    "exclusions": [
+      "Personal shopping & optional activities",
+      "Boating, water sports or chairlift tickets (unless specified)",
+      "Tips for guide & driver"
+    ],
+    "packages": [
+      {
+        "name": "Standard Package",
+        "price": "14,000",
+        "status": "available",
+        "features": [
+          "AC Coaster / Sedan Transport",
+          "Standard Hotel / Day Trip",
+          "Driver & Fuel Included"
+        ]
+      },
+      {
+        "name": "Deluxe Package",
+        "price": "18,900",
+        "status": "available",
+        "features": [
+          "AC Grand Cabin / Prado",
+          "Deluxe Hotel / Private Guide",
+          "Full Inclusions"
+        ]
+      },
+      {
+        "name": "Executive Package",
+        "price": "24,500",
+        "status": "available",
+        "features": [
+          "Luxury 4x4 Prado / SUV",
+          "Luxury 4-Star / 5-Star Hotel",
+          "VIP Concierge & Protocol"
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "q": "What is included in the tour pricing?",
+        "a": "Pricing includes private AC transport, professional driver, fuel, highway tolls, parking fees, and guide assistance."
+      },
+      {
+        "q": "Can this tour be customized?",
+        "a": "Yes! All tours can be customized for your exact pick-up location, time, and special itinerary preferences."
+      },
+      {
+        "q": "How do I book or confirm my reservation?",
+        "a": "You can book directly by clicking 'Book Now' or contacting our 24/7 WhatsApp concierge at +92 311 1145456."
+      }
+    ]
+  },
+  "north-52": {
+    "id": "north-52",
+    "title": "Avgarch & Boybar Valley Trek",
+    "duration": "8 Days 7 Nights",
+    "location": "Pakistan",
+    "maxGroup": "Private & Group Options",
+    "difficulty": "Easy / Moderate",
+    "image": "images/north/item_52.jpg",
+    "price": "35,000",
+    "originalPrice": "40,250",
+    "departureDay": "Daily Private Departures & Fixed Group Departures",
+    "about": "Experience Avgarch & Boybar Valley Trek with Safar Silsila. This curated itinerary offers a complete journey through iconic landmarks, rich local culture, breathtaking scenery, and legendary regional cuisine. Includes professional guide, luxury AC transport, full ticket entry logistics, and official visa support.",
+    "highlights": [
+      "Complete guided excursion for Avgarch & Boybar Valley Trek",
+      "Private AC transport with driver, fuel, tolls & parking",
+      "Sightseeing at historical monuments, bazaars & viewpoints",
+      "Authentic regional food & tea tasting",
+      "24/7 dedicated travel concierge & emergency support"
+    ],
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "title": "Arrival & City Orientation",
+        "desc": "Pickup from hotel/airport. Orientation drive through historic landmarks, visit local bazaars, and enjoy welcome dinner."
+      },
+      {
+        "day": "Day 2",
+        "title": "Monuments & Cultural Sightseeing",
+        "desc": "Full day guided exploration of major historical monuments, ancient forts, and museum archives with expert local guide."
+      },
+      {
+        "day": "Day 3",
+        "title": "Scenic Valleys & Local Artisans",
+        "desc": "Visit artisan workshops, local markets, and surrounding natural viewpoints. Evening food street dinner."
+      },
+      {
+        "day": "Day 4",
+        "title": "Final Excursions & Departure",
+        "desc": "Morning shopping and photography tour. Drop-off at airport or hotel with fond memories."
+      }
+    ],
+    "inclusions": [
+      "Private AC Transport (Car / Prado / Coaster) with driver & fuel",
+      "Official Tour Guide & Historian Services",
+      "All Toll Taxes, Parking & Highway Charges",
+      "Complimentary Mineral Water & Refreshments",
+      "Hotel Pickup & Drop-off Services"
+    ],
+    "exclusions": [
+      "Personal shopping & optional activities",
+      "Boating, water sports or chairlift tickets (unless specified)",
+      "Tips for guide & driver"
+    ],
+    "packages": [
+      {
+        "name": "Standard Package",
+        "price": "35,000",
+        "status": "available",
+        "features": [
+          "AC Coaster / Sedan Transport",
+          "Standard Hotel / Day Trip",
+          "Driver & Fuel Included"
+        ]
+      },
+      {
+        "name": "Deluxe Package",
+        "price": "47,250",
+        "status": "available",
+        "features": [
+          "AC Grand Cabin / Prado",
+          "Deluxe Hotel / Private Guide",
+          "Full Inclusions"
+        ]
+      },
+      {
+        "name": "Executive Package",
+        "price": "61,250",
+        "status": "available",
+        "features": [
+          "Luxury 4x4 Prado / SUV",
+          "Luxury 4-Star / 5-Star Hotel",
+          "VIP Concierge & Protocol"
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "q": "What is included in the tour pricing?",
+        "a": "Pricing includes private AC transport, professional driver, fuel, highway tolls, parking fees, and guide assistance."
+      },
+      {
+        "q": "Can this tour be customized?",
+        "a": "Yes! All tours can be customized for your exact pick-up location, time, and special itinerary preferences."
+      },
+      {
+        "q": "How do I book or confirm my reservation?",
+        "a": "You can book directly by clicking 'Book Now' or contacting our 24/7 WhatsApp concierge at +92 311 1145456."
+      }
+    ]
+  },
+  "north-53": {
+    "id": "north-53",
+    "title": "Hindukush Snow Festival",
+    "duration": "6 Days 5 Nights",
+    "location": "Pakistan",
+    "maxGroup": "Private & Group Options",
+    "difficulty": "Easy / Moderate",
+    "image": "images/north/item_53.jpg",
+    "price": "35,000",
+    "originalPrice": "40,250",
+    "departureDay": "Daily Private Departures & Fixed Group Departures",
+    "about": "Experience Hindukush Snow Festival with Safar Silsila. This curated itinerary offers a complete journey through iconic landmarks, rich local culture, breathtaking scenery, and legendary regional cuisine. Includes professional guide, luxury AC transport, full ticket entry logistics, and official visa support.",
+    "highlights": [
+      "Complete guided excursion for Hindukush Snow Festival",
+      "Private AC transport with driver, fuel, tolls & parking",
+      "Sightseeing at historical monuments, bazaars & viewpoints",
+      "Authentic regional food & tea tasting",
+      "24/7 dedicated travel concierge & emergency support"
+    ],
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "title": "Arrival & City Orientation",
+        "desc": "Pickup from hotel/airport. Orientation drive through historic landmarks, visit local bazaars, and enjoy welcome dinner."
+      },
+      {
+        "day": "Day 2",
+        "title": "Monuments & Cultural Sightseeing",
+        "desc": "Full day guided exploration of major historical monuments, ancient forts, and museum archives with expert local guide."
+      },
+      {
+        "day": "Day 3",
+        "title": "Scenic Valleys & Local Artisans",
+        "desc": "Visit artisan workshops, local markets, and surrounding natural viewpoints. Evening food street dinner."
+      },
+      {
+        "day": "Day 4",
+        "title": "Final Excursions & Departure",
+        "desc": "Morning shopping and photography tour. Drop-off at airport or hotel with fond memories."
+      }
+    ],
+    "inclusions": [
+      "Private AC Transport (Car / Prado / Coaster) with driver & fuel",
+      "Official Tour Guide & Historian Services",
+      "All Toll Taxes, Parking & Highway Charges",
+      "Complimentary Mineral Water & Refreshments",
+      "Hotel Pickup & Drop-off Services"
+    ],
+    "exclusions": [
+      "Personal shopping & optional activities",
+      "Boating, water sports or chairlift tickets (unless specified)",
+      "Tips for guide & driver"
+    ],
+    "packages": [
+      {
+        "name": "Standard Package",
+        "price": "35,000",
+        "status": "available",
+        "features": [
+          "AC Coaster / Sedan Transport",
+          "Standard Hotel / Day Trip",
+          "Driver & Fuel Included"
+        ]
+      },
+      {
+        "name": "Deluxe Package",
+        "price": "47,250",
+        "status": "available",
+        "features": [
+          "AC Grand Cabin / Prado",
+          "Deluxe Hotel / Private Guide",
+          "Full Inclusions"
+        ]
+      },
+      {
+        "name": "Executive Package",
+        "price": "61,250",
+        "status": "available",
+        "features": [
+          "Luxury 4x4 Prado / SUV",
+          "Luxury 4-Star / 5-Star Hotel",
+          "VIP Concierge & Protocol"
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "q": "What is included in the tour pricing?",
+        "a": "Pricing includes private AC transport, professional driver, fuel, highway tolls, parking fees, and guide assistance."
+      },
+      {
+        "q": "Can this tour be customized?",
+        "a": "Yes! All tours can be customized for your exact pick-up location, time, and special itinerary preferences."
+      },
+      {
+        "q": "How do I book or confirm my reservation?",
+        "a": "You can book directly by clicking 'Book Now' or contacting our 24/7 WhatsApp concierge at +92 311 1145456."
+      }
+    ]
+  },
+  "north-54": {
+    "id": "north-54",
+    "title": "Mayfung Fire Festival Skardu",
+    "duration": "6 Days 5 Nights",
+    "location": "Skardu, Baltistan",
+    "maxGroup": "Private & Group Options",
+    "difficulty": "Easy / Moderate",
+    "image": "images/north/item_54.jpg",
+    "price": "35,000",
+    "originalPrice": "40,250",
+    "departureDay": "Daily Private Departures & Fixed Group Departures",
+    "about": "Experience Mayfung Fire Festival Skardu with Safar Silsila. This curated itinerary offers a complete journey through iconic landmarks, rich local culture, breathtaking scenery, and legendary regional cuisine. Includes professional guide, luxury AC transport, full ticket entry logistics, and official visa support.",
+    "highlights": [
+      "Complete guided excursion for Mayfung Fire Festival Skardu",
+      "Private AC transport with driver, fuel, tolls & parking",
+      "Sightseeing at historical monuments, bazaars & viewpoints",
+      "Authentic regional food & tea tasting",
+      "24/7 dedicated travel concierge & emergency support"
+    ],
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "title": "Arrival & City Orientation",
+        "desc": "Pickup from hotel/airport. Orientation drive through historic landmarks, visit local bazaars, and enjoy welcome dinner."
+      },
+      {
+        "day": "Day 2",
+        "title": "Monuments & Cultural Sightseeing",
+        "desc": "Full day guided exploration of major historical monuments, ancient forts, and museum archives with expert local guide."
+      },
+      {
+        "day": "Day 3",
+        "title": "Scenic Valleys & Local Artisans",
+        "desc": "Visit artisan workshops, local markets, and surrounding natural viewpoints. Evening food street dinner."
+      },
+      {
+        "day": "Day 4",
+        "title": "Final Excursions & Departure",
+        "desc": "Morning shopping and photography tour. Drop-off at airport or hotel with fond memories."
+      }
+    ],
+    "inclusions": [
+      "Private AC Transport (Car / Prado / Coaster) with driver & fuel",
+      "Official Tour Guide & Historian Services",
+      "All Toll Taxes, Parking & Highway Charges",
+      "Complimentary Mineral Water & Refreshments",
+      "Hotel Pickup & Drop-off Services"
+    ],
+    "exclusions": [
+      "Personal shopping & optional activities",
+      "Boating, water sports or chairlift tickets (unless specified)",
+      "Tips for guide & driver"
+    ],
+    "packages": [
+      {
+        "name": "Standard Package",
+        "price": "35,000",
+        "status": "available",
+        "features": [
+          "AC Coaster / Sedan Transport",
+          "Standard Hotel / Day Trip",
+          "Driver & Fuel Included"
+        ]
+      },
+      {
+        "name": "Deluxe Package",
+        "price": "47,250",
+        "status": "available",
+        "features": [
+          "AC Grand Cabin / Prado",
+          "Deluxe Hotel / Private Guide",
+          "Full Inclusions"
+        ]
+      },
+      {
+        "name": "Executive Package",
+        "price": "61,250",
+        "status": "available",
+        "features": [
+          "Luxury 4x4 Prado / SUV",
+          "Luxury 4-Star / 5-Star Hotel",
+          "VIP Concierge & Protocol"
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "q": "What is included in the tour pricing?",
+        "a": "Pricing includes private AC transport, professional driver, fuel, highway tolls, parking fees, and guide assistance."
+      },
+      {
+        "q": "Can this tour be customized?",
+        "a": "Yes! All tours can be customized for your exact pick-up location, time, and special itinerary preferences."
+      },
+      {
+        "q": "How do I book or confirm my reservation?",
+        "a": "You can book directly by clicking 'Book Now' or contacting our 24/7 WhatsApp concierge at +92 311 1145456."
+      }
+    ]
+  },
+  "north-55": {
+    "id": "north-55",
+    "title": "Siachen Tour",
+    "duration": "7 Days 6 Nights",
+    "location": "Pakistan",
+    "maxGroup": "Private & Group Options",
+    "difficulty": "Easy / Moderate",
+    "image": "images/north/item_55.jpg",
+    "price": "35,000",
+    "originalPrice": "40,250",
+    "departureDay": "Daily Private Departures & Fixed Group Departures",
+    "about": "Experience Siachen Tour with Safar Silsila. This curated itinerary offers a complete journey through iconic landmarks, rich local culture, breathtaking scenery, and legendary regional cuisine. Includes professional guide, luxury AC transport, full ticket entry logistics, and official visa support.",
+    "highlights": [
+      "Complete guided excursion for Siachen Tour",
+      "Private AC transport with driver, fuel, tolls & parking",
+      "Sightseeing at historical monuments, bazaars & viewpoints",
+      "Authentic regional food & tea tasting",
+      "24/7 dedicated travel concierge & emergency support"
+    ],
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "title": "Arrival & City Orientation",
+        "desc": "Pickup from hotel/airport. Orientation drive through historic landmarks, visit local bazaars, and enjoy welcome dinner."
+      },
+      {
+        "day": "Day 2",
+        "title": "Monuments & Cultural Sightseeing",
+        "desc": "Full day guided exploration of major historical monuments, ancient forts, and museum archives with expert local guide."
+      },
+      {
+        "day": "Day 3",
+        "title": "Scenic Valleys & Local Artisans",
+        "desc": "Visit artisan workshops, local markets, and surrounding natural viewpoints. Evening food street dinner."
+      },
+      {
+        "day": "Day 4",
+        "title": "Final Excursions & Departure",
+        "desc": "Morning shopping and photography tour. Drop-off at airport or hotel with fond memories."
+      }
+    ],
+    "inclusions": [
+      "Private AC Transport (Car / Prado / Coaster) with driver & fuel",
+      "Official Tour Guide & Historian Services",
+      "All Toll Taxes, Parking & Highway Charges",
+      "Complimentary Mineral Water & Refreshments",
+      "Hotel Pickup & Drop-off Services"
+    ],
+    "exclusions": [
+      "Personal shopping & optional activities",
+      "Boating, water sports or chairlift tickets (unless specified)",
+      "Tips for guide & driver"
+    ],
+    "packages": [
+      {
+        "name": "Standard Package",
+        "price": "35,000",
+        "status": "available",
+        "features": [
+          "AC Coaster / Sedan Transport",
+          "Standard Hotel / Day Trip",
+          "Driver & Fuel Included"
+        ]
+      },
+      {
+        "name": "Deluxe Package",
+        "price": "47,250",
+        "status": "available",
+        "features": [
+          "AC Grand Cabin / Prado",
+          "Deluxe Hotel / Private Guide",
+          "Full Inclusions"
+        ]
+      },
+      {
+        "name": "Executive Package",
+        "price": "61,250",
+        "status": "available",
+        "features": [
+          "Luxury 4x4 Prado / SUV",
+          "Luxury 4-Star / 5-Star Hotel",
+          "VIP Concierge & Protocol"
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "q": "What is included in the tour pricing?",
+        "a": "Pricing includes private AC transport, professional driver, fuel, highway tolls, parking fees, and guide assistance."
+      },
+      {
+        "q": "Can this tour be customized?",
+        "a": "Yes! All tours can be customized for your exact pick-up location, time, and special itinerary preferences."
+      },
+      {
+        "q": "How do I book or confirm my reservation?",
+        "a": "You can book directly by clicking 'Book Now' or contacting our 24/7 WhatsApp concierge at +92 311 1145456."
+      }
+    ]
+  },
+  "north-56": {
+    "id": "north-56",
+    "title": "Basha Valley Tour Arandu",
+    "duration": "6 Days 5 Nights",
+    "location": "Pakistan",
+    "maxGroup": "Private & Group Options",
+    "difficulty": "Easy / Moderate",
+    "image": "images/north/item_56.jpg",
+    "price": "35,000",
+    "originalPrice": "40,250",
+    "departureDay": "Daily Private Departures & Fixed Group Departures",
+    "about": "Experience Basha Valley Tour Arandu with Safar Silsila. This curated itinerary offers a complete journey through iconic landmarks, rich local culture, breathtaking scenery, and legendary regional cuisine. Includes professional guide, luxury AC transport, full ticket entry logistics, and official visa support.",
+    "highlights": [
+      "Complete guided excursion for Basha Valley Tour Arandu",
+      "Private AC transport with driver, fuel, tolls & parking",
+      "Sightseeing at historical monuments, bazaars & viewpoints",
+      "Authentic regional food & tea tasting",
+      "24/7 dedicated travel concierge & emergency support"
+    ],
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "title": "Arrival & City Orientation",
+        "desc": "Pickup from hotel/airport. Orientation drive through historic landmarks, visit local bazaars, and enjoy welcome dinner."
+      },
+      {
+        "day": "Day 2",
+        "title": "Monuments & Cultural Sightseeing",
+        "desc": "Full day guided exploration of major historical monuments, ancient forts, and museum archives with expert local guide."
+      },
+      {
+        "day": "Day 3",
+        "title": "Scenic Valleys & Local Artisans",
+        "desc": "Visit artisan workshops, local markets, and surrounding natural viewpoints. Evening food street dinner."
+      },
+      {
+        "day": "Day 4",
+        "title": "Final Excursions & Departure",
+        "desc": "Morning shopping and photography tour. Drop-off at airport or hotel with fond memories."
+      }
+    ],
+    "inclusions": [
+      "Private AC Transport (Car / Prado / Coaster) with driver & fuel",
+      "Official Tour Guide & Historian Services",
+      "All Toll Taxes, Parking & Highway Charges",
+      "Complimentary Mineral Water & Refreshments",
+      "Hotel Pickup & Drop-off Services"
+    ],
+    "exclusions": [
+      "Personal shopping & optional activities",
+      "Boating, water sports or chairlift tickets (unless specified)",
+      "Tips for guide & driver"
+    ],
+    "packages": [
+      {
+        "name": "Standard Package",
+        "price": "35,000",
+        "status": "available",
+        "features": [
+          "AC Coaster / Sedan Transport",
+          "Standard Hotel / Day Trip",
+          "Driver & Fuel Included"
+        ]
+      },
+      {
+        "name": "Deluxe Package",
+        "price": "47,250",
+        "status": "available",
+        "features": [
+          "AC Grand Cabin / Prado",
+          "Deluxe Hotel / Private Guide",
+          "Full Inclusions"
+        ]
+      },
+      {
+        "name": "Executive Package",
+        "price": "61,250",
+        "status": "available",
+        "features": [
+          "Luxury 4x4 Prado / SUV",
+          "Luxury 4-Star / 5-Star Hotel",
+          "VIP Concierge & Protocol"
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "q": "What is included in the tour pricing?",
+        "a": "Pricing includes private AC transport, professional driver, fuel, highway tolls, parking fees, and guide assistance."
+      },
+      {
+        "q": "Can this tour be customized?",
+        "a": "Yes! All tours can be customized for your exact pick-up location, time, and special itinerary preferences."
+      },
+      {
+        "q": "How do I book or confirm my reservation?",
+        "a": "You can book directly by clicking 'Book Now' or contacting our 24/7 WhatsApp concierge at +92 311 1145456."
+      }
+    ]
+  },
+  "north-57": {
+    "id": "north-57",
+    "title": "Dir to Swat (Badgoi Pass)",
+    "duration": "5 DAYS 4 NIGHTS",
+    "location": "Pakistan",
+    "maxGroup": "Private & Group Options",
+    "difficulty": "Easy / Moderate",
+    "image": "images/north/item_57.jpg",
+    "price": "14,000",
+    "originalPrice": "16,100",
+    "departureDay": "Daily Private Departures & Fixed Group Departures",
+    "about": "Experience Dir to Swat (Badgoi Pass) with Safar Silsila. This curated itinerary offers a complete journey through iconic landmarks, rich local culture, breathtaking scenery, and legendary regional cuisine. Includes professional guide, luxury AC transport, full ticket entry logistics, and official visa support.",
+    "highlights": [
+      "Complete guided excursion for Dir to Swat (Badgoi Pass)",
+      "Private AC transport with driver, fuel, tolls & parking",
+      "Sightseeing at historical monuments, bazaars & viewpoints",
+      "Authentic regional food & tea tasting",
+      "24/7 dedicated travel concierge & emergency support"
+    ],
+    "itinerary": [
+      {
+        "day": "Morning",
+        "title": "Pickup & Departure",
+        "desc": "07:30 AM pickup from hotel/residence in private AC vehicle. Drive along scenic highway with morning refreshment stop."
+      },
+      {
+        "day": "Afternoon",
+        "title": "Guided Monument & Activity Exploration",
+        "desc": "Arrive at destination. Guided tour of key monuments, scenic viewpoints, water activities, and photography stops."
+      },
+      {
+        "day": "Evening",
+        "title": "Local Food Tasting & Return",
+        "desc": "Enjoy famous local street food feast & traditional chai. Return drive with drop-off at your hotel by 07:00 PM."
+      }
+    ],
+    "inclusions": [
+      "Private AC Transport (Car / Prado / Coaster) with driver & fuel",
+      "Official Tour Guide & Historian Services",
+      "All Toll Taxes, Parking & Highway Charges",
+      "Complimentary Mineral Water & Refreshments",
+      "Hotel Pickup & Drop-off Services"
+    ],
+    "exclusions": [
+      "Personal shopping & optional activities",
+      "Boating, water sports or chairlift tickets (unless specified)",
+      "Tips for guide & driver"
+    ],
+    "packages": [
+      {
+        "name": "Standard Package",
+        "price": "14,000",
+        "status": "available",
+        "features": [
+          "AC Coaster / Sedan Transport",
+          "Standard Hotel / Day Trip",
+          "Driver & Fuel Included"
+        ]
+      },
+      {
+        "name": "Deluxe Package",
+        "price": "18,900",
+        "status": "available",
+        "features": [
+          "AC Grand Cabin / Prado",
+          "Deluxe Hotel / Private Guide",
+          "Full Inclusions"
+        ]
+      },
+      {
+        "name": "Executive Package",
+        "price": "24,500",
+        "status": "available",
+        "features": [
+          "Luxury 4x4 Prado / SUV",
+          "Luxury 4-Star / 5-Star Hotel",
+          "VIP Concierge & Protocol"
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "q": "What is included in the tour pricing?",
+        "a": "Pricing includes private AC transport, professional driver, fuel, highway tolls, parking fees, and guide assistance."
+      },
+      {
+        "q": "Can this tour be customized?",
+        "a": "Yes! All tours can be customized for your exact pick-up location, time, and special itinerary preferences."
+      },
+      {
+        "q": "How do I book or confirm my reservation?",
+        "a": "You can book directly by clicking 'Book Now' or contacting our 24/7 WhatsApp concierge at +92 311 1145456."
+      }
+    ]
+  },
+  "north-58": {
+    "id": "north-58",
+    "title": "Shangla Valley Tour",
+    "duration": "4 Days 3 Nights",
+    "location": "Pakistan",
+    "maxGroup": "Private & Group Options",
+    "difficulty": "Easy / Moderate",
+    "image": "images/north/item_58.jpg",
+    "price": "35,000",
+    "originalPrice": "40,250",
+    "departureDay": "Daily Private Departures & Fixed Group Departures",
+    "about": "Experience Shangla Valley Tour with Safar Silsila. This curated itinerary offers a complete journey through iconic landmarks, rich local culture, breathtaking scenery, and legendary regional cuisine. Includes professional guide, luxury AC transport, full ticket entry logistics, and official visa support.",
+    "highlights": [
+      "Complete guided excursion for Shangla Valley Tour",
+      "Private AC transport with driver, fuel, tolls & parking",
+      "Sightseeing at historical monuments, bazaars & viewpoints",
+      "Authentic regional food & tea tasting",
+      "24/7 dedicated travel concierge & emergency support"
+    ],
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "title": "Arrival & City Orientation",
+        "desc": "Pickup from hotel/airport. Orientation drive through historic landmarks, visit local bazaars, and enjoy welcome dinner."
+      },
+      {
+        "day": "Day 2",
+        "title": "Monuments & Cultural Sightseeing",
+        "desc": "Full day guided exploration of major historical monuments, ancient forts, and museum archives with expert local guide."
+      },
+      {
+        "day": "Day 3",
+        "title": "Scenic Valleys & Local Artisans",
+        "desc": "Visit artisan workshops, local markets, and surrounding natural viewpoints. Evening food street dinner."
+      },
+      {
+        "day": "Day 4",
+        "title": "Final Excursions & Departure",
+        "desc": "Morning shopping and photography tour. Drop-off at airport or hotel with fond memories."
+      }
+    ],
+    "inclusions": [
+      "Private AC Transport (Car / Prado / Coaster) with driver & fuel",
+      "Official Tour Guide & Historian Services",
+      "All Toll Taxes, Parking & Highway Charges",
+      "Complimentary Mineral Water & Refreshments",
+      "Hotel Pickup & Drop-off Services"
+    ],
+    "exclusions": [
+      "Personal shopping & optional activities",
+      "Boating, water sports or chairlift tickets (unless specified)",
+      "Tips for guide & driver"
+    ],
+    "packages": [
+      {
+        "name": "Standard Package",
+        "price": "35,000",
+        "status": "available",
+        "features": [
+          "AC Coaster / Sedan Transport",
+          "Standard Hotel / Day Trip",
+          "Driver & Fuel Included"
+        ]
+      },
+      {
+        "name": "Deluxe Package",
+        "price": "47,250",
+        "status": "available",
+        "features": [
+          "AC Grand Cabin / Prado",
+          "Deluxe Hotel / Private Guide",
+          "Full Inclusions"
+        ]
+      },
+      {
+        "name": "Executive Package",
+        "price": "61,250",
+        "status": "available",
+        "features": [
+          "Luxury 4x4 Prado / SUV",
+          "Luxury 4-Star / 5-Star Hotel",
+          "VIP Concierge & Protocol"
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "q": "What is included in the tour pricing?",
+        "a": "Pricing includes private AC transport, professional driver, fuel, highway tolls, parking fees, and guide assistance."
+      },
+      {
+        "q": "Can this tour be customized?",
+        "a": "Yes! All tours can be customized for your exact pick-up location, time, and special itinerary preferences."
+      },
+      {
+        "q": "How do I book or confirm my reservation?",
+        "a": "You can book directly by clicking 'Book Now' or contacting our 24/7 WhatsApp concierge at +92 311 1145456."
+      }
+    ]
+  },
+  "north-59": {
+    "id": "north-59",
+    "title": "Swat Valley Tour: Malam Jabba, Miandam, Kalam & Mahodand – 06 Days",
+    "duration": "6 Days 5 Nights",
+    "location": "Pakistan",
+    "maxGroup": "Private & Group Options",
+    "difficulty": "Easy / Moderate",
+    "image": "images/north/item_59.jpg",
+    "price": "35,000",
+    "originalPrice": "40,250",
+    "departureDay": "Daily Private Departures & Fixed Group Departures",
+    "about": "Experience Swat Valley Tour: Malam Jabba, Miandam, Kalam & Mahodand – 06 Days with Safar Silsila. This curated itinerary offers a complete journey through iconic landmarks, rich local culture, breathtaking scenery, and legendary regional cuisine. Includes professional guide, luxury AC transport, full ticket entry logistics, and official visa support.",
+    "highlights": [
+      "Complete guided excursion for Swat Valley Tour: Malam Jabba, Miandam, Kalam & Mahodand – 06 Days",
+      "Private AC transport with driver, fuel, tolls & parking",
+      "Sightseeing at historical monuments, bazaars & viewpoints",
+      "Authentic regional food & tea tasting",
+      "24/7 dedicated travel concierge & emergency support"
+    ],
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "title": "Arrival & City Orientation",
+        "desc": "Pickup from hotel/airport. Orientation drive through historic landmarks, visit local bazaars, and enjoy welcome dinner."
+      },
+      {
+        "day": "Day 2",
+        "title": "Monuments & Cultural Sightseeing",
+        "desc": "Full day guided exploration of major historical monuments, ancient forts, and museum archives with expert local guide."
+      },
+      {
+        "day": "Day 3",
+        "title": "Scenic Valleys & Local Artisans",
+        "desc": "Visit artisan workshops, local markets, and surrounding natural viewpoints. Evening food street dinner."
+      },
+      {
+        "day": "Day 4",
+        "title": "Final Excursions & Departure",
+        "desc": "Morning shopping and photography tour. Drop-off at airport or hotel with fond memories."
+      }
+    ],
+    "inclusions": [
+      "Private AC Transport (Car / Prado / Coaster) with driver & fuel",
+      "Official Tour Guide & Historian Services",
+      "All Toll Taxes, Parking & Highway Charges",
+      "Complimentary Mineral Water & Refreshments",
+      "Hotel Pickup & Drop-off Services"
+    ],
+    "exclusions": [
+      "Personal shopping & optional activities",
+      "Boating, water sports or chairlift tickets (unless specified)",
+      "Tips for guide & driver"
+    ],
+    "packages": [
+      {
+        "name": "Standard Package",
+        "price": "35,000",
+        "status": "available",
+        "features": [
+          "AC Coaster / Sedan Transport",
+          "Standard Hotel / Day Trip",
+          "Driver & Fuel Included"
+        ]
+      },
+      {
+        "name": "Deluxe Package",
+        "price": "47,250",
+        "status": "available",
+        "features": [
+          "AC Grand Cabin / Prado",
+          "Deluxe Hotel / Private Guide",
+          "Full Inclusions"
+        ]
+      },
+      {
+        "name": "Executive Package",
+        "price": "61,250",
+        "status": "available",
+        "features": [
+          "Luxury 4x4 Prado / SUV",
+          "Luxury 4-Star / 5-Star Hotel",
+          "VIP Concierge & Protocol"
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "q": "What is included in the tour pricing?",
+        "a": "Pricing includes private AC transport, professional driver, fuel, highway tolls, parking fees, and guide assistance."
+      },
+      {
+        "q": "Can this tour be customized?",
+        "a": "Yes! All tours can be customized for your exact pick-up location, time, and special itinerary preferences."
+      },
+      {
+        "q": "How do I book or confirm my reservation?",
+        "a": "You can book directly by clicking 'Book Now' or contacting our 24/7 WhatsApp concierge at +92 311 1145456."
+      }
+    ]
+  },
+  "foreign-1": {
+    "id": "foreign-1",
+    "title": "Supat Valley Trek",
+    "duration": "4 Days 3 Nights",
+    "location": "Pakistan",
+    "maxGroup": "Private & Group Options",
+    "difficulty": "Easy / Moderate",
+    "image": "images/foreign/item_1.jpg",
+    "price": "35,000",
+    "originalPrice": "40,250",
+    "departureDay": "Daily Private Departures & Fixed Group Departures",
+    "about": "Experience Supat Valley Trek with Safar Silsila. This curated itinerary offers a complete journey through iconic landmarks, rich local culture, breathtaking scenery, and legendary regional cuisine. Includes professional guide, luxury AC transport, full ticket entry logistics, and official visa support.",
+    "highlights": [
+      "Complete guided excursion for Supat Valley Trek",
+      "Private AC transport with driver, fuel, tolls & parking",
+      "Sightseeing at historical monuments, bazaars & viewpoints",
+      "Authentic regional food & tea tasting",
+      "24/7 dedicated travel concierge & emergency support"
+    ],
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "title": "Arrival & City Orientation",
+        "desc": "Pickup from hotel/airport. Orientation drive through historic landmarks, visit local bazaars, and enjoy welcome dinner."
+      },
+      {
+        "day": "Day 2",
+        "title": "Monuments & Cultural Sightseeing",
+        "desc": "Full day guided exploration of major historical monuments, ancient forts, and museum archives with expert local guide."
+      },
+      {
+        "day": "Day 3",
+        "title": "Scenic Valleys & Local Artisans",
+        "desc": "Visit artisan workshops, local markets, and surrounding natural viewpoints. Evening food street dinner."
+      },
+      {
+        "day": "Day 4",
+        "title": "Final Excursions & Departure",
+        "desc": "Morning shopping and photography tour. Drop-off at airport or hotel with fond memories."
+      }
+    ],
+    "inclusions": [
+      "Private AC Transport (Car / Prado / Coaster) with driver & fuel",
+      "Official Tour Guide & Historian Services",
+      "All Toll Taxes, Parking & Highway Charges",
+      "Complimentary Mineral Water & Refreshments",
+      "Hotel Pickup & Drop-off Services"
+    ],
+    "exclusions": [
+      "Personal shopping & optional activities",
+      "Boating, water sports or chairlift tickets (unless specified)",
+      "Tips for guide & driver"
+    ],
+    "packages": [
+      {
+        "name": "Standard Package",
+        "price": "35,000",
+        "status": "available",
+        "features": [
+          "AC Coaster / Sedan Transport",
+          "Standard Hotel / Day Trip",
+          "Driver & Fuel Included"
+        ]
+      },
+      {
+        "name": "Deluxe Package",
+        "price": "47,250",
+        "status": "available",
+        "features": [
+          "AC Grand Cabin / Prado",
+          "Deluxe Hotel / Private Guide",
+          "Full Inclusions"
+        ]
+      },
+      {
+        "name": "Executive Package",
+        "price": "61,250",
+        "status": "available",
+        "features": [
+          "Luxury 4x4 Prado / SUV",
+          "Luxury 4-Star / 5-Star Hotel",
+          "VIP Concierge & Protocol"
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "q": "What is included in the tour pricing?",
+        "a": "Pricing includes private AC transport, professional driver, fuel, highway tolls, parking fees, and guide assistance."
+      },
+      {
+        "q": "Can this tour be customized?",
+        "a": "Yes! All tours can be customized for your exact pick-up location, time, and special itinerary preferences."
+      },
+      {
+        "q": "How do I book or confirm my reservation?",
+        "a": "You can book directly by clicking 'Book Now' or contacting our 24/7 WhatsApp concierge at +92 311 1145456."
+      }
+    ]
+  },
+  "foreign-2": {
+    "id": "foreign-2",
+    "title": "Khot An Pass Trek",
+    "duration": "10 Days 9 Nights",
+    "location": "Pakistan",
+    "maxGroup": "Private & Group Options",
+    "difficulty": "Easy / Moderate",
+    "image": "images/foreign/item_2.jpg",
+    "price": "35,000",
+    "originalPrice": "40,250",
+    "departureDay": "Daily Private Departures & Fixed Group Departures",
+    "about": "Experience Khot An Pass Trek with Safar Silsila. This curated itinerary offers a complete journey through iconic landmarks, rich local culture, breathtaking scenery, and legendary regional cuisine. Includes professional guide, luxury AC transport, full ticket entry logistics, and official visa support.",
+    "highlights": [
+      "Complete guided excursion for Khot An Pass Trek",
+      "Private AC transport with driver, fuel, tolls & parking",
+      "Sightseeing at historical monuments, bazaars & viewpoints",
+      "Authentic regional food & tea tasting",
+      "24/7 dedicated travel concierge & emergency support"
+    ],
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "title": "Arrival & City Orientation",
+        "desc": "Pickup from hotel/airport. Orientation drive through historic landmarks, visit local bazaars, and enjoy welcome dinner."
+      },
+      {
+        "day": "Day 2",
+        "title": "Monuments & Cultural Sightseeing",
+        "desc": "Full day guided exploration of major historical monuments, ancient forts, and museum archives with expert local guide."
+      },
+      {
+        "day": "Day 3",
+        "title": "Scenic Valleys & Local Artisans",
+        "desc": "Visit artisan workshops, local markets, and surrounding natural viewpoints. Evening food street dinner."
+      },
+      {
+        "day": "Day 4",
+        "title": "Final Excursions & Departure",
+        "desc": "Morning shopping and photography tour. Drop-off at airport or hotel with fond memories."
+      }
+    ],
+    "inclusions": [
+      "Private AC Transport (Car / Prado / Coaster) with driver & fuel",
+      "Official Tour Guide & Historian Services",
+      "All Toll Taxes, Parking & Highway Charges",
+      "Complimentary Mineral Water & Refreshments",
+      "Hotel Pickup & Drop-off Services"
+    ],
+    "exclusions": [
+      "Personal shopping & optional activities",
+      "Boating, water sports or chairlift tickets (unless specified)",
+      "Tips for guide & driver"
+    ],
+    "packages": [
+      {
+        "name": "Standard Package",
+        "price": "35,000",
+        "status": "available",
+        "features": [
+          "AC Coaster / Sedan Transport",
+          "Standard Hotel / Day Trip",
+          "Driver & Fuel Included"
+        ]
+      },
+      {
+        "name": "Deluxe Package",
+        "price": "47,250",
+        "status": "available",
+        "features": [
+          "AC Grand Cabin / Prado",
+          "Deluxe Hotel / Private Guide",
+          "Full Inclusions"
+        ]
+      },
+      {
+        "name": "Executive Package",
+        "price": "61,250",
+        "status": "available",
+        "features": [
+          "Luxury 4x4 Prado / SUV",
+          "Luxury 4-Star / 5-Star Hotel",
+          "VIP Concierge & Protocol"
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "q": "What is included in the tour pricing?",
+        "a": "Pricing includes private AC transport, professional driver, fuel, highway tolls, parking fees, and guide assistance."
+      },
+      {
+        "q": "Can this tour be customized?",
+        "a": "Yes! All tours can be customized for your exact pick-up location, time, and special itinerary preferences."
+      },
+      {
+        "q": "How do I book or confirm my reservation?",
+        "a": "You can book directly by clicking 'Book Now' or contacting our 24/7 WhatsApp concierge at +92 311 1145456."
+      }
+    ]
+  },
+  "foreign-3": {
+    "id": "foreign-3",
+    "title": "Nanga Parbat Rupal Face Trek",
+    "duration": "12 Days 11 Nights",
+    "location": "Pakistan",
+    "maxGroup": "Private & Group Options",
+    "difficulty": "Easy / Moderate",
+    "image": "images/foreign/item_3.jpg",
+    "price": "35,000",
+    "originalPrice": "40,250",
+    "departureDay": "Daily Private Departures & Fixed Group Departures",
+    "about": "Experience Nanga Parbat Rupal Face Trek with Safar Silsila. This curated itinerary offers a complete journey through iconic landmarks, rich local culture, breathtaking scenery, and legendary regional cuisine. Includes professional guide, luxury AC transport, full ticket entry logistics, and official visa support.",
+    "highlights": [
+      "Complete guided excursion for Nanga Parbat Rupal Face Trek",
+      "Private AC transport with driver, fuel, tolls & parking",
+      "Sightseeing at historical monuments, bazaars & viewpoints",
+      "Authentic regional food & tea tasting",
+      "24/7 dedicated travel concierge & emergency support"
+    ],
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "title": "Arrival & City Orientation",
+        "desc": "Pickup from hotel/airport. Orientation drive through historic landmarks, visit local bazaars, and enjoy welcome dinner."
+      },
+      {
+        "day": "Day 2",
+        "title": "Monuments & Cultural Sightseeing",
+        "desc": "Full day guided exploration of major historical monuments, ancient forts, and museum archives with expert local guide."
+      },
+      {
+        "day": "Day 3",
+        "title": "Scenic Valleys & Local Artisans",
+        "desc": "Visit artisan workshops, local markets, and surrounding natural viewpoints. Evening food street dinner."
+      },
+      {
+        "day": "Day 4",
+        "title": "Final Excursions & Departure",
+        "desc": "Morning shopping and photography tour. Drop-off at airport or hotel with fond memories."
+      }
+    ],
+    "inclusions": [
+      "Private AC Transport (Car / Prado / Coaster) with driver & fuel",
+      "Official Tour Guide & Historian Services",
+      "All Toll Taxes, Parking & Highway Charges",
+      "Complimentary Mineral Water & Refreshments",
+      "Hotel Pickup & Drop-off Services"
+    ],
+    "exclusions": [
+      "Personal shopping & optional activities",
+      "Boating, water sports or chairlift tickets (unless specified)",
+      "Tips for guide & driver"
+    ],
+    "packages": [
+      {
+        "name": "Standard Package",
+        "price": "35,000",
+        "status": "available",
+        "features": [
+          "AC Coaster / Sedan Transport",
+          "Standard Hotel / Day Trip",
+          "Driver & Fuel Included"
+        ]
+      },
+      {
+        "name": "Deluxe Package",
+        "price": "47,250",
+        "status": "available",
+        "features": [
+          "AC Grand Cabin / Prado",
+          "Deluxe Hotel / Private Guide",
+          "Full Inclusions"
+        ]
+      },
+      {
+        "name": "Executive Package",
+        "price": "61,250",
+        "status": "available",
+        "features": [
+          "Luxury 4x4 Prado / SUV",
+          "Luxury 4-Star / 5-Star Hotel",
+          "VIP Concierge & Protocol"
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "q": "What is included in the tour pricing?",
+        "a": "Pricing includes private AC transport, professional driver, fuel, highway tolls, parking fees, and guide assistance."
+      },
+      {
+        "q": "Can this tour be customized?",
+        "a": "Yes! All tours can be customized for your exact pick-up location, time, and special itinerary preferences."
+      },
+      {
+        "q": "How do I book or confirm my reservation?",
+        "a": "You can book directly by clicking 'Book Now' or contacting our 24/7 WhatsApp concierge at +92 311 1145456."
+      }
+    ]
+  },
+  "foreign-4": {
+    "id": "foreign-4",
+    "title": "Makuli Meadows Trek",
+    "duration": "8 Days 7 Nights",
+    "location": "Pakistan",
+    "maxGroup": "Private & Group Options",
+    "difficulty": "Easy / Moderate",
+    "image": "images/foreign/item_4.jpg",
+    "price": "35,000",
+    "originalPrice": "40,250",
+    "departureDay": "Daily Private Departures & Fixed Group Departures",
+    "about": "Experience Makuli Meadows Trek with Safar Silsila. This curated itinerary offers a complete journey through iconic landmarks, rich local culture, breathtaking scenery, and legendary regional cuisine. Includes professional guide, luxury AC transport, full ticket entry logistics, and official visa support.",
+    "highlights": [
+      "Complete guided excursion for Makuli Meadows Trek",
+      "Private AC transport with driver, fuel, tolls & parking",
+      "Sightseeing at historical monuments, bazaars & viewpoints",
+      "Authentic regional food & tea tasting",
+      "24/7 dedicated travel concierge & emergency support"
+    ],
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "title": "Arrival & City Orientation",
+        "desc": "Pickup from hotel/airport. Orientation drive through historic landmarks, visit local bazaars, and enjoy welcome dinner."
+      },
+      {
+        "day": "Day 2",
+        "title": "Monuments & Cultural Sightseeing",
+        "desc": "Full day guided exploration of major historical monuments, ancient forts, and museum archives with expert local guide."
+      },
+      {
+        "day": "Day 3",
+        "title": "Scenic Valleys & Local Artisans",
+        "desc": "Visit artisan workshops, local markets, and surrounding natural viewpoints. Evening food street dinner."
+      },
+      {
+        "day": "Day 4",
+        "title": "Final Excursions & Departure",
+        "desc": "Morning shopping and photography tour. Drop-off at airport or hotel with fond memories."
+      }
+    ],
+    "inclusions": [
+      "Private AC Transport (Car / Prado / Coaster) with driver & fuel",
+      "Official Tour Guide & Historian Services",
+      "All Toll Taxes, Parking & Highway Charges",
+      "Complimentary Mineral Water & Refreshments",
+      "Hotel Pickup & Drop-off Services"
+    ],
+    "exclusions": [
+      "Personal shopping & optional activities",
+      "Boating, water sports or chairlift tickets (unless specified)",
+      "Tips for guide & driver"
+    ],
+    "packages": [
+      {
+        "name": "Standard Package",
+        "price": "35,000",
+        "status": "available",
+        "features": [
+          "AC Coaster / Sedan Transport",
+          "Standard Hotel / Day Trip",
+          "Driver & Fuel Included"
+        ]
+      },
+      {
+        "name": "Deluxe Package",
+        "price": "47,250",
+        "status": "available",
+        "features": [
+          "AC Grand Cabin / Prado",
+          "Deluxe Hotel / Private Guide",
+          "Full Inclusions"
+        ]
+      },
+      {
+        "name": "Executive Package",
+        "price": "61,250",
+        "status": "available",
+        "features": [
+          "Luxury 4x4 Prado / SUV",
+          "Luxury 4-Star / 5-Star Hotel",
+          "VIP Concierge & Protocol"
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "q": "What is included in the tour pricing?",
+        "a": "Pricing includes private AC transport, professional driver, fuel, highway tolls, parking fees, and guide assistance."
+      },
+      {
+        "q": "Can this tour be customized?",
+        "a": "Yes! All tours can be customized for your exact pick-up location, time, and special itinerary preferences."
+      },
+      {
+        "q": "How do I book or confirm my reservation?",
+        "a": "You can book directly by clicking 'Book Now' or contacting our 24/7 WhatsApp concierge at +92 311 1145456."
+      }
+    ]
+  },
+  "foreign-5": {
+    "id": "foreign-5",
+    "title": "Neel Fairy Meadows Trek",
+    "duration": "3 Days 2 Nights",
+    "location": "Pakistan",
+    "maxGroup": "Private & Group Options",
+    "difficulty": "Easy / Moderate",
+    "image": "images/foreign/item_5.jpg",
+    "price": "35,000",
+    "originalPrice": "40,250",
+    "departureDay": "Daily Private Departures & Fixed Group Departures",
+    "about": "Experience Neel Fairy Meadows Trek with Safar Silsila. This curated itinerary offers a complete journey through iconic landmarks, rich local culture, breathtaking scenery, and legendary regional cuisine. Includes professional guide, luxury AC transport, full ticket entry logistics, and official visa support.",
+    "highlights": [
+      "Complete guided excursion for Neel Fairy Meadows Trek",
+      "Private AC transport with driver, fuel, tolls & parking",
+      "Sightseeing at historical monuments, bazaars & viewpoints",
+      "Authentic regional food & tea tasting",
+      "24/7 dedicated travel concierge & emergency support"
+    ],
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "title": "Arrival & City Orientation",
+        "desc": "Pickup from hotel/airport. Orientation drive through historic landmarks, visit local bazaars, and enjoy welcome dinner."
+      },
+      {
+        "day": "Day 2",
+        "title": "Monuments & Cultural Sightseeing",
+        "desc": "Full day guided exploration of major historical monuments, ancient forts, and museum archives with expert local guide."
+      },
+      {
+        "day": "Day 3",
+        "title": "Scenic Valleys & Local Artisans",
+        "desc": "Visit artisan workshops, local markets, and surrounding natural viewpoints. Evening food street dinner."
+      },
+      {
+        "day": "Day 4",
+        "title": "Final Excursions & Departure",
+        "desc": "Morning shopping and photography tour. Drop-off at airport or hotel with fond memories."
+      }
+    ],
+    "inclusions": [
+      "Private AC Transport (Car / Prado / Coaster) with driver & fuel",
+      "Official Tour Guide & Historian Services",
+      "All Toll Taxes, Parking & Highway Charges",
+      "Complimentary Mineral Water & Refreshments",
+      "Hotel Pickup & Drop-off Services"
+    ],
+    "exclusions": [
+      "Personal shopping & optional activities",
+      "Boating, water sports or chairlift tickets (unless specified)",
+      "Tips for guide & driver"
+    ],
+    "packages": [
+      {
+        "name": "Standard Package",
+        "price": "35,000",
+        "status": "available",
+        "features": [
+          "AC Coaster / Sedan Transport",
+          "Standard Hotel / Day Trip",
+          "Driver & Fuel Included"
+        ]
+      },
+      {
+        "name": "Deluxe Package",
+        "price": "47,250",
+        "status": "available",
+        "features": [
+          "AC Grand Cabin / Prado",
+          "Deluxe Hotel / Private Guide",
+          "Full Inclusions"
+        ]
+      },
+      {
+        "name": "Executive Package",
+        "price": "61,250",
+        "status": "available",
+        "features": [
+          "Luxury 4x4 Prado / SUV",
+          "Luxury 4-Star / 5-Star Hotel",
+          "VIP Concierge & Protocol"
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "q": "What is included in the tour pricing?",
+        "a": "Pricing includes private AC transport, professional driver, fuel, highway tolls, parking fees, and guide assistance."
+      },
+      {
+        "q": "Can this tour be customized?",
+        "a": "Yes! All tours can be customized for your exact pick-up location, time, and special itinerary preferences."
+      },
+      {
+        "q": "How do I book or confirm my reservation?",
+        "a": "You can book directly by clicking 'Book Now' or contacting our 24/7 WhatsApp concierge at +92 311 1145456."
+      }
+    ]
+  },
+  "foreign-6": {
+    "id": "foreign-6",
+    "title": "Sharan Forest Manshi Top Trek",
+    "duration": "2 Days 1 Night",
+    "location": "Pakistan",
+    "maxGroup": "Private & Group Options",
+    "difficulty": "Easy / Moderate",
+    "image": "images/foreign/item_6.jpg",
+    "price": "35,000",
+    "originalPrice": "40,250",
+    "departureDay": "Daily Private Departures & Fixed Group Departures",
+    "about": "Experience Sharan Forest Manshi Top Trek with Safar Silsila. This curated itinerary offers a complete journey through iconic landmarks, rich local culture, breathtaking scenery, and legendary regional cuisine. Includes professional guide, luxury AC transport, full ticket entry logistics, and official visa support.",
+    "highlights": [
+      "Complete guided excursion for Sharan Forest Manshi Top Trek",
+      "Private AC transport with driver, fuel, tolls & parking",
+      "Sightseeing at historical monuments, bazaars & viewpoints",
+      "Authentic regional food & tea tasting",
+      "24/7 dedicated travel concierge & emergency support"
+    ],
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "title": "Arrival & City Orientation",
+        "desc": "Pickup from hotel/airport. Orientation drive through historic landmarks, visit local bazaars, and enjoy welcome dinner."
+      },
+      {
+        "day": "Day 2",
+        "title": "Monuments & Cultural Sightseeing",
+        "desc": "Full day guided exploration of major historical monuments, ancient forts, and museum archives with expert local guide."
+      },
+      {
+        "day": "Day 3",
+        "title": "Scenic Valleys & Local Artisans",
+        "desc": "Visit artisan workshops, local markets, and surrounding natural viewpoints. Evening food street dinner."
+      },
+      {
+        "day": "Day 4",
+        "title": "Final Excursions & Departure",
+        "desc": "Morning shopping and photography tour. Drop-off at airport or hotel with fond memories."
+      }
+    ],
+    "inclusions": [
+      "Private AC Transport (Car / Prado / Coaster) with driver & fuel",
+      "Official Tour Guide & Historian Services",
+      "All Toll Taxes, Parking & Highway Charges",
+      "Complimentary Mineral Water & Refreshments",
+      "Hotel Pickup & Drop-off Services"
+    ],
+    "exclusions": [
+      "Personal shopping & optional activities",
+      "Boating, water sports or chairlift tickets (unless specified)",
+      "Tips for guide & driver"
+    ],
+    "packages": [
+      {
+        "name": "Standard Package",
+        "price": "35,000",
+        "status": "available",
+        "features": [
+          "AC Coaster / Sedan Transport",
+          "Standard Hotel / Day Trip",
+          "Driver & Fuel Included"
+        ]
+      },
+      {
+        "name": "Deluxe Package",
+        "price": "47,250",
+        "status": "available",
+        "features": [
+          "AC Grand Cabin / Prado",
+          "Deluxe Hotel / Private Guide",
+          "Full Inclusions"
+        ]
+      },
+      {
+        "name": "Executive Package",
+        "price": "61,250",
+        "status": "available",
+        "features": [
+          "Luxury 4x4 Prado / SUV",
+          "Luxury 4-Star / 5-Star Hotel",
+          "VIP Concierge & Protocol"
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "q": "What is included in the tour pricing?",
+        "a": "Pricing includes private AC transport, professional driver, fuel, highway tolls, parking fees, and guide assistance."
+      },
+      {
+        "q": "Can this tour be customized?",
+        "a": "Yes! All tours can be customized for your exact pick-up location, time, and special itinerary preferences."
+      },
+      {
+        "q": "How do I book or confirm my reservation?",
+        "a": "You can book directly by clicking 'Book Now' or contacting our 24/7 WhatsApp concierge at +92 311 1145456."
+      }
+    ]
+  },
+  "foreign-7": {
+    "id": "foreign-7",
+    "title": "Talkhumbo Lake Trek",
+    "duration": "8 Days 7 Nights",
+    "location": "Pakistan",
+    "maxGroup": "Private & Group Options",
+    "difficulty": "Easy / Moderate",
+    "image": "images/foreign/item_7.jpg",
+    "price": "35,000",
+    "originalPrice": "40,250",
+    "departureDay": "Daily Private Departures & Fixed Group Departures",
+    "about": "Experience Talkhumbo Lake Trek with Safar Silsila. This curated itinerary offers a complete journey through iconic landmarks, rich local culture, breathtaking scenery, and legendary regional cuisine. Includes professional guide, luxury AC transport, full ticket entry logistics, and official visa support.",
+    "highlights": [
+      "Complete guided excursion for Talkhumbo Lake Trek",
+      "Private AC transport with driver, fuel, tolls & parking",
+      "Sightseeing at historical monuments, bazaars & viewpoints",
+      "Authentic regional food & tea tasting",
+      "24/7 dedicated travel concierge & emergency support"
+    ],
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "title": "Arrival & City Orientation",
+        "desc": "Pickup from hotel/airport. Orientation drive through historic landmarks, visit local bazaars, and enjoy welcome dinner."
+      },
+      {
+        "day": "Day 2",
+        "title": "Monuments & Cultural Sightseeing",
+        "desc": "Full day guided exploration of major historical monuments, ancient forts, and museum archives with expert local guide."
+      },
+      {
+        "day": "Day 3",
+        "title": "Scenic Valleys & Local Artisans",
+        "desc": "Visit artisan workshops, local markets, and surrounding natural viewpoints. Evening food street dinner."
+      },
+      {
+        "day": "Day 4",
+        "title": "Final Excursions & Departure",
+        "desc": "Morning shopping and photography tour. Drop-off at airport or hotel with fond memories."
+      }
+    ],
+    "inclusions": [
+      "Private AC Transport (Car / Prado / Coaster) with driver & fuel",
+      "Official Tour Guide & Historian Services",
+      "All Toll Taxes, Parking & Highway Charges",
+      "Complimentary Mineral Water & Refreshments",
+      "Hotel Pickup & Drop-off Services"
+    ],
+    "exclusions": [
+      "Personal shopping & optional activities",
+      "Boating, water sports or chairlift tickets (unless specified)",
+      "Tips for guide & driver"
+    ],
+    "packages": [
+      {
+        "name": "Standard Package",
+        "price": "35,000",
+        "status": "available",
+        "features": [
+          "AC Coaster / Sedan Transport",
+          "Standard Hotel / Day Trip",
+          "Driver & Fuel Included"
+        ]
+      },
+      {
+        "name": "Deluxe Package",
+        "price": "47,250",
+        "status": "available",
+        "features": [
+          "AC Grand Cabin / Prado",
+          "Deluxe Hotel / Private Guide",
+          "Full Inclusions"
+        ]
+      },
+      {
+        "name": "Executive Package",
+        "price": "61,250",
+        "status": "available",
+        "features": [
+          "Luxury 4x4 Prado / SUV",
+          "Luxury 4-Star / 5-Star Hotel",
+          "VIP Concierge & Protocol"
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "q": "What is included in the tour pricing?",
+        "a": "Pricing includes private AC transport, professional driver, fuel, highway tolls, parking fees, and guide assistance."
+      },
+      {
+        "q": "Can this tour be customized?",
+        "a": "Yes! All tours can be customized for your exact pick-up location, time, and special itinerary preferences."
+      },
+      {
+        "q": "How do I book or confirm my reservation?",
+        "a": "You can book directly by clicking 'Book Now' or contacting our 24/7 WhatsApp concierge at +92 311 1145456."
+      }
+    ]
+  },
+  "foreign-8": {
+    "id": "foreign-8",
+    "title": "Mir Shikar Peak Expedition",
+    "duration": "15 Days 14 Nights",
+    "location": "Pakistan",
+    "maxGroup": "Private & Group Options",
+    "difficulty": "Easy / Moderate",
+    "image": "images/foreign/item_8.jpg",
+    "price": "35,000",
+    "originalPrice": "40,250",
+    "departureDay": "Daily Private Departures & Fixed Group Departures",
+    "about": "Experience Mir Shikar Peak Expedition with Safar Silsila. This curated itinerary offers a complete journey through iconic landmarks, rich local culture, breathtaking scenery, and legendary regional cuisine. Includes professional guide, luxury AC transport, full ticket entry logistics, and official visa support.",
+    "highlights": [
+      "Complete guided excursion for Mir Shikar Peak Expedition",
+      "Private AC transport with driver, fuel, tolls & parking",
+      "Sightseeing at historical monuments, bazaars & viewpoints",
+      "Authentic regional food & tea tasting",
+      "24/7 dedicated travel concierge & emergency support"
+    ],
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "title": "Arrival & City Orientation",
+        "desc": "Pickup from hotel/airport. Orientation drive through historic landmarks, visit local bazaars, and enjoy welcome dinner."
+      },
+      {
+        "day": "Day 2",
+        "title": "Monuments & Cultural Sightseeing",
+        "desc": "Full day guided exploration of major historical monuments, ancient forts, and museum archives with expert local guide."
+      },
+      {
+        "day": "Day 3",
+        "title": "Scenic Valleys & Local Artisans",
+        "desc": "Visit artisan workshops, local markets, and surrounding natural viewpoints. Evening food street dinner."
+      },
+      {
+        "day": "Day 4",
+        "title": "Final Excursions & Departure",
+        "desc": "Morning shopping and photography tour. Drop-off at airport or hotel with fond memories."
+      }
+    ],
+    "inclusions": [
+      "Private AC Transport (Car / Prado / Coaster) with driver & fuel",
+      "Official Tour Guide & Historian Services",
+      "All Toll Taxes, Parking & Highway Charges",
+      "Complimentary Mineral Water & Refreshments",
+      "Hotel Pickup & Drop-off Services"
+    ],
+    "exclusions": [
+      "Personal shopping & optional activities",
+      "Boating, water sports or chairlift tickets (unless specified)",
+      "Tips for guide & driver"
+    ],
+    "packages": [
+      {
+        "name": "Standard Package",
+        "price": "35,000",
+        "status": "available",
+        "features": [
+          "AC Coaster / Sedan Transport",
+          "Standard Hotel / Day Trip",
+          "Driver & Fuel Included"
+        ]
+      },
+      {
+        "name": "Deluxe Package",
+        "price": "47,250",
+        "status": "available",
+        "features": [
+          "AC Grand Cabin / Prado",
+          "Deluxe Hotel / Private Guide",
+          "Full Inclusions"
+        ]
+      },
+      {
+        "name": "Executive Package",
+        "price": "61,250",
+        "status": "available",
+        "features": [
+          "Luxury 4x4 Prado / SUV",
+          "Luxury 4-Star / 5-Star Hotel",
+          "VIP Concierge & Protocol"
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "q": "What is included in the tour pricing?",
+        "a": "Pricing includes private AC transport, professional driver, fuel, highway tolls, parking fees, and guide assistance."
+      },
+      {
+        "q": "Can this tour be customized?",
+        "a": "Yes! All tours can be customized for your exact pick-up location, time, and special itinerary preferences."
+      },
+      {
+        "q": "How do I book or confirm my reservation?",
+        "a": "You can book directly by clicking 'Book Now' or contacting our 24/7 WhatsApp concierge at +92 311 1145456."
+      }
+    ]
+  },
+  "foreign-9": {
+    "id": "foreign-9",
+    "title": "Rakhiot Peak Trek",
+    "duration": "8 Days 7 Nights",
+    "location": "Pakistan",
+    "maxGroup": "Private & Group Options",
+    "difficulty": "Easy / Moderate",
+    "image": "images/foreign/item_9.jpg",
+    "price": "35,000",
+    "originalPrice": "40,250",
+    "departureDay": "Daily Private Departures & Fixed Group Departures",
+    "about": "Experience Rakhiot Peak Trek with Safar Silsila. This curated itinerary offers a complete journey through iconic landmarks, rich local culture, breathtaking scenery, and legendary regional cuisine. Includes professional guide, luxury AC transport, full ticket entry logistics, and official visa support.",
+    "highlights": [
+      "Complete guided excursion for Rakhiot Peak Trek",
+      "Private AC transport with driver, fuel, tolls & parking",
+      "Sightseeing at historical monuments, bazaars & viewpoints",
+      "Authentic regional food & tea tasting",
+      "24/7 dedicated travel concierge & emergency support"
+    ],
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "title": "Arrival & City Orientation",
+        "desc": "Pickup from hotel/airport. Orientation drive through historic landmarks, visit local bazaars, and enjoy welcome dinner."
+      },
+      {
+        "day": "Day 2",
+        "title": "Monuments & Cultural Sightseeing",
+        "desc": "Full day guided exploration of major historical monuments, ancient forts, and museum archives with expert local guide."
+      },
+      {
+        "day": "Day 3",
+        "title": "Scenic Valleys & Local Artisans",
+        "desc": "Visit artisan workshops, local markets, and surrounding natural viewpoints. Evening food street dinner."
+      },
+      {
+        "day": "Day 4",
+        "title": "Final Excursions & Departure",
+        "desc": "Morning shopping and photography tour. Drop-off at airport or hotel with fond memories."
+      }
+    ],
+    "inclusions": [
+      "Private AC Transport (Car / Prado / Coaster) with driver & fuel",
+      "Official Tour Guide & Historian Services",
+      "All Toll Taxes, Parking & Highway Charges",
+      "Complimentary Mineral Water & Refreshments",
+      "Hotel Pickup & Drop-off Services"
+    ],
+    "exclusions": [
+      "Personal shopping & optional activities",
+      "Boating, water sports or chairlift tickets (unless specified)",
+      "Tips for guide & driver"
+    ],
+    "packages": [
+      {
+        "name": "Standard Package",
+        "price": "35,000",
+        "status": "available",
+        "features": [
+          "AC Coaster / Sedan Transport",
+          "Standard Hotel / Day Trip",
+          "Driver & Fuel Included"
+        ]
+      },
+      {
+        "name": "Deluxe Package",
+        "price": "47,250",
+        "status": "available",
+        "features": [
+          "AC Grand Cabin / Prado",
+          "Deluxe Hotel / Private Guide",
+          "Full Inclusions"
+        ]
+      },
+      {
+        "name": "Executive Package",
+        "price": "61,250",
+        "status": "available",
+        "features": [
+          "Luxury 4x4 Prado / SUV",
+          "Luxury 4-Star / 5-Star Hotel",
+          "VIP Concierge & Protocol"
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "q": "What is included in the tour pricing?",
+        "a": "Pricing includes private AC transport, professional driver, fuel, highway tolls, parking fees, and guide assistance."
+      },
+      {
+        "q": "Can this tour be customized?",
+        "a": "Yes! All tours can be customized for your exact pick-up location, time, and special itinerary preferences."
+      },
+      {
+        "q": "How do I book or confirm my reservation?",
+        "a": "You can book directly by clicking 'Book Now' or contacting our 24/7 WhatsApp concierge at +92 311 1145456."
+      }
+    ]
+  },
+  "foreign-10": {
+    "id": "foreign-10",
+    "title": "Mazeno Pass Trek – 22 Days",
+    "duration": "22 Days 21 Nights",
+    "location": "Pakistan",
+    "maxGroup": "Private & Group Options",
+    "difficulty": "Easy / Moderate",
+    "image": "images/foreign/item_10.jpg",
+    "price": "35,000",
+    "originalPrice": "40,250",
+    "departureDay": "Daily Private Departures & Fixed Group Departures",
+    "about": "Experience Mazeno Pass Trek – 22 Days with Safar Silsila. This curated itinerary offers a complete journey through iconic landmarks, rich local culture, breathtaking scenery, and legendary regional cuisine. Includes professional guide, luxury AC transport, full ticket entry logistics, and official visa support.",
+    "highlights": [
+      "Complete guided excursion for Mazeno Pass Trek – 22 Days",
+      "Private AC transport with driver, fuel, tolls & parking",
+      "Sightseeing at historical monuments, bazaars & viewpoints",
+      "Authentic regional food & tea tasting",
+      "24/7 dedicated travel concierge & emergency support"
+    ],
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "title": "Arrival & City Orientation",
+        "desc": "Pickup from hotel/airport. Orientation drive through historic landmarks, visit local bazaars, and enjoy welcome dinner."
+      },
+      {
+        "day": "Day 2",
+        "title": "Monuments & Cultural Sightseeing",
+        "desc": "Full day guided exploration of major historical monuments, ancient forts, and museum archives with expert local guide."
+      },
+      {
+        "day": "Day 3",
+        "title": "Scenic Valleys & Local Artisans",
+        "desc": "Visit artisan workshops, local markets, and surrounding natural viewpoints. Evening food street dinner."
+      },
+      {
+        "day": "Day 4",
+        "title": "Final Excursions & Departure",
+        "desc": "Morning shopping and photography tour. Drop-off at airport or hotel with fond memories."
+      }
+    ],
+    "inclusions": [
+      "Private AC Transport (Car / Prado / Coaster) with driver & fuel",
+      "Official Tour Guide & Historian Services",
+      "All Toll Taxes, Parking & Highway Charges",
+      "Complimentary Mineral Water & Refreshments",
+      "Hotel Pickup & Drop-off Services"
+    ],
+    "exclusions": [
+      "Personal shopping & optional activities",
+      "Boating, water sports or chairlift tickets (unless specified)",
+      "Tips for guide & driver"
+    ],
+    "packages": [
+      {
+        "name": "Standard Package",
+        "price": "35,000",
+        "status": "available",
+        "features": [
+          "AC Coaster / Sedan Transport",
+          "Standard Hotel / Day Trip",
+          "Driver & Fuel Included"
+        ]
+      },
+      {
+        "name": "Deluxe Package",
+        "price": "47,250",
+        "status": "available",
+        "features": [
+          "AC Grand Cabin / Prado",
+          "Deluxe Hotel / Private Guide",
+          "Full Inclusions"
+        ]
+      },
+      {
+        "name": "Executive Package",
+        "price": "61,250",
+        "status": "available",
+        "features": [
+          "Luxury 4x4 Prado / SUV",
+          "Luxury 4-Star / 5-Star Hotel",
+          "VIP Concierge & Protocol"
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "q": "What is included in the tour pricing?",
+        "a": "Pricing includes private AC transport, professional driver, fuel, highway tolls, parking fees, and guide assistance."
+      },
+      {
+        "q": "Can this tour be customized?",
+        "a": "Yes! All tours can be customized for your exact pick-up location, time, and special itinerary preferences."
+      },
+      {
+        "q": "How do I book or confirm my reservation?",
+        "a": "You can book directly by clicking 'Book Now' or contacting our 24/7 WhatsApp concierge at +92 311 1145456."
+      }
+    ]
+  },
+  "foreign-11": {
+    "id": "foreign-11",
+    "title": "Motorbike Tour to Hunza,Skardu & Fairy Meadows | Lahore | Islamabad (13 Days Trip)",
+    "duration": "13 Days 12 Nights",
+    "location": "Lahore, Punjab",
+    "maxGroup": "Private & Group Options",
+    "difficulty": "Easy / Moderate",
+    "image": "images/foreign/item_11.jpg",
+    "price": "35,000",
+    "originalPrice": "40,250",
+    "departureDay": "Daily Private Departures & Fixed Group Departures",
+    "about": "Experience Motorbike Tour to Hunza,Skardu & Fairy Meadows | Lahore | Islamabad (13 Days Trip) with Safar Silsila. This curated itinerary offers a complete journey through iconic landmarks, rich local culture, breathtaking scenery, and legendary regional cuisine. Includes professional guide, luxury AC transport, full ticket entry logistics, and official visa support.",
+    "highlights": [
+      "Complete guided excursion for Motorbike Tour to Hunza,Skardu & Fairy Meadows | Lahore | Islamabad (13 Days Trip)",
+      "Private AC transport with driver, fuel, tolls & parking",
+      "Sightseeing at historical monuments, bazaars & viewpoints",
+      "Authentic regional food & tea tasting",
+      "24/7 dedicated travel concierge & emergency support"
+    ],
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "title": "Arrival & City Orientation",
+        "desc": "Pickup from hotel/airport. Orientation drive through historic landmarks, visit local bazaars, and enjoy welcome dinner."
+      },
+      {
+        "day": "Day 2",
+        "title": "Monuments & Cultural Sightseeing",
+        "desc": "Full day guided exploration of major historical monuments, ancient forts, and museum archives with expert local guide."
+      },
+      {
+        "day": "Day 3",
+        "title": "Scenic Valleys & Local Artisans",
+        "desc": "Visit artisan workshops, local markets, and surrounding natural viewpoints. Evening food street dinner."
+      },
+      {
+        "day": "Day 4",
+        "title": "Final Excursions & Departure",
+        "desc": "Morning shopping and photography tour. Drop-off at airport or hotel with fond memories."
+      }
+    ],
+    "inclusions": [
+      "Private AC Transport (Car / Prado / Coaster) with driver & fuel",
+      "Official Tour Guide & Historian Services",
+      "All Toll Taxes, Parking & Highway Charges",
+      "Complimentary Mineral Water & Refreshments",
+      "Hotel Pickup & Drop-off Services"
+    ],
+    "exclusions": [
+      "Personal shopping & optional activities",
+      "Boating, water sports or chairlift tickets (unless specified)",
+      "Tips for guide & driver"
+    ],
+    "packages": [
+      {
+        "name": "Standard Package",
+        "price": "35,000",
+        "status": "available",
+        "features": [
+          "AC Coaster / Sedan Transport",
+          "Standard Hotel / Day Trip",
+          "Driver & Fuel Included"
+        ]
+      },
+      {
+        "name": "Deluxe Package",
+        "price": "47,250",
+        "status": "available",
+        "features": [
+          "AC Grand Cabin / Prado",
+          "Deluxe Hotel / Private Guide",
+          "Full Inclusions"
+        ]
+      },
+      {
+        "name": "Executive Package",
+        "price": "61,250",
+        "status": "available",
+        "features": [
+          "Luxury 4x4 Prado / SUV",
+          "Luxury 4-Star / 5-Star Hotel",
+          "VIP Concierge & Protocol"
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "q": "What is included in the tour pricing?",
+        "a": "Pricing includes private AC transport, professional driver, fuel, highway tolls, parking fees, and guide assistance."
+      },
+      {
+        "q": "Can this tour be customized?",
+        "a": "Yes! All tours can be customized for your exact pick-up location, time, and special itinerary preferences."
+      },
+      {
+        "q": "How do I book or confirm my reservation?",
+        "a": "You can book directly by clicking 'Book Now' or contacting our 24/7 WhatsApp concierge at +92 311 1145456."
+      }
+    ]
+  },
+  "foreign-12": {
+    "id": "foreign-12",
+    "title": "EXPLORE PAKISTAN: Hunza | Skardu | Islamabad (12 Days Trip | by Bike)",
+    "duration": "12 Days 10 Nights",
+    "location": "Skardu, Baltistan",
+    "maxGroup": "Private & Group Options",
+    "difficulty": "Easy / Moderate",
+    "image": "images/foreign/item_12.jpg",
+    "price": "35,000",
+    "originalPrice": "40,250",
+    "departureDay": "Daily Private Departures & Fixed Group Departures",
+    "about": "Experience EXPLORE PAKISTAN: Hunza | Skardu | Islamabad (12 Days Trip | by Bike) with Safar Silsila. This curated itinerary offers a complete journey through iconic landmarks, rich local culture, breathtaking scenery, and legendary regional cuisine. Includes professional guide, luxury AC transport, full ticket entry logistics, and official visa support.",
+    "highlights": [
+      "Complete guided excursion for EXPLORE PAKISTAN: Hunza | Skardu | Islamabad (12 Days Trip | by Bike)",
+      "Private AC transport with driver, fuel, tolls & parking",
+      "Sightseeing at historical monuments, bazaars & viewpoints",
+      "Authentic regional food & tea tasting",
+      "24/7 dedicated travel concierge & emergency support"
+    ],
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "title": "Arrival & City Orientation",
+        "desc": "Pickup from hotel/airport. Orientation drive through historic landmarks, visit local bazaars, and enjoy welcome dinner."
+      },
+      {
+        "day": "Day 2",
+        "title": "Monuments & Cultural Sightseeing",
+        "desc": "Full day guided exploration of major historical monuments, ancient forts, and museum archives with expert local guide."
+      },
+      {
+        "day": "Day 3",
+        "title": "Scenic Valleys & Local Artisans",
+        "desc": "Visit artisan workshops, local markets, and surrounding natural viewpoints. Evening food street dinner."
+      },
+      {
+        "day": "Day 4",
+        "title": "Final Excursions & Departure",
+        "desc": "Morning shopping and photography tour. Drop-off at airport or hotel with fond memories."
+      }
+    ],
+    "inclusions": [
+      "Private AC Transport (Car / Prado / Coaster) with driver & fuel",
+      "Official Tour Guide & Historian Services",
+      "All Toll Taxes, Parking & Highway Charges",
+      "Complimentary Mineral Water & Refreshments",
+      "Hotel Pickup & Drop-off Services"
+    ],
+    "exclusions": [
+      "Personal shopping & optional activities",
+      "Boating, water sports or chairlift tickets (unless specified)",
+      "Tips for guide & driver"
+    ],
+    "packages": [
+      {
+        "name": "Standard Package",
+        "price": "35,000",
+        "status": "available",
+        "features": [
+          "AC Coaster / Sedan Transport",
+          "Standard Hotel / Day Trip",
+          "Driver & Fuel Included"
+        ]
+      },
+      {
+        "name": "Deluxe Package",
+        "price": "47,250",
+        "status": "available",
+        "features": [
+          "AC Grand Cabin / Prado",
+          "Deluxe Hotel / Private Guide",
+          "Full Inclusions"
+        ]
+      },
+      {
+        "name": "Executive Package",
+        "price": "61,250",
+        "status": "available",
+        "features": [
+          "Luxury 4x4 Prado / SUV",
+          "Luxury 4-Star / 5-Star Hotel",
+          "VIP Concierge & Protocol"
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "q": "What is included in the tour pricing?",
+        "a": "Pricing includes private AC transport, professional driver, fuel, highway tolls, parking fees, and guide assistance."
+      },
+      {
+        "q": "Can this tour be customized?",
+        "a": "Yes! All tours can be customized for your exact pick-up location, time, and special itinerary preferences."
+      },
+      {
+        "q": "How do I book or confirm my reservation?",
+        "a": "You can book directly by clicking 'Book Now' or contacting our 24/7 WhatsApp concierge at +92 311 1145456."
+      }
+    ]
+  },
+  "foreign-13": {
+    "id": "foreign-13",
+    "title": "EXPLORE PAKISTAN: Kumrat | Phandar | Chitral (12 Days Trip: By Road)",
+    "duration": "12 Days 10 Nights",
+    "location": "Pakistan",
+    "maxGroup": "Private & Group Options",
+    "difficulty": "Easy / Moderate",
+    "image": "images/foreign/item_13.jpg",
+    "price": "35,000",
+    "originalPrice": "40,250",
+    "departureDay": "Daily Private Departures & Fixed Group Departures",
+    "about": "Experience EXPLORE PAKISTAN: Kumrat | Phandar | Chitral (12 Days Trip: By Road) with Safar Silsila. This curated itinerary offers a complete journey through iconic landmarks, rich local culture, breathtaking scenery, and legendary regional cuisine. Includes professional guide, luxury AC transport, full ticket entry logistics, and official visa support.",
+    "highlights": [
+      "Complete guided excursion for EXPLORE PAKISTAN: Kumrat | Phandar | Chitral (12 Days Trip: By Road)",
+      "Private AC transport with driver, fuel, tolls & parking",
+      "Sightseeing at historical monuments, bazaars & viewpoints",
+      "Authentic regional food & tea tasting",
+      "24/7 dedicated travel concierge & emergency support"
+    ],
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "title": "Arrival & City Orientation",
+        "desc": "Pickup from hotel/airport. Orientation drive through historic landmarks, visit local bazaars, and enjoy welcome dinner."
+      },
+      {
+        "day": "Day 2",
+        "title": "Monuments & Cultural Sightseeing",
+        "desc": "Full day guided exploration of major historical monuments, ancient forts, and museum archives with expert local guide."
+      },
+      {
+        "day": "Day 3",
+        "title": "Scenic Valleys & Local Artisans",
+        "desc": "Visit artisan workshops, local markets, and surrounding natural viewpoints. Evening food street dinner."
+      },
+      {
+        "day": "Day 4",
+        "title": "Final Excursions & Departure",
+        "desc": "Morning shopping and photography tour. Drop-off at airport or hotel with fond memories."
+      }
+    ],
+    "inclusions": [
+      "Private AC Transport (Car / Prado / Coaster) with driver & fuel",
+      "Official Tour Guide & Historian Services",
+      "All Toll Taxes, Parking & Highway Charges",
+      "Complimentary Mineral Water & Refreshments",
+      "Hotel Pickup & Drop-off Services"
+    ],
+    "exclusions": [
+      "Personal shopping & optional activities",
+      "Boating, water sports or chairlift tickets (unless specified)",
+      "Tips for guide & driver"
+    ],
+    "packages": [
+      {
+        "name": "Standard Package",
+        "price": "35,000",
+        "status": "available",
+        "features": [
+          "AC Coaster / Sedan Transport",
+          "Standard Hotel / Day Trip",
+          "Driver & Fuel Included"
+        ]
+      },
+      {
+        "name": "Deluxe Package",
+        "price": "47,250",
+        "status": "available",
+        "features": [
+          "AC Grand Cabin / Prado",
+          "Deluxe Hotel / Private Guide",
+          "Full Inclusions"
+        ]
+      },
+      {
+        "name": "Executive Package",
+        "price": "61,250",
+        "status": "available",
+        "features": [
+          "Luxury 4x4 Prado / SUV",
+          "Luxury 4-Star / 5-Star Hotel",
+          "VIP Concierge & Protocol"
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "q": "What is included in the tour pricing?",
+        "a": "Pricing includes private AC transport, professional driver, fuel, highway tolls, parking fees, and guide assistance."
+      },
+      {
+        "q": "Can this tour be customized?",
+        "a": "Yes! All tours can be customized for your exact pick-up location, time, and special itinerary preferences."
+      },
+      {
+        "q": "How do I book or confirm my reservation?",
+        "a": "You can book directly by clicking 'Book Now' or contacting our 24/7 WhatsApp concierge at +92 311 1145456."
+      }
+    ]
+  },
+  "foreign-14": {
+    "id": "foreign-14",
+    "title": "Explore Pakistan: Hunza | Skardu | Islamabad (12 Days Trip: By Road)",
+    "duration": "12 Days 10 Nights",
+    "location": "Skardu, Baltistan",
+    "maxGroup": "Private & Group Options",
+    "difficulty": "Easy / Moderate",
+    "image": "images/foreign/item_14.jpg",
+    "price": "35,000",
+    "originalPrice": "40,250",
+    "departureDay": "Daily Private Departures & Fixed Group Departures",
+    "about": "Experience Explore Pakistan: Hunza | Skardu | Islamabad (12 Days Trip: By Road) with Safar Silsila. This curated itinerary offers a complete journey through iconic landmarks, rich local culture, breathtaking scenery, and legendary regional cuisine. Includes professional guide, luxury AC transport, full ticket entry logistics, and official visa support.",
+    "highlights": [
+      "Complete guided excursion for Explore Pakistan: Hunza | Skardu | Islamabad (12 Days Trip: By Road)",
+      "Private AC transport with driver, fuel, tolls & parking",
+      "Sightseeing at historical monuments, bazaars & viewpoints",
+      "Authentic regional food & tea tasting",
+      "24/7 dedicated travel concierge & emergency support"
+    ],
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "title": "Arrival & City Orientation",
+        "desc": "Pickup from hotel/airport. Orientation drive through historic landmarks, visit local bazaars, and enjoy welcome dinner."
+      },
+      {
+        "day": "Day 2",
+        "title": "Monuments & Cultural Sightseeing",
+        "desc": "Full day guided exploration of major historical monuments, ancient forts, and museum archives with expert local guide."
+      },
+      {
+        "day": "Day 3",
+        "title": "Scenic Valleys & Local Artisans",
+        "desc": "Visit artisan workshops, local markets, and surrounding natural viewpoints. Evening food street dinner."
+      },
+      {
+        "day": "Day 4",
+        "title": "Final Excursions & Departure",
+        "desc": "Morning shopping and photography tour. Drop-off at airport or hotel with fond memories."
+      }
+    ],
+    "inclusions": [
+      "Private AC Transport (Car / Prado / Coaster) with driver & fuel",
+      "Official Tour Guide & Historian Services",
+      "All Toll Taxes, Parking & Highway Charges",
+      "Complimentary Mineral Water & Refreshments",
+      "Hotel Pickup & Drop-off Services"
+    ],
+    "exclusions": [
+      "Personal shopping & optional activities",
+      "Boating, water sports or chairlift tickets (unless specified)",
+      "Tips for guide & driver"
+    ],
+    "packages": [
+      {
+        "name": "Standard Package",
+        "price": "35,000",
+        "status": "available",
+        "features": [
+          "AC Coaster / Sedan Transport",
+          "Standard Hotel / Day Trip",
+          "Driver & Fuel Included"
+        ]
+      },
+      {
+        "name": "Deluxe Package",
+        "price": "47,250",
+        "status": "available",
+        "features": [
+          "AC Grand Cabin / Prado",
+          "Deluxe Hotel / Private Guide",
+          "Full Inclusions"
+        ]
+      },
+      {
+        "name": "Executive Package",
+        "price": "61,250",
+        "status": "available",
+        "features": [
+          "Luxury 4x4 Prado / SUV",
+          "Luxury 4-Star / 5-Star Hotel",
+          "VIP Concierge & Protocol"
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "q": "What is included in the tour pricing?",
+        "a": "Pricing includes private AC transport, professional driver, fuel, highway tolls, parking fees, and guide assistance."
+      },
+      {
+        "q": "Can this tour be customized?",
+        "a": "Yes! All tours can be customized for your exact pick-up location, time, and special itinerary preferences."
+      },
+      {
+        "q": "How do I book or confirm my reservation?",
+        "a": "You can book directly by clicking 'Book Now' or contacting our 24/7 WhatsApp concierge at +92 311 1145456."
+      }
+    ]
+  },
+  "foreign-15": {
+    "id": "foreign-15",
+    "title": "Discover Pakistan: Hunza | Skardu | Islamabad (12 Days Trip: By Air & By Road)",
+    "duration": "12 Days 10 Nights",
+    "location": "Skardu, Baltistan",
+    "maxGroup": "Private & Group Options",
+    "difficulty": "Easy / Moderate",
+    "image": "images/foreign/item_15.jpg",
+    "price": "35,000",
+    "originalPrice": "40,250",
+    "departureDay": "Daily Private Departures & Fixed Group Departures",
+    "about": "Experience Discover Pakistan: Hunza | Skardu | Islamabad (12 Days Trip: By Air & By Road) with Safar Silsila. This curated itinerary offers a complete journey through iconic landmarks, rich local culture, breathtaking scenery, and legendary regional cuisine. Includes professional guide, luxury AC transport, full ticket entry logistics, and official visa support.",
+    "highlights": [
+      "Complete guided excursion for Discover Pakistan: Hunza | Skardu | Islamabad (12 Days Trip: By Air & By Road)",
+      "Private AC transport with driver, fuel, tolls & parking",
+      "Sightseeing at historical monuments, bazaars & viewpoints",
+      "Authentic regional food & tea tasting",
+      "24/7 dedicated travel concierge & emergency support"
+    ],
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "title": "Arrival & City Orientation",
+        "desc": "Pickup from hotel/airport. Orientation drive through historic landmarks, visit local bazaars, and enjoy welcome dinner."
+      },
+      {
+        "day": "Day 2",
+        "title": "Monuments & Cultural Sightseeing",
+        "desc": "Full day guided exploration of major historical monuments, ancient forts, and museum archives with expert local guide."
+      },
+      {
+        "day": "Day 3",
+        "title": "Scenic Valleys & Local Artisans",
+        "desc": "Visit artisan workshops, local markets, and surrounding natural viewpoints. Evening food street dinner."
+      },
+      {
+        "day": "Day 4",
+        "title": "Final Excursions & Departure",
+        "desc": "Morning shopping and photography tour. Drop-off at airport or hotel with fond memories."
+      }
+    ],
+    "inclusions": [
+      "Private AC Transport (Car / Prado / Coaster) with driver & fuel",
+      "Official Tour Guide & Historian Services",
+      "All Toll Taxes, Parking & Highway Charges",
+      "Complimentary Mineral Water & Refreshments",
+      "Hotel Pickup & Drop-off Services"
+    ],
+    "exclusions": [
+      "Personal shopping & optional activities",
+      "Boating, water sports or chairlift tickets (unless specified)",
+      "Tips for guide & driver"
+    ],
+    "packages": [
+      {
+        "name": "Standard Package",
+        "price": "35,000",
+        "status": "available",
+        "features": [
+          "AC Coaster / Sedan Transport",
+          "Standard Hotel / Day Trip",
+          "Driver & Fuel Included"
+        ]
+      },
+      {
+        "name": "Deluxe Package",
+        "price": "47,250",
+        "status": "available",
+        "features": [
+          "AC Grand Cabin / Prado",
+          "Deluxe Hotel / Private Guide",
+          "Full Inclusions"
+        ]
+      },
+      {
+        "name": "Executive Package",
+        "price": "61,250",
+        "status": "available",
+        "features": [
+          "Luxury 4x4 Prado / SUV",
+          "Luxury 4-Star / 5-Star Hotel",
+          "VIP Concierge & Protocol"
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "q": "What is included in the tour pricing?",
+        "a": "Pricing includes private AC transport, professional driver, fuel, highway tolls, parking fees, and guide assistance."
+      },
+      {
+        "q": "Can this tour be customized?",
+        "a": "Yes! All tours can be customized for your exact pick-up location, time, and special itinerary preferences."
+      },
+      {
+        "q": "How do I book or confirm my reservation?",
+        "a": "You can book directly by clicking 'Book Now' or contacting our 24/7 WhatsApp concierge at +92 311 1145456."
+      }
+    ]
+  },
+  "foreign-16": {
+    "id": "foreign-16",
+    "title": "Discover Pakistan: Hunza | Skardu | Islamabad (12 Days Trip)",
+    "duration": "12 Days 10 Nights",
+    "location": "Skardu, Baltistan",
+    "maxGroup": "Private & Group Options",
+    "difficulty": "Easy / Moderate",
+    "image": "images/foreign/item_16.jpg",
+    "price": "35,000",
+    "originalPrice": "40,250",
+    "departureDay": "Daily Private Departures & Fixed Group Departures",
+    "about": "Experience Discover Pakistan: Hunza | Skardu | Islamabad (12 Days Trip) with Safar Silsila. This curated itinerary offers a complete journey through iconic landmarks, rich local culture, breathtaking scenery, and legendary regional cuisine. Includes professional guide, luxury AC transport, full ticket entry logistics, and official visa support.",
+    "highlights": [
+      "Complete guided excursion for Discover Pakistan: Hunza | Skardu | Islamabad (12 Days Trip)",
+      "Private AC transport with driver, fuel, tolls & parking",
+      "Sightseeing at historical monuments, bazaars & viewpoints",
+      "Authentic regional food & tea tasting",
+      "24/7 dedicated travel concierge & emergency support"
+    ],
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "title": "Arrival & City Orientation",
+        "desc": "Pickup from hotel/airport. Orientation drive through historic landmarks, visit local bazaars, and enjoy welcome dinner."
+      },
+      {
+        "day": "Day 2",
+        "title": "Monuments & Cultural Sightseeing",
+        "desc": "Full day guided exploration of major historical monuments, ancient forts, and museum archives with expert local guide."
+      },
+      {
+        "day": "Day 3",
+        "title": "Scenic Valleys & Local Artisans",
+        "desc": "Visit artisan workshops, local markets, and surrounding natural viewpoints. Evening food street dinner."
+      },
+      {
+        "day": "Day 4",
+        "title": "Final Excursions & Departure",
+        "desc": "Morning shopping and photography tour. Drop-off at airport or hotel with fond memories."
+      }
+    ],
+    "inclusions": [
+      "Private AC Transport (Car / Prado / Coaster) with driver & fuel",
+      "Official Tour Guide & Historian Services",
+      "All Toll Taxes, Parking & Highway Charges",
+      "Complimentary Mineral Water & Refreshments",
+      "Hotel Pickup & Drop-off Services"
+    ],
+    "exclusions": [
+      "Personal shopping & optional activities",
+      "Boating, water sports or chairlift tickets (unless specified)",
+      "Tips for guide & driver"
+    ],
+    "packages": [
+      {
+        "name": "Standard Package",
+        "price": "35,000",
+        "status": "available",
+        "features": [
+          "AC Coaster / Sedan Transport",
+          "Standard Hotel / Day Trip",
+          "Driver & Fuel Included"
+        ]
+      },
+      {
+        "name": "Deluxe Package",
+        "price": "47,250",
+        "status": "available",
+        "features": [
+          "AC Grand Cabin / Prado",
+          "Deluxe Hotel / Private Guide",
+          "Full Inclusions"
+        ]
+      },
+      {
+        "name": "Executive Package",
+        "price": "61,250",
+        "status": "available",
+        "features": [
+          "Luxury 4x4 Prado / SUV",
+          "Luxury 4-Star / 5-Star Hotel",
+          "VIP Concierge & Protocol"
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "q": "What is included in the tour pricing?",
+        "a": "Pricing includes private AC transport, professional driver, fuel, highway tolls, parking fees, and guide assistance."
+      },
+      {
+        "q": "Can this tour be customized?",
+        "a": "Yes! All tours can be customized for your exact pick-up location, time, and special itinerary preferences."
+      },
+      {
+        "q": "How do I book or confirm my reservation?",
+        "a": "You can book directly by clicking 'Book Now' or contacting our 24/7 WhatsApp concierge at +92 311 1145456."
+      }
+    ]
+  },
+  "foreign-17": {
+    "id": "foreign-17",
+    "title": "Discover Pakistan: Hunza | Skardu | Lahore | Islamabad (8 Days Trip)",
+    "duration": "8 Days 7 Nights",
+    "location": "Lahore, Punjab",
+    "maxGroup": "Private & Group Options",
+    "difficulty": "Easy / Moderate",
+    "image": "images/foreign/item_17.jpg",
+    "price": "35,000",
+    "originalPrice": "40,250",
+    "departureDay": "Daily Private Departures & Fixed Group Departures",
+    "about": "Experience Discover Pakistan: Hunza | Skardu | Lahore | Islamabad (8 Days Trip) with Safar Silsila. This curated itinerary offers a complete journey through iconic landmarks, rich local culture, breathtaking scenery, and legendary regional cuisine. Includes professional guide, luxury AC transport, full ticket entry logistics, and official visa support.",
+    "highlights": [
+      "Complete guided excursion for Discover Pakistan: Hunza | Skardu | Lahore | Islamabad (8 Days Trip)",
+      "Private AC transport with driver, fuel, tolls & parking",
+      "Sightseeing at historical monuments, bazaars & viewpoints",
+      "Authentic regional food & tea tasting",
+      "24/7 dedicated travel concierge & emergency support"
+    ],
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "title": "Arrival & City Orientation",
+        "desc": "Pickup from hotel/airport. Orientation drive through historic landmarks, visit local bazaars, and enjoy welcome dinner."
+      },
+      {
+        "day": "Day 2",
+        "title": "Monuments & Cultural Sightseeing",
+        "desc": "Full day guided exploration of major historical monuments, ancient forts, and museum archives with expert local guide."
+      },
+      {
+        "day": "Day 3",
+        "title": "Scenic Valleys & Local Artisans",
+        "desc": "Visit artisan workshops, local markets, and surrounding natural viewpoints. Evening food street dinner."
+      },
+      {
+        "day": "Day 4",
+        "title": "Final Excursions & Departure",
+        "desc": "Morning shopping and photography tour. Drop-off at airport or hotel with fond memories."
+      }
+    ],
+    "inclusions": [
+      "Private AC Transport (Car / Prado / Coaster) with driver & fuel",
+      "Official Tour Guide & Historian Services",
+      "All Toll Taxes, Parking & Highway Charges",
+      "Complimentary Mineral Water & Refreshments",
+      "Hotel Pickup & Drop-off Services"
+    ],
+    "exclusions": [
+      "Personal shopping & optional activities",
+      "Boating, water sports or chairlift tickets (unless specified)",
+      "Tips for guide & driver"
+    ],
+    "packages": [
+      {
+        "name": "Standard Package",
+        "price": "35,000",
+        "status": "available",
+        "features": [
+          "AC Coaster / Sedan Transport",
+          "Standard Hotel / Day Trip",
+          "Driver & Fuel Included"
+        ]
+      },
+      {
+        "name": "Deluxe Package",
+        "price": "47,250",
+        "status": "available",
+        "features": [
+          "AC Grand Cabin / Prado",
+          "Deluxe Hotel / Private Guide",
+          "Full Inclusions"
+        ]
+      },
+      {
+        "name": "Executive Package",
+        "price": "61,250",
+        "status": "available",
+        "features": [
+          "Luxury 4x4 Prado / SUV",
+          "Luxury 4-Star / 5-Star Hotel",
+          "VIP Concierge & Protocol"
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "q": "What is included in the tour pricing?",
+        "a": "Pricing includes private AC transport, professional driver, fuel, highway tolls, parking fees, and guide assistance."
+      },
+      {
+        "q": "Can this tour be customized?",
+        "a": "Yes! All tours can be customized for your exact pick-up location, time, and special itinerary preferences."
+      },
+      {
+        "q": "How do I book or confirm my reservation?",
+        "a": "You can book directly by clicking 'Book Now' or contacting our 24/7 WhatsApp concierge at +92 311 1145456."
+      }
+    ]
+  },
+  "foreign-18": {
+    "id": "foreign-18",
+    "title": "Islamabad Tour – 04 Days",
+    "duration": "4 Day 3 Night",
+    "location": "Pakistan",
+    "maxGroup": "Private & Group Options",
+    "difficulty": "Easy / Moderate",
+    "image": "images/foreign/item_18.webp",
+    "price": "14,000",
+    "originalPrice": "16,100",
+    "departureDay": "Daily Private Departures & Fixed Group Departures",
+    "about": "Experience Islamabad Tour – 04 Days with Safar Silsila. This curated itinerary offers a complete journey through iconic landmarks, rich local culture, breathtaking scenery, and legendary regional cuisine. Includes professional guide, luxury AC transport, full ticket entry logistics, and official visa support.",
+    "highlights": [
+      "Complete guided excursion for Islamabad Tour – 04 Days",
+      "Private AC transport with driver, fuel, tolls & parking",
+      "Sightseeing at historical monuments, bazaars & viewpoints",
+      "Authentic regional food & tea tasting",
+      "24/7 dedicated travel concierge & emergency support"
+    ],
+    "itinerary": [
+      {
+        "day": "Morning",
+        "title": "Pickup & Departure",
+        "desc": "07:30 AM pickup from hotel/residence in private AC vehicle. Drive along scenic highway with morning refreshment stop."
+      },
+      {
+        "day": "Afternoon",
+        "title": "Guided Monument & Activity Exploration",
+        "desc": "Arrive at destination. Guided tour of key monuments, scenic viewpoints, water activities, and photography stops."
+      },
+      {
+        "day": "Evening",
+        "title": "Local Food Tasting & Return",
+        "desc": "Enjoy famous local street food feast & traditional chai. Return drive with drop-off at your hotel by 07:00 PM."
+      }
+    ],
+    "inclusions": [
+      "Private AC Transport (Car / Prado / Coaster) with driver & fuel",
+      "Official Tour Guide & Historian Services",
+      "All Toll Taxes, Parking & Highway Charges",
+      "Complimentary Mineral Water & Refreshments",
+      "Hotel Pickup & Drop-off Services"
+    ],
+    "exclusions": [
+      "Personal shopping & optional activities",
+      "Boating, water sports or chairlift tickets (unless specified)",
+      "Tips for guide & driver"
+    ],
+    "packages": [
+      {
+        "name": "Standard Package",
+        "price": "14,000",
+        "status": "available",
+        "features": [
+          "AC Coaster / Sedan Transport",
+          "Standard Hotel / Day Trip",
+          "Driver & Fuel Included"
+        ]
+      },
+      {
+        "name": "Deluxe Package",
+        "price": "18,900",
+        "status": "available",
+        "features": [
+          "AC Grand Cabin / Prado",
+          "Deluxe Hotel / Private Guide",
+          "Full Inclusions"
+        ]
+      },
+      {
+        "name": "Executive Package",
+        "price": "24,500",
+        "status": "available",
+        "features": [
+          "Luxury 4x4 Prado / SUV",
+          "Luxury 4-Star / 5-Star Hotel",
+          "VIP Concierge & Protocol"
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "q": "What is included in the tour pricing?",
+        "a": "Pricing includes private AC transport, professional driver, fuel, highway tolls, parking fees, and guide assistance."
+      },
+      {
+        "q": "Can this tour be customized?",
+        "a": "Yes! All tours can be customized for your exact pick-up location, time, and special itinerary preferences."
+      },
+      {
+        "q": "How do I book or confirm my reservation?",
+        "a": "You can book directly by clicking 'Book Now' or contacting our 24/7 WhatsApp concierge at +92 311 1145456."
+      }
+    ]
+  },
+  "foreign-19": {
+    "id": "foreign-19",
+    "title": "Ayubia & Nathia Gali Tour (Day Trip from Islamabad) – 01 Day",
+    "duration": "1 Day",
+    "location": "Pakistan",
+    "maxGroup": "Private & Group Options",
+    "difficulty": "Easy / Moderate",
+    "image": "images/foreign/item_19.webp",
+    "price": "14,000",
+    "originalPrice": "16,100",
+    "departureDay": "Daily Private Departures & Fixed Group Departures",
+    "about": "Experience Ayubia & Nathia Gali Tour (Day Trip from Islamabad) – 01 Day with Safar Silsila. This curated itinerary offers a complete journey through iconic landmarks, rich local culture, breathtaking scenery, and legendary regional cuisine. Includes professional guide, luxury AC transport, full ticket entry logistics, and official visa support.",
+    "highlights": [
+      "Complete guided excursion for Ayubia & Nathia Gali Tour (Day Trip from Islamabad) – 01 Day",
+      "Private AC transport with driver, fuel, tolls & parking",
+      "Sightseeing at historical monuments, bazaars & viewpoints",
+      "Authentic regional food & tea tasting",
+      "24/7 dedicated travel concierge & emergency support"
+    ],
+    "itinerary": [
+      {
+        "day": "Morning",
+        "title": "Pickup & Departure",
+        "desc": "07:30 AM pickup from hotel/residence in private AC vehicle. Drive along scenic highway with morning refreshment stop."
+      },
+      {
+        "day": "Afternoon",
+        "title": "Guided Monument & Activity Exploration",
+        "desc": "Arrive at destination. Guided tour of key monuments, scenic viewpoints, water activities, and photography stops."
+      },
+      {
+        "day": "Evening",
+        "title": "Local Food Tasting & Return",
+        "desc": "Enjoy famous local street food feast & traditional chai. Return drive with drop-off at your hotel by 07:00 PM."
+      }
+    ],
+    "inclusions": [
+      "Private AC Transport (Car / Prado / Coaster) with driver & fuel",
+      "Official Tour Guide & Historian Services",
+      "All Toll Taxes, Parking & Highway Charges",
+      "Complimentary Mineral Water & Refreshments",
+      "Hotel Pickup & Drop-off Services"
+    ],
+    "exclusions": [
+      "Personal shopping & optional activities",
+      "Boating, water sports or chairlift tickets (unless specified)",
+      "Tips for guide & driver"
+    ],
+    "packages": [
+      {
+        "name": "Standard Package",
+        "price": "14,000",
+        "status": "available",
+        "features": [
+          "AC Coaster / Sedan Transport",
+          "Standard Hotel / Day Trip",
+          "Driver & Fuel Included"
+        ]
+      },
+      {
+        "name": "Deluxe Package",
+        "price": "18,900",
+        "status": "available",
+        "features": [
+          "AC Grand Cabin / Prado",
+          "Deluxe Hotel / Private Guide",
+          "Full Inclusions"
+        ]
+      },
+      {
+        "name": "Executive Package",
+        "price": "24,500",
+        "status": "available",
+        "features": [
+          "Luxury 4x4 Prado / SUV",
+          "Luxury 4-Star / 5-Star Hotel",
+          "VIP Concierge & Protocol"
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "q": "What is included in the tour pricing?",
+        "a": "Pricing includes private AC transport, professional driver, fuel, highway tolls, parking fees, and guide assistance."
+      },
+      {
+        "q": "Can this tour be customized?",
+        "a": "Yes! All tours can be customized for your exact pick-up location, time, and special itinerary preferences."
+      },
+      {
+        "q": "How do I book or confirm my reservation?",
+        "a": "You can book directly by clicking 'Book Now' or contacting our 24/7 WhatsApp concierge at +92 311 1145456."
+      }
+    ]
+  },
+  "foreign-20": {
+    "id": "foreign-20",
+    "title": "Full-Day Private Guided Tour of Taxila Gandhara Civilization – 01 Day",
+    "duration": "1 Day",
+    "location": "Pakistan",
+    "maxGroup": "Private & Group Options",
+    "difficulty": "Easy / Moderate",
+    "image": "images/foreign/item_20.webp",
+    "price": "14,000",
+    "originalPrice": "16,100",
+    "departureDay": "Daily Private Departures & Fixed Group Departures",
+    "about": "Experience Full-Day Private Guided Tour of Taxila Gandhara Civilization – 01 Day with Safar Silsila. This curated itinerary offers a complete journey through iconic landmarks, rich local culture, breathtaking scenery, and legendary regional cuisine. Includes professional guide, luxury AC transport, full ticket entry logistics, and official visa support.",
+    "highlights": [
+      "Complete guided excursion for Full-Day Private Guided Tour of Taxila Gandhara Civilization – 01 Day",
+      "Private AC transport with driver, fuel, tolls & parking",
+      "Sightseeing at historical monuments, bazaars & viewpoints",
+      "Authentic regional food & tea tasting",
+      "24/7 dedicated travel concierge & emergency support"
+    ],
+    "itinerary": [
+      {
+        "day": "Morning",
+        "title": "Pickup & Departure",
+        "desc": "07:30 AM pickup from hotel/residence in private AC vehicle. Drive along scenic highway with morning refreshment stop."
+      },
+      {
+        "day": "Afternoon",
+        "title": "Guided Monument & Activity Exploration",
+        "desc": "Arrive at destination. Guided tour of key monuments, scenic viewpoints, water activities, and photography stops."
+      },
+      {
+        "day": "Evening",
+        "title": "Local Food Tasting & Return",
+        "desc": "Enjoy famous local street food feast & traditional chai. Return drive with drop-off at your hotel by 07:00 PM."
+      }
+    ],
+    "inclusions": [
+      "Private AC Transport (Car / Prado / Coaster) with driver & fuel",
+      "Official Tour Guide & Historian Services",
+      "All Toll Taxes, Parking & Highway Charges",
+      "Complimentary Mineral Water & Refreshments",
+      "Hotel Pickup & Drop-off Services"
+    ],
+    "exclusions": [
+      "Personal shopping & optional activities",
+      "Boating, water sports or chairlift tickets (unless specified)",
+      "Tips for guide & driver"
+    ],
+    "packages": [
+      {
+        "name": "Standard Package",
+        "price": "14,000",
+        "status": "available",
+        "features": [
+          "AC Coaster / Sedan Transport",
+          "Standard Hotel / Day Trip",
+          "Driver & Fuel Included"
+        ]
+      },
+      {
+        "name": "Deluxe Package",
+        "price": "18,900",
+        "status": "available",
+        "features": [
+          "AC Grand Cabin / Prado",
+          "Deluxe Hotel / Private Guide",
+          "Full Inclusions"
+        ]
+      },
+      {
+        "name": "Executive Package",
+        "price": "24,500",
+        "status": "available",
+        "features": [
+          "Luxury 4x4 Prado / SUV",
+          "Luxury 4-Star / 5-Star Hotel",
+          "VIP Concierge & Protocol"
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "q": "What is included in the tour pricing?",
+        "a": "Pricing includes private AC transport, professional driver, fuel, highway tolls, parking fees, and guide assistance."
+      },
+      {
+        "q": "Can this tour be customized?",
+        "a": "Yes! All tours can be customized for your exact pick-up location, time, and special itinerary preferences."
+      },
+      {
+        "q": "How do I book or confirm my reservation?",
+        "a": "You can book directly by clicking 'Book Now' or contacting our 24/7 WhatsApp concierge at +92 311 1145456."
+      }
+    ]
+  },
+  "foreign-21": {
+    "id": "foreign-21",
+    "title": "Kumrat Valley Tour – 03 Days",
+    "duration": "3 Days 2 Nights",
+    "location": "Pakistan",
+    "maxGroup": "Private & Group Options",
+    "difficulty": "Easy / Moderate",
+    "image": "images/foreign/item_21.webp",
+    "price": "35,000",
+    "originalPrice": "40,250",
+    "departureDay": "Daily Private Departures & Fixed Group Departures",
+    "about": "Experience Kumrat Valley Tour – 03 Days with Safar Silsila. This curated itinerary offers a complete journey through iconic landmarks, rich local culture, breathtaking scenery, and legendary regional cuisine. Includes professional guide, luxury AC transport, full ticket entry logistics, and official visa support.",
+    "highlights": [
+      "Complete guided excursion for Kumrat Valley Tour – 03 Days",
+      "Private AC transport with driver, fuel, tolls & parking",
+      "Sightseeing at historical monuments, bazaars & viewpoints",
+      "Authentic regional food & tea tasting",
+      "24/7 dedicated travel concierge & emergency support"
+    ],
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "title": "Arrival & City Orientation",
+        "desc": "Pickup from hotel/airport. Orientation drive through historic landmarks, visit local bazaars, and enjoy welcome dinner."
+      },
+      {
+        "day": "Day 2",
+        "title": "Monuments & Cultural Sightseeing",
+        "desc": "Full day guided exploration of major historical monuments, ancient forts, and museum archives with expert local guide."
+      },
+      {
+        "day": "Day 3",
+        "title": "Scenic Valleys & Local Artisans",
+        "desc": "Visit artisan workshops, local markets, and surrounding natural viewpoints. Evening food street dinner."
+      },
+      {
+        "day": "Day 4",
+        "title": "Final Excursions & Departure",
+        "desc": "Morning shopping and photography tour. Drop-off at airport or hotel with fond memories."
+      }
+    ],
+    "inclusions": [
+      "Private AC Transport (Car / Prado / Coaster) with driver & fuel",
+      "Official Tour Guide & Historian Services",
+      "All Toll Taxes, Parking & Highway Charges",
+      "Complimentary Mineral Water & Refreshments",
+      "Hotel Pickup & Drop-off Services"
+    ],
+    "exclusions": [
+      "Personal shopping & optional activities",
+      "Boating, water sports or chairlift tickets (unless specified)",
+      "Tips for guide & driver"
+    ],
+    "packages": [
+      {
+        "name": "Standard Package",
+        "price": "35,000",
+        "status": "available",
+        "features": [
+          "AC Coaster / Sedan Transport",
+          "Standard Hotel / Day Trip",
+          "Driver & Fuel Included"
+        ]
+      },
+      {
+        "name": "Deluxe Package",
+        "price": "47,250",
+        "status": "available",
+        "features": [
+          "AC Grand Cabin / Prado",
+          "Deluxe Hotel / Private Guide",
+          "Full Inclusions"
+        ]
+      },
+      {
+        "name": "Executive Package",
+        "price": "61,250",
+        "status": "available",
+        "features": [
+          "Luxury 4x4 Prado / SUV",
+          "Luxury 4-Star / 5-Star Hotel",
+          "VIP Concierge & Protocol"
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "q": "What is included in the tour pricing?",
+        "a": "Pricing includes private AC transport, professional driver, fuel, highway tolls, parking fees, and guide assistance."
+      },
+      {
+        "q": "Can this tour be customized?",
+        "a": "Yes! All tours can be customized for your exact pick-up location, time, and special itinerary preferences."
+      },
+      {
+        "q": "How do I book or confirm my reservation?",
+        "a": "You can book directly by clicking 'Book Now' or contacting our 24/7 WhatsApp concierge at +92 311 1145456."
+      }
+    ]
+  },
+  "foreign-22": {
+    "id": "foreign-22",
+    "title": "Yasin Valley Tour",
+    "duration": "8 Days 7 Nights",
+    "location": "Pakistan",
+    "maxGroup": "Private & Group Options",
+    "difficulty": "Easy / Moderate",
+    "image": "images/foreign/item_22.jpg",
+    "price": "35,000",
+    "originalPrice": "40,250",
+    "departureDay": "Daily Private Departures & Fixed Group Departures",
+    "about": "Experience Yasin Valley Tour with Safar Silsila. This curated itinerary offers a complete journey through iconic landmarks, rich local culture, breathtaking scenery, and legendary regional cuisine. Includes professional guide, luxury AC transport, full ticket entry logistics, and official visa support.",
+    "highlights": [
+      "Complete guided excursion for Yasin Valley Tour",
+      "Private AC transport with driver, fuel, tolls & parking",
+      "Sightseeing at historical monuments, bazaars & viewpoints",
+      "Authentic regional food & tea tasting",
+      "24/7 dedicated travel concierge & emergency support"
+    ],
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "title": "Arrival & City Orientation",
+        "desc": "Pickup from hotel/airport. Orientation drive through historic landmarks, visit local bazaars, and enjoy welcome dinner."
+      },
+      {
+        "day": "Day 2",
+        "title": "Monuments & Cultural Sightseeing",
+        "desc": "Full day guided exploration of major historical monuments, ancient forts, and museum archives with expert local guide."
+      },
+      {
+        "day": "Day 3",
+        "title": "Scenic Valleys & Local Artisans",
+        "desc": "Visit artisan workshops, local markets, and surrounding natural viewpoints. Evening food street dinner."
+      },
+      {
+        "day": "Day 4",
+        "title": "Final Excursions & Departure",
+        "desc": "Morning shopping and photography tour. Drop-off at airport or hotel with fond memories."
+      }
+    ],
+    "inclusions": [
+      "Private AC Transport (Car / Prado / Coaster) with driver & fuel",
+      "Official Tour Guide & Historian Services",
+      "All Toll Taxes, Parking & Highway Charges",
+      "Complimentary Mineral Water & Refreshments",
+      "Hotel Pickup & Drop-off Services"
+    ],
+    "exclusions": [
+      "Personal shopping & optional activities",
+      "Boating, water sports or chairlift tickets (unless specified)",
+      "Tips for guide & driver"
+    ],
+    "packages": [
+      {
+        "name": "Standard Package",
+        "price": "35,000",
+        "status": "available",
+        "features": [
+          "AC Coaster / Sedan Transport",
+          "Standard Hotel / Day Trip",
+          "Driver & Fuel Included"
+        ]
+      },
+      {
+        "name": "Deluxe Package",
+        "price": "47,250",
+        "status": "available",
+        "features": [
+          "AC Grand Cabin / Prado",
+          "Deluxe Hotel / Private Guide",
+          "Full Inclusions"
+        ]
+      },
+      {
+        "name": "Executive Package",
+        "price": "61,250",
+        "status": "available",
+        "features": [
+          "Luxury 4x4 Prado / SUV",
+          "Luxury 4-Star / 5-Star Hotel",
+          "VIP Concierge & Protocol"
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "q": "What is included in the tour pricing?",
+        "a": "Pricing includes private AC transport, professional driver, fuel, highway tolls, parking fees, and guide assistance."
+      },
+      {
+        "q": "Can this tour be customized?",
+        "a": "Yes! All tours can be customized for your exact pick-up location, time, and special itinerary preferences."
+      },
+      {
+        "q": "How do I book or confirm my reservation?",
+        "a": "You can book directly by clicking 'Book Now' or contacting our 24/7 WhatsApp concierge at +92 311 1145456."
+      }
+    ]
+  },
+  "foreign-23": {
+    "id": "foreign-23",
+    "title": "Pakistan Food Tour: A Journey of Flavors",
+    "duration": "8 Days 7 Nights",
+    "location": "Pakistan",
+    "maxGroup": "Private & Group Options",
+    "difficulty": "Easy / Moderate",
+    "image": "images/foreign/item_23.jpg",
+    "price": "35,000",
+    "originalPrice": "40,250",
+    "departureDay": "Daily Private Departures & Fixed Group Departures",
+    "about": "Experience Pakistan Food Tour: A Journey of Flavors with Safar Silsila. This curated itinerary offers a complete journey through iconic landmarks, rich local culture, breathtaking scenery, and legendary regional cuisine. Includes professional guide, luxury AC transport, full ticket entry logistics, and official visa support.",
+    "highlights": [
+      "Complete guided excursion for Pakistan Food Tour: A Journey of Flavors",
+      "Private AC transport with driver, fuel, tolls & parking",
+      "Sightseeing at historical monuments, bazaars & viewpoints",
+      "Authentic regional food & tea tasting",
+      "24/7 dedicated travel concierge & emergency support"
+    ],
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "title": "Arrival & City Orientation",
+        "desc": "Pickup from hotel/airport. Orientation drive through historic landmarks, visit local bazaars, and enjoy welcome dinner."
+      },
+      {
+        "day": "Day 2",
+        "title": "Monuments & Cultural Sightseeing",
+        "desc": "Full day guided exploration of major historical monuments, ancient forts, and museum archives with expert local guide."
+      },
+      {
+        "day": "Day 3",
+        "title": "Scenic Valleys & Local Artisans",
+        "desc": "Visit artisan workshops, local markets, and surrounding natural viewpoints. Evening food street dinner."
+      },
+      {
+        "day": "Day 4",
+        "title": "Final Excursions & Departure",
+        "desc": "Morning shopping and photography tour. Drop-off at airport or hotel with fond memories."
+      }
+    ],
+    "inclusions": [
+      "Private AC Transport (Car / Prado / Coaster) with driver & fuel",
+      "Official Tour Guide & Historian Services",
+      "All Toll Taxes, Parking & Highway Charges",
+      "Complimentary Mineral Water & Refreshments",
+      "Hotel Pickup & Drop-off Services"
+    ],
+    "exclusions": [
+      "Personal shopping & optional activities",
+      "Boating, water sports or chairlift tickets (unless specified)",
+      "Tips for guide & driver"
+    ],
+    "packages": [
+      {
+        "name": "Standard Package",
+        "price": "35,000",
+        "status": "available",
+        "features": [
+          "AC Coaster / Sedan Transport",
+          "Standard Hotel / Day Trip",
+          "Driver & Fuel Included"
+        ]
+      },
+      {
+        "name": "Deluxe Package",
+        "price": "47,250",
+        "status": "available",
+        "features": [
+          "AC Grand Cabin / Prado",
+          "Deluxe Hotel / Private Guide",
+          "Full Inclusions"
+        ]
+      },
+      {
+        "name": "Executive Package",
+        "price": "61,250",
+        "status": "available",
+        "features": [
+          "Luxury 4x4 Prado / SUV",
+          "Luxury 4-Star / 5-Star Hotel",
+          "VIP Concierge & Protocol"
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "q": "What is included in the tour pricing?",
+        "a": "Pricing includes private AC transport, professional driver, fuel, highway tolls, parking fees, and guide assistance."
+      },
+      {
+        "q": "Can this tour be customized?",
+        "a": "Yes! All tours can be customized for your exact pick-up location, time, and special itinerary preferences."
+      },
+      {
+        "q": "How do I book or confirm my reservation?",
+        "a": "You can book directly by clicking 'Book Now' or contacting our 24/7 WhatsApp concierge at +92 311 1145456."
+      }
+    ]
+  },
+  "foreign-24": {
+    "id": "foreign-24",
+    "title": "Quetta Street Food Tour",
+    "duration": "2 Days 1 Night",
+    "location": "Pakistan",
+    "maxGroup": "Private & Group Options",
+    "difficulty": "Easy / Moderate",
+    "image": "images/foreign/item_24.jpg",
+    "price": "35,000",
+    "originalPrice": "40,250",
+    "departureDay": "Daily Private Departures & Fixed Group Departures",
+    "about": "Experience Quetta Street Food Tour with Safar Silsila. This curated itinerary offers a complete journey through iconic landmarks, rich local culture, breathtaking scenery, and legendary regional cuisine. Includes professional guide, luxury AC transport, full ticket entry logistics, and official visa support.",
+    "highlights": [
+      "Complete guided excursion for Quetta Street Food Tour",
+      "Private AC transport with driver, fuel, tolls & parking",
+      "Sightseeing at historical monuments, bazaars & viewpoints",
+      "Authentic regional food & tea tasting",
+      "24/7 dedicated travel concierge & emergency support"
+    ],
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "title": "Arrival & City Orientation",
+        "desc": "Pickup from hotel/airport. Orientation drive through historic landmarks, visit local bazaars, and enjoy welcome dinner."
+      },
+      {
+        "day": "Day 2",
+        "title": "Monuments & Cultural Sightseeing",
+        "desc": "Full day guided exploration of major historical monuments, ancient forts, and museum archives with expert local guide."
+      },
+      {
+        "day": "Day 3",
+        "title": "Scenic Valleys & Local Artisans",
+        "desc": "Visit artisan workshops, local markets, and surrounding natural viewpoints. Evening food street dinner."
+      },
+      {
+        "day": "Day 4",
+        "title": "Final Excursions & Departure",
+        "desc": "Morning shopping and photography tour. Drop-off at airport or hotel with fond memories."
+      }
+    ],
+    "inclusions": [
+      "Private AC Transport (Car / Prado / Coaster) with driver & fuel",
+      "Official Tour Guide & Historian Services",
+      "All Toll Taxes, Parking & Highway Charges",
+      "Complimentary Mineral Water & Refreshments",
+      "Hotel Pickup & Drop-off Services"
+    ],
+    "exclusions": [
+      "Personal shopping & optional activities",
+      "Boating, water sports or chairlift tickets (unless specified)",
+      "Tips for guide & driver"
+    ],
+    "packages": [
+      {
+        "name": "Standard Package",
+        "price": "35,000",
+        "status": "available",
+        "features": [
+          "AC Coaster / Sedan Transport",
+          "Standard Hotel / Day Trip",
+          "Driver & Fuel Included"
+        ]
+      },
+      {
+        "name": "Deluxe Package",
+        "price": "47,250",
+        "status": "available",
+        "features": [
+          "AC Grand Cabin / Prado",
+          "Deluxe Hotel / Private Guide",
+          "Full Inclusions"
+        ]
+      },
+      {
+        "name": "Executive Package",
+        "price": "61,250",
+        "status": "available",
+        "features": [
+          "Luxury 4x4 Prado / SUV",
+          "Luxury 4-Star / 5-Star Hotel",
+          "VIP Concierge & Protocol"
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "q": "What is included in the tour pricing?",
+        "a": "Pricing includes private AC transport, professional driver, fuel, highway tolls, parking fees, and guide assistance."
+      },
+      {
+        "q": "Can this tour be customized?",
+        "a": "Yes! All tours can be customized for your exact pick-up location, time, and special itinerary preferences."
+      },
+      {
+        "q": "How do I book or confirm my reservation?",
+        "a": "You can book directly by clicking 'Book Now' or contacting our 24/7 WhatsApp concierge at +92 311 1145456."
+      }
+    ]
+  },
+  "foreign-25": {
+    "id": "foreign-25",
+    "title": "Cholistan Jeep Rally Tour",
+    "duration": "3 Days 2 Nights",
+    "location": "Pakistan",
+    "maxGroup": "Private & Group Options",
+    "difficulty": "Easy / Moderate",
+    "image": "images/foreign/item_25.jpg",
+    "price": "35,000",
+    "originalPrice": "40,250",
+    "departureDay": "Daily Private Departures & Fixed Group Departures",
+    "about": "Experience Cholistan Jeep Rally Tour with Safar Silsila. This curated itinerary offers a complete journey through iconic landmarks, rich local culture, breathtaking scenery, and legendary regional cuisine. Includes professional guide, luxury AC transport, full ticket entry logistics, and official visa support.",
+    "highlights": [
+      "Complete guided excursion for Cholistan Jeep Rally Tour",
+      "Private AC transport with driver, fuel, tolls & parking",
+      "Sightseeing at historical monuments, bazaars & viewpoints",
+      "Authentic regional food & tea tasting",
+      "24/7 dedicated travel concierge & emergency support"
+    ],
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "title": "Arrival & City Orientation",
+        "desc": "Pickup from hotel/airport. Orientation drive through historic landmarks, visit local bazaars, and enjoy welcome dinner."
+      },
+      {
+        "day": "Day 2",
+        "title": "Monuments & Cultural Sightseeing",
+        "desc": "Full day guided exploration of major historical monuments, ancient forts, and museum archives with expert local guide."
+      },
+      {
+        "day": "Day 3",
+        "title": "Scenic Valleys & Local Artisans",
+        "desc": "Visit artisan workshops, local markets, and surrounding natural viewpoints. Evening food street dinner."
+      },
+      {
+        "day": "Day 4",
+        "title": "Final Excursions & Departure",
+        "desc": "Morning shopping and photography tour. Drop-off at airport or hotel with fond memories."
+      }
+    ],
+    "inclusions": [
+      "Private AC Transport (Car / Prado / Coaster) with driver & fuel",
+      "Official Tour Guide & Historian Services",
+      "All Toll Taxes, Parking & Highway Charges",
+      "Complimentary Mineral Water & Refreshments",
+      "Hotel Pickup & Drop-off Services"
+    ],
+    "exclusions": [
+      "Personal shopping & optional activities",
+      "Boating, water sports or chairlift tickets (unless specified)",
+      "Tips for guide & driver"
+    ],
+    "packages": [
+      {
+        "name": "Standard Package",
+        "price": "35,000",
+        "status": "available",
+        "features": [
+          "AC Coaster / Sedan Transport",
+          "Standard Hotel / Day Trip",
+          "Driver & Fuel Included"
+        ]
+      },
+      {
+        "name": "Deluxe Package",
+        "price": "47,250",
+        "status": "available",
+        "features": [
+          "AC Grand Cabin / Prado",
+          "Deluxe Hotel / Private Guide",
+          "Full Inclusions"
+        ]
+      },
+      {
+        "name": "Executive Package",
+        "price": "61,250",
+        "status": "available",
+        "features": [
+          "Luxury 4x4 Prado / SUV",
+          "Luxury 4-Star / 5-Star Hotel",
+          "VIP Concierge & Protocol"
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "q": "What is included in the tour pricing?",
+        "a": "Pricing includes private AC transport, professional driver, fuel, highway tolls, parking fees, and guide assistance."
+      },
+      {
+        "q": "Can this tour be customized?",
+        "a": "Yes! All tours can be customized for your exact pick-up location, time, and special itinerary preferences."
+      },
+      {
+        "q": "How do I book or confirm my reservation?",
+        "a": "You can book directly by clicking 'Book Now' or contacting our 24/7 WhatsApp concierge at +92 311 1145456."
+      }
+    ]
+  },
+  "foreign-26": {
+    "id": "foreign-26",
+    "title": "Nazbar Valley Tour",
+    "duration": "8 Days 7 Nights",
+    "location": "Pakistan",
+    "maxGroup": "Private & Group Options",
+    "difficulty": "Easy / Moderate",
+    "image": "images/foreign/item_26.webp",
+    "price": "35,000",
+    "originalPrice": "40,250",
+    "departureDay": "Daily Private Departures & Fixed Group Departures",
+    "about": "Experience Nazbar Valley Tour with Safar Silsila. This curated itinerary offers a complete journey through iconic landmarks, rich local culture, breathtaking scenery, and legendary regional cuisine. Includes professional guide, luxury AC transport, full ticket entry logistics, and official visa support.",
+    "highlights": [
+      "Complete guided excursion for Nazbar Valley Tour",
+      "Private AC transport with driver, fuel, tolls & parking",
+      "Sightseeing at historical monuments, bazaars & viewpoints",
+      "Authentic regional food & tea tasting",
+      "24/7 dedicated travel concierge & emergency support"
+    ],
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "title": "Arrival & City Orientation",
+        "desc": "Pickup from hotel/airport. Orientation drive through historic landmarks, visit local bazaars, and enjoy welcome dinner."
+      },
+      {
+        "day": "Day 2",
+        "title": "Monuments & Cultural Sightseeing",
+        "desc": "Full day guided exploration of major historical monuments, ancient forts, and museum archives with expert local guide."
+      },
+      {
+        "day": "Day 3",
+        "title": "Scenic Valleys & Local Artisans",
+        "desc": "Visit artisan workshops, local markets, and surrounding natural viewpoints. Evening food street dinner."
+      },
+      {
+        "day": "Day 4",
+        "title": "Final Excursions & Departure",
+        "desc": "Morning shopping and photography tour. Drop-off at airport or hotel with fond memories."
+      }
+    ],
+    "inclusions": [
+      "Private AC Transport (Car / Prado / Coaster) with driver & fuel",
+      "Official Tour Guide & Historian Services",
+      "All Toll Taxes, Parking & Highway Charges",
+      "Complimentary Mineral Water & Refreshments",
+      "Hotel Pickup & Drop-off Services"
+    ],
+    "exclusions": [
+      "Personal shopping & optional activities",
+      "Boating, water sports or chairlift tickets (unless specified)",
+      "Tips for guide & driver"
+    ],
+    "packages": [
+      {
+        "name": "Standard Package",
+        "price": "35,000",
+        "status": "available",
+        "features": [
+          "AC Coaster / Sedan Transport",
+          "Standard Hotel / Day Trip",
+          "Driver & Fuel Included"
+        ]
+      },
+      {
+        "name": "Deluxe Package",
+        "price": "47,250",
+        "status": "available",
+        "features": [
+          "AC Grand Cabin / Prado",
+          "Deluxe Hotel / Private Guide",
+          "Full Inclusions"
+        ]
+      },
+      {
+        "name": "Executive Package",
+        "price": "61,250",
+        "status": "available",
+        "features": [
+          "Luxury 4x4 Prado / SUV",
+          "Luxury 4-Star / 5-Star Hotel",
+          "VIP Concierge & Protocol"
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "q": "What is included in the tour pricing?",
+        "a": "Pricing includes private AC transport, professional driver, fuel, highway tolls, parking fees, and guide assistance."
+      },
+      {
+        "q": "Can this tour be customized?",
+        "a": "Yes! All tours can be customized for your exact pick-up location, time, and special itinerary preferences."
+      },
+      {
+        "q": "How do I book or confirm my reservation?",
+        "a": "You can book directly by clicking 'Book Now' or contacting our 24/7 WhatsApp concierge at +92 311 1145456."
+      }
+    ]
+  },
+  "foreign-27": {
+    "id": "foreign-27",
+    "title": "Paragliding in Islamabad",
+    "duration": "1 Day",
+    "location": "Pakistan",
+    "maxGroup": "Private & Group Options",
+    "difficulty": "Easy / Moderate",
+    "image": "images/foreign/item_27.jpg",
+    "price": "14,000",
+    "originalPrice": "16,100",
+    "departureDay": "Daily Private Departures & Fixed Group Departures",
+    "about": "Experience Paragliding in Islamabad with Safar Silsila. This curated itinerary offers a complete journey through iconic landmarks, rich local culture, breathtaking scenery, and legendary regional cuisine. Includes professional guide, luxury AC transport, full ticket entry logistics, and official visa support.",
+    "highlights": [
+      "Complete guided excursion for Paragliding in Islamabad",
+      "Private AC transport with driver, fuel, tolls & parking",
+      "Sightseeing at historical monuments, bazaars & viewpoints",
+      "Authentic regional food & tea tasting",
+      "24/7 dedicated travel concierge & emergency support"
+    ],
+    "itinerary": [
+      {
+        "day": "Morning",
+        "title": "Pickup & Departure",
+        "desc": "07:30 AM pickup from hotel/residence in private AC vehicle. Drive along scenic highway with morning refreshment stop."
+      },
+      {
+        "day": "Afternoon",
+        "title": "Guided Monument & Activity Exploration",
+        "desc": "Arrive at destination. Guided tour of key monuments, scenic viewpoints, water activities, and photography stops."
+      },
+      {
+        "day": "Evening",
+        "title": "Local Food Tasting & Return",
+        "desc": "Enjoy famous local street food feast & traditional chai. Return drive with drop-off at your hotel by 07:00 PM."
+      }
+    ],
+    "inclusions": [
+      "Private AC Transport (Car / Prado / Coaster) with driver & fuel",
+      "Official Tour Guide & Historian Services",
+      "All Toll Taxes, Parking & Highway Charges",
+      "Complimentary Mineral Water & Refreshments",
+      "Hotel Pickup & Drop-off Services"
+    ],
+    "exclusions": [
+      "Personal shopping & optional activities",
+      "Boating, water sports or chairlift tickets (unless specified)",
+      "Tips for guide & driver"
+    ],
+    "packages": [
+      {
+        "name": "Standard Package",
+        "price": "14,000",
+        "status": "available",
+        "features": [
+          "AC Coaster / Sedan Transport",
+          "Standard Hotel / Day Trip",
+          "Driver & Fuel Included"
+        ]
+      },
+      {
+        "name": "Deluxe Package",
+        "price": "18,900",
+        "status": "available",
+        "features": [
+          "AC Grand Cabin / Prado",
+          "Deluxe Hotel / Private Guide",
+          "Full Inclusions"
+        ]
+      },
+      {
+        "name": "Executive Package",
+        "price": "24,500",
+        "status": "available",
+        "features": [
+          "Luxury 4x4 Prado / SUV",
+          "Luxury 4-Star / 5-Star Hotel",
+          "VIP Concierge & Protocol"
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "q": "What is included in the tour pricing?",
+        "a": "Pricing includes private AC transport, professional driver, fuel, highway tolls, parking fees, and guide assistance."
+      },
+      {
+        "q": "Can this tour be customized?",
+        "a": "Yes! All tours can be customized for your exact pick-up location, time, and special itinerary preferences."
+      },
+      {
+        "q": "How do I book or confirm my reservation?",
+        "a": "You can book directly by clicking 'Book Now' or contacting our 24/7 WhatsApp concierge at +92 311 1145456."
+      }
+    ]
+  },
+  "foreign-28": {
+    "id": "foreign-28",
+    "title": "Parasailing in Islamabad",
+    "duration": "1 Day",
+    "location": "Pakistan",
+    "maxGroup": "Private & Group Options",
+    "difficulty": "Easy / Moderate",
+    "image": "images/foreign/item_28.jpg",
+    "price": "14,000",
+    "originalPrice": "16,100",
+    "departureDay": "Daily Private Departures & Fixed Group Departures",
+    "about": "Experience Parasailing in Islamabad with Safar Silsila. This curated itinerary offers a complete journey through iconic landmarks, rich local culture, breathtaking scenery, and legendary regional cuisine. Includes professional guide, luxury AC transport, full ticket entry logistics, and official visa support.",
+    "highlights": [
+      "Complete guided excursion for Parasailing in Islamabad",
+      "Private AC transport with driver, fuel, tolls & parking",
+      "Sightseeing at historical monuments, bazaars & viewpoints",
+      "Authentic regional food & tea tasting",
+      "24/7 dedicated travel concierge & emergency support"
+    ],
+    "itinerary": [
+      {
+        "day": "Morning",
+        "title": "Pickup & Departure",
+        "desc": "07:30 AM pickup from hotel/residence in private AC vehicle. Drive along scenic highway with morning refreshment stop."
+      },
+      {
+        "day": "Afternoon",
+        "title": "Guided Monument & Activity Exploration",
+        "desc": "Arrive at destination. Guided tour of key monuments, scenic viewpoints, water activities, and photography stops."
+      },
+      {
+        "day": "Evening",
+        "title": "Local Food Tasting & Return",
+        "desc": "Enjoy famous local street food feast & traditional chai. Return drive with drop-off at your hotel by 07:00 PM."
+      }
+    ],
+    "inclusions": [
+      "Private AC Transport (Car / Prado / Coaster) with driver & fuel",
+      "Official Tour Guide & Historian Services",
+      "All Toll Taxes, Parking & Highway Charges",
+      "Complimentary Mineral Water & Refreshments",
+      "Hotel Pickup & Drop-off Services"
+    ],
+    "exclusions": [
+      "Personal shopping & optional activities",
+      "Boating, water sports or chairlift tickets (unless specified)",
+      "Tips for guide & driver"
+    ],
+    "packages": [
+      {
+        "name": "Standard Package",
+        "price": "14,000",
+        "status": "available",
+        "features": [
+          "AC Coaster / Sedan Transport",
+          "Standard Hotel / Day Trip",
+          "Driver & Fuel Included"
+        ]
+      },
+      {
+        "name": "Deluxe Package",
+        "price": "18,900",
+        "status": "available",
+        "features": [
+          "AC Grand Cabin / Prado",
+          "Deluxe Hotel / Private Guide",
+          "Full Inclusions"
+        ]
+      },
+      {
+        "name": "Executive Package",
+        "price": "24,500",
+        "status": "available",
+        "features": [
+          "Luxury 4x4 Prado / SUV",
+          "Luxury 4-Star / 5-Star Hotel",
+          "VIP Concierge & Protocol"
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "q": "What is included in the tour pricing?",
+        "a": "Pricing includes private AC transport, professional driver, fuel, highway tolls, parking fees, and guide assistance."
+      },
+      {
+        "q": "Can this tour be customized?",
+        "a": "Yes! All tours can be customized for your exact pick-up location, time, and special itinerary preferences."
+      },
+      {
+        "q": "How do I book or confirm my reservation?",
+        "a": "You can book directly by clicking 'Book Now' or contacting our 24/7 WhatsApp concierge at +92 311 1145456."
+      }
+    ]
+  },
+  "foreign-29": {
+    "id": "foreign-29",
+    "title": "Tanda Lake Kohat Tour (2024-25)",
+    "duration": "2 Days 1 Night",
+    "location": "Pakistan",
+    "maxGroup": "Private & Group Options",
+    "difficulty": "Easy / Moderate",
+    "image": "images/foreign/item_29.jpg",
+    "price": "35,000",
+    "originalPrice": "40,250",
+    "departureDay": "Daily Private Departures & Fixed Group Departures",
+    "about": "Experience Tanda Lake Kohat Tour (2024-25) with Safar Silsila. This curated itinerary offers a complete journey through iconic landmarks, rich local culture, breathtaking scenery, and legendary regional cuisine. Includes professional guide, luxury AC transport, full ticket entry logistics, and official visa support.",
+    "highlights": [
+      "Complete guided excursion for Tanda Lake Kohat Tour (2024-25)",
+      "Private AC transport with driver, fuel, tolls & parking",
+      "Sightseeing at historical monuments, bazaars & viewpoints",
+      "Authentic regional food & tea tasting",
+      "24/7 dedicated travel concierge & emergency support"
+    ],
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "title": "Arrival & City Orientation",
+        "desc": "Pickup from hotel/airport. Orientation drive through historic landmarks, visit local bazaars, and enjoy welcome dinner."
+      },
+      {
+        "day": "Day 2",
+        "title": "Monuments & Cultural Sightseeing",
+        "desc": "Full day guided exploration of major historical monuments, ancient forts, and museum archives with expert local guide."
+      },
+      {
+        "day": "Day 3",
+        "title": "Scenic Valleys & Local Artisans",
+        "desc": "Visit artisan workshops, local markets, and surrounding natural viewpoints. Evening food street dinner."
+      },
+      {
+        "day": "Day 4",
+        "title": "Final Excursions & Departure",
+        "desc": "Morning shopping and photography tour. Drop-off at airport or hotel with fond memories."
+      }
+    ],
+    "inclusions": [
+      "Private AC Transport (Car / Prado / Coaster) with driver & fuel",
+      "Official Tour Guide & Historian Services",
+      "All Toll Taxes, Parking & Highway Charges",
+      "Complimentary Mineral Water & Refreshments",
+      "Hotel Pickup & Drop-off Services"
+    ],
+    "exclusions": [
+      "Personal shopping & optional activities",
+      "Boating, water sports or chairlift tickets (unless specified)",
+      "Tips for guide & driver"
+    ],
+    "packages": [
+      {
+        "name": "Standard Package",
+        "price": "35,000",
+        "status": "available",
+        "features": [
+          "AC Coaster / Sedan Transport",
+          "Standard Hotel / Day Trip",
+          "Driver & Fuel Included"
+        ]
+      },
+      {
+        "name": "Deluxe Package",
+        "price": "47,250",
+        "status": "available",
+        "features": [
+          "AC Grand Cabin / Prado",
+          "Deluxe Hotel / Private Guide",
+          "Full Inclusions"
+        ]
+      },
+      {
+        "name": "Executive Package",
+        "price": "61,250",
+        "status": "available",
+        "features": [
+          "Luxury 4x4 Prado / SUV",
+          "Luxury 4-Star / 5-Star Hotel",
+          "VIP Concierge & Protocol"
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "q": "What is included in the tour pricing?",
+        "a": "Pricing includes private AC transport, professional driver, fuel, highway tolls, parking fees, and guide assistance."
+      },
+      {
+        "q": "Can this tour be customized?",
+        "a": "Yes! All tours can be customized for your exact pick-up location, time, and special itinerary preferences."
+      },
+      {
+        "q": "How do I book or confirm my reservation?",
+        "a": "You can book directly by clicking 'Book Now' or contacting our 24/7 WhatsApp concierge at +92 311 1145456."
+      }
+    ]
+  },
+  "foreign-30": {
+    "id": "foreign-30",
+    "title": "Hindukush Snow Festival",
+    "duration": "6 Days 5 Nights",
+    "location": "Pakistan",
+    "maxGroup": "Private & Group Options",
+    "difficulty": "Easy / Moderate",
+    "image": "images/foreign/item_30.jpg",
+    "price": "35,000",
+    "originalPrice": "40,250",
+    "departureDay": "Daily Private Departures & Fixed Group Departures",
+    "about": "Experience Hindukush Snow Festival with Safar Silsila. This curated itinerary offers a complete journey through iconic landmarks, rich local culture, breathtaking scenery, and legendary regional cuisine. Includes professional guide, luxury AC transport, full ticket entry logistics, and official visa support.",
+    "highlights": [
+      "Complete guided excursion for Hindukush Snow Festival",
+      "Private AC transport with driver, fuel, tolls & parking",
+      "Sightseeing at historical monuments, bazaars & viewpoints",
+      "Authentic regional food & tea tasting",
+      "24/7 dedicated travel concierge & emergency support"
+    ],
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "title": "Arrival & City Orientation",
+        "desc": "Pickup from hotel/airport. Orientation drive through historic landmarks, visit local bazaars, and enjoy welcome dinner."
+      },
+      {
+        "day": "Day 2",
+        "title": "Monuments & Cultural Sightseeing",
+        "desc": "Full day guided exploration of major historical monuments, ancient forts, and museum archives with expert local guide."
+      },
+      {
+        "day": "Day 3",
+        "title": "Scenic Valleys & Local Artisans",
+        "desc": "Visit artisan workshops, local markets, and surrounding natural viewpoints. Evening food street dinner."
+      },
+      {
+        "day": "Day 4",
+        "title": "Final Excursions & Departure",
+        "desc": "Morning shopping and photography tour. Drop-off at airport or hotel with fond memories."
+      }
+    ],
+    "inclusions": [
+      "Private AC Transport (Car / Prado / Coaster) with driver & fuel",
+      "Official Tour Guide & Historian Services",
+      "All Toll Taxes, Parking & Highway Charges",
+      "Complimentary Mineral Water & Refreshments",
+      "Hotel Pickup & Drop-off Services"
+    ],
+    "exclusions": [
+      "Personal shopping & optional activities",
+      "Boating, water sports or chairlift tickets (unless specified)",
+      "Tips for guide & driver"
+    ],
+    "packages": [
+      {
+        "name": "Standard Package",
+        "price": "35,000",
+        "status": "available",
+        "features": [
+          "AC Coaster / Sedan Transport",
+          "Standard Hotel / Day Trip",
+          "Driver & Fuel Included"
+        ]
+      },
+      {
+        "name": "Deluxe Package",
+        "price": "47,250",
+        "status": "available",
+        "features": [
+          "AC Grand Cabin / Prado",
+          "Deluxe Hotel / Private Guide",
+          "Full Inclusions"
+        ]
+      },
+      {
+        "name": "Executive Package",
+        "price": "61,250",
+        "status": "available",
+        "features": [
+          "Luxury 4x4 Prado / SUV",
+          "Luxury 4-Star / 5-Star Hotel",
+          "VIP Concierge & Protocol"
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "q": "What is included in the tour pricing?",
+        "a": "Pricing includes private AC transport, professional driver, fuel, highway tolls, parking fees, and guide assistance."
+      },
+      {
+        "q": "Can this tour be customized?",
+        "a": "Yes! All tours can be customized for your exact pick-up location, time, and special itinerary preferences."
+      },
+      {
+        "q": "How do I book or confirm my reservation?",
+        "a": "You can book directly by clicking 'Book Now' or contacting our 24/7 WhatsApp concierge at +92 311 1145456."
+      }
+    ]
+  },
+  "foreign-31": {
+    "id": "foreign-31",
+    "title": "Siachen Tour",
+    "duration": "7 Days 6 Nights",
+    "location": "Pakistan",
+    "maxGroup": "Private & Group Options",
+    "difficulty": "Easy / Moderate",
+    "image": "images/foreign/item_31.jpg",
+    "price": "35,000",
+    "originalPrice": "40,250",
+    "departureDay": "Daily Private Departures & Fixed Group Departures",
+    "about": "Experience Siachen Tour with Safar Silsila. This curated itinerary offers a complete journey through iconic landmarks, rich local culture, breathtaking scenery, and legendary regional cuisine. Includes professional guide, luxury AC transport, full ticket entry logistics, and official visa support.",
+    "highlights": [
+      "Complete guided excursion for Siachen Tour",
+      "Private AC transport with driver, fuel, tolls & parking",
+      "Sightseeing at historical monuments, bazaars & viewpoints",
+      "Authentic regional food & tea tasting",
+      "24/7 dedicated travel concierge & emergency support"
+    ],
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "title": "Arrival & City Orientation",
+        "desc": "Pickup from hotel/airport. Orientation drive through historic landmarks, visit local bazaars, and enjoy welcome dinner."
+      },
+      {
+        "day": "Day 2",
+        "title": "Monuments & Cultural Sightseeing",
+        "desc": "Full day guided exploration of major historical monuments, ancient forts, and museum archives with expert local guide."
+      },
+      {
+        "day": "Day 3",
+        "title": "Scenic Valleys & Local Artisans",
+        "desc": "Visit artisan workshops, local markets, and surrounding natural viewpoints. Evening food street dinner."
+      },
+      {
+        "day": "Day 4",
+        "title": "Final Excursions & Departure",
+        "desc": "Morning shopping and photography tour. Drop-off at airport or hotel with fond memories."
+      }
+    ],
+    "inclusions": [
+      "Private AC Transport (Car / Prado / Coaster) with driver & fuel",
+      "Official Tour Guide & Historian Services",
+      "All Toll Taxes, Parking & Highway Charges",
+      "Complimentary Mineral Water & Refreshments",
+      "Hotel Pickup & Drop-off Services"
+    ],
+    "exclusions": [
+      "Personal shopping & optional activities",
+      "Boating, water sports or chairlift tickets (unless specified)",
+      "Tips for guide & driver"
+    ],
+    "packages": [
+      {
+        "name": "Standard Package",
+        "price": "35,000",
+        "status": "available",
+        "features": [
+          "AC Coaster / Sedan Transport",
+          "Standard Hotel / Day Trip",
+          "Driver & Fuel Included"
+        ]
+      },
+      {
+        "name": "Deluxe Package",
+        "price": "47,250",
+        "status": "available",
+        "features": [
+          "AC Grand Cabin / Prado",
+          "Deluxe Hotel / Private Guide",
+          "Full Inclusions"
+        ]
+      },
+      {
+        "name": "Executive Package",
+        "price": "61,250",
+        "status": "available",
+        "features": [
+          "Luxury 4x4 Prado / SUV",
+          "Luxury 4-Star / 5-Star Hotel",
+          "VIP Concierge & Protocol"
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "q": "What is included in the tour pricing?",
+        "a": "Pricing includes private AC transport, professional driver, fuel, highway tolls, parking fees, and guide assistance."
+      },
+      {
+        "q": "Can this tour be customized?",
+        "a": "Yes! All tours can be customized for your exact pick-up location, time, and special itinerary preferences."
+      },
+      {
+        "q": "How do I book or confirm my reservation?",
+        "a": "You can book directly by clicking 'Book Now' or contacting our 24/7 WhatsApp concierge at +92 311 1145456."
+      }
+    ]
+  },
+  "foreign-32": {
+    "id": "foreign-32",
+    "title": "Motorgliding in Sarfaranga",
+    "duration": "4 Days 3 Nights",
+    "location": "Pakistan",
+    "maxGroup": "Private & Group Options",
+    "difficulty": "Easy / Moderate",
+    "image": "images/foreign/item_32.jpg",
+    "price": "35,000",
+    "originalPrice": "40,250",
+    "departureDay": "Daily Private Departures & Fixed Group Departures",
+    "about": "Experience Motorgliding in Sarfaranga with Safar Silsila. This curated itinerary offers a complete journey through iconic landmarks, rich local culture, breathtaking scenery, and legendary regional cuisine. Includes professional guide, luxury AC transport, full ticket entry logistics, and official visa support.",
+    "highlights": [
+      "Complete guided excursion for Motorgliding in Sarfaranga",
+      "Private AC transport with driver, fuel, tolls & parking",
+      "Sightseeing at historical monuments, bazaars & viewpoints",
+      "Authentic regional food & tea tasting",
+      "24/7 dedicated travel concierge & emergency support"
+    ],
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "title": "Arrival & City Orientation",
+        "desc": "Pickup from hotel/airport. Orientation drive through historic landmarks, visit local bazaars, and enjoy welcome dinner."
+      },
+      {
+        "day": "Day 2",
+        "title": "Monuments & Cultural Sightseeing",
+        "desc": "Full day guided exploration of major historical monuments, ancient forts, and museum archives with expert local guide."
+      },
+      {
+        "day": "Day 3",
+        "title": "Scenic Valleys & Local Artisans",
+        "desc": "Visit artisan workshops, local markets, and surrounding natural viewpoints. Evening food street dinner."
+      },
+      {
+        "day": "Day 4",
+        "title": "Final Excursions & Departure",
+        "desc": "Morning shopping and photography tour. Drop-off at airport or hotel with fond memories."
+      }
+    ],
+    "inclusions": [
+      "Private AC Transport (Car / Prado / Coaster) with driver & fuel",
+      "Official Tour Guide & Historian Services",
+      "All Toll Taxes, Parking & Highway Charges",
+      "Complimentary Mineral Water & Refreshments",
+      "Hotel Pickup & Drop-off Services"
+    ],
+    "exclusions": [
+      "Personal shopping & optional activities",
+      "Boating, water sports or chairlift tickets (unless specified)",
+      "Tips for guide & driver"
+    ],
+    "packages": [
+      {
+        "name": "Standard Package",
+        "price": "35,000",
+        "status": "available",
+        "features": [
+          "AC Coaster / Sedan Transport",
+          "Standard Hotel / Day Trip",
+          "Driver & Fuel Included"
+        ]
+      },
+      {
+        "name": "Deluxe Package",
+        "price": "47,250",
+        "status": "available",
+        "features": [
+          "AC Grand Cabin / Prado",
+          "Deluxe Hotel / Private Guide",
+          "Full Inclusions"
+        ]
+      },
+      {
+        "name": "Executive Package",
+        "price": "61,250",
+        "status": "available",
+        "features": [
+          "Luxury 4x4 Prado / SUV",
+          "Luxury 4-Star / 5-Star Hotel",
+          "VIP Concierge & Protocol"
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "q": "What is included in the tour pricing?",
+        "a": "Pricing includes private AC transport, professional driver, fuel, highway tolls, parking fees, and guide assistance."
+      },
+      {
+        "q": "Can this tour be customized?",
+        "a": "Yes! All tours can be customized for your exact pick-up location, time, and special itinerary preferences."
+      },
+      {
+        "q": "How do I book or confirm my reservation?",
+        "a": "You can book directly by clicking 'Book Now' or contacting our 24/7 WhatsApp concierge at +92 311 1145456."
+      }
+    ]
+  },
+  "foreign-33": {
+    "id": "foreign-33",
+    "title": "Khorkundus Valley Tour",
+    "duration": "7 Days 6 Nights",
+    "location": "Pakistan",
+    "maxGroup": "Private & Group Options",
+    "difficulty": "Easy / Moderate",
+    "image": "images/foreign/item_33.webp",
+    "price": "35,000",
+    "originalPrice": "40,250",
+    "departureDay": "Daily Private Departures & Fixed Group Departures",
+    "about": "Experience Khorkundus Valley Tour with Safar Silsila. This curated itinerary offers a complete journey through iconic landmarks, rich local culture, breathtaking scenery, and legendary regional cuisine. Includes professional guide, luxury AC transport, full ticket entry logistics, and official visa support.",
+    "highlights": [
+      "Complete guided excursion for Khorkundus Valley Tour",
+      "Private AC transport with driver, fuel, tolls & parking",
+      "Sightseeing at historical monuments, bazaars & viewpoints",
+      "Authentic regional food & tea tasting",
+      "24/7 dedicated travel concierge & emergency support"
+    ],
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "title": "Arrival & City Orientation",
+        "desc": "Pickup from hotel/airport. Orientation drive through historic landmarks, visit local bazaars, and enjoy welcome dinner."
+      },
+      {
+        "day": "Day 2",
+        "title": "Monuments & Cultural Sightseeing",
+        "desc": "Full day guided exploration of major historical monuments, ancient forts, and museum archives with expert local guide."
+      },
+      {
+        "day": "Day 3",
+        "title": "Scenic Valleys & Local Artisans",
+        "desc": "Visit artisan workshops, local markets, and surrounding natural viewpoints. Evening food street dinner."
+      },
+      {
+        "day": "Day 4",
+        "title": "Final Excursions & Departure",
+        "desc": "Morning shopping and photography tour. Drop-off at airport or hotel with fond memories."
+      }
+    ],
+    "inclusions": [
+      "Private AC Transport (Car / Prado / Coaster) with driver & fuel",
+      "Official Tour Guide & Historian Services",
+      "All Toll Taxes, Parking & Highway Charges",
+      "Complimentary Mineral Water & Refreshments",
+      "Hotel Pickup & Drop-off Services"
+    ],
+    "exclusions": [
+      "Personal shopping & optional activities",
+      "Boating, water sports or chairlift tickets (unless specified)",
+      "Tips for guide & driver"
+    ],
+    "packages": [
+      {
+        "name": "Standard Package",
+        "price": "35,000",
+        "status": "available",
+        "features": [
+          "AC Coaster / Sedan Transport",
+          "Standard Hotel / Day Trip",
+          "Driver & Fuel Included"
+        ]
+      },
+      {
+        "name": "Deluxe Package",
+        "price": "47,250",
+        "status": "available",
+        "features": [
+          "AC Grand Cabin / Prado",
+          "Deluxe Hotel / Private Guide",
+          "Full Inclusions"
+        ]
+      },
+      {
+        "name": "Executive Package",
+        "price": "61,250",
+        "status": "available",
+        "features": [
+          "Luxury 4x4 Prado / SUV",
+          "Luxury 4-Star / 5-Star Hotel",
+          "VIP Concierge & Protocol"
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "q": "What is included in the tour pricing?",
+        "a": "Pricing includes private AC transport, professional driver, fuel, highway tolls, parking fees, and guide assistance."
+      },
+      {
+        "q": "Can this tour be customized?",
+        "a": "Yes! All tours can be customized for your exact pick-up location, time, and special itinerary preferences."
+      },
+      {
+        "q": "How do I book or confirm my reservation?",
+        "a": "You can book directly by clicking 'Book Now' or contacting our 24/7 WhatsApp concierge at +92 311 1145456."
+      }
+    ]
+  },
+  "foreign-34": {
+    "id": "foreign-34",
+    "title": "10 Days Cycling Event on KARAKURAM HIGHWAY",
+    "duration": "10 Days",
+    "location": "Pakistan",
+    "maxGroup": "Private & Group Options",
+    "difficulty": "Easy / Moderate",
+    "image": "images/foreign/item_34.jpg",
+    "price": "35,000",
+    "originalPrice": "40,250",
+    "departureDay": "Daily Private Departures & Fixed Group Departures",
+    "about": "Experience 10 Days Cycling Event on KARAKURAM HIGHWAY with Safar Silsila. This curated itinerary offers a complete journey through iconic landmarks, rich local culture, breathtaking scenery, and legendary regional cuisine. Includes professional guide, luxury AC transport, full ticket entry logistics, and official visa support.",
+    "highlights": [
+      "Complete guided excursion for 10 Days Cycling Event on KARAKURAM HIGHWAY",
+      "Private AC transport with driver, fuel, tolls & parking",
+      "Sightseeing at historical monuments, bazaars & viewpoints",
+      "Authentic regional food & tea tasting",
+      "24/7 dedicated travel concierge & emergency support"
+    ],
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "title": "Arrival & City Orientation",
+        "desc": "Pickup from hotel/airport. Orientation drive through historic landmarks, visit local bazaars, and enjoy welcome dinner."
+      },
+      {
+        "day": "Day 2",
+        "title": "Monuments & Cultural Sightseeing",
+        "desc": "Full day guided exploration of major historical monuments, ancient forts, and museum archives with expert local guide."
+      },
+      {
+        "day": "Day 3",
+        "title": "Scenic Valleys & Local Artisans",
+        "desc": "Visit artisan workshops, local markets, and surrounding natural viewpoints. Evening food street dinner."
+      },
+      {
+        "day": "Day 4",
+        "title": "Final Excursions & Departure",
+        "desc": "Morning shopping and photography tour. Drop-off at airport or hotel with fond memories."
+      }
+    ],
+    "inclusions": [
+      "Private AC Transport (Car / Prado / Coaster) with driver & fuel",
+      "Official Tour Guide & Historian Services",
+      "All Toll Taxes, Parking & Highway Charges",
+      "Complimentary Mineral Water & Refreshments",
+      "Hotel Pickup & Drop-off Services"
+    ],
+    "exclusions": [
+      "Personal shopping & optional activities",
+      "Boating, water sports or chairlift tickets (unless specified)",
+      "Tips for guide & driver"
+    ],
+    "packages": [
+      {
+        "name": "Standard Package",
+        "price": "35,000",
+        "status": "available",
+        "features": [
+          "AC Coaster / Sedan Transport",
+          "Standard Hotel / Day Trip",
+          "Driver & Fuel Included"
+        ]
+      },
+      {
+        "name": "Deluxe Package",
+        "price": "47,250",
+        "status": "available",
+        "features": [
+          "AC Grand Cabin / Prado",
+          "Deluxe Hotel / Private Guide",
+          "Full Inclusions"
+        ]
+      },
+      {
+        "name": "Executive Package",
+        "price": "61,250",
+        "status": "available",
+        "features": [
+          "Luxury 4x4 Prado / SUV",
+          "Luxury 4-Star / 5-Star Hotel",
+          "VIP Concierge & Protocol"
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "q": "What is included in the tour pricing?",
+        "a": "Pricing includes private AC transport, professional driver, fuel, highway tolls, parking fees, and guide assistance."
+      },
+      {
+        "q": "Can this tour be customized?",
+        "a": "Yes! All tours can be customized for your exact pick-up location, time, and special itinerary preferences."
+      },
+      {
+        "q": "How do I book or confirm my reservation?",
+        "a": "You can book directly by clicking 'Book Now' or contacting our 24/7 WhatsApp concierge at +92 311 1145456."
+      }
+    ]
+  },
+  "foreign-35": {
+    "id": "foreign-35",
+    "title": "Lahore City Tour – 02 Days",
+    "duration": "2 Days 1 Night",
+    "location": "Lahore, Punjab",
+    "maxGroup": "Private & Group Options",
+    "difficulty": "Easy / Moderate",
+    "image": "images/foreign/item_35.jpg",
+    "price": "35,000",
+    "originalPrice": "40,250",
+    "departureDay": "Daily Private Departures & Fixed Group Departures",
+    "about": "Experience Lahore City Tour – 02 Days with Safar Silsila. This curated itinerary offers a complete journey through iconic landmarks, rich local culture, breathtaking scenery, and legendary regional cuisine. Includes professional guide, luxury AC transport, full ticket entry logistics, and official visa support.",
+    "highlights": [
+      "Complete guided excursion for Lahore City Tour – 02 Days",
+      "Private AC transport with driver, fuel, tolls & parking",
+      "Sightseeing at historical monuments, bazaars & viewpoints",
+      "Authentic regional food & tea tasting",
+      "24/7 dedicated travel concierge & emergency support"
+    ],
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "title": "Arrival & City Orientation",
+        "desc": "Pickup from hotel/airport. Orientation drive through historic landmarks, visit local bazaars, and enjoy welcome dinner."
+      },
+      {
+        "day": "Day 2",
+        "title": "Monuments & Cultural Sightseeing",
+        "desc": "Full day guided exploration of major historical monuments, ancient forts, and museum archives with expert local guide."
+      },
+      {
+        "day": "Day 3",
+        "title": "Scenic Valleys & Local Artisans",
+        "desc": "Visit artisan workshops, local markets, and surrounding natural viewpoints. Evening food street dinner."
+      },
+      {
+        "day": "Day 4",
+        "title": "Final Excursions & Departure",
+        "desc": "Morning shopping and photography tour. Drop-off at airport or hotel with fond memories."
+      }
+    ],
+    "inclusions": [
+      "Private AC Transport (Car / Prado / Coaster) with driver & fuel",
+      "Official Tour Guide & Historian Services",
+      "All Toll Taxes, Parking & Highway Charges",
+      "Complimentary Mineral Water & Refreshments",
+      "Hotel Pickup & Drop-off Services"
+    ],
+    "exclusions": [
+      "Personal shopping & optional activities",
+      "Boating, water sports or chairlift tickets (unless specified)",
+      "Tips for guide & driver"
+    ],
+    "packages": [
+      {
+        "name": "Standard Package",
+        "price": "35,000",
+        "status": "available",
+        "features": [
+          "AC Coaster / Sedan Transport",
+          "Standard Hotel / Day Trip",
+          "Driver & Fuel Included"
+        ]
+      },
+      {
+        "name": "Deluxe Package",
+        "price": "47,250",
+        "status": "available",
+        "features": [
+          "AC Grand Cabin / Prado",
+          "Deluxe Hotel / Private Guide",
+          "Full Inclusions"
+        ]
+      },
+      {
+        "name": "Executive Package",
+        "price": "61,250",
+        "status": "available",
+        "features": [
+          "Luxury 4x4 Prado / SUV",
+          "Luxury 4-Star / 5-Star Hotel",
+          "VIP Concierge & Protocol"
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "q": "What is included in the tour pricing?",
+        "a": "Pricing includes private AC transport, professional driver, fuel, highway tolls, parking fees, and guide assistance."
+      },
+      {
+        "q": "Can this tour be customized?",
+        "a": "Yes! All tours can be customized for your exact pick-up location, time, and special itinerary preferences."
+      },
+      {
+        "q": "How do I book or confirm my reservation?",
+        "a": "You can book directly by clicking 'Book Now' or contacting our 24/7 WhatsApp concierge at +92 311 1145456."
+      }
+    ]
+  },
+  "foreign-36": {
+    "id": "foreign-36",
+    "title": "Tour of Karachi – 03 Days",
+    "duration": "3 Says 2 Nights",
+    "location": "Pakistan",
+    "maxGroup": "Private & Group Options",
+    "difficulty": "Easy / Moderate",
+    "image": "images/foreign/item_36.jpg",
+    "price": "14,000",
+    "originalPrice": "16,100",
+    "departureDay": "Daily Private Departures & Fixed Group Departures",
+    "about": "Experience Tour of Karachi – 03 Days with Safar Silsila. This curated itinerary offers a complete journey through iconic landmarks, rich local culture, breathtaking scenery, and legendary regional cuisine. Includes professional guide, luxury AC transport, full ticket entry logistics, and official visa support.",
+    "highlights": [
+      "Complete guided excursion for Tour of Karachi – 03 Days",
+      "Private AC transport with driver, fuel, tolls & parking",
+      "Sightseeing at historical monuments, bazaars & viewpoints",
+      "Authentic regional food & tea tasting",
+      "24/7 dedicated travel concierge & emergency support"
+    ],
+    "itinerary": [
+      {
+        "day": "Morning",
+        "title": "Pickup & Departure",
+        "desc": "07:30 AM pickup from hotel/residence in private AC vehicle. Drive along scenic highway with morning refreshment stop."
+      },
+      {
+        "day": "Afternoon",
+        "title": "Guided Monument & Activity Exploration",
+        "desc": "Arrive at destination. Guided tour of key monuments, scenic viewpoints, water activities, and photography stops."
+      },
+      {
+        "day": "Evening",
+        "title": "Local Food Tasting & Return",
+        "desc": "Enjoy famous local street food feast & traditional chai. Return drive with drop-off at your hotel by 07:00 PM."
+      }
+    ],
+    "inclusions": [
+      "Private AC Transport (Car / Prado / Coaster) with driver & fuel",
+      "Official Tour Guide & Historian Services",
+      "All Toll Taxes, Parking & Highway Charges",
+      "Complimentary Mineral Water & Refreshments",
+      "Hotel Pickup & Drop-off Services"
+    ],
+    "exclusions": [
+      "Personal shopping & optional activities",
+      "Boating, water sports or chairlift tickets (unless specified)",
+      "Tips for guide & driver"
+    ],
+    "packages": [
+      {
+        "name": "Standard Package",
+        "price": "14,000",
+        "status": "available",
+        "features": [
+          "AC Coaster / Sedan Transport",
+          "Standard Hotel / Day Trip",
+          "Driver & Fuel Included"
+        ]
+      },
+      {
+        "name": "Deluxe Package",
+        "price": "18,900",
+        "status": "available",
+        "features": [
+          "AC Grand Cabin / Prado",
+          "Deluxe Hotel / Private Guide",
+          "Full Inclusions"
+        ]
+      },
+      {
+        "name": "Executive Package",
+        "price": "24,500",
+        "status": "available",
+        "features": [
+          "Luxury 4x4 Prado / SUV",
+          "Luxury 4-Star / 5-Star Hotel",
+          "VIP Concierge & Protocol"
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "q": "What is included in the tour pricing?",
+        "a": "Pricing includes private AC transport, professional driver, fuel, highway tolls, parking fees, and guide assistance."
+      },
+      {
+        "q": "Can this tour be customized?",
+        "a": "Yes! All tours can be customized for your exact pick-up location, time, and special itinerary preferences."
       },
       {
         "q": "How do I book or confirm my reservation?",
