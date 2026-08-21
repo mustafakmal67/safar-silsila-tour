@@ -626,6 +626,14 @@
           </p>
         </section>
 
+        <!-- Pricing & Seasonal Rates Table Section -->
+        <section id="details-pricing-table-section" class="details-section" style="display: none;">
+          <h2 class="section-title"><i class="ph ph-currency-dollar"></i> Exact Tour Pricing &amp; Seasonal Rates</h2>
+          <div id="details-pricing-table-content" class="table-responsive" style="overflow-x: auto;">
+            <!-- Dynamic scraped pricing table -->
+          </div>
+        </section>
+
         <!-- Highlights Section -->
         <section class="details-section">
           <h2 class="section-title"><i class="ph ph-star-of-life"></i> Tour Highlights</h2>
@@ -934,6 +942,16 @@
 
       // About Text
       document.getElementById('details-about-text').innerText = tour.about;
+
+      // Scraped Pricing Table Rendering
+      const tableSection = document.getElementById('details-pricing-table-section');
+      const tableContent = document.getElementById('details-pricing-table-content');
+      if (tour.tableHtml && tableSection && tableContent) {
+        tableSection.style.display = 'block';
+        tableContent.innerHTML = tour.tableHtml;
+      } else if (tableSection) {
+        tableSection.style.display = 'none';
+      }
 
       // Highlights
       const highlightsGrid = document.getElementById('details-highlights-grid');
