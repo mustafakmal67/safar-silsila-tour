@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 533" width="800" height="533">
+  <defs>
+    <linearGradient id="skyGrad_festivals_1" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#301828" />
+      <stop offset="100%" stop-color="#170a13" />
+    </linearGradient>
+    <linearGradient id="mountGrad_festivals_1" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#632850" />
+      <stop offset="100%" stop-color="#170a13" />
+    </linearGradient>
+    <linearGradient id="accentGrad_festivals_1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#e6af2e" />
+      <stop offset="100%" stop-color="#ffffff" />
+    </linearGradient>
+    <filter id="shadow_festivals_1">
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#000000" flood-opacity="0.6"/>
+    </filter>
+  </defs>
+
+  <!-- Background Sky -->
+  <rect width="800" height="533" fill="url(#skyGrad_festivals_1)" />
+
+  <!-- Stars / Atmosphere particles -->
+  <circle cx="120" cy="80" r="1.5" fill="#ffffff" opacity="0.5"/>
+  <circle cx="280" cy="110" r="2" fill="#ffffff" opacity="0.7"/>
+  <circle cx="450" cy="60" r="1.2" fill="#ffffff" opacity="0.4"/>
+  <circle cx="680" cy="95" r="1.8" fill="#ffffff" opacity="0.6"/>
+  <circle cx="740" cy="140" r="1" fill="#ffffff" opacity="0.5"/>
+
+  <!-- Sun / Moon glow -->
+  <circle cx="650" cy="120" r="50" fill="#e6af2e" opacity="0.15" />
+  <circle cx="650" cy="120" r="30" fill="#e6af2e" opacity="0.25" />
+
+  <!-- Mountain Silhouettes Range 1 (Background) -->
+  <polygon points="-50,380 120,240 280,360 420,210 600,380 750,230 850,380 850,533 -50,533" fill="#632850" opacity="0.5" />
+
+  <!-- Snow Caps Range 1 -->
+  <polygon points="120,240 145,275 95,275" fill="#fadbd8" opacity="0.6" />
+  <polygon points="420,210 445,245 395,245" fill="#fadbd8" opacity="0.6" />
+  <polygon points="750,230 775,265 725,265" fill="#fadbd8" opacity="0.6" />
+
+  <!-- Mountain Silhouettes Range 2 (Foreground) -->
+  <polygon points="-50,420 80,310 240,440 380,280 560,430 710,290 850,420 850,533 -50,533" fill="url(#mountGrad_festivals_1)" />
+  
+  <!-- Snow Caps Range 2 -->
+  <polygon points="80,310 105,345 55,345" fill="#fadbd8" opacity="0.85" />
+  <polygon points="380,280 410,320 350,320" fill="#fadbd8" opacity="0.85" />
+  <polygon points="710,290 735,325 685,325" fill="#fadbd8" opacity="0.85" />
+
+  <!-- Foreground Valley River / Reflection -->
+  <path d="M 0,533 Q 300,460 400,470 T 800,533 Z" fill="#e6af2e" opacity="0.1" />
+
+  <!-- Dark Bottom Vignette Overlay for Title Contrast -->
+  <rect y="330" width="800" height="203" fill="url(#skyGrad_festivals_1)" opacity="0.85" />
+
+  <!-- Location Badge Box -->
+  <rect x="36" y="38" width="180" height="32" rx="16" fill="rgba(12,18,15,0.75)" stroke="#e6af2e" stroke-width="1.5" filter="url(#shadow_festivals_1)"/>
+  <text x="52" y="59" fill="#e6af2e" font-family="'Outfit', sans-serif" font-size="13" font-weight="700" letter-spacing="1">SAFAR SILSILA</text>
+
+  <!-- Destination Title Overlay -->
+  <text x="36" y="440" fill="#ffffff" font-family="'Outfit', sans-serif" font-size="26" font-weight="800" filter="url(#shadow_festivals_1)">Shandur Polo Festival</text>
+  
+  <!-- Subtitle & Icon -->
+  <text x="36" y="475" fill="#e6af2e" font-family="'Plus Jakarta Sans', sans-serif" font-size="15" font-weight="600">🎆 Certified Expeditions • 14 Days 13 Nights</text>
+</svg>
