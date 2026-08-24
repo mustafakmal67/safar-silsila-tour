@@ -657,16 +657,26 @@
       const selectedTour = urlParams.get('tour');
       const selectedPackage = urlParams.get('package');
       const paramTravelers = parseInt(urlParams.get('travelers'));
+      const paramMale = parseInt(urlParams.get('male'));
+      const paramFemale = parseInt(urlParams.get('female'));
       const paramDate = urlParams.get('date');
       const paramName = urlParams.get('name');
       const paramPhone = urlParams.get('phone');
+      const paramCnic = urlParams.get('cnic');
+      const paramEmergency = urlParams.get('emergency');
       const paramEmail = urlParams.get('email');
       const paramPickup = urlParams.get('pickup');
+      const paramJeep = urlParams.get('jeep');
 
       if (selectedTour) {
         tourSelect.value = selectedTour;
       }
-      if (paramTravelers && paramTravelers > 0) {
+      
+      if (!isNaN(paramMale) || !isNaN(paramFemale)) {
+        maleCount = !isNaN(paramMale) ? paramMale : 1;
+        femaleCount = !isNaN(paramFemale) ? paramFemale : 0;
+        updatePersonCountersUI();
+      } else if (paramTravelers && paramTravelers > 0) {
         maleCount = paramTravelers;
         femaleCount = 0;
         updatePersonCountersUI();
@@ -681,8 +691,25 @@
       if (paramPhone) {
         document.getElementById('booking-phone').value = paramPhone;
       }
+      if (paramCnic) {
+        document.getElementById('booking-cnic').value = paramCnic;
+      }
+      if (paramEmergency) {
+        document.getElementById('booking-emergency').value = paramEmergency;
+      }
       if (paramEmail) {
         document.getElementById('booking-email').value = paramEmail;
+      }
+
+      // Handle Jeep selection from query
+      if (paramJeep) {
+        const jeepRadios = document.getElementsByName('booking-jeep');
+        for (let jr of jeepRadios) {
+          if (jr.value === paramJeep) {
+            jr.checked = true;
+            break;
+          }
+        }
       }
 
       // If package is passed in query, auto-check it
@@ -690,7 +717,7 @@
         setTimeout(() => {
           const radios = document.getElementsByName('booking-package');
           for (let r of radios) {
-            if (r.value === selectedPackage) {
+            if (r.value === selectedPackage || r.value.startsWith(selectedPackage)) {
               r.checked = true;
               break;
             }
@@ -707,7 +734,28 @@
       if (privateAddress) privateAddress.addEventListener('input', onPickupChange);
       if (customPickupText) customPickupText.addEventListener('input', onPickupChange);
 
-      onPickupChange();
+      if (paramPickup) {
+        setTimeout(() => {
+          const pickupRadios = document.getElementsByName('booking-pickup');
+          let matched = false;
+          for (let pr of pickupRadios) {
+            if (pr.value === paramPickup || pr.value.includes(paramPickup)) {
+              pr.checked = true;
+              matched = true;
+              break;
+            }
+          }
+          if (!matched && customPickupText) {
+            const customRadio = document.querySelector('input[name="booking-pickup"][value="custom_pickup"]');
+            if (customRadio) customRadio.checked = true;
+            customPickupText.value = paramPickup;
+          }
+          onPickupChange();
+          calculateTotal();
+        }, 120);
+      } else {
+        onPickupChange();
+      }
     });
 
     function updateCounter(type, change) {

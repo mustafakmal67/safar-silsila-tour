@@ -717,51 +717,112 @@
           <p class="sidebar-price-label">Package Starting From</p>
           <div class="sidebar-price-value">Rs <span id="sidebar-price">33,500</span> <small>/ person</small></div>
           
-          <h3 class="sidebar-form-title">Book / Request A Quote</h3>
+          <h3 class="sidebar-form-title"><i class="ph ph-receipt"></i> Book / Reserve This Tour</h3>
           
           <form id="booking-quote-form" onsubmit="handleQuoteSubmit(event)">
+            <!-- 1. Sharing / Package Type -->
             <div class="sidebar-field-group">
-              <label class="sidebar-label" for="booking-name">Full Name *</label>
-              <input class="sidebar-input" id="booking-name" placeholder="E.g. Ali Ahmed" type="text" required>
-            </div>
-            
-            <div class="sidebar-field-group">
-              <label class="sidebar-label" for="booking-whatsapp">WhatsApp Number *</label>
-              <input class="sidebar-input" id="booking-whatsapp" placeholder="E.g. +92 300 1234567" type="tel" required>
-            </div>
-            
-            <div class="sidebar-field-group">
-              <label class="sidebar-label" for="booking-email">Email Address *</label>
-              <input class="sidebar-input" id="booking-email" placeholder="E.g. ali@gmail.com" type="email" required>
-            </div>
-
-            <div class="sidebar-field-group">
-              <label class="sidebar-label" for="booking-package">Select Package *</label>
-              <select class="sidebar-input" id="booking-package" required>
+              <label class="sidebar-label" for="booking-package"><i class="ph ph-package"></i> Package / Sharing Option *</label>
+              <select class="sidebar-input" id="booking-package" required onchange="calculateSidebarTotal()">
                 <!-- Dynamic dropdown options -->
               </select>
             </div>
 
-            <div class="sidebar-field-group" style="display: grid; grid-template-columns: 1.2fr 1fr; gap: 12px;">
-              <div>
-                <label class="sidebar-label" for="booking-date">Departure Date *</label>
-                <div id="booking-date-container">
-                  <input class="sidebar-input" id="booking-date" type="date" required>
-                </div>
-              </div>
-              <div>
-                <label class="sidebar-label" for="booking-travelers">Travelers *</label>
-                <input class="sidebar-input" id="booking-travelers" type="number" min="1" value="1" required>
+            <!-- 2. Departure Date -->
+            <div class="sidebar-field-group">
+              <label class="sidebar-label" for="booking-date"><i class="ph ph-calendar"></i> Travel Date *</label>
+              <div id="booking-date-container">
+                <input class="sidebar-input" id="booking-date" type="date" required onchange="calculateSidebarTotal()">
               </div>
             </div>
 
-            <button type="submit" class="sidebar-btn">
-              Proceed to Booking Portal <i class="ph ph-arrow-right"></i>
+            <!-- 3. Travelers (Male / Female) -->
+            <div class="sidebar-field-group" style="display: grid; grid-template-columns: 1fr 1fr; gap: 10px;">
+              <div>
+                <label class="sidebar-label" for="sidebar-male"><i class="ph ph-gender-male"></i> Male (M) *</label>
+                <input class="sidebar-input" id="sidebar-male" type="number" min="0" value="1" required onchange="calculateSidebarTotal()" oninput="calculateSidebarTotal()">
+              </div>
+              <div>
+                <label class="sidebar-label" for="sidebar-female"><i class="ph ph-gender-female"></i> Female (F)</label>
+                <input class="sidebar-input" id="sidebar-female" type="number" min="0" value="0" required onchange="calculateSidebarTotal()" oninput="calculateSidebarTotal()">
+              </div>
+            </div>
+
+            <!-- 4. Pick-up Location -->
+            <div class="sidebar-field-group">
+              <label class="sidebar-label" for="sidebar-pickup"><i class="ph ph-map-pin"></i> Pick-up Location *</label>
+              <select class="sidebar-input" id="sidebar-pickup" required onchange="onSidebarPickupChange()">
+                <option value="Lahore (Thokar Niaz Baig / Daewoo)">Lahore (Thokar Niaz Baig / Daewoo)</option>
+                <option value="Islamabad / Rawalpindi (Faizabad / I-8)">Islamabad / Rawalpindi (Faizabad / I-8)</option>
+                <option value="custom_sidebar_pickup">Other / Custom Pick-up Point</option>
+              </select>
+              <div id="sidebar-custom-pickup-box" style="display: none; margin-top: 8px;">
+                <input class="sidebar-input" id="sidebar-custom-pickup-text" placeholder="Enter specific city or pickup point..." type="text">
+              </div>
+            </div>
+
+            <!-- 5. 4x4 Jeep Safari (Include / Not Include) -->
+            <div class="sidebar-field-group">
+              <label class="sidebar-label"><i class="ph ph-jeep"></i> 4x4 Jeep Safari *</label>
+              <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 8px;">
+                <label style="display: flex; align-items: center; gap: 6px; font-size: 12px; color: #fff; background: rgba(255,255,255,0.05); padding: 8px 10px; border-radius: var(--radius-md); border: 1px solid rgba(255,255,255,0.15); cursor: pointer;">
+                  <input type="radio" name="sidebar-jeep" value="yes" checked onchange="calculateSidebarTotal()" style="accent-color: var(--sunset-accent);">
+                  <span id="sidebar-jeep-yes-label">Include Jeep</span>
+                </label>
+                <label style="display: flex; align-items: center; gap: 6px; font-size: 12px; color: #fff; background: rgba(255,255,255,0.05); padding: 8px 10px; border-radius: var(--radius-md); border: 1px solid rgba(255,255,255,0.15); cursor: pointer;">
+                  <input type="radio" name="sidebar-jeep" value="no" onchange="calculateSidebarTotal()" style="accent-color: var(--sunset-accent);">
+                  <span>Not Include</span>
+                </label>
+              </div>
+            </div>
+
+            <!-- 6. Full Name & Contact -->
+            <div class="sidebar-field-group">
+              <label class="sidebar-label" for="booking-name"><i class="ph ph-user"></i> Full Name *</label>
+              <input class="sidebar-input" id="booking-name" placeholder="E.g. Muhammad Abdullah" type="text" required>
+            </div>
+            
+            <div class="sidebar-field-group">
+              <label class="sidebar-label" for="booking-whatsapp"><i class="ph ph-whatsapp-logo"></i> WhatsApp Number *</label>
+              <input class="sidebar-input" id="booking-whatsapp" placeholder="03XXXXXXXXX" type="tel" required>
+            </div>
+
+            <!-- 7. CNIC & Emergency Contact -->
+            <div class="sidebar-field-group">
+              <label class="sidebar-label" for="booking-cnic"><i class="ph ph-identification-card"></i> CNIC / Passport No *</label>
+              <input class="sidebar-input" id="booking-cnic" placeholder="35201-XXXXXXX-X" type="text" required>
+            </div>
+
+            <div class="sidebar-field-group">
+              <label class="sidebar-label" for="booking-emergency"><i class="ph ph-first-aid"></i> Emergency Contact *</label>
+              <input class="sidebar-input" id="booking-emergency" placeholder="0300-XXXXXXX (Relation)" type="text" required>
+            </div>
+
+            <div class="sidebar-field-group">
+              <label class="sidebar-label" for="booking-email"><i class="ph ph-envelope"></i> Email Address</label>
+              <input class="sidebar-input" id="booking-email" placeholder="client@example.com" type="email">
+            </div>
+
+            <!-- Live Total Display Card -->
+            <div style="background: rgba(163, 184, 123, 0.1); border: 1px solid var(--sunset-accent); border-radius: var(--radius-md); padding: 12px 14px; margin-top: 18px;">
+              <div style="display: flex; justify-content: space-between; font-size: 11px; color: rgba(255,255,255,0.7); margin-bottom: 4px;">
+                <span>Estimated Payable:</span>
+                <span id="sidebar-calc-breakdown">1 Person</span>
+              </div>
+              <div style="display: flex; justify-content: space-between; align-items: baseline;">
+                <span style="font-size: 13px; font-weight: 700; color: var(--snow-peak);">Total:</span>
+                <span id="sidebar-calc-total" style="font-size: 20px; font-weight: 800; color: var(--sunset-accent-bright);">Rs 0</span>
+              </div>
+            </div>
+
+            <!-- Action Buttons -->
+            <button type="button" class="sidebar-btn" onclick="submitToWhatsApp()" style="margin-top: 16px; background: #25d366; color: #ffffff;">
+              <i class="ph ph-whatsapp-logo" style="font-size: 18px;"></i> Book via WhatsApp
             </button>
 
-            <a id="whatsapp-direct-link" href="booking.html" class="sidebar-whatsapp-action" style="background: rgba(255,255,255,0.03); border: 1px solid rgba(255,255,255,0.1); color: var(--sunset-accent);">
-              <i class="ph ph-calendar-plus" style="font-size: 20px;"></i> Direct Booking Portal
-            </a>
+            <button type="submit" class="sidebar-btn" style="margin-top: 10px; background: var(--sunset-accent); color: #0c1821;">
+              <i class="ph ph-printer"></i> Generate Invoice / Portal
+            </button>
           </form>
         </div>
       </aside>
@@ -1102,8 +1163,30 @@
       const packageDropdown = document.getElementById('booking-package');
       const availablePackages = tour.packages.filter(pkg => pkg.status !== "unavailable" && pkg.price !== "N/A");
       packageDropdown.innerHTML = availablePackages.map(pkg => `
-        <option value="${pkg.name} (Rs ${pkg.price})">${pkg.name} (Rs ${pkg.price})</option>
+        <option value="${pkg.name}" data-price="${pkg.price}">${pkg.name} (Rs ${pkg.price})</option>
       `).join('');
+
+      // Setup Jeep Price Label from tour data
+      const jeepYesLabel = document.getElementById('sidebar-jeep-yes-label');
+      window.currentTourJeepRate = 0;
+      window.currentTourJeepIncluded = false;
+
+      if (tour.jeepCharges) {
+        if (tour.jeepCharges.toLowerCase().includes('included')) {
+          window.currentTourJeepIncluded = true;
+          if (jeepYesLabel) jeepYesLabel.innerText = 'Include Jeep (Included)';
+        } else {
+          const match = tour.jeepCharges.replace(/,/g, '').match(/\d+/);
+          if (match) {
+            window.currentTourJeepRate = parseInt(match[0]);
+            if (jeepYesLabel) jeepYesLabel.innerText = `Include Jeep (+Rs ${window.currentTourJeepRate.toLocaleString()}/Head)`;
+          } else {
+            if (jeepYesLabel) jeepYesLabel.innerText = `Include Jeep (${tour.jeepCharges})`;
+          }
+        }
+      } else {
+        if (jeepYesLabel) jeepYesLabel.innerText = 'Include Jeep';
+      }
 
       // Populate sidebar date dropdown
       const sidebarDateContainer = document.getElementById('booking-date-container');
@@ -1130,7 +1213,7 @@
           }
 
           sidebarDateContainer.innerHTML = `
-            <select id="booking-date" class="sidebar-input" required onchange="updateWhatsAppLink()">
+            <select id="booking-date" class="sidebar-input" required onchange="calculateSidebarTotal()">
               ${dates.map(d => `<option value="${d.val}">${d.label}</option>`).join('')}
             </select>
             <div style="font-size: 11.5px; color: var(--sunset-accent); margin-top: 8px; line-height: 1.4; display: flex; align-items: flex-start; gap: 6px;">
@@ -1143,13 +1226,13 @@
           tomorrow.setDate(tomorrow.getDate() + 1);
           const minDate = tomorrow.toISOString().split('T')[0];
           sidebarDateContainer.innerHTML = `
-            <input class="sidebar-input" id="booking-date" type="date" min="${minDate}" value="${minDate}" required onchange="updateWhatsAppLink()">
+            <input class="sidebar-input" id="booking-date" type="date" min="${minDate}" value="${minDate}" required onchange="calculateSidebarTotal()">
           `;
         }
       }
 
-      // Set direct whatsapp query link base
-      updateWhatsAppLink();
+      // Initial calculation
+      calculateSidebarTotal();
     }
 
     // Toggle Accordion Function
@@ -1161,7 +1244,6 @@
         item.classList.remove('open');
         body.style.maxHeight = '0';
       } else {
-        // Optional: close other open accordion items
         const siblings = item.parentNode.querySelectorAll('.accordion-item');
         siblings.forEach(sib => {
           sib.classList.remove('open');
@@ -1191,44 +1273,161 @@
       `).join('');
     }
 
-    // Handle dynamic booking link generation
-    function updateWhatsAppLink() {
-      const name = encodeURIComponent(document.getElementById('booking-name').value || '');
-      const pkgVal = document.getElementById('booking-package').value || '';
-      let pkgName = pkgVal;
-      if (pkgName.includes(' (Rs ')) {
-        pkgName = pkgName.split(' (Rs ')[0];
+    function onSidebarPickupChange() {
+      const select = document.getElementById('sidebar-pickup');
+      const customBox = document.getElementById('sidebar-custom-pickup-box');
+      if (select && customBox) {
+        if (select.value === 'custom_sidebar_pickup') {
+          customBox.style.display = 'block';
+        } else {
+          customBox.style.display = 'none';
+        }
       }
-      const travelers = encodeURIComponent(document.getElementById('booking-travelers').value || '1');
-      const date = encodeURIComponent(document.getElementById('booking-date').value || '');
-      
-      const portalUrl = `booking.html?tour=${encodeURIComponent(tour.id)}&package=${encodeURIComponent(pkgName)}&travelers=${travelers}&date=${date}&name=${name}`;
-      document.getElementById('whatsapp-direct-link').href = portalUrl;
     }
 
-    // Add listeners to update the Booking link dynamically as they type!
-    document.getElementById('booking-name').addEventListener('input', updateWhatsAppLink);
-    document.getElementById('booking-package').addEventListener('change', updateWhatsAppLink);
-    document.getElementById('booking-travelers').addEventListener('input', updateWhatsAppLink);
-    document.getElementById('booking-date').addEventListener('change', updateWhatsAppLink);
+    function getSidebarPickupLocation() {
+      const select = document.getElementById('sidebar-pickup');
+      if (!select) return 'Lahore';
+      if (select.value === 'custom_sidebar_pickup') {
+        const customText = document.getElementById('sidebar-custom-pickup-text').value.trim();
+        return customText ? `Custom Pickup: ${customText}` : 'Other Location';
+      }
+      return select.value;
+    }
+
+    function calculateSidebarTotal() {
+      const packageDropdown = document.getElementById('booking-package');
+      if (!packageDropdown || !packageDropdown.options[packageDropdown.selectedIndex]) return 0;
+      
+      const selectedOption = packageDropdown.options[packageDropdown.selectedIndex];
+      const basePrice = parseFloat(selectedOption.dataset.price.replace(/,/g, '')) || 0;
+
+      const maleCount = parseInt(document.getElementById('sidebar-male').value) || 0;
+      const femaleCount = parseInt(document.getElementById('sidebar-female').value) || 0;
+      const totalPersons = Math.max(1, maleCount + femaleCount);
+
+      const isJeepYes = document.querySelector('input[name="sidebar-jeep"]:checked')?.value === 'yes';
+      let jeepAddition = 0;
+      if (isJeepYes && !window.currentTourJeepIncluded && window.currentTourJeepRate > 0) {
+        jeepAddition = window.currentTourJeepRate * totalPersons;
+      }
+
+      const total = (basePrice * totalPersons) + jeepAddition;
+
+      const breakdownEl = document.getElementById('sidebar-calc-breakdown');
+      const totalEl = document.getElementById('sidebar-calc-total');
+
+      if (breakdownEl) {
+        breakdownEl.innerText = `${totalPersons} Person${totalPersons > 1 ? 's' : ''}${isJeepYes && jeepAddition > 0 ? ' (Jeep Incl.)' : ''}`;
+      }
+      if (totalEl) {
+        totalEl.innerText = `Rs ${total.toLocaleString()}`;
+      }
+
+      return total;
+    }
+
+    function validateSidebarForm() {
+      const name = document.getElementById('booking-name').value.trim();
+      const phone = document.getElementById('booking-whatsapp').value.trim();
+      const cnic = document.getElementById('booking-cnic').value.trim();
+      const emergency = document.getElementById('booking-emergency').value.trim();
+      const date = document.getElementById('booking-date').value;
+
+      if (!name) {
+        alert('Please enter your Full Name.');
+        document.getElementById('booking-name').focus();
+        return false;
+      }
+      if (!phone) {
+        alert('Please enter your Contact / WhatsApp Number.');
+        document.getElementById('booking-whatsapp').focus();
+        return false;
+      }
+      if (!cnic) {
+        alert('Please enter your CNIC / Passport Number.');
+        document.getElementById('booking-cnic').focus();
+        return false;
+      }
+      if (!emergency) {
+        alert('Please enter an Emergency Contact.');
+        document.getElementById('booking-emergency').focus();
+        return false;
+      }
+      if (!date) {
+        alert('Please select your preferred Travel Date.');
+        return false;
+      }
+      return true;
+    }
+
+    function submitToWhatsApp() {
+      if (!validateSidebarForm()) return;
+
+      const name = document.getElementById('booking-name').value.trim();
+      const phone = document.getElementById('booking-whatsapp').value.trim();
+      const cnic = document.getElementById('booking-cnic').value.trim();
+      const emergency = document.getElementById('booking-emergency').value.trim();
+      const email = document.getElementById('booking-email').value.trim() || 'Not Provided';
+      
+      const packageDropdown = document.getElementById('booking-package');
+      const pkgName = packageDropdown ? packageDropdown.value : 'Standard Package';
+      const date = document.getElementById('booking-date').value;
+
+      const male = parseInt(document.getElementById('sidebar-male').value) || 0;
+      const female = parseInt(document.getElementById('sidebar-female').value) || 0;
+      const totalPersons = Math.max(1, male + female);
+      const personsStr = `${totalPersons} (M: ${male} | F: ${female})`;
+
+      const isJeepYes = document.querySelector('input[name="sidebar-jeep"]:checked')?.value === 'yes';
+      const jeepStr = isJeepYes ? (window.currentTourJeepIncluded ? 'Yes (Included)' : 'Yes') : 'No';
+
+      const pickupLocation = getSidebarPickupLocation();
+      const total = calculateSidebarTotal();
+
+      // Compile WhatsApp details message matching client specification
+      const waMessage = `*SAFAR SILSILA – BOOKING FORM*\n\n` +
+        `Trip Name: ${tour.title}\n\n` +
+        `Travel Date: ${date}\n\n` +
+        `Name: ${name}\n\n` +
+        `Contact: ${phone}\n\n` +
+        `CNIC: ${cnic}\n\n` +
+        `Emergency Contact: ${emergency}\n\n` +
+        `Package Type: ${pkgName}\n\n` +
+        `Persons: ${personsStr}\n\n` +
+        `Jeep: ${jeepStr}\n\n` +
+        `Pick-up: ${pickupLocation}\n\n` +
+        `Total Estimated Cost: Rs ${total.toLocaleString()}` +
+        (email !== 'Not Provided' ? `\n\nEmail: ${email}` : '');
+
+      const waUrl = `https://wa.me/923111145456?text=${encodeURIComponent(waMessage)}`;
+      window.open(waUrl, '_blank');
+    }
 
     function handleQuoteSubmit(e) {
       e.preventDefault();
-      // Form values
-      const name = document.getElementById('booking-name').value;
-      const whatsapp = document.getElementById('booking-whatsapp').value;
-      const email = document.getElementById('booking-email').value;
-      
-      let pkgVal = document.getElementById('booking-package').value;
-      if (pkgVal.includes(' (Rs ')) {
-        pkgVal = pkgVal.split(' (Rs ')[0];
-      }
-      
-      const date = document.getElementById('booking-date').value;
-      const travelers = document.getElementById('booking-travelers').value;
+      if (!validateSidebarForm()) return;
 
-      // Redirect to Booking Portal
-      const portalUrl = `booking.html?tour=${encodeURIComponent(tour.id)}&package=${encodeURIComponent(pkgVal)}&travelers=${encodeURIComponent(travelers)}&date=${encodeURIComponent(date)}&name=${encodeURIComponent(name)}&phone=${encodeURIComponent(whatsapp)}&email=${encodeURIComponent(email)}`;
+      const name = document.getElementById('booking-name').value.trim();
+      const phone = document.getElementById('booking-whatsapp').value.trim();
+      const cnic = document.getElementById('booking-cnic').value.trim();
+      const emergency = document.getElementById('booking-emergency').value.trim();
+      const email = document.getElementById('booking-email').value.trim();
+      
+      const packageDropdown = document.getElementById('booking-package');
+      const pkgName = packageDropdown ? packageDropdown.value : 'Standard Package';
+      const date = document.getElementById('booking-date').value;
+
+      const male = parseInt(document.getElementById('sidebar-male').value) || 0;
+      const female = parseInt(document.getElementById('sidebar-female').value) || 0;
+      const totalPersons = Math.max(1, male + female);
+
+      const isJeepYes = document.querySelector('input[name="sidebar-jeep"]:checked')?.value === 'yes';
+      const jeepVal = isJeepYes ? 'yes' : 'no';
+      const pickupLocation = getSidebarPickupLocation();
+
+      // Redirect to Booking Portal with all filled parameters
+      const portalUrl = `booking.html?tour=${encodeURIComponent(tour.id)}&package=${encodeURIComponent(pkgName)}&travelers=${totalPersons}&male=${male}&female=${female}&date=${encodeURIComponent(date)}&name=${encodeURIComponent(name)}&phone=${encodeURIComponent(phone)}&cnic=${encodeURIComponent(cnic)}&emergency=${encodeURIComponent(emergency)}&email=${encodeURIComponent(email)}&pickup=${encodeURIComponent(pickupLocation)}&jeep=${jeepVal}`;
       window.location.href = portalUrl;
     }
   </script>
