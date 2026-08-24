@@ -108,7 +108,7 @@
       <section class="booking-form-panel">
         <form id="booking-checkout-form">
           
-          <!-- STEP 1: SELECT TOUR -->
+          <!-- STEP 1: SELECT TOUR & PACKAGE -->
           <div class="booking-step-section">
             <div class="step-title-wrap">
               <span class="step-badge">1</span>
@@ -117,32 +117,32 @@
             
             <div class="form-group-row">
               <div>
-                <label class="form-field-label" for="booking-tour-select">Select Tour Package</label>
+                <label class="form-field-label" for="booking-tour-select"><i class="ph ph-map-pin"></i> Trip Name</label>
                 <select id="booking-tour-select" class="booking-select" onchange="onTourChange()">
-                  <option value="custom">Custom Itinerary (Build Your Own)</option>
+                  <option value="custom">Custom Itinerary (Private / Build Your Own)</option>
                   <!-- Dynamically populated -->
                 </select>
               </div>
             </div>
 
             <div style="margin-top: 20px;">
-              <label class="form-field-label">Select Package Surcharge Option</label>
+              <label class="form-field-label"><i class="ph ph-package"></i> Select Package Type</label>
               <div class="option-pill-grid" id="package-options-container">
                 <!-- Dynamically populated -->
               </div>
             </div>
           </div>
 
-          <!-- STEP 2: DATES & TRAVELERS -->
+          <!-- STEP 2: DATES & PERSONS BREAKDOWN -->
           <div class="booking-step-section">
             <div class="step-title-wrap">
               <span class="step-badge">2</span>
-              <h2 class="step-title">Travel Dates & Group Size</h2>
+              <h2 class="step-title">Travel Dates & Group Size (Persons)</h2>
             </div>
 
             <div class="form-group-row form-group-row-2">
               <div>
-                <label class="form-field-label" for="booking-start-date" id="booking-date-label">Preferred Start Date</label>
+                <label class="form-field-label" for="booking-start-date" id="booking-date-label"><i class="ph ph-calendar"></i> Travel Date</label>
                 <div id="booking-date-container">
                   <input type="date" id="booking-start-date" class="booking-input" required onchange="calculateTotal()">
                 </div>
@@ -158,30 +158,179 @@
               </div>
             </div>
 
-            <div class="form-group-row form-group-row-2" style="margin-top: 24px; gap: 32px;">
-              <div>
-                <label class="form-field-label">Adults <span style="font-size: 10px; color: rgba(255,255,255,0.4); text-transform: none;">(Age 10+)</span></label>
-                <div class="counter-container">
-                  <button type="button" class="counter-btn" onclick="updateCounter('adults', -1)">-</button>
-                  <span class="counter-value" id="count-adults">1</span>
-                  <button type="button" class="counter-btn" onclick="updateCounter('adults', 1)">+</button>
+            <div style="margin-top: 24px;">
+              <label class="form-field-label"><i class="ph ph-users-three"></i> Persons Breakdown (Male / Female / Children)</label>
+              <div class="gender-counters-grid">
+                <!-- Male Travelers -->
+                <div class="counter-card">
+                  <span class="counter-card-title"><i class="ph ph-gender-male text-sunset-accent"></i> Male (M)</span>
+                  <span class="counter-card-sub">Adults Age 10+</span>
+                  <div class="counter-container">
+                    <button type="button" class="counter-btn" onclick="updateCounter('male', -1)">-</button>
+                    <span class="counter-value" id="count-male">1</span>
+                    <button type="button" class="counter-btn" onclick="updateCounter('male', 1)">+</button>
+                  </div>
+                </div>
+
+                <!-- Female Travelers -->
+                <div class="counter-card">
+                  <span class="counter-card-title"><i class="ph ph-gender-female text-sunset-accent"></i> Female (F)</span>
+                  <span class="counter-card-sub">Adults Age 10+</span>
+                  <div class="counter-container">
+                    <button type="button" class="counter-btn" onclick="updateCounter('female', -1)">-</button>
+                    <span class="counter-value" id="count-female">0</span>
+                    <button type="button" class="counter-btn" onclick="updateCounter('female', 1)">+</button>
+                  </div>
+                </div>
+
+                <!-- Children -->
+                <div class="counter-card">
+                  <span class="counter-card-title"><i class="ph ph-baby text-sunset-accent"></i> Children</span>
+                  <span class="counter-card-sub">Age 3-9 (50% Off)</span>
+                  <div class="counter-container">
+                    <button type="button" class="counter-btn" onclick="updateCounter('children', -1)">-</button>
+                    <span class="counter-value" id="count-children">0</span>
+                    <button type="button" class="counter-btn" onclick="updateCounter('children', 1)">+</button>
+                  </div>
                 </div>
               </div>
-              <div>
-                <label class="form-field-label">Children <span style="font-size: 10px; color: rgba(255,255,255,0.4); text-transform: none;">(Age 3-9, 50% discount)</span></label>
-                <div class="counter-container">
-                  <button type="button" class="counter-btn" onclick="updateCounter('children', -1)">-</button>
-                  <span class="counter-value" id="count-children">0</span>
-                  <button type="button" class="counter-btn" onclick="updateCounter('children', 1)">+</button>
+
+              <!-- Total Persons Display Pill -->
+              <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; margin-top: 10px;">
+                <div class="total-persons-pill" id="total-persons-badge">
+                  <i class="ph ph-users"></i> Total Persons: 1 (M: 1 | F: 0)
+                </div>
+                <div style="font-size: 11px; color: rgba(255,255,255,0.4); margin-top: 8px;">
+                  *Infants under 3 travel free (lap seat).
                 </div>
               </div>
             </div>
           </div>
 
-          <!-- STEP 3: OPTIONAL ADD-ONS -->
+          <!-- STEP 3: PICK-UP LOCATION & JEEP OPTION -->
           <div class="booking-step-section">
             <div class="step-title-wrap">
               <span class="step-badge">3</span>
+              <h2 class="step-title">Pick-up Location & 4x4 Jeep Safari</h2>
+            </div>
+
+            <!-- Pick-up Location -->
+            <div class="form-group-row" style="margin-bottom: 24px;">
+              <div>
+                <label class="form-field-label" for="booking-pickup-select"><i class="ph ph-map-pin-line"></i> Pick-up Location</label>
+                
+                <!-- Group Trip Pick-up Options Container -->
+                <div id="pickup-group-container">
+                  <div class="option-pill-grid option-pill-grid-wide" style="margin-bottom: 12px;">
+                    <label class="option-pill-card">
+                      <input type="radio" name="booking-pickup" value="Lahore (Thokar Niaz Baig / Daewoo Terminal)" checked onchange="onPickupChange()">
+                      <div class="option-pill-content option-pill-content-left">
+                        <div style="font-size: 20px; color: var(--sunset-accent);"><i class="ph ph-buildings"></i></div>
+                        <div>
+                          <div class="option-pill-title">Lahore</div>
+                          <div class="option-pill-desc">Thokar Niaz Baig / Daewoo Terminal (Night Departure)</div>
+                        </div>
+                      </div>
+                    </label>
+
+                    <label class="option-pill-card">
+                      <input type="radio" name="booking-pickup" value="Islamabad / Rawalpindi (Faizabad / I-8 Interchange)" onchange="onPickupChange()">
+                      <div class="option-pill-content option-pill-content-left">
+                        <div style="font-size: 20px; color: var(--sunset-accent);"><i class="ph ph-mountains"></i></div>
+                        <div>
+                          <div class="option-pill-title">Islamabad / Rawalpindi</div>
+                          <div class="option-pill-desc">Faizabad / I-8 Interchange / Daewoo (Morning Departure)</div>
+                        </div>
+                      </div>
+                    </label>
+
+                    <label class="option-pill-card">
+                      <input type="radio" name="booking-pickup" value="custom_pickup" onchange="onPickupChange()">
+                      <div class="option-pill-content option-pill-content-left">
+                        <div style="font-size: 20px; color: var(--sunset-accent);"><i class="ph ph-navigation-arrow"></i></div>
+                        <div>
+                          <div class="option-pill-title">Other Pickup Location</div>
+                          <div class="option-pill-desc">En-route pickup or specific address</div>
+                        </div>
+                      </div>
+                    </label>
+                  </div>
+                </div>
+
+                <!-- Private / Custom Trip Pick-up Container (Revealed for Custom Trips) -->
+                <div id="pickup-private-container" style="display: none; margin-bottom: 12px;">
+                  <div class="form-group-row form-group-row-2">
+                    <div>
+                      <label class="form-field-label" style="font-size: 10.5px; opacity: 0.8;">Select Departure City</label>
+                      <select id="private-pickup-city" class="booking-select" onchange="onPickupChange()">
+                        <option value="Islamabad / Rawalpindi">Islamabad / Rawalpindi (Airport / Doorstep)</option>
+                        <option value="Lahore">Lahore (Home / Hotel / Airport)</option>
+                        <option value="Karachi">Karachi (Fly-in to ISB / Direct)</option>
+                        <option value="Peshawar">Peshawar</option>
+                        <option value="Faisalabad">Faisalabad</option>
+                        <option value="Multan">Multan</option>
+                        <option value="Sialkot / Gujranwala">Sialkot / Gujranwala</option>
+                        <option value="Abbottabad / Mansehra">Abbottabad / Mansehra</option>
+                        <option value="Gilgit / Skardu Airport">Gilgit / Skardu Airport</option>
+                        <option value="Other">Other City / Custom Location</option>
+                      </select>
+                    </div>
+                    <div>
+                      <label class="form-field-label" style="font-size: 10.5px; opacity: 0.8;">Specific Address / Hotel / Airport</label>
+                      <input type="text" id="private-pickup-address" class="booking-input" placeholder="e.g. Islamabad Airport, Serena Hotel, DHA...">
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Custom Pickup Text Box (if Other is selected) -->
+                <div id="custom-pickup-box" style="display: none; margin-top: 10px;">
+                  <input type="text" id="custom-pickup-text" class="booking-input" placeholder="Specify your desired pick-up location or junction point...">
+                </div>
+              </div>
+            </div>
+
+            <!-- Jeep Selection -->
+            <div>
+              <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px;">
+                <label class="form-field-label" style="margin-bottom: 0;"><i class="ph ph-jeep"></i> 4x4 Jeep Safari Requirement</label>
+                <span id="jeep-charges-badge" style="font-size: 11px; color: var(--sunset-accent); font-weight: 600;">Optional</span>
+              </div>
+              <p style="font-size: 12px; color: rgba(255,255,255,0.6); margin-bottom: 12px;">
+                Required for high-altitude off-road trails like Deosai Plains, Fairy Meadows, Naltar Valley, or Babusar off-trail exploration.
+              </p>
+              
+              <div class="option-pill-grid option-pill-grid-wide">
+                <label class="option-pill-card">
+                  <input type="radio" name="booking-jeep" value="yes" checked onchange="calculateTotal()">
+                  <div class="option-pill-content option-pill-content-left">
+                    <div style="font-size: 24px; color: var(--sunset-accent);"><i class="ph ph-check-circle"></i></div>
+                    <div>
+                      <div class="option-pill-title">Jeep: Yes (Recommended)</div>
+                      <div class="option-pill-desc" id="jeep-yes-desc">Include dedicated 4x4 Off-Road Jeep rides for off-road safari points</div>
+                    </div>
+                    <div class="option-pill-price option-pill-price-right" id="jeep-yes-price">Included / Rate</div>
+                  </div>
+                </label>
+
+                <label class="option-pill-card">
+                  <input type="radio" name="booking-jeep" value="no" onchange="calculateTotal()">
+                  <div class="option-pill-content option-pill-content-left">
+                    <div style="font-size: 24px; color: rgba(255,255,255,0.4);"><i class="ph ph-x-circle"></i></div>
+                    <div>
+                      <div class="option-pill-title">Jeep: No</div>
+                      <div class="option-pill-desc">Standard Highway Coaster / Grand Cabin transport only (Jeep points self-paid)</div>
+                    </div>
+                    <div class="option-pill-price option-pill-price-right" style="color: rgba(255,255,255,0.4);">Rs 0</div>
+                  </div>
+                </label>
+              </div>
+            </div>
+          </div>
+
+          <!-- STEP 4: OPTIONAL ADD-ONS -->
+          <div class="booking-step-section">
+            <div class="step-title-wrap">
+              <span class="step-badge">4</span>
               <h2 class="step-title">Enhance Your Experience (Optional Add-ons)</h2>
             </div>
 
@@ -240,35 +389,47 @@
             </div>
           </div>
 
-          <!-- STEP 4: CONTACT INFO -->
+          <!-- STEP 5: LEAD TRAVELER & EMERGENCY VERIFICATION -->
           <div class="booking-step-section">
             <div class="step-title-wrap">
-              <span class="step-badge">4</span>
-              <h2 class="step-title">Billing & Lead Traveler Information</h2>
+              <span class="step-badge">5</span>
+              <h2 class="step-title">Lead Traveler & Verification Details</h2>
             </div>
 
             <div class="form-group-row form-group-row-2">
               <div>
-                <label class="form-field-label" for="booking-name">Full Name</label>
-                <input type="text" id="booking-name" class="booking-input" required placeholder="John Doe" oninput="calculateTotal()">
+                <label class="form-field-label" for="booking-name"><i class="ph ph-user"></i> Full Name *</label>
+                <input type="text" id="booking-name" class="booking-input" required placeholder="Muhammad Abdullah" oninput="calculateTotal()">
               </div>
               <div>
-                <label class="form-field-label" for="booking-phone">Phone / WhatsApp Number</label>
+                <label class="form-field-label" for="booking-phone"><i class="ph ph-whatsapp-logo"></i> Contact / WhatsApp Number *</label>
                 <input type="tel" id="booking-phone" class="booking-input" required placeholder="03XXXXXXXXX" oninput="calculateTotal()">
+              </div>
+            </div>
+
+            <div class="form-group-row form-group-row-2">
+              <div>
+                <label class="form-field-label" for="booking-cnic"><i class="ph ph-identification-card"></i> CNIC / Passport No *</label>
+                <input type="text" id="booking-cnic" class="booking-input" required placeholder="35201-XXXXXXX-X or Passport #" oninput="calculateTotal()">
+                <div style="font-size: 10.5px; color: rgba(255,255,255,0.4); margin-top: 4px;">*Required for security checkposts in Northern Areas</div>
+              </div>
+              <div>
+                <label class="form-field-label" for="booking-emergency"><i class="ph ph-first-aid"></i> Emergency Contact (Name & Phone) *</label>
+                <input type="text" id="booking-emergency" class="booking-input" required placeholder="0300-XXXXXXX (Brother / Father / Spouse)" oninput="calculateTotal()">
               </div>
             </div>
 
             <div class="form-group-row">
               <div>
-                <label class="form-field-label" for="booking-email">Email Address</label>
-                <input type="email" id="booking-email" class="booking-input" required placeholder="john@example.com" oninput="calculateTotal()">
+                <label class="form-field-label" for="booking-email"><i class="ph ph-envelope"></i> Email Address</label>
+                <input type="email" id="booking-email" class="booking-input" placeholder="traveler@example.com" oninput="calculateTotal()">
               </div>
             </div>
 
             <div class="form-group-row" style="margin-top: 12px;">
               <div>
-                <label class="form-field-label" for="booking-requirements">Special Requests or Instructions</label>
-                <textarea id="booking-requirements" class="booking-textarea" rows="4" placeholder="Flight details, food allergies, extra beds, custom routes..."></textarea>
+                <label class="form-field-label" for="booking-requirements"><i class="ph ph-note"></i> Special Requests or Instructions</label>
+                <textarea id="booking-requirements" class="booking-textarea" rows="3" placeholder="Dietary requests, medical considerations, seat preferences, extra room requirements..."></textarea>
               </div>
             </div>
           </div>
@@ -292,11 +453,18 @@
 
         <!-- Hidden printable block for print format client details -->
         <div id="print-client-details-row" style="display: none;">
-          <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 15px;">
+          <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin-bottom: 16px;">
+            <div><strong>Trip Name:</strong> <span id="print-trip-name">—</span></div>
+            <div><strong>Package Type:</strong> <span id="print-package-name">—</span></div>
             <div><strong>Lead Traveler:</strong> <span id="print-client-name">—</span></div>
-            <div><strong>Phone / WhatsApp:</strong> <span id="print-client-phone">—</span></div>
-            <div><strong>Email:</strong> <span id="print-client-email">—</span></div>
+            <div><strong>Contact / WhatsApp:</strong> <span id="print-client-phone">—</span></div>
+            <div><strong>CNIC / Passport:</strong> <span id="print-client-cnic">—</span></div>
+            <div><strong>Emergency Contact:</strong> <span id="print-client-emergency">—</span></div>
             <div><strong>Departure Date:</strong> <span id="print-client-date">—</span></div>
+            <div><strong>Persons Breakdown:</strong> <span id="print-client-persons">—</span></div>
+            <div><strong>Pick-up Location:</strong> <span id="print-client-pickup">—</span></div>
+            <div><strong>4x4 Jeep Safari:</strong> <span id="print-client-jeep">—</span></div>
+            <div style="grid-column: 1 / -1;"><strong>Email:</strong> <span id="print-client-email">—</span></div>
             <div style="grid-column: 1 / -1;"><strong>Special Instructions:</strong> <span id="print-client-reqs">—</span></div>
           </div>
         </div>
@@ -304,16 +472,24 @@
         <div class="invoice-item-list">
           <!-- Dynamically populated invoice items -->
           <div class="invoice-row">
-            <span>Selected Package Surcharge:</span>
+            <span>Package Rate (Per Head):</span>
             <span id="invoice-package-price">Rs 0</span>
           </div>
           <div class="invoice-row">
-            <span>Adults (Count x Base):</span>
+            <span id="invoice-adults-label">Adults (1 Person):</span>
             <span id="invoice-adults-price">Rs 0</span>
           </div>
           <div class="invoice-row" id="invoice-children-row" style="display: none;">
-            <span>Children (50% Off):</span>
+            <span id="invoice-children-label">Children (50% Off):</span>
             <span id="invoice-children-price">Rs 0</span>
+          </div>
+          <div class="invoice-row" id="invoice-jeep-row">
+            <span>4x4 Jeep Safari:</span>
+            <span id="invoice-jeep-price">Included</span>
+          </div>
+          <div class="invoice-row" id="invoice-pickup-row">
+            <span>Pick-up Location:</span>
+            <span id="invoice-pickup-val" style="text-align: right; max-width: 55%; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">Lahore</span>
           </div>
           <div class="invoice-row" id="invoice-addons-row" style="display: none;">
             <span>Optional Add-ons:</span>
@@ -422,9 +598,12 @@
 
   <!-- Live Booking Portal Calculator Logic -->
   <script>
-    let adultsCount = 1;
+    let maleCount = 1;
+    let femaleCount = 0;
     let childrenCount = 0;
     let appliedPromo = null;
+    let currentTourJeepRate = 0;
+    let currentTourJeepIncluded = false;
 
     const tourSelect = document.getElementById('booking-tour-select');
     const packageContainer = document.getElementById('package-options-container');
@@ -434,9 +613,13 @@
     
     // Summary row elements
     const invoicePackagePrice = document.getElementById('invoice-package-price');
+    const invoiceAdultsLabel = document.getElementById('invoice-adults-label');
     const invoiceAdultsPrice = document.getElementById('invoice-adults-price');
     const invoiceChildrenRow = document.getElementById('invoice-children-row');
+    const invoiceChildrenLabel = document.getElementById('invoice-children-label');
     const invoiceChildrenPrice = document.getElementById('invoice-children-price');
+    const invoiceJeepPrice = document.getElementById('invoice-jeep-price');
+    const invoicePickupVal = document.getElementById('invoice-pickup-val');
     const invoiceAddonsRow = document.getElementById('invoice-addons-row');
     const invoiceAddonsPrice = document.getElementById('invoice-addons-price');
     const invoicePromoRow = document.getElementById('invoice-promo-row');
@@ -444,16 +627,20 @@
     const invoiceGrandTotal = document.getElementById('invoice-grand-total');
 
     // Counters
-    const countAdults = document.getElementById('count-adults');
+    const countMale = document.getElementById('count-male');
+    const countFemale = document.getElementById('count-female');
     const countChildren = document.getElementById('count-children');
+    const totalPersonsBadge = document.getElementById('total-persons-badge');
 
     document.addEventListener('DOMContentLoaded', () => {
       // Set tomorrow's date as default minimum date
       const dateInput = document.getElementById('booking-start-date');
-      const tomorrow = new Date();
-      tomorrow.setDate(tomorrow.getDate() + 1);
-      dateInput.min = tomorrow.toISOString().split('T')[0];
-      dateInput.value = tomorrow.toISOString().split('T')[0];
+      if (dateInput) {
+        const tomorrow = new Date();
+        tomorrow.setDate(tomorrow.getDate() + 1);
+        dateInput.min = tomorrow.toISOString().split('T')[0];
+        dateInput.value = tomorrow.toISOString().split('T')[0];
+      }
 
       // Populate tours dropdown from window.TOUR_DATA
       if (window.TOUR_DATA) {
@@ -474,15 +661,18 @@
       const paramName = urlParams.get('name');
       const paramPhone = urlParams.get('phone');
       const paramEmail = urlParams.get('email');
+      const paramPickup = urlParams.get('pickup');
 
       if (selectedTour) {
         tourSelect.value = selectedTour;
       }
       if (paramTravelers && paramTravelers > 0) {
-        adultsCount = paramTravelers;
-        countAdults.textContent = adultsCount;
+        maleCount = paramTravelers;
+        femaleCount = 0;
+        updatePersonCountersUI();
       }
-      // Initialize dropdown
+      
+      // Initialize tour change
       onTourChange(paramDate);
 
       if (paramName) {
@@ -508,17 +698,100 @@
           calculateTotal();
         }, 100);
       }
+
+      // Add input listeners for pickup fields
+      const privateCity = document.getElementById('private-pickup-city');
+      const privateAddress = document.getElementById('private-pickup-address');
+      const customPickupText = document.getElementById('custom-pickup-text');
+      if (privateCity) privateCity.addEventListener('change', onPickupChange);
+      if (privateAddress) privateAddress.addEventListener('input', onPickupChange);
+      if (customPickupText) customPickupText.addEventListener('input', onPickupChange);
+
+      onPickupChange();
     });
 
     function updateCounter(type, change) {
-      if (type === 'adults') {
-        adultsCount = Math.max(1, adultsCount + change);
-        countAdults.textContent = adultsCount;
+      if (type === 'male') {
+        maleCount = Math.max(0, maleCount + change);
+        if (maleCount === 0 && femaleCount === 0) {
+          maleCount = 1; // At least 1 adult traveler
+        }
+      } else if (type === 'female') {
+        femaleCount = Math.max(0, femaleCount + change);
+        if (maleCount === 0 && femaleCount === 0) {
+          femaleCount = 1; // At least 1 adult traveler
+        }
       } else if (type === 'children') {
         childrenCount = Math.max(0, childrenCount + change);
-        countChildren.textContent = childrenCount;
       }
+
+      updatePersonCountersUI();
       calculateTotal();
+    }
+
+    function updatePersonCountersUI() {
+      if (countMale) countMale.textContent = maleCount;
+      if (countFemale) countFemale.textContent = femaleCount;
+      if (countChildren) countChildren.textContent = childrenCount;
+      
+      const total = maleCount + femaleCount + childrenCount;
+      if (totalPersonsBadge) {
+        totalPersonsBadge.innerHTML = `<i class="ph ph-users"></i> Total Persons: ${total} (M: ${maleCount} | F: ${femaleCount}${childrenCount > 0 ? ` | Children: ${childrenCount}` : ''})`;
+      }
+    }
+
+    function getSelectedPickupLocation() {
+      const tourId = tourSelect.value;
+      const isCustom = (!tourId || tourId === 'custom');
+
+      if (isCustom) {
+        const cityEl = document.getElementById('private-pickup-city');
+        const city = cityEl ? cityEl.value : 'Islamabad';
+        const addressEl = document.getElementById('private-pickup-address');
+        const address = addressEl ? addressEl.value.trim() : '';
+        return address ? `${city} (${address})` : city;
+      } else {
+        const selectedRadio = document.querySelector('input[name="booking-pickup"]:checked');
+        if (selectedRadio) {
+          if (selectedRadio.value === 'custom_pickup') {
+            const customText = document.getElementById('custom-pickup-text').value.trim();
+            return customText ? `Custom Pickup: ${customText}` : 'Other En-route Location';
+          }
+          return selectedRadio.value;
+        }
+        return 'Lahore (Thokar Niaz Baig)';
+      }
+    }
+
+    function onPickupChange() {
+      const tourId = tourSelect.value;
+      const isCustom = (!tourId || tourId === 'custom');
+      
+      const groupContainer = document.getElementById('pickup-group-container');
+      const privateContainer = document.getElementById('pickup-private-container');
+      const customPickupBox = document.getElementById('custom-pickup-box');
+
+      if (isCustom) {
+        if (groupContainer) groupContainer.style.display = 'none';
+        if (privateContainer) privateContainer.style.display = 'block';
+        if (customPickupBox) customPickupBox.style.display = 'none';
+      } else {
+        if (groupContainer) groupContainer.style.display = 'block';
+        if (privateContainer) privateContainer.style.display = 'none';
+        
+        const selectedRadio = document.querySelector('input[name="booking-pickup"]:checked');
+        if (selectedRadio && selectedRadio.value === 'custom_pickup') {
+          if (customPickupBox) customPickupBox.style.display = 'block';
+        } else {
+          if (customPickupBox) customPickupBox.style.display = 'none';
+        }
+      }
+
+      const pickupStr = getSelectedPickupLocation();
+      if (invoicePickupVal) {
+        invoicePickupVal.innerText = pickupStr.replace(/\(.*?\)/g, '').trim() || pickupStr;
+        invoicePickupVal.title = pickupStr;
+      }
     }
 
     function updateDateField(tour, paramDate) {
@@ -571,7 +844,7 @@
           `;
 
           // Update label and show hint for group tours
-          if (label) label.innerText = "Departure Date (Fixed Group Departure)";
+          if (label) label.innerHTML = '<i class="ph ph-calendar-check"></i> Departure Date (Fixed Group Departure)';
           if (hint) {
             hint.style.display = "block";
             hint.innerHTML = `<i class="ph ph-calendar-check"></i> Fixed departures: ${tour.departureDay}`;
@@ -597,7 +870,7 @@
       `;
 
       // Update label and hide hint for custom tours
-      if (label) label.innerText = "Preferred Start Date";
+      if (label) label.innerHTML = '<i class="ph ph-calendar"></i> Travel Date (Preferred Start)';
       if (hint) hint.style.display = "none";
       if (flexibleContainer) flexibleContainer.style.display = "flex";
     }
@@ -610,10 +883,41 @@
       // Update date field based on selected tour
       updateDateField(tour, paramDate);
 
+      // Handle Jeep charges and status from tour data
+      const jeepBadge = document.getElementById('jeep-charges-badge');
+      const jeepYesDesc = document.getElementById('jeep-yes-desc');
+      const jeepYesPrice = document.getElementById('jeep-yes-price');
+
+      currentTourJeepRate = 0;
+      currentTourJeepIncluded = false;
+
       if (tour) {
         tourHeroImg.src = tour.image;
         tourHeroLocation.innerText = tour.location;
         tourHeroTitle.innerText = tour.title;
+
+        // Parse jeep charges
+        if (tour.jeepCharges) {
+          if (tour.jeepCharges.toLowerCase().includes('included')) {
+            currentTourJeepIncluded = true;
+            if (jeepBadge) jeepBadge.innerText = 'Included in Tour';
+            if (jeepYesDesc) jeepYesDesc.innerText = '4x4 Off-Road Jeep safari is fully covered in package pricing';
+            if (jeepYesPrice) jeepYesPrice.innerText = 'Included (Rs 0)';
+          } else {
+            // Extract numeric digits
+            const match = tour.jeepCharges.replace(/,/g, '').match(/\d+/);
+            if (match) {
+              currentTourJeepRate = parseInt(match[0]);
+              if (jeepBadge) jeepBadge.innerText = `${tour.jeepCharges}`;
+              if (jeepYesDesc) jeepYesDesc.innerText = `Dedicated 4x4 Jeep rides for Deosai / Fairy Meadows / off-road trails (${tour.jeepCharges})`;
+              if (jeepYesPrice) jeepYesPrice.innerText = `+Rs ${currentTourJeepRate.toLocaleString()}/Head`;
+            }
+          }
+        } else {
+          if (jeepBadge) jeepBadge.innerText = 'Included / Standard';
+          if (jeepYesDesc) jeepYesDesc.innerText = 'Include 4x4 off-road safari jeep excursions for scenic spots';
+          if (jeepYesPrice) jeepYesPrice.innerText = 'Standard Plan';
+        }
 
         // Generate package cards
         const availablePkgs = tour.packages.filter(p => p.status !== 'unavailable' && p.price !== 'N/A');
@@ -631,7 +935,11 @@
         // Custom Itinerary defaults
         tourHeroImg.src = 'bg_image.webp';
         tourHeroLocation.innerText = 'Northern Pakistan';
-        tourHeroTitle.innerText = 'Custom Tour Itinerary';
+        tourHeroTitle.innerText = 'Custom Private Tour Itinerary';
+
+        if (jeepBadge) jeepBadge.innerText = 'Custom Allocation';
+        if (jeepYesDesc) jeepYesDesc.innerText = 'Dedicated 4x4 Prado / Revo / Jeep assigned for private off-road excursion';
+        if (jeepYesPrice) jeepYesPrice.innerText = 'Included in Private Quote';
 
         packageContainer.innerHTML = `
           <label class="option-pill-card">
@@ -668,6 +976,8 @@
           </label>
         `;
       }
+
+      onPickupChange();
       calculateTotal();
     }
 
@@ -679,6 +989,12 @@
       const basePrice = parseFloat(selectedPkgRadio.dataset.price.replace(/,/g, ''));
       invoicePackagePrice.innerText = `Rs ${basePrice.toLocaleString()}`;
 
+      // Total Adults
+      const adultsCount = maleCount + femaleCount;
+      if (invoiceAdultsLabel) {
+        invoiceAdultsLabel.innerText = `Adults (${adultsCount} Person${adultsCount > 1 ? 's' : ''}):`;
+      }
+
       // 2. Adults cost
       const adultsCost = basePrice * adultsCount;
       invoiceAdultsPrice.innerText = `Rs ${adultsCost.toLocaleString()}`;
@@ -687,13 +1003,39 @@
       let childrenCost = 0;
       if (childrenCount > 0) {
         invoiceChildrenRow.style.display = 'flex';
+        if (invoiceChildrenLabel) {
+          invoiceChildrenLabel.innerText = `Children (${childrenCount} x 50% Off):`;
+        }
         childrenCost = (basePrice * 0.5) * childrenCount;
         invoiceChildrenPrice.innerText = `Rs ${childrenCost.toLocaleString()}`;
       } else {
         invoiceChildrenRow.style.display = 'none';
       }
 
-      // 4. Add-ons cost
+      // 4. Jeep Safari Cost Calculation
+      const totalPersons = adultsCount + childrenCount;
+      const selectedJeep = document.querySelector('input[name="booking-jeep"]:checked');
+      const isJeepYes = selectedJeep && selectedJeep.value === 'yes';
+
+      let jeepCost = 0;
+      if (isJeepYes) {
+        if (currentTourJeepIncluded) {
+          invoiceJeepPrice.innerText = 'Included in Package';
+          invoiceJeepPrice.style.color = '#10b981';
+        } else if (currentTourJeepRate > 0) {
+          jeepCost = currentTourJeepRate * totalPersons;
+          invoiceJeepPrice.innerText = `+Rs ${jeepCost.toLocaleString()} (${totalPersons} x ${currentTourJeepRate.toLocaleString()})`;
+          invoiceJeepPrice.style.color = 'var(--sunset-accent)';
+        } else {
+          invoiceJeepPrice.innerText = 'Yes (Included / Quoted)';
+          invoiceJeepPrice.style.color = 'var(--sunset-accent)';
+        }
+      } else {
+        invoiceJeepPrice.innerText = 'No (Self-Paid / Excluded)';
+        invoiceJeepPrice.style.color = 'rgba(255,255,255,0.45)';
+      }
+
+      // 5. Add-ons cost
       let addonsCost = 0;
       const selectedAddons = document.querySelectorAll('.booking-addon:checked');
       if (selectedAddons.length > 0) {
@@ -706,10 +1048,10 @@
         invoiceAddonsRow.style.display = 'none';
       }
 
-      // 5. Total before discount
-      const subtotal = adultsCost + childrenCost + addonsCost;
+      // 6. Subtotal before discount
+      const subtotal = adultsCost + childrenCost + jeepCost + addonsCost;
 
-      // 6. Apply Promo Code
+      // 7. Apply Promo Code
       let discountVal = 0;
       if (appliedPromo === 'SAFARSILSILA') {
         discountVal = Math.round(subtotal * 0.05); // 5% Off
@@ -724,9 +1066,16 @@
         invoicePromoRow.style.display = 'none';
       }
 
-      // 7. Grand total
+      // 8. Grand total
       const grandTotal = Math.max(0, subtotal - discountVal);
       invoiceGrandTotal.innerText = `Rs ${grandTotal.toLocaleString()}`;
+
+      // Update pickup summary row
+      const pickupStr = getSelectedPickupLocation();
+      if (invoicePickupVal) {
+        invoicePickupVal.innerText = pickupStr.length > 25 ? pickupStr.substring(0, 22) + '...' : pickupStr;
+        invoicePickupVal.title = pickupStr;
+      }
     }
 
     function applyPromo() {
@@ -763,11 +1112,33 @@
     function validateForm() {
       const name = document.getElementById('booking-name').value.trim();
       const phone = document.getElementById('booking-phone').value.trim();
-      const email = document.getElementById('booking-email').value.trim();
-      const date = document.getElementById('booking-start-date').value;
+      const cnic = document.getElementById('booking-cnic').value.trim();
+      const emergency = document.getElementById('booking-emergency').value.trim();
+      const dateEl = document.getElementById('booking-start-date');
+      const date = dateEl ? dateEl.value : '';
 
-      if (!name || !phone || !email || !date) {
-        alert('Please fill out all required billing and date fields.');
+      if (!name) {
+        alert('Please provide your Full Name.');
+        document.getElementById('booking-name').focus();
+        return false;
+      }
+      if (!phone) {
+        alert('Please provide your Contact / WhatsApp number.');
+        document.getElementById('booking-phone').focus();
+        return false;
+      }
+      if (!cnic) {
+        alert('Please provide your CNIC or Passport number (required for security checkpoints).');
+        document.getElementById('booking-cnic').focus();
+        return false;
+      }
+      if (!emergency) {
+        alert('Please provide an Emergency Contact number & name.');
+        document.getElementById('booking-emergency').focus();
+        return false;
+      }
+      if (!date) {
+        alert('Please select your preferred Departure / Travel Date.');
         return false;
       }
       return true;
@@ -777,37 +1148,53 @@
       if (!validateForm()) return;
 
       const tourId = tourSelect.value;
-      const tourTitle = tourId === 'custom' ? 'Custom Itinerary' : tourSelect.options[tourSelect.selectedIndex].text;
+      const tourTitle = (tourId === 'custom' || !tourSelect.options[tourSelect.selectedIndex]) ? 'Custom Private Tour' : tourSelect.options[tourSelect.selectedIndex].text;
       
       const selectedPkgRadio = document.querySelector('input[name="booking-package"]:checked');
-      const packageName = selectedPkgRadio ? selectedPkgRadio.value : 'Standard';
+      const packageName = selectedPkgRadio ? selectedPkgRadio.value : 'Standard Package';
       
-      const date = document.getElementById('booking-start-date').value;
-      const flexible = document.getElementById('booking-flexible-dates').checked ? 'Yes' : 'No';
+      const dateEl = document.getElementById('booking-start-date');
+      const date = dateEl ? dateEl.value : 'Flexible';
+      const flexibleEl = document.getElementById('booking-flexible-dates');
+      const flexible = (flexibleEl && flexibleEl.checked) ? 'Yes' : 'No';
       
-      const name = document.getElementById('booking-name').value;
-      const phone = document.getElementById('booking-phone').value;
-      const email = document.getElementById('booking-email').value;
-      const requirements = document.getElementById('booking-requirements').value || 'None';
+      const name = document.getElementById('booking-name').value.trim();
+      const phone = document.getElementById('booking-phone').value.trim();
+      const cnic = document.getElementById('booking-cnic').value.trim();
+      const emergency = document.getElementById('booking-emergency').value.trim();
+      const email = document.getElementById('booking-email').value.trim() || 'Not Provided';
+      const requirements = document.getElementById('booking-requirements').value.trim() || 'None';
+
+      const selectedJeep = document.querySelector('input[name="booking-jeep"]:checked');
+      const isJeepYes = selectedJeep && selectedJeep.value === 'yes';
+      const jeepStr = isJeepYes ? (currentTourJeepIncluded ? 'Yes (Included)' : 'Yes') : 'No';
+
+      const pickupLocation = getSelectedPickupLocation();
+      const totalPersons = maleCount + femaleCount + childrenCount;
+      const personsStr = `${totalPersons} (M: ${maleCount} | F: ${femaleCount}${childrenCount > 0 ? ` | Children: ${childrenCount}` : ''})`;
 
       const selectedAddons = Array.from(document.querySelectorAll('.booking-addon:checked')).map(a => a.value);
       const addonsStr = selectedAddons.length > 0 ? selectedAddons.join(', ') : 'None';
       
       const totalCost = invoiceGrandTotal.innerText;
 
-      // Compile WhatsApp details message
-      const waMessage = `Hello Safar Silsila! I would like to book a trip via the online portal:\n\n` +
-        `🗺️ Tour: ${tourTitle}\n` +
-        `📦 Selected Package: ${packageName}\n` +
-        `📅 Travel Date: ${date} (Flexible: ${flexible})\n` +
-        `👥 Travelers: ${adultsCount} Adults, ${childrenCount} Children\n` +
-        `🎒 Optional Upgrades: ${addonsStr}\n` +
-        `💵 Applied Promo Code: ${appliedPromo || 'None'}\n` +
-        `💰 Total Price Calculated: ${totalCost}\n\n` +
-        `👤 Client Name: ${name}\n` +
-        `📞 Phone / WhatsApp: ${phone}\n` +
-        `✉️ Email: ${email}\n` +
-        `📝 Special Instructions:\n${requirements}`;
+      // Compile WhatsApp details message matching client specification
+      const waMessage = `*SAFAR SILSILA – BOOKING FORM*\n\n` +
+        `Trip Name: ${tourTitle}\n\n` +
+        `Travel Date: ${date} (Flexible: ${flexible})\n\n` +
+        `Name: ${name}\n\n` +
+        `Contact: ${phone}\n\n` +
+        `CNIC: ${cnic}\n\n` +
+        `Emergency Contact: ${emergency}\n\n` +
+        `Package Type: ${packageName}\n\n` +
+        `Persons: ${personsStr}\n\n` +
+        `Jeep: ${jeepStr}\n\n` +
+        `Pick-up: ${pickupLocation}\n\n` +
+        (addonsStr !== 'None' ? `Optional Add-ons: ${addonsStr}\n\n` : '') +
+        `Total Estimated Cost: ${totalCost}\n` +
+        (appliedPromo ? `Promo Code: ${appliedPromo}\n` : '') +
+        (email !== 'Not Provided' ? `Email: ${email}\n` : '') +
+        (requirements !== 'None' ? `\nSpecial Requests: ${requirements}` : '');
 
       const waUrl = `https://wa.me/923111145456?text=${encodeURIComponent(waMessage)}`;
       window.open(waUrl, '_blank');
@@ -816,11 +1203,33 @@
     function printInvoice() {
       if (!validateForm()) return;
 
+      const tourId = tourSelect.value;
+      const tourTitle = (tourId === 'custom' || !tourSelect.options[tourSelect.selectedIndex]) ? 'Custom Private Tour' : tourSelect.options[tourSelect.selectedIndex].text;
+      const selectedPkgRadio = document.querySelector('input[name="booking-package"]:checked');
+      const packageName = selectedPkgRadio ? selectedPkgRadio.value : 'Standard';
+      
+      const dateEl = document.getElementById('booking-start-date');
+      const flexibleEl = document.getElementById('booking-flexible-dates');
+      const dateStr = (dateEl ? dateEl.value : '') + (flexibleEl && flexibleEl.checked ? ' (Flexible)' : '');
+
+      const totalPersons = maleCount + femaleCount + childrenCount;
+      const personsStr = `${totalPersons} (M: ${maleCount} | F: ${femaleCount}${childrenCount > 0 ? ` | Children: ${childrenCount}` : ''})`;
+
+      const selectedJeep = document.querySelector('input[name="booking-jeep"]:checked');
+      const isJeepYes = selectedJeep && selectedJeep.value === 'yes';
+
       // Map values for printable invoice
+      document.getElementById('print-trip-name').innerText = tourTitle;
+      document.getElementById('print-package-name').innerText = packageName;
       document.getElementById('print-client-name').innerText = document.getElementById('booking-name').value;
       document.getElementById('print-client-phone').innerText = document.getElementById('booking-phone').value;
-      document.getElementById('print-client-email').innerText = document.getElementById('booking-email').value;
-      document.getElementById('print-client-date').innerText = document.getElementById('booking-start-date').value + (document.getElementById('booking-flexible-dates').checked ? ' (Flexible)' : '');
+      document.getElementById('print-client-cnic').innerText = document.getElementById('booking-cnic').value;
+      document.getElementById('print-client-emergency').innerText = document.getElementById('booking-emergency').value;
+      document.getElementById('print-client-email').innerText = document.getElementById('booking-email').value || 'N/A';
+      document.getElementById('print-client-date').innerText = dateStr;
+      document.getElementById('print-client-persons').innerText = personsStr;
+      document.getElementById('print-client-pickup').innerText = getSelectedPickupLocation();
+      document.getElementById('print-client-jeep').innerText = isJeepYes ? (currentTourJeepIncluded ? 'Yes (Included)' : 'Yes') : 'No';
       document.getElementById('print-client-reqs').innerText = document.getElementById('booking-requirements').value || 'None';
 
       // Launch system print dialog

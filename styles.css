@@ -4571,6 +4571,67 @@ p, span, li, a, button, label, input, textarea {
   width: fit-content;
 }
 
+.gender-counters-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 16px;
+}
+
+@media (min-width: 576px) {
+  .gender-counters-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.counter-card {
+  background: rgba(255, 255, 255, 0.02);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: var(--radius-md);
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  transition: all 0.2s ease;
+}
+
+.counter-card:hover {
+  border-color: rgba(255, 255, 255, 0.15);
+  background: rgba(255, 255, 255, 0.03);
+}
+
+.counter-card-title {
+  font-size: 12px;
+  font-weight: 700;
+  color: var(--snow-peak);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin-bottom: 2px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.counter-card-sub {
+  font-size: 10.5px;
+  color: rgba(255, 255, 255, 0.45);
+  margin-bottom: 12px;
+}
+
+.total-persons-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: rgba(163, 184, 123, 0.12);
+  border: 1px solid var(--sunset-accent);
+  color: var(--sunset-accent-bright);
+  padding: 6px 14px;
+  border-radius: var(--radius-full);
+  font-size: 12.5px;
+  font-weight: 700;
+  margin-top: 14px;
+}
+
 .counter-btn {
   width: 28px;
   height: 28px;
