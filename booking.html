@@ -434,6 +434,111 @@
             </div>
           </div>
 
+          <!-- STEP 6: PAYMENT METHOD & DEPOSIT STRUCTURE -->
+          <div class="booking-step-section">
+            <div class="step-title-wrap">
+              <span class="step-badge">6</span>
+              <h2 class="step-title">Payment Method & Deposit Option</h2>
+            </div>
+
+            <!-- Deposit Structure Option -->
+            <div style="margin-bottom: 24px;">
+              <label class="form-field-label"><i class="ph ph-percent"></i> Payment Structure Option</label>
+              <div class="option-pill-grid option-pill-grid-wide" style="margin-bottom: 12px;">
+                <label class="option-pill-card">
+                  <input type="radio" name="booking-deposit-type" value="advance_50" checked onchange="calculateTotal()">
+                  <div class="option-pill-content option-pill-content-left">
+                    <div style="font-size: 24px; color: var(--sunset-accent);"><i class="ph ph-wallet"></i></div>
+                    <div>
+                      <div class="option-pill-title">50% Advance Booking Deposit (Standard)</div>
+                      <div class="option-pill-desc">Pay 50% now to confirm seat & hotel reservations. Remaining 50% balance payable on departure.</div>
+                    </div>
+                    <div class="option-pill-price option-pill-price-right" id="deposit-50-val">Rs 0</div>
+                  </div>
+                </label>
+
+                <label class="option-pill-card">
+                  <input type="radio" name="booking-deposit-type" value="full_100" onchange="calculateTotal()">
+                  <div class="option-pill-content option-pill-content-left">
+                    <div style="font-size: 24px; color: var(--sunset-accent);"><i class="ph ph-check-circle"></i></div>
+                    <div>
+                      <div class="option-pill-title">100% Full Payment Upfront</div>
+                      <div class="option-pill-desc">Pay full amount upfront for instant confirmed travel voucher & ticket issuance.</div>
+                    </div>
+                    <div class="option-pill-price option-pill-price-right" id="deposit-100-val">Rs 0</div>
+                  </div>
+                </label>
+              </div>
+            </div>
+
+            <!-- Payment Methods -->
+            <div style="margin-bottom: 24px;">
+              <label class="form-field-label"><i class="ph ph-credit-card"></i> Choose Payment Channel</label>
+              <div class="option-pill-grid option-pill-grid-wide" style="margin-bottom: 16px;">
+                <label class="option-pill-card">
+                  <input type="radio" name="booking-payment-method" value="Bank Transfer (Meezan / HBL / Raast)" checked onchange="onPaymentMethodChange()">
+                  <div class="option-pill-content option-pill-content-left">
+                    <div style="font-size: 22px; color: var(--sunset-accent);"><i class="ph ph-bank"></i></div>
+                    <div>
+                      <div class="option-pill-title">Online Bank Transfer / Raast</div>
+                      <div class="option-pill-desc">Meezan Bank, HBL, Bank Alfalah, or Raast instant pay</div>
+                    </div>
+                  </div>
+                </label>
+
+                <label class="option-pill-card">
+                  <input type="radio" name="booking-payment-method" value="Mobile Wallet (EasyPaisa / JazzCash / SadaPay)" onchange="onPaymentMethodChange()">
+                  <div class="option-pill-content option-pill-content-left">
+                    <div style="font-size: 22px; color: var(--sunset-accent);"><i class="ph ph-device-mobile"></i></div>
+                    <div>
+                      <div class="option-pill-title">Mobile Wallets</div>
+                      <div class="option-pill-desc">EasyPaisa, JazzCash, SadaPay & NayaPay</div>
+                    </div>
+                  </div>
+                </label>
+
+                <label class="option-pill-card">
+                  <input type="radio" name="booking-payment-method" value="International Card / Swift Wire Transfer" onchange="onPaymentMethodChange()">
+                  <div class="option-pill-content option-pill-content-left">
+                    <div style="font-size: 22px; color: var(--sunset-accent);"><i class="ph ph-globe"></i></div>
+                    <div>
+                      <div class="option-pill-title">International Card / Wire Transfer</div>
+                      <div class="option-pill-desc">Visa, MasterCard, or Swift Wire for foreign tourists (USD / EUR / GBP)</div>
+                    </div>
+                  </div>
+                </label>
+
+                <label class="option-pill-card">
+                  <input type="radio" name="booking-payment-method" value="Cash Payment at Office" onchange="onPaymentMethodChange()">
+                  <div class="option-pill-content option-pill-content-left">
+                    <div style="font-size: 22px; color: var(--sunset-accent);"><i class="ph ph-buildings"></i></div>
+                    <div>
+                      <div class="option-pill-title">Cash Payment at Office</div>
+                      <div class="option-pill-desc">Islamabad (E-11/2) or Karachi (Badar Commercial DHA Phase-V)</div>
+                    </div>
+                  </div>
+                </label>
+              </div>
+            </div>
+
+            <!-- Dynamic Account Details Box -->
+            <div id="payment-details-box" style="background: rgba(255, 255, 255, 0.03); border: 1px solid rgba(255, 255, 255, 0.12); border-radius: var(--radius-md); padding: 20px; margin-bottom: 20px;">
+              <!-- Dynamic Bank/Wallet Info -->
+            </div>
+
+            <!-- Payment Reference Fields -->
+            <div class="form-group-row form-group-row-2">
+              <div>
+                <label class="form-field-label" for="booking-sender-name"><i class="ph ph-user"></i> Sender Account / Depositor Name</label>
+                <input type="text" id="booking-sender-name" class="booking-input" placeholder="E.g. Ali Ahmed" oninput="calculateTotal()">
+              </div>
+              <div>
+                <label class="form-field-label" for="booking-trans-id"><i class="ph ph-receipt"></i> Transaction Ref / Cheque No (If Paid)</label>
+                <input type="text" id="booking-trans-id" class="booking-input" placeholder="E.g. TRX-123456789 or Pending" oninput="calculateTotal()">
+              </div>
+            </div>
+          </div>
+
         </form>
       </section>
 
@@ -464,6 +569,9 @@
             <div><strong>Persons Breakdown:</strong> <span id="print-client-persons">—</span></div>
             <div><strong>Pick-up Location:</strong> <span id="print-client-pickup">—</span></div>
             <div><strong>4x4 Jeep Safari:</strong> <span id="print-client-jeep">—</span></div>
+            <div><strong>Payment Plan:</strong> <span id="print-client-payment-plan">—</span></div>
+            <div><strong>Payment Method:</strong> <span id="print-client-payment-method">—</span></div>
+            <div><strong>Sender / Reference:</strong> <span id="print-client-payment-ref">—</span></div>
             <div style="grid-column: 1 / -1;"><strong>Email:</strong> <span id="print-client-email">—</span></div>
             <div style="grid-column: 1 / -1;"><strong>Special Instructions:</strong> <span id="print-client-reqs">—</span></div>
           </div>
@@ -499,12 +607,34 @@
             <span>Discount Applied:</span>
             <span id="invoice-promo-val">-Rs 0</span>
           </div>
+          
+          <div class="invoice-divider" style="margin: 8px 0;"></div>
+
+          <div class="invoice-row" style="color: var(--snow-peak); font-weight: 700;">
+            <span>Total Package Value:</span>
+            <span id="invoice-total-value">Rs 0</span>
+          </div>
+          <div class="invoice-row" id="invoice-deposit-row" style="color: var(--sunset-accent); font-weight: 700;">
+            <span id="invoice-deposit-label">50% Advance Deposit Due:</span>
+            <span id="invoice-deposit-price">Rs 0</span>
+          </div>
+          <div class="invoice-row" id="invoice-balance-row" style="font-size: 12px; color: rgba(255,255,255,0.6);">
+            <span>Balance on Departure:</span>
+            <span id="invoice-balance-price">Rs 0</span>
+          </div>
+          <div class="invoice-row" style="font-size: 11.5px; color: rgba(255,255,255,0.5);">
+            <span>Payment Method:</span>
+            <span id="invoice-payment-method-val" style="text-align: right; max-width: 50%; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">Bank Transfer</span>
+          </div>
         </div>
 
         <div class="invoice-divider"></div>
 
         <div class="invoice-total-row">
-          <span class="invoice-total-label">Total Payable:</span>
+          <div>
+            <span class="invoice-total-label" id="invoice-final-label">Payable Now:</span>
+            <div id="invoice-final-hint" style="font-size: 10px; color: rgba(255,255,255,0.5);">50% Advance to confirm</div>
+          </div>
           <span class="invoice-total-val" id="invoice-grand-total">Rs 0</span>
         </div>
 
@@ -518,11 +648,11 @@
         <!-- Checkout Buttons -->
         <div style="display: flex; flex-direction: column; gap: 12px; margin-top: 28px;">
           <button type="button" class="btn btn-secondary btn-lg" onclick="checkoutWhatsApp()" style="width: 100%; border: none;">
-            <i class="ph ph-whatsapp-logo" style="font-size: 20px;"></i> Book via WhatsApp
+            <i class="ph ph-whatsapp-logo" style="font-size: 20px;"></i> Book & Submit Receipt
           </button>
           
           <button type="button" class="btn btn-outline-white btn-sm" onclick="printInvoice()" style="width: 100%; padding: 10px; font-size: 13px;">
-            <i class="ph ph-printer"></i> Download Booking Invoice
+            <i class="ph ph-printer"></i> Download Official Booking Invoice
           </button>
         </div>
       </section>
@@ -1029,6 +1159,107 @@
       calculateTotal();
     }
 
+    function onPaymentMethodChange() {
+      const selectedMethodEl = document.querySelector('input[name="booking-payment-method"]:checked');
+      const methodVal = selectedMethodEl ? selectedMethodEl.value : 'Bank Transfer (Meezan / HBL / Raast)';
+      const detailsBox = document.getElementById('payment-details-box');
+      const invoiceMethodVal = document.getElementById('invoice-payment-method-val');
+
+      if (invoiceMethodVal) {
+        invoiceMethodVal.innerText = methodVal.split('(')[0].trim();
+      }
+
+      if (!detailsBox) return;
+
+      if (methodVal.includes('Bank Transfer')) {
+        detailsBox.innerHTML = `
+          <div style="display: flex; align-items: center; gap: 10px; margin-bottom: 12px; border-bottom: 1px solid rgba(255,255,255,0.08); padding-bottom: 8px;">
+            <i class="ph ph-bank" style="font-size: 22px; color: var(--sunset-accent);"></i>
+            <strong style="font-size: 13.5px; color: var(--snow-peak);">Official Company Bank Account Details</strong>
+          </div>
+          <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 12px; font-size: 12.5px;">
+            <div style="background: rgba(0,0,0,0.25); padding: 10px 14px; border-radius: var(--radius-sm); border: 1px solid rgba(255,255,255,0.06);">
+              <span style="color: rgba(255,255,255,0.5); font-size: 11px; display: block;">Bank Name:</span>
+              <strong style="color: var(--snow-peak);">Meezan Bank Ltd</strong> (Islamic Banking)
+            </div>
+            <div style="background: rgba(0,0,0,0.25); padding: 10px 14px; border-radius: var(--radius-sm); border: 1px solid rgba(255,255,255,0.06);">
+              <span style="color: rgba(255,255,255,0.5); font-size: 11px; display: block;">Account Title:</span>
+              <strong style="color: var(--sunset-accent);">Safar Silsila Travel Agency</strong>
+            </div>
+            <div style="background: rgba(0,0,0,0.25); padding: 10px 14px; border-radius: var(--radius-sm); border: 1px solid rgba(255,255,255,0.06);">
+              <span style="color: rgba(255,255,255,0.5); font-size: 11px; display: block;">Account Number:</span>
+              <strong style="color: var(--snow-peak); font-family: monospace; font-size: 13px;">0105-0106784321</strong>
+            </div>
+            <div style="background: rgba(0,0,0,0.25); padding: 10px 14px; border-radius: var(--radius-sm); border: 1px solid rgba(255,255,255,0.06);">
+              <span style="color: rgba(255,255,255,0.5); font-size: 11px; display: block;">Raast ID / Instant Pay:</span>
+              <strong style="color: var(--snow-peak); font-family: monospace; font-size: 13px;">03111145456</strong>
+            </div>
+            <div style="grid-column: 1 / -1; background: rgba(0,0,0,0.25); padding: 10px 14px; border-radius: var(--radius-sm); border: 1px solid rgba(255,255,255,0.06);">
+              <span style="color: rgba(255,255,255,0.5); font-size: 11px; display: block;">IBAN:</span>
+              <strong style="color: var(--snow-peak); font-family: monospace; font-size: 13px;">PK45 MEZN 0001 0501 0678 4321</strong>
+            </div>
+          </div>
+          <div style="font-size: 11px; color: rgba(255,255,255,0.6); margin-top: 10px; display: flex; align-items: center; gap: 6px;">
+            <i class="ph ph-info" style="color: var(--sunset-accent);"></i> After making the deposit, enter your sender name/ref and share the receipt on WhatsApp to receive your official signed voucher.
+          </div>
+        `;
+      } else if (methodVal.includes('Mobile Wallet')) {
+        detailsBox.innerHTML = `
+          <div style="display: flex; align-items: center; gap: 10px; margin-bottom: 12px; border-bottom: 1px solid rgba(255,255,255,0.08); padding-bottom: 8px;">
+            <i class="ph ph-device-mobile" style="font-size: 22px; color: var(--sunset-accent);"></i>
+            <strong style="font-size: 13.5px; color: var(--snow-peak);">EasyPaisa / JazzCash / SadaPay / NayaPay</strong>
+          </div>
+          <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 12px; font-size: 12.5px;">
+            <div style="background: rgba(0,0,0,0.25); padding: 10px 14px; border-radius: var(--radius-sm); border: 1px solid rgba(255,255,255,0.06);">
+              <span style="color: rgba(255,255,255,0.5); font-size: 11px; display: block;">Wallet Title:</span>
+              <strong style="color: var(--sunset-accent);">Safar Silsila</strong>
+            </div>
+            <div style="background: rgba(0,0,0,0.25); padding: 10px 14px; border-radius: var(--radius-sm); border: 1px solid rgba(255,255,255,0.06);">
+              <span style="color: rgba(255,255,255,0.5); font-size: 11px; display: block;">EasyPaisa / JazzCash No:</span>
+              <strong style="color: var(--snow-peak); font-family: monospace; font-size: 13.5px;">0311 1145456</strong>
+            </div>
+            <div style="background: rgba(0,0,0,0.25); padding: 10px 14px; border-radius: var(--radius-sm); border: 1px solid rgba(255,255,255,0.06);">
+              <span style="color: rgba(255,255,255,0.5); font-size: 11px; display: block;">SadaPay / NayaPay:</span>
+              <strong style="color: var(--snow-peak); font-family: monospace; font-size: 13.5px;">0311 1145456</strong>
+            </div>
+          </div>
+        `;
+      } else if (methodVal.includes('International Card')) {
+        detailsBox.innerHTML = `
+          <div style="display: flex; align-items: center; gap: 10px; margin-bottom: 12px; border-bottom: 1px solid rgba(255,255,255,0.08); padding-bottom: 8px;">
+            <i class="ph ph-globe" style="font-size: 22px; color: var(--sunset-accent);"></i>
+            <strong style="font-size: 13.5px; color: var(--snow-peak);">International Payments (USD, EUR, GBP)</strong>
+          </div>
+          <div style="font-size: 12.5px; line-height: 1.6; color: rgba(255,255,255,0.85);">
+            <p style="margin-bottom: 8px;">We accept all major <strong>Visa, MasterCard, and Swift Wire Transfers</strong> for international tourists visiting Pakistan.</p>
+            <div style="background: rgba(0,0,0,0.25); padding: 10px 14px; border-radius: var(--radius-sm); border: 1px solid rgba(255,255,255,0.06); margin-bottom: 8px;">
+              <strong>Swift / BIC Code:</strong> <span style="font-family: monospace; color: var(--sunset-accent);">MEZNPKKA</span> &nbsp;|&nbsp; <strong>Bank:</strong> Meezan Bank Ltd Islamabad
+            </div>
+            <p style="font-size: 11px; color: rgba(255,255,255,0.6); margin: 0;">Our international booking manager will provide an online 3D-secure card payment link or invoice upon request.</p>
+          </div>
+        `;
+      } else {
+        detailsBox.innerHTML = `
+          <div style="display: flex; align-items: center; gap: 10px; margin-bottom: 12px; border-bottom: 1px solid rgba(255,255,255,0.08); padding-bottom: 8px;">
+            <i class="ph ph-buildings" style="font-size: 22px; color: var(--sunset-accent);"></i>
+            <strong style="font-size: 13.5px; color: var(--snow-peak);">Pay Cash at Safar Silsila Regional Offices</strong>
+          </div>
+          <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 12px; font-size: 12px;">
+            <div style="background: rgba(0,0,0,0.25); padding: 12px 14px; border-radius: var(--radius-sm); border: 1px solid rgba(255,255,255,0.06);">
+              <strong style="color: var(--sunset-accent); display: block; margin-bottom: 4px;"><i class="ph ph-map-pin"></i> Islamabad Office:</strong>
+              Office # 9, 1st Floor, Aslam Business Square, FECHS E-11/2, Islamabad.<br>
+              <small style="color: rgba(255,255,255,0.5);">Mon - Sat (10:00 AM - 07:00 PM)</small>
+            </div>
+            <div style="background: rgba(0,0,0,0.25); padding: 12px 14px; border-radius: var(--radius-sm); border: 1px solid rgba(255,255,255,0.06);">
+              <strong style="color: var(--sunset-accent); display: block; margin-bottom: 4px;"><i class="ph ph-map-pin"></i> Karachi Office:</strong>
+              Building #7c Street-3, Office No 2, Badar Commercial, DHA Phase-V, Karachi.<br>
+              <small style="color: rgba(255,255,255,0.5);">Mon - Sat (10:00 AM - 07:00 PM)</small>
+            </div>
+          </div>
+        `;
+      }
+    }
+
     function calculateTotal() {
       // 1. Get package price
       const selectedPkgRadio = document.querySelector('input[name="booking-package"]:checked');
@@ -1114,16 +1345,56 @@
         invoicePromoRow.style.display = 'none';
       }
 
-      // 8. Grand total
+      // 8. Total Package Cost
       const grandTotal = Math.max(0, subtotal - discountVal);
-      invoiceGrandTotal.innerText = `Rs ${grandTotal.toLocaleString()}`;
+      
+      const totalValueEl = document.getElementById('invoice-total-value');
+      if (totalValueEl) totalValueEl.innerText = `Rs ${grandTotal.toLocaleString()}`;
 
-      // Update pickup summary row
+      // 9. Deposit Structure (50% advance vs 100% full)
+      const depositType = document.querySelector('input[name="booking-deposit-type"]:checked')?.value || 'advance_50';
+      const deposit50Amount = Math.round(grandTotal * 0.5);
+      const balanceAmount = grandTotal - deposit50Amount;
+
+      const dep50ValEl = document.getElementById('deposit-50-val');
+      const dep100ValEl = document.getElementById('deposit-100-val');
+      if (dep50ValEl) dep50ValEl.innerText = `Rs ${deposit50Amount.toLocaleString()}`;
+      if (dep100ValEl) dep100ValEl.innerText = `Rs ${grandTotal.toLocaleString()}`;
+
+      const depositPriceEl = document.getElementById('invoice-deposit-price');
+      const depositLabelEl = document.getElementById('invoice-deposit-label');
+      const balancePriceEl = document.getElementById('invoice-balance-price');
+      const finalLabelEl = document.getElementById('invoice-final-label');
+      const finalHintEl = document.getElementById('invoice-final-hint');
+
+      let payableNow = grandTotal;
+
+      if (depositType === 'advance_50') {
+        payableNow = deposit50Amount;
+        if (depositLabelEl) depositLabelEl.innerText = '50% Advance Deposit:';
+        if (depositPriceEl) depositPriceEl.innerText = `Rs ${deposit50Amount.toLocaleString()}`;
+        if (balancePriceEl) balancePriceEl.innerText = `Rs ${balanceAmount.toLocaleString()}`;
+        if (finalLabelEl) finalLabelEl.innerText = 'Payable Now (50%):';
+        if (finalHintEl) finalHintEl.innerText = `Balance Rs ${balanceAmount.toLocaleString()} payable on departure`;
+      } else {
+        payableNow = grandTotal;
+        if (depositLabelEl) depositLabelEl.innerText = '100% Full Payment:';
+        if (depositPriceEl) depositPriceEl.innerText = `Rs ${grandTotal.toLocaleString()}`;
+        if (balancePriceEl) balancePriceEl.innerText = 'Rs 0 (Fully Paid)';
+        if (finalLabelEl) finalLabelEl.innerText = 'Total Payable (100%):';
+        if (finalHintEl) finalHintEl.innerText = 'Full payment upfront confirmed';
+      }
+
+      invoiceGrandTotal.innerText = `Rs ${payableNow.toLocaleString()}`;
+
+      // Update pickup & payment summary rows
       const pickupStr = getSelectedPickupLocation();
       if (invoicePickupVal) {
         invoicePickupVal.innerText = pickupStr.length > 25 ? pickupStr.substring(0, 22) + '...' : pickupStr;
         invoicePickupVal.title = pickupStr;
       }
+
+      onPaymentMethodChange();
     }
 
     function applyPromo() {
@@ -1224,7 +1495,13 @@
       const selectedAddons = Array.from(document.querySelectorAll('.booking-addon:checked')).map(a => a.value);
       const addonsStr = selectedAddons.length > 0 ? selectedAddons.join(', ') : 'None';
       
-      const totalCost = invoiceGrandTotal.innerText;
+      const totalCost = document.getElementById('invoice-total-value')?.innerText || invoiceGrandTotal.innerText;
+      const depositType = document.querySelector('input[name="booking-deposit-type"]:checked')?.value || 'advance_50';
+      const depositPlanStr = depositType === 'advance_50' ? `50% Advance Booking Deposit (Rs ${document.getElementById('deposit-50-val')?.innerText || ''})` : `100% Full Payment (${totalCost})`;
+      
+      const paymentMethod = document.querySelector('input[name="booking-payment-method"]:checked')?.value || 'Bank Transfer';
+      const senderName = document.getElementById('booking-sender-name')?.value.trim() || 'Not Specified';
+      const transId = document.getElementById('booking-trans-id')?.value.trim() || 'Pending / In-Process';
 
       // Compile WhatsApp details message matching client specification
       const waMessage = `*SAFAR SILSILA – BOOKING FORM*\n\n` +
@@ -1238,8 +1515,12 @@
         `Persons: ${personsStr}\n\n` +
         `Jeep: ${jeepStr}\n\n` +
         `Pick-up: ${pickupLocation}\n\n` +
+        `Payment Plan: ${depositPlanStr}\n\n` +
+        `Payment Method: ${paymentMethod}\n\n` +
+        (senderName !== 'Not Specified' ? `Sender Name: ${senderName}\n\n` : '') +
+        (transId !== 'Pending / In-Process' ? `Transaction Ref: ${transId}\n\n` : '') +
         (addonsStr !== 'None' ? `Optional Add-ons: ${addonsStr}\n\n` : '') +
-        `Total Estimated Cost: ${totalCost}\n` +
+        `Total Tour Value: ${totalCost}\n` +
         (appliedPromo ? `Promo Code: ${appliedPromo}\n` : '') +
         (email !== 'Not Provided' ? `Email: ${email}\n` : '') +
         (requirements !== 'None' ? `\nSpecial Requests: ${requirements}` : '');
@@ -1266,6 +1547,13 @@
       const selectedJeep = document.querySelector('input[name="booking-jeep"]:checked');
       const isJeepYes = selectedJeep && selectedJeep.value === 'yes';
 
+      const depositType = document.querySelector('input[name="booking-deposit-type"]:checked')?.value || 'advance_50';
+      const depositPlanStr = depositType === 'advance_50' ? '50% Advance Booking Deposit' : '100% Full Payment';
+      const paymentMethod = document.querySelector('input[name="booking-payment-method"]:checked')?.value || 'Bank Transfer';
+      const senderName = document.getElementById('booking-sender-name')?.value.trim();
+      const transId = document.getElementById('booking-trans-id')?.value.trim();
+      const paymentRefStr = [senderName, transId].filter(Boolean).join(' / ') || 'Pending Confirmation';
+
       // Map values for printable invoice
       document.getElementById('print-trip-name').innerText = tourTitle;
       document.getElementById('print-package-name').innerText = packageName;
@@ -1278,6 +1566,9 @@
       document.getElementById('print-client-persons').innerText = personsStr;
       document.getElementById('print-client-pickup').innerText = getSelectedPickupLocation();
       document.getElementById('print-client-jeep').innerText = isJeepYes ? (currentTourJeepIncluded ? 'Yes (Included)' : 'Yes') : 'No';
+      document.getElementById('print-client-payment-plan').innerText = depositPlanStr;
+      document.getElementById('print-client-payment-method').innerText = paymentMethod;
+      document.getElementById('print-client-payment-ref').innerText = paymentRefStr;
       document.getElementById('print-client-reqs').innerText = document.getElementById('booking-requirements').value || 'None';
 
       // Launch system print dialog
