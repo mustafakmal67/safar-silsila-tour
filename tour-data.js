@@ -1,5 +1,74 @@
 // Safar Silsila Tour Database (Updated with PDF Specifications, +2,000 PKR pricing & FAQs)
 window.TOUR_DATA = {
+  "3-days-swat-kalam": {
+    id: "3-days-swat-kalam",
+    title: "3-Day Tour Swat | Kalam",
+    duration: "3 Days",
+    location: "Swat & Kalam",
+    maxGroup: "2-20 Persons",
+    difficulty: "Easy",
+    image: "swat_valley_family.webp",
+    price: "17,500",
+    originalPrice: "18,500",
+    departureDay: "Every Thursday Night from Lahore, Every Friday Morning from Islamabad",
+    about: "Experience the breathtaking beauty of Swat Valley and Kalam with Safar Silsila's weekly group tour departure. From the scenic Swat Motorway and snow-capped peaks of Malam Jabba Ski Resort to the lush pine forests of Ushu, crystal-clear Mahudand Lake, Palogha Valley, and Fizaghat, this 3-day getaway offers the ultimate mountain retreat filled with scenic reflections, bonfire nights, and unforgettable memories.",
+    highlights: [
+      "Visit Malam Jabba Ski Resort (chairlift & zip line optional)",
+      "Excursion to pristine Mahudand Lake by 4x4 Jeeps",
+      "Explore dense pine trees of Ushu Forest & Palogha Valley",
+      "Riverside stops at scenic Fizaghat along the Swat River",
+      "Cozy Bonfire Night & Musical Night experience in Kalam",
+      "Comfortable stay in Kalam (Holiday Inn / Royal Elites / Zen Luxus)"
+    ],
+    itinerary: [
+      { day: "Day 0", title: "Departure from Lahore", desc: "Departure from Lahore at 10:00 PM from Daewoo Terminal, Thokar Niaz Baig. Travel towards Islamabad via Motorway." },
+      { day: "Day 1", title: "Islamabad / Lahore to Malam Jabba & Kalam", desc: "Arrival in Islamabad and pick-up of participants at 04:30 AM. Travel via the scenic Swat Motorway. Breakfast stop at Fizaghat. Continue towards Malam Jabba Ski Resort with free time for chairlift, zip-lining, and snow activities (optional). Travel to Kalam in the evening for hotel check-in, dinner, and overnight stay." },
+      { day: "Day 2", title: "Kalam - Mahudand Lake - Ushu Forest - Palogha Valley", desc: "Breakfast at the hotel. Transfer to 4x4 jeeps for an excursion to Mahudand Lake. Explore the scenic beauty of Mahudand Lake, Ushu Forest, and Palogha Valley. Return to Kalam in the evening for a bonfire night and musical night experience. Dinner and overnight stay in Kalam." },
+      { day: "Day 3", title: "Kalam to Islamabad / Lahore", desc: "Breakfast at hotel. Depart from Kalam towards Islamabad/Lahore along the scenic Swat River. Short stop at Fizaghat and break for lunch/fueling on the way. Arrival in Islamabad by evening and Lahore by late night." }
+    ],
+    inclusions: [
+      "Luxury Transport (AC Saloon Coaster / HiAce Grand Cabin)",
+      "3 Breakfasts & 2 Dinners",
+      "2 Nights Hotel Stay in Kalam",
+      "Bonfire Night & Musical Night",
+      "Professional Tour Guide & Dedicated Driver",
+      "First Aid Kit & Road Tolls"
+    ],
+    exclusions: [
+      "Lunch, snacks, and personal refreshments",
+      "Entry tickets for parks, forts, or tourist attractions",
+      "Jeep charges for off-road destinations (Mahudand Lake)",
+      "Optional activities (boating, zip-lining, chairlift, rafting, etc.)"
+    ],
+    packages: [
+      { name: "Standard Package (Quad Sharing)", price: "17,500", status: "available", features: ["Quad sharing room setup", "AC Coaster transport", "Holiday Inn Kalam stay", "3 Breakfasts & 2 Dinners"] },
+      { name: "Standard Package (Twin Sharing)", price: "21,500", status: "available", features: ["Twin sharing room setup", "AC Coaster transport", "Holiday Inn Kalam stay", "3 Breakfasts & 2 Dinners"] },
+      { name: "Standard Package (Solo Room)", price: "27,000", status: "available", features: ["Solo private room setup", "AC Coaster transport", "Holiday Inn Kalam stay", "3 Breakfasts & 2 Dinners"] },
+      { name: "Deluxe Package (Quad Sharing)", price: "25,000", status: "available", features: ["Quad sharing room setup", "AC Grand Cabin transport", "Royal Elites Kalam stay", "3 Breakfasts & 2 Dinners"] },
+      { name: "Deluxe Package (Twin Sharing)", price: "33,500", status: "available", features: ["Twin sharing room setup", "AC Grand Cabin transport", "Royal Elites Kalam stay", "3 Breakfasts & 2 Dinners"] },
+      { name: "Deluxe Package (Solo Room)", price: "40,000", status: "available", features: ["Solo private room setup", "AC Grand Cabin transport", "Royal Elites Kalam stay", "3 Breakfasts & 2 Dinners"] },
+      { name: "Executive Package (Twin Sharing)", price: "51,000", status: "available", features: ["Twin sharing room setup", "Luxury SUV / Grand Cabin", "Zen Luxus Kalam stay", "3 Breakfasts & 2 Dinners"] },
+      { name: "Executive Package (Solo Room)", price: "80,000", status: "available", features: ["Solo private room setup", "Luxury SUV / Grand Cabin", "Zen Luxus Kalam stay", "3 Breakfasts & 2 Dinners"] }
+    ],
+    jeepCharges: "RS. 3,500 - 4,000 Per Head (for Mahudand Lake 4x4 jeep safari)",
+    hotelDetails: {
+      standard: [
+        { city: "Kalam", hotel: "Holiday Inn", nights: "2 Night Stay" }
+      ],
+      deluxe: [
+        { city: "Kalam", hotel: "Royal Elites", nights: "2 Night Stay" }
+      ],
+      executive: [
+        { city: "Kalam", hotel: "Zen Luxus", nights: "2 Night Stay" }
+      ]
+    },
+    faqs: [
+      { q: "When does the 3-Day Swat & Kalam group tour depart?", a: "This tour departs every Thursday night at 10:00 PM from Lahore (Daewoo Terminal, Thokar Niaz Baig) and Friday morning at 05:00 AM from Islamabad." },
+      { q: "What attractions are covered during the trip?", a: "The tour covers Swat Motorway, Fizaghat, Malam Jabba Ski Resort, Ushu Forest, Palogha Valley, Mahudand Lake, and Kalam Valley." },
+      { q: "What hotel stay options are offered in Kalam?", a: "Holiday Inn Kalam for Standard Package, Royal Elites Kalam for Deluxe Package, and Zen Luxus Kalam for Executive Package." },
+      { q: "Are 4x4 jeep charges included for Mahudand Lake?", a: "Local 4x4 jeep safari charges for Mahudand Lake are excluded and payable directly on site." }
+    ]
+  },
   "8-days-hunza-skardu-deosai": {
     id: "8-days-hunza-skardu-deosai",
     title: "8 Days Hunza, Skardu & Deosai Adventure Group Tour",
