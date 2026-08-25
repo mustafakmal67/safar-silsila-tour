@@ -809,3 +809,193 @@ document.addEventListener('DOMContentLoaded', () => {
   aiScript.defer = true;
   document.body.appendChild(aiScript);
 });
+
+/* ==========================================================================
+   GLOBAL MULTI-LANGUAGE TRANSLATION ENGINE & NAVBAR SELECTOR
+   Supports: English, Spanish, French, German, Arabic, Chinese, Japanese, Russian, Turkish, Urdu
+   ========================================================================== */
+(function() {
+  const LANGUAGES = [
+    { code: 'en', name: 'English', flag: '🇬🇧' },
+    { code: 'es', name: 'Español', flag: '🇪🇸' },
+    { code: 'fr', name: 'Français', flag: '🇫🇷' },
+    { code: 'de', name: 'Deutsch', flag: '🇩🇪' },
+    { code: 'ar', name: 'العربية', flag: '🇸🇦', rtl: true },
+    { code: 'zh-CN', name: '中文 (Simplified)', flag: '🇨🇳' },
+    { code: 'ja', name: '日本語', flag: '🇯🇵' },
+    { code: 'ru', name: 'Русский', flag: '🇷🇺' },
+    { code: 'tr', name: 'Türkçe', flag: '🇹🇷' },
+    { code: 'ur', name: 'اردو', flag: '🇵🇰', rtl: true }
+  ];
+
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', initLanguageTranslator);
+  } else {
+    initLanguageTranslator();
+  }
+
+  function initLanguageTranslator() {
+    // 1. Hidden Google Translate container
+    let gtContainer = document.getElementById('google_translate_element');
+    if (!gtContainer) {
+      gtContainer = document.createElement('div');
+      gtContainer.id = 'google_translate_element';
+      gtContainer.style.display = 'none';
+      document.body.appendChild(gtContainer);
+    }
+
+    // 2. Inject Google Translate script
+    if (!window.googleTranslateElementInit) {
+      window.googleTranslateElementInit = function() {
+        new google.translate.TranslateElement({
+          pageLanguage: 'en',
+          includedLanguages: 'en,es,fr,de,ar,zh-CN,ja,ru,tr,ur',
+          autoDisplay: false
+        }, 'google_translate_element');
+
+        const savedLang = localStorage.getItem('safarsilsila_lang');
+        if (savedLang && savedLang !== 'en') {
+          setTimeout(() => applyLanguage(savedLang, false), 400);
+        }
+      };
+
+      const gtScript = document.createElement('script');
+      gtScript.src = '//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit';
+      gtScript.async = true;
+      document.body.appendChild(gtScript);
+    }
+
+    // 3. Inject Navbar Language Selector
+    injectNavbarLanguageSelector();
+  }
+
+  function injectNavbarLanguageSelector() {
+    const headerActions = document.querySelector('.header-actions');
+    if (!headerActions || document.getElementById('lang-selector-wrapper')) return;
+
+    const savedLangCode = localStorage.getItem('safarsilsila_lang') || 'en';
+    const currentLangObj = LANGUAGES.find(l => l.code === savedLangCode) || LANGUAGES[0];
+
+    const wrapper = document.createElement('div');
+    wrapper.id = 'lang-selector-wrapper';
+    wrapper.className = 'lang-selector-wrapper';
+
+    let dropdownHtml = `
+      <button id="lang-selector-btn" class="lang-selector-btn" type="button" aria-haspopup="true" aria-expanded="false" title="Change Language">
+        <span class="lang-flag">${currentLangObj.flag}</span>
+        <span class="lang-code-text">${currentLangObj.code.toUpperCase()}</span>
+        <i class="ph ph-caret-down lang-caret"></i>
+      </button>
+      <div id="lang-dropdown-menu" class="lang-dropdown-menu" role="menu">
+        <div class="lang-dropdown-header">
+          <i class="ph ph-globe"></i> Select Language
+        </div>
+        <div class="lang-dropdown-list">
+    `;
+
+    LANGUAGES.forEach(lang => {
+      const isSelected = lang.code === savedLangCode;
+      dropdownHtml += `
+        <button type="button" class="lang-option ${isSelected ? 'selected' : ''}" data-lang="${lang.code}" role="menuitem">
+          <span class="lang-option-flag">${lang.flag}</span>
+          <span class="lang-option-name">${lang.name}</span>
+          ${isSelected ? '<i class="ph ph-check lang-check"></i>' : ''}
+        </button>
+      `;
+    });
+
+    dropdownHtml += `
+        </div>
+      </div>
+    `;
+
+    wrapper.innerHTML = dropdownHtml;
+    headerActions.insertBefore(wrapper, headerActions.firstChild);
+
+    // Toggle Menu Event
+    const toggleBtn = wrapper.querySelector('#lang-selector-btn');
+    const dropdownMenu = wrapper.querySelector('#lang-dropdown-menu');
+
+    toggleBtn.addEventListener('click', (e) => {
+      e.stopPropagation();
+      const isOpen = dropdownMenu.classList.contains('active');
+      closeAllLangDropdowns();
+      if (!isOpen) {
+        dropdownMenu.classList.add('active');
+        toggleBtn.setAttribute('aria-expanded', 'true');
+      }
+    });
+
+    // Language Selection Event
+    wrapper.querySelectorAll('.lang-option').forEach(btn => {
+      btn.addEventListener('click', (e) => {
+        e.stopPropagation();
+        const selectedCode = btn.getAttribute('data-lang');
+        applyLanguage(selectedCode, true);
+        dropdownMenu.classList.remove('active');
+        toggleBtn.setAttribute('aria-expanded', 'false');
+      });
+    });
+
+    document.addEventListener('click', closeAllLangDropdowns);
+  }
+
+  function closeAllLangDropdowns() {
+    const menu = document.getElementById('lang-dropdown-menu');
+    const btn = document.getElementById('lang-selector-btn');
+    if (menu) menu.classList.remove('active');
+    if (btn) btn.setAttribute('aria-expanded', 'false');
+  }
+
+  function applyLanguage(langCode, shouldReload = false) {
+    const langObj = LANGUAGES.find(l => l.code === langCode) || LANGUAGES[0];
+    localStorage.setItem('safarsilsila_lang', langCode);
+
+    // Set Google Translate cookies
+    const domain = window.location.hostname;
+    document.cookie = `googtrans=/en/${langCode}; path=/; domain=${domain}`;
+    document.cookie = `googtrans=/en/${langCode}; path=/`;
+
+    // Handle RTL orientation for Arabic and Urdu
+    if (langObj.rtl) {
+      document.documentElement.setAttribute('dir', 'rtl');
+      document.body.classList.add('lang-rtl');
+    } else {
+      document.documentElement.removeAttribute('dir');
+      document.body.classList.remove('lang-rtl');
+    }
+
+    // Update toggle button text
+    const toggleBtn = document.getElementById('lang-selector-btn');
+    if (toggleBtn) {
+      const flagSpan = toggleBtn.querySelector('.lang-flag');
+      const textSpan = toggleBtn.querySelector('.lang-code-text');
+      if (flagSpan) flagSpan.textContent = langObj.flag;
+      if (textSpan) textSpan.textContent = langObj.code.toUpperCase();
+    }
+
+    // Update active checkmarks
+    document.querySelectorAll('.lang-option').forEach(opt => {
+      const optCode = opt.getAttribute('data-lang');
+      if (optCode === langCode) {
+        opt.classList.add('selected');
+        if (!opt.querySelector('.lang-check')) {
+          opt.insertAdjacentHTML('beforeend', '<i class="ph ph-check lang-check"></i>');
+        }
+      } else {
+        opt.classList.remove('selected');
+        const check = opt.querySelector('.lang-check');
+        if (check) check.remove();
+      }
+    });
+
+    // Trigger Google combo box if already present in DOM
+    const googleCombo = document.querySelector('.goog-te-combo');
+    if (googleCombo) {
+      googleCombo.value = langCode;
+      googleCombo.dispatchEvent(new Event('change'));
+    } else if (shouldReload) {
+      window.location.reload();
+    }
+  }
+})();
