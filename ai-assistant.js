@@ -518,366 +518,327 @@
     return html;
   }
 
-  // AI Rule-Based Natural Matching System with Session Context Memory
+  // AI Smart Dynamic Matching System across ALL 180+ Tours with Context Memory
   function generateAIResponse(message) {
     const normalized = message.toLowerCase().trim();
     const tourData = window.TOUR_DATA || {};
 
     const fallbackSuggestions = [
-      { text: "🌸 Hunza tours", query: "Tell me about Hunza packages" },
-      { text: "❄️ Skardu tours", query: "What are your Skardu tours" },
+      { text: "⛰️ Swat & Kalam Packages", query: "Show me Swat tour packages" },
+      { text: "🌸 Hunza Valley Tours", query: "Tell me about Hunza packages" },
+      { text: "❄️ Skardu Valley Tours", query: "What are your Skardu tours" },
+      { text: "🍁 Kashmir Tours", query: "Kashmir tour options" },
       { text: "📅 Plan Custom Tour", query: "How to plan a custom trip" },
       { text: "🚗 Rent Transport", query: "Rent a car or coaster" }
     ];
 
     const getTourLink = (id) => `tour-details.html?tour=${id}`;
 
-    // A. Resolve context/destination from chat history
-    let contextDest = null;
-    for (let i = chatHistory.length - 1; i >= 0; i--) {
-      if (chatHistory[i].role === 'user') {
-        const msg = chatHistory[i].text.toLowerCase();
-        if (msg.includes('hunza') || msg.includes('naltar')) { contextDest = '5-days-hunza-naltar'; break; }
-        if (msg.includes('skardu') || msg.includes('deosai')) { contextDest = '6-days-skardu-deosai'; break; }
-        if (msg.includes('astore') || msg.includes('minimarg') || msg.includes('rainbow')) { contextDest = '6-days-astore-minimarg'; break; }
-        if (msg.includes('fairy') || msg.includes('meadows') || msg.includes('nanga')) { contextDest = '5-days-fairy-meadows'; break; }
-        if (msg.includes('ratti') || msg.includes('kashmir') || msg.includes('taobat')) { contextDest = '5-days-kashmir-ratti-gali'; break; }
-        if (msg.includes('kumrat') || msg.includes('katora') || msg.includes('jahaz')) { contextDest = '5-days-kumrat-jahaz-banda'; break; }
-      }
-    }
+    // -----------------------------------------------------------------
+    // STEP 1: General High-Priority Intent Matches (Greetings, Booking, Offices, Custom, Transport, etc.)
+    // -----------------------------------------------------------------
 
-    // Determine target tour based on current query or context fallback
-    let targetTourId = null;
-    if (normalized.includes("8-days-hunza") || (normalized.includes("hunza") && normalized.includes("8"))) {
-      targetTourId = "8-days-hunza-skardu-deosai";
-    } else if (normalized.includes("5-days-hunza") || (normalized.includes("hunza") && normalized.includes("5")) || (normalized.includes("hunza") && normalized.includes("naltar"))) {
-      targetTourId = "5-days-hunza-naltar";
-    } else if (normalized.includes("6-days-skardu") || (normalized.includes("skardu") && normalized.includes("6"))) {
-      targetTourId = "6-days-skardu-deosai";
-    } else if (normalized.includes("astore") || normalized.includes("minimarg") || normalized.includes("rainbow") || normalized.includes("domail")) {
-      targetTourId = "6-days-astore-minimarg";
-    } else if (normalized.includes("fairy") || normalized.includes("meadows") || normalized.includes("nanga")) {
-      targetTourId = "5-days-fairy-meadows";
-    } else if (normalized.includes("kumrat") || normalized.includes("katora") || normalized.includes("jahaz")) {
-      targetTourId = "5-days-kumrat-jahaz-banda";
-    } else if (normalized.includes("ratti") || (normalized.includes("kashmir") && normalized.includes("5"))) {
-      targetTourId = "5-days-kashmir-ratti-gali";
-    } else if (normalized.includes("taobat") && normalized.includes("4")) {
-      targetTourId = "kashmir-taobat-4d";
-    } else if (normalized.includes("kashmir") || normalized.includes("taobat") || normalized.includes("neelum")) {
-      targetTourId = "5-days-kashmir-ratti-gali"; // Default Neelum valley package
-    }
-
-    // Use history context if no explicit destination is mentioned
-    if (!targetTourId && contextDest) {
-      targetTourId = contextDest;
-    }
-
-    const currentTour = targetTourId ? tourData[targetTourId] : null;
-
-    // B. Contextual actions matching (if we have a resolved tour)
-    if (currentTour) {
-      // B1. Cost / Price match
-      if (normalized.includes("price") || normalized.includes("cost") || normalized.includes("price") || normalized.includes("how much") || normalized.includes("charges") || normalized.includes("fee")) {
-        let text = `The pricing details for **${currentTour.title}** are:\n\n`;
-        text += `- **Standard Quad Sharing Package**: PKR ${currentTour.price} / head\n`;
-        
-        if (currentTour.packages && currentTour.packages.length > 0) {
-          text += `\nOther package tiers for this tour:\n`;
-          currentTour.packages.forEach(pkg => {
-            if (pkg.price && pkg.price !== 'N/A') {
-              text += `- **${pkg.name}**: PKR ${pkg.price} / head\n`;
-            }
-          });
-        }
-        
-        if (currentTour.jeepCharges) {
-          text += `- **Jeep Excursion Charges**: ${currentTour.jeepCharges}\n`;
-        }
-
-        text += `\nGroup tours depart weekly. Would you like to read the day-by-day itinerary or check inclusions?`;
-
-        return {
-          text: text,
-          suggestions: [
-            { text: `📋 Show ${currentTour.duration} itinerary`, query: `Show me the itinerary of ${currentTour.id}` },
-            { text: "🏕️ Check inclusions", query: `What is included in ${currentTour.id}` },
-            { text: "💳 How to Book?", query: "How to book" }
-          ]
-        };
-      }
-
-      // B2. Itinerary / Schedule match
-      if (normalized.includes("itinerary") || normalized.includes("schedule") || normalized.includes("route") || normalized.includes("day 1") || normalized.includes("days detail") || normalized.includes("detail")) {
-        let text = `Here is the day-by-day itinerary for **${currentTour.title}**:\n\n`;
-        currentTour.itinerary.forEach(day => {
-          text += `**${day.day} - ${day.title}**\n${day.desc}\n\n`;
-        });
-        text += `👉 [View Full Hotel and Route Details Online](${getTourLink(currentTour.id)})`;
-
-        return {
-          text: text,
-          suggestions: [
-            { text: "💵 Check Pricing", query: `What is the price of ${currentTour.id}` },
-            { text: "🏕️ Check inclusions", query: `What is included in ${currentTour.id}` },
-            { text: "💳 How to Book?", query: "How to book" }
-          ]
-        };
-      }
-
-      // B3. Inclusions / Exclusions match
-      if (normalized.includes("include") || normalized.includes("exclude") || normalized.includes("breakfast") || normalized.includes("dinner") || normalized.includes("service") || normalized.includes("hotel")) {
-        let text = `For the **${currentTour.title}**, the following are **included** in the tour fee:\n\n`;
-        currentTour.inclusions.forEach(inc => {
-          text += `- ${inc}\n`;
-        });
-        
-        text += `\n**What's Excluded**:\n\n`;
-        currentTour.exclusions.forEach(exc => {
-          text += `- ${exc}\n`;
-        });
-
-        text += `\nWould you like to check the pricing options or read FAQs?`;
-
-        return {
-          text: text,
-          suggestions: [
-            { text: "💵 Check Pricing", query: `What is the price of ${currentTour.id}` },
-            { text: "❓ View FAQs", query: `FAQs for ${currentTour.id}` },
-            { text: "💳 How to Book?", query: "How to book" }
-          ]
-        };
-      }
-
-      // B4. FAQs match
-      if (normalized.includes("faq") || normalized.includes("question") || normalized.includes("trek") || normalized.includes("walk") || normalized.includes("internet") || normalized.includes("electricity") || normalized.includes("difficult")) {
-        let text = `Here are some frequently asked questions for **${currentTour.title}**:\n\n`;
-        currentTour.faqs.forEach(faq => {
-          text += `**Q: ${faq.q}**\nA: ${faq.a}\n\n`;
-        });
-
-        return {
-          text: text,
-          suggestions: [
-            { text: "📋 View Itinerary", query: `Show me the itinerary of ${currentTour.id}` },
-            { text: "💵 Check Pricing", query: `What is the price of ${currentTour.id}` },
-            { text: "💳 How to Book?", query: "How to book" }
-          ]
-        };
-      }
-    }
-
-    // C. General Matches (Website Knowledge Base)
-
-    // C1. Greetings
-    if (normalized.match(/^(hello|hi|hey|assalam|salam|helo|greetings|good morning|good evening)/i)) {
+    // 1A. Greetings
+    if (normalized.match(/^(hello|hi|hey|assalam|salam|helo|greetings|good morning|good evening|aoa)/i)) {
       return {
-        text: "Assalam-o-Alaikum! 🏔️ Welcome. I am ready to help you plan your journey in Northern Pakistan. \n\nWhich destination are you thinking about visiting? (Hunza, Skardu, Fairy Meadows, Kashmir, Kumrat, or Astore?)",
+        text: "Assalam-o-Alaikum! 🏔️ Welcome to **Safar Silsila Travel & Tours**. I am your smart AI travel assistant, ready to give you 100% accurate details on all our 180+ tour packages and travel services!\n\nWhich destination or service can I help you explore today?\n- **Group Tour Destinations**: Swat & Kalam, Hunza & Naltar, Skardu & Deosai, Kashmir & Taobat, Minimarg & Astore, Fairy Meadows, Kumrat & Jahaz Banda.\n- **Travel Services**: Custom Honeymoon & Family Trips, Luxury Vehicle Rentals, and Foreigner Expeditions.",
         suggestions: [
-          { text: "🌸 Hunza Valley Tour", query: "Hunza package details" },
-          { text: "❄️ Skardu Valley Tour", query: "Skardu package details" },
+          { text: "⛰️ Swat & Kalam Packages", query: "Swat tour packages" },
+          { text: "🌸 Hunza Valley Packages", query: "Hunza package details" },
+          { text: "❄️ Skardu Valley Packages", query: "Skardu package details" },
           { text: "📅 Plan Custom Tour", query: "How can I plan a custom trip?" },
           { text: "💳 How to Book?", query: "How do I book a tour?" }
         ]
       };
     }
 
-    // C2. Custom Tour Planning
-    if (normalized.includes("custom") || normalized.includes("plan") || normalized.includes("tailor") || normalized.includes("honeymoon") || normalized.includes("family tour") || normalized.includes("private")) {
+    // 1B. Booking & Payment Process
+    if (normalized.includes("book") || normalized.includes("payment") || normalized.includes("pay") || normalized.includes("advance") || normalized.includes("deposit") || normalized.includes("bank account") || normalized.includes("account number") || normalized.includes("how to reserve")) {
       return {
-        text: "Looking for a **Private / Customized Tour**? Safar Silsila is a logistics expert in travel planning! We can design custom itineraries tailored to your dates, budget, and group size.\n\n" +
-              "- **Services Include**: Dedicated AC transport (Prado, Land Cruiser, Grand Cabin, Coaster), hotel bookings (standard to 5-star luxury), jeep hires, and experienced tour guides.\n" +
-              "- **Planning Process**: You fill out our brief custom planning form, and our travel planners will coordinate a direct plan sent via WhatsApp with complete pricing.\n\n" +
-              "👉 [Go to Custom Tour Planner](custom-tour.html) to submit your details online, or ask me to prepare a booking inquiry!",
+        text: "Booking a tour with Safar Silsila is simple and 100% secure:\n\n" +
+              "1. **Select Your Tour**: Pick your preferred group package, custom itinerary, or transport rental.\n" +
+              "2. **50% Advance Deposit**: Transfer 50% advance to lock your seats/booking.\n" +
+              "3. **Remaining Balance**: Pay the remaining 50% balance at the time of departure or check-in.\n\n" +
+              "💳 **Accepted Payment Methods**:\n" +
+              "- **Bank Transfer**: HBL, Meezan Bank, Bank Alfalah\n" +
+              "- **Mobile Wallets**: EasyPaisa & JazzCash\n" +
+              "- **Cash**: Payment at our Islamabad or Karachi offices.\n\n" +
+              "After transferring, send your transaction receipt to our WhatsApp team, and we will immediately issue your official **Booking Confirmation Voucher**!",
         suggestions: [
-          { text: "📅 Go to Custom Planner", query: "I want to fill custom tour form" },
-          { text: "🚗 View Transport Rates", query: "What vehicles do you rent?" },
-          { text: "📞 Contact Agent via WhatsApp", query: "Give me your WhatsApp contact" }
-        ]
-      };
-    }
-
-    // C3. Transport Rental Services
-    if (normalized.includes("transport") || normalized.includes("car") || normalized.includes("rent") || normalized.includes("vehicle") || normalized.includes("prado") || normalized.includes("coaster") || normalized.includes("grand cabin") || normalized.includes("hiace") || normalized.includes("jeep")) {
-      return {
-        text: "Safar Silsila provides premium **Transport Rental Services** across Pakistan, specializing in Northern Area travels. Our fleet includes:\n\n" +
-              "- **Toyota HiAce Grand Cabin** (AC, 11-13 seats) - Ideal for families and small groups.\n" +
-              "- **Saloon Coaster** (AC, 20-22 seats) - Best for large groups and office trips.\n" +
-              "- **Toyota Prado / Land Cruiser V8** (4x4, 4-6 seats) - Ultimate comfort on mountain tracks.\n" +
-              "- **Local Mountain Jeeps (Tz/4x4)** - For off-roading to Deosai, Fairy Meadows, Minimarg, etc.\n\n" +
-              "Rentals include dedicated, professional drivers experienced in mountain driving (fuel charges vary based on itinerary).\n\n" +
-              "👉 [View Vehicles and Request Quote](transport.html)",
-        suggestions: [
-          { text: "🚗 Request Transport Quote", query: "Book rental transport" },
-          { text: "📅 Plan Custom Tour", query: "Plan custom itinerary with car" },
-          { text: "📞 Contact via WhatsApp", query: "WhatsApp number" }
-        ]
-      };
-    }
-
-    // C4. Booking process & Payment Methods
-    if (normalized.includes("book") || normalized.includes("payment") || normalized.includes("pay") || normalized.includes("advance") || normalized.includes("deposit") || normalized.includes("bank")) {
-      return {
-        text: "Booking a tour with Safar Silsila is simple and secure:\n\n" +
-              "1. **Choose your package** (Group Tour, Custom Tour, or Transport Rental).\n" +
-              "2. **Deposit 50% Advance** of the total tour fee to confirm your booking.\n" +
-              "3. **Pay the remaining 50% balance** at the time of departure (or check-in).\n\n" +
-              "**Accepted Payment Methods**:\n" +
-              "- Bank Account Transfers (HBL, Meezan, Alfalah, etc.)\n" +
-              "- Mobile Wallets (EasyPaisa / JazzCash)\n" +
-              "- Cash payment at our Islamabad office.\n\n" +
-              "Once you make the advance transfer, share the receipt with your designated travel representative, and we will issue your official Booking Confirmation Voucher via email and WhatsApp.",
-        suggestions: [
-          { text: "📞 Contact Support via WhatsApp", query: "Give me your WhatsApp link to send receipt" },
+          { text: "📞 Contact via WhatsApp", query: "Give me your WhatsApp number for payment receipt" },
           { text: "📍 Where is your office?", query: "Where is your office address" },
+          { text: "📋 View Group Tours", query: "Show me group tour packages" }
+        ]
+      };
+    }
+
+    // 1C. Custom Tour Planning & Honeymoon
+    if (normalized.includes("custom") || normalized.includes("tailor") || normalized.includes("honeymoon") || normalized.includes("family tour") || normalized.includes("private trip") || normalized.includes("private tour") || normalized.includes("corporate")) {
+      return {
+        text: "Looking for a **Private / Customized / Honeymoon Tour**? Safar Silsila is a logistics expert in personal travel planning!\n\n" +
+              "✨ **What We Provide**:\n" +
+              "- Dedicated luxury AC vehicle (Prado, Land Cruiser V8, Grand Cabin, Coaster, or 4x4 Jeep)\n" +
+              "- Handpicked hotel accommodations (Standard, Deluxe, or 5-Star Luxury Resorts)\n" +
+              "- Customized day-by-day sightseeing itinerary based on your preferred dates\n" +
+              "- Professional local mountain drivers & tour guides\n\n" +
+              "👉 [Click here to open our Custom Tour Builder](custom-tour.html) to request a customized quote instantly!",
+        suggestions: [
+          { text: "📅 Fill Custom Form", query: "I want to fill custom tour form" },
+          { text: "🚗 Rent Transport", query: "What vehicles do you rent?" },
+          { text: "📞 Contact via WhatsApp", query: "WhatsApp contact" }
+        ]
+      };
+    }
+
+    // 1D. Transport Rentals
+    if (normalized.includes("transport") || normalized.includes("car rent") || normalized.includes("rent vehicle") || normalized.includes("prado") || normalized.includes("coaster") || normalized.includes("grand cabin") || normalized.includes("hiace") || normalized.includes("jeep rent")) {
+      return {
+        text: "Safar Silsila offers premium **Vehicle Rental Services** across Pakistan with expert mountain drivers:\n\n" +
+              "- **Toyota HiAce Grand Cabin** (AC, 11-13 Seats): Ideal for families and small groups.\n" +
+              "- **Saloon Coaster** (AC, 20-22 Seats): Best for corporate and large group trips.\n" +
+              "- **Toyota Prado / Land Cruiser V8** (4x4, 4-6 Seats): Ultimate luxury & comfort for mountain tracks.\n" +
+              "- **Local Mountain 4x4 Jeeps**: For off-roading to Deosai, Fairy Meadows, Minimarg, Kumrat, etc.\n\n" +
+              "👉 [View All Vehicles and Request Quote](transport.html)",
+        suggestions: [
+          { text: "🚗 Transport Page", query: "Show transport rental details" },
+          { text: "📞 WhatsApp Quote", query: "Give WhatsApp for vehicle rental" }
+        ]
+      };
+    }
+
+    // 1E. Office Address & Contacts
+    if (normalized.includes("address") || normalized.includes("office") || normalized.includes("location") || normalized.includes("where are you") || normalized.includes("contact") || normalized.includes("phone") || normalized.includes("whatsapp") || normalized.includes("number")) {
+      return {
+        text: "You are welcome to visit our offices or reach out directly:\n\n" +
+              "📍 **Islamabad Office**:\n" +
+              "Office # 9, First Floor, Aslam Business Square, FECHS E-11/2, Islamabad, Pakistan.\n\n" +
+              "📍 **Karachi Office**:\n" +
+              "Building #7c Street-3, Office No 2, Badar Commercial, DHA Phase-V, Karachi, Pakistan.\n\n" +
+              "📞 **Phone / WhatsApp**: [+92 311 1145456](https://wa.me/923111145456)\n" +
+              "✉️ **Email**: info@safarsilsila.com\n" +
+              "🕒 **Timings**: Monday to Saturday, 10:00 AM – 6:00 PM\n\n" +
+              "Weekly group departures leave from **Lahore** (Daewoo Terminal) and **Islamabad** (G-11 Metro / Highway points).",
+        suggestions: [
+          { text: "💬 Open WhatsApp Chat", query: "Open WhatsApp chat" },
           { text: "📋 View Group Tours", query: "Show me all tour packages" }
         ]
       };
     }
 
-    // C5. Office Location & Address
-    if (normalized.includes("address") || normalized.includes("office") || normalized.includes("location") || normalized.includes("where are you") || normalized.includes("islamabad") || normalized.includes("karachi") || normalized.includes("lahore")) {
+    // 1F. Weather & Best Season
+    if (normalized.includes("weather") || normalized.includes("season") || normalized.includes("best time") || normalized.includes("month") || normalized.includes("clothes") || normalized.includes("snow")) {
       return {
-        text: "You are welcome to visit us! Safar Silsila has offices in Islamabad and Karachi:\n\n" +
-              "📍 **Islamabad Office**:\n" +
-              "Office # 9, First Floor, Aslam Business Square, FECHS E-11/2, Islamabad, Pakistan.\n\n" +
-              "📍 **Karachi Office**:\n" +
-              "Building #7c Street-3, Office No 2, Badar Commercial, DHA Phase-V, Karachi, Pakistan.\n\n" +
-              "🕒 **Timings**: Monday to Saturday, 10:00 AM to 06:00 PM.\n" +
-              "📞 **Phone/WhatsApp**: +92 311 1145456\n\n" +
-              "Group departures are organized from **Lahore** (Daewoo Terminal, Thokar Niaz Baig) and **Islamabad** (G-11 Metro Station / Highway junction points). Private tours can start from any city of your choice!",
+        text: "🌤️ **Northern Pakistan Weather & Travel Guide**:\n\n" +
+              "- **Peak Season (May – October)**: Pleasant day weather (15°C – 25°C). All main passes (Babusar Pass, Deosai, Shandur) are open.\n" +
+              "- **Spring / Autumn (April - May & Sep - Oct)**: Crisp clear skies, spring cherry blossoms, and golden autumn foliage. Evening temperatures drop near 0°C—warm jackets recommended.\n" +
+              "- **Winter (Nov – March)**: Snowfall season in Hunza, Skardu, Swat, and Malam Jabba. Ideal for snow sports and winter festivals!",
         suggestions: [
-          { text: "📞 Contact via WhatsApp", query: "WhatsApp contact number" },
-          { text: "📋 View Tours", query: "Show me your group tours" },
-          { text: "📅 Plan Custom Tour", query: "Custom tour planning" }
+          { text: "📋 View All Tour Packages", query: "Show me group tour packages" },
+          { text: "📅 Plan Custom Tour", query: "How to plan custom trip" }
         ]
       };
     }
 
-    // C6. Contact details & Support
-    if (normalized.includes("contact") || normalized.includes("phone") || normalized.includes("number") || normalized.includes("email") || normalized.includes("whatsapp") || normalized.includes("support")) {
-      return {
-        text: "You can reach Safar Silsila through our official channels for instant queries and bookings:\n\n" +
-              "- 📞 **Phone & WhatsApp**: [+92 311 1145456](https://wa.me/923111145456)\n" +
-              "- ✉️ **Email**: info@safarsilsila.com\n" +
-              "- 📍 **Office Addresses**:\n" +
-              "  1. *Islamabad*: Office # 9, First Floor, Aslam Business Square, FECHS E-11/2, Islamabad, Pakistan.\n" +
-              "  2. *Karachi*: Building #7c Street-3, Office No 2, Badar Commercial, DHA Phase-V, Karachi, Pakistan.\n\n" +
-              "Would you like to open a direct WhatsApp chat to book your tour? Just click the link above or let me know!",
-        suggestions: [
-          { text: "💬 Open Chat in WhatsApp", query: "Open WhatsApp chat" },
-          { text: "📅 Plan Custom Tour", query: "Plan a custom trip" },
-          { text: "📋 Explore Packages", query: "Show all tours" }
-        ]
-      };
-    }
-
-    // C7. Weather / Seasons / Best Time
-    if (normalized.includes("weather") || normalized.includes("season") || normalized.includes("best time") || normalized.includes("month") || normalized.includes("cold") || normalized.includes("clothes")) {
-      return {
-        text: "The peak travel season for Northern Pakistan (Hunza, Skardu, Astore, Fairy Meadows, Kumrat) is from **May to October** when mountain roads (like Babusar Pass) are open, and temperatures are pleasant (15°C to 25°C during the day).\n\n" +
-              "- **Summer (June - Aug)**: Pleasant day weather, but high-altitude spots (like Deosai or Nanga Parbat base camp) can drop to 5°C or lower at night. Lightweight jackets and layering are recommended.\n" +
-              "- **Spring/Autumn (May, Sep, Oct)**: Quite cold in the evenings (drops below 0°C in high valleys). Heavy fleece jackets, thermal innerwear, and warm caps are essential.\n" +
-              "- **Winter (Nov - April)**: Heavy snowfall. Most high passes are closed, but winter tourism (like snowboarding in Naltar or viewing frozen Attabad Lake) is possible for adventurers.\n\n" +
-              "Are you planning a trip in a specific month?",
-        suggestions: [
-          { text: "📋 View Group Packages", query: "Show all tours" },
-          { text: "📅 Plan Custom Tour", query: "How to plan custom tour" },
-          { text: "📞 Contact via WhatsApp", query: "WhatsApp contact number" }
-        ]
-      };
-    }
-
-    // C8. Visas
+    // 1G. Foreigners & Visas
     if (normalized.includes("visa") || normalized.includes("passport") || normalized.includes("foreigner") || normalized.includes("international")) {
       return {
-        text: "Pakistan offers an **eVisa service** for citizens of over 170 countries! The online application is straightforward, and processing typically takes between 24 to 48 hours.\n\n" +
-              "- **Safar Silsila Assistance**: Upon booking your tour, we provide a complete visa invitation letter (LOI) and guide you through the official government portal.\n" +
-              "- **Tourist Friendly**: Visa fees vary by nationality but are generally low. Most tourists get a 30-day single-entry visa initially.\n\n" +
-              "Are you planning to travel from outside Pakistan? Let us know your nationality!",
+        text: "🛂 **International Travelers & Visa Services**:\n\n" +
+              "- Pakistan offers online **eVisa** for citizens of 170+ countries.\n" +
+              "- **Safar Silsila LOI Letter**: Upon booking, we issue official **Letters of Invitation (LOI)** and hotel vouchers for your visa approval.\n" +
+              "- **Dedicated Foreigner Services**: Private 4x4 vehicles, English-speaking licensed guides, and curated security protocol.\n\n" +
+              "👉 [Explore Foreigner Group Trips](foreign-group-trips.html) or [View Visa Assistance](visa-help.html)",
         suggestions: [
-          { text: "📞 Contact Support on WhatsApp", query: "WhatsApp visa advice" },
-          { text: "📋 View Group Tours", query: "Show group tours" }
+          { text: "🌍 Foreigner Group Trips", query: "Show foreigner group trips" },
+          { text: "📄 Visa Help Page", query: "Tell me about visa assistance" }
         ]
       };
     }
 
-    // C9. Safety
-    if (normalized.includes("safe") || normalized.includes("security") || normalized.includes("danger") || normalized.includes("threat")) {
-      return {
-        text: "Yes, Northern Pakistan is **extremely safe** for both local and international tourists. The mountain regions (Hunza, Skardu, Swat, Kashmir) are famous for their peaceful environments, near-zero crime rates, and warm, welcoming local hospitality.\n\n" +
-              "- **Our Standards**: Safar Silsila works only with certified local mountain drivers and vetted accommodations to guarantee a smooth, worry-free trip.\n" +
-              "- **Families & Solo Travelers**: Many families, couples, and solo female travelers book group tours with us weekly. Your comfort and security are our highest priorities.\n\n" +
-              "Do you have any specific safety questions about a particular destination?",
-        suggestions: [
-          { text: "📞 Contact Support on WhatsApp", query: "WhatsApp query" },
-          { text: "📋 Explore Packages", query: "Show all tours" }
-        ]
-      };
-    }
+    // -----------------------------------------------------------------
+    // STEP 2: Dynamic Search Across ALL 180+ Tours in window.TOUR_DATA
+    // -----------------------------------------------------------------
 
-    // C10. About Safar Silsila
-    if (normalized.includes("about") || normalized.includes("safar silsila") || normalized.includes("history") || normalized.includes("found") || normalized.includes("who are you")) {
-      return {
-        text: "**Safar Silsila** is a trusted travel agency headquartered in Islamabad, Pakistan. We specialize in curating outstanding tours across Northern Pakistan, including:\n\n" +
-              "- **Group Adventures**: Scheduled weekly departures from Lahore and Islamabad.\n" +
-              "- **Custom Itineraries**: Private travel tailored to corporate groups, families, and couples.\n" +
-              "- **Reliable Vehicle Rentals**: A diverse fleet with professional mountain drivers.\n\n" +
-              "Our mission is to make Pakistan's most beautiful destinations safe, accessible, and unforgettable. Read more about us on our [About Page](about.html)!",
-        suggestions: [
-          { text: "📋 View Tour Packages", query: "Show all tours" },
-          { text: "📞 Contact Support on WhatsApp", query: "WhatsApp contact" }
-        ]
-      };
-    }
+    // Extract search query keywords (removing common stop words)
+    const stopWords = ['the', 'a', 'an', 'in', 'on', 'at', 'for', 'of', 'to', 'is', 'are', 'was', 'were', 'tours', 'tour', 'trip', 'trips', 'package', 'packages', 'group', 'groups', 'show', 'tell', 'me', 'about', 'what', 'your', 'any', 'some', 'list', 'please', 'details', 'give', 'can', 'find', 'which', 'available'];
+    const queryTokens = normalized.split(/[^a-z0-9]+/).filter(w => w.length > 2 && !stopWords.includes(w));
 
-    // D. Dynamic Tour Search fallback
-    let bestMatch = null;
-    let maxMatches = 0;
-    
+    let matchedTours = [];
+
     for (const key in tourData) {
       const tour = tourData[key];
-      const keywords = [
-        ...tour.title.toLowerCase().split(/[ ,&]+/),
-        ...tour.location.toLowerCase().split(/[ ,&]+/),
-        ...tour.duration.toLowerCase().split(/[ ,&]+/),
-        tour.difficulty.toLowerCase()
-      ];
+      const searchTarget = (tour.id + ' ' + tour.title + ' ' + tour.location + ' ' + tour.duration + ' ' + (tour.highlights || []).join(' ')).toLowerCase();
       
-      let matchCount = 0;
-      keywords.forEach(kw => {
-        if (kw && kw.length > 2 && normalized.includes(kw)) {
-          matchCount++;
+      let matchScore = 0;
+      queryTokens.forEach(token => {
+        if (searchTarget.includes(token)) {
+          matchScore += 2;
+          if (tour.title.toLowerCase().includes(token) || tour.location.toLowerCase().includes(token)) {
+            matchScore += 3; // Bonus for title/location match
+          }
         }
       });
 
-      if (matchCount > maxMatches) {
-        maxMatches = matchCount;
-        bestMatch = tour;
+      if (matchScore > 0) {
+        matchedTours.push({ tour, score: matchScore });
       }
     }
 
-    if (bestMatch && maxMatches >= 2) {
-      let text = `Based on your interest, I recommend checking our **${bestMatch.title}**:\n\n`;
-      text += `- **Duration**: ${bestMatch.duration}\n`;
-      text += `- **Price**: Starts at **PKR ${bestMatch.price} / head**\n`;
-      text += `- **Difficulty**: ${bestMatch.difficulty}\n`;
-      text += `- **Highlights**: ${bestMatch.highlights.slice(0, 3).join(", ")}...\n\n`;
-      text += `👉 [View Complete Details and Book Here](${getTourLink(bestMatch.id)})`;
-      
+    matchedTours.sort((a, b) => b.score - a.score);
+
+    // -----------------------------------------------------------------
+    // STEP 3: Handle Specific Tour Inquiry vs Multi-Tour Search Results
+    // -----------------------------------------------------------------
+
+    const isPriceQuery = normalized.includes("price") || normalized.includes("cost") || normalized.includes("how much") || normalized.includes("fee") || normalized.includes("charges") || normalized.includes("rate");
+    const isItineraryQuery = normalized.includes("itinerary") || normalized.includes("schedule") || normalized.includes("day 1") || normalized.includes("days detail") || normalized.includes("route") || normalized.includes("plan");
+    const isInclusionQuery = normalized.includes("include") || normalized.includes("exclude") || normalized.includes("breakfast") || normalized.includes("dinner") || normalized.includes("hotel") || normalized.includes("service");
+    const isFaqQuery = normalized.includes("faq") || normalized.includes("question") || normalized.includes("trek") || normalized.includes("difficult") || normalized.includes("walking");
+
+    const topMatch = matchedTours.length > 0 ? matchedTours[0].tour : null;
+
+    // Case 3A: Specific Tour Feature Inquiry (Price, Itinerary, Inclusions, FAQs)
+    if (topMatch && (isPriceQuery || isItineraryQuery || isInclusionQuery || isFaqQuery || matchedTours.length === 1)) {
+      // 3A1. Specific Price Response
+      if (isPriceQuery) {
+        let text = `The pricing details for **${topMatch.title}** are:\n\n`;
+        text += `- 🏷️ **Standard Quad Sharing Package**: **PKR ${topMatch.price}** per person\n`;
+        
+        if (topMatch.packages && topMatch.packages.length > 0) {
+          text += `\n**Other Accommodation Tiers**:\n`;
+          topMatch.packages.forEach(pkg => {
+            if (pkg.price && pkg.price !== 'N/A') {
+              text += `- **${pkg.name}**: PKR ${pkg.price} / head\n`;
+            }
+          });
+        }
+        
+        if (topMatch.jeepCharges) {
+          text += `- 🚙 **Jeep Excursion Note**: ${topMatch.jeepCharges}\n`;
+        }
+
+        text += `\n👉 [Click here to view complete hotel & itinerary details](${getTourLink(topMatch.id)})\n\nWould you like to read the itinerary or inclusions?`;
+
+        return {
+          text: text,
+          suggestions: [
+            { text: `📋 ${topMatch.duration} Itinerary`, query: `Show me the itinerary of ${topMatch.title}` },
+            { text: `🏕️ What's included?`, query: `What is included in ${topMatch.title}` },
+            { text: "💳 How to Book?", query: "How to book" }
+          ]
+        };
+      }
+
+      // 3A2. Specific Itinerary Response
+      if (isItineraryQuery) {
+        let text = `Here is the day-by-day itinerary for **${topMatch.title}** (${topMatch.duration}):\n\n`;
+        if (topMatch.itinerary && topMatch.itinerary.length > 0) {
+          topMatch.itinerary.forEach(day => {
+            text += `**${day.day} - ${day.title}**\n${day.desc}\n\n`;
+          });
+        } else {
+          text += `This tour features sightseeing across ${topMatch.location}.\n\n`;
+        }
+        text += `👉 [View Full Hotel & Route Details Online](${getTourLink(topMatch.id)})`;
+
+        return {
+          text: text,
+          suggestions: [
+            { text: `💵 Check Price`, query: `What is the price of ${topMatch.title}` },
+            { text: `🏕️ Check inclusions`, query: `What is included in ${topMatch.title}` },
+            { text: "💳 How to Book?", query: "How to book" }
+          ]
+        };
+      }
+
+      // 3A3. Specific Inclusions/Exclusions Response
+      if (isInclusionQuery) {
+        let text = `For **${topMatch.title}**, the package includes:\n\n`;
+        if (topMatch.inclusions && topMatch.inclusions.length > 0) {
+          topMatch.inclusions.forEach(inc => { text += `- ✅ ${inc}\n`; });
+        }
+        
+        if (topMatch.exclusions && topMatch.exclusions.length > 0) {
+          text += `\n**What's Excluded**:\n`;
+          topMatch.exclusions.forEach(exc => { text += `- ❌ ${exc}\n`; });
+        }
+
+        text += `\n👉 [View Complete Tour Voucher & Booking Details](${getTourLink(topMatch.id)})`;
+
+        return {
+          text: text,
+          suggestions: [
+            { text: `💵 Check Price`, query: `What is the price of ${topMatch.title}` },
+            { text: `📋 View Itinerary`, query: `Show me the itinerary of ${topMatch.title}` },
+            { text: "💳 How to Book?", query: "How to book" }
+          ]
+        };
+      }
+
+      // 3A4. Single Match Summary
+      if (matchedTours.length === 1 || topMatch.score >= 5) {
+        let text = `Here are the details for **${topMatch.title}**:\n\n`;
+        text += `- ⏱️ **Duration**: ${topMatch.duration}\n`;
+        text += `- 📍 **Location**: ${topMatch.location}\n`;
+        text += `- 💰 **Starting Price**: **PKR ${topMatch.price} / head**\n`;
+        if (topMatch.highlights && topMatch.highlights.length > 0) {
+          text += `- ⭐ **Highlights**: ${topMatch.highlights.slice(0, 4).join(", ")}\n`;
+        }
+        text += `\n👉 [Click here for full itinerary & online booking](${getTourLink(topMatch.id)})`;
+
+        return {
+          text: text,
+          suggestions: [
+            { text: `📋 View Itinerary`, query: `Show me the itinerary of ${topMatch.title}` },
+            { text: `💵 Price Tiers`, query: `What is the price of ${topMatch.title}` },
+            { text: "💳 How to Book?", query: "How to book" }
+          ]
+        };
+      }
+    }
+
+    // Case 3B: Multiple Tour Matches (e.g. user searched "Hunza tours", "Swat packages", "Skardu", "group tours", "3-day tours", etc.)
+    if (matchedTours.length > 0) {
+      const topResults = matchedTours.slice(0, 5);
+      let text = `Here are the top matching tour packages found for your search:\n\n`;
+
+      const nextSuggestions = [];
+
+      topResults.forEach(({ tour }, index) => {
+        text += `**${index + 1}. ${tour.title}**\n`;
+        text += `- ⏱️ **Duration**: ${tour.duration} | 📍 **Location**: ${tour.location}\n`;
+        text += `- 💰 **Starting Price**: **PKR ${tour.price}** per person\n`;
+        if (tour.highlights && tour.highlights.length > 0) {
+          text += `- ⭐ **Highlights**: ${tour.highlights.slice(0, 3).join(", ")}\n`;
+        }
+        text += `- 👉 [View Package Details & Itinerary](${getTourLink(tour.id)})\n\n`;
+
+        if (index < 3) {
+          nextSuggestions.push({
+            text: `📋 ${tour.title.slice(0, 22)}...`,
+            query: `Tell me more about ${tour.title}`
+          });
+        }
+      });
+
+      text += `Would you like to view the day-by-day itinerary or pricing breakdown for any of these tours?`;
+
       return {
         text: text,
-        suggestions: [
-          { text: `📋 Show ${bestMatch.duration} itinerary`, query: `Show me the itinerary of ${bestMatch.id}` },
-          { text: `🏕️ What's included?`, query: `What is included in ${bestMatch.id}` },
-          { text: "💳 How to Book?", query: "How do I book" }
-        ]
+        suggestions: nextSuggestions.length > 0 ? nextSuggestions : fallbackSuggestions
       };
     }
 
-    // E. Absolute Fallback
+    // -----------------------------------------------------------------
+    // STEP 4: Comprehensive Fallback (When Query Is Broad or Unrecognized)
+    // -----------------------------------------------------------------
     return {
-      text: "I want to make sure I give you exactly the information you need! \n\nI can tell you all about our group packages to **Hunza, Skardu, Astore, Fairy Meadows, Kashmir, and Kumrat**, or explain how to request a **custom tour itinerary** and **rent vehicles** (Prados, Coasters, Grand Cabins). \n\nWhat would you like to explore?",
+      text: "I am here to give you 100% accurate information on all our tour packages and services! \n\n" +
+            "You can ask me about:\n" +
+            "- ⛰️ **Group Tours**: Swat & Kalam (3 Days), Hunza & Naltar (5 Days), Skardu & Deosai (6 Days), Kashmir & Taobat (4/5 Days), Minimarg & Astore (6 Days), Fairy Meadows (5 Days), Kumrat & Jahaz Banda (5 Days).\n" +
+            "- 📅 **Custom Tours & Honeymoons**: Tailored private trips with luxury vehicle & hotel options.\n" +
+            "- 🚗 **Transport Rentals**: Land Cruisers, Prados, Grand Cabins, Coasters, and 4x4 Jeeps.\n" +
+            "- 🛂 **Foreigner Tours & Visa Help**: eVisa invitation letters and private expeditions.\n\n" +
+            "Which destination or package would you like to explore?",
       suggestions: fallbackSuggestions
     };
   }
