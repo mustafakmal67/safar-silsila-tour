@@ -117,8 +117,8 @@ html {
   background-color: #030605; /* dark fallback */
 }
 
-/* Crisp Fixed Canvas: We render the user's preferred mountain image via body::before 
-   to allow direct hardware-accelerated filters (contrast, sharpening, noise grain) */
+/* Crisp Fixed Canvas: We render the ultra-HD panoramic mountain landscape via body::before 
+   with optimal aspect preservation (no forced zoom or cropping) */
 body::before {
   content: '';
   position: fixed;
@@ -126,20 +126,16 @@ body::before {
   z-index: -9;
   background-image: url('bg_image.webp');
   background-size: cover;
-  background-position: center 22%;
+  background-position: center center;
   background-repeat: no-repeat;
   
-  /* Advanced hardware rendering adjustments to minimize stretch blur */
-  image-rendering: -webkit-optimize-contrast;
-  image-rendering: crisp-edges;
-  /* Cinematic color grading: rich contrast, highlight protection, subtle filmic tint */
-  filter: contrast(1.16) brightness(0.92) saturate(0.96) sepia(0.06) hue-rotate(2deg);
+  /* Pure high-definition photorealism */
+  filter: contrast(1.04) brightness(0.96) saturate(1.02);
   pointer-events: none;
 }
 
-/* Atmospheric Gradients & Fine Grain:
-   Subtle localized feathered vignette with natural edge falloff and cinematic grading.
-   Replaces the heavy flat overlay sheet to maximize depth while protecting text readability. */
+/* Atmospheric Dark Vignette Overlay:
+   Rich multi-stop dark protection for maximum high-contrast text legibility across all pages. */
 body::after {
   content: '';
   position: fixed;
@@ -148,14 +144,12 @@ body::after {
   pointer-events: none;
   background:
     /* Fine-grain noise texture overlay */
-    url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.8' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)' opacity='0.035'/%3E%3C/svg%3E"),
+    url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.8' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)' opacity='0.02'/%3E%3C/svg%3E"),
     /* Smooth top protection for navigation readability */
-    linear-gradient(to bottom, rgba(3, 6, 5, 0.55) 0%, transparent 20%),
-    /* Soft bottom feathering to blend background into deep dark canvas of footer */
-    linear-gradient(to top, rgba(3, 6, 5, 0.95) 0%, rgba(3, 6, 5, 0.45) 30%, transparent 60%),
+    linear-gradient(to bottom, rgba(3, 6, 5, 0.72) 0%, rgba(3, 6, 5, 0.58) 35%, rgba(3, 6, 5, 0.68) 75%, rgba(3, 6, 5, 0.90) 100%),
     /* Wide elliptical radial vignette covering the center smoothly for text contrast */
-    radial-gradient(ellipse 110% 90% at 50% 50%,
-      rgba(3, 6, 5, 0.50) 0%,    /* Dark center for supreme text contrast (naked eye readability) */
+    radial-gradient(ellipse 120% 100% at 50% 50%,
+      rgba(3, 6, 5, 0.45) 0%,    /* Dark center for supreme text contrast */
       rgba(3, 6, 5, 0.62) 50%,   /* Monochromatic smooth transition */
       rgba(3, 6, 5, 0.85) 100%   /* Seamless edge-falloff vignette */
     );
@@ -1245,7 +1239,7 @@ p, span, li, a, button, label, input, textarea {
   z-index: 0;
 }
 
-/* hero-bg — cinematic color graded background image */
+/* hero-bg — high-definition clean background image */
 .hero-bg {
   position: absolute;
   inset: 0;
@@ -1253,8 +1247,8 @@ p, span, li, a, button, label, input, textarea {
   height: 100%;
   object-fit: cover;
   z-index: 0;
-  /* Cinematic grading: higher brightness, rich contrast, subtle warmth, hue preservation */
-  filter: brightness(0.8) contrast(1.15) saturate(0.95) sepia(0.08) hue-rotate(2deg);
+  /* Pure HD clarity: high contrast, protected highlights */
+  filter: brightness(0.85) contrast(1.08) saturate(1.02);
   animation: heroZoom 10s cubic-bezier(0.16, 1, 0.3, 1) forwards;
   
   /* Seamless atmospheric fade: blends hero background into fixed content canvas below */
@@ -1262,24 +1256,18 @@ p, span, li, a, button, label, input, textarea {
   -webkit-mask-image: linear-gradient(to bottom, black 65%, rgba(0, 0, 0, 0.2) 85%, transparent 100%);
 }
 
-/* hero-overlay — localized feathered vignette and cinematic grading mapping.
-   Replaces the flat linear gradient color sheet. */
+/* hero-overlay — dark contrast protection for sharp text legibility */
 .hero-overlay {
   position: absolute;
   inset: 0;
   background:
-    /* 1. Cinematic Tonal Grading: subtle warm-cool split-tone map to enrich highlights/shadows */
-    linear-gradient(135deg, rgba(140, 162, 96, 0.08) 0%, rgba(20, 34, 17, 0.05) 50%, rgba(9, 15, 6, 0.15) 100%),
-    /* 2. Top protection: soft blend behind header for text/nav readability */
-    linear-gradient(to bottom, rgba(9, 15, 6, 0.5) 0%, transparent 20%),
-    /* 3. Bottom protection: feathered fade to blend page hero into canvas below */
-    linear-gradient(to top, rgba(9, 15, 6, 0.9) 0%, rgba(9, 15, 6, 0.3) 30%, transparent 60%),
-    /* 4. Localized Vignette: elliptical feathering out to the edges for a natural falloff */
-    radial-gradient(ellipse 95% 85% at 50% 45%, transparent 25%, rgba(9, 15, 6, 0.15) 60%, rgba(9, 15, 6, 0.75) 100%);
+    /* Top protection behind header navigation */
+    linear-gradient(to bottom, rgba(3, 6, 5, 0.70) 0%, rgba(3, 6, 5, 0.35) 40%, rgba(3, 6, 5, 0.85) 100%),
+    /* Radial vignette around text center for high contrast */
+    radial-gradient(ellipse 100% 90% at 50% 45%, rgba(3, 6, 5, 0.40) 0%, rgba(3, 6, 5, 0.75) 100%);
   z-index: 1;
   pointer-events: none;
   
-  /* Matches mask to fade out absolute overlays alongside images */
   mask-image: linear-gradient(to bottom, black 65%, rgba(0, 0, 0, 0.2) 85%, transparent 100%);
   -webkit-mask-image: linear-gradient(to bottom, black 65%, rgba(0, 0, 0, 0.2) 85%, transparent 100%);
 }
@@ -2196,9 +2184,9 @@ p, span, li, a, button, label, input, textarea {
 .pt-20 { padding-top: 80px; }
 
 .border-b-accent { border-bottom: 1px solid var(--sunset-accent); }
-.opacity-60 { opacity: 0.6; }
-.opacity-70 { opacity: 0.7; }
-.opacity-80 { opacity: 0.8; }
+.opacity-60 { opacity: 0.85; }
+.opacity-70 { opacity: 0.90; }
+.opacity-80 { opacity: 0.95; }
 .brightness-50 { filter: brightness(0.5); }
 
 /* --- Gallery & Lightbox Styles (Removed) --- */
