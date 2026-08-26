@@ -615,7 +615,7 @@
               "📍 **Karachi Office**:\n" +
               "Building #7c Street-3, Office No 2, Badar Commercial, DHA Phase-V, Karachi, Pakistan.\n\n" +
               "📞 **Phone / WhatsApp**: [+92 311 1145456](https://wa.me/923111145456)\n" +
-              "✉️ **Email**: info@safarsilsila.com\n" +
+              "✉️ **Email**: safarsilsila@gmail.com\n" +
               "🕒 **Timings**: Monday to Saturday, 10:00 AM – 6:00 PM\n\n" +
               "Weekly group departures leave from **Lahore** (Daewoo Terminal) and **Islamabad** (G-11 Metro / Highway points).",
         suggestions: [

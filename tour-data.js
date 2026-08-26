@@ -1,5 +1,54 @@
-// Safar Silsila Tour Database (Updated with PDF Specifications, +2,000 PKR pricing & FAQs)
 window.TOUR_DATA = {
+  "2-days-sharan-forest": {
+    id: "2-days-sharan-forest",
+    title: "2-Day Sharan Forest & Manshi Top Tour",
+    duration: "2 Days",
+    location: "Sharan Forest & Manshi Top",
+    maxGroup: "2-20 Persons",
+    difficulty: "Easy to Moderate",
+    image: "deosai_plains.webp",
+    price: "13,000",
+    originalPrice: "14,500",
+    departureDay: "Every Friday Night from Lahore, Every Saturday Morning from Islamabad",
+    about: "Embark on an unforgettable 2-Day expedition to the dense pine wilderness of Sharan Forest and Manshi Top in Kaghan Valley. Safar Silsila provides an all-inclusive mountain getaway featuring 4x4 Jeep transfers from Paras up to Sharan Forest, camping or cottage accommodation, bonfire night under the stars, and a scenic trek/excursion to Manshi Top.",
+    highlights: [
+      "Scenic travel via Hazara Motorway, Balakot & Kunhar River bank",
+      "Off-road 4x4 Jeep ride from Paras to Sharan Forest (Jeep Included)",
+      "Excursion & trek to breathtaking Manshi Top viewpoint",
+      "Overnight stay in pristine Sharan Forest (Camping / Pods)",
+      "Atmospheric Bonfire & BBQ experience amidst pine trees",
+      "Professional tour guide and experienced 4x4 drivers included"
+    ],
+    itinerary: [
+      { day: "Day 0", title: "Departure from Lahore", desc: "Departure from Lahore at 10:00 PM (Thokar Niaz Baig / Daewoo Terminal). Night travel towards Islamabad via Motorway." },
+      { day: "Day 1", title: "Islamabad / Lahore to Paras & Sharan Forest Stay", desc: "Pick-up participants from Islamabad at 04:30 AM. Travel along the scenic Hazara Motorway and Balakot along the Kunhar River. Reach Paras and board 4x4 Jeeps. Thrilling off-road Jeep ride up to Sharan Forest. Check-in at campsite / wooden pods. Free time to explore lush pine woods. Cozy bonfire, dinner, and overnight stay in Sharan Forest." },
+      { day: "Day 2", title: "Sharan Forest - Manshi Top Excursion - Return Journey", desc: "Morning breakfast at Sharan Forest. Board 4x4 Jeeps for an excursion and guided trek to Manshi Top for spectacular 360-degree mountain views. Enjoy free time at Manshi Meadows. Ride Jeeps back down to Paras and transfer to coaster/cabin. Depart for Islamabad and Lahore. Drop off at Islamabad by evening and Lahore by late night." }
+    ],
+    inclusions: [
+      "AC Transport (Saloon Coaster / HiAce Grand Cabin)",
+      "4x4 Jeep Ride (Paras <-> Sharan Forest <-> Manshi Top Included)",
+      "2 Breakfasts & 1 Dinner + BBQ / Bonfire",
+      "1 Night Stay in Sharan Forest (Camping / Wooden Pods)",
+      "Professional Tour Guide & Dedicated Driver",
+      "First Aid Kit & Road Toll Taxes"
+    ],
+    exclusions: [
+      "Lunches, extra snacks, and cold drinks",
+      "Entry tickets for private parks or personal recreational activities",
+      "Personal gear and shopping"
+    ],
+    packages: [
+      { name: "Standard Package (Quad Sharing)", price: "13,000", status: "available", features: ["Quad sharing stay setup", "4x4 Jeep Transfer Included", "Sharan Forest campsite stay", "2 Breakfasts & 1 Dinner + Bonfire"] },
+      { name: "Standard Package (Twin Sharing)", price: "16,000", status: "available", features: ["Twin sharing stay setup", "4x4 Jeep Transfer Included", "Sharan Forest campsite stay", "2 Breakfasts & 1 Dinner + Bonfire"] },
+      { name: "Standard Package (Solo Setup)", price: "20,000", status: "available", features: ["Private solo room/tent setup", "4x4 Jeep Transfer Included", "Sharan Forest campsite stay", "2 Breakfasts & 1 Dinner + Bonfire"] }
+    ],
+    jeepCharges: "INCLUDED IN PACKAGE (4x4 Jeep Safari from Paras to Sharan Forest & Manshi Top)",
+    hotelDetails: {
+      standard: [
+        { city: "Sharan Forest", hotel: "Sharan Forest Campsite / Wooden Pods", nights: "1 Night Stay" }
+      ]
+    }
+  },
   "3-days-swat-kalam": {
     id: "3-days-swat-kalam",
     title: "3-Day Tour Swat | Kalam",
