@@ -118,7 +118,7 @@ html {
 }
 
 /* Crisp Fixed Canvas: We render the ultra-HD panoramic mountain landscape via body::before 
-   with optimal aspect preservation (no forced zoom or cropping) */
+   with optimal aspect preservation and vibrant photorealistic colors */
 body::before {
   content: '';
   position: fixed;
@@ -129,13 +129,13 @@ body::before {
   background-position: center center;
   background-repeat: no-repeat;
   
-  /* Pure high-definition photorealism */
-  filter: contrast(1.04) brightness(0.96) saturate(1.02);
+  /* Pure high-definition photorealism & vibrant colors */
+  filter: contrast(1.06) brightness(1.15) saturate(1.22);
   pointer-events: none;
 }
 
-/* Atmospheric Dark Vignette Overlay:
-   Rich multi-stop dark protection for maximum high-contrast text legibility across all pages. */
+/* Atmospheric Soft Glass Overlay:
+   Light translucent protection for text legibility while letting the vivid background colors pop */
 body::after {
   content: '';
   position: fixed;
@@ -143,15 +143,15 @@ body::after {
   z-index: -8;
   pointer-events: none;
   background:
-    /* Fine-grain noise texture overlay */
-    url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.8' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)' opacity='0.02'/%3E%3C/svg%3E"),
-    /* Smooth top protection for navigation readability */
-    linear-gradient(to bottom, rgba(3, 6, 5, 0.72) 0%, rgba(3, 6, 5, 0.58) 35%, rgba(3, 6, 5, 0.68) 75%, rgba(3, 6, 5, 0.90) 100%),
-    /* Wide elliptical radial vignette covering the center smoothly for text contrast */
+    /* Fine-grain subtle texture overlay */
+    url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.8' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)' opacity='0.015'/%3E%3C/svg%3E"),
+    /* Soft top protection for navigation readability without obscuring background */
+    linear-gradient(to bottom, rgba(3, 6, 5, 0.40) 0%, rgba(3, 6, 5, 0.20) 35%, rgba(3, 6, 5, 0.30) 75%, rgba(3, 6, 5, 0.55) 100%),
+    /* Soft radial vignette allowing vibrant background colors to shine through */
     radial-gradient(ellipse 120% 100% at 50% 50%,
-      rgba(3, 6, 5, 0.45) 0%,    /* Dark center for supreme text contrast */
-      rgba(3, 6, 5, 0.62) 50%,   /* Monochromatic smooth transition */
-      rgba(3, 6, 5, 0.85) 100%   /* Seamless edge-falloff vignette */
+      rgba(3, 6, 5, 0.15) 0%,    /* Light center so imagery is vivid */
+      rgba(3, 6, 5, 0.30) 50%,
+      rgba(3, 6, 5, 0.50) 100%
     );
 }
 
@@ -1247,8 +1247,8 @@ p, span, li, a, button, label, input, textarea {
   height: 100%;
   object-fit: cover;
   z-index: 0;
-  /* Pure HD clarity: high contrast, protected highlights */
-  filter: brightness(0.85) contrast(1.08) saturate(1.02);
+  /* Pure HD clarity & vivid color pop */
+  filter: brightness(1.05) contrast(1.06) saturate(1.15);
   animation: heroZoom 10s cubic-bezier(0.16, 1, 0.3, 1) forwards;
   
   /* Seamless atmospheric fade: blends hero background into fixed content canvas below */
@@ -1256,15 +1256,15 @@ p, span, li, a, button, label, input, textarea {
   -webkit-mask-image: linear-gradient(to bottom, black 65%, rgba(0, 0, 0, 0.2) 85%, transparent 100%);
 }
 
-/* hero-overlay — dark contrast protection for sharp text legibility */
+/* hero-overlay — soft translucent contrast protection for sharp text legibility */
 .hero-overlay {
   position: absolute;
   inset: 0;
   background:
-    /* Top protection behind header navigation */
-    linear-gradient(to bottom, rgba(3, 6, 5, 0.70) 0%, rgba(3, 6, 5, 0.35) 40%, rgba(3, 6, 5, 0.85) 100%),
-    /* Radial vignette around text center for high contrast */
-    radial-gradient(ellipse 100% 90% at 50% 45%, rgba(3, 6, 5, 0.40) 0%, rgba(3, 6, 5, 0.75) 100%);
+    /* Light top protection behind header navigation */
+    linear-gradient(to bottom, rgba(3, 6, 5, 0.42) 0%, rgba(3, 6, 5, 0.15) 40%, rgba(3, 6, 5, 0.50) 100%),
+    /* Soft radial vignette around text center */
+    radial-gradient(ellipse 100% 90% at 50% 45%, rgba(3, 6, 5, 0.15) 0%, rgba(3, 6, 5, 0.45) 100%);
   z-index: 1;
   pointer-events: none;
   
@@ -2187,7 +2187,9 @@ p, span, li, a, button, label, input, textarea {
 .opacity-60 { opacity: 0.85; }
 .opacity-70 { opacity: 0.90; }
 .opacity-80 { opacity: 0.95; }
-.brightness-50 { filter: brightness(0.5); }
+.brightness-35 { filter: brightness(0.85) saturate(1.15); }
+.brightness-40 { filter: brightness(0.90) saturate(1.15); }
+.brightness-50 { filter: brightness(0.95) saturate(1.15); }
 
 /* --- Gallery & Lightbox Styles (Removed) --- */
 

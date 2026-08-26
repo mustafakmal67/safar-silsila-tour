@@ -812,7 +812,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 /* ==========================================================================
    GLOBAL MULTI-LANGUAGE TRANSLATION ENGINE & NAVBAR SELECTOR
-   Supports: English, Spanish, French, German, Arabic, Chinese, Japanese, Russian, Turkish, Urdu
+   Supports: English, Spanish, French, German, Malaysian, Korean, Thai, Arabic, Chinese, Japanese, Russian, Turkish, Urdu
    ========================================================================== */
 (function() {
   const LANGUAGES = [
@@ -820,6 +820,9 @@ document.addEventListener('DOMContentLoaded', () => {
     { code: 'es', name: 'Español', flag: '🇪🇸' },
     { code: 'fr', name: 'Français', flag: '🇫🇷' },
     { code: 'de', name: 'Deutsch', flag: '🇩🇪' },
+    { code: 'ms', name: 'Bahasa Melayu', flag: '🇲🇾' },
+    { code: 'ko', name: '한국어 (Korean)', flag: '🇰🇷' },
+    { code: 'th', name: 'ไทย (Thai)', flag: '🇹🇭' },
     { code: 'ar', name: 'العربية', flag: '🇸🇦', rtl: true },
     { code: 'zh-CN', name: '中文 (Simplified)', flag: '🇨🇳' },
     { code: 'ja', name: '日本語', flag: '🇯🇵' },
@@ -849,7 +852,7 @@ document.addEventListener('DOMContentLoaded', () => {
       window.googleTranslateElementInit = function() {
         new google.translate.TranslateElement({
           pageLanguage: 'en',
-          includedLanguages: 'en,es,fr,de,ar,zh-CN,ja,ru,tr,ur',
+          includedLanguages: 'en,es,fr,de,ms,ko,th,ar,zh-CN,ja,ru,tr,ur',
           autoDisplay: false
         }, 'google_translate_element');
 
