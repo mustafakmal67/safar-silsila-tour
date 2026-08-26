@@ -463,7 +463,8 @@ p, span, li, a, button, label, input, textarea {
 }
 
 .nav-dropdown:hover .dropdown-menu,
-.nav-dropdown.active .dropdown-menu {
+.nav-dropdown.show .dropdown-menu,
+.nav-dropdown:focus-within .dropdown-menu {
   opacity: 1;
   visibility: visible;
   transform: translateY(0);
@@ -630,7 +631,8 @@ p, span, li, a, button, label, input, textarea {
     display: none;
   }
   .nav-dropdown:hover .dropdown-menu,
-  .nav-dropdown.active .dropdown-menu {
+  .nav-dropdown.show .dropdown-menu,
+  .nav-dropdown:focus-within .dropdown-menu {
     display: block;
   }
   .header-actions .btn-book {

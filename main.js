@@ -66,8 +66,25 @@ document.addEventListener('DOMContentLoaded', () => {
       navMenu.classList.contains('open') ? closeMenu() : openMenu();
     });
     menuOverlay.addEventListener('click', closeMenu);
-    navMenu.querySelectorAll('.nav-link').forEach(link => {
+    navMenu.querySelectorAll('.nav-link:not(.dropdown-toggle)').forEach(link => {
       link.addEventListener('click', closeMenu);
+    });
+
+    // Mobile dropdown toggle handling
+    navMenu.querySelectorAll('.dropdown-toggle').forEach(toggle => {
+      toggle.addEventListener('click', (e) => {
+        if (window.innerWidth <= 991) {
+          const parent = toggle.closest('.nav-dropdown');
+          if (parent) {
+            parent.classList.toggle('show');
+          }
+        }
+      });
+    });
+
+    // Close mobile drawer when clicking a dropdown item link
+    navMenu.querySelectorAll('.dropdown-item').forEach(item => {
+      item.addEventListener('click', closeMenu);
     });
   }
 
