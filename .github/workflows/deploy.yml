@@ -13,6 +13,8 @@ jobs:
     steps:
       - name: 🚚 Get latest code
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: 📂 Sync files to HostNext via FTP
         uses: SamKirkland/FTP-Deploy-Action@v4.3.5
