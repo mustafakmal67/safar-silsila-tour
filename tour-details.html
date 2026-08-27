@@ -1062,44 +1062,88 @@
         tableSection.style.display = 'none';
       }
 
+      // Safe Data Array Fallbacks for Complete Rendering
+      const safeHighlights = (Array.isArray(tour.highlights) && tour.highlights.length > 0) ? tour.highlights : [
+        `Guided tour of iconic scenic viewpoints in ${tour.location || 'the valley'}`,
+        "Dedicated transport with experienced mountain driver",
+        "Quality hotel accommodation with mountain views",
+        "Sightseeing stops & photography opportunities"
+      ];
+
+      const safeItinerary = (Array.isArray(tour.itinerary) && tour.itinerary.length > 0) ? tour.itinerary : [
+        { day: "Day 1", title: "Departure & Arrival at Destination", desc: `Pickup from departure hub, scenic drive towards ${tour.location || 'destination'}. Hotel check-in & leisure evening.` },
+        { day: "Day 2", title: "Full Day Exploration & Sightseeing", desc: `Full day guided excursion exploring major valleys, viewpoints, rivers, and cultural landmarks.` },
+        { day: "Day 3", title: "Return Journey to Islamabad/Lahore", desc: "Breakfast at hotel, photography stops along Karakoram / Alpine highway, and return departure." }
+      ];
+
+      const safeInclusions = (Array.isArray(tour.inclusions) && tour.inclusions.length > 0) ? tour.inclusions : [
+        "Dedicated private/group transport with fuel & toll taxes included",
+        "Hotel accommodation on standard sharing basis",
+        "Daily breakfast at hotel",
+        "Services of experienced tour guide & mountain driver"
+      ];
+
+      const safeExclusions = (Array.isArray(tour.exclusions) && tour.exclusions.length > 0) ? tour.exclusions : [
+        "Lunch, dinner & personal refreshments",
+        "Entry tickets for forts, parks, or cable cars",
+        "Jeep charges for off-road tracks (if required)",
+        "Personal shopping or emergency expenses"
+      ];
+
+      const rawPrice = (tour.price || "35,000").toString();
+      const numPrice = parseInt(rawPrice.replace(/,/g, '')) || 35000;
+
+      const safePackages = (Array.isArray(tour.packages) && tour.packages.length > 0) ? tour.packages : [
+        { name: "Standard Package", price: numPrice.toLocaleString(), per: "per person", status: "available", features: ["Standard Hotel Stay", "Breakfast Included", "Coaster/Grand Cabin Transit", "Guide Services"] },
+        { name: "Deluxe Package", price: (numPrice + 12000).toLocaleString(), per: "per couple", status: "available", features: ["Deluxe Hotel Suite", "Breakfast Included", "Dedicated Transport", "Guide Services"] }
+      ];
+
       // Highlights
       const highlightsGrid = document.getElementById('details-highlights-grid');
-      highlightsGrid.innerHTML = tour.highlights.map(h => `
-        <div class="highlight-item">
-          <i class="ph ph-check-circle-bold"></i>
-          <span>${h}</span>
-        </div>
-      `).join('');
+      if (highlightsGrid) {
+        highlightsGrid.innerHTML = safeHighlights.map(h => `
+          <div class="highlight-item">
+            <i class="ph ph-check-circle-bold"></i>
+            <span>${h}</span>
+          </div>
+        `).join('');
+      }
 
       // Itinerary Accordion
       const itineraryContainer = document.getElementById('itinerary-accordion-container');
-      itineraryContainer.innerHTML = tour.itinerary.map((day, idx) => `
-        <div class="accordion-item ${idx === 0 ? 'open' : ''}">
-          <button class="accordion-header" onclick="toggleAccordion(this)">
-            <div class="accordion-title-wrap">
-              <span class="accordion-day-tag">${day.day || `Day ${idx + 1}`}</span>
-              <span>${day.title}</span>
-            </div>
-            <i class="ph ph-caret-down accordion-icon"></i>
-          </button>
-          <div class="accordion-body" style="${idx === 0 ? 'max-height: 1000px;' : ''}">
-            <div class="accordion-content">
-              ${day.desc}
+      if (itineraryContainer) {
+        itineraryContainer.innerHTML = safeItinerary.map((day, idx) => `
+          <div class="accordion-item ${idx === 0 ? 'open' : ''}">
+            <button class="accordion-header" onclick="toggleAccordion(this)">
+              <div class="accordion-title-wrap">
+                <span class="accordion-day-tag">${day.day || `Day ${idx + 1}`}</span>
+                <span>${day.title || `Day ${idx + 1} Itinerary`}</span>
+              </div>
+              <i class="ph ph-caret-down accordion-icon"></i>
+            </button>
+            <div class="accordion-body" style="${idx === 0 ? 'max-height: 1000px;' : ''}">
+              <div class="accordion-content">
+                ${day.desc || 'Scenic travel and sightseeing exploration.'}
+              </div>
             </div>
           </div>
-        </div>
-      `).join('');
+        `).join('');
+      }
 
       // Inclusions / Exclusions
       const incList = document.getElementById('details-inclusions-list');
-      incList.innerHTML = tour.inclusions.map(inc => `
-        <li><i class="ph ph-check-bold"></i> ${inc}</li>
-      `).join('');
+      if (incList) {
+        incList.innerHTML = safeInclusions.map(inc => `
+          <li><i class="ph ph-check-bold"></i> ${inc}</li>
+        `).join('');
+      }
 
       const excList = document.getElementById('details-exclusions-list');
-      excList.innerHTML = tour.exclusions.map(exc => `
-        <li><i class="ph ph-x-bold"></i> ${exc}</li>
-      `).join('');
+      if (excList) {
+        excList.innerHTML = safeExclusions.map(exc => `
+          <li><i class="ph ph-x-bold"></i> ${exc}</li>
+        `).join('');
+      }
 
       // Packages
       const packagesGrid = document.getElementById('details-packages-grid');
@@ -1120,9 +1164,9 @@
         Other: { name: "Other Packages", icon: "ph-package", list: [] }
       };
 
-      tour.packages.forEach((pkg, index) => {
+      safePackages.forEach((pkg, index) => {
         const pkgWithIndex = { ...pkg, originalIndex: index };
-        const nameUpper = pkg.name.toUpperCase();
+        const nameUpper = (pkg.name || '').toUpperCase();
         if (nameUpper.includes("STANDARD")) {
           groups.Standard.list.push(pkgWithIndex);
         } else if (nameUpper.includes("DELUXE")) {
@@ -1162,7 +1206,7 @@
                       <div class="package-name">${pkg.name}</div>
                       <div class="package-price-tag">Rs ${pkg.price} <small>/ head</small></div>
                       <ul class="package-features">
-                        ${pkg.features.map(f => `<li><i class="ph ph-check-bold"></i> ${f}</li>`).join('')}
+                        ${(Array.isArray(pkg.features) && pkg.features.length > 0 ? pkg.features : ["Hotel Accommodation", "Breakfast Included", "Dedicated Transport", "Guide Services"]).map(f => `<li><i class="ph ph-check-bold"></i> ${f}</li>`).join('')}
                       </ul>
                     </div>
                   `;
