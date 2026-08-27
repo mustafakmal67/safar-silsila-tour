@@ -22,7 +22,7 @@ jobs:
           password: ${{ secrets.FTP_PASSWORD }}
           protocol: ftp
           security: loose
-          server-dir: public_html/
+          server-dir: ./
           exclude: |
             **/.git*
             **/.git*/**
