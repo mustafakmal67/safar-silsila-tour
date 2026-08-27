@@ -779,9 +779,25 @@
         });
       }
 
-      // Read query parameters
+      // Read query parameters with smart resolver
       const urlParams = new URLSearchParams(window.location.search);
-      const selectedTour = urlParams.get('tour');
+      let rawTour = urlParams.get('tour') || urlParams.get('id') || urlParams.get('slug') || urlParams.get('t') || urlParams.get('package');
+      let selectedTour = rawTour;
+
+      if (rawTour && window.TOUR_DATA) {
+        if (window.TOUR_DATA[rawTour]) {
+          selectedTour = rawTour;
+        } else {
+          const normTarget = rawTour.toLowerCase().trim().replace(/[^a-z0-9]+/g, '-');
+          for (const key in window.TOUR_DATA) {
+            if (key.toLowerCase().includes(normTarget) || normTarget.includes(key.toLowerCase())) {
+              selectedTour = key;
+              break;
+            }
+          }
+        }
+      }
+
       const selectedPackage = urlParams.get('package');
       const paramTravelers = parseInt(urlParams.get('travelers'));
       const paramMale = parseInt(urlParams.get('male'));
@@ -795,7 +811,7 @@
       const paramPickup = urlParams.get('pickup');
       const paramJeep = urlParams.get('jeep');
 
-      if (selectedTour) {
+      if (selectedTour && tourSelect) {
         tourSelect.value = selectedTour;
       }
       

@@ -215,14 +215,29 @@
   <!-- Page Reader Script -->
   <script>
     document.addEventListener('DOMContentLoaded', () => {
-      // 1. Parse query parameters
+      // 1. Parse query parameters with smart resolver
       const urlParams = new URLSearchParams(window.location.search);
-      const postId = urlParams.get('post');
+      let targetPost = urlParams.get('post') || urlParams.get('id') || urlParams.get('slug') || urlParams.get('article') || urlParams.get('b');
+      
+      let blog = null;
+      if (window.BLOG_DATA) {
+        if (targetPost && window.BLOG_DATA[targetPost]) {
+          blog = window.BLOG_DATA[targetPost];
+        } else if (targetPost) {
+          const normTarget = targetPost.toLowerCase().trim().replace(/[^a-z0-9]+/g, '-');
+          for (const key in window.BLOG_DATA) {
+            if (key.toLowerCase().includes(normTarget) || normTarget.includes(key.toLowerCase())) {
+              blog = window.BLOG_DATA[key];
+              break;
+            }
+          }
+        }
+        // Fallback to first article if no match, instead of hard redirect
+        if (!blog) {
+          blog = Object.values(window.BLOG_DATA)[0];
+        }
+      }
 
-      // 2. Fetch blog post
-      const blog = window.BLOG_DATA ? window.BLOG_DATA[postId] : null;
-
-      // 3. Fallback / Redirect
       if (!blog) {
         window.location.href = 'blogs.html';
         return;

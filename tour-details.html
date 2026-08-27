@@ -909,19 +909,67 @@
   <script src="main.js?v=3.5"></script>
 
   <script>
-    // Extract query parameter ?tour=tour-id
-    const urlParams = new URLSearchParams(window.location.search);
-    const tourId = urlParams.get('tour');
+    // Robust Smart Tour Resolver function for shared links
+    function resolveTourData() {
+      if (!window.TOUR_DATA) return null;
+      
+      const urlParams = new URLSearchParams(window.location.search);
+      // Check multiple potential query parameter names
+      let target = urlParams.get('tour') || urlParams.get('id') || urlParams.get('slug') || urlParams.get('t') || urlParams.get('package') || urlParams.get('name') || urlParams.get('destination') || urlParams.get('q');
+      
+      if (!target && window.location.hash) {
+        target = window.location.hash.replace('#', '');
+      }
+      
+      // If no parameter at all, default to Swat Kalam or first available tour
+      if (!target) {
+        return window.TOUR_DATA['3-days-swat-kalam'] || Object.values(window.TOUR_DATA)[0];
+      }
+
+      // 1. Direct exact key match
+      if (window.TOUR_DATA[target]) {
+        return window.TOUR_DATA[target];
+      }
+
+      // 2. Normalized slug match (case insensitive, ignoring special characters)
+      const normTarget = target.toLowerCase().trim().replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '');
+      for (const key in window.TOUR_DATA) {
+        const normKey = key.toLowerCase().trim().replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '');
+        if (normKey === normTarget) {
+          return window.TOUR_DATA[key];
+        }
+      }
+
+      // 3. Substring / Title / Keyword search match
+      for (const key in window.TOUR_DATA) {
+        const tObj = window.TOUR_DATA[key];
+        const keyLower = key.toLowerCase();
+        const titleLower = (tObj.title || '').toLowerCase();
+        
+        if (keyLower.includes(normTarget) || normTarget.includes(keyLower) || titleLower.includes(normTarget.replace(/-/g, ' '))) {
+          return tObj;
+        }
+      }
+
+      // 4. Word-by-word fuzzy match (e.g. 'swat', 'kashmir', 'hunza', 'skardu', 'naran', 'kumrat')
+      const words = normTarget.split('-').filter(w => w.length >= 3);
+      for (const word of words) {
+        for (const key in window.TOUR_DATA) {
+          const tObj = window.TOUR_DATA[key];
+          if (key.toLowerCase().includes(word) || (tObj.title || '').toLowerCase().includes(word)) {
+            return tObj;
+          }
+        }
+      }
+
+      // 5. Ultimate fallback: default to featured tour instead of kicking user out
+      return window.TOUR_DATA['3-days-swat-kalam'] || Object.values(window.TOUR_DATA)[0];
+    }
 
     // Retrieve selected tour data
-    const tour = window.TOUR_DATA ? window.TOUR_DATA[tourId] : null;
+    const tour = resolveTourData();
 
-
-
-    // Fallback/Redirect if tour is not found
-    if (!tour) {
-      window.location.href = 'tours.html';
-    } else {
+    if (tour) {
       // Dynamic rendering of details
       document.title = `${tour.title} | Safar Silsila`;
 
@@ -1427,6 +1475,7 @@
       const portalUrl = `booking.html?tour=${encodeURIComponent(tour.id)}&package=${encodeURIComponent(pkgName)}&travelers=${totalPersons}&male=${male}&female=${female}&date=${encodeURIComponent(date)}&name=${encodeURIComponent(name)}&phone=${encodeURIComponent(phone)}&cnic=${encodeURIComponent(cnic)}&emergency=${encodeURIComponent(emergency)}&email=${encodeURIComponent(email)}&pickup=${encodeURIComponent(pickupLocation)}&jeep=${jeepVal}`;
       window.location.href = portalUrl;
     }
+  }
   </script>
 </body>
 </html>
