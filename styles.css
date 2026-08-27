@@ -5021,3 +5021,26 @@ body {
   border: none !important;
   box-shadow: none !important;
 }
+
+/* High Performance & GPU Hardware Acceleration Enhancements */
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+img, video {
+  content-visibility: auto;
+}
+
+.team-marquee-card,
+.tour-card,
+.destination-card,
+.featured-blog-card,
+.modal-container,
+.hero-content,
+.search-modal-container {
+  will-change: transform, opacity;
+  backface-visibility: hidden;
+  transform: translateZ(0);
+}
+
