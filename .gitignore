@@ -1,9 +1,12 @@
 node_modules/
 .DS_Store
 Thumbs.db
+desktop.ini
+*.ini
 *.log
 .vscode/
 .idea/
+scratch/
 
 .vercel
 .env*
