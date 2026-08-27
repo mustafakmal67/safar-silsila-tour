@@ -109,12 +109,28 @@
   box-sizing: border-box;
 }
 
-/* === CINEMATIC GLOBAL CANVAS === */
+/* === CINEMATIC GLOBAL CANVAS & ULTRA-SMOOTH GPU RENDERING === */
 html {
   scroll-behavior: smooth;
   font-family: 'Inter', sans-serif; /* Geometric modern body font */
   color: var(--snow-peak);
   background-color: #030605; /* dark fallback */
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* GPU Hardware Acceleration for ultra-smooth 60fps animations */
+.tour-card,
+.tour-image,
+.btn,
+.nav-link,
+.filter-pill,
+.header,
+.search-modal-container {
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  transform: translateZ(0);
 }
 
 /* Crisp Fixed Canvas: We render the ultra-HD panoramic mountain landscape via body::before 
@@ -128,6 +144,8 @@ body::before {
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
+  will-change: transform;
+  transform: translateZ(0);
   
   /* Pure high-definition photorealism & vibrant colors */
   filter: contrast(1.06) brightness(1.15) saturate(1.22);
