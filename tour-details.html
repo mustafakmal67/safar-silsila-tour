@@ -7,20 +7,20 @@
   <meta name="description" id="meta-description" content="View detailed itineraries, prices, inclusions, and exclusions for Safar Silsila's tour packages. Custom and group departures available.">
   <meta name="keywords" content="Pakistan travel itinerary, Hunza tour plan, Skardu trip packages, Fairy Meadows hike cost">
   <meta name="robots" content="index, follow">
-  <link rel="canonical" id="canonical-link" href="https://safarsilsila.pk/tour-details.html">
+  <link rel="canonical" id="canonical-link" href="https://safarsilsila.com/tour-details.html">
   
   <!-- OpenGraph Cards -->
   <meta property="og:title" id="og-title" content="Tour Details | Safar Silsila">
   <meta property="og:description" id="og-description" content="Explore detailed itineraries and booking options for Safar Silsila tours.">
-  <meta property="og:image" id="og-image" content="https://safarsilsila.pk/logo-square.webp">
-  <meta property="og:url" id="og-url" content="https://safarsilsila.pk/tour-details.html">
+  <meta property="og:image" id="og-image" content="https://safarsilsila.com/logo-square.webp">
+  <meta property="og:url" id="og-url" content="https://safarsilsila.com/tour-details.html">
   <meta property="og:type" content="website">
   
   <!-- Twitter Cards -->
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" id="twitter-title" content="Tour Details | Safar Silsila">
   <meta name="twitter:description" id="twitter-description" content="Explore detailed itineraries and booking options for Safar Silsila tours.">
-  <meta name="twitter:image" id="twitter-image" content="https://safarsilsila.pk/logo-square.webp">
+  <meta name="twitter:image" id="twitter-image" content="https://safarsilsila.com/logo-square.webp">
 
   <!-- Favicon -->
   <link rel="icon" type="image/x-icon" href="logo-square.webp">
@@ -1388,7 +1388,7 @@
       try {
         document.title = `${tour.title || 'Tour Details'} | Safar Silsila`;
 
-        const pageUrl = `https://safarsilsila.pk/tour-details.html?tour=${tour.id || ''}`;
+        const pageUrl = `https://safarsilsila.com/tour-details.html?tour=${tour.id || ''}`;
         const shortDesc = (tour.about || '').substring(0, 155) + '...';
         
         const metaDesc = document.getElementById('meta-description');
@@ -1407,7 +1407,7 @@
         if (ogUrl) ogUrl.content = pageUrl;
         
         const ogImage = document.getElementById('og-image');
-        if (ogImage && tour.image) ogImage.content = `https://safarsilsila.pk/${tour.image}`;
+        if (ogImage && tour.image) ogImage.content = `https://safarsilsila.com/${tour.image}`;
         
         const twTitle = document.getElementById('twitter-title');
         if (twTitle) twTitle.content = tour.title || 'Tour Details';
@@ -1416,7 +1416,7 @@
         if (twDesc) twDesc.content = shortDesc;
         
         const twImage = document.getElementById('twitter-image');
-        if (twImage && tour.image) twImage.content = `https://safarsilsila.pk/${tour.image}`;
+        if (twImage && tour.image) twImage.content = `https://safarsilsila.com/${tour.image}`;
 
         // Hero Details
         const heroImg = document.getElementById('hero-img');

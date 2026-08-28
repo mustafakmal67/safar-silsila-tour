@@ -7,20 +7,20 @@
   <meta name="description" id="meta-description" content="Read expert travel tips, guides, and itineraries for Northern Pakistan. Custom and group packages by Safar Silsila.">
   <meta name="keywords" content="Pakistan travel advice, Northern areas Pakistan, mountain trip planning">
   <meta name="robots" content="index, follow">
-  <link rel="canonical" id="canonical-link" href="https://safarsilsila.pk/blog-details.html">
+  <link rel="canonical" id="canonical-link" href="https://safarsilsila.com/blog-details.html">
   
   <!-- OpenGraph Cards -->
   <meta property="og:title" id="og-title" content="Blog Reader | Safar Silsila">
   <meta property="og:description" id="og-description" content="Read expert travel tips, guides, and itineraries for Northern Pakistan. Custom and group packages by Safar Silsila.">
-  <meta property="og:image" id="og-image" content="https://safarsilsila.pk/logo-square.webp">
-  <meta property="og:url" id="og-url" content="https://safarsilsila.pk/blog-details.html">
+  <meta property="og:image" id="og-image" content="https://safarsilsila.com/logo-square.webp">
+  <meta property="og:url" id="og-url" content="https://safarsilsila.com/blog-details.html">
   <meta property="og:type" content="article">
   
   <!-- Twitter Cards -->
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" id="twitter-title" content="Blog Reader | Safar Silsila">
   <meta name="twitter:description" id="twitter-description" content="Read expert travel tips, guides, and itineraries for Northern Pakistan. Custom and group packages by Safar Silsila.">
-  <meta name="twitter:image" id="twitter-image" content="https://safarsilsila.pk/logo-square.webp">
+  <meta name="twitter:image" id="twitter-image" content="https://safarsilsila.com/logo-square.webp">
 
   <!-- Favicon -->
   <link rel="icon" type="image/x-icon" href="logo-square.webp">
@@ -188,7 +188,7 @@
               </div>
             </li>
             <li class="d-flex gap-3"><i class="ph ph-phone text-sunset-accent" style="font-size: 18px;"></i> +92 311 1145456</li>
-            <li class="d-flex gap-3"><i class="ph ph-envelope text-sunset-accent" style="font-size: 18px;"></i> booking@safarsilsila.pk</li>
+            <li class="d-flex gap-3"><i class="ph ph-envelope text-sunset-accent" style="font-size: 18px;"></i> booking@safarsilsila.com</li>
           </ul>
         </div>
       </div>
@@ -244,7 +244,7 @@
       }
 
       // 4. Update head meta tags dynamically for SEO
-      const pageUrl = `https://safarsilsila.pk/blog-details.html?post=${blog.id}`;
+      const pageUrl = `https://safarsilsila.com/blog-details.html?post=${blog.id}`;
       document.title = `${blog.title} | Safar Silsila Blog`;
       
       const metaDesc = document.getElementById('meta-description');
@@ -264,7 +264,7 @@
       if (ogUrl) ogUrl.content = pageUrl;
       
       const ogImage = document.getElementById('og-image');
-      if (ogImage) ogImage.content = `https://safarsilsila.pk/${blog.image}`;
+      if (ogImage) ogImage.content = `https://safarsilsila.com/${blog.image}`;
 
       // Twitter
       const twTitle = document.getElementById('twitter-title');
@@ -274,7 +274,7 @@
       if (twDesc) twDesc.content = blog.metaDesc;
       
       const twImage = document.getElementById('twitter-image');
-      if (twImage) twImage.content = `https://safarsilsila.pk/${blog.image}`;
+      if (twImage) twImage.content = `https://safarsilsila.com/${blog.image}`;
 
       // 5. Injects JSON-LD Article Schema dynamically
       const schemaScript = document.createElement('script');
@@ -285,20 +285,20 @@
         "@type": "BlogPosting",
         "headline": blog.title,
         "description": blog.metaDesc,
-        "image": `https://safarsilsila.pk/${blog.image}`,
+        "image": `https://safarsilsila.com/${blog.image}`,
         "datePublished": "2026-08-19T00:00:00+05:00", // Fallback date matching our project
         "dateModified": new Date().toISOString(),
         "author": {
           "@type": "Organization",
           "name": "Safar Silsila",
-          "url": "https://safarsilsila.pk"
+          "url": "https://safarsilsila.com"
         },
         "publisher": {
           "@type": "Organization",
           "name": "Safar Silsila",
           "logo": {
             "@type": "ImageObject",
-            "url": "https://safarsilsila.pk/logo.webp"
+            "url": "https://safarsilsila.com/logo.webp"
           }
         },
         "mainEntityOfPage": {

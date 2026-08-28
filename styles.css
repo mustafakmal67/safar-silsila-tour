@@ -4820,7 +4820,7 @@ p, span, li, a, button, label, input, textarea {
   }
 
   .booking-summary-panel::before {
-    content: "SAFAR SILSILA TRAVEL AGENCY\nIslamabad Office: Office #12, First Floor, Karakoram Heights, Islamabad\nKarachi Office: Building #7c Street-3, Office No 2, Badar Commercial, DHA Phase-V, Karachi\n+92 311 1145456 | booking@safarsilsila.pk\n\nOFFICIAL BOOKING INVOICE";
+    content: "SAFAR SILSILA TRAVEL AGENCY\nIslamabad Office: Office #12, First Floor, Karakoram Heights, Islamabad\nKarachi Office: Building #7c Street-3, Office No 2, Badar Commercial, DHA Phase-V, Karachi\n+92 311 1145456 | booking@safarsilsila.com\n\nOFFICIAL BOOKING INVOICE";
     display: block;
     text-align: center;
     font-family: 'Outfit', sans-serif;
