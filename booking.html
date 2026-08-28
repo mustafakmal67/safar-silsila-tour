@@ -1111,13 +1111,16 @@
         }
 
         // Generate package cards
-        const availablePkgs = tour.packages.filter(p => p.status !== 'unavailable' && p.price !== 'N/A');
+        const rawPkgs = (tour.packages && Array.isArray(tour.packages) && tour.packages.length > 0) ? tour.packages : [
+          { name: "Standard Package", price: tour.price || "35,000", features: ["Standard Hotel Accommodation", "Transport Included"] }
+        ];
+        const availablePkgs = rawPkgs.filter(p => p.status !== 'unavailable' && p.price !== 'N/A');
         packageContainer.innerHTML = availablePkgs.map((pkg, idx) => `
           <label class="option-pill-card">
             <input type="radio" name="booking-package" value="${pkg.name}" data-price="${pkg.price}" ${idx === 0 ? 'checked' : ''} onchange="calculateTotal()">
             <div class="option-pill-content">
               <div class="option-pill-title">${pkg.name}</div>
-              <div class="option-pill-desc">${pkg.features[0] || 'Standard Plan'}</div>
+              <div class="option-pill-desc">${(pkg.features && pkg.features[0]) || 'Standard Plan'}</div>
               <div class="option-pill-price">Rs ${pkg.price}</div>
             </div>
           </label>
