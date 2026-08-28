@@ -74,6 +74,7 @@ document.addEventListener('DOMContentLoaded', () => {
     navMenu.querySelectorAll('.dropdown-toggle').forEach(toggle => {
       toggle.addEventListener('click', (e) => {
         if (window.innerWidth <= 991) {
+          e.preventDefault();
           const parent = toggle.closest('.nav-dropdown');
           if (parent) {
             parent.classList.toggle('show');
