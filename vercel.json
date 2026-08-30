@@ -1,22 +1,21 @@
 {
   "version": 2,
   "cleanUrls": true,
-  "rewrites": [
+  "routes": [
     {
-      "source": "/tour-details",
-      "destination": "/api/tour-details"
+      "src": "/api/og-image",
+      "dest": "/api/og-image.js"
     },
     {
-      "source": "/tour-details.html",
-      "destination": "/api/tour-details"
+      "src": "/tour-details(\\.html)?",
+      "dest": "/api/tour-details.js"
     },
     {
-      "source": "/blog-details",
-      "destination": "/api/blog-details"
+      "src": "/blog-details(\\.html)?",
+      "dest": "/api/blog-details.js"
     },
     {
-      "source": "/blog-details.html",
-      "destination": "/api/blog-details"
+      "handle": "filesystem"
     }
   ],
   "headers": [

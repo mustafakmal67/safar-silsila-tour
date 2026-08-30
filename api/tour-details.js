@@ -28,7 +28,7 @@ module.exports = async (req, res) => {
     let html = fs.readFileSync(templatePath, 'utf8');
 
     const proto = req.headers['x-forwarded-proto'] || 'https';
-    const host = req.headers['x-forwarded-host'] || req.headers.host || 'safarsilsila.pk';
+    const host = req.headers['x-forwarded-host'] || req.headers.host || 'www.safarsilsila.com';
     const baseUrl = `${proto}://${host}`;
 
     let title = "Tour Details | Safar Silsila";
