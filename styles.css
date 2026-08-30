@@ -1878,6 +1878,15 @@ p, span, li, a, button, label, input, textarea {
   box-shadow: var(--glass-glow-dark), inset 0 1px 0 0 rgba(255,255,255,0.08);
   position: relative;
   overflow: hidden;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.footer .container,
+.footer .footer-content {
+  box-sizing: border-box;
+  width: 100% !important;
+  max-width: 100% !important;
 }
 
 .footer::before {
@@ -1894,23 +1903,34 @@ p, span, li, a, button, label, input, textarea {
 
 @media (max-width: 768px) {
   .footer {
-    width: calc(100% - 32px);
-    max-width: 100%;
-    margin: 32px 16px 16px 16px;
-    padding: 48px 24px 24px 24px;
+    width: calc(100% - 32px) !important;
+    max-width: calc(100% - 32px) !important;
+    margin: 32px auto 16px auto !important;
+    padding: 36px 20px 24px 20px !important;
+    box-sizing: border-box !important;
     text-align: center;
+  }
+  .footer .container,
+  .footer .footer-content {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    box-sizing: border-box !important;
   }
   .footer-logo {
     justify-content: center;
   }
   .social-links {
     justify-content: center;
+    flex-wrap: wrap;
+    gap: 12px;
   }
   .footer-heading {
     text-align: center;
     display: inline-block;
     width: auto;
-    margin: 0 auto 24px auto;
+    margin: 0 auto 20px auto;
   }
   .footer-heading::after {
     left: 50%;
@@ -1918,22 +1938,49 @@ p, span, li, a, button, label, input, textarea {
   }
   .footer-links-list {
     align-items: center;
+    width: 100%;
+    padding: 0;
   }
   .footer-links-list a {
     text-align: center;
+    word-break: break-word;
+    overflow-wrap: break-word;
   }
   .footer-contact-item {
     flex-direction: column;
     align-items: center;
     text-align: center;
     gap: 6px;
+    width: 100%;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    word-break: break-word;
+    box-sizing: border-box;
+  }
+  .footer-contact-item p {
+    max-width: 100%;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    word-break: break-word;
   }
   .newsletter-title {
     text-align: center;
   }
   .newsletter-form {
     margin: 0 auto;
-    max-width: 320px;
+    max-width: 100%;
+    width: 100%;
+    box-sizing: border-box;
+  }
+}
+
+@media (max-width: 480px) {
+  .footer {
+    width: calc(100% - 24px) !important;
+    max-width: calc(100% - 24px) !important;
+    margin: 24px auto 16px auto !important;
+    padding: 28px 16px 20px 16px !important;
+    border-radius: var(--radius-xl) !important;
   }
 }
 
@@ -1942,22 +1989,32 @@ p, span, li, a, button, label, input, textarea {
   grid-template-columns: repeat(12, 1fr);
   gap: 40px;
   margin-bottom: 48px;
+  width: 100%;
+  box-sizing: border-box;
 }
 
 .footer-brand-col {
   grid-column: span 4;
+  min-width: 0;
+  box-sizing: border-box;
 }
 
 .footer-links-col {
   grid-column: span 2;
+  min-width: 0;
+  box-sizing: border-box;
 }
 
 .footer-tours-col {
   grid-column: span 3;
+  min-width: 0;
+  box-sizing: border-box;
 }
 
 .footer-contact-col {
   grid-column: span 3;
+  min-width: 0;
+  box-sizing: border-box;
 }
 
 @media (max-width: 992px) {
@@ -1970,8 +2027,21 @@ p, span, li, a, button, label, input, textarea {
 }
 
 @media (max-width: 768px) {
+  .footer-top {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    margin-bottom: 32px;
+  }
   .footer-brand-col, .footer-links-col, .footer-tours-col, .footer-contact-col {
-    grid-column: span 12;
+    grid-column: auto;
+    width: 100%;
+    max-width: 100%;
+    min-width: 0;
+    box-sizing: border-box;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    word-break: break-word;
   }
 }
 
@@ -1990,9 +2060,23 @@ p, span, li, a, button, label, input, textarea {
 
 .footer-desc {
   font-size: 14px;
-  color: rgba(255, 255, 255, 0.6);
+  color: rgba(255, 255, 255, 0.7);
   line-height: 1.6;
   margin-bottom: 30px;
+  max-width: 100%;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  word-break: break-word;
+  box-sizing: border-box;
+}
+
+@media (max-width: 768px) {
+  .footer-desc {
+    font-size: 13.5px;
+    line-height: 1.6;
+    margin: 0 auto 24px auto;
+    text-align: center;
+  }
 }
 
 .social-links {
