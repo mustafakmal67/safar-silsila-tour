@@ -7,20 +7,24 @@
   <meta name="description" id="meta-description" content="Read expert travel tips, guides, and itineraries for Northern Pakistan. Custom and group packages by Safar Silsila.">
   <meta name="keywords" content="Pakistan travel advice, Northern areas Pakistan, mountain trip planning">
   <meta name="robots" content="index, follow">
-  <link rel="canonical" id="canonical-link" href="https://safarsilsila.com/blog-details.html">
+  <link rel="canonical" id="canonical-link" href="https://safarsilsila.pk/blog-details.html">
   
   <!-- OpenGraph Cards -->
   <meta property="og:title" id="og-title" content="Blog Reader | Safar Silsila">
   <meta property="og:description" id="og-description" content="Read expert travel tips, guides, and itineraries for Northern Pakistan. Custom and group packages by Safar Silsila.">
-  <meta property="og:image" id="og-image" content="https://safarsilsila.com/logo-square.webp">
-  <meta property="og:url" id="og-url" content="https://safarsilsila.com/blog-details.html">
+  <meta property="og:image" id="og-image" content="https://safarsilsila.pk/api/og-image?img=bg_image.webp">
+  <meta property="og:image:secure_url" content="https://safarsilsila.pk/api/og-image?img=bg_image.webp">
+  <meta property="og:image:type" content="image/jpeg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:url" id="og-url" content="https://safarsilsila.pk/blog-details.html">
   <meta property="og:type" content="article">
   
   <!-- Twitter Cards -->
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" id="twitter-title" content="Blog Reader | Safar Silsila">
   <meta name="twitter:description" id="twitter-description" content="Read expert travel tips, guides, and itineraries for Northern Pakistan. Custom and group packages by Safar Silsila.">
-  <meta name="twitter:image" id="twitter-image" content="https://safarsilsila.com/logo-square.webp">
+  <meta name="twitter:image" id="twitter-image" content="https://safarsilsila.pk/api/og-image?img=bg_image.webp">
 
   <!-- Favicon -->
   <link rel="icon" type="image/x-icon" href="logo-square.webp">
@@ -263,8 +267,9 @@
       const ogUrl = document.getElementById('og-url');
       if (ogUrl) ogUrl.content = pageUrl;
       
+      const ogBlogImgUrl = `https://safarsilsila.pk/api/og-image?blog=${encodeURIComponent(blog.id)}&img=${encodeURIComponent(blog.image)}`;
       const ogImage = document.getElementById('og-image');
-      if (ogImage) ogImage.content = `https://safarsilsila.com/${blog.image}`;
+      if (ogImage) ogImage.content = ogBlogImgUrl;
 
       // Twitter
       const twTitle = document.getElementById('twitter-title');
@@ -274,7 +279,7 @@
       if (twDesc) twDesc.content = blog.metaDesc;
       
       const twImage = document.getElementById('twitter-image');
-      if (twImage) twImage.content = `https://safarsilsila.com/${blog.image}`;
+      if (twImage) twImage.content = ogBlogImgUrl;
 
       // 5. Injects JSON-LD Article Schema dynamically
       const schemaScript = document.createElement('script');
