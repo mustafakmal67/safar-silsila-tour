@@ -162,14 +162,14 @@ body::after {
   pointer-events: none;
   background:
     /* Fine-grain subtle texture overlay */
-    url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.8' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)' opacity='0.015'/%3E%3C/svg%3E"),
-    /* Soft top protection for navigation readability without obscuring background */
-    linear-gradient(to bottom, rgba(3, 6, 5, 0.40) 0%, rgba(3, 6, 5, 0.20) 35%, rgba(3, 6, 5, 0.30) 75%, rgba(3, 6, 5, 0.55) 100%),
-    /* Soft radial vignette allowing vibrant background colors to shine through */
+    url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.8' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)' opacity='0.01'/%3E%3C/svg%3E"),
+    /* Reduced dark veil for brighter background photo visibility */
+    linear-gradient(to bottom, rgba(3, 6, 5, 0.22) 0%, rgba(3, 6, 5, 0.10) 35%, rgba(3, 6, 5, 0.15) 75%, rgba(3, 6, 5, 0.30) 100%),
+    /* Soft light radial vignette */
     radial-gradient(ellipse 120% 100% at 50% 50%,
-      rgba(3, 6, 5, 0.15) 0%,    /* Light center so imagery is vivid */
-      rgba(3, 6, 5, 0.30) 50%,
-      rgba(3, 6, 5, 0.50) 100%
+      rgba(3, 6, 5, 0.05) 0%,
+      rgba(3, 6, 5, 0.15) 50%,
+      rgba(3, 6, 5, 0.30) 100%
     );
 }
 
@@ -5077,22 +5077,36 @@ p, span, li, a, button, label, input, textarea {
   text-align: right;
 }
 
-/* Clean Google Translate Banner Overrides */
+/* Clean Google Translate Banner & Popup Overrides */
 #google_translate_element {
   display: none !important;
 }
 
 .goog-te-banner-frame, 
 iframe.goog-te-banner-frame,
-.goog-te-banner-frame.skiptranslate {
+.goog-te-banner-frame.skiptranslate,
+#goog-gt-tt,
+#goog-gt-tt *,
+.goog-gt-tt,
+.goog-te-balloon-frame,
+.goog-te-spinner-pos,
+.goog-text-highlight,
+.VIpgJd-yDdnNe-Lg4e2b,
+.goog-te-menu-frame,
+iframe.skiptranslate {
   display: none !important;
   visibility: hidden !important;
+  opacity: 0 !important;
   height: 0 !important;
+  width: 0 !important;
+  pointer-events: none !important;
 }
 
 body {
   top: 0px !important;
   position: static !important;
+  overflow-x: hidden !important;
+  max-width: 100vw;
 }
 
 .goog-tooltip, 
@@ -5104,6 +5118,114 @@ body {
   background-color: transparent !important;
   border: none !important;
   box-shadow: none !important;
+}
+
+/* Footer Clickable Contact Links & Mobile Alignment */
+.footer-contact-link {
+  color: rgba(255, 255, 255, 0.75);
+  text-decoration: none;
+  transition: all 0.2s ease;
+}
+
+.footer-contact-link:hover {
+  color: var(--sunset-accent);
+  text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  .footer-top {
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+    margin-bottom: 28px;
+    text-align: left;
+  }
+  
+  .footer-brand-col, 
+  .footer-links-col, 
+  .footer-tours-col, 
+  .footer-contact-col {
+    width: 100%;
+    max-width: 100%;
+    text-align: left;
+  }
+  
+  .footer-logo {
+    justify-content: flex-start;
+  }
+  
+  .footer-desc {
+    font-size: 13.5px;
+    line-height: 1.6;
+    margin: 0 0 20px 0;
+    text-align: left;
+  }
+  
+  .social-links {
+    justify-content: flex-start;
+  }
+  
+  .footer-heading::after {
+    left: 0;
+    transform: none;
+  }
+
+  .footer-bottom {
+    flex-direction: column;
+    gap: 12px;
+    text-align: center;
+    padding-top: 20px;
+  }
+
+  .footer-bottom-links {
+    justify-content: center;
+    gap: 16px;
+  }
+}
+
+/* Universal Mobile Responsive Table & Horizontal Overflow Protection */
+table {
+  width: 100% !important;
+  max-width: 100% !important;
+  border-collapse: collapse;
+  box-sizing: border-box;
+}
+
+.table-responsive,
+.table-wrapper,
+#details-pricing-table-content,
+div[style*="overflow-x: auto"] {
+  width: 100% !important;
+  max-width: 100% !important;
+  overflow-x: auto !important;
+  -webkit-overflow-scrolling: touch !important;
+  margin-bottom: 20px !important;
+  box-sizing: border-box;
+  display: block;
+}
+
+@media (max-width: 768px) {
+  #details-pricing-table-content table {
+    display: table;
+    min-width: 520px; /* Ensures clean multi-column table scrolling without breaking cells */
+  }
+
+  #details-pricing-table-content th,
+  #details-pricing-table-content td {
+    padding: 10px 12px !important;
+    font-size: 12.5px !important;
+    white-space: normal !important;
+    word-break: break-word !important;
+  }
+  
+  .container,
+  .container-fluid,
+  .section,
+  .card,
+  .bento-grid {
+    max-width: 100% !important;
+    box-sizing: border-box !important;
+  }
 }
 
 /* High Performance & GPU Hardware Acceleration Enhancements */
