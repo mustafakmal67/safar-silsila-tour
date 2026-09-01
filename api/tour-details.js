@@ -21,8 +21,13 @@ function getTourData() {
 module.exports = async (req, res) => {
   try {
     const tours = getTourData();
-    const tourId = req.query.tour;
-    const tour = tourId ? tours[tourId] : null;
+    const tourId = req.query.tour || req.query.id || req.query.slug;
+    let tour = null;
+
+    if (tourId) {
+      const normId = String(tourId).toLowerCase().trim();
+      tour = tours[tourId] || Object.values(tours).find(t => t.id && t.id.toLowerCase() === normId);
+    }
 
     const templatePath = path.join(process.cwd(), 'tour-details.html');
     let html = fs.readFileSync(templatePath, 'utf8');
@@ -31,9 +36,9 @@ module.exports = async (req, res) => {
     const host = req.headers['x-forwarded-host'] || req.headers.host || 'www.safarsilsila.com';
     const baseUrl = `${proto}://${host}`;
 
-    let title = "Tour Details | Safar Silsila";
-    let description = "Explore detailed itineraries and booking options for Safar Silsila tours. Custom and group departures available.";
-    let imageUrl = `${baseUrl}/api/og-image?img=bg_image.webp`;
+    let title = "Tour Details | Safar Silsila Travel Agency";
+    let description = "Explore detailed itineraries and booking options for Safar Silsila tours. Custom family trips and group departures available.";
+    let imgFile = 'bg_image.jpg';
     let pageUrl = `${baseUrl}/tour-details.html`;
 
     if (tour) {
@@ -45,9 +50,13 @@ module.exports = async (req, res) => {
         }
         description = cleanAbout;
       }
-      imageUrl = `${baseUrl}/api/og-image?tour=${encodeURIComponent(tour.id)}&img=${encodeURIComponent(tour.image)}`;
+      if (tour.image) {
+        imgFile = path.basename(tour.image, path.extname(tour.image)) + '.jpg';
+      }
       pageUrl = `${baseUrl}/tour-details.html?tour=${encodeURIComponent(tour.id)}`;
     }
+
+    const imageUrl = `${baseUrl}/og-images/${imgFile}`;
 
     // Replace basic tags
     html = html.replace(/<title>.*?<\/title>/i, `<title>${escapeHtml(title)}</title>`);

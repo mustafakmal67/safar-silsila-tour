@@ -34,20 +34,35 @@ module.exports = async (req, res) => {
   try {
     loadData();
     let imgName = req.query.img;
-    const tourId = req.query.tour;
+    const tourId = req.query.tour || req.query.id;
     const blogId = req.query.blog || req.query.id;
 
-    if (!imgName && tourId && tourData[tourId]) {
-      imgName = tourData[tourId].image;
+    if (!imgName && tourId) {
+      const norm = String(tourId).toLowerCase().trim();
+      const tour = tourData[tourId] || Object.values(tourData).find(t => t.id && t.id.toLowerCase() === norm);
+      if (tour) imgName = tour.image;
     }
-    if (!imgName && blogId && blogData[blogId]) {
-      imgName = blogData[blogId].image;
+    if (!imgName && blogId) {
+      const norm = String(blogId).toLowerCase().trim();
+      const blog = blogData[blogId] || Object.values(blogData).find(b => b.id && b.id.toLowerCase() === norm);
+      if (blog) imgName = blog.image;
     }
     if (!imgName) {
-      imgName = 'bg_image.webp';
+      imgName = 'bg_image.jpg';
     }
 
-    // Try finding the image file in the project
+    const baseJpg = path.basename(imgName, path.extname(imgName)) + '.jpg';
+    const preRenderedPath = path.join(process.cwd(), 'og-images', baseJpg);
+
+    if (fs.existsSync(preRenderedPath)) {
+      const buf = fs.readFileSync(preRenderedPath);
+      res.setHeader('Content-Type', 'image/jpeg');
+      res.setHeader('Cache-Control', 'public, max-age=31536000, immutable');
+      res.status(200).send(buf);
+      return;
+    }
+
+    // Fallback: search source images and convert on the fly
     const possiblePaths = [
       path.join(process.cwd(), imgName),
       path.join(process.cwd(), 'images', imgName),
@@ -64,23 +79,18 @@ module.exports = async (req, res) => {
     }
 
     if (!foundPath) {
-      for (const p of [
-        path.join(process.cwd(), 'bg_image.webp'),
-        path.join(process.cwd(), 'logo-square.webp')
-      ]) {
-        if (fs.existsSync(p)) {
-          foundPath = p;
-          break;
-        }
+      const defaultJpg = path.join(process.cwd(), 'og-images', 'bg_image.jpg');
+      if (fs.existsSync(defaultJpg)) {
+        const buf = fs.readFileSync(defaultJpg);
+        res.setHeader('Content-Type', 'image/jpeg');
+        res.setHeader('Cache-Control', 'public, max-age=31536000, immutable');
+        res.status(200).send(buf);
+        return;
       }
-    }
-
-    if (!foundPath) {
       res.status(404).send('Image not found');
       return;
     }
 
-    // Resize and crop to 1200x630 (standard 1.91:1 Open Graph aspect ratio) and output as high-quality JPEG
     const jpegBuffer = await sharp(foundPath)
       .resize(1200, 630, { fit: 'cover', position: 'center' })
       .jpeg({ quality: 85, progressive: true })

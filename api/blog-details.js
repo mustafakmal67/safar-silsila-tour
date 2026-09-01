@@ -21,8 +21,13 @@ function getBlogData() {
 module.exports = async (req, res) => {
   try {
     const blogs = getBlogData();
-    const blogId = req.query.id || req.query.blog;
-    const blog = blogId ? blogs[blogId] : null;
+    const blogId = req.query.id || req.query.blog || req.query.slug;
+    let blog = null;
+
+    if (blogId) {
+      const normId = String(blogId).toLowerCase().trim();
+      blog = blogs[blogId] || Object.values(blogs).find(b => b.id && b.id.toLowerCase() === normId);
+    }
 
     const templatePath = path.join(process.cwd(), 'blog-details.html');
     let html = fs.readFileSync(templatePath, 'utf8');
@@ -31,17 +36,21 @@ module.exports = async (req, res) => {
     const host = req.headers['x-forwarded-host'] || req.headers.host || 'www.safarsilsila.com';
     const baseUrl = `${proto}://${host}`;
 
-    let title = "Blog | Safar Silsila";
+    let title = "Blog | Safar Silsila Travel Agency";
     let description = "Read travel guides, tips, and itineraries for Pakistan tours with Safar Silsila.";
-    let imageUrl = `${baseUrl}/api/og-image?img=bg_image.webp`;
+    let imgFile = 'hunza_valley.jpg';
     let pageUrl = `${baseUrl}/blog-details.html`;
 
     if (blog) {
       title = `${blog.title} | Safar Silsila`;
       description = blog.metaDesc || blog.summary || description;
-      imageUrl = `${baseUrl}/api/og-image?blog=${encodeURIComponent(blog.id)}&img=${encodeURIComponent(blog.image)}`;
+      if (blog.image) {
+        imgFile = path.basename(blog.image, path.extname(blog.image)) + '.jpg';
+      }
       pageUrl = `${baseUrl}/blog-details.html?id=${encodeURIComponent(blog.id)}`;
     }
+
+    const imageUrl = `${baseUrl}/og-images/${imgFile}`;
 
     html = html.replace(/<title>.*?<\/title>/i, `<title>${escapeHtml(title)}</title>`);
     html = html.replace(/<meta name="description" id="meta-description" content=".*?">/i, `<meta name="description" id="meta-description" content="${escapeHtml(description)}">`);
