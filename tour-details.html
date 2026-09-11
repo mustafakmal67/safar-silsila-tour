@@ -1410,31 +1410,32 @@
       return '✨';
     }
 
-    // Authentic photo resolver to avoid raw SVGs with baked-in vector text
+    // Hero image resolver honoring card visual assets
     function getAuthenticHeroImage(tour) {
       if (!tour) return 'astore_minimarg.webp';
       let img = tour.image || '';
-      if (!img || img.endsWith('.svg') || img.includes('card_')) {
-        const tid = (tour.id || '').toLowerCase();
-        if (tid.startsWith('city-')) {
-          const match = tid.match(/\d+/);
-          const num = match ? parseInt(match[0]) : 1;
-          if (num >= 1 && num <= 8) {
-            return `images/city-tours/tour_${num}.webp`;
-          } else if (num >= 9 && num <= 52) {
-            return `images/city-tours/tour_${num}.jpg`;
-          }
-          return 'city_tours_pakistan.webp';
-        } else if (tid.startsWith('festivals-')) {
-          return 'festivals_pakistan.webp';
-        } else if (tid.startsWith('north-')) {
-          return 'fairy_meadows.webp';
-        } else if (tid.startsWith('foreign-')) {
-          return 'foreign_group_trips.webp';
-        }
-        return 'skardu_deosai.webp';
+      if (img && !img.endsWith('.svg')) {
+        return img;
       }
-      return img;
+      const tid = (tour.id || '').toLowerCase();
+      if (tid.startsWith('city-')) {
+        const match = tid.match(/\d+/);
+        const num = match ? parseInt(match[0]) : 1;
+        return `images/city-tours/card_${num}.webp`;
+      } else if (tid.startsWith('festivals-')) {
+        const match = tid.match(/\d+/);
+        const num = match ? parseInt(match[0]) : 1;
+        return `images/festivals/card_${num}.webp`;
+      } else if (tid.startsWith('north-')) {
+        const match = tid.match(/\d+/);
+        const num = match ? parseInt(match[0]) : 1;
+        return `images/north/card_${num}.webp`;
+      } else if (tid.startsWith('foreign-')) {
+        const match = tid.match(/\d+/);
+        const num = match ? parseInt(match[0]) : 1;
+        return `images/foreign/card_${num}.webp`;
+      }
+      return img || 'skardu_deosai.webp';
     }
 
     // Clean unformatted 500-word paragraph dumps and competitor mentions
