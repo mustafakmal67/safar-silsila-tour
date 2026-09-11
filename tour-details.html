@@ -641,6 +641,9 @@
           <div id="details-pricing-table-content" class="table-responsive" style="overflow-x: auto;">
             <!-- Dynamic scraped pricing table -->
           </div>
+          <div id="details-pricing-mobile-cards" class="seasonal-pricing-cards">
+            <!-- Dynamic mobile pricing cards -->
+          </div>
         </section>
 
         <!-- Highlights Section -->
@@ -1397,6 +1400,134 @@
       return dataSource['6-days-astore-minimarg'] || dataSource['3-days-swat-kalam'] || Object.values(dataSource)[0];
     }
 
+    // Helper to get season emoji
+    function getSeasonEmoji(season) {
+      const s = (season || '').toLowerCase();
+      if (s.includes('spring')) return '🌸';
+      if (s.includes('summer')) return '☀️';
+      if (s.includes('autumn') || s.includes('fall')) return '🍂';
+      if (s.includes('winter')) return '❄️';
+      return '✨';
+    }
+
+    // Authentic photo resolver to avoid raw SVGs with baked-in vector text
+    function getAuthenticHeroImage(tour) {
+      if (!tour) return 'astore_minimarg.webp';
+      let img = tour.image || '';
+      if (!img || img.endsWith('.svg') || img.includes('card_')) {
+        const tid = (tour.id || '').toLowerCase();
+        if (tid.startsWith('city-')) {
+          const match = tid.match(/\d+/);
+          const num = match ? parseInt(match[0]) : 1;
+          if (num >= 1 && num <= 8) {
+            return `images/city-tours/tour_${num}.webp`;
+          } else if (num >= 9 && num <= 52) {
+            return `images/city-tours/tour_${num}.jpg`;
+          }
+          return 'city_tours_pakistan.webp';
+        } else if (tid.startsWith('festivals-')) {
+          return 'festivals_pakistan.webp';
+        } else if (tid.startsWith('north-')) {
+          return 'fairy_meadows.webp';
+        } else if (tid.startsWith('foreign-')) {
+          return 'foreign_group_trips.webp';
+        }
+        return 'skardu_deosai.webp';
+      }
+      return img;
+    }
+
+    // Clean unformatted 500-word paragraph dumps and competitor mentions
+    function cleanTourAboutText(rawAbout, tourTitle) {
+      if (!rawAbout) return '';
+
+      // 1. Decode HTML entities
+      let text = rawAbout
+        .replace(/&amp;/g, '&')
+        .replace(/&#8211;/g, '–')
+        .replace(/&#8212;/g, '—')
+        .replace(/&#8216;/g, "'")
+        .replace(/&#8217;/g, "'")
+        .replace(/&#8220;/g, '"')
+        .replace(/&#8221;/g, '"')
+        .replace(/&nbsp;/g, ' ')
+        .replace(/&quot;/g, '"');
+
+      // 2. Replace competitor mentions
+      text = text.replace(/Apricot Tours/gi, 'Safar Silsila Expeditions');
+
+      // 3. Cut off raw dumped pricing and contact footers
+      const cutMarkers = [
+        /Dates\s*(&|&amp;)\s*Cost/i,
+        /Package Price:/i,
+        /FOR BOOKINGS\s*(&|&amp;)\s*INQUIRIES/i,
+        /FOR BOOKINGS\s*(&|&amp;)\s*INQURIES/i,
+        /EMAIL:\s*info@/i,
+        /WHATSAPP:\s*\+92/i,
+        /The most Suitable Months/i
+      ];
+
+      let cutIndex = text.length;
+      for (const marker of cutMarkers) {
+        const match = text.search(marker);
+        if (match !== -1 && match < cutIndex) {
+          cutIndex = match;
+        }
+      }
+      text = text.substring(0, cutIndex).trim();
+
+      // 4. Strip repetitive boilerplates
+      text = text.replace(/^Overview\s+Safar Silsila Offers [^.]+ for their beloved clients\.\s*/i, '');
+      text = text.replace(/^If you are looking for comfortable Trip to North Pakistan in one go then you are at right place\.\s*/i, '');
+      text = text.replace(/^We have a Various range of trekking tours in north Pakistan \.\s*/i, '');
+      text = text.replace(/^People who are looking for adventurous tours then these Tour Package are recommended\.\s*/i, '');
+      text = text.replace(/Safar Silsila is known for planning and executing the best tours in North Pakistan[^\.]*\.\s*/gi, '');
+      text = text.replace(/Please visit our website to get the complete details of available Pakistan Tour Package\.\s*/gi, '');
+      text = text.replace(/Our tour guides and other local support staff enable a host-guest environment in North Pakistan which others fail to deliver\.\s*/gi, '');
+
+      // 5. Clean up redundant headings
+      if (tourTitle) {
+        text = text.replace(new RegExp(`^${tourTitle.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}\\s*–*\\s*`, 'i'), '');
+      }
+      text = text.trim();
+
+      // 6. If empty or too short, provide clean engaging description
+      if (!text || text.length < 30) {
+        text = `Experience the very best of ${tourTitle || 'Pakistan'} with Safar Silsila's curated expedition. Designed for travelers seeking comfort, cultural depth, and authentic landscapes, this package features dedicated transport, licensed local guidance, and unforgettable sights.`;
+      }
+
+      return text;
+    }
+
+    // Robust parser for scraped pricing tables
+    function parseScrapedPricingTable(tableHtml) {
+      if (!tableHtml) return null;
+      const tempDiv = document.createElement('div');
+      tempDiv.innerHTML = tableHtml;
+      const table = tempDiv.querySelector('table');
+      if (!table) return null;
+
+      const rows = Array.from(table.querySelectorAll('tbody tr'));
+      if (rows.length === 0) return null;
+
+      const seasonsData = [];
+      rows.forEach(tr => {
+        const tds = Array.from(tr.querySelectorAll('td'));
+        if (tds.length >= 4) {
+          const season = tds[0].innerText.trim();
+          const month = tds[1].innerText.trim();
+          const date = tds[2].innerText.trim();
+          const price = tds[3].innerText.trim();
+          const pax = tds[4] ? tds[4].innerText.trim() : '1 Pax';
+          if (season) {
+            seasonsData.push({ season, month, date, price, pax });
+          }
+        }
+      });
+
+      return seasonsData.length > 0 ? seasonsData : null;
+    }
+
     // Comprehensive Tour Renderer
     function renderTourPage(tour) {
       if (!tour) return;
@@ -1406,7 +1537,8 @@
         document.title = `${tour.title || 'Tour Details'} | Safar Silsila`;
 
         const pageUrl = `https://www.safarsilsila.com/tour-details.html?tour=${tour.id || ''}`;
-        const shortDesc = (tour.about || '').substring(0, 155) + '...';
+        const cleanAbout = cleanTourAboutText(tour.about, tour.title);
+        const shortDesc = cleanAbout.substring(0, 155) + '...';
         
         const metaDesc = document.getElementById('meta-description');
         if (metaDesc) metaDesc.content = shortDesc;
@@ -1423,9 +1555,10 @@
         const ogUrl = document.getElementById('og-url');
         if (ogUrl) ogUrl.content = pageUrl;
         
-        const ogOgImgUrl = `https://www.safarsilsila.com/api/og-image?tour=${encodeURIComponent(tour.id)}&img=${encodeURIComponent(tour.image)}`;
+        const authenticHeroImg = getAuthenticHeroImage(tour);
+        const ogOgImgUrl = `https://www.safarsilsila.com/api/og-image?tour=${encodeURIComponent(tour.id)}&img=${encodeURIComponent(authenticHeroImg)}`;
         const ogImage = document.getElementById('og-image');
-        if (ogImage && tour.image) ogImage.content = ogOgImgUrl;
+        if (ogImage) ogImage.content = ogOgImgUrl;
         
         const twTitle = document.getElementById('twitter-title');
         if (twTitle) twTitle.content = tour.title || 'Tour Details';
@@ -1434,12 +1567,12 @@
         if (twDesc) twDesc.content = shortDesc;
         
         const twImage = document.getElementById('twitter-image');
-        if (twImage && tour.image) twImage.content = ogOgImgUrl;
+        if (twImage) twImage.content = ogOgImgUrl;
 
-        // Hero Details
+        // Hero Details with genuine photo
         const heroImg = document.getElementById('hero-img');
-        if (heroImg && tour.image) {
-          heroImg.src = tour.image;
+        if (heroImg) {
+          heroImg.src = authenticHeroImg;
           heroImg.alt = tour.title || 'Tour Image';
         }
         const topLoc = document.getElementById('tour-top-location');
@@ -1449,7 +1582,7 @@
         if (mainTitle && tour.title) mainTitle.innerText = tour.title;
 
         const mainDesc = document.getElementById('tour-main-desc');
-        if (mainDesc && tour.about) mainDesc.innerText = tour.about.length > 150 ? tour.about.substring(0, 150) + '...' : tour.about;
+        if (mainDesc) mainDesc.innerText = cleanAbout.length > 180 ? cleanAbout.substring(0, 180).trim() + '...' : cleanAbout;
 
         // Meta Info Badges
         const metaLoc = document.getElementById('meta-location');
@@ -1467,16 +1600,72 @@
         const metaDep = document.getElementById('meta-departure');
         if (metaDep && tour.departureDay) metaDep.innerText = tour.departureDay;
 
-        // About Text
+        // Cleaned and Readable About Text
         const aboutText = document.getElementById('details-about-text');
-        if (aboutText && tour.about) aboutText.innerText = tour.about;
+        if (aboutText) {
+          aboutText.innerHTML = cleanAbout.split('\n\n').map(p => `<p style="margin-bottom: 12px; line-height: 1.7;">${p.trim()}</p>`).join('');
+        }
 
-        // Scraped Pricing Table Rendering
+        // Dual Responsive Pricing Table & Mobile Cards
         const tableSection = document.getElementById('details-pricing-table-section');
         const tableContent = document.getElementById('details-pricing-table-content');
-        if (tour.tableHtml && tableSection && tableContent) {
+        const mobileCardsContainer = document.getElementById('details-pricing-mobile-cards');
+
+        if (tour.tableHtml && tableSection) {
           tableSection.style.display = 'block';
-          tableContent.innerHTML = tour.tableHtml;
+          const seasonsData = parseScrapedPricingTable(tour.tableHtml);
+
+          if (seasonsData && seasonsData.length > 0) {
+            // 1. Desktop Luxury Table
+            if (tableContent) {
+              tableContent.innerHTML = `
+                <table style="width: 100%; border-collapse: collapse;">
+                  <thead>
+                    <tr>
+                      <th>Season</th>
+                      <th>Months</th>
+                      <th>Departure Schedule</th>
+                      <th>Price Per Person</th>
+                      <th>Min. Travelers</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    ${seasonsData.map(s => `
+                      <tr>
+                        <td><span class="seasonal-name-badge">${getSeasonEmoji(s.season)} ${s.season}</span></td>
+                        <td><strong>${s.month}</strong></td>
+                        <td>${s.date}</td>
+                        <td><strong style="color: var(--sunset-accent-bright); font-size: 15px;">${s.price}</strong></td>
+                        <td><span style="color: rgba(255,255,255,0.7);">${s.pax}</span></td>
+                      </tr>
+                    `).join('')}
+                  </tbody>
+                </table>
+                <div class="table-swipe-hint"><i class="ph ph-arrows-left-right"></i> Scroll table horizontally to view all rates</div>
+              `;
+            }
+
+            // 2. Mobile Seasonal Pricing Cards (No word breaking, 100% full width, clean and intuitive)
+            if (mobileCardsContainer) {
+              mobileCardsContainer.innerHTML = seasonsData.map(s => `
+                <div class="seasonal-price-card">
+                  <div class="seasonal-card-header">
+                    <span class="seasonal-name-badge">${getSeasonEmoji(s.season)} ${s.season}</span>
+                    <span class="seasonal-month-text">${s.month}</span>
+                  </div>
+                  <div class="seasonal-price-val">${s.price} <small>/ Person</small></div>
+                  <div class="seasonal-card-meta">
+                    <span><i class="ph ph-calendar-blank"></i> ${s.date}</span>
+                    <span><i class="ph ph-user"></i> Min. ${s.pax}</span>
+                  </div>
+                </div>
+              `).join('');
+            }
+          } else {
+            // Raw table fallback
+            if (tableContent) tableContent.innerHTML = tour.tableHtml;
+            if (mobileCardsContainer) mobileCardsContainer.innerHTML = '';
+          }
         } else if (tableSection) {
           tableSection.style.display = 'none';
         }
