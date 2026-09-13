@@ -1,0 +1,12 @@
+User-agent: *
+Allow: /
+
+User-agent: Googlebot
+Allow: /
+
+User-agent: Googlebot-Image
+Allow: /
+Allow: /*.ico$
+Allow: /*.png$
+Allow: /*.svg$
+Allow: /*.webp$
