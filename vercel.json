@@ -7,11 +7,11 @@
       "dest": "/api/og-image.js"
     },
     {
-      "src": "/tour-details(\\.html)?",
+      "src": "/tour-details(\\.html)?.*",
       "dest": "/api/tour-details.js"
     },
     {
-      "src": "/blog-details(\\.html)?",
+      "src": "/blog-details(\\.html)?.*",
       "dest": "/api/blog-details.js"
     },
     {
