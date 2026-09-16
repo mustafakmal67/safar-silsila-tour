@@ -10,3 +10,5 @@ Allow: /*.ico$
 Allow: /*.png$
 Allow: /*.svg$
 Allow: /*.webp$
+
+Sitemap: https://www.safarsilsila.com/sitemap.xml
