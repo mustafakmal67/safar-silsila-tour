@@ -1,17 +1,17 @@
 window.TOUR_DATA = {
   "2-days-sharan-forest": {
-    id: "2-days-sharan-forest",
-    title: "2-Day Sharan Forest & Manshi Top Tour",
-    duration: "2 Days",
-    location: "Sharan Forest & Manshi Top",
-    maxGroup: "2-20 Persons",
-    difficulty: "Easy to Moderate",
-    image: "deosai_plains.webp",
-    price: "13,000",
-    originalPrice: "14,500",
-    departureDay: "Every Friday Night from Lahore, Every Saturday Morning from Islamabad",
-    about: "Embark on an unforgettable 2-Day expedition to the dense pine wilderness of Sharan Forest and Manshi Top in Kaghan Valley. Safar Silsila provides an all-inclusive mountain getaway featuring 4x4 Jeep transfers from Paras up to Sharan Forest, camping or cottage accommodation, bonfire night under the stars, and a scenic trek/excursion to Manshi Top.",
-    highlights: [
+    "id": "2-days-sharan-forest",
+    "title": "2-Day Sharan Forest & Manshi Top Tour",
+    "duration": "2 Days",
+    "location": "Sharan Forest & Manshi Top",
+    "maxGroup": "2-20 Persons",
+    "difficulty": "Easy to Moderate",
+    "image": "deosai_plains.webp",
+    "price": "13,000",
+    "originalPrice": "14,500",
+    "departureDay": "Every Friday Night from Lahore, Every Saturday Morning from Islamabad",
+    "about": "Embark on an unforgettable 2-Day expedition to the dense pine wilderness of Sharan Forest and Manshi Top in Kaghan Valley. Safar Silsila provides an all-inclusive mountain getaway featuring 4x4 Jeep transfers from Paras up to Sharan Forest, camping or cottage accommodation, bonfire night under the stars, and a scenic trek/excursion to Manshi Top.",
+    "highlights": [
       "Scenic travel via Hazara Motorway, Balakot & Kunhar River bank",
       "Off-road 4x4 Jeep ride from Paras to Sharan Forest (Jeep Included)",
       "Excursion & trek to breathtaking Manshi Top viewpoint",
@@ -19,12 +19,24 @@ window.TOUR_DATA = {
       "Atmospheric Bonfire & BBQ experience amidst pine trees",
       "Professional tour guide and experienced 4x4 drivers included"
     ],
-    itinerary: [
-      { day: "Day 0", title: "Departure from Lahore", desc: "Departure from Lahore at 10:00 PM (Thokar Niaz Baig / Daewoo Terminal). Night travel towards Islamabad via Motorway." },
-      { day: "Day 1", title: "Islamabad / Lahore to Paras & Sharan Forest Stay", desc: "Pick-up participants from Islamabad at 04:30 AM. Travel along the scenic Hazara Motorway and Balakot along the Kunhar River. Reach Paras and board 4x4 Jeeps. Thrilling off-road Jeep ride up to Sharan Forest. Check-in at campsite / wooden pods. Free time to explore lush pine woods. Cozy bonfire, dinner, and overnight stay in Sharan Forest." },
-      { day: "Day 2", title: "Sharan Forest - Manshi Top Excursion - Return Journey", desc: "Morning breakfast at Sharan Forest. Board 4x4 Jeeps for an excursion and guided trek to Manshi Top for spectacular 360-degree mountain views. Enjoy free time at Manshi Meadows. Ride Jeeps back down to Paras and transfer to coaster/cabin. Depart for Islamabad and Lahore. Drop off at Islamabad by evening and Lahore by late night." }
+    "itinerary": [
+      {
+        "day": "Day 0",
+        "title": "Departure from Lahore",
+        "desc": "Departure from Lahore at 10:00 PM (Thokar Niaz Baig / Daewoo Terminal). Night travel towards Islamabad via Motorway."
+      },
+      {
+        "day": "Day 1",
+        "title": "Islamabad / Lahore to Paras & Sharan Forest Stay",
+        "desc": "Pick-up participants from Islamabad at 04:30 AM. Travel along the scenic Hazara Motorway and Balakot along the Kunhar River. Reach Paras and board 4x4 Jeeps. Thrilling off-road Jeep ride up to Sharan Forest. Check-in at campsite / wooden pods. Free time to explore lush pine woods. Cozy bonfire, dinner, and overnight stay in Sharan Forest."
+      },
+      {
+        "day": "Day 2",
+        "title": "Sharan Forest - Manshi Top Excursion - Return Journey",
+        "desc": "Morning breakfast at Sharan Forest. Board 4x4 Jeeps for an excursion and guided trek to Manshi Top for spectacular 360-degree mountain views. Enjoy free time at Manshi Meadows. Ride Jeeps back down to Paras and transfer to coaster/cabin. Depart for Islamabad and Lahore. Drop off at Islamabad by evening and Lahore by late night."
+      }
     ],
-    inclusions: [
+    "inclusions": [
       "AC Transport (Saloon Coaster / HiAce Grand Cabin)",
       "4x4 Jeep Ride (Paras <-> Sharan Forest <-> Manshi Top Included)",
       "2 Breakfasts & 1 Dinner + BBQ / Bonfire",
@@ -32,36 +44,70 @@ window.TOUR_DATA = {
       "Professional Tour Guide & Dedicated Driver",
       "First Aid Kit & Road Toll Taxes"
     ],
-    exclusions: [
+    "exclusions": [
       "Lunches, extra snacks, and cold drinks",
       "Entry tickets for private parks or personal recreational activities",
       "Personal gear and shopping"
     ],
-    packages: [
-      { name: "Standard Package (Quad Sharing)", price: "13,000", status: "available", features: ["Quad sharing stay setup", "4x4 Jeep Transfer Included", "Sharan Forest campsite stay", "2 Breakfasts & 1 Dinner + Bonfire"] },
-      { name: "Standard Package (Twin Sharing)", price: "16,000", status: "available", features: ["Twin sharing stay setup", "4x4 Jeep Transfer Included", "Sharan Forest campsite stay", "2 Breakfasts & 1 Dinner + Bonfire"] },
-      { name: "Standard Package (Solo Setup)", price: "20,000", status: "available", features: ["Private solo room/tent setup", "4x4 Jeep Transfer Included", "Sharan Forest campsite stay", "2 Breakfasts & 1 Dinner + Bonfire"] }
+    "packages": [
+      {
+        "name": "Standard Package (Quad Sharing)",
+        "price": "13,000",
+        "status": "available",
+        "features": [
+          "Quad sharing stay setup",
+          "4x4 Jeep Transfer Included",
+          "Sharan Forest campsite stay",
+          "2 Breakfasts & 1 Dinner + Bonfire"
+        ]
+      },
+      {
+        "name": "Standard Package (Twin Sharing)",
+        "price": "16,000",
+        "status": "available",
+        "features": [
+          "Twin sharing stay setup",
+          "4x4 Jeep Transfer Included",
+          "Sharan Forest campsite stay",
+          "2 Breakfasts & 1 Dinner + Bonfire"
+        ]
+      },
+      {
+        "name": "Standard Package (Solo Setup)",
+        "price": "20,000",
+        "status": "available",
+        "features": [
+          "Private solo room/tent setup",
+          "4x4 Jeep Transfer Included",
+          "Sharan Forest campsite stay",
+          "2 Breakfasts & 1 Dinner + Bonfire"
+        ]
+      }
     ],
-    jeepCharges: "INCLUDED IN PACKAGE (4x4 Jeep Safari from Paras to Sharan Forest & Manshi Top)",
-    hotelDetails: {
-      standard: [
-        { city: "Sharan Forest", hotel: "Sharan Forest Campsite / Wooden Pods", nights: "1 Night Stay" }
+    "jeepCharges": "INCLUDED IN PACKAGE (4x4 Jeep Safari from Paras to Sharan Forest & Manshi Top)",
+    "hotelDetails": {
+      "standard": [
+        {
+          "city": "Sharan Forest",
+          "hotel": "Sharan Forest Campsite / Wooden Pods",
+          "nights": "1 Night Stay"
+        }
       ]
     }
   },
   "3-days-swat-kalam": {
-    id: "3-days-swat-kalam",
-    title: "3-Day Tour Swat | Kalam",
-    duration: "3 Days",
-    location: "Swat & Kalam",
-    maxGroup: "2-20 Persons",
-    difficulty: "Easy",
-    image: "swat_valley_family.webp",
-    price: "17,500",
-    originalPrice: "18,500",
-    departureDay: "Every Thursday Night from Lahore, Every Friday Morning from Islamabad",
-    about: "Experience the breathtaking beauty of Swat Valley and Kalam with Safar Silsila's weekly group tour departure. From the scenic Swat Motorway and snow-capped peaks of Malam Jabba Ski Resort to the lush pine forests of Ushu, crystal-clear Mahudand Lake, Palogha Valley, and Fizaghat, this 3-day getaway offers the ultimate mountain retreat filled with scenic reflections, bonfire nights, and unforgettable memories.",
-    highlights: [
+    "id": "3-days-swat-kalam",
+    "title": "3-Day Tour Swat | Kalam",
+    "duration": "3 Days",
+    "location": "Swat & Kalam",
+    "maxGroup": "2-20 Persons",
+    "difficulty": "Easy",
+    "image": "swat_valley_family.webp",
+    "price": "17,500",
+    "originalPrice": "18,500",
+    "departureDay": "Every Thursday Night from Lahore, Every Friday Morning from Islamabad",
+    "about": "Experience the breathtaking beauty of Swat Valley and Kalam with Safar Silsila's weekly group tour departure. From the scenic Swat Motorway and snow-capped peaks of Malam Jabba Ski Resort to the lush pine forests of Ushu, crystal-clear Mahudand Lake, Palogha Valley, and Fizaghat, this 3-day getaway offers the ultimate mountain retreat filled with scenic reflections, bonfire nights, and unforgettable memories.",
+    "highlights": [
       "Visit Malam Jabba Ski Resort (chairlift & zip line optional)",
       "Excursion to pristine Mahudand Lake by 4x4 Jeeps",
       "Explore dense pine trees of Ushu Forest & Palogha Valley",
@@ -69,13 +115,29 @@ window.TOUR_DATA = {
       "Cozy Bonfire Night & Musical Night experience in Kalam",
       "Comfortable stay in Kalam (Holiday Inn / Royal Elites / Zen Luxus)"
     ],
-    itinerary: [
-      { day: "Day 0", title: "Departure from Lahore", desc: "Departure from Lahore at 10:00 PM from Daewoo Terminal, Thokar Niaz Baig. Travel towards Islamabad via Motorway." },
-      { day: "Day 1", title: "Islamabad / Lahore to Malam Jabba & Kalam", desc: "Arrival in Islamabad and pick-up of participants at 04:30 AM. Travel via the scenic Swat Motorway. Breakfast stop at Fizaghat. Continue towards Malam Jabba Ski Resort with free time for chairlift, zip-lining, and snow activities (optional). Travel to Kalam in the evening for hotel check-in, dinner, and overnight stay." },
-      { day: "Day 2", title: "Kalam - Mahudand Lake - Ushu Forest - Palogha Valley", desc: "Breakfast at the hotel. Transfer to 4x4 jeeps for an excursion to Mahudand Lake. Explore the scenic beauty of Mahudand Lake, Ushu Forest, and Palogha Valley. Return to Kalam in the evening for a bonfire night and musical night experience. Dinner and overnight stay in Kalam." },
-      { day: "Day 3", title: "Kalam to Islamabad / Lahore", desc: "Breakfast at hotel. Depart from Kalam towards Islamabad/Lahore along the scenic Swat River. Short stop at Fizaghat and break for lunch/fueling on the way. Arrival in Islamabad by evening and Lahore by late night." }
+    "itinerary": [
+      {
+        "day": "Day 0",
+        "title": "Departure from Lahore",
+        "desc": "Departure from Lahore at 10:00 PM from Daewoo Terminal, Thokar Niaz Baig. Travel towards Islamabad via Motorway."
+      },
+      {
+        "day": "Day 1",
+        "title": "Islamabad / Lahore to Malam Jabba & Kalam",
+        "desc": "Arrival in Islamabad and pick-up of participants at 04:30 AM. Travel via the scenic Swat Motorway. Breakfast stop at Fizaghat. Continue towards Malam Jabba Ski Resort with free time for chairlift, zip-lining, and snow activities (optional). Travel to Kalam in the evening for hotel check-in, dinner, and overnight stay."
+      },
+      {
+        "day": "Day 2",
+        "title": "Kalam - Mahudand Lake - Ushu Forest - Palogha Valley",
+        "desc": "Breakfast at the hotel. Transfer to 4x4 jeeps for an excursion to Mahudand Lake. Explore the scenic beauty of Mahudand Lake, Ushu Forest, and Palogha Valley. Return to Kalam in the evening for a bonfire night and musical night experience. Dinner and overnight stay in Kalam."
+      },
+      {
+        "day": "Day 3",
+        "title": "Kalam to Islamabad / Lahore",
+        "desc": "Breakfast at hotel. Depart from Kalam towards Islamabad/Lahore along the scenic Swat River. Short stop at Fizaghat and break for lunch/fueling on the way. Arrival in Islamabad by evening and Lahore by late night."
+      }
     ],
-    inclusions: [
+    "inclusions": [
       "Luxury Transport (AC Saloon Coaster / HiAce Grand Cabin)",
       "3 Breakfasts & 2 Dinners",
       "2 Nights Hotel Stay in Kalam",
@@ -83,54 +145,158 @@ window.TOUR_DATA = {
       "Professional Tour Guide & Dedicated Driver",
       "First Aid Kit & Road Tolls"
     ],
-    exclusions: [
+    "exclusions": [
       "Lunch, snacks, and personal refreshments",
       "Entry tickets for parks, forts, or tourist attractions",
       "Jeep charges for off-road destinations (Mahudand Lake)",
       "Optional activities (boating, zip-lining, chairlift, rafting, etc.)"
     ],
-    packages: [
-      { name: "Standard Package (Quad Sharing)", price: "17,500", status: "available", features: ["Quad sharing room setup", "AC Coaster transport", "Holiday Inn Kalam stay", "3 Breakfasts & 2 Dinners"] },
-      { name: "Standard Package (Twin Sharing)", price: "21,500", status: "available", features: ["Twin sharing room setup", "AC Coaster transport", "Holiday Inn Kalam stay", "3 Breakfasts & 2 Dinners"] },
-      { name: "Standard Package (Solo Room)", price: "27,000", status: "available", features: ["Solo private room setup", "AC Coaster transport", "Holiday Inn Kalam stay", "3 Breakfasts & 2 Dinners"] },
-      { name: "Deluxe Package (Quad Sharing)", price: "25,000", status: "available", features: ["Quad sharing room setup", "AC Grand Cabin transport", "Royal Elites Kalam stay", "3 Breakfasts & 2 Dinners"] },
-      { name: "Deluxe Package (Twin Sharing)", price: "33,500", status: "available", features: ["Twin sharing room setup", "AC Grand Cabin transport", "Royal Elites Kalam stay", "3 Breakfasts & 2 Dinners"] },
-      { name: "Deluxe Package (Solo Room)", price: "40,000", status: "available", features: ["Solo private room setup", "AC Grand Cabin transport", "Royal Elites Kalam stay", "3 Breakfasts & 2 Dinners"] },
-      { name: "Executive Package (Twin Sharing)", price: "51,000", status: "available", features: ["Twin sharing room setup", "Luxury SUV / Grand Cabin", "Zen Luxus Kalam stay", "3 Breakfasts & 2 Dinners"] },
-      { name: "Executive Package (Solo Room)", price: "80,000", status: "available", features: ["Solo private room setup", "Luxury SUV / Grand Cabin", "Zen Luxus Kalam stay", "3 Breakfasts & 2 Dinners"] }
+    "packages": [
+      {
+        "name": "Standard Package (Quad Sharing)",
+        "price": "17,500",
+        "status": "available",
+        "features": [
+          "Quad sharing room setup",
+          "AC Coaster transport",
+          "Holiday Inn Kalam stay",
+          "3 Breakfasts & 2 Dinners"
+        ]
+      },
+      {
+        "name": "Standard Package (Twin Sharing)",
+        "price": "21,500",
+        "status": "available",
+        "features": [
+          "Twin sharing room setup",
+          "AC Coaster transport",
+          "Holiday Inn Kalam stay",
+          "3 Breakfasts & 2 Dinners"
+        ]
+      },
+      {
+        "name": "Standard Package (Solo Room)",
+        "price": "27,000",
+        "status": "available",
+        "features": [
+          "Solo private room setup",
+          "AC Coaster transport",
+          "Holiday Inn Kalam stay",
+          "3 Breakfasts & 2 Dinners"
+        ]
+      },
+      {
+        "name": "Deluxe Package (Quad Sharing)",
+        "price": "25,000",
+        "status": "available",
+        "features": [
+          "Quad sharing room setup",
+          "AC Grand Cabin transport",
+          "Royal Elites Kalam stay",
+          "3 Breakfasts & 2 Dinners"
+        ]
+      },
+      {
+        "name": "Deluxe Package (Twin Sharing)",
+        "price": "33,500",
+        "status": "available",
+        "features": [
+          "Twin sharing room setup",
+          "AC Grand Cabin transport",
+          "Royal Elites Kalam stay",
+          "3 Breakfasts & 2 Dinners"
+        ]
+      },
+      {
+        "name": "Deluxe Package (Solo Room)",
+        "price": "40,000",
+        "status": "available",
+        "features": [
+          "Solo private room setup",
+          "AC Grand Cabin transport",
+          "Royal Elites Kalam stay",
+          "3 Breakfasts & 2 Dinners"
+        ]
+      },
+      {
+        "name": "Executive Package (Twin Sharing)",
+        "price": "51,000",
+        "status": "available",
+        "features": [
+          "Twin sharing room setup",
+          "Luxury SUV / Grand Cabin",
+          "Zen Luxus Kalam stay",
+          "3 Breakfasts & 2 Dinners"
+        ]
+      },
+      {
+        "name": "Executive Package (Solo Room)",
+        "price": "80,000",
+        "status": "available",
+        "features": [
+          "Solo private room setup",
+          "Luxury SUV / Grand Cabin",
+          "Zen Luxus Kalam stay",
+          "3 Breakfasts & 2 Dinners"
+        ]
+      }
     ],
-    jeepCharges: "RS. 3,500 - 4,000 Per Head (for Mahudand Lake 4x4 jeep safari)",
-    hotelDetails: {
-      standard: [
-        { city: "Kalam", hotel: "Holiday Inn", nights: "2 Night Stay" }
+    "jeepCharges": "RS. 3,500 - 4,000 Per Head (for Mahudand Lake 4x4 jeep safari)",
+    "hotelDetails": {
+      "standard": [
+        {
+          "city": "Kalam",
+          "hotel": "Holiday Inn",
+          "nights": "2 Night Stay"
+        }
       ],
-      deluxe: [
-        { city: "Kalam", hotel: "Royal Elites", nights: "2 Night Stay" }
+      "deluxe": [
+        {
+          "city": "Kalam",
+          "hotel": "Royal Elites",
+          "nights": "2 Night Stay"
+        }
       ],
-      executive: [
-        { city: "Kalam", hotel: "Zen Luxus", nights: "2 Night Stay" }
+      "executive": [
+        {
+          "city": "Kalam",
+          "hotel": "Zen Luxus",
+          "nights": "2 Night Stay"
+        }
       ]
     },
-    faqs: [
-      { q: "When does the 3-Day Swat & Kalam group tour depart?", a: "This tour departs every Thursday night at 10:00 PM from Lahore (Daewoo Terminal, Thokar Niaz Baig) and Friday morning at 05:00 AM from Islamabad." },
-      { q: "What attractions are covered during the trip?", a: "The tour covers Swat Motorway, Fizaghat, Malam Jabba Ski Resort, Ushu Forest, Palogha Valley, Mahudand Lake, and Kalam Valley." },
-      { q: "What hotel stay options are offered in Kalam?", a: "Holiday Inn Kalam for Standard Package, Royal Elites Kalam for Deluxe Package, and Zen Luxus Kalam for Executive Package." },
-      { q: "Are 4x4 jeep charges included for Mahudand Lake?", a: "Local 4x4 jeep safari charges for Mahudand Lake are excluded and payable directly on site." }
+    "faqs": [
+      {
+        "q": "When does the 3-Day Swat & Kalam group tour depart?",
+        "a": "This tour departs every Thursday night at 10:00 PM from Lahore (Daewoo Terminal, Thokar Niaz Baig) and Friday morning at 05:00 AM from Islamabad."
+      },
+      {
+        "q": "What attractions are covered during the trip?",
+        "a": "The tour covers Swat Motorway, Fizaghat, Malam Jabba Ski Resort, Ushu Forest, Palogha Valley, Mahudand Lake, and Kalam Valley."
+      },
+      {
+        "q": "What hotel stay options are offered in Kalam?",
+        "a": "Holiday Inn Kalam for Standard Package, Royal Elites Kalam for Deluxe Package, and Zen Luxus Kalam for Executive Package."
+      },
+      {
+        "q": "Are 4x4 jeep charges included for Mahudand Lake?",
+        "a": "Local 4x4 jeep safari charges for Mahudand Lake are excluded and payable directly on site."
+      }
     ]
   },
   "8-days-hunza-skardu-deosai": {
-    id: "8-days-hunza-skardu-deosai",
-    title: "8 Days Hunza, Skardu & Deosai Adventure Group Tour",
-    duration: "8 Days",
-    location: "Hunza, Skardu & Deosai",
-    maxGroup: "Max 20 Persons",
-    difficulty: "Moderate",
-    image: "deosai_plains.webp",
-    price: "39,500",
-    originalPrice: "38,000",
-    departureDay: "Every Friday Night from Lahore, Every Saturday Morning from Islamabad",
-    about: "Embark on the ultimate adventure across Northern Pakistan. This 8-day tour combines the majestic Hunza Valley, known for its historic forts and towering peaks, with the unique mountain desert landscape of Baltistan and the high-altitude wilderness of Deosai Plains. Perfect for families, photographers, and adventurers wanting to experience the complete spectrum of Gilgit-Baltistan.",
-    highlights: [
+    "id": "8-days-hunza-skardu-deosai",
+    "title": "8 Days Hunza, Skardu & Deosai Adventure Group Tour",
+    "duration": "8 Days",
+    "location": "Hunza, Skardu & Deosai",
+    "maxGroup": "Max 20 Persons",
+    "difficulty": "Moderate",
+    "image": "deosai_plains.webp",
+    "price": "39,500",
+    "originalPrice": "38,000",
+    "departureDay": "Every Friday Night from Lahore, Every Saturday Morning from Islamabad",
+    "about": "Embark on the ultimate adventure across Northern Pakistan. This 8-day tour combines the majestic Hunza Valley, known for its historic forts and towering peaks, with the unique mountain desert landscape of Baltistan and the high-altitude wilderness of Deosai Plains. Perfect for families, photographers, and adventurers wanting to experience the complete spectrum of Gilgit-Baltistan.",
+    "highlights": [
       "Explore majestic Hunza Valley, Altit & Baltit Forts",
       "Discover Baltistan deserts & organic Skardu Valley",
       "Excursion to Deosai Plains, Sheosar Lake & Rainbow Lake",
@@ -138,17 +304,49 @@ window.TOUR_DATA = {
       "Stops at Nanga Parbat View Point and Junction Point of 3 Mountain Ranges",
       "Boat ride on pristine Attabad Lake"
     ],
-    itinerary: [
-      { day: "Day 1", title: "Islamabad to Chilas via Karakoram Highway", desc: "Departure from Islamabad early morning. Drive to the scenic Karakoram Highway. Stop at Balakot, Kiwai Waterfall, Kaghan, Lulusar Lake, Babusar Top. Arrive in Chilas by evening for overnight stay." },
-      { day: "Day 2", title: "Chilas to Hunza Karimabad", desc: "Drive from Chilas to Hunza. Stops at Nanga Parbat view point and the unique junction point where three mighty mountain ranges meet. Arrive in Karimabad, visit Baltit Fort and Karimabad Bazaar. Overnight in Hunza." },
-      { day: "Day 3", title: "Excursion to Attabad Lake & Passu Cones", desc: "Travel to Upper Hunza. Enjoy a boat ride on Attabad Lake. Visit Hussaini Suspension Bridge and view the iconic Passu Cones. Drive back to Karimabad for overnight stay." },
-      { day: "Day 4", title: "Karimabad to Skardu Valley", desc: "Drive from Hunza to Skardu along the Indus River gorge. Stop at Astak Nala for lunch. Arrive in Skardu, visit the Cold Desert of Katpana. Overnight in Skardu." },
-      { day: "Day 5", title: "Excursion to Deosai Plains & Sheosar Lake", desc: "Full day excursion to Deosai National Park, the second-highest plateau in the world. Visit Sheosar Lake and Kala Pani. Enjoy the high-altitude wilderness. Return to Skardu for overnight." },
-      { day: "Day 6", title: "Explore Shigar Valley & Shangrila Lake", desc: "Visit Shangrila Resort (Lower Kachura Lake) and Upper Kachura Lake. Later, drive to Shigar Valley, visit the historic Shigar Fort. Overnight in Skardu." },
-      { day: "Day 7", title: "Skardu to Chilas / Naran", desc: "Start journey back via Babusar Pass (if open) or Karakoram Highway. Stop at various scenic points. Arrive in Chilas or Naran for overnight stay." },
-      { day: "Day 8", title: "Return to Islamabad / Lahore", desc: "Drive back to Islamabad/Lahore. Stop for lunch at Abbottabad/Besham. Arrive in Islamabad by evening and Lahore by late night. End of services." }
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "title": "Islamabad to Chilas via Karakoram Highway",
+        "desc": "Departure from Islamabad early morning. Drive to the scenic Karakoram Highway. Stop at Balakot, Kiwai Waterfall, Kaghan, Lulusar Lake, Babusar Top. Arrive in Chilas by evening for overnight stay."
+      },
+      {
+        "day": "Day 2",
+        "title": "Chilas to Hunza Karimabad",
+        "desc": "Drive from Chilas to Hunza. Stops at Nanga Parbat view point and the unique junction point where three mighty mountain ranges meet. Arrive in Karimabad, visit Baltit Fort and Karimabad Bazaar. Overnight in Hunza."
+      },
+      {
+        "day": "Day 3",
+        "title": "Excursion to Attabad Lake & Passu Cones",
+        "desc": "Travel to Upper Hunza. Enjoy a boat ride on Attabad Lake. Visit Hussaini Suspension Bridge and view the iconic Passu Cones. Drive back to Karimabad for overnight stay."
+      },
+      {
+        "day": "Day 4",
+        "title": "Karimabad to Skardu Valley",
+        "desc": "Drive from Hunza to Skardu along the Indus River gorge. Stop at Astak Nala for lunch. Arrive in Skardu, visit the Cold Desert of Katpana. Overnight in Skardu."
+      },
+      {
+        "day": "Day 5",
+        "title": "Excursion to Deosai Plains & Sheosar Lake",
+        "desc": "Full day excursion to Deosai National Park, the second-highest plateau in the world. Visit Sheosar Lake and Kala Pani. Enjoy the high-altitude wilderness. Return to Skardu for overnight."
+      },
+      {
+        "day": "Day 6",
+        "title": "Explore Shigar Valley & Shangrila Lake",
+        "desc": "Visit Shangrila Resort (Lower Kachura Lake) and Upper Kachura Lake. Later, drive to Shigar Valley, visit the historic Shigar Fort. Overnight in Skardu."
+      },
+      {
+        "day": "Day 7",
+        "title": "Skardu to Chilas / Naran",
+        "desc": "Start journey back via Babusar Pass (if open) or Karakoram Highway. Stop at various scenic points. Arrive in Chilas or Naran for overnight stay."
+      },
+      {
+        "day": "Day 8",
+        "title": "Return to Islamabad / Lahore",
+        "desc": "Drive back to Islamabad/Lahore. Stop for lunch at Abbottabad/Besham. Arrive in Islamabad by evening and Lahore by late night. End of services."
+      }
     ],
-    inclusions: [
+    "inclusions": [
       "AC Transport (Saloon Coaster/HiAce Grand Cabin)",
       "Standard Hotel Accommodations (7 Nights on shared basis)",
       "Daily Breakfast & Dinner",
@@ -156,112 +354,293 @@ window.TOUR_DATA = {
       "Professional Tour Guide & Dedicated Driver",
       "First Aid Kit & Road Tolls"
     ],
-    exclusions: [
+    "exclusions": [
       "Lunch, snacks, and personal beverages",
       "Boating, Fort entry tickets, and chairlift rides",
       "Jeep rides for Deosai Plains",
       "Personal trekking gear or porter services",
       "Insurance or medical rescue costs"
     ],
-    packages: [
-      { name: "Standard Package (Quad Sharing)", price: "39,500", status: "available", features: ["Quad Sharing room setup", "AC Coaster transport", "Standard hotels"] },
-      { name: "Standard Package (Twin Sharing)", price: "47,500", status: "available", features: ["Twin sharing room setup", "AC Coaster transport", "Standard hotels"] },
-      { name: "Standard Package (Solo Room)", price: "59,500", status: "available", features: ["Solo private room", "AC Coaster transport", "Standard hotels"] },
-      { name: "Deluxe Package (Twin Sharing)", price: "69,500", status: "available", features: ["Twin sharing room setup", "AC Grand Cabin seat", "Deluxe hotels"] },
-      { name: "Deluxe Package (Solo Room)", price: "105,500", status: "available", features: ["Solo private room", "AC Grand Cabin seat", "Deluxe hotels"] },
-      { name: "Premium Package (Twin Sharing)", price: "99,500", status: "available", features: ["Twin sharing room setup", "Premium 3-Star hotels", "Luxury SUV seat"] },
-      { name: "Executive Package (Twin Sharing)", price: "131,500", status: "available", features: ["Twin sharing room setup", "Luxury 4/5-Star hotels", "Dedicated Land Cruiser transport"] }
+    "packages": [
+      {
+        "name": "Standard Package (Quad Sharing)",
+        "price": "39,500",
+        "status": "available",
+        "features": [
+          "Quad Sharing room setup",
+          "AC Coaster transport",
+          "Standard hotels"
+        ]
+      },
+      {
+        "name": "Standard Package (Twin Sharing)",
+        "price": "47,500",
+        "status": "available",
+        "features": [
+          "Twin sharing room setup",
+          "AC Coaster transport",
+          "Standard hotels"
+        ]
+      },
+      {
+        "name": "Standard Package (Solo Room)",
+        "price": "59,500",
+        "status": "available",
+        "features": [
+          "Solo private room",
+          "AC Coaster transport",
+          "Standard hotels"
+        ]
+      },
+      {
+        "name": "Deluxe Package (Twin Sharing)",
+        "price": "69,500",
+        "status": "available",
+        "features": [
+          "Twin sharing room setup",
+          "AC Grand Cabin seat",
+          "Deluxe hotels"
+        ]
+      },
+      {
+        "name": "Deluxe Package (Solo Room)",
+        "price": "105,500",
+        "status": "available",
+        "features": [
+          "Solo private room",
+          "AC Grand Cabin seat",
+          "Deluxe hotels"
+        ]
+      },
+      {
+        "name": "Premium Package (Twin Sharing)",
+        "price": "99,500",
+        "status": "available",
+        "features": [
+          "Twin sharing room setup",
+          "Premium 3-Star hotels",
+          "Luxury SUV seat"
+        ]
+      },
+      {
+        "name": "Executive Package (Twin Sharing)",
+        "price": "131,500",
+        "status": "available",
+        "features": [
+          "Twin sharing room setup",
+          "Luxury 4/5-Star hotels",
+          "Dedicated Land Cruiser transport"
+        ]
+      }
     ],
-    jeepCharges: "RS. 4,000 Per Head",
-    faqs: [
-      { q: "What type of transport is used for this tour?", a: "We use air-conditioned Saloon Coasters or Toyota HiAce Grand Cabins for highway travel, and dedicated 4x4 jeeps for off-road travel to Deosai Plains." },
-      { q: "Is this tour suitable for children and elderly travelers?", a: "Yes, this tour is family-friendly. However, since it involves traveling to high-altitude areas like Deosai Plains (approx. 13,000 ft), travelers with chronic breathing or heart conditions should consult their doctor." },
-      { q: "What is the weather like during the tour?", a: "The weather is generally pleasant in Karimabad and Skardu during the day (15°C to 25°C) but can drop significantly in the evening and at high altitudes like Deosai (down to 0°C or lower), so warm layering is highly recommended." },
-      { q: "Are meals included in this package?", a: "Yes, standard breakfasts and dinners are included at the hotels. Lunches and personal snacks are excluded." }
+    "jeepCharges": "RS. 4,000 Per Head",
+    "faqs": [
+      {
+        "q": "What type of transport is used for this tour?",
+        "a": "We use air-conditioned Saloon Coasters or Toyota HiAce Grand Cabins for highway travel, and dedicated 4x4 jeeps for off-road travel to Deosai Plains."
+      },
+      {
+        "q": "Is this tour suitable for children and elderly travelers?",
+        "a": "Yes, this tour is family-friendly. However, since it involves traveling to high-altitude areas like Deosai Plains (approx. 13,000 ft), travelers with chronic breathing or heart conditions should consult their doctor."
+      },
+      {
+        "q": "What is the weather like during the tour?",
+        "a": "The weather is generally pleasant in Karimabad and Skardu during the day (15°C to 25°C) but can drop significantly in the evening and at high altitudes like Deosai (down to 0°C or lower), so warm layering is highly recommended."
+      },
+      {
+        "q": "Are meals included in this package?",
+        "a": "Yes, standard breakfasts and dinners are included at the hotels. Lunches and personal snacks are excluded."
+      }
     ]
   },
   "6-days-skardu-deosai": {
-    id: "6-days-skardu-deosai",
-    title: "6 Days Skardu Valley & Deosai Plains Group Tour",
-    duration: "6 Days",
-    location: "Skardu & Deosai",
-    maxGroup: "2-20 Persons",
-    difficulty: "Easy",
-    image: "skardu_deosai.webp",
-    price: "33,500",
-    originalPrice: "32,000",
-    departureDay: "Every Friday Night from Lahore, Every Saturday Morning from Islamabad",
-    about: "Explore the heart of Baltistan. This 6-day itinerary is designed to give you a relaxed yet complete experience of Skardu Valley. From the legendary Shangrila Resort to the high deserts of Katpana and the alpine lakes of Kachura, culminating in a spectacular day at Deosai National Park, this tour offers the perfect mountain escape.",
-    highlights: [
+    "id": "6-days-skardu-deosai",
+    "title": "6 Days Skardu Valley & Deosai Plains Group Tour",
+    "duration": "6 Days",
+    "location": "Skardu & Deosai",
+    "maxGroup": "2-20 Persons",
+    "difficulty": "Easy",
+    "image": "skardu_deosai.webp",
+    "price": "33,500",
+    "originalPrice": "32,000",
+    "departureDay": "Every Friday Night from Lahore, Every Saturday Morning from Islamabad",
+    "about": "Explore the heart of Baltistan. This 6-day itinerary is designed to give you a relaxed yet complete experience of Skardu Valley. From the legendary Shangrila Resort to the high deserts of Katpana and the alpine lakes of Kachura, culminating in a spectacular day at Deosai National Park, this tour offers the perfect mountain escape.",
+    "highlights": [
       "Lakeside stay at Shangrila Resort & Kachura Lake",
       "Explore historic Shigar Valley & cold desert dunes",
       "Excursion to high-altitude Deosai National Park",
       "Visit the towering Sadpara Lake",
       "Beautiful drive along the Indus River gorge"
     ],
-    itinerary: [
-      { day: "Day 1", title: "Islamabad to Chilas via KKH", desc: "Departure from Islamabad, drive along the Hazara Motorway and Karakoram Highway. Stop at Besham for lunch. Reach Chilas by evening for overnight stay." },
-      { day: "Day 2", title: "Chilas to Skardu Valley", desc: "Drive along the Indus River gorge. Stop at the confluence of rivers and view Gilgit River. Arrive in Skardu by evening. Visit Katpana Cold Desert. Overnight in Skardu." },
-      { day: "Day 3", title: "Shangrila & Kachura Lakes Excursion", desc: "Spend the day visiting Lower Kachura (Shangrila Lake) and hiking to the pristine Upper Kachura Lake. Optional boat ride. Overnight in Skardu." },
-      { day: "Day 4", title: "Deosai National Park Jeep Safari", desc: "Board 4x4 jeeps for Deosai Plains. Visit Sadpara Lake, Sheosar Lake, and Bara Pani. Take in the beautiful, wide plateaus. Return to Skardu for overnight stay." },
-      { day: "Day 5", title: "Shigar Valley & return to Chilas", desc: "Morning visit to Shigar Fort and Cold Desert. Start return journey to Chilas. Arrive in Chilas by late evening for overnight." },
-      { day: "Day 6", title: "Chilas to Islamabad / Lahore", desc: "Drive back to Islamabad/Lahore. Stop at Besham/Abbottabad. Reach Islamabad by evening." }
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "title": "Islamabad to Chilas via KKH",
+        "desc": "Departure from Islamabad, drive along the Hazara Motorway and Karakoram Highway. Stop at Besham for lunch. Reach Chilas by evening for overnight stay."
+      },
+      {
+        "day": "Day 2",
+        "title": "Chilas to Skardu Valley",
+        "desc": "Drive along the Indus River gorge. Stop at the confluence of rivers and view Gilgit River. Arrive in Skardu by evening. Visit Katpana Cold Desert. Overnight in Skardu."
+      },
+      {
+        "day": "Day 3",
+        "title": "Shangrila & Kachura Lakes Excursion",
+        "desc": "Spend the day visiting Lower Kachura (Shangrila Lake) and hiking to the pristine Upper Kachura Lake. Optional boat ride. Overnight in Skardu."
+      },
+      {
+        "day": "Day 4",
+        "title": "Deosai National Park Jeep Safari",
+        "desc": "Board 4x4 jeeps for Deosai Plains. Visit Sadpara Lake, Sheosar Lake, and Bara Pani. Take in the beautiful, wide plateaus. Return to Skardu for overnight stay."
+      },
+      {
+        "day": "Day 5",
+        "title": "Shigar Valley & return to Chilas",
+        "desc": "Morning visit to Shigar Fort and Cold Desert. Start return journey to Chilas. Arrive in Chilas by late evening for overnight."
+      },
+      {
+        "day": "Day 6",
+        "title": "Chilas to Islamabad / Lahore",
+        "desc": "Drive back to Islamabad/Lahore. Stop at Besham/Abbottabad. Reach Islamabad by evening."
+      }
     ],
-    inclusions: [
+    "inclusions": [
       "Coaster/Grand Cabin transport",
       "Hotel rooms (shared basis)",
       "Daily breakfast & dinner",
       "Jeeps for Deosai National Park",
       "First aid and driver expense"
     ],
-    exclusions: [
+    "exclusions": [
       "Lunch, snacks, and hot beverages",
       "Boating, Fort tickets",
       "Laundry or phone calls"
     ],
-    packages: [
-      { name: "Standard Package (Quad Sharing)", price: "33,500", status: "available", features: ["Quad Sharing room setup", "AC Coaster transport", "Standard hotels"] },
-      { name: "Standard Package (Twin Sharing)", price: "39,500", status: "available", features: ["Twin sharing room setup", "AC Coaster transport", "Standard hotels"] },
-      { name: "Standard Package (Solo Room)", price: "49,500", status: "available", features: ["Solo private room", "AC Coaster transport", "Standard hotels"] },
-      { name: "Deluxe Package (Twin Sharing)", price: "58,500", status: "available", features: ["Twin sharing room setup", "AC Grand Cabin seat", "Deluxe hotels"] },
-      { name: "Deluxe Package (Solo Room)", price: "89,500", status: "available", features: ["Solo private room", "AC Grand Cabin seat", "Deluxe hotels"] }
+    "packages": [
+      {
+        "name": "Standard Package (Quad Sharing)",
+        "price": "33,500",
+        "status": "available",
+        "features": [
+          "Quad Sharing room setup",
+          "AC Coaster transport",
+          "Standard hotels"
+        ]
+      },
+      {
+        "name": "Standard Package (Twin Sharing)",
+        "price": "39,500",
+        "status": "available",
+        "features": [
+          "Twin sharing room setup",
+          "AC Coaster transport",
+          "Standard hotels"
+        ]
+      },
+      {
+        "name": "Standard Package (Solo Room)",
+        "price": "49,500",
+        "status": "available",
+        "features": [
+          "Solo private room",
+          "AC Coaster transport",
+          "Standard hotels"
+        ]
+      },
+      {
+        "name": "Deluxe Package (Twin Sharing)",
+        "price": "58,500",
+        "status": "available",
+        "features": [
+          "Twin sharing room setup",
+          "AC Grand Cabin seat",
+          "Deluxe hotels"
+        ]
+      },
+      {
+        "name": "Deluxe Package (Solo Room)",
+        "price": "89,500",
+        "status": "available",
+        "features": [
+          "Solo private room",
+          "AC Grand Cabin seat",
+          "Deluxe hotels"
+        ]
+      }
     ],
-    jeepCharges: "RS. 4,000 Per Head",
-    faqs: [
-      { q: "How much walking or trekking is required?", a: "This is a relatively easy sightseeing tour. Most destinations like Shangrila Lake, Cold Desert, and Shigar Fort require minimal walking. The hike to Upper Kachura Lake is a moderate 15-minute walk." },
-      { q: "Will we have stable internet and mobile network connectivity?", a: "Mobile signals (mainly SCOM) are available in Skardu city and Shigar Valley. Connectivity in Deosai Plains is extremely weak or unavailable." },
-      { q: "What are the main sights we will cover?", a: "Key highlights include Shangrila Resort, Upper Kachura Lake, Shigar Fort, the Cold Desert of Katpana, and a jeep safari to Deosai Plains and Sadpara Lake." }
+    "jeepCharges": "RS. 4,000 Per Head",
+    "faqs": [
+      {
+        "q": "How much walking or trekking is required?",
+        "a": "This is a relatively easy sightseeing tour. Most destinations like Shangrila Lake, Cold Desert, and Shigar Fort require minimal walking. The hike to Upper Kachura Lake is a moderate 15-minute walk."
+      },
+      {
+        "q": "Will we have stable internet and mobile network connectivity?",
+        "a": "Mobile signals (mainly SCOM) are available in Skardu city and Shigar Valley. Connectivity in Deosai Plains is extremely weak or unavailable."
+      },
+      {
+        "q": "What are the main sights we will cover?",
+        "a": "Key highlights include Shangrila Resort, Upper Kachura Lake, Shigar Fort, the Cold Desert of Katpana, and a jeep safari to Deosai Plains and Sadpara Lake."
+      }
     ]
   },
   "6-days-astore-minimarg": {
-    id: "6-days-astore-minimarg",
-    title: "6 Days Minimarg & Astore Group Tour",
-    duration: "6 Days",
-    location: "Astore Valley",
-    maxGroup: "2-20 Persons",
-    difficulty: "Medium",
-    image: "astore_minimarg.webp",
-    price: "33,500",
-    originalPrice: "32,000",
-    departureDay: "Every Friday Night from Lahore, Every Saturday Morning from Islamabad",
-    about: "An off-the-beaten-path journey to Minimarg, featuring dramatic landscapes, high mountain passes, and hidden alpine lakes. Walk through the scenic wilderness of Astore Valley, Rama Meadows, Burzil Top, and the pristine Rainbow Lake at Domail. Includes premium hotel stays and wilderness camping.",
-    highlights: [
+    "id": "6-days-astore-minimarg",
+    "title": "6 Days Minimarg & Astore Group Tour",
+    "duration": "6 Days",
+    "location": "Astore Valley",
+    "maxGroup": "2-20 Persons",
+    "difficulty": "Medium",
+    "image": "astore_minimarg.webp",
+    "price": "33,500",
+    "originalPrice": "32,000",
+    "departureDay": "Every Friday Night from Lahore, Every Saturday Morning from Islamabad",
+    "about": "An off-the-beaten-path journey to Minimarg, featuring dramatic landscapes, high mountain passes, and hidden alpine lakes. Walk through the scenic wilderness of Astore Valley, Rama Meadows, Burzil Top, and the pristine Rainbow Lake at Domail. Includes premium hotel stays and wilderness camping.",
+    "highlights": [
       "Visit scenic Minimarg border village & Rainbow Lake",
       "Explore pristine Rama Meadows & Rama Lake trek",
       "Spectacular views of Nanga Parbat east face",
       "Cross the high Burzil Top Pass",
       "Camping experience in Domail & Rama Meadows"
     ],
-    itinerary: [
-      { day: "Day 0", title: "Departure from Lahore", desc: "Departure from Lahore Friday night at 10:30 PM from Daewoo Terminal, Thokar Niaz Baig. Travel towards Islamabad." },
-      { day: "Day 1", title: "Islamabad to Chilas", desc: "Pick up of trip members from designated points in Islamabad. Departure for Chilas at around 04:30 AM. Travel through scenic routes with stops on the way. Arrive at Chilas & check-in. Dinner & overnight stay in Chilas." },
-      { day: "Day 2", title: "Chilas to Astore & Rama Meadows", desc: "Breakfast in the morning. Departure towards Rama Meadows. Arrival at Astore Bazaar and transfer to 4x4 jeeps for onward journey. Visit Rama Meadows, start hike to Rama Lake. Overnight stay in tents/hotel in Rama Meadows." },
-      { day: "Day 3", title: "Explore Minimarg & Rainbow Lake", desc: "Breakfast in the morning. Departure towards Minimarg. Stop at Chilam Check Post, transfer to local jeeps. Drive through Burzil Top (if open). Visit Minimarg Valley and the scenic Domail - Rainbow Lake - Crystal Lake. Overnight camping at Domail." },
-      { day: "Day 4", title: "Minimarg to Deosai Plains & Astore", desc: "Breakfast in the morning. Depart towards Deosai Plains. Short stop at Burzil Top. Visit Sheosar Lake. Free time to explore Deosai National Park. Return to Astore in the evening for dinner and overnight stay." },
-      { day: "Day 5", title: "Astore to Naran Valley", desc: "Breakfast in the morning. Drive towards Naran. Stop at scenic checkpoints along Babusar Top route. Arrive in Naran, check into hotel. Dinner & overnight in Naran." },
-      { day: "Day 6", title: "Naran to Islamabad / Lahore", desc: "Breakfast call. Start journey back. Stop at Balakot / Abbottabad. Reach Islamabad by evening (approx. 08:00 PM) and Lahore late night. End of journey." }
+    "itinerary": [
+      {
+        "day": "Day 0",
+        "title": "Departure from Lahore",
+        "desc": "Departure from Lahore Friday night at 10:30 PM from Daewoo Terminal, Thokar Niaz Baig. Travel towards Islamabad."
+      },
+      {
+        "day": "Day 1",
+        "title": "Islamabad to Chilas",
+        "desc": "Pick up of trip members from designated points in Islamabad. Departure for Chilas at around 04:30 AM. Travel through scenic routes with stops on the way. Arrive at Chilas & check-in. Dinner & overnight stay in Chilas."
+      },
+      {
+        "day": "Day 2",
+        "title": "Chilas to Astore & Rama Meadows",
+        "desc": "Breakfast in the morning. Departure towards Rama Meadows. Arrival at Astore Bazaar and transfer to 4x4 jeeps for onward journey. Visit Rama Meadows, start hike to Rama Lake. Overnight stay in tents/hotel in Rama Meadows."
+      },
+      {
+        "day": "Day 3",
+        "title": "Explore Minimarg & Rainbow Lake",
+        "desc": "Breakfast in the morning. Departure towards Minimarg. Stop at Chilam Check Post, transfer to local jeeps. Drive through Burzil Top (if open). Visit Minimarg Valley and the scenic Domail - Rainbow Lake - Crystal Lake. Overnight camping at Domail."
+      },
+      {
+        "day": "Day 4",
+        "title": "Minimarg to Deosai Plains & Astore",
+        "desc": "Breakfast in the morning. Depart towards Deosai Plains. Short stop at Burzil Top. Visit Sheosar Lake. Free time to explore Deosai National Park. Return to Astore in the evening for dinner and overnight stay."
+      },
+      {
+        "day": "Day 5",
+        "title": "Astore to Naran Valley",
+        "desc": "Breakfast in the morning. Drive towards Naran. Stop at scenic checkpoints along Babusar Top route. Arrive in Naran, check into hotel. Dinner & overnight in Naran."
+      },
+      {
+        "day": "Day 6",
+        "title": "Naran to Islamabad / Lahore",
+        "desc": "Breakfast call. Start journey back. Stop at Balakot / Abbottabad. Reach Islamabad by evening (approx. 08:00 PM) and Lahore late night. End of journey."
+      }
     ],
-    inclusions: [
+    "inclusions": [
       "AC Transport from LHR/ISB",
       "Standard Hotel & Camping Accommodations (5 Nights total)",
       "6 Breakfast & 5 Dinners",
@@ -269,138 +648,391 @@ window.TOUR_DATA = {
       "Tour Guide & dedicated driver",
       "Camping equipment in Domail & Rama Meadows"
     ],
-    exclusions: [
+    "exclusions": [
       "Lunch, snacks, and extra mineral water",
       "Personal expenses, tips, and entry tickets"
     ],
-    packages: [
-      { name: "Standard Package (Quad Sharing)", price: "33,500", status: "available", features: ["Quad sharing in hotel/camps", "AC Coaster transport", "Standard meals & tents"] },
-      { name: "Standard Package (Twin Sharing)", price: "39,500", status: "available", features: ["Twin sharing in hotel/camps", "AC Coaster transport", "Standard meals & tents"] },
-      { name: "Standard Package (Solo Room/Tent)", price: "49,500", status: "available", features: ["Private room/tent setup", "AC Coaster transport", "Standard meals & tents"] },
-      { name: "Deluxe Package", price: "N/A", status: "unavailable", features: [] },
-      { name: "Premium Package", price: "N/A", status: "unavailable", features: [] },
-      { name: "Executive Package", price: "N/A", status: "unavailable", features: [] }
+    "packages": [
+      {
+        "name": "Standard Package (Quad Sharing)",
+        "price": "33,500",
+        "status": "available",
+        "features": [
+          "Quad sharing in hotel/camps",
+          "AC Coaster transport",
+          "Standard meals & tents"
+        ]
+      },
+      {
+        "name": "Standard Package (Twin Sharing)",
+        "price": "39,500",
+        "status": "available",
+        "features": [
+          "Twin sharing in hotel/camps",
+          "AC Coaster transport",
+          "Standard meals & tents"
+        ]
+      },
+      {
+        "name": "Standard Package (Solo Room/Tent)",
+        "price": "49,500",
+        "status": "available",
+        "features": [
+          "Private room/tent setup",
+          "AC Coaster transport",
+          "Standard meals & tents"
+        ]
+      },
+      {
+        "name": "Deluxe Package",
+        "price": "N/A",
+        "status": "unavailable",
+        "features": []
+      },
+      {
+        "name": "Premium Package",
+        "price": "N/A",
+        "status": "unavailable",
+        "features": []
+      },
+      {
+        "name": "Executive Package",
+        "price": "N/A",
+        "status": "unavailable",
+        "features": []
+      }
     ],
-    hotelDetails: {
-      standard: [
-        { city: "Chilas", hotel: "FM Cottage", nights: "1 Night Stay" },
-        { city: "Rama Meadows", hotel: "Camping / Tents", nights: "1 Night Stay" },
-        { city: "Domail (Minimarg)", hotel: "Camping / Tents", nights: "1 Night Stay" },
-        { city: "Astore", hotel: "Rama Midway", nights: "1 Night Stay" },
-        { city: "Naran", hotel: "Eagle Resort", nights: "1 Night Stay" }
+    "hotelDetails": {
+      "standard": [
+        {
+          "city": "Chilas",
+          "hotel": "FM Cottage",
+          "nights": "1 Night Stay"
+        },
+        {
+          "city": "Rama Meadows",
+          "hotel": "Camping / Tents",
+          "nights": "1 Night Stay"
+        },
+        {
+          "city": "Domail (Minimarg)",
+          "hotel": "Camping / Tents",
+          "nights": "1 Night Stay"
+        },
+        {
+          "city": "Astore",
+          "hotel": "Rama Midway",
+          "nights": "1 Night Stay"
+        },
+        {
+          "city": "Naran",
+          "hotel": "Eagle Resort",
+          "nights": "1 Night Stay"
+        }
       ]
     },
-    faqs: [
-      { q: "Is Minimarg open to tourists and are there any permissions required?", a: "Yes, Minimarg is open but located near the border, which requires special military permissions. Safar Silsila handles all permissions and documentation clearances for our guests." },
-      { q: "What is the difficulty level of the Rama Lake hike?", a: "The hike from Rama Meadows to Rama Lake takes about 1 to 1.5 hours of steady uphill walking. It is of moderate difficulty. Ponies are also available for hire locally." },
-      { q: "What should I pack for Minimarg and Astore?", a: "Since this is an off-grid mountain area, you should pack warm fleece layers, a rain jacket, sturdy trekking shoes, personal toiletries, and any required medications." }
+    "faqs": [
+      {
+        "q": "Is Minimarg open to tourists and are there any permissions required?",
+        "a": "Yes, Minimarg is open but located near the border, which requires special military permissions. Safar Silsila handles all permissions and documentation clearances for our guests."
+      },
+      {
+        "q": "What is the difficulty level of the Rama Lake hike?",
+        "a": "The hike from Rama Meadows to Rama Lake takes about 1 to 1.5 hours of steady uphill walking. It is of moderate difficulty. Ponies are also available for hire locally."
+      },
+      {
+        "q": "What should I pack for Minimarg and Astore?",
+        "a": "Since this is an off-grid mountain area, you should pack warm fleece layers, a rain jacket, sturdy trekking shoes, personal toiletries, and any required medications."
+      }
     ]
   },
   "5-days-hunza-naltar": {
-    id: "5-days-hunza-naltar",
-    title: "5 Days Hunza & Naltar Group Tour",
-    duration: "5 Days",
-    location: "Hunza & Naltar",
-    maxGroup: "2-20 Persons",
-    difficulty: "Easy",
-    image: "hunza_naltar.webp",
-    price: "27,000",
-    originalPrice: "27,000",
-    departureDay: "Every Tuesday & Friday Night from Lahore, Every Wednesday & Saturday Morning from Islamabad",
-    about: "A beautiful drive to Hunza with majestic mountain views, Naltar Valley lakes, historic Altit and Baltit forts, and vibrant local culture. Travel along the Indus River to Karimabad, Upper Hunza, Attabad Lake, Passu Cones, and the legendary Khunjerab Border.",
-    highlights: [
+    "id": "5-days-hunza-naltar",
+    "title": "5 Days Hunza & Naltar Group Tour",
+    "duration": "5 Days",
+    "location": "Hunza & Naltar",
+    "maxGroup": "2-20 Persons",
+    "difficulty": "Easy",
+    "image": "hunza_naltar.webp",
+    "price": "27,000",
+    "originalPrice": "27,000",
+    "departureDay": "Every Tuesday & Friday Night from Lahore, Every Wednesday & Saturday Morning from Islamabad",
+    "about": "A beautiful drive to Hunza with majestic mountain views, Naltar Valley lakes, historic Altit and Baltit forts, and vibrant local culture. Travel along the Indus River to Karimabad, Upper Hunza, Attabad Lake, Passu Cones, and the legendary Khunjerab Border.",
+    "highlights": [
       "Explore Karimabad, Altit Fort & Eagle's Nest view",
       "Jeep ride to Satrangi, Blue Water & Pari Lakes of Naltar",
       "Visit Attabad Lake & cross Hussaini Suspension Bridge",
       "Trip to Borith Lake, Passu Glacier & Khunjerab Pass (Pak-China border)",
       "Stops in premium standard, deluxe, or luxury hotels"
     ],
-    itinerary: [
-      { day: "Day 0", title: "Departure from Lahore", desc: "Departure from Lahore at 10:30 PM from Daewoo Terminal, Thokar Niaz Baig. Travel towards Islamabad." },
-      { day: "Day 1", title: "Islamabad to Chilas", desc: "Pick up from designated point in Islamabad at 04:30 AM. Travel towards Chilas via Motorway and Naran. Stops at Balakot for breakfast, short stay in Naran, visit Lulusar Lake and cross Babusar Top (subject to weather). Arrive in Chilas, check-in. Dinner and overnight stay in Chilas." },
-      { day: "Day 2", title: "Chilas to Naltar Valley & Hunza", desc: "Breakfast at 07:00 AM. Drive towards Naltar Valley. Reach Nomal Valley and transfer to 4x4 jeeps. Excursion to Satrangi Lake, Blue Water Lake, and Pari Lake. Continue journey to Karimabad Hunza by evening. Check-in, dinner, and overnight stay in Hunza." },
-      { day: "Day 3", title: "Attabad Lake, Passu & Khunjerab Pass", desc: "Breakfast at hotel. Departure for Khunjerab Pass. Visit Attabad Lake, cross the highway tunnels, walk on Hussaini Suspension Bridge, visit Borith Lake, and stop at Passu Cones viewpoint. Excursion to Pak-China border at Khunjerab Pass. Drive back to Hunza. Dinner and overnight stay in Hunza." },
-      { day: "Day 4", title: "Hunza to Naran Valley", desc: "Breakfast call. Depart from Hunza Karimabad. Stop at Rakaposhi view point and junction point of 3 mountain ranges. Drive via Babusar Top route back to Naran Valley. Arrive in Naran, check-in, dinner and overnight in Naran." },
-      { day: "Day 5", title: "Naran to Islamabad / Lahore", desc: "Early morning breakfast. Depart for Islamabad/Lahore. Short stops at scenic points along Balakot. Arrive in Islamabad by evening (approx. 08:00 PM) and Lahore late night. End of journey." }
+    "itinerary": [
+      {
+        "day": "Day 0",
+        "title": "Departure from Lahore",
+        "desc": "Departure from Lahore at 10:30 PM from Daewoo Terminal, Thokar Niaz Baig. Travel towards Islamabad."
+      },
+      {
+        "day": "Day 1",
+        "title": "Islamabad to Chilas",
+        "desc": "Pick up from designated point in Islamabad at 04:30 AM. Travel towards Chilas via Motorway and Naran. Stops at Balakot for breakfast, short stay in Naran, visit Lulusar Lake and cross Babusar Top (subject to weather). Arrive in Chilas, check-in. Dinner and overnight stay in Chilas."
+      },
+      {
+        "day": "Day 2",
+        "title": "Chilas to Naltar Valley & Hunza",
+        "desc": "Breakfast at 07:00 AM. Drive towards Naltar Valley. Reach Nomal Valley and transfer to 4x4 jeeps. Excursion to Satrangi Lake, Blue Water Lake, and Pari Lake. Continue journey to Karimabad Hunza by evening. Check-in, dinner, and overnight stay in Hunza."
+      },
+      {
+        "day": "Day 3",
+        "title": "Attabad Lake, Passu & Khunjerab Pass",
+        "desc": "Breakfast at hotel. Departure for Khunjerab Pass. Visit Attabad Lake, cross the highway tunnels, walk on Hussaini Suspension Bridge, visit Borith Lake, and stop at Passu Cones viewpoint. Excursion to Pak-China border at Khunjerab Pass. Drive back to Hunza. Dinner and overnight stay in Hunza."
+      },
+      {
+        "day": "Day 4",
+        "title": "Hunza to Naran Valley",
+        "desc": "Breakfast call. Depart from Hunza Karimabad. Stop at Rakaposhi view point and junction point of 3 mountain ranges. Drive via Babusar Top route back to Naran Valley. Arrive in Naran, check-in, dinner and overnight in Naran."
+      },
+      {
+        "day": "Day 5",
+        "title": "Naran to Islamabad / Lahore",
+        "desc": "Early morning breakfast. Depart for Islamabad/Lahore. Short stops at scenic points along Balakot. Arrive in Islamabad by evening (approx. 08:00 PM) and Lahore late night. End of journey."
+      }
     ],
-    inclusions: [
+    "inclusions": [
       "Luxury AC Transport (Saloon Coaster/HiAce Grand Cabin)",
       "Hotel Accommodations (4 Nights total)",
       "5 Breakfast & 4 Dinners",
       "4x4 local jeeps for Naltar Valley lakes",
       "Dedicated Tour Guide & professional driver"
     ],
-    exclusions: [
+    "exclusions": [
       "Lunch, personal snacks, and beverages",
       "Entry tickets for parks, forts, or boat rides"
     ],
-    packages: [
-      { name: "Standard Package (Quad Sharing)", price: "27,000", status: "available", features: ["Quad sharing in standard rooms", "AC Transport", "Chilas: FM Cottage, Hunza: River Garden, Naran: Eagle Resort"] },
-      { name: "Standard Package (Twin Sharing)", price: "32,000", status: "available", features: ["Twin sharing in standard rooms", "AC Transport", "Chilas: FM Cottage, Hunza: River Garden, Naran: Eagle Resort"] },
-      { name: "Standard Package (Solo Room)", price: "42,000", status: "available", features: ["Solo private room", "AC Transport", "Chilas: FM Cottage, Hunza: River Garden, Naran: Eagle Resort"] },
-      { name: "Deluxe Package (Twin Sharing)", price: "41,000", status: "available", features: ["Twin sharing in deluxe rooms", "AC Transport", "Chilas: Grace Continental, Hunza: Northern Sapphire, Naran: Gateway Hotel"] },
-      { name: "Deluxe Package (Solo Room)", price: "60,000", status: "available", features: ["Solo private room", "AC Transport", "Chilas: Grace Continental, Hunza: Northern Sapphire, Naran: Gateway Hotel"] },
-      { name: "Premium Package (Twin Sharing)", price: "61,000", status: "available", features: ["Twin sharing in premium rooms", "AC Transport", "Chilas: Shangrilla Chilas, Hunza: Best Western, Naran: Hotel Home"] },
-      { name: "Premium Package (Solo Room)", price: "84,000", status: "available", features: ["Solo private room", "AC Transport", "Chilas: Shangrilla Chilas, Hunza: Best Western, Naran: Hotel Home"] },
-      { name: "Executive Package (Twin Sharing)", price: "79,000", status: "available", features: ["Twin sharing in executive rooms", "AC Transport", "Chilas: Shangrilla Chilas, Hunza: Ambiance Resort, Naran: Hotel Home"] },
-      { name: "Executive Package (Solo Room)", price: "136,000", status: "available", features: ["Solo private room", "AC Transport", "Chilas: Shangrilla Chilas, Hunza: Ambiance Resort, Naran: Hotel Home"] }
+    "packages": [
+      {
+        "name": "Standard Package (Quad Sharing)",
+        "price": "27,000",
+        "status": "available",
+        "features": [
+          "Quad sharing in standard rooms",
+          "AC Transport",
+          "Chilas: FM Cottage, Hunza: River Garden, Naran: Eagle Resort"
+        ]
+      },
+      {
+        "name": "Standard Package (Twin Sharing)",
+        "price": "32,000",
+        "status": "available",
+        "features": [
+          "Twin sharing in standard rooms",
+          "AC Transport",
+          "Chilas: FM Cottage, Hunza: River Garden, Naran: Eagle Resort"
+        ]
+      },
+      {
+        "name": "Standard Package (Solo Room)",
+        "price": "42,000",
+        "status": "available",
+        "features": [
+          "Solo private room",
+          "AC Transport",
+          "Chilas: FM Cottage, Hunza: River Garden, Naran: Eagle Resort"
+        ]
+      },
+      {
+        "name": "Deluxe Package (Twin Sharing)",
+        "price": "41,000",
+        "status": "available",
+        "features": [
+          "Twin sharing in deluxe rooms",
+          "AC Transport",
+          "Chilas: Grace Continental, Hunza: Northern Sapphire, Naran: Gateway Hotel"
+        ]
+      },
+      {
+        "name": "Deluxe Package (Solo Room)",
+        "price": "60,000",
+        "status": "available",
+        "features": [
+          "Solo private room",
+          "AC Transport",
+          "Chilas: Grace Continental, Hunza: Northern Sapphire, Naran: Gateway Hotel"
+        ]
+      },
+      {
+        "name": "Premium Package (Twin Sharing)",
+        "price": "61,000",
+        "status": "available",
+        "features": [
+          "Twin sharing in premium rooms",
+          "AC Transport",
+          "Chilas: Shangrilla Chilas, Hunza: Best Western, Naran: Hotel Home"
+        ]
+      },
+      {
+        "name": "Premium Package (Solo Room)",
+        "price": "84,000",
+        "status": "available",
+        "features": [
+          "Solo private room",
+          "AC Transport",
+          "Chilas: Shangrilla Chilas, Hunza: Best Western, Naran: Hotel Home"
+        ]
+      },
+      {
+        "name": "Executive Package (Twin Sharing)",
+        "price": "79,000",
+        "status": "available",
+        "features": [
+          "Twin sharing in executive rooms",
+          "AC Transport",
+          "Chilas: Shangrilla Chilas, Hunza: Ambiance Resort, Naran: Hotel Home"
+        ]
+      },
+      {
+        "name": "Executive Package (Solo Room)",
+        "price": "136,000",
+        "status": "available",
+        "features": [
+          "Solo private room",
+          "AC Transport",
+          "Chilas: Shangrilla Chilas, Hunza: Ambiance Resort, Naran: Hotel Home"
+        ]
+      }
     ],
-    jeepCharges: "RS. 3,500 Per Head",
-    hotelDetails: {
-      standard: [
-        { city: "Chilas", hotel: "FM Cottage", nights: "2 Nights Stay" },
-        { city: "Hunza", hotel: "River Garden", nights: "2 Nights Stay" },
-        { city: "Naran", hotel: "Eagle Resort", nights: "1 Night Stay" }
+    "jeepCharges": "RS. 3,500 Per Head",
+    "hotelDetails": {
+      "standard": [
+        {
+          "city": "Chilas",
+          "hotel": "FM Cottage",
+          "nights": "2 Nights Stay"
+        },
+        {
+          "city": "Hunza",
+          "hotel": "River Garden",
+          "nights": "2 Nights Stay"
+        },
+        {
+          "city": "Naran",
+          "hotel": "Eagle Resort",
+          "nights": "1 Night Stay"
+        }
       ],
-      deluxe: [
-        { city: "Chilas", hotel: "Grace Continental", nights: "1 Night Stay" },
-        { city: "Hunza", hotel: "Northern Sapphire", nights: "2 Nights Stay" },
-        { city: "Naran", hotel: "Gateway Hotel", nights: "1 Night Stay" }
+      "deluxe": [
+        {
+          "city": "Chilas",
+          "hotel": "Grace Continental",
+          "nights": "1 Night Stay"
+        },
+        {
+          "city": "Hunza",
+          "hotel": "Northern Sapphire",
+          "nights": "2 Nights Stay"
+        },
+        {
+          "city": "Naran",
+          "hotel": "Gateway Hotel",
+          "nights": "1 Night Stay"
+        }
       ],
-      premium: [
-        { city: "Chilas", hotel: "Shangrilla Chilas", nights: "2 Nights Stay" },
-        { city: "Hunza", hotel: "Best Western", nights: "2 Nights Stay" },
-        { city: "Naran", hotel: "Hotel Home", nights: "2 Nights Stay" }
+      "premium": [
+        {
+          "city": "Chilas",
+          "hotel": "Shangrilla Chilas",
+          "nights": "2 Nights Stay"
+        },
+        {
+          "city": "Hunza",
+          "hotel": "Best Western",
+          "nights": "2 Nights Stay"
+        },
+        {
+          "city": "Naran",
+          "hotel": "Hotel Home",
+          "nights": "2 Nights Stay"
+        }
       ],
-      executive: [
-        { city: "Chilas", hotel: "Shangrilla Chilas", nights: "2 Nights Stay" },
-        { city: "Hunza", hotel: "Ambiance Resort", nights: "2 Nights Stay" },
-        { city: "Naran", hotel: "Hotel Home", nights: "2 Nights Stay" }
+      "executive": [
+        {
+          "city": "Chilas",
+          "hotel": "Shangrilla Chilas",
+          "nights": "2 Nights Stay"
+        },
+        {
+          "city": "Hunza",
+          "hotel": "Ambiance Resort",
+          "nights": "2 Nights Stay"
+        },
+        {
+          "city": "Naran",
+          "hotel": "Hotel Home",
+          "nights": "2 Nights Stay"
+        }
       ]
     },
-    faqs: [
-      { q: "How do we reach Naltar Lakes?", a: "Naltar Valley is accessible only via 4x4 off-road jeeps from Gilgit. Jeep transit is fully included in our tour package." },
-      { q: "What is the best season to experience Naltar?", a: "Naltar is beautiful year-round, but the best time for lakes and lush greenery is from May to October." },
-      { q: "Is electricity reliable in Hunza and Naltar?", a: "Hunza has decent electricity with backup generators at most deluxe hotels. Naltar Valley is remote and experiences frequent power cuts, so carrying power banks is highly recommended." }
+    "faqs": [
+      {
+        "q": "How do we reach Naltar Lakes?",
+        "a": "Naltar Valley is accessible only via 4x4 off-road jeeps from Gilgit. Jeep transit is fully included in our tour package."
+      },
+      {
+        "q": "What is the best season to experience Naltar?",
+        "a": "Naltar is beautiful year-round, but the best time for lakes and lush greenery is from May to October."
+      },
+      {
+        "q": "Is electricity reliable in Hunza and Naltar?",
+        "a": "Hunza has decent electricity with backup generators at most deluxe hotels. Naltar Valley is remote and experiences frequent power cuts, so carrying power banks is highly recommended."
+      }
     ]
   },
   "5-days-fairy-meadows": {
-    id: "5-days-fairy-meadows",
-    title: "5 Days Fairy Meadows & Nanga Parbat Group Tour",
-    duration: "5 Days",
-    location: "Fairy Meadows",
-    maxGroup: "Max 20 Persons",
-    difficulty: "Adventure Pick",
-    image: "fairy_meadows.webp",
-    price: "27,000",
-    originalPrice: "27,000",
-    departureDay: "Every Friday Night from Lahore, Every Saturday Morning from Islamabad",
-    about: "Embark on a legendary trek. Fairy Meadows is a lush green alpine pasture located at the base of Nanga Parbat (8,126m), the ninth highest mountain in the world. This tour combines a thrilling jeep ride on the world-famous Fairy Meadows track with a trek through thick pine forests, opening up to one of the most iconic mountain views in the world.",
-    highlights: [
+    "id": "5-days-fairy-meadows",
+    "title": "5 Days Fairy Meadows & Nanga Parbat Group Tour",
+    "duration": "5 Days",
+    "location": "Fairy Meadows",
+    "maxGroup": "Max 20 Persons",
+    "difficulty": "Adventure Pick",
+    "image": "fairy_meadows.webp",
+    "price": "27,000",
+    "originalPrice": "27,000",
+    "departureDay": "Every Friday Night from Lahore, Every Saturday Morning from Islamabad",
+    "about": "Embark on a legendary trek. Fairy Meadows is a lush green alpine pasture located at the base of Nanga Parbat (8,126m), the ninth highest mountain in the world. This tour combines a thrilling jeep ride on the world-famous Fairy Meadows track with a trek through thick pine forests, opening up to one of the most iconic mountain views in the world.",
+    "highlights": [
       "Jeep ride on the famous Fairy Meadows track",
       "Trek through pine forests to the alpine meadows",
       "Day hike to Nanga Parbat Base Camp (Beyal Camp)",
       "Bonfire and camping under a starlit mountain sky",
       "Spectacular views of Nanga Parbat north face"
     ],
-    itinerary: [
-      { day: "Day 1", title: "Islamabad to Raikot Bridge & Chilas", desc: "Depart from Islamabad early morning. Drive through Karakoram Highway. Arrive at Raikot Bridge / Chilas for overnight." },
-      { day: "Day 2", title: "Raikot to Fairy Meadows", desc: "Take a thrilling jeep ride from Raikot Bridge to Tato Village. Start the 3-hour trek to Fairy Meadows. Arrive at the meadows, check into wooden cabins. Overnight at Fairy Meadows." },
-      { day: "Day 3", title: "Trek to Beyal Camp & Base Camp Viewpoint", desc: "Trek to Beyal Camp through pine forests. Optionally continue to Nanga Parbat base camp viewpoint. Return to Fairy Meadows for bonfire and overnight." },
-      { day: "Day 4", title: "Fairy Meadows to Raikot & Chilas", desc: "Trek down to Tato Village, take jeeps back to Raikot Bridge. Drive to Chilas for hotel overnight stay." },
-      { day: "Day 5", title: "Chilas to Islamabad / Lahore", desc: "Start return journey via Karakoram Highway. Reach Islamabad by late evening." }
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "title": "Islamabad to Raikot Bridge & Chilas",
+        "desc": "Depart from Islamabad early morning. Drive through Karakoram Highway. Arrive at Raikot Bridge / Chilas for overnight."
+      },
+      {
+        "day": "Day 2",
+        "title": "Raikot to Fairy Meadows",
+        "desc": "Take a thrilling jeep ride from Raikot Bridge to Tato Village. Start the 3-hour trek to Fairy Meadows. Arrive at the meadows, check into wooden cabins. Overnight at Fairy Meadows."
+      },
+      {
+        "day": "Day 3",
+        "title": "Trek to Beyal Camp & Base Camp Viewpoint",
+        "desc": "Trek to Beyal Camp through pine forests. Optionally continue to Nanga Parbat base camp viewpoint. Return to Fairy Meadows for bonfire and overnight."
+      },
+      {
+        "day": "Day 4",
+        "title": "Fairy Meadows to Raikot & Chilas",
+        "desc": "Trek down to Tato Village, take jeeps back to Raikot Bridge. Drive to Chilas for hotel overnight stay."
+      },
+      {
+        "day": "Day 5",
+        "title": "Chilas to Islamabad / Lahore",
+        "desc": "Start return journey via Karakoram Highway. Reach Islamabad by late evening."
+      }
     ],
-    inclusions: [
+    "inclusions": [
       "AC Transport (Main highway)",
       "Fairy Meadows Wooden Cabins / Tents",
       "Standard hotel in Chilas",
@@ -408,276 +1040,613 @@ window.TOUR_DATA = {
       "Raikot to Tato village 4x4 Jeeps",
       "Guide services"
     ],
-    exclusions: [
+    "exclusions": [
       "Porter charges for carrying bags",
       "Horse riding costs during trek",
       "Lunch, snacks, and extra tea"
     ],
-    packages: [
-      { name: "Standard Package (Quad Sharing)", price: "27,000", status: "available", features: ["Standard cabins/tents (3-4 sharing)", "Coaster transport", "Chilas: FM Cottage, Fairy Meadows: Viewpoint Cottages, Naran: Eagle Resort"] },
-      { name: "Standard Package (Twin Sharing)", price: "32,000", status: "available", features: ["Premium wooden cabins (2 sharing)", "Coaster transport", "Chilas: FM Cottage, Fairy Meadows: Viewpoint Cottages, Naran: Eagle Resort"] },
-      { name: "Standard Package (Solo Room)", price: "41,000", status: "available", features: ["Solo private room", "Coaster transport", "Chilas: FM Cottage, Fairy Meadows: Viewpoint Cottages, Naran: Eagle Resort"] },
-      { name: "Premium Package (Twin Sharing)", price: "54,000", status: "available", features: ["Twin sharing premium setup", "Coaster transport", "Chilas: Shangrilla, Fairy Meadows: Sarai Hotel, Naran: Hotel Home"] },
-      { name: "Premium Package (Solo Room)", price: "81,000", status: "available", features: ["Solo private premium room", "Coaster transport", "Chilas: Shangrilla, Fairy Meadows: Sarai Hotel, Naran: Hotel Home"] }
+    "packages": [
+      {
+        "name": "Standard Package (Quad Sharing)",
+        "price": "27,000",
+        "status": "available",
+        "features": [
+          "Standard cabins/tents (3-4 sharing)",
+          "Coaster transport",
+          "Chilas: FM Cottage, Fairy Meadows: Viewpoint Cottages, Naran: Eagle Resort"
+        ]
+      },
+      {
+        "name": "Standard Package (Twin Sharing)",
+        "price": "32,000",
+        "status": "available",
+        "features": [
+          "Premium wooden cabins (2 sharing)",
+          "Coaster transport",
+          "Chilas: FM Cottage, Fairy Meadows: Viewpoint Cottages, Naran: Eagle Resort"
+        ]
+      },
+      {
+        "name": "Standard Package (Solo Room)",
+        "price": "41,000",
+        "status": "available",
+        "features": [
+          "Solo private room",
+          "Coaster transport",
+          "Chilas: FM Cottage, Fairy Meadows: Viewpoint Cottages, Naran: Eagle Resort"
+        ]
+      },
+      {
+        "name": "Premium Package (Twin Sharing)",
+        "price": "54,000",
+        "status": "available",
+        "features": [
+          "Twin sharing premium setup",
+          "Coaster transport",
+          "Chilas: Shangrilla, Fairy Meadows: Sarai Hotel, Naran: Hotel Home"
+        ]
+      },
+      {
+        "name": "Premium Package (Solo Room)",
+        "price": "81,000",
+        "status": "available",
+        "features": [
+          "Solo private premium room",
+          "Coaster transport",
+          "Chilas: Shangrilla, Fairy Meadows: Sarai Hotel, Naran: Hotel Home"
+        ]
+      }
     ],
-    jeepCharges: "RS. 3,500 Per Head",
-    hotelDetails: {
-      standard: [
-        { city: "Chilas", hotel: "FM Cottage", nights: "1 Night Stay" },
-        { city: "Fairy Meadows", hotel: "Fairy Meadows Viewpoint Cottages", nights: "2 Nights Stay" },
-        { city: "Naran", hotel: "Eagle Resort", nights: "1 Night Stay" }
+    "jeepCharges": "RS. 3,500 Per Head",
+    "hotelDetails": {
+      "standard": [
+        {
+          "city": "Chilas",
+          "hotel": "FM Cottage",
+          "nights": "1 Night Stay"
+        },
+        {
+          "city": "Fairy Meadows",
+          "hotel": "Fairy Meadows Viewpoint Cottages",
+          "nights": "2 Nights Stay"
+        },
+        {
+          "city": "Naran",
+          "hotel": "Eagle Resort",
+          "nights": "1 Night Stay"
+        }
       ],
-      premium: [
-        { city: "Chilas", hotel: "Shangrilla Chilas", nights: "1 Night Stay" },
-        { city: "Fairy Meadows", hotel: "Sarai Hotel", nights: "2 Nights Stay" },
-        { city: "Naran", hotel: "Hotel Home", nights: "1 Night Stay" }
+      "premium": [
+        {
+          "city": "Chilas",
+          "hotel": "Shangrilla Chilas",
+          "nights": "1 Night Stay"
+        },
+        {
+          "city": "Fairy Meadows",
+          "hotel": "Sarai Hotel",
+          "nights": "2 Nights Stay"
+        },
+        {
+          "city": "Naran",
+          "hotel": "Hotel Home",
+          "nights": "1 Night Stay"
+        }
       ]
     },
-    faqs: [
-      { q: "How dangerous is the jeep ride to Fairy Meadows?", a: "The Fairy Meadows jeep track is narrow and thrilling, but our local drivers are highly trained and have years of experience navigating this specific track safely." },
-      { q: "How long is the trek to Fairy Meadows?", a: "After the jeep ride ends at Tato Village, it is a 3 to 4-hour trek (approx. 5.5 km) uphill to Fairy Meadows. You can also hire a horse/pony locally if you prefer not to hike." },
-      { q: "Is there heating in the wooden cabins at Fairy Meadows?", a: "Cabins do not have central heating, but heavy blankets are provided. Some cabins offer wood-burning stoves (bukharis) for an extra local charge." }
+    "faqs": [
+      {
+        "q": "How dangerous is the jeep ride to Fairy Meadows?",
+        "a": "The Fairy Meadows jeep track is narrow and thrilling, but our local drivers are highly trained and have years of experience navigating this specific track safely."
+      },
+      {
+        "q": "How long is the trek to Fairy Meadows?",
+        "a": "After the jeep ride ends at Tato Village, it is a 3 to 4-hour trek (approx. 5.5 km) uphill to Fairy Meadows. You can also hire a horse/pony locally if you prefer not to hike."
+      },
+      {
+        "q": "Is there heating in the wooden cabins at Fairy Meadows?",
+        "a": "Cabins do not have central heating, but heavy blankets are provided. Some cabins offer wood-burning stoves (bukharis) for an extra local charge."
+      }
     ]
   },
   "5-days-kashmir-ratti-gali": {
-    id: "5-days-kashmir-ratti-gali",
-    title: "5 Days Kashmir, Ratti Gali & Taobat Group Tour",
-    duration: "5 Days",
-    location: "Kashmir & Ratti Gali",
-    maxGroup: "2-20 Persons",
-    difficulty: "Moderate",
-    image: "kashmir_ratti_gali.webp",
-    price: "28,500",
-    originalPrice: "27,000",
-    departureDay: "Every Friday Night from Lahore, Every Saturday Morning from Islamabad",
-    about: "Explore the scenic highlights of Neelum Valley, Azad Kashmir. This 5-day itinerary takes you to the crystal-clear waters of Ratti Gali Lake, a glacial alpine lake at 3,700m. You will also visit the picturesque villages of Kel, Arang Kel (via cable car), and the peaceful border town of Taobat, where the Neelum River enters Pakistan.",
-    highlights: [
+    "id": "5-days-kashmir-ratti-gali",
+    "title": "5 Days Kashmir, Ratti Gali & Taobat Group Tour",
+    "duration": "5 Days",
+    "location": "Kashmir & Ratti Gali",
+    "maxGroup": "2-20 Persons",
+    "difficulty": "Moderate",
+    "image": "kashmir_ratti_gali.webp",
+    "price": "28,500",
+    "originalPrice": "27,000",
+    "departureDay": "Every Friday Night from Lahore, Every Saturday Morning from Islamabad",
+    "about": "Explore the scenic highlights of Neelum Valley, Azad Kashmir. This 5-day itinerary takes you to the crystal-clear waters of Ratti Gali Lake, a glacial alpine lake at 3,700m. You will also visit the picturesque villages of Kel, Arang Kel (via cable car), and the peaceful border town of Taobat, where the Neelum River enters Pakistan.",
+    "highlights": [
       "Visit the crystal-clear Ratti Gali Alpine Lake",
       "Explore Kel, Arang Kel & scenic Taobat village",
       "Enjoy stunning drives along the blue Neelum River",
       "Cable car ride to Arang Kel meadows",
       "Stay in cozy wooden hotels of Sharda/Keran"
     ],
-    itinerary: [
-      { day: "Day 1", title: "Islamabad to Keran / Sharda", desc: "Depart from Islamabad. Drive along Muzaffarabad and the Neelum River. Stop at Dhani Waterfall. Arrive in Sharda/Keran for overnight stay." },
-      { day: "Day 2", title: "Ratti Gali Lake Excursion", desc: "Board 4x4 jeeps to Ratti Gali base camp. Trek 45 minutes to the magnificent Ratti Gali Lake. Return to Sharda/Keran for overnight." },
-      { day: "Day 3", title: "Sharda to Kel & Arang Kel", desc: "Drive to Kel. Take a manual cable car across the river and hike 45 minutes to Arang Kel, the jewel of Neelum Valley. Overnight in Kel/Sharda." },
-      { day: "Day 4", title: "Excursion to Taobat", desc: "Full day jeep safari to Taobat, the last village of Neelum Valley. Spend time at Neelum river bank. Return to Sharda/Keran for overnight." },
-      { day: "Day 5", title: "Return to Islamabad / Lahore", desc: "Drive back via Muzaffarabad. Stop for lunch. Reach Islamabad in the evening." }
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "title": "Islamabad to Keran / Sharda",
+        "desc": "Depart from Islamabad. Drive along Muzaffarabad and the Neelum River. Stop at Dhani Waterfall. Arrive in Sharda/Keran for overnight stay."
+      },
+      {
+        "day": "Day 2",
+        "title": "Ratti Gali Lake Excursion",
+        "desc": "Board 4x4 jeeps to Ratti Gali base camp. Trek 45 minutes to the magnificent Ratti Gali Lake. Return to Sharda/Keran for overnight."
+      },
+      {
+        "day": "Day 3",
+        "title": "Sharda to Kel & Arang Kel",
+        "desc": "Drive to Kel. Take a manual cable car across the river and hike 45 minutes to Arang Kel, the jewel of Neelum Valley. Overnight in Kel/Sharda."
+      },
+      {
+        "day": "Day 4",
+        "title": "Excursion to Taobat",
+        "desc": "Full day jeep safari to Taobat, the last village of Neelum Valley. Spend time at Neelum river bank. Return to Sharda/Keran for overnight."
+      },
+      {
+        "day": "Day 5",
+        "title": "Return to Islamabad / Lahore",
+        "desc": "Drive back via Muzaffarabad. Stop for lunch. Reach Islamabad in the evening."
+      }
     ],
-    inclusions: [
+    "inclusions": [
       "AC transport from LHR/ISB",
       "Accommodation (shared basis)",
       "Daily breakfast & dinner",
       "Jeeps for Ratti Gali & Taobat",
       "Guide services"
     ],
-    exclusions: [
+    "exclusions": [
       "Cable car ticket to Arang Kel",
       "Horse ride for Ratti Gali trek",
       "Lunch, snacks, beverages"
     ],
-    packages: [
-      { name: "Standard Package (Quad Sharing)", price: "28,500", status: "available", features: ["Standard shared rooms", "AC Transport", "Breakfast & Dinner"] },
-      { name: "Standard Package (Twin Sharing)", price: "34,500", status: "available", features: ["Premium private rooms", "AC Transport", "All jeeps included"] }
+    "packages": [
+      {
+        "name": "Standard Package (Quad Sharing)",
+        "price": "28,500",
+        "status": "available",
+        "features": [
+          "Standard shared rooms",
+          "AC Transport",
+          "Breakfast & Dinner"
+        ]
+      },
+      {
+        "name": "Standard Package (Twin Sharing)",
+        "price": "34,500",
+        "status": "available",
+        "features": [
+          "Premium private rooms",
+          "AC Transport",
+          "All jeeps included"
+        ]
+      }
     ],
-    jeepCharges: "RS. 4,000 Per Head",
-    faqs: [
-      { q: "Is the hike to Ratti Gali Lake difficult?", a: "The jeep track ends at the base camp, followed by a 1-hour moderate trek (approx. 2 km) to the lake. Horse rides are available for those who prefer not to walk." },
-      { q: "Is this tour suitable for families?", a: "Yes, families frequently visit Ratti Gali Lake. It's a great introduction to alpine lake trekking." },
-      { q: "What kind of accommodation is provided?", a: "We provide comfortable glamping dome tents at Ratti Gali Base Camp and standard hotel rooms in Keran/Kutla." }
+    "jeepCharges": "RS. 4,000 Per Head",
+    "faqs": [
+      {
+        "q": "Is the hike to Ratti Gali Lake difficult?",
+        "a": "The jeep track ends at the base camp, followed by a 1-hour moderate trek (approx. 2 km) to the lake. Horse rides are available for those who prefer not to walk."
+      },
+      {
+        "q": "Is this tour suitable for families?",
+        "a": "Yes, families frequently visit Ratti Gali Lake. It's a great introduction to alpine lake trekking."
+      },
+      {
+        "q": "What kind of accommodation is provided?",
+        "a": "We provide comfortable glamping dome tents at Ratti Gali Base Camp and standard hotel rooms in Keran/Kutla."
+      }
     ]
   },
   "5-days-kumrat-jahaz-banda": {
-    id: "5-days-kumrat-jahaz-banda",
-    title: "5 Days Kumrat & Jahaz Banda Group Tour",
-    duration: "5 Days",
-    location: "Kumrat Valley",
-    maxGroup: "2-20 Persons",
-    difficulty: "Adventure Pick",
-    image: "kumrat_jahaz_banda.webp",
-    price: "29,000",
-    originalPrice: "27,000",
-    departureDay: "Every Friday Night from Lahore, Every Saturday Morning from Islamabad",
-    about: "A thrilling trekking experience through breathtaking landscapes, leading to the mesmerizing meadows of Jahaz Banda and Katora Lake — a perfect escape into nature's serenity. Stay in wooden cottages and hike to spectacular alpine water spots.",
-    highlights: [
+    "id": "5-days-kumrat-jahaz-banda",
+    "title": "5 Days Kumrat & Jahaz Banda Group Tour",
+    "duration": "5 Days",
+    "location": "Kumrat Valley",
+    "maxGroup": "2-20 Persons",
+    "difficulty": "Adventure Pick",
+    "image": "kumrat_jahaz_banda.webp",
+    "price": "29,000",
+    "originalPrice": "27,000",
+    "departureDay": "Every Friday Night from Lahore, Every Saturday Morning from Islamabad",
+    "about": "A thrilling trekking experience through breathtaking landscapes, leading to the mesmerizing meadows of Jahaz Banda and Katora Lake — a perfect escape into nature's serenity. Stay in wooden cottages and hike to spectacular alpine water spots.",
+    "highlights": [
       "Explore Kumrat pine forests & Panjkora River bank",
       "Trek up to Jahaz Banda Meadows (approx 3 hours)",
       "Trek to the beautiful glacial Katora Lake",
       "Stay in wooden cottages of Pamir & Jahaz International",
       "Bonfire and musical night under the forest sky"
     ],
-    itinerary: [
-      { day: "Day 0", title: "Departure from Lahore", desc: "Departure from Lahore at 10:30 PM from Daewoo Terminal, Thokar Niaz Baig. Travel towards Islamabad." },
-      { day: "Day 1", title: "Islamabad - Kumrat Valley", desc: "Pick-up of trip members from designated points in Islamabad. Departure for Kumrat Valley at around 04:30 AM. Travel through scenic routes, breakfast stop at Timergara, continue to Thal Village. Transfer to 4x4 jeeps for the onward forest ride. Reach Kumrat forest check-in. Cozy bonfire and musical evening in the forest. Dinner and overnight stay in Kumrat Forest." },
-      { day: "Day 2", title: "Kumrat - Kala Chashma - Do Janga Meadows", desc: "Breakfast at hotel/camp. Transfer to 4x4 jeeps for a full day of exploration. Discover Kumrat Valley, visit the stunning Do Aabshaar waterfall, explore the scenic banks of Panjkora River, visit Kala Chashma, and continue towards Dojanga Meadows. Return to Kumrat in the evening. Dinner and overnight stay in Kumrat." },
-      { day: "Day 3", title: "Kumrat to Jahaz Banda Meadows", desc: "Breakfast call at 07:00 AM. Depart for the beautiful Jahaz Banda excursion. Arrive at Gam Sair / Takki Banda, the starting point of the trek. Begin an adventurous hike towards Jahaz Banda (approx. 3 Hours). Arrive at the stunning Jahaz Banda Meadows. Free time to relax and explore. Dinner & overnight stay at Jahaz Banda Meadows." },
-      { day: "Day 4", title: "Jahaz Banda to Katora Lake", desc: "Breakfast call at 07:00 AM. Start an adventurous trek towards the breathtaking Katora Lake (approx. 3 Hours Hike). Enjoy scenic trails surrounded by glaciers. Arrival at the mesmerizing Katora Lake. Explore, relax and return to Jahaz Banda Meadows for dinner and overnight stay." },
-      { day: "Day 5", title: "Jahaz Banda to Islamabad / Lahore", desc: "Breakfast at hotel/camp. Drive back to Thal while enjoying the scenic views. Transfer to buses around 09:00 AM. Departure for Islamabad. Arrival in Islamabad by evening (approx. 08:00 PM), and reach Lahore late night. End of services." }
+    "itinerary": [
+      {
+        "day": "Day 0",
+        "title": "Departure from Lahore",
+        "desc": "Departure from Lahore at 10:30 PM from Daewoo Terminal, Thokar Niaz Baig. Travel towards Islamabad."
+      },
+      {
+        "day": "Day 1",
+        "title": "Islamabad - Kumrat Valley",
+        "desc": "Pick-up of trip members from designated points in Islamabad. Departure for Kumrat Valley at around 04:30 AM. Travel through scenic routes, breakfast stop at Timergara, continue to Thal Village. Transfer to 4x4 jeeps for the onward forest ride. Reach Kumrat forest check-in. Cozy bonfire and musical evening in the forest. Dinner and overnight stay in Kumrat Forest."
+      },
+      {
+        "day": "Day 2",
+        "title": "Kumrat - Kala Chashma - Do Janga Meadows",
+        "desc": "Breakfast at hotel/camp. Transfer to 4x4 jeeps for a full day of exploration. Discover Kumrat Valley, visit the stunning Do Aabshaar waterfall, explore the scenic banks of Panjkora River, visit Kala Chashma, and continue towards Dojanga Meadows. Return to Kumrat in the evening. Dinner and overnight stay in Kumrat."
+      },
+      {
+        "day": "Day 3",
+        "title": "Kumrat to Jahaz Banda Meadows",
+        "desc": "Breakfast call at 07:00 AM. Depart for the beautiful Jahaz Banda excursion. Arrive at Gam Sair / Takki Banda, the starting point of the trek. Begin an adventurous hike towards Jahaz Banda (approx. 3 Hours). Arrive at the stunning Jahaz Banda Meadows. Free time to relax and explore. Dinner & overnight stay at Jahaz Banda Meadows."
+      },
+      {
+        "day": "Day 4",
+        "title": "Jahaz Banda to Katora Lake",
+        "desc": "Breakfast call at 07:00 AM. Start an adventurous trek towards the breathtaking Katora Lake (approx. 3 Hours Hike). Enjoy scenic trails surrounded by glaciers. Arrival at the mesmerizing Katora Lake. Explore, relax and return to Jahaz Banda Meadows for dinner and overnight stay."
+      },
+      {
+        "day": "Day 5",
+        "title": "Jahaz Banda to Islamabad / Lahore",
+        "desc": "Breakfast at hotel/camp. Drive back to Thal while enjoying the scenic views. Transfer to buses around 09:00 AM. Departure for Islamabad. Arrival in Islamabad by evening (approx. 08:00 PM), and reach Lahore late night. End of services."
+      }
     ],
-    inclusions: [
+    "inclusions": [
       "Luxury AC Highway Transport",
       "Standard Cottages / Hotel Stays (4 Nights total)",
       "5 Breakfast & 4 Dinners",
       "Bonfire and Musical Night setup",
       "Local 4x4 Jeeps and local Tour Guide"
     ],
-    exclusions: [
+    "exclusions": [
       "Lunch, snacks, and personal refreshments",
       "Entry tickets, zip-lining, boating fees",
       "Porters or horse riding during trek"
     ],
-    packages: [
-      { name: "Standard Package (Quad Sharing)", price: "29,000", status: "available", features: ["Quad sharing in cottages", "AC Transport", "Kumrat: Pamir Cottages (1 Night), Jahaz Banda: Jahaz International (2 Nights)"] },
-      { name: "Standard Package (Twin Sharing)", price: "34,000", status: "available", features: ["Twin sharing in cottages", "AC Transport", "Kumrat: Pamir Cottages (1 Night), Jahaz Banda: Jahaz International (2 Nights)"] },
-      { name: "Standard Package (Solo Room)", price: "42,000", status: "available", features: ["Solo private room", "AC Transport", "Kumrat: Pamir Cottages (1 Night), Jahaz Banda: Jahaz International (2 Nights)"] },
-      { name: "Deluxe Package", price: "N/A", status: "unavailable", features: [] },
-      { name: "Premium Package", price: "N/A", status: "unavailable", features: [] },
-      { name: "Executive Package", price: "N/A", status: "unavailable", features: [] }
+    "packages": [
+      {
+        "name": "Standard Package (Quad Sharing)",
+        "price": "29,000",
+        "status": "available",
+        "features": [
+          "Quad sharing in cottages",
+          "AC Transport",
+          "Kumrat: Pamir Cottages (1 Night), Jahaz Banda: Jahaz International (2 Nights)"
+        ]
+      },
+      {
+        "name": "Standard Package (Twin Sharing)",
+        "price": "34,000",
+        "status": "available",
+        "features": [
+          "Twin sharing in cottages",
+          "AC Transport",
+          "Kumrat: Pamir Cottages (1 Night), Jahaz Banda: Jahaz International (2 Nights)"
+        ]
+      },
+      {
+        "name": "Standard Package (Solo Room)",
+        "price": "42,000",
+        "status": "available",
+        "features": [
+          "Solo private room",
+          "AC Transport",
+          "Kumrat: Pamir Cottages (1 Night), Jahaz Banda: Jahaz International (2 Nights)"
+        ]
+      },
+      {
+        "name": "Deluxe Package",
+        "price": "N/A",
+        "status": "unavailable",
+        "features": []
+      },
+      {
+        "name": "Premium Package",
+        "price": "N/A",
+        "status": "unavailable",
+        "features": []
+      },
+      {
+        "name": "Executive Package",
+        "price": "N/A",
+        "status": "unavailable",
+        "features": []
+      }
     ],
-    jeepCharges: "RS. 4,000 Per Head",
-    hotelDetails: {
-      standard: [
-        { city: "Kumrat", hotel: "Pamir Cottages", nights: "1 Night Stay" },
-        { city: "Jahaz Banda", hotel: "Jahaz International", nights: "2 Nights Stay" }
+    "jeepCharges": "RS. 4,000 Per Head",
+    "hotelDetails": {
+      "standard": [
+        {
+          "city": "Kumrat",
+          "hotel": "Pamir Cottages",
+          "nights": "1 Night Stay"
+        },
+        {
+          "city": "Jahaz Banda",
+          "hotel": "Jahaz International",
+          "nights": "2 Nights Stay"
+        }
       ]
     },
-    faqs: [
-      { q: "What is the highlight of Kumrat Valley?", a: "Kumrat is famous for its towering pine forests, the Panjkora River, and the gorgeous Jahaz Banda Meadows and Katora Lake." },
-      { q: "How long is the trek to Katora Lake?", a: "It is a 2 to 3-hour trek from Jahaz Banda Meadows to Katora Lake, crossing rocky terrains and small streams." },
-      { q: "Is there mobile signal coverage in Kumrat?", a: "Mobile coverage is extremely limited or non-existent in Kumrat Valley and Jahaz Banda. Telenor has occasional signal availability." }
+    "faqs": [
+      {
+        "q": "What is the highlight of Kumrat Valley?",
+        "a": "Kumrat is famous for its towering pine forests, the Panjkora River, and the gorgeous Jahaz Banda Meadows and Katora Lake."
+      },
+      {
+        "q": "How long is the trek to Katora Lake?",
+        "a": "It is a 2 to 3-hour trek from Jahaz Banda Meadows to Katora Lake, crossing rocky terrains and small streams."
+      },
+      {
+        "q": "Is there mobile signal coverage in Kumrat?",
+        "a": "Mobile coverage is extremely limited or non-existent in Kumrat Valley and Jahaz Banda. Telenor has occasional signal availability."
+      }
     ]
   },
   "kashmir-taobat-4d": {
-    id: "kashmir-taobat-4d",
-    title: "4 Days Kashmir & Taobat Getaway Group Tour",
-    duration: "4 Days",
-    location: "Kashmir & Taobat",
-    maxGroup: "2-15 Persons",
-    difficulty: "Easy",
-    image: "kashmir_taobat.webp",
-    price: "21,500",
-    originalPrice: "20,000",
-    departureDay: "Every Wednesday Night from Lahore, Every Thursday Morning from Islamabad",
-    about: "A peaceful short trip to Neelum Valley. Spend 4 days exploring the scenic highlights along the river. This package is ideal for couples and families looking to escape the city heat and relax in the cool, green hills of Sharda and the remote border beauty of Taobat village.",
-    highlights: [
+    "id": "kashmir-taobat-4d",
+    "title": "4 Days Kashmir & Taobat Getaway Group Tour",
+    "duration": "4 Days",
+    "location": "Kashmir & Taobat",
+    "maxGroup": "2-15 Persons",
+    "difficulty": "Easy",
+    "image": "kashmir_taobat.webp",
+    "price": "21,500",
+    "originalPrice": "20,000",
+    "departureDay": "Every Wednesday Night from Lahore, Every Thursday Morning from Islamabad",
+    "about": "A peaceful short trip to Neelum Valley. Spend 4 days exploring the scenic highlights along the river. This package is ideal for couples and families looking to escape the city heat and relax in the cool, green hills of Sharda and the remote border beauty of Taobat village.",
+    "highlights": [
       "Explore the scenic border village of Taobat",
       "Visit historic Sharda Ruins and Keran",
       "Relax by the peaceful Neelum River bank",
       "Comfortable family hotel accommodations",
       "Stops at Dhani and Kutton waterfalls"
     ],
-    itinerary: [
-      { day: "Day 1", title: "Islamabad to Keran / Sharda", desc: "Depart from Islamabad, drive alongside the Muzaffarabad and Neelum Rivers. Stop at Dhani Waterfall. Arrive in Sharda/Keran for overnight stay." },
-      { day: "Day 2", title: "Day Excursion to Taobat", desc: "Take a 4x4 jeep ride to the scenic border village of Taobat. Spend the day exploring the river fields. Return to Sharda for overnight." },
-      { day: "Day 3", title: "Kel & Cable Car to Arang Kel", desc: "Visit Kel and take a manual cable car to trek up to Arang Kel village. Enjoy views of the valley. Return to Sharda for overnight." },
-      { day: "Day 4", title: "Sharda to Islamabad / Lahore", desc: "Visit Sharda ruins in the morning. Drive back to Islamabad. Stop at Muzaffarabad for lunch. Reach Islamabad in the evening." }
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "title": "Islamabad to Keran / Sharda",
+        "desc": "Depart from Islamabad, drive alongside the Muzaffarabad and Neelum Rivers. Stop at Dhani Waterfall. Arrive in Sharda/Keran for overnight stay."
+      },
+      {
+        "day": "Day 2",
+        "title": "Day Excursion to Taobat",
+        "desc": "Take a 4x4 jeep ride to the scenic border village of Taobat. Spend the day exploring the river fields. Return to Sharda for overnight."
+      },
+      {
+        "day": "Day 3",
+        "title": "Kel & Cable Car to Arang Kel",
+        "desc": "Visit Kel and take a manual cable car to trek up to Arang Kel village. Enjoy views of the valley. Return to Sharda for overnight."
+      },
+      {
+        "day": "Day 4",
+        "title": "Sharda to Islamabad / Lahore",
+        "desc": "Visit Sharda ruins in the morning. Drive back to Islamabad. Stop at Muzaffarabad for lunch. Reach Islamabad in the evening."
+      }
     ],
-    inclusions: [
+    "inclusions": [
       "AC Transport",
       "Standard hotel accommodation (shared)",
       "Daily breakfast & dinner",
       "Jeeps for Taobat",
       "Driver expense & tolls"
     ],
-    exclusions: [
+    "exclusions": [
       "Cable car tickets",
       "Lunch, snacks, personal drinks",
       "Porter tips"
     ],
-    packages: [
-      { name: "Standard Package (Quad Sharing)", price: "21,500", status: "available", features: ["Shared 3-4 person room", "AC Coaster transport", "Standard hotels"] },
-      { name: "Standard Package (Twin Sharing)", price: "26,500", status: "available", features: ["Twin sharing room setup", "AC Coaster transport", "Standard hotels"] },
-      { name: "Standard Package (Solo Room)", price: "33,500", status: "available", features: ["Solo private room", "AC Coaster transport", "Standard hotels"] }
+    "packages": [
+      {
+        "name": "Standard Package (Quad Sharing)",
+        "price": "21,500",
+        "status": "available",
+        "features": [
+          "Shared 3-4 person room",
+          "AC Coaster transport",
+          "Standard hotels"
+        ]
+      },
+      {
+        "name": "Standard Package (Twin Sharing)",
+        "price": "26,500",
+        "status": "available",
+        "features": [
+          "Twin sharing room setup",
+          "AC Coaster transport",
+          "Standard hotels"
+        ]
+      },
+      {
+        "name": "Standard Package (Solo Room)",
+        "price": "33,500",
+        "status": "available",
+        "features": [
+          "Solo private room",
+          "AC Coaster transport",
+          "Standard hotels"
+        ]
+      }
     ],
-    jeepCharges: "RS. 3,500 Per Head",
-    faqs: [
-      { q: "What is special about Taobat?", a: "Taobat is the last village of Neelum Valley, offering pristine landscape, crystal clear streams, and a peaceful atmosphere away from commercial tourism." },
-      { q: "How do we travel from Kel to Taobat?", a: "The road from Kel to Taobat is rough and requires 4x4 jeeps, which are fully coordinated and included in our package." },
-      { q: "Can we visit Arang Kel on this tour?", a: "This is a short 4-day tour focused on Taobat. For Arang Kel, we recommend our 5-day Neelum Valley package." }
+    "jeepCharges": "RS. 3,500 Per Head",
+    "faqs": [
+      {
+        "q": "What is special about Taobat?",
+        "a": "Taobat is the last village of Neelum Valley, offering pristine landscape, crystal clear streams, and a peaceful atmosphere away from commercial tourism."
+      },
+      {
+        "q": "How do we travel from Kel to Taobat?",
+        "a": "The road from Kel to Taobat is rough and requires 4x4 jeeps, which are fully coordinated and included in our package."
+      },
+      {
+        "q": "Can we visit Arang Kel on this tour?",
+        "a": "This is a short 4-day tour focused on Taobat. For Arang Kel, we recommend our 5-day Neelum Valley package."
+      }
     ]
   },
   "kumrat-jahaz-banda-4d": {
-    id: "kumrat-jahaz-banda-4d",
-    title: "4 Days Kumrat Valley & Jahaz Banda Tour",
-    duration: "4 Days",
-    location: "Kumrat Valley",
-    maxGroup: "2-15 Persons",
-    difficulty: "Moderate",
-    image: "kumrat_jahaz_banda.webp",
-    price: "20,000",
-    originalPrice: "20,000",
-    departureDay: "Every Wednesday Night from Lahore, Every Thursday Morning from Islamabad",
-    about: "A fast-paced adventure into Dir. This 4-day tour is perfect for trekking enthusiasts who have limited time but want to experience the magic of Jahaz Banda Meadows and Katora Lake. Hike through the pine forests and stay in comfortable wooden cabins right in the center of the meadows.",
-    highlights: [
+    "id": "kumrat-jahaz-banda-4d",
+    "title": "4 Days Kumrat Valley & Jahaz Banda Tour",
+    "duration": "4 Days",
+    "location": "Kumrat Valley",
+    "maxGroup": "2-15 Persons",
+    "difficulty": "Moderate",
+    "image": "kumrat_jahaz_banda.webp",
+    "price": "20,000",
+    "originalPrice": "20,000",
+    "departureDay": "Every Wednesday Night from Lahore, Every Thursday Morning from Islamabad",
+    "about": "A fast-paced adventure into Dir. This 4-day tour is perfect for trekking enthusiasts who have limited time but want to experience the magic of Jahaz Banda Meadows and Katora Lake. Hike through the pine forests and stay in comfortable wooden cabins right in the center of the meadows.",
+    "highlights": [
       "Stay in Jahaz Banda wooden cabins",
       "Trek through lush green alpine meadows",
       "Explore Kumrat forests & Katora Lake",
       "Clean Swat Motorway transit route",
       "Campfire night under the stars"
     ],
-    itinerary: [
-      { day: "Day 0", title: "Departure from Lahore", desc: "Departure from Lahore Wednesday night at 10:30 PM from Daewoo Terminal, Thokar Niaz Baig. Travel towards Islamabad." },
-      { day: "Day 1", title: "Islamabad to Kumrat Valley", desc: "Pick up at 04:30 AM from Islamabad. Travel to Thal, transfer to local 4x4 jeeps, drive to Kumrat Forest. Cozy bonfire and dinner in the forest. Overnight in Kumrat." },
-      { day: "Day 2", title: "Kumrat to Jahaz Banda Meadows", desc: "Breakfast at 07:00 AM. Excursion to Takki Banda (starting point). 3 hours hike to Jahaz Banda Meadows. Check into cabins. Dinner & overnight in Jahaz Banda Meadows." },
-      { day: "Day 3", title: "Jahaz Banda to Katora Lake", desc: "Breakfast call. Trek to Katora Lake (approx. 3 Hours Hike). Enjoy glacial lake views. Return trek to Jahaz Banda. Dinner and overnight stay in Jahaz Banda." },
-      { day: "Day 4", title: "Jahaz Banda to Islamabad / Lahore", desc: "Trek down to Thal. Transfer to buses. Return drive to Islamabad (evening) and Lahore (late night)." }
+    "itinerary": [
+      {
+        "day": "Day 0",
+        "title": "Departure from Lahore",
+        "desc": "Departure from Lahore Wednesday night at 10:30 PM from Daewoo Terminal, Thokar Niaz Baig. Travel towards Islamabad."
+      },
+      {
+        "day": "Day 1",
+        "title": "Islamabad to Kumrat Valley",
+        "desc": "Pick up at 04:30 AM from Islamabad. Travel to Thal, transfer to local 4x4 jeeps, drive to Kumrat Forest. Cozy bonfire and dinner in the forest. Overnight in Kumrat."
+      },
+      {
+        "day": "Day 2",
+        "title": "Kumrat to Jahaz Banda Meadows",
+        "desc": "Breakfast at 07:00 AM. Excursion to Takki Banda (starting point). 3 hours hike to Jahaz Banda Meadows. Check into cabins. Dinner & overnight in Jahaz Banda Meadows."
+      },
+      {
+        "day": "Day 3",
+        "title": "Jahaz Banda to Katora Lake",
+        "desc": "Breakfast call. Trek to Katora Lake (approx. 3 Hours Hike). Enjoy glacial lake views. Return trek to Jahaz Banda. Dinner and overnight stay in Jahaz Banda."
+      },
+      {
+        "day": "Day 4",
+        "title": "Jahaz Banda to Islamabad / Lahore",
+        "desc": "Trek down to Thal. Transfer to buses. Return drive to Islamabad (evening) and Lahore (late night)."
+      }
     ],
-    inclusions: [
+    "inclusions": [
       "AC Transport",
       "Hotel & cabin stay",
       "Daily breakfast & dinner",
       "Jeeps for forest transit",
       "Guide services"
     ],
-    exclusions: [
+    "exclusions": [
       "Horses/porters for bags",
       "Lunch & refreshments",
       "Room heating charges"
     ],
-    packages: [
-      { name: "Standard Package (Quad Sharing)", price: "20,000", status: "available", features: ["Quad sharing in hotel/camps", "AC Transport", "Kumrat: Pamir Cottages, Jahaz Banda: Jahaz International"] },
-      { name: "Standard Package (Twin Sharing)", price: "25,000", status: "available", features: ["Twin sharing in hotel/camps", "AC Transport", "Kumrat: Pamir Cottages, Jahaz Banda: Jahaz International"] },
-      { name: "Standard Package (Solo Room)", price: "30,000", status: "available", features: ["Solo private room", "AC Transport", "Kumrat: Pamir Cottages, Jahaz Banda: Jahaz International"] }
+    "packages": [
+      {
+        "name": "Standard Package (Quad Sharing)",
+        "price": "20,000",
+        "status": "available",
+        "features": [
+          "Quad sharing in hotel/camps",
+          "AC Transport",
+          "Kumrat: Pamir Cottages, Jahaz Banda: Jahaz International"
+        ]
+      },
+      {
+        "name": "Standard Package (Twin Sharing)",
+        "price": "25,000",
+        "status": "available",
+        "features": [
+          "Twin sharing in hotel/camps",
+          "AC Transport",
+          "Kumrat: Pamir Cottages, Jahaz Banda: Jahaz International"
+        ]
+      },
+      {
+        "name": "Standard Package (Solo Room)",
+        "price": "30,000",
+        "status": "available",
+        "features": [
+          "Solo private room",
+          "AC Transport",
+          "Kumrat: Pamir Cottages, Jahaz Banda: Jahaz International"
+        ]
+      }
     ],
-    jeepCharges: "RS. 3,500 Per Head",
-    hotelDetails: {
-      standard: [
-        { city: "Kumrat", hotel: "Pamir Cottages", nights: "1 Night Stay" },
-        { city: "Jahaz Banda", hotel: "Jahaz International", nights: "2 Nights Stay" }
+    "jeepCharges": "RS. 3,500 Per Head",
+    "hotelDetails": {
+      "standard": [
+        {
+          "city": "Kumrat",
+          "hotel": "Pamir Cottages",
+          "nights": "1 Night Stay"
+        },
+        {
+          "city": "Jahaz Banda",
+          "hotel": "Jahaz International",
+          "nights": "2 Nights Stay"
+        }
       ]
     },
-    faqs: [
-      { q: "How is this different from the 5-day Kumrat tour?", a: "This is a fast-paced 4-day itinerary designed for travelers with limited time, focusing mainly on Jahaz Banda Meadows and Katora Lake." },
-      { q: "Is trekking equipment required?", a: "No special climbing gear is required, but trekking poles and waterproof shoes are highly recommended for the Katora Lake segment." }
+    "faqs": [
+      {
+        "q": "How is this different from the 5-day Kumrat tour?",
+        "a": "This is a fast-paced 4-day itinerary designed for travelers with limited time, focusing mainly on Jahaz Banda Meadows and Katora Lake."
+      },
+      {
+        "q": "Is trekking equipment required?",
+        "a": "No special climbing gear is required, but trekking poles and waterproof shoes are highly recommended for the Katora Lake segment."
+      }
     ]
   },
   "naran-shogran": {
-    id: "naran-shogran",
-    title: "3 Days Naran & Shogran Siri Paye Group Tour",
-    duration: "3 Days",
-    location: "Naran & Shogran",
-    maxGroup: "2-20 Persons",
-    difficulty: "Easy",
-    image: "naran_shogran.webp",
-    price: "18,000",
-    originalPrice: "18,000",
-    departureDay: "Every Thursday Night from Lahore, Every Friday Morning from Islamabad",
-    about: "A refreshing weekend day filled with alpine lakes, flowing streams, and majestic mountain passes — showcasing the raw beauty of Lulusar and Babusar Top, making it a truly unforgettable northern experience. Visit Kiwai Waterfall, Shogran Valley, Siri Paye, and Lake Saif-ul-Malook.",
-    highlights: [
+    "id": "naran-shogran",
+    "title": "3 Days Naran & Shogran Siri Paye Group Tour",
+    "duration": "3 Days",
+    "location": "Naran & Shogran",
+    "maxGroup": "2-20 Persons",
+    "difficulty": "Easy",
+    "image": "naran_shogran.webp",
+    "price": "18,000",
+    "originalPrice": "18,000",
+    "departureDay": "Every Thursday Night from Lahore, Every Friday Morning from Islamabad",
+    "about": "A refreshing weekend day filled with alpine lakes, flowing streams, and majestic mountain passes — showcasing the raw beauty of Lulusar and Babusar Top, making it a truly unforgettable northern experience. Visit Kiwai Waterfall, Shogran Valley, Siri Paye, and Lake Saif-ul-Malook.",
+    "highlights": [
       "Excursion to legendary Lake Saif-ul-Malook via 4x4 jeeps",
       "Explore Shogran & Siri Paye high meadows",
       "Scenic drives along the Kunhar River",
       "Excursion to Lulusar Lake & Babusar Top Pass (if open)",
       "Optional rafting at Balakot Kunhar River"
     ],
-    itinerary: [
-      { day: "Day 0", title: "Departure from Lahore", desc: "Departure from Lahore Thursday night at 10:30 PM from Daewoo Terminal, Thokar Niaz Baig. Travel towards Islamabad." },
-      { day: "Day 1", title: "Islamabad to Shogran & Naran", desc: "Reach Islamabad and pick up trip members at 04:30 AM. Travel towards Shogran. Stop at Kiwai Waterfall. Transfer to 4x4 jeeps for an exciting ride to Shogran & Siri Paye Meadows. Explore Siri Paye. Return to Kiwai, drive to Naran Valley, check-in. Dinner and overnight stay at Naran Valley." },
-      { day: "Day 2", title: "Naran - Lulusar Lake - Babusar Top", desc: "Breakfast call. Depart for full-day excursion to Lulusar Lake & Babusar Top. Sightseeing of Batakundi. Visit Lulusar Lake. Continue to Babusar Top (subject to weather). Stop at Rafting Point for optional activities. Return to Naran. Dinner & overnight stay at Naran Valley." },
-      { day: "Day 3", title: "Saif-ul-Malook Lake to Islamabad / Lahore", desc: "Early morning departure for Lake Saif-ul-Malook via 4x4 jeeps. Visit and explore the lake. Return to Naran for breakfast. Transfer to buses and start return journey. Arrive in Islamabad by evening (approx. 08:00 PM) and Lahore late night. End of services." }
+    "itinerary": [
+      {
+        "day": "Day 0",
+        "title": "Departure from Lahore",
+        "desc": "Departure from Lahore Thursday night at 10:30 PM from Daewoo Terminal, Thokar Niaz Baig. Travel towards Islamabad."
+      },
+      {
+        "day": "Day 1",
+        "title": "Islamabad to Shogran & Naran",
+        "desc": "Reach Islamabad and pick up trip members at 04:30 AM. Travel towards Shogran. Stop at Kiwai Waterfall. Transfer to 4x4 jeeps for an exciting ride to Shogran & Siri Paye Meadows. Explore Siri Paye. Return to Kiwai, drive to Naran Valley, check-in. Dinner and overnight stay at Naran Valley."
+      },
+      {
+        "day": "Day 2",
+        "title": "Naran - Lulusar Lake - Babusar Top",
+        "desc": "Breakfast call. Depart for full-day excursion to Lulusar Lake & Babusar Top. Sightseeing of Batakundi. Visit Lulusar Lake. Continue to Babusar Top (subject to weather). Stop at Rafting Point for optional activities. Return to Naran. Dinner & overnight stay at Naran Valley."
+      },
+      {
+        "day": "Day 3",
+        "title": "Saif-ul-Malook Lake to Islamabad / Lahore",
+        "desc": "Early morning departure for Lake Saif-ul-Malook via 4x4 jeeps. Visit and explore the lake. Return to Naran for breakfast. Transfer to buses and start return journey. Arrive in Islamabad by evening (approx. 08:00 PM) and Lahore late night. End of services."
+      }
     ],
-    inclusions: [
+    "inclusions": [
       "AC Transport (Main highway)",
       "Hotel accommodations (shared)",
       "3 Breakfast & 2 Dinners",
@@ -685,162 +1654,382 @@ window.TOUR_DATA = {
       "Bonfire and Musical Night setup",
       "Tour Guide & road tolls"
     ],
-    exclusions: [
+    "exclusions": [
       "Lunch, personal snacks, and beverages",
       "Entry tickets for parks, forts",
       "Rafting fees or horse rides"
     ],
-    packages: [
-      { name: "Standard Package (Quad Sharing)", price: "18,000", status: "available", features: ["Quad sharing room setup", "AC Transport", "Naran: Eagle Resort"] },
-      { name: "Standard Package (Twin Sharing)", price: "21,000", status: "available", features: ["Twin sharing room setup", "AC Transport", "Naran: Eagle Resort"] },
-      { name: "Standard Package (Solo Room)", price: "27,000", status: "available", features: ["Solo private room", "AC Transport", "Naran: Eagle Resort"] },
-      { name: "Deluxe Package (Quad Sharing)", price: "26,000", status: "available", features: ["Quad sharing room setup", "AC Transport", "Naran: Gateway Hotel"] },
-      { name: "Deluxe Package (Twin Sharing)", price: "31,000", status: "available", features: ["Twin sharing room setup", "AC Transport", "Naran: Gateway Hotel"] },
-      { name: "Deluxe Package (Solo Room)", price: "49,000", status: "available", features: ["Solo private room", "AC Transport", "Naran: Gateway Hotel"] },
-      { name: "Executive Package", price: "N/A", status: "unavailable", features: [] },
-      { name: "Premium Package", price: "N/A", status: "unavailable", features: [] }
+    "packages": [
+      {
+        "name": "Standard Package (Quad Sharing)",
+        "price": "18,000",
+        "status": "available",
+        "features": [
+          "Quad sharing room setup",
+          "AC Transport",
+          "Naran: Eagle Resort"
+        ]
+      },
+      {
+        "name": "Standard Package (Twin Sharing)",
+        "price": "21,000",
+        "status": "available",
+        "features": [
+          "Twin sharing room setup",
+          "AC Transport",
+          "Naran: Eagle Resort"
+        ]
+      },
+      {
+        "name": "Standard Package (Solo Room)",
+        "price": "27,000",
+        "status": "available",
+        "features": [
+          "Solo private room",
+          "AC Transport",
+          "Naran: Eagle Resort"
+        ]
+      },
+      {
+        "name": "Deluxe Package (Quad Sharing)",
+        "price": "26,000",
+        "status": "available",
+        "features": [
+          "Quad sharing room setup",
+          "AC Transport",
+          "Naran: Gateway Hotel"
+        ]
+      },
+      {
+        "name": "Deluxe Package (Twin Sharing)",
+        "price": "31,000",
+        "status": "available",
+        "features": [
+          "Twin sharing room setup",
+          "AC Transport",
+          "Naran: Gateway Hotel"
+        ]
+      },
+      {
+        "name": "Deluxe Package (Solo Room)",
+        "price": "49,000",
+        "status": "available",
+        "features": [
+          "Solo private room",
+          "AC Transport",
+          "Naran: Gateway Hotel"
+        ]
+      },
+      {
+        "name": "Executive Package",
+        "price": "N/A",
+        "status": "unavailable",
+        "features": []
+      },
+      {
+        "name": "Premium Package",
+        "price": "N/A",
+        "status": "unavailable",
+        "features": []
+      }
     ],
-    jeepCharges: "Included in Package",
-    hotelDetails: {
-      standard: [
-        { city: "Naran", hotel: "Eagle Resort", nights: "2 Nights Stay" }
+    "jeepCharges": "Included in Package",
+    "hotelDetails": {
+      "standard": [
+        {
+          "city": "Naran",
+          "hotel": "Eagle Resort",
+          "nights": "2 Nights Stay"
+        }
       ],
-      deluxe: [
-        { city: "Naran", hotel: "Gateway Hotel", nights: "2 Nights Stay" }
+      "deluxe": [
+        {
+          "city": "Naran",
+          "hotel": "Gateway Hotel",
+          "nights": "2 Nights Stay"
+        }
       ],
-      executive: [
-        { city: "Naran", hotel: "Hotel Home", nights: "2 Nights Stay" }
+      "executive": [
+        {
+          "city": "Naran",
+          "hotel": "Hotel Home",
+          "nights": "2 Nights Stay"
+        }
       ]
     },
-    faqs: [
-      { q: "Is Babusar Top covered in this tour?", a: "Yes, weather permitting, an excursion to Babusar Top and Lulusar Lake is included in our Naran package." },
-      { q: "How do we reach Siri Paye Meadows?", a: "Siri Paye is reached via a steep 4x4 jeep track from Shogran. Jeep charges are included in our sightseeing plan." },
-      { q: "Is this tour suitable for toddlers and senior citizens?", a: "Yes! Naran and Shogran are highly commercialized and have excellent hotels, wide roads, and easy accessibility, making it the best option for families with young kids or elders." }
+    "faqs": [
+      {
+        "q": "Is Babusar Top covered in this tour?",
+        "a": "Yes, weather permitting, an excursion to Babusar Top and Lulusar Lake is included in our Naran package."
+      },
+      {
+        "q": "How do we reach Siri Paye Meadows?",
+        "a": "Siri Paye is reached via a steep 4x4 jeep track from Shogran. Jeep charges are included in our sightseeing plan."
+      },
+      {
+        "q": "Is this tour suitable for toddlers and senior citizens?",
+        "a": "Yes! Naran and Shogran are highly commercialized and have excellent hotels, wide roads, and easy accessibility, making it the best option for families with young kids or elders."
+      }
     ]
   },
   "kumrat-kala-chashma": {
-    id: "kumrat-kala-chashma",
-    title: "3 Days Kumrat Valley & Kala Chashma Tour",
-    duration: "3 Days",
-    location: "Kumrat Valley",
-    maxGroup: "2-15 Persons",
-    difficulty: "Easy",
-    image: "kumrat_kala_chashma.webp",
-    price: "18,500",
-    originalPrice: "17,000",
-    departureDay: "Every Thursday Night from Lahore, Every Friday Morning from Islamabad",
-    about: "A quick escape to the deep pine forests of Dir. Explore Kumrat Valley's highlights, including the crystal spring of Kala Chashma and the roaring Panjkora River. A relaxed weekend itinerary designed to give you a refreshing break in nature.",
-    highlights: [
+    "id": "kumrat-kala-chashma",
+    "title": "3 Days Kumrat Valley & Kala Chashma Tour",
+    "duration": "3 Days",
+    "location": "Kumrat Valley",
+    "maxGroup": "2-15 Persons",
+    "difficulty": "Easy",
+    "image": "kumrat_kala_chashma.webp",
+    "price": "18,500",
+    "originalPrice": "17,000",
+    "departureDay": "Every Thursday Night from Lahore, Every Friday Morning from Islamabad",
+    "about": "A quick escape to the deep pine forests of Dir. Explore Kumrat Valley's highlights, including the crystal spring of Kala Chashma and the roaring Panjkora River. A relaxed weekend itinerary designed to give you a refreshing break in nature.",
+    "highlights": [
       "Explore majestic Kumrat pine forests",
       "Visit the unique crystal spring of Kala Chashma",
       "Relax by the clear waters of Panjkora River",
       "Bonfire by the river side",
       "Swat Motorway fast travel route"
     ],
-    itinerary: [
-      { day: "Day 1", title: "Islamabad to Thal Valley", desc: "Depart from Islamabad early morning. Drive via Motorway. Reach Thal village by evening. Check into hotel. Overnight in Thal." },
-      { day: "Day 2", title: "Explore Kumrat Valley & Kala Chashma", desc: "Board 4x4 jeeps to enter Kumrat Valley. Visit the giant forest, Kumrat Waterfall, and the crystal-clear Kala Chashma spring. Return to Thal/Kumrat for overnight." },
-      { day: "Day 3", title: "Thal to Islamabad / Lahore", desc: "Visit the historic wooden mosque in Thal. Drive back via Swat Motorway. Reach Islamabad by evening." }
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "title": "Islamabad to Thal Valley",
+        "desc": "Depart from Islamabad early morning. Drive via Motorway. Reach Thal village by evening. Check into hotel. Overnight in Thal."
+      },
+      {
+        "day": "Day 2",
+        "title": "Explore Kumrat Valley & Kala Chashma",
+        "desc": "Board 4x4 jeeps to enter Kumrat Valley. Visit the giant forest, Kumrat Waterfall, and the crystal-clear Kala Chashma spring. Return to Thal/Kumrat for overnight."
+      },
+      {
+        "day": "Day 3",
+        "title": "Thal to Islamabad / Lahore",
+        "desc": "Visit the historic wooden mosque in Thal. Drive back via Swat Motorway. Reach Islamabad by evening."
+      }
     ],
-    inclusions: [
+    "inclusions": [
       "AC Transport",
       "Standard hotel stay (shared)",
       "Daily breakfast & dinner",
       "4x4 Jeeps for Kumrat Valley",
       "Driver expenses & guide"
     ],
-    exclusions: [
+    "exclusions": [
       "Lunch, snacks, extra tea",
       "Room heaters",
       "Tips for locals"
     ],
-    packages: [
-      { name: "Standard Package (Quad Sharing)", price: "18,500", status: "available", features: ["Shared 3-4 person room", "Coaster transport", "Standard meals"] },
-      { name: "Standard Package (Twin Sharing)", price: "22,500", status: "available", features: ["Twin sharing room setup", "Coaster transport", "Standard meals"] },
-      { name: "Standard Package (Solo Room)", price: "27,500", status: "available", features: ["Solo private room", "Coaster transport", "Standard meals"] }
+    "packages": [
+      {
+        "name": "Standard Package (Quad Sharing)",
+        "price": "18,500",
+        "status": "available",
+        "features": [
+          "Shared 3-4 person room",
+          "Coaster transport",
+          "Standard meals"
+        ]
+      },
+      {
+        "name": "Standard Package (Twin Sharing)",
+        "price": "22,500",
+        "status": "available",
+        "features": [
+          "Twin sharing room setup",
+          "Coaster transport",
+          "Standard meals"
+        ]
+      },
+      {
+        "name": "Standard Package (Solo Room)",
+        "price": "27,500",
+        "status": "available",
+        "features": [
+          "Solo private room",
+          "Coaster transport",
+          "Standard meals"
+        ]
+      }
     ],
-    faqs: [
-      { q: "What is Kala Chashma in Kumrat?", a: "Kala Chashma (Black Spring) is a famous water spring inside the deep forests of Kumrat Valley, surrounded by scenic rock walls." },
-      { q: "Do we camp or stay in hotels?", a: "We offer hotel stays in Thal and comfortable riverside camping options in Kumrat Valley." }
+    "faqs": [
+      {
+        "q": "What is Kala Chashma in Kumrat?",
+        "a": "Kala Chashma (Black Spring) is a famous water spring inside the deep forests of Kumrat Valley, surrounded by scenic rock walls."
+      },
+      {
+        "q": "Do we camp or stay in hotels?",
+        "a": "We offer hotel stays in Thal and comfortable riverside camping options in Kumrat Valley."
+      }
     ]
   },
   "kashmir-arang-kel": {
-    id: "kashmir-arang-kel",
-    title: "3 Days Kashmir & Arang Kel Adventure Group Tour",
-    duration: "3 Days",
-    location: "Kashmir & Arang Kel",
-    maxGroup: "2-15 Persons",
-    difficulty: "Moderate",
-    image: "kashmir_arang_kel.webp",
-    price: "17,000",
-    originalPrice: "17,000",
-    departureDay: "Monday & Thursday Night from Lahore, Tuesday & Friday Morning from Islamabad",
-    about: "Hike to the scenic crown jewel of Neelum Valley. This 3-day tour takes you to the fairytale village of Arang Kel, situated on a hill plateau surrounded by pine forests and high peaks. Experience the thrilling manual chairlift across the Neelum River and a short hike to this mountain heaven.",
-    highlights: [
+    "id": "kashmir-arang-kel",
+    "title": "3 Days Kashmir & Arang Kel Adventure Group Tour",
+    "duration": "3 Days",
+    "location": "Kashmir & Arang Kel",
+    "maxGroup": "2-15 Persons",
+    "difficulty": "Moderate",
+    "image": "kashmir_arang_kel.webp",
+    "price": "17,000",
+    "originalPrice": "17,000",
+    "departureDay": "Monday & Thursday Night from Lahore, Tuesday & Friday Morning from Islamabad",
+    "about": "Hike to the scenic crown jewel of Neelum Valley. This 3-day tour takes you to the fairytale village of Arang Kel, situated on a hill plateau surrounded by pine forests and high peaks. Experience the thrilling manual chairlift across the Neelum River and a short hike to this mountain heaven.",
+    "highlights": [
       "Hike up to the picturesque village of Arang Kel",
       "Cross the bridge via manual chairlift adventure",
       "Stunning views of surrounding snow-capped peaks",
       "Stay in the historical town of Sharda",
       "Stops at Keran and Dhani waterfall"
     ],
-    itinerary: [
-      { day: "Day 1", title: "Islamabad to Sharda", desc: "Depart from Islamabad. Drive along Muzaffarabad and Neelum Valley. Reach Sharda by afternoon, check into hotel. Overnight in Sharda." },
-      { day: "Day 2", title: "Excursion to Kel & Arang Kel hike", desc: "Drive to Kel, take the cable car across the river, and hike 40 minutes up to Arang Kel village. Explore the lush green meadows. Return to Sharda for overnight." },
-      { day: "Day 3", title: "Sharda to Islamabad / Lahore", desc: "Visit Sharda historical ruins in the morning. Drive back to Islamabad. Reach by late evening." }
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "title": "Islamabad to Sharda",
+        "desc": "Depart from Islamabad. Drive along Muzaffarabad and Neelum Valley. Reach Sharda by afternoon, check into hotel. Overnight in Sharda."
+      },
+      {
+        "day": "Day 2",
+        "title": "Excursion to Kel & Arang Kel hike",
+        "desc": "Drive to Kel, take the cable car across the river, and hike 40 minutes up to Arang Kel village. Explore the lush green meadows. Return to Sharda for overnight."
+      },
+      {
+        "day": "Day 3",
+        "title": "Sharda to Islamabad / Lahore",
+        "desc": "Visit Sharda historical ruins in the morning. Drive back to Islamabad. Reach by late evening."
+      }
     ],
-    inclusions: [
+    "inclusions": [
       "AC Transport",
       "Standard hotel accommodation (shared)",
       "Daily breakfast & dinner",
       "Tolls & guide services"
     ],
-    exclusions: [
+    "exclusions": [
       "Cable car tickets",
       "Lunch & refreshments",
       "Jeep charges for off-road destinations",
       "Porters for hiking"
     ],
-    packages: [
-      { name: "Standard Package (Quad Sharing)", price: "17,000", status: "available", features: ["Shared 3-4 person room", "Coaster transport", "Sharda: Neelum Continental, Arang Kel: Arang kel Inn"] },
-      { name: "Standard Package (Twin Sharing)", price: "20,000", status: "available", features: ["Twin sharing room setup", "Coaster transport", "Sharda: Neelum Continental, Arang Kel: Arang kel Inn"] },
-      { name: "Standard Package (Solo Room)", price: "26,000", status: "available", features: ["Solo private room", "Coaster transport", "Sharda: Neelum Continental, Arang Kel: Arang kel Inn"] },
-      { name: "Deluxe Package (Twin Sharing)", price: "34,000", status: "available", features: ["Twin sharing room setup", "Coaster transport", "Sharda: Shangrilla Sharda, Arang Kel: Corner Cottages"] },
-      { name: "Deluxe Package (Solo Room)", price: "46,000", status: "available", features: ["Solo private room", "Coaster transport", "Sharda: Shangrilla Sharda, Arang Kel: Corner Cottages"] }
+    "packages": [
+      {
+        "name": "Standard Package (Quad Sharing)",
+        "price": "17,000",
+        "status": "available",
+        "features": [
+          "Shared 3-4 person room",
+          "Coaster transport",
+          "Sharda: Neelum Continental, Arang Kel: Arang kel Inn"
+        ]
+      },
+      {
+        "name": "Standard Package (Twin Sharing)",
+        "price": "20,000",
+        "status": "available",
+        "features": [
+          "Twin sharing room setup",
+          "Coaster transport",
+          "Sharda: Neelum Continental, Arang Kel: Arang kel Inn"
+        ]
+      },
+      {
+        "name": "Standard Package (Solo Room)",
+        "price": "26,000",
+        "status": "available",
+        "features": [
+          "Solo private room",
+          "Coaster transport",
+          "Sharda: Neelum Continental, Arang Kel: Arang kel Inn"
+        ]
+      },
+      {
+        "name": "Deluxe Package (Twin Sharing)",
+        "price": "34,000",
+        "status": "available",
+        "features": [
+          "Twin sharing room setup",
+          "Coaster transport",
+          "Sharda: Shangrilla Sharda, Arang Kel: Corner Cottages"
+        ]
+      },
+      {
+        "name": "Deluxe Package (Solo Room)",
+        "price": "46,000",
+        "status": "available",
+        "features": [
+          "Solo private room",
+          "Coaster transport",
+          "Sharda: Shangrilla Sharda, Arang Kel: Corner Cottages"
+        ]
+      }
     ],
-    jeepCharges: "RS. 2,500 Per Head",
-    hotelDetails: {
-      standard: [
-        { city: "Sharda", hotel: "Neelum Continental", nights: "1 Night Stay" },
-        { city: "Arang Kel", hotel: "Arang kel Inn", nights: "1 Night Stay" }
+    "jeepCharges": "RS. 2,500 Per Head",
+    "hotelDetails": {
+      "standard": [
+        {
+          "city": "Sharda",
+          "hotel": "Neelum Continental",
+          "nights": "1 Night Stay"
+        },
+        {
+          "city": "Arang Kel",
+          "hotel": "Arang kel Inn",
+          "nights": "1 Night Stay"
+        }
       ],
-      deluxe: [
-        { city: "Sharda", hotel: "Shangrilla Sharda", nights: "1 Night Stay" },
-        { city: "Arang Kel", hotel: "Corner Cottages", nights: "1 Night Stay" }
+      "deluxe": [
+        {
+          "city": "Sharda",
+          "hotel": "Shangrilla Sharda",
+          "nights": "1 Night Stay"
+        },
+        {
+          "city": "Arang Kel",
+          "hotel": "Corner Cottages",
+          "nights": "1 Night Stay"
+        }
       ],
-      executive: [
-        { city: "Sharda", hotel: "Vadi Hotel", nights: "1 Night Stay" },
-        { city: "Arang Kel", hotel: "Wanderlust Chapter 1", nights: "1 Night Stay" }
+      "executive": [
+        {
+          "city": "Sharda",
+          "hotel": "Vadi Hotel",
+          "nights": "1 Night Stay"
+        },
+        {
+          "city": "Arang Kel",
+          "hotel": "Wanderlust Chapter 1",
+          "nights": "1 Night Stay"
+        }
       ]
     },
-    faqs: [
-      { q: "How do we reach Arang Kel?", a: "We travel to Kel, then take a 5-minute chairlift ride across the river, followed by a 30 to 45-minute trek uphill through lush pine forests to the Arang Kel plateau." },
-      { q: "Is the chairlift safe?", a: "Yes, the local cable car/chairlift is operated regularly and is the standard way to cross the Neelum River gorge to Kel." },
-      { q: "What is the accommodation like in Arang Kel?", a: "We stay in rustic wooden guest houses or campsites right on the grassy plateau, offering spectacular views of the valley." }
+    "faqs": [
+      {
+        "q": "How do we reach Arang Kel?",
+        "a": "We travel to Kel, then take a 5-minute chairlift ride across the river, followed by a 30 to 45-minute trek uphill through lush pine forests to the Arang Kel plateau."
+      },
+      {
+        "q": "Is the chairlift safe?",
+        "a": "Yes, the local cable car/chairlift is operated regularly and is the standard way to cross the Neelum River gorge to Kel."
+      },
+      {
+        "q": "What is the accommodation like in Arang Kel?",
+        "a": "We stay in rustic wooden guest houses or campsites right on the grassy plateau, offering spectacular views of the valley."
+      }
     ]
   },
   "6-days-haramosh-valley": {
-    id: "6-days-haramosh-valley",
-    title: "6 Days Haramosh Valley & Kutwal Lake Group Tour",
-    duration: "6 Days",
-    location: "Haramosh Valley",
-    maxGroup: "2-20 Persons",
-    difficulty: "Challenging",
-    image: "haramosh_valley.webp",
-    price: "44,000",
-    originalPrice: "42,000",
-    departureDay: "Every Friday Night from Lahore, Every Saturday Morning from Islamabad",
-    about: "Venture deep into the Karakoram to explore Haramosh Valley, a pristine wilderness characterized by the towering Haramosh Peak, the turquoise Kutwal Lake, and the majestic Kutwal Glacier. This 6-day adventure features exciting 4x4 jeep tracks, scenic mountain treks, and alpine meadow camping, offering an unforgettable escape for true trekkers and nature lovers.",
-    highlights: [
+    "id": "6-days-haramosh-valley",
+    "title": "6 Days Haramosh Valley & Kutwal Lake Group Tour",
+    "duration": "6 Days",
+    "location": "Haramosh Valley",
+    "maxGroup": "2-20 Persons",
+    "difficulty": "Challenging",
+    "image": "haramosh_valley.webp",
+    "price": "44,000",
+    "originalPrice": "42,000",
+    "departureDay": "Every Friday Night from Lahore, Every Saturday Morning from Islamabad",
+    "about": "Venture deep into the Karakoram to explore Haramosh Valley, a pristine wilderness characterized by the towering Haramosh Peak, the turquoise Kutwal Lake, and the majestic Kutwal Glacier. This 6-day adventure features exciting 4x4 jeep tracks, scenic mountain treks, and alpine meadow camping, offering an unforgettable escape for true trekkers and nature lovers.",
+    "highlights": [
       "Trek to the breathtaking Kutwal Lake & Kutwal Glacier",
       "Witness close-up views of the mighty Haramosh Peak",
       "Exciting off-road 4x4 jeep ride from Sassi to Guro Village",
@@ -848,16 +2037,44 @@ window.TOUR_DATA = {
       "Stops at the scenic Babusar Top and Lulusar Lake",
       "Comfortable return journey with hotel stay in Naran"
     ],
-    itinerary: [
-      { day: "Day 0", title: "Departure from Lahore", desc: "Departure from Lahore Friday night at 10:30 PM from Daewoo Terminal, Thokar Niaz Baig. Travel towards Islamabad." },
-      { day: "Day 1", title: "Islamabad to Jaglot via Babusar Pass", desc: "Departure of Islamabad participants at 05:00 AM. Travel via the scenic Naran-Kaghan Valley. Stop for breakfast at Naran. Visit Lulusar Lake and cross Babusar Top (one of the highest mountain passes). Descend towards Chilas and travel along the Karakoram Highway to reach Jaglot. Dinner and overnight stay in Jaglot." },
-      { day: "Day 2", title: "Jaglot to Kutwal Valley via Sassi & Guro Village", desc: "After breakfast, drive to Sassi. Transfer to local 4x4 jeeps for an adventurous ride to Guro Village. Start the mountain trek from Guro Village towards Kutwal Valley, passing through lush meadows, pine forests, and wooden bridges. Arrive at Kutwal Valley campsite, set up tents. Dinner and overnight camping at Kutwal Valley." },
-      { day: "Day 3", title: "Kutwal Lake & Kutwal Glacier Excursion", desc: "Breakfast at the campsite. Start a full-day excursion to the stunning turquoise Kutwal Lake. Trek through alpine meadows and glacial streams. Continue towards Kutwal Glacier for spectacular views of Haramosh Peak. Return to the campsite in the afternoon. Bonfire, dinner, and overnight camping under the stars." },
-      { day: "Day 4", title: "Trek to Haramosh Base Camp", desc: "Breakfast at the campsite. Start the trek towards Haramosh Base Camp. Enjoy breathtaking close-up views of the mighty Haramosh Peak and the pristine wilderness of the Karakoram. Spend time exploring the base camp, then trek back to Kutwal Valley campsite. Dinner, bonfire, and overnight stay at the campsite." },
-      { day: "Day 5", title: "Return Trek to Sassi & Drive to Naran", desc: "Breakfast at the campsite. Start the return trek from Kutwal Valley to Guro Village. Transfer to local 4x4 jeeps and ride back to Sassi. Board the coaster/Grand Cabin and drive back towards Naran Valley. Arrive in Naran in the evening, check into the hotel, relax. Dinner and overnight stay in Naran." },
-      { day: "Day 6", title: "Naran to Islamabad / Lahore", desc: "Breakfast at the hotel. Optional rafting activity in the Kunhar River (subject to weather conditions). Spend some leisure time in Naran, then start the return journey. Drop-off Islamabad participants in the evening, and arrive in Lahore late night. End of services." }
+    "itinerary": [
+      {
+        "day": "Day 0",
+        "title": "Departure from Lahore",
+        "desc": "Departure from Lahore Friday night at 10:30 PM from Daewoo Terminal, Thokar Niaz Baig. Travel towards Islamabad."
+      },
+      {
+        "day": "Day 1",
+        "title": "Islamabad to Jaglot via Babusar Pass",
+        "desc": "Departure of Islamabad participants at 05:00 AM. Travel via the scenic Naran-Kaghan Valley. Stop for breakfast at Naran. Visit Lulusar Lake and cross Babusar Top (one of the highest mountain passes). Descend towards Chilas and travel along the Karakoram Highway to reach Jaglot. Dinner and overnight stay in Jaglot."
+      },
+      {
+        "day": "Day 2",
+        "title": "Jaglot to Kutwal Valley via Sassi & Guro Village",
+        "desc": "After breakfast, drive to Sassi. Transfer to local 4x4 jeeps for an adventurous ride to Guro Village. Start the mountain trek from Guro Village towards Kutwal Valley, passing through lush meadows, pine forests, and wooden bridges. Arrive at Kutwal Valley campsite, set up tents. Dinner and overnight camping at Kutwal Valley."
+      },
+      {
+        "day": "Day 3",
+        "title": "Kutwal Lake & Kutwal Glacier Excursion",
+        "desc": "Breakfast at the campsite. Start a full-day excursion to the stunning turquoise Kutwal Lake. Trek through alpine meadows and glacial streams. Continue towards Kutwal Glacier for spectacular views of Haramosh Peak. Return to the campsite in the afternoon. Bonfire, dinner, and overnight camping under the stars."
+      },
+      {
+        "day": "Day 4",
+        "title": "Trek to Haramosh Base Camp",
+        "desc": "Breakfast at the campsite. Start the trek towards Haramosh Base Camp. Enjoy breathtaking close-up views of the mighty Haramosh Peak and the pristine wilderness of the Karakoram. Spend time exploring the base camp, then trek back to Kutwal Valley campsite. Dinner, bonfire, and overnight stay at the campsite."
+      },
+      {
+        "day": "Day 5",
+        "title": "Return Trek to Sassi & Drive to Naran",
+        "desc": "Breakfast at the campsite. Start the return trek from Kutwal Valley to Guro Village. Transfer to local 4x4 jeeps and ride back to Sassi. Board the coaster/Grand Cabin and drive back towards Naran Valley. Arrive in Naran in the evening, check into the hotel, relax. Dinner and overnight stay in Naran."
+      },
+      {
+        "day": "Day 6",
+        "title": "Naran to Islamabad / Lahore",
+        "desc": "Breakfast at the hotel. Optional rafting activity in the Kunhar River (subject to weather conditions). Spend some leisure time in Naran, then start the return journey. Drop-off Islamabad participants in the evening, and arrive in Lahore late night. End of services."
+      }
     ],
-    inclusions: [
+    "inclusions": [
       "AC Transport (Saloon Coaster/HiAce Grand Cabin)",
       "Standard Hotel Accommodations (1 Night Juglot, 1 Night Naran) & Camps (3 Nights Kutwal Valley)",
       "6 Breakfasts & 5 Dinners",
@@ -865,56 +2082,102 @@ window.TOUR_DATA = {
       "Professional Tour Guide & Bonfire Nights",
       "Musical Night & First Aid Kit"
     ],
-    exclusions: [
+    "exclusions": [
       "Lunch, personal snacks, and refreshments",
       "Entry tickets for parks, forts, or tourist attractions",
       "Charges for any activities (boating, zip-lining, rafting, etc.)",
       "Personal trekking gear or porter services",
       "Insurance or medical rescue costs"
     ],
-    packages: [
-      { name: "Standard Package (Quad Sharing)", price: "44,000", status: "available", features: ["Quad Sharing room/tent setup", "AC Coaster/Cabin transport", "All jeep rides included"] },
-      { name: "Standard Package (Twin Sharing)", price: "48,500", status: "available", features: ["Twin sharing room/tent setup", "AC Coaster/Cabin transport", "All jeep rides included"] },
-      { name: "Standard Package (Solo Room)", price: "66,000", status: "available", features: ["Solo private room/tent setup", "AC Coaster/Cabin transport", "All jeep rides included"] },
-      { name: "Deluxe Package (Twin Sharing)", price: "N/A", status: "unavailable", features: [] },
-      { name: "Premium Package (Twin Sharing)", price: "N/A", status: "unavailable", features: [] },
-      { name: "Executive Package (Twin Sharing)", price: "N/A", status: "unavailable", features: [] }
+    "packages": [
+      {
+        "name": "Standard Package (Quad Sharing)",
+        "price": "44,000",
+        "status": "available",
+        "features": [
+          "Quad Sharing room/tent setup",
+          "AC Coaster/Cabin transport",
+          "All jeep rides included"
+        ]
+      },
+      {
+        "name": "Standard Package (Twin Sharing)",
+        "price": "48,500",
+        "status": "available",
+        "features": [
+          "Twin sharing room/tent setup",
+          "AC Coaster/Cabin transport",
+          "All jeep rides included"
+        ]
+      },
+      {
+        "name": "Standard Package (Solo Room)",
+        "price": "66,000",
+        "status": "available",
+        "features": [
+          "Solo private room/tent setup",
+          "AC Coaster/Cabin transport",
+          "All jeep rides included"
+        ]
+      },
+      {
+        "name": "Deluxe Package (Twin Sharing)",
+        "price": "N/A",
+        "status": "unavailable",
+        "features": []
+      },
+      {
+        "name": "Premium Package (Twin Sharing)",
+        "price": "N/A",
+        "status": "unavailable",
+        "features": []
+      },
+      {
+        "name": "Executive Package (Twin Sharing)",
+        "price": "N/A",
+        "status": "unavailable",
+        "features": []
+      }
     ],
-    jeepCharges: "Included in Package",
-    hotelDetails: {
-      standard: [
-        { city: "Juglot", hotel: "Standard Hotel Juglot", nights: "1 Night Stay" },
-        { city: "Kutwal Valley", hotel: "Wilderness Camping (Tents)", nights: "3 Nights Stay" },
-        { city: "Naran", hotel: "Standard Hotel Naran", nights: "1 Night Stay" }
+    "jeepCharges": "Included in Package",
+    "hotelDetails": {
+      "standard": [
+        {
+          "city": "Juglot",
+          "hotel": "Standard Hotel Juglot",
+          "nights": "1 Night Stay"
+        },
+        {
+          "city": "Kutwal Valley",
+          "hotel": "Wilderness Camping (Tents)",
+          "nights": "3 Nights Stay"
+        },
+        {
+          "city": "Naran",
+          "hotel": "Standard Hotel Naran",
+          "nights": "1 Night Stay"
+        }
       ]
     },
-    faqs: [
-      { q: "Is this tour suitable for beginners?", a: "This tour involves multi-day trekking and camping at high altitudes, and is classified as challenging. While previous trekking experience is highly recommended, anyone with good physical fitness can join." },
-      { q: "What should I pack for the camping nights?", a: "We provide tents and sleeping mattresses, but you should bring warm layers, a personal sleeping bag (rated for cold temperatures), hiking boots, a headlamp, and a water purification method." },
-      { q: "Is there mobile signal or electricity at the campsite?", a: "There is no mobile signal or electricity at the Kutwal Valley campsite. We recommend bringing power banks and notifying family beforehand that you will be off-grid for 3 days." },
-      { q: "What is the departure schedule?", a: "Departures are every Friday night from Lahore at 10:00 PM (Daewoo Terminal Thokar Niaz Baig) and every Saturday morning from Islamabad at 05:00 AM." }
+    "faqs": [
+      {
+        "q": "Is this tour suitable for beginners?",
+        "a": "This tour involves multi-day trekking and camping at high altitudes, and is classified as challenging. While previous trekking experience is highly recommended, anyone with good physical fitness can join."
+      },
+      {
+        "q": "What should I pack for the camping nights?",
+        "a": "We provide tents and sleeping mattresses, but you should bring warm layers, a personal sleeping bag (rated for cold temperatures), hiking boots, a headlamp, and a water purification method."
+      },
+      {
+        "q": "Is there mobile signal or electricity at the campsite?",
+        "a": "There is no mobile signal or electricity at the Kutwal Valley campsite. We recommend bringing power banks and notifying family beforehand that you will be off-grid for 3 days."
+      },
+      {
+        "q": "What is the departure schedule?",
+        "a": "Departures are every Friday night from Lahore at 10:00 PM (Daewoo Terminal Thokar Niaz Baig) and every Saturday morning from Islamabad at 05:00 AM."
+      }
     ]
-  }
-};
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// Append ALL 166 Scraped International & Regional Tours into window.TOUR_DATA
-if (window.TOUR_DATA) {
-  Object.assign(window.TOUR_DATA, {
+  },
   "city-1": {
     "id": "city-1",
     "title": "Islamabad Tour – 04 Days",
@@ -13403,10 +14666,10 @@ if (window.TOUR_DATA) {
     "maxGroup": "1 - 20 Persons",
     "difficulty": "Easy / Cultural",
     "image": "images/foreign/card_1.webp",
-    "price": "Inquire for Pricing",
-    "originalPrice": "Contact for Quote",
+    "price": "$600",
+    "originalPrice": "$720",
     "departureDay": "Daily Departures & Fixed Schedules",
-    "about": "Overview Safar Silsila Offers Supat Valley Trek Package for their beloved clients. If you are looking for comfortable Trip to North Pakistan in one go then you are at right place. We have a Various range of trekking tours in north Pakistan . People who are looking for adventurous tours then these Tour Package are recommended. Safar Silsila is known for planning and executing the best tours in North Pakistan, including trekking tours, Cycling Tours, Camping Tours, Cultural Tours and much more. Please visit our website to get the complete details of available Pakistan Tour Package. Our tour guides and other local support staff enable a host-guest environment in North Pakistan which others fail to deliver. Supat Valley Trek Join the Supat Valley Trek and immerse yourself in the serene beauty of northern Pakistan. This excursion takes you to the tranquil Maheen Village, where you’ll find stunning alpine lakes, pleasant camping, and the pristine beauty of Supat Valley. This journey is suitable for all skill levels and provides a refreshing combination of action and relaxation in the middle of breathtaking natural settings. Dates &amp; Cost Summers are ideal for the Supat Valley Trek . The months mentioned below are the ideal months for trekking in this region of Pakistan. We have guaranteed departures every year. The suitable months and costs are given below. &nbsp; The most Suitable Months Package Starting From June &#8211; October USD 600 Per Pax FOR BOOKINGS &amp; INQURIES: EMAIL: info@safarsilsila.com WHATSAPP: +92 311 1145456 Follow us on Instagram: Safar Silsila Also Recommended: Palija Meadows Trek &nbsp; &nbsp; &nbsp;",
+    "about": "Supat Valley Trek Join the Supat Valley Trek and immerse yourself in the serene beauty of northern Pakistan. This excursion takes you to the tranquil Maheen Village, where you’ll find stunning alpine lakes, pleasant camping, and the pristine beauty of Supat Valley. This journey is suitable for all skill levels and provides a refreshing combination of action and relaxation in the middle of breathtaking natural settings.",
     "tableHtml": "<table style=\"width: 379px; border-collapse: collapse; font-family: Arial, sans-serif; border: 1px solid #dddddd; height: 97px;\">\n<thead>\n<tr style=\"background-color: #339966; color: white; text-align: center;\">\n<th style=\"padding: 10px; border-bottom: 1px solid #ddd;\">The most Suitable Months</th>\n<th style=\"padding: 10px; border-bottom: 1px solid #ddd;\">Package Starting From</th>\n</tr>\n</thead>\n<tbody>\n<tr style=\"text-align: center;\">\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd; font-weight: bold; background-color: #e9f5e9;\">June &#8211; October</td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\">\n<h3><strong>USD 600  Per Pax</strong></h3>\n</td>\n</tr>\n</tbody>\n</table>",
     "highlights": [
       "Full guided excursion for Supat Valley Trek",
@@ -13429,50 +14692,57 @@ if (window.TOUR_DATA) {
     ],
     "itinerary": [
       {
-        "day": "Morning",
-        "title": "Departure & Pickup",
-        "desc": "Pickup from hotel/residence in private vehicle. Highway drive with refreshment stop."
+        "day": "Day 1",
+        "title": "Islamabad / Lahore to Kaghan Valley & Naran",
+        "desc": "Pick-up from Islamabad / Lahore. Travel along the scenic Hazara Motorway and Balakot along the Kunhar River. Riverside lunch stop and continue drive to Naran Valley. Check-in at hotel and evening leisure at Naran Bazaar."
       },
       {
-        "day": "Afternoon",
-        "title": "Guided Exploration & Activity",
-        "desc": "Arrive at destination. Guided tour of key monuments, photography stops, and water activities."
+        "day": "Day 2",
+        "title": "Naran to Maheen Village & Supat Valley Basecamp",
+        "desc": "Board 4x4 Jeeps for a thrilling off-road safari up to Maheen Village. Meet local guides and begin scenic trek into the pristine wilderness of Supat Valley. Set up alpine campsite under starry skies."
       },
       {
-        "day": "Evening",
-        "title": "Local Food Tasting & Return",
-        "desc": "Enjoy famous regional food & tea. Return drive with drop-off at your hotel by 07:00 PM."
+        "day": "Day 3",
+        "title": "Supat Alpine Lake Excursion & High Ridge Trek",
+        "desc": "Guided morning trek to crystal-clear Supat Alpine Lake surrounded by snow-draped peaks. High-altitude photography, wilderness relaxation, and campfire evening with traditional meal."
+      },
+      {
+        "day": "Day 4",
+        "title": "Descent to Maheen Village & Return to Islamabad",
+        "desc": "Morning breakfast at camp. Trek back down to Maheen Village, board 4x4 Jeeps to Naran/Balakot, and drive back to Islamabad/Lahore by late evening."
       }
     ],
     "packages": [
       {
-        "name": "Standard Package",
-        "price": "Inquire for Pricing",
+        "name": "Standard Package (Quad Sharing)",
+        "price": "$600",
         "status": "available",
         "features": [
-          "AC Coaster / Sedan Transport",
-          "Standard Hotel / Day Trip",
-          "Driver & Fuel Included"
+          "Quad sharing alpine tents / cottage",
+          "4x4 Jeep transfers included",
+          "Guide & Porter support",
+          "3 Breakfasts & 2 Dinners"
         ]
       },
       {
-        "name": "Deluxe Package",
-        "price": "Contact for Quote",
+        "name": "Deluxe Package (Twin Sharing)",
+        "price": "$750",
         "status": "available",
         "features": [
-          "AC Grand Cabin / Prado",
-          "Deluxe Hotel / Private Guide",
-          "Full Inclusions"
+          "Twin sharing cottage / tent setup",
+          "Private 4x4 Jeep transfer",
+          "Dedicated guide & porter",
+          "Full meal plan included"
         ]
       },
       {
-        "name": "Executive Package",
-        "price": "Contact for Quote",
+        "name": "Solo Explorer Package",
+        "price": "$950",
         "status": "available",
         "features": [
-          "Luxury 4x4 Prado / SUV",
-          "Luxury 4-Star / 5-Star Hotel",
-          "VIP Concierge & Protocol"
+          "Private solo room/tent setup",
+          "VIP transport & guide concierge",
+          "All entry permits & meals included"
         ]
       }
     ],
@@ -13499,10 +14769,10 @@ if (window.TOUR_DATA) {
     "maxGroup": "1 - 20 Persons",
     "difficulty": "Easy / Cultural",
     "image": "images/foreign/card_2.webp",
-    "price": "Inquire for Pricing",
-    "originalPrice": "Contact for Quote",
+    "price": "$1,300",
+    "originalPrice": "$1,500",
     "departureDay": "Daily Departures & Fixed Schedules",
-    "about": "Overview Safar Silsila Offers Khot An Pass Trek Package for their beloved clients. If you are looking for comfortable Trip to North Pakistan in one go then you are at right place. We have a Various range of trekking tours in north Pakistan . People who are looking for adventurous tours then these Tour Package are recommended. Safar Silsila is known for planning and executing the best tours in North Pakistan, including trekking tours, Cycling Tours, Camping Tours, Cultural Tours and much more. Please visit our website to get the complete details of available Pakistan Tour Package. Our tour guides and other local support staff enable a host-guest environment in North Pakistan which others fail to deliver. Khot An Pass Trek Take on the Khot An Pass trek, a picturesque route across the Hindu Raj Range. This walk takes you through breathtaking scenery, from lush yak pastures to high mountain passes, all while learning about the history and culture of the region. It’s an adventurer’s dream to discover one of Pakistan’s secret jewels, along with stunning vistas and interactions with distant mountain settlements. Dates &amp; Cost Summers are ideal for the Khot An Pass Track . The months mentioned below are the ideal months for trekking in the Hindukush region of Pakistan. We have guaranteed departures every year. The suitable months and costs are given below. The most Suitable Months Package Starting From June &#8211; October USD 1300 Per Pax FOR BOOKINGS &amp; INQURIES: EMAIL: info@safarsilsila.com WHATSAPP: +92 311 1145456 Follow us on Instagram: Safar Silsila Also Recommended: Supat Valley Trek &nbsp; &nbsp; &nbsp;",
+    "about": "Khot An Pass Trek Take on the Khot An Pass trek, a picturesque route across the Hindu Raj Range. This walk takes you through breathtaking scenery, from lush yak pastures to high mountain passes, all while learning about the history and culture of the region. It’s an adventurer’s dream to discover one of Pakistan’s secret jewels, along with stunning vistas and interactions with distant mountain settlements.",
     "tableHtml": "<table style=\"width: 377px; border-collapse: collapse; font-family: Arial, sans-serif; border: 1px solid #dddddd; height: 144px;\">\n<thead>\n<tr style=\"background-color: #339966; color: white; text-align: center;\">\n<th style=\"padding: 10px; border-bottom: 1px solid #ddd;\">The most Suitable Months</th>\n<th style=\"padding: 10px; border-bottom: 1px solid #ddd;\">Package Starting From</th>\n</tr>\n</thead>\n<tbody>\n<tr style=\"text-align: center;\">\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd; font-weight: bold; background-color: #e9f5e9;\">June &#8211; October</td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\">\n<h3><strong>USD 1300  Per Pax</strong></h3>\n</td>\n</tr>\n</tbody>\n</table>",
     "highlights": [
       "Full guided excursion for Khot An Pass Trek",
@@ -13525,50 +14795,77 @@ if (window.TOUR_DATA) {
     ],
     "itinerary": [
       {
-        "day": "Morning",
-        "title": "Departure & Pickup",
-        "desc": "Pickup from hotel/residence in private vehicle. Highway drive with refreshment stop."
+        "day": "Day 1",
+        "title": "Arrival in Islamabad & Cultural Tour",
+        "desc": "Welcome pickup at Islamabad International Airport. Transfer to hotel, tour of Faisal Mosque & Daman-e-Koh, trip briefing."
       },
       {
-        "day": "Afternoon",
-        "title": "Guided Exploration & Activity",
-        "desc": "Arrive at destination. Guided tour of key monuments, photography stops, and water activities."
+        "day": "Day 2",
+        "title": "Islamabad to Chitral Valley via Lowari Tunnel",
+        "desc": "Scenic drive via Swat Motorway & Dir through Lowari Tunnel into Chitral Town. Check-in at hotel, market walk."
       },
       {
-        "day": "Evening",
-        "title": "Local Food Tasting & Return",
-        "desc": "Enjoy famous regional food & tea. Return drive with drop-off at your hotel by 07:00 PM."
+        "day": "Day 3",
+        "title": "Chitral Town to Mastuj Valley",
+        "desc": "4x4 Jeep drive along Mastuj River enjoying views of Tirich Mir. Explore historical Mastuj Fort & village."
+      },
+      {
+        "day": "Day 4",
+        "title": "Mastuj to Khot Valley Trailhead & Basecamp",
+        "desc": "Drive to Khot Village, meet local porters and trekking crew, start ascend into high glaciated Khot valley."
+      },
+      {
+        "day": "Day 5",
+        "title": "Trek to Khot An High Ridge Camp",
+        "desc": "Ascend along alpine streams with dramatic views of Hindukush range. Camp at high altitude alpine meadow."
+      },
+      {
+        "day": "Day 6",
+        "title": "Pass Crossing: Khot An Pass (4,300m) to Pechar Valley",
+        "desc": "Challenging pass crossing over Khot An Pass with panoramic 360-degree mountain vistas. Descend into lush Pechar Valley."
+      },
+      {
+        "day": "Day 7",
+        "title": "Pechar Valley to Yarkhun River Valley",
+        "desc": "Valley walk through remote shepherd settlements, pristine rivers, and wilderness wildflower fields."
+      },
+      {
+        "day": "Day 8",
+        "title": "Yarkhun Valley to Mastuj Town",
+        "desc": "Final trekking section down to road head, 4x4 Jeep transfer back to Mastuj resort."
+      },
+      {
+        "day": "Day 9",
+        "title": "Mastuj to Chitral & Kalash Valley (Bumburet)",
+        "desc": "Drive to Kalash Valleys. Immerse in the ancient indigenous Kalash culture, music, and wooden architecture."
+      },
+      {
+        "day": "Day 10",
+        "title": "Return Journey to Islamabad & Airport Drop-off",
+        "desc": "Transfer to Islamabad, souvenir shopping at Lok Virsa craft market, and final airport drop-off."
       }
     ],
     "packages": [
       {
-        "name": "Standard Package",
-        "price": "Inquire for Pricing",
+        "name": "Standard Package (Group Shared)",
+        "price": "$1,300",
         "status": "available",
         "features": [
-          "AC Coaster / Sedan Transport",
-          "Standard Hotel / Day Trip",
-          "Driver & Fuel Included"
+          "Shared hotel & high tent stay",
+          "Full mountain guide & porter crew",
+          "All 4x4 jeep transfers",
+          "Full mountain meal plan"
         ]
       },
       {
-        "name": "Deluxe Package",
-        "price": "Contact for Quote",
+        "name": "Deluxe Package (Private Twin)",
+        "price": "$1,600",
         "status": "available",
         "features": [
-          "AC Grand Cabin / Prado",
-          "Deluxe Hotel / Private Guide",
-          "Full Inclusions"
-        ]
-      },
-      {
-        "name": "Executive Package",
-        "price": "Contact for Quote",
-        "status": "available",
-        "features": [
-          "Luxury 4x4 Prado / SUV",
-          "Luxury 4-Star / 5-Star Hotel",
-          "VIP Concierge & Protocol"
+          "Private twin room & tent setup",
+          "Dedicated licensed trekking guide",
+          "Personal porter allowance (15kg)",
+          "Full inclusive meals & permits"
         ]
       }
     ],
@@ -13595,10 +14892,10 @@ if (window.TOUR_DATA) {
     "maxGroup": "1 - 20 Persons",
     "difficulty": "Easy / Cultural",
     "image": "images/foreign/card_3.webp",
-    "price": "Inquire for Pricing",
-    "originalPrice": "Contact for Quote",
+    "price": "$1,600",
+    "originalPrice": "$1,850",
     "departureDay": "Daily Departures & Fixed Schedules",
-    "about": "Overview Safar Silsila Offers Nanga Parbat Rupal Face Trek Package for their beloved clients. If you are looking for comfortable Trip to North Pakistan in one go then you are at right place. We have a Various range of trekking tours in north Pakistan . People who are looking for adventurous tours then these Tour Package are recommended. Safar Silsila is known for planning and executing the best tours in North Pakistan, including trekking tours, Cycling Tours, Camping Tours, Cultural Tours and much more. Please visit our website to get the complete details of available Pakistan Tour Package. Our tour guides and other local support staff enable a host-guest environment in North Pakistan which others fail to deliver. Nanga Parbat Rupal Face Trek The Nanga Parbat Rupal Face trak is a memorable excursion through the picturesque Rupal Valley, culminating in stunning vistas of Nanga Parbat’s towering south face. This hike includes tranquil scenery, glacier crossings, and intimate interactions with one of the world’s most impressive mountain cliffs, making it ideal for both adventurers and nature lovers. &nbsp; Dates &amp; Cost Summers are ideal for the Nanga Parbat Rupal Face Trek . . The months mentioned below are the ideal months for trekking in the Himalayas region of Pakistan. We have guaranteed departures every year. The suitable months and costs are given below. The most Suitable Months Package Starting From June &#8211; October USD 1600 Per Pax FOR BOOKINGS &amp; INQURIES: EMAIL: info@safarsilsila.com WHATSAPP: +92 311 1145456 Follow us on Instagram: Safar Silsila Also Recommended: Khot An Pass Trek &nbsp; &nbsp;",
+    "about": "Nanga Parbat Rupal Face Trek The Nanga Parbat Rupal Face trak is a memorable excursion through the picturesque Rupal Valley, culminating in stunning vistas of Nanga Parbat’s towering south face. This hike includes tranquil scenery, glacier crossings, and intimate interactions with one of the world’s most impressive mountain cliffs, making it ideal for both adventurers and nature lovers.",
     "tableHtml": "<table style=\"width: 343px; border-collapse: collapse; font-family: Arial, sans-serif; border: 1px solid #dddddd; height: 46px;\">\n<thead>\n<tr style=\"background-color: #339966; color: white; text-align: center;\">\n<th style=\"padding: 10px; border-bottom: 1px solid #ddd;\">The most Suitable Months</th>\n<th style=\"padding: 10px; border-bottom: 1px solid #ddd;\">Package Starting From</th>\n</tr>\n</thead>\n<tbody>\n<tr style=\"text-align: center;\">\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd; font-weight: bold; background-color: #e9f5e9;\">June &#8211; October</td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\">\n<h3><strong>USD 1600  Per Pax</strong></h3>\n</td>\n</tr>\n</tbody>\n</table>",
     "highlights": [
       "Full guided excursion for Nanga Parbat Rupal Face Trek",
@@ -13621,50 +14918,87 @@ if (window.TOUR_DATA) {
     ],
     "itinerary": [
       {
-        "day": "Morning",
-        "title": "Departure & Pickup",
-        "desc": "Pickup from hotel/residence in private vehicle. Highway drive with refreshment stop."
+        "day": "Day 1",
+        "title": "Arrival in Islamabad & Trip Briefing",
+        "desc": "Airport pickup, transfer to luxury hotel, overview of Nanga Parbat expedition and permit formalities."
       },
       {
-        "day": "Afternoon",
-        "title": "Guided Exploration & Activity",
-        "desc": "Arrive at destination. Guided tour of key monuments, photography stops, and water activities."
+        "day": "Day 2",
+        "title": "Islamabad to Chilas via Karakoram Highway",
+        "desc": "Scenic highway drive along Indus River and Karakoram Highway. Overnight stay in Chilas."
       },
       {
-        "day": "Evening",
-        "title": "Local Food Tasting & Return",
-        "desc": "Enjoy famous regional food & tea. Return drive with drop-off at your hotel by 07:00 PM."
+        "day": "Day 3",
+        "title": "Chilas to Tarashing Village (Rupal Valley)",
+        "desc": "Jeep drive into Astore Valley reaching Tarashing, the picturesque gateway to Nanga Parbat south face."
+      },
+      {
+        "day": "Day 4",
+        "title": "Trek Tarashing to Herrligkoffer Basecamp",
+        "desc": "Trek through Chongra glacier lateral moraine to Herrligkoffer basecamp facing the massive 4,500m Rupal Wall."
+      },
+      {
+        "day": "Day 5",
+        "title": "Herrligkoffer to Latobo Basecamp",
+        "desc": "Ascend along alpine meadows to Latobo Camp directly under the sheer vertical peak of Nanga Parbat."
+      },
+      {
+        "day": "Day 6",
+        "title": "Day Excursion to Mazeno Pass Base & High Viewpoint",
+        "desc": "Guided day hike up high lateral moraine for dramatic views of Mazeno peaks and glaciers."
+      },
+      {
+        "day": "Day 7",
+        "title": "Latobo Basecamp Rest & Photography Day",
+        "desc": "Relaxation day, photography, exploring high alpine glacial streams, and campfire evening."
+      },
+      {
+        "day": "Day 8",
+        "title": "Trek back from Latobo to Tarashing Village",
+        "desc": "Descend trek through Chongra village back to Tarashing for hot showers and hotel stay."
+      },
+      {
+        "day": "Day 9",
+        "title": "Tarashing to Rama Meadows & Lake",
+        "desc": "Drive to Rama Valley, explore pine forest and Rama Lake with views of Chongra Peak."
+      },
+      {
+        "day": "Day 10",
+        "title": "Rama Valley to Hunza Valley (Karimabad)",
+        "desc": "Drive along Karakoram Highway to Hunza. Sunset views of Rakaposhi from Karimabad."
+      },
+      {
+        "day": "Day 11",
+        "title": "Hunza Valley to Naran / Besham",
+        "desc": "Return journey via Babusar Pass / Karakoram Highway with scenic mountain stops."
+      },
+      {
+        "day": "Day 12",
+        "title": "Return to Islamabad & Airport Transfer",
+        "desc": "Final drive to Islamabad, farewell dinner, and airport drop-off."
       }
     ],
     "packages": [
       {
-        "name": "Standard Package",
-        "price": "Inquire for Pricing",
+        "name": "Standard Package (Group Shared)",
+        "price": "$1,600",
         "status": "available",
         "features": [
-          "AC Coaster / Sedan Transport",
-          "Standard Hotel / Day Trip",
-          "Driver & Fuel Included"
+          "Camping equipment & hotel stays",
+          "Official mountain guide & cooks",
+          "Full trekking permits & porter support",
+          "All meals during trek"
         ]
       },
       {
-        "name": "Deluxe Package",
-        "price": "Contact for Quote",
+        "name": "Deluxe Package (Private Twin)",
+        "price": "$1,950",
         "status": "available",
         "features": [
-          "AC Grand Cabin / Prado",
-          "Deluxe Hotel / Private Guide",
-          "Full Inclusions"
-        ]
-      },
-      {
-        "name": "Executive Package",
-        "price": "Contact for Quote",
-        "status": "available",
-        "features": [
-          "Luxury 4x4 Prado / SUV",
-          "Luxury 4-Star / 5-Star Hotel",
-          "VIP Concierge & Protocol"
+          "Private room & single tent setup",
+          "Dedicated chef & mountain guide",
+          "VIP transport throughout",
+          "All meals & hotel upgrades"
         ]
       }
     ],
@@ -13691,10 +15025,10 @@ if (window.TOUR_DATA) {
     "maxGroup": "1 - 20 Persons",
     "difficulty": "Easy / Cultural",
     "image": "images/foreign/card_4.webp",
-    "price": "Inquire for Pricing",
-    "originalPrice": "Contact for Quote",
+    "price": "$840",
+    "originalPrice": "$990",
     "departureDay": "Daily Departures & Fixed Schedules",
-    "about": "Overview Safar Silsila Offers Makuli Meadows Trek Package for their beloved clients. If you are looking for comfortable Trip to North Pakistan in one go then you are at right place. We have a Various range of trekking tours in north Pakistan . People who are looking for adventurous tours then these Tour Package are recommended. Makuli Meadows Trek The Makuli Meadows Trak is a picturesque hike in Yasin Valley, Ghizer, Gilgit-Baltistan. Beginning in Qurqulti village, the trail winds through lush green fields, fruit orchards, and along the Qurqulti Bar Nala stream. It leads to the stunning Makuli Meadows, which are flanked by snow-capped hills, lush meadows, and clear streams. Hikers can visit adjacent destinations such as Makuli Lake, Asumbar Lake, and the breathtaking Rainbow Mountain. This walk provides a tranquil and gratifying experience in a pristine natural setting. Dates &amp; Cost All seasons are considered good for the Makuli Meadows Trek. Considering the inflow of tourists all year round, our dates are open throughout the year and your bookings will be 100% guaranteed even if you are a single traveler. Our prices and dates for this tour (all seasons) are given below. Package Price: Season Month Tour Start Date Price Per Person USD Minimum Travelers Required Spring Mid November &#8211; February Daily USD 840 1 Pax Winter March &#8211; May Daily USD 840 1 Pax Summer June &#8211; Mid September Daily USD 840 1 Pax Autumn Mid September &#8211; November Daily USD 840 1 Pax EMAIL: info@safarsilsila.com WHATSAPP: +92 311 1145456 Follow us on Instagram: Safar Silsila Also Recommended: Palija Meadows Trek",
+    "about": "Makuli Meadows Trek The Makuli Meadows Trak is a picturesque hike in Yasin Valley, Ghizer, Gilgit-Baltistan. Beginning in Qurqulti village, the trail winds through lush green fields, fruit orchards, and along the Qurqulti Bar Nala stream. It leads to the stunning Makuli Meadows, which are flanked by snow-capped hills, lush meadows, and clear streams. Hikers can visit adjacent destinations such as Makuli Lake, Asumbar Lake, and the breathtaking Rainbow Mountain. This walk provides a tranquil and gratifying experience in a pristine natural setting.",
     "tableHtml": "<table style=\"width: 524px; border-collapse: collapse; font-family: Arial, sans-serif; border: 1px solid #dddddd; height: 190px;\">\n<thead>\n<tr style=\"background-color: #339966; color: white; text-align: center;\">\n<th style=\"padding: 10px; border-bottom: 1px solid #ddd;\">Season</th>\n<th style=\"padding: 10px; border-bottom: 1px solid #ddd;\">Month</th>\n<th style=\"padding: 10px; border-bottom: 1px solid #ddd;\">Tour Start Date</th>\n<th style=\"padding: 10px; border-bottom: 1px solid #ddd;\">Price Per Person <strong>USD</strong></th>\n<th style=\"padding: 10px; border-bottom: 1px solid #ddd;\">Minimum Travelers Required</th>\n</tr>\n</thead>\n<tbody>\n<tr style=\"text-align: center;\">\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd; font-weight: bold; background-color: #e9f5e9;\"><span style=\"color: #008000;\">Spring</span></td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\">Mid November &#8211; February</td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\">Daily</td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\"><strong><span style=\"color: #008000;\">USD 840</span></strong></td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\"><strong><span style=\"color: #008000;\">1 Pax</span></strong></td>\n</tr>\n<tr style=\"text-align: center; background-color: #f9f9f9;\">\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd; font-weight: bold; background-color: #e9f5e9;\"><span style=\"color: #008000;\">Winter</span></td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\">March &#8211; May</td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\">Daily</td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\"><strong><span style=\"color: #008000;\">USD 840</span></strong></td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\"><strong><span style=\"color: #008000;\">1 Pax</span></strong></td>\n</tr>\n<tr style=\"text-align: center; background-color: #f9f9f9;\">\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd; font-weight: bold; background-color: #e9f5e9;\"><span style=\"color: #008000;\">Summer</span></td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\">June &#8211; Mid September</td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\">Daily</td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\"><strong><span style=\"color: #008000;\">USD 840</span></strong></td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\"><strong><span style=\"color: #008000;\">1 Pax</span></strong></td>\n</tr>\n<tr style=\"text-align: center; background-color: #f9f9f9;\">\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd; font-weight: bold; background-color: #e9f5e9;\"><span style=\"color: #008000;\">Autumn</span></td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\">Mid September &#8211; November</td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\">Daily</td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\"><strong><span style=\"color: #008000;\">USD 840</span></strong></td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\"><strong><span style=\"color: #008000;\">1 Pax</span></strong></td>\n</tr>\n</tbody>\n</table>",
     "highlights": [
       "Full guided excursion for Makuli Meadows Trek",
@@ -13717,50 +15051,56 @@ if (window.TOUR_DATA) {
     ],
     "itinerary": [
       {
-        "day": "Morning",
-        "title": "Departure & Pickup",
-        "desc": "Pickup from hotel/residence in private vehicle. Highway drive with refreshment stop."
+        "day": "Day 1",
+        "title": "Islamabad to Naran Valley",
+        "desc": "Pick-up from Islamabad, scenic drive via Hazara Motorway & Balakot to Naran. Overnight stay in Naran."
       },
       {
-        "day": "Afternoon",
-        "title": "Guided Exploration & Activity",
-        "desc": "Arrive at destination. Guided tour of key monuments, photography stops, and water activities."
+        "day": "Day 2",
+        "title": "Naran to Babusar Pass & Astore Valley",
+        "desc": "Drive over Babusar Pass (4,173m) into Astore Valley. Hotel stay in Astore."
       },
       {
-        "day": "Evening",
-        "title": "Local Food Tasting & Return",
-        "desc": "Enjoy famous regional food & tea. Return drive with drop-off at your hotel by 07:00 PM."
+        "day": "Day 3",
+        "title": "Astore to Tarashing & Makuli Trailhead",
+        "desc": "4x4 Jeep transfer to Tarashing village, trek setup and initial hike towards Makuli base."
+      },
+      {
+        "day": "Day 4",
+        "title": "Trek to High Makuli Meadows",
+        "desc": "Ascend pine forests opening up into vast Makuli Alpine Meadows with panoramas of Nanga Parbat."
+      },
+      {
+        "day": "Day 5",
+        "title": "Exploration of Makuli Lakes & Ridge Trail",
+        "desc": "Full day exploring turquoise alpine tarns, wildflower fields, and high ridge viewpoints."
+      },
+      {
+        "day": "Day 6",
+        "title": "Descend to Tarashing & Drive to Rama Lake",
+        "desc": "Trek down to Tarashing, jeep drive to pine-surrounded Rama Lake."
+      },
+      {
+        "day": "Day 7",
+        "title": "Rama Lake to Naran / Abbottabad",
+        "desc": "Return scenic drive through Kaghan Valley."
+      },
+      {
+        "day": "Day 8",
+        "title": "Return to Islamabad & Airport Transfer",
+        "desc": "Morning city sightseeing in Islamabad and evening airport drop-off."
       }
     ],
     "packages": [
       {
         "name": "Standard Package",
-        "price": "Inquire for Pricing",
+        "price": "$840",
         "status": "available",
         "features": [
-          "AC Coaster / Sedan Transport",
-          "Standard Hotel / Day Trip",
-          "Driver & Fuel Included"
-        ]
-      },
-      {
-        "name": "Deluxe Package",
-        "price": "Contact for Quote",
-        "status": "available",
-        "features": [
-          "AC Grand Cabin / Prado",
-          "Deluxe Hotel / Private Guide",
-          "Full Inclusions"
-        ]
-      },
-      {
-        "name": "Executive Package",
-        "price": "Contact for Quote",
-        "status": "available",
-        "features": [
-          "Luxury 4x4 Prado / SUV",
-          "Luxury 4-Star / 5-Star Hotel",
-          "VIP Concierge & Protocol"
+          "All transport & 4x4 jeeps included",
+          "Guide & porter support",
+          "Camping & hotel stays",
+          "Daily breakfast & dinner"
         ]
       }
     ],
@@ -13787,10 +15127,10 @@ if (window.TOUR_DATA) {
     "maxGroup": "1 - 20 Persons",
     "difficulty": "Easy / Cultural",
     "image": "images/foreign/card_5.webp",
-    "price": "Inquire for Pricing",
-    "originalPrice": "Contact for Quote",
+    "price": "$320",
+    "originalPrice": "$390",
     "departureDay": "Daily Departures & Fixed Schedules",
-    "about": "Overview Safar Silsila Offers Neel Fairy Meadows Trek Package for their beloved clients. If you are looking for comfortable Trip to North Pakistan in one go then you are at right place. We have a Various range of trekking tours in north Pakistan . People who are looking for adventurous tours then these Tour Package are recommended. Neel Fairy Meadows Trek The Neel Fairy Meadows Trak is a scenic route across Azad Kashmir, Pakistan, that leads hikers from Haveli to the stunning Neel Fairy Meadows at the base of Bedori Peak. This short hike, which takes around 1.5 hours, provides breathtaking views of lush landscapes and spectacular mountains. Ideal for nature enthusiasts, it offers the perfect balance of action and tranquillity in a lovely location. &nbsp; Dates &amp; Cost All seasons are considered good for the Neel Fairy Meadows Trak. Considering the inflow of tourists all year round, our dates are open throughout the year and your bookings will be 100% guaranteed even if you are a single traveler. Our prices and dates for this tour (all seasons) are given below Package Price: Season Month Tour Start Date Price Per Person USD Minimum Travelers Required Spring Mid November &#8211; February Daily USD 320 1 Pax Winter March &#8211; May Daily USD 320 1 Pax Summer June &#8211; Mid September Daily USD 320 1 Pax Autumn Mid September &#8211; November Daily USD 320 1 Pax EMAIL: info@safarsilsila.com WHATSAPP: +92 311 1145456 Follow us on Instagram: Safar Silsila Also Recommended: Nanga Parbat Rupal Face Trek",
+    "about": "Neel Fairy Meadows Trek The Neel Fairy Meadows Trak is a scenic route across Azad Kashmir, Pakistan, that leads hikers from Haveli to the stunning Neel Fairy Meadows at the base of Bedori Peak. This short hike, which takes around 1.5 hours, provides breathtaking views of lush landscapes and spectacular mountains. Ideal for nature enthusiasts, it offers the perfect balance of action and tranquillity in a lovely location.",
     "tableHtml": "<table style=\"width: 555px; border-collapse: collapse; font-family: Arial, sans-serif; border: 1px solid #dddddd; height: 211px;\">\n<thead>\n<tr style=\"background-color: #339966; color: white; text-align: center;\">\n<th style=\"padding: 10px; border-bottom: 1px solid #ddd;\">Season</th>\n<th style=\"padding: 10px; border-bottom: 1px solid #ddd;\">Month</th>\n<th style=\"padding: 10px; border-bottom: 1px solid #ddd;\">Tour Start Date</th>\n<th style=\"padding: 10px; border-bottom: 1px solid #ddd;\">Price Per Person <strong>USD</strong></th>\n<th style=\"padding: 10px; border-bottom: 1px solid #ddd;\">Minimum Travelers Required</th>\n</tr>\n</thead>\n<tbody>\n<tr style=\"text-align: center;\">\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd; font-weight: bold; background-color: #e9f5e9;\"><span style=\"color: #008000;\">Spring</span></td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\">Mid November &#8211; February</td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\">Daily</td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\"><strong><span style=\"color: #008000;\">USD 320</span></strong></td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\"><strong><span style=\"color: #008000;\">1 Pax</span></strong></td>\n</tr>\n<tr style=\"text-align: center; background-color: #f9f9f9;\">\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd; font-weight: bold; background-color: #e9f5e9;\"><span style=\"color: #008000;\">Winter</span></td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\">March &#8211; May</td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\">Daily</td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\"><strong><span style=\"color: #008000;\">USD 320</span></strong></td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\"><strong><span style=\"color: #008000;\">1 Pax</span></strong></td>\n</tr>\n<tr style=\"text-align: center; background-color: #f9f9f9;\">\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd; font-weight: bold; background-color: #e9f5e9;\"><span style=\"color: #008000;\">Summer</span></td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\">June &#8211; Mid September</td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\">Daily</td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\"><strong><span style=\"color: #008000;\">USD 320</span></strong></td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\"><strong><span style=\"color: #008000;\">1 Pax</span></strong></td>\n</tr>\n<tr style=\"text-align: center; background-color: #f9f9f9;\">\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd; font-weight: bold; background-color: #e9f5e9;\"><span style=\"color: #008000;\">Autumn</span></td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\">Mid September &#8211; November</td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\">Daily</td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\"><strong><span style=\"color: #008000;\">USD 320</span></strong></td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\"><strong><span style=\"color: #008000;\">1 Pax</span></strong></td>\n</tr>\n</tbody>\n</table>",
     "highlights": [
       "Full guided excursion for Neel Fairy Meadows Trek",
@@ -13813,50 +15153,41 @@ if (window.TOUR_DATA) {
     ],
     "itinerary": [
       {
-        "day": "Morning",
-        "title": "Departure & Pickup",
-        "desc": "Pickup from hotel/residence in private vehicle. Highway drive with refreshment stop."
+        "day": "Day 1",
+        "title": "Islamabad to Raikot Bridge & Trek to Fairy Meadows",
+        "desc": "Early pickup from Islamabad, drive along Karakoram Highway to Raikot Bridge. Thrilling 4x4 jeep ride to Tattu Village, followed by 3-hour guided hike up to Fairy Meadows. Check-in at wooden alpine cottages facing Nanga Parbat."
       },
       {
-        "day": "Afternoon",
-        "title": "Guided Exploration & Activity",
-        "desc": "Arrive at destination. Guided tour of key monuments, photography stops, and water activities."
+        "day": "Day 2",
+        "title": "Excursion to Beyal Camp & Nanga Parbat Basecamp Viewpoint",
+        "desc": "Guided morning hike through pine woods to Beyal Camp and Nanga Parbat Viewpoint. Return to Fairy Meadows for atmospheric campfire & BBQ dinner under stars."
       },
       {
-        "day": "Evening",
-        "title": "Local Food Tasting & Return",
-        "desc": "Enjoy famous regional food & tea. Return drive with drop-off at your hotel by 07:00 PM."
+        "day": "Day 3",
+        "title": "Fairy Meadows to Raikot & Return to Islamabad",
+        "desc": "Sunrise photography over Nanga Parbat, trek down to Tattu, jeep safari to Raikot Bridge, and return drive to Islamabad."
       }
     ],
     "packages": [
       {
-        "name": "Standard Package",
-        "price": "Inquire for Pricing",
+        "name": "Standard Package (Quad Sharing)",
+        "price": "$320",
         "status": "available",
         "features": [
-          "AC Coaster / Sedan Transport",
-          "Standard Hotel / Day Trip",
-          "Driver & Fuel Included"
+          "Fairy Meadows wooden cottage stay",
+          "4x4 Jeep safari included",
+          "Guide services & bonfire night",
+          "3 Breakfasts & 2 Dinners"
         ]
       },
       {
-        "name": "Deluxe Package",
-        "price": "Contact for Quote",
+        "name": "Deluxe Package (Twin Cottage)",
+        "price": "$420",
         "status": "available",
         "features": [
-          "AC Grand Cabin / Prado",
-          "Deluxe Hotel / Private Guide",
-          "Full Inclusions"
-        ]
-      },
-      {
-        "name": "Executive Package",
-        "price": "Contact for Quote",
-        "status": "available",
-        "features": [
-          "Luxury 4x4 Prado / SUV",
-          "Luxury 4-Star / 5-Star Hotel",
-          "VIP Concierge & Protocol"
+          "Private twin cottage stay",
+          "Dedicated guide & private jeep",
+          "Full meal plan included"
         ]
       }
     ],
@@ -13883,10 +15214,10 @@ if (window.TOUR_DATA) {
     "maxGroup": "1 - 20 Persons",
     "difficulty": "Easy / Cultural",
     "image": "images/foreign/card_6.webp",
-    "price": "Inquire for Pricing",
-    "originalPrice": "Contact for Quote",
+    "price": "$240",
+    "originalPrice": "$290",
     "departureDay": "Daily Departures & Fixed Schedules",
-    "about": "Overview Safar Silsila Offers Sharan Forest Manshi Top Trek Package for their beloved clients. If you are looking for comfortable Trip to North Pakistan in one go then you are at right place. We have a Various range of trekking tours in north Pakistan . People who are looking for adventurous tours then these Tour Package are recommended. Sharan Forest Manshi Top Trek The Sharan Forest Manshi Top Trak is a wonderful excursion through the lush foliage of Kaghan Valley, beginning at the snug Sharan Camping Pods. This gentle 2-3 hour climb ascends through dense pine forests and meandering roads, finishing in the breathtaking meadow of Manshi Top, which stands over 3,000 meters above sea level. Hikers who reach the summit are rewarded with stunning panoramic views of the valley, where the Kunhar River flows smoothly through the terrain. Dates &amp; Cost – Sharan Forest Manshi Top Trek All seasons are considered good for the Sharan Forest Manshi Top Trak. Considering the inflow of tourists all year round, our dates are open throughout the year and your bookings will be 100% guaranteed even if you are a single traveler. Our prices and dates for this tour (all seasons) are given below. Package Price: Season Month Tour Start Date Price Per Person USD Minimum Travelers Required Spring Mid November &#8211; February Daily USD 240 1 Pax Winter March &#8211; May Daily USD 240 1 Pax Summer June &#8211; Mid September Daily USD 240 1 Pax Autumn Mid September &#8211; November Daily USD 240 1 Pax EMAIL: info@safarsilsila.com WHATSAPP: +92 311 1145456 Follow us on Instagram: Safar Silsila Also Recommended: Nanga Parbat Rupal Face Trek",
+    "about": "Sharan Forest Manshi Top Trek The Sharan Forest Manshi Top Trak is a wonderful excursion through the lush foliage of Kaghan Valley, beginning at the snug Sharan Camping Pods. This gentle 2-3 hour climb ascends through dense pine forests and meandering roads, finishing in the breathtaking meadow of Manshi Top, which stands over 3,000 meters above sea level. Hikers who reach the summit are rewarded with stunning panoramic views of the valley, where the Kunhar River flows smoothly through the terrain.",
     "tableHtml": "<table style=\"width: 496px; border-collapse: collapse; font-family: Arial, sans-serif; border: 1px solid #dddddd; height: 171px;\">\n<thead>\n<tr style=\"background-color: #339966; color: white; text-align: center;\">\n<th style=\"padding: 10px; border-bottom: 1px solid #ddd;\">Season</th>\n<th style=\"padding: 10px; border-bottom: 1px solid #ddd;\">Month</th>\n<th style=\"padding: 10px; border-bottom: 1px solid #ddd;\">Tour Start Date</th>\n<th style=\"padding: 10px; border-bottom: 1px solid #ddd;\">Price Per Person <strong>USD</strong></th>\n<th style=\"padding: 10px; border-bottom: 1px solid #ddd;\">Minimum Travelers Required</th>\n</tr>\n</thead>\n<tbody>\n<tr style=\"text-align: center;\">\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd; font-weight: bold; background-color: #e9f5e9;\"><span style=\"color: #008000;\">Spring</span></td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\">Mid November &#8211; February</td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\">Daily</td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\"><strong><span style=\"color: #008000;\">USD 240</span></strong></td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\"><strong><span style=\"color: #008000;\">1 Pax</span></strong></td>\n</tr>\n<tr style=\"text-align: center; background-color: #f9f9f9;\">\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd; font-weight: bold; background-color: #e9f5e9;\"><span style=\"color: #008000;\">Winter</span></td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\">March &#8211; May</td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\">Daily</td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\"><strong><span style=\"color: #008000;\">USD 240</span></strong></td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\"><strong><span style=\"color: #008000;\">1 Pax</span></strong></td>\n</tr>\n<tr style=\"text-align: center; background-color: #f9f9f9;\">\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd; font-weight: bold; background-color: #e9f5e9;\"><span style=\"color: #008000;\">Summer</span></td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\">June &#8211; Mid September</td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\">Daily</td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\"><strong><span style=\"color: #008000;\">USD 240</span></strong></td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\"><strong><span style=\"color: #008000;\">1 Pax</span></strong></td>\n</tr>\n<tr style=\"text-align: center; background-color: #f9f9f9;\">\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd; font-weight: bold; background-color: #e9f5e9;\"><span style=\"color: #008000;\">Autumn</span></td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\">Mid September &#8211; November</td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\">Daily</td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\"><strong><span style=\"color: #008000;\">USD 240</span></strong></td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\"><strong><span style=\"color: #008000;\">1 Pax</span></strong></td>\n</tr>\n</tbody>\n</table>",
     "highlights": [
       "Full guided excursion for Sharan Forest Manshi Top Trek",
@@ -13909,50 +15240,25 @@ if (window.TOUR_DATA) {
     ],
     "itinerary": [
       {
-        "day": "Morning",
-        "title": "Departure & Pickup",
-        "desc": "Pickup from hotel/residence in private vehicle. Highway drive with refreshment stop."
+        "day": "Day 1",
+        "title": "Islamabad / Lahore to Balakot & Sharan Forest Pods",
+        "desc": "Drive along Hazara Motorway to Balakot & Paras. Transfer to off-road 4x4 Jeeps up to dense pine wilderness of Sharan Forest. Check-in at wooden pods / campsite, bonfire & BBQ."
       },
       {
-        "day": "Afternoon",
-        "title": "Guided Exploration & Activity",
-        "desc": "Arrive at destination. Guided tour of key monuments, photography stops, and water activities."
-      },
-      {
-        "day": "Evening",
-        "title": "Local Food Tasting & Return",
-        "desc": "Enjoy famous regional food & tea. Return drive with drop-off at your hotel by 07:00 PM."
+        "day": "Day 2",
+        "title": "Guided Trek to Manshi Top & Return to Islamabad",
+        "desc": "Morning breakfast, guided hike up to Manshi Top viewpoint offering 360-degree valley views. Descend to Paras and drive back to Islamabad/Lahore by evening."
       }
     ],
     "packages": [
       {
         "name": "Standard Package",
-        "price": "Inquire for Pricing",
+        "price": "$240",
         "status": "available",
         "features": [
-          "AC Coaster / Sedan Transport",
-          "Standard Hotel / Day Trip",
-          "Driver & Fuel Included"
-        ]
-      },
-      {
-        "name": "Deluxe Package",
-        "price": "Contact for Quote",
-        "status": "available",
-        "features": [
-          "AC Grand Cabin / Prado",
-          "Deluxe Hotel / Private Guide",
-          "Full Inclusions"
-        ]
-      },
-      {
-        "name": "Executive Package",
-        "price": "Contact for Quote",
-        "status": "available",
-        "features": [
-          "Luxury 4x4 Prado / SUV",
-          "Luxury 4-Star / 5-Star Hotel",
-          "VIP Concierge & Protocol"
+          "Wooden pod / camping stay",
+          "4x4 Jeep transfer included",
+          "Guided trek & meals included"
         ]
       }
     ],
@@ -13979,10 +15285,10 @@ if (window.TOUR_DATA) {
     "maxGroup": "1 - 20 Persons",
     "difficulty": "Easy / Cultural",
     "image": "images/foreign/card_7.webp",
-    "price": "Inquire for Pricing",
-    "originalPrice": "Contact for Quote",
+    "price": "$1,050",
+    "originalPrice": "$1,250",
     "departureDay": "Daily Departures & Fixed Schedules",
-    "about": "Overview Safar Silsila Offers Talkhumbo Lake Trek Tour Package for their beloved clients. If you are looking for comfortable Trip to North Pakistan in one go then you are at right place. We have a Various range of trekking tours in north Pakistan . People who are looking for adventurous tours then these Tour Package are recommended. Talkhumbo Lake Trek The Talkhumbo Lake Trak is a picturesque journey through Deosai National Park that culminates in the enchanting Talkhumbo Lake at an elevation of roughly 14,000 feet. The hike begins at Deosai Top and lasts approximately two hours, providing breathtaking vistas of snow-capped mountains and lush green fields along the route. Trekkers cross the Deosai Creek, immersing themselves in the park’s natural splendor. Upon arrival at the lake, guests can enjoy the tranquil surroundings and stunning scenery, making it an ideal location for nature lovers. Dates &amp; Cost – Talkhumbo Lake Trek All seasons are considered good for the Talkhumbo Lake Trak. Considering the inflow of tourists all year round, our dates are open throughout the year and your bookings will be 100% guaranteed even if you are a single traveler. Our prices and dates for this tour (all seasons) are given below. Package Price: Season Month Tour Start Date Price Per Person USD Minimum Travelers Required Spring Mid November &#8211; February Daily USD 1050 1 Pax Winter March &#8211; May Daily USD 1050 1 Pax Summer June &#8211; Mid September Daily USD 1050 1 Pax Autumn Mid September &#8211; November Daily USD 1050 1 Pax EMAIL: info@safarsilsila.com WHATSAPP: +92 311 1145456 Follow us on Instagram: Safar Silsila Also Recommended: Makuli Meadows Trek",
+    "about": "Talkhumbo Lake Trek The Talkhumbo Lake Trak is a picturesque journey through Deosai National Park that culminates in the enchanting Talkhumbo Lake at an elevation of roughly 14,000 feet. The hike begins at Deosai Top and lasts approximately two hours, providing breathtaking vistas of snow-capped mountains and lush green fields along the route. Trekkers cross the Deosai Creek, immersing themselves in the park’s natural splendor. Upon arrival at the lake, guests can enjoy the tranquil surroundings and stunning scenery, making it an ideal location for nature lovers.",
     "tableHtml": "<table style=\"width: 759px; border-collapse: collapse; font-family: Arial, sans-serif; border: 1px solid #dddddd; height: 52px;\">\n<thead>\n<tr style=\"background-color: #339966; color: white; text-align: center;\">\n<th style=\"padding: 10px; border-bottom: 1px solid #ddd;\">Season</th>\n<th style=\"padding: 10px; border-bottom: 1px solid #ddd;\">Month</th>\n<th style=\"padding: 10px; border-bottom: 1px solid #ddd;\">Tour Start Date</th>\n<th style=\"padding: 10px; border-bottom: 1px solid #ddd;\">Price Per Person <strong>USD</strong></th>\n<th style=\"padding: 10px; border-bottom: 1px solid #ddd;\">Minimum Travelers Required</th>\n</tr>\n</thead>\n<tbody>\n<tr style=\"text-align: center;\">\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd; font-weight: bold; background-color: #e9f5e9;\"><span style=\"color: #008000;\">Spring</span></td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\">Mid November &#8211; February</td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\">Daily</td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\"><strong><span style=\"color: #008000;\">USD 1050</span></strong></td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\"><strong><span style=\"color: #008000;\">1 Pax</span></strong></td>\n</tr>\n<tr style=\"text-align: center; background-color: #f9f9f9;\">\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd; font-weight: bold; background-color: #e9f5e9;\"><span style=\"color: #008000;\">Winter</span></td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\">March &#8211; May</td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\">Daily</td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\"><strong><span style=\"color: #008000;\">USD 1050</span></strong></td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\"><strong><span style=\"color: #008000;\">1 Pax</span></strong></td>\n</tr>\n<tr style=\"text-align: center; background-color: #f9f9f9;\">\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd; font-weight: bold; background-color: #e9f5e9;\"><span style=\"color: #008000;\">Summer</span></td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\">June &#8211; Mid September</td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\">Daily</td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\"><strong><span style=\"color: #008000;\">USD 1050</span></strong></td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\"><strong><span style=\"color: #008000;\">1 Pax</span></strong></td>\n</tr>\n<tr style=\"text-align: center; background-color: #f9f9f9;\">\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd; font-weight: bold; background-color: #e9f5e9;\"><span style=\"color: #008000;\">Autumn</span></td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\">Mid September &#8211; November</td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\">Daily</td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\"><strong><span style=\"color: #008000;\">USD 1050</span></strong></td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\"><strong><span style=\"color: #008000;\">1 Pax</span></strong></td>\n</tr>\n</tbody>\n</table>",
     "highlights": [
       "Full guided excursion for Talkhumbo Lake Trek",
@@ -14005,50 +15311,55 @@ if (window.TOUR_DATA) {
     ],
     "itinerary": [
       {
-        "day": "Morning",
-        "title": "Departure & Pickup",
-        "desc": "Pickup from hotel/residence in private vehicle. Highway drive with refreshment stop."
+        "day": "Day 1",
+        "title": "Islamabad to Naran / Chilas",
+        "desc": "Drive via Hazara Motorway & Babusar Pass to Chilas / Naran."
       },
       {
-        "day": "Afternoon",
-        "title": "Guided Exploration & Activity",
-        "desc": "Arrive at destination. Guided tour of key monuments, photography stops, and water activities."
+        "day": "Day 2",
+        "title": "Chilas to Gilgit & Phandar Valley (Ghizer)",
+        "desc": "Drive along Indus & Gilgit Rivers to crystal blue Phandar Valley."
       },
       {
-        "day": "Evening",
-        "title": "Local Food Tasting & Return",
-        "desc": "Enjoy famous regional food & tea. Return drive with drop-off at your hotel by 07:00 PM."
+        "day": "Day 3",
+        "title": "Phandar Valley to Handarap Trailhead",
+        "desc": "Jeep transfer to Handarap village, meet guides and begin ascent into valley."
+      },
+      {
+        "day": "Day 4",
+        "title": "Trek to Talkhumbo High Meadows",
+        "desc": "Trek through glaciated valleys and mountain pastures."
+      },
+      {
+        "day": "Day 5",
+        "title": "Exploration of Talkhumbo Lake",
+        "desc": "Full day at turquoise Talkhumbo Lake, alpine photography & relaxation."
+      },
+      {
+        "day": "Day 6",
+        "title": "Trek Down to Phandar Valley",
+        "desc": "Return trek to Phandar Lake resort."
+      },
+      {
+        "day": "Day 7",
+        "title": "Phandar to Gilgit / Naran",
+        "desc": "Drive back along Ghizer river."
+      },
+      {
+        "day": "Day 8",
+        "title": "Return to Islamabad & Departure",
+        "desc": "Final drive to Islamabad airport."
       }
     ],
     "packages": [
       {
         "name": "Standard Package",
-        "price": "Inquire for Pricing",
+        "price": "$1,050",
         "status": "available",
         "features": [
-          "AC Coaster / Sedan Transport",
-          "Standard Hotel / Day Trip",
-          "Driver & Fuel Included"
-        ]
-      },
-      {
-        "name": "Deluxe Package",
-        "price": "Contact for Quote",
-        "status": "available",
-        "features": [
-          "AC Grand Cabin / Prado",
-          "Deluxe Hotel / Private Guide",
-          "Full Inclusions"
-        ]
-      },
-      {
-        "name": "Executive Package",
-        "price": "Contact for Quote",
-        "status": "available",
-        "features": [
-          "Luxury 4x4 Prado / SUV",
-          "Luxury 4-Star / 5-Star Hotel",
-          "VIP Concierge & Protocol"
+          "Full trekking support & guide",
+          "Jeeps & transport included",
+          "Meals & hotel stay"
         ]
       }
     ],
@@ -14075,10 +15386,10 @@ if (window.TOUR_DATA) {
     "maxGroup": "1 - 20 Persons",
     "difficulty": "Easy / Cultural",
     "image": "images/foreign/card_8.webp",
-    "price": "Inquire for Pricing",
-    "originalPrice": "Contact for Quote",
+    "price": "$2,000",
+    "originalPrice": "$2,400",
     "departureDay": "Daily Departures & Fixed Schedules",
-    "about": "Overview Safar Silsila Offers Mir Shikar Peak Expedition Package for their beloved clients. If you are looking for comfortable Trip to North Pakistan in one go then you are at right place. We have a Various range of trekking tours in north Pakistan . People who are looking for adventurous tours then these Tour Package are recommended. Mir Shikar Peak Expedition Join us on the Mir Shikar Peak Expediti0n, a thrilling adventure to a spectacular 6,100-meter trekking peak in the Miacher region of Nagar. As you traverse vivid meadows and climb steep ascents, you’ll be treated to stunning vistas of the Hunza Valley and the neighboring Karakoram range. This experience offers a gratifying climb and the opportunity to immerse yourself in the natural beauty and rich culture of one of Pakistan’s most enchanting places. &nbsp; Dates &amp; Cost Summers are ideal for the Mir Shikar Peak Expediti0n . The months mentioned below are the ideal months for trekking in the Hindukush region of Pakistan. We have guaranteed departures every year. The suitable months and costs are given below. The most Suitable Months Package Starting From June &#8211; October USD 2000 Per Pax FOR BOOKINGS &amp; INQURIES: EMAIL: info@safarsilsila.com WHATSAPP: +92 311 1145456 Follow us on Instagram: Safar Silsila Also Recommended: Talkhumbo Lake Trek &nbsp; &nbsp;",
+    "about": "Mir Shikar Peak Expedition Join us on the Mir Shikar Peak Expediti0n, a thrilling adventure to a spectacular 6,100-meter trekking peak in the Miacher region of Nagar. As you traverse vivid meadows and climb steep ascents, you’ll be treated to stunning vistas of the Hunza Valley and the neighboring Karakoram range. This experience offers a gratifying climb and the opportunity to immerse yourself in the natural beauty and rich culture of one of Pakistan’s most enchanting places.",
     "tableHtml": "<table style=\"width: 332px; border-collapse: collapse; font-family: Arial, sans-serif; border: 1px solid #dddddd; height: 83px;\">\n<thead>\n<tr style=\"background-color: #339966; color: white; text-align: center;\">\n<th style=\"padding: 10px; border-bottom: 1px solid #ddd;\">The most Suitable Months</th>\n<th style=\"padding: 10px; border-bottom: 1px solid #ddd;\">Package Starting From</th>\n</tr>\n</thead>\n<tbody>\n<tr style=\"text-align: center;\">\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd; font-weight: bold; background-color: #e9f5e9;\">June &#8211; October</td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\">\n<h3><strong>USD 2000  Per Pax</strong></h3>\n</td>\n</tr>\n</tbody>\n</table>",
     "highlights": [
       "Full guided excursion for Mir Shikar Peak Expedition",
@@ -14101,50 +15412,90 @@ if (window.TOUR_DATA) {
     ],
     "itinerary": [
       {
-        "day": "Morning",
-        "title": "Departure & Pickup",
-        "desc": "Pickup from hotel/residence in private vehicle. Highway drive with refreshment stop."
+        "day": "Day 1",
+        "title": "Arrival in Islamabad",
+        "desc": "Airport transfer, hotel check-in, expedition briefing."
       },
       {
-        "day": "Afternoon",
-        "title": "Guided Exploration & Activity",
-        "desc": "Arrive at destination. Guided tour of key monuments, photography stops, and water activities."
+        "day": "Day 2",
+        "title": "Islamabad to Chilas",
+        "desc": "Highway drive along Karakoram Highway."
       },
       {
-        "day": "Evening",
-        "title": "Local Food Tasting & Return",
-        "desc": "Enjoy famous regional food & tea. Return drive with drop-off at your hotel by 07:00 PM."
+        "day": "Day 3",
+        "title": "Chilas to Hunza Valley (Karimabad)",
+        "desc": "Drive past Rakaposhi viewpoint to Karimabad."
+      },
+      {
+        "day": "Day 4",
+        "title": "Karimabad to Shimshal Village",
+        "desc": "Thrilling jeep road through Shimshal Gorge to remote Shimshal."
+      },
+      {
+        "day": "Day 5",
+        "title": "Shimshal to Past Furzin Camp",
+        "desc": "Begin trek into rugged Pamir mountains."
+      },
+      {
+        "day": "Day 6",
+        "title": "Past Furzin to Shimshal Pass Camp",
+        "desc": "Cross high pass meadows with wild yak herds."
+      },
+      {
+        "day": "Day 7",
+        "title": "Shimshal Pass Acclimatization",
+        "desc": "Day walk to Minglik Sar base."
+      },
+      {
+        "day": "Day 8",
+        "title": "Trek to Mir Shikar Basecamp",
+        "desc": "Ascend moraine to Mir Shikar Base camp."
+      },
+      {
+        "day": "Day 9",
+        "title": "Summit Push: Mir Shikar Peak (5,400m)",
+        "desc": "Early morning climb to summit of Mir Shikar Peak for 360 Karakoram views."
+      },
+      {
+        "day": "Day 10",
+        "title": "Reserve / Extra Weather Day",
+        "desc": "Safety cushion day for weather or extra exploration."
+      },
+      {
+        "day": "Day 11",
+        "title": "Descend to Shimshal Pass Camp",
+        "desc": "Return trek across high plateau."
+      },
+      {
+        "day": "Day 12",
+        "title": "Trek back to Shimshal Village",
+        "desc": "Descend gorge back to village."
+      },
+      {
+        "day": "Day 13",
+        "title": "Shimshal to Hunza Valley",
+        "desc": "Jeep drive back to Karimabad."
+      },
+      {
+        "day": "Day 14",
+        "title": "Hunza to Besham / Naran",
+        "desc": "Return drive along KKH."
+      },
+      {
+        "day": "Day 15",
+        "title": "Return to Islamabad & Airport Drop-off",
+        "desc": "Final drop off at airport."
       }
     ],
     "packages": [
       {
-        "name": "Standard Package",
-        "price": "Inquire for Pricing",
+        "name": "Standard Expedition Package",
+        "price": "$2,000",
         "status": "available",
         "features": [
-          "AC Coaster / Sedan Transport",
-          "Standard Hotel / Day Trip",
-          "Driver & Fuel Included"
-        ]
-      },
-      {
-        "name": "Deluxe Package",
-        "price": "Contact for Quote",
-        "status": "available",
-        "features": [
-          "AC Grand Cabin / Prado",
-          "Deluxe Hotel / Private Guide",
-          "Full Inclusions"
-        ]
-      },
-      {
-        "name": "Executive Package",
-        "price": "Contact for Quote",
-        "status": "available",
-        "features": [
-          "Luxury 4x4 Prado / SUV",
-          "Luxury 4-Star / 5-Star Hotel",
-          "VIP Concierge & Protocol"
+          "Full mountain expedition crew",
+          "Climbing permits & equipment",
+          "All transport & full meals"
         ]
       }
     ],
@@ -14171,10 +15522,10 @@ if (window.TOUR_DATA) {
     "maxGroup": "1 - 20 Persons",
     "difficulty": "Easy / Cultural",
     "image": "images/foreign/card_9.webp",
-    "price": "Inquire for Pricing",
-    "originalPrice": "Contact for Quote",
+    "price": "$1,050",
+    "originalPrice": "$1,250",
     "departureDay": "Daily Departures & Fixed Schedules",
-    "about": "Overview Safar Silsila Offers Rakhiot Peak Trek Package for their beloved clients. If you are looking for comfortable Trip to North Pakistan in one go then you are at right place. We have a Various range of trekking tours in north Pakistan . People who are looking for adventurous tours then these Tour Package are recommended. Rakhiot Peak Trek Join the Rakhiot Peak Trak, a spectacular journey in northern Pakistan that takes you through the stunning sceneries of Fairy Meadows. This hike provides breathtaking views of Nanga Parbat, the world’s ninth-highest summit, as well as the magnificent Rakhiot Glacier. The tour is ideal for adventurers of all skill levels, with vivid meadows, towering mountains, and calm wilderness. Discover nature’s splendor on this unforgettable journey that delivers both excitement and peace. Dates &amp; Cost Summers are ideal for the Rakhiot Peak Trek . The months mentioned below are the ideal months for trekking in the Hindukush region of Pakistan. We have guaranteed departures every year. The suitable months and costs are given below. The most Suitable Months Package Starting From June &#8211; October USD 1050 Per Pax FOR BOOKINGS &amp; INQURIES: EMAIL: info@safarsilsila.com WHATSAPP: +92 311 1145456 Follow us on Instagram: Safar Silsila Also Recommended: Koyo Zom Trek &nbsp; &nbsp; &nbsp;",
+    "about": "Rakhiot Peak Trek Join the Rakhiot Peak Trak, a spectacular journey in northern Pakistan that takes you through the stunning sceneries of Fairy Meadows. This hike provides breathtaking views of Nanga Parbat, the world’s ninth-highest summit, as well as the magnificent Rakhiot Glacier. The tour is ideal for adventurers of all skill levels, with vivid meadows, towering mountains, and calm wilderness. Discover nature’s splendor on this unforgettable journey that delivers both excitement and peace.",
     "tableHtml": "<table style=\"width: 393px; border-collapse: collapse; font-family: Arial, sans-serif; border: 1px solid #dddddd; height: 81px;\">\n<thead>\n<tr style=\"background-color: #339966; color: white; text-align: center;\">\n<th style=\"padding: 10px; border-bottom: 1px solid #ddd;\">The most Suitable Months</th>\n<th style=\"padding: 10px; border-bottom: 1px solid #ddd;\">Package Starting From</th>\n</tr>\n</thead>\n<tbody>\n<tr style=\"text-align: center;\">\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd; font-weight: bold; background-color: #e9f5e9;\">June &#8211; October</td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\">\n<h3><strong>USD 1050  Per Pax</strong></h3>\n</td>\n</tr>\n</tbody>\n</table>",
     "highlights": [
       "Full guided excursion for Rakhiot Peak Trek",
@@ -14197,50 +15548,55 @@ if (window.TOUR_DATA) {
     ],
     "itinerary": [
       {
-        "day": "Morning",
-        "title": "Departure & Pickup",
-        "desc": "Pickup from hotel/residence in private vehicle. Highway drive with refreshment stop."
+        "day": "Day 1",
+        "title": "Islamabad to Raikot Bridge",
+        "desc": "Drive along Karakoram Highway."
       },
       {
-        "day": "Afternoon",
-        "title": "Guided Exploration & Activity",
-        "desc": "Arrive at destination. Guided tour of key monuments, photography stops, and water activities."
+        "day": "Day 2",
+        "title": "Raikot to Tattu & Trek to Fairy Meadows",
+        "desc": "4x4 Jeep ride & hike up to Fairy Meadows."
       },
       {
-        "day": "Evening",
-        "title": "Local Food Tasting & Return",
-        "desc": "Enjoy famous regional food & tea. Return drive with drop-off at your hotel by 07:00 PM."
+        "day": "Day 3",
+        "title": "Fairy Meadows to Beyal Camp",
+        "desc": "Trek through pine woods to alpine Beyal Camp."
+      },
+      {
+        "day": "Day 4",
+        "title": "Beyal Camp to Rakhiot Peak High Camp",
+        "desc": "Ascend glaciated moraine towards Rakhiot Peak."
+      },
+      {
+        "day": "Day 5",
+        "title": "Rakhiot Viewpoint Exploration",
+        "desc": "High ridge exploration & Nanga Parbat north face view."
+      },
+      {
+        "day": "Day 6",
+        "title": "Descend to Fairy Meadows",
+        "desc": "Return hike to Fairy Meadows cottages."
+      },
+      {
+        "day": "Day 7",
+        "title": "Tattu Jeep to Raikot & Drive to Besham",
+        "desc": "Return highway drive."
+      },
+      {
+        "day": "Day 8",
+        "title": "Besham to Islamabad & Drop-off",
+        "desc": "Final drive to Islamabad."
       }
     ],
     "packages": [
       {
         "name": "Standard Package",
-        "price": "Inquire for Pricing",
+        "price": "$1,050",
         "status": "available",
         "features": [
-          "AC Coaster / Sedan Transport",
-          "Standard Hotel / Day Trip",
-          "Driver & Fuel Included"
-        ]
-      },
-      {
-        "name": "Deluxe Package",
-        "price": "Contact for Quote",
-        "status": "available",
-        "features": [
-          "AC Grand Cabin / Prado",
-          "Deluxe Hotel / Private Guide",
-          "Full Inclusions"
-        ]
-      },
-      {
-        "name": "Executive Package",
-        "price": "Contact for Quote",
-        "status": "available",
-        "features": [
-          "Luxury 4x4 Prado / SUV",
-          "Luxury 4-Star / 5-Star Hotel",
-          "VIP Concierge & Protocol"
+          "Full guided trekking setup",
+          "All jeep & road transport",
+          "Hotels & high tents"
         ]
       }
     ],
@@ -14267,10 +15623,10 @@ if (window.TOUR_DATA) {
     "maxGroup": "1 - 20 Persons",
     "difficulty": "Easy / Cultural",
     "image": "images/foreign/card_10.webp",
-    "price": "Inquire for Pricing",
-    "originalPrice": "Contact for Quote",
+    "price": "$2,900",
+    "originalPrice": "$3,300",
     "departureDay": "Daily Departures & Fixed Schedules",
-    "about": "Overview Safar Silsila Offers Mazeno Pass Trek (22 Days) Package for their beloved clients. If you are looking for comfortable Trip to North Pakistan in one go then you are at right place. We have a Various range of trekking tours in north Pakistan . People who are looking for adventurous tours then these Tour Package are recommended. Safar Silsila is known for planning and executing the best tours in North Pakistan, including trekking tours, Cycling Tours, Camping Tours, Cultural Tours and much more. Please visit our website to get the complete details of available Pakistan Tour Package. Our tour guides and other local support staff enable a host-guest environment in North Pakistan which others fail to deliver. Mazeno Pass Trek – 22 Days Mazeno Pass Trek is a circular adventure in the Western Himalayan region of Pakistan. More recently, it has become a very popular destination for mountaineering enthusiasts and trekkers from all over the world. The trek provides a circular perspective to all mountain lovers. Dates &amp; Cost – Mazeno Pass Trek (22 Days) Summers are considered the best trekking season in the Himalayan and Karakoram regions of Pakistan. . We have at least 2 guaranteed departures every year. The suitable months and costs are given below. The most Suitable Months Package Starting From June &#8211; October USD 2900 Per Pax &nbsp; FOR BOOKINGS &amp; INQURIES: EMAIL: info@safarsilsila.com WHATSAPP: +92 311 1145456 Follow us on Instagram: Safar Silsila Also Recommended: Ghilam Harish Treka &nbsp; &nbsp; &nbsp;",
+    "about": "Mazeno Pass Trek – 22 Days Mazeno Pass Trek is a circular adventure in the Western Himalayan region of Pakistan. More recently, it has become a very popular destination for mountaineering enthusiasts and trekkers from all over the world. The trek provides a circular perspective to all mountain lovers.",
     "tableHtml": "<table style=\"width: 399px; border-collapse: collapse; font-family: Arial, sans-serif; border: 1px solid #dddddd; height: 83px;\">\n<thead>\n<tr style=\"background-color: #339966; color: white; text-align: center;\">\n<th style=\"padding: 10px; border-bottom: 1px solid #ddd;\">The most Suitable Months</th>\n<th style=\"padding: 10px; border-bottom: 1px solid #ddd;\">Package Starting From</th>\n</tr>\n</thead>\n<tbody>\n<tr style=\"text-align: center;\">\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd; font-weight: bold; background-color: #e9f5e9;\">June &#8211; October</td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\">\n<h3><strong>USD 2900  Per Pax</strong></h3>\n</td>\n</tr>\n</tbody>\n</table><br><table id=\"supsystic-table-79\" class=\"supsystic-table border lightboxImg cell-border dataTable no-footer\" role=\"grid\" data-id=\"79\" data-view-id=\"79_77059\" data-title=\"K2 Treks - Trekking Accommodation and Meals\" data-currency-format=\"$1,000.\" data-percent-format=\"10.00%\" data-date-format=\"DD.MM.YYYY\" data-time-format=\"HH:mm\" data-features=\"[&quot;after_table_loaded_script&quot;,&quot;auto_width&quot;]\" data-search-value=\"\" data-lightbox-img=\"\" data-head-rows-count=\"4\" data-pagination-length=\"50,100,All\" data-auto-index=\"off\" data-searching-settings=\"{&quot;minChars&quot;:&quot;0&quot;}\" data-lang=\"default\" data-override=\"{&quot;emptyTable&quot;:&quot;&quot;,&quot;info&quot;:&quot;&quot;,&quot;infoEmpty&quot;:&quot;&quot;,&quot;infoFiltered&quot;:&quot;&quot;,&quot;lengthMenu&quot;:&quot;&quot;,&quot;search&quot;:&quot;&quot;,&quot;zeroRecords&quot;:&quot;&quot;,&quot;exportLabel&quot;:&quot;&quot;,&quot;file&quot;:&quot;default&quot;}\" data-merged=\"[]\" data-responsive-mode=\"0\" data-from-history=\"0\">\n<thead>\n<tr role=\"row\">\n<th class=\"\" colspan=\"1\" rowspan=\"1\" data-original-value=\"\" data-order=\"\"> </th>\n<th class=\"\" colspan=\"1\" rowspan=\"1\" data-original-value=\"\" data-order=\"\"> </th>\n</tr>\n</thead>\n<tbody>\n<tr class=\"odd\">\n<td class=\"color-ffffff bold fsize-12 bg-00ab33 htLeft htMiddle\" data-cell-id=\"A1\" data-x=\"0\" data-y=\"1\" data-db-index=\"1\" data-cell-type=\"text\" data-original-value=\"Accommodation\" data-order=\"Accommodation\">Accommodation</td>\n<td class=\"fsize-12 color-000000 htLeft htMiddle bg-e9ebee\" style=\"border-top: none;border-right: 1px solid #dddddd;border-bottom: none;border-left: none;margin: 0px;padding: 8px 10px;background: #e9ebee;color: #000000;text-align: left;vertical-align: middle;font-size: 12px;line-height: 18px\" data-cell-id=\"B1\" data-x=\"1\" data-y=\"1\" data-db-index=\"1\" data-cell-type=\"text\" data-original-value=\"Camping in twin-sharing dome tent &lt;a href=&quot;# target=&quot;_self&quot;&gt;(see pictures)&lt;/a&gt;\" data-order=\"Camping in twin-sharing dome tent &lt;a href=&quot;# target=&quot;_self&quot;&gt;(see pictures)&lt;/a&gt;\">Camping in twin-sharing dome tent <a href=\\\"#\\\" target=\\\"_self\\\">(see pictures)</a></td>\n</tr>\n<tr class=\"even\">\n<td class=\"color-ffffff bold fsize-12 bg-00ab33 htLeft htMiddle\" data-cell-id=\"A2\" data-x=\"0\" data-y=\"2\" data-db-index=\"2\" data-cell-type=\"text\" data-original-value=\"Meals\" data-order=\"Meals\">Meals</td>\n<td class=\"fsize-12 color-000000 htLeft htMiddle bg-e9ebee\" data-cell-id=\"B2\" data-x=\"1\" data-y=\"2\" data-db-index=\"2\" data-cell-type=\"text\" data-original-value=\"Breakfast, lunch and dinner + snacks (dry fruit/chocolate) for trek, appetizer (soup/fried-snacks) before dinner and dessert/fruits after dinner\" data-order=\"Breakfast, lunch and dinner + snacks (dry fruit/chocolate) for trek, appetizer (soup/fried-snacks) before dinner and dessert/fruits after dinner\">Breakfast, lunch and dinner + snacks (dry fruit/chocolate) for trek, appetizer (soup/fried-snacks) before dinner and dessert/fruits after dinner</td>\n</tr>\n</tbody>\n</table>",
     "highlights": [
       "Full guided excursion for Mazeno Pass Trek – 22 Days",
@@ -14293,50 +15649,125 @@ if (window.TOUR_DATA) {
     ],
     "itinerary": [
       {
-        "day": "Morning",
-        "title": "Departure & Pickup",
-        "desc": "Pickup from hotel/residence in private vehicle. Highway drive with refreshment stop."
+        "day": "Day 1",
+        "title": "Arrival in Islamabad",
+        "desc": "Full day expedition logistics, glaciated pass trek, and mountain guidance across Nanga Parbat circuit."
       },
       {
-        "day": "Afternoon",
-        "title": "Guided Exploration & Activity",
-        "desc": "Arrive at destination. Guided tour of key monuments, photography stops, and water activities."
+        "day": "Day 2",
+        "title": "Mazeno Circuit Stage 1",
+        "desc": "Full day expedition logistics, glaciated pass trek, and mountain guidance across Nanga Parbat circuit."
       },
       {
-        "day": "Evening",
-        "title": "Local Food Tasting & Return",
-        "desc": "Enjoy famous regional food & tea. Return drive with drop-off at your hotel by 07:00 PM."
+        "day": "Day 3",
+        "title": "Mazeno Circuit Stage 2",
+        "desc": "Full day expedition logistics, glaciated pass trek, and mountain guidance across Nanga Parbat circuit."
+      },
+      {
+        "day": "Day 4",
+        "title": "Mazeno Circuit Stage 3",
+        "desc": "Full day expedition logistics, glaciated pass trek, and mountain guidance across Nanga Parbat circuit."
+      },
+      {
+        "day": "Day 5",
+        "title": "Mazeno Circuit Stage 4",
+        "desc": "Full day expedition logistics, glaciated pass trek, and mountain guidance across Nanga Parbat circuit."
+      },
+      {
+        "day": "Day 6",
+        "title": "Mazeno Circuit Stage 5",
+        "desc": "Full day expedition logistics, glaciated pass trek, and mountain guidance across Nanga Parbat circuit."
+      },
+      {
+        "day": "Day 7",
+        "title": "Mazeno Circuit Stage 6",
+        "desc": "Full day expedition logistics, glaciated pass trek, and mountain guidance across Nanga Parbat circuit."
+      },
+      {
+        "day": "Day 8",
+        "title": "Mazeno Circuit Stage 7",
+        "desc": "Full day expedition logistics, glaciated pass trek, and mountain guidance across Nanga Parbat circuit."
+      },
+      {
+        "day": "Day 9",
+        "title": "Mazeno Circuit Stage 8",
+        "desc": "Full day expedition logistics, glaciated pass trek, and mountain guidance across Nanga Parbat circuit."
+      },
+      {
+        "day": "Day 10",
+        "title": "Mazeno Circuit Stage 9",
+        "desc": "Full day expedition logistics, glaciated pass trek, and mountain guidance across Nanga Parbat circuit."
+      },
+      {
+        "day": "Day 11",
+        "title": "Mazeno Circuit Stage 10",
+        "desc": "Full day expedition logistics, glaciated pass trek, and mountain guidance across Nanga Parbat circuit."
+      },
+      {
+        "day": "Day 12",
+        "title": "Mazeno Circuit Stage 11",
+        "desc": "Full day expedition logistics, glaciated pass trek, and mountain guidance across Nanga Parbat circuit."
+      },
+      {
+        "day": "Day 13",
+        "title": "Mazeno Circuit Stage 12",
+        "desc": "Full day expedition logistics, glaciated pass trek, and mountain guidance across Nanga Parbat circuit."
+      },
+      {
+        "day": "Day 14",
+        "title": "Mazeno Circuit Stage 13",
+        "desc": "Full day expedition logistics, glaciated pass trek, and mountain guidance across Nanga Parbat circuit."
+      },
+      {
+        "day": "Day 15",
+        "title": "Mazeno Circuit Stage 14",
+        "desc": "Full day expedition logistics, glaciated pass trek, and mountain guidance across Nanga Parbat circuit."
+      },
+      {
+        "day": "Day 16",
+        "title": "Mazeno Circuit Stage 15",
+        "desc": "Full day expedition logistics, glaciated pass trek, and mountain guidance across Nanga Parbat circuit."
+      },
+      {
+        "day": "Day 17",
+        "title": "Mazeno Circuit Stage 16",
+        "desc": "Full day expedition logistics, glaciated pass trek, and mountain guidance across Nanga Parbat circuit."
+      },
+      {
+        "day": "Day 18",
+        "title": "Mazeno Circuit Stage 17",
+        "desc": "Full day expedition logistics, glaciated pass trek, and mountain guidance across Nanga Parbat circuit."
+      },
+      {
+        "day": "Day 19",
+        "title": "Mazeno Circuit Stage 18",
+        "desc": "Full day expedition logistics, glaciated pass trek, and mountain guidance across Nanga Parbat circuit."
+      },
+      {
+        "day": "Day 20",
+        "title": "Mazeno Circuit Stage 19",
+        "desc": "Full day expedition logistics, glaciated pass trek, and mountain guidance across Nanga Parbat circuit."
+      },
+      {
+        "day": "Day 21",
+        "title": "Mazeno Circuit Stage 20",
+        "desc": "Full day expedition logistics, glaciated pass trek, and mountain guidance across Nanga Parbat circuit."
+      },
+      {
+        "day": "Day 22",
+        "title": "Islamabad Departure",
+        "desc": "Full day expedition logistics, glaciated pass trek, and mountain guidance across Nanga Parbat circuit."
       }
     ],
     "packages": [
       {
-        "name": "Standard Package",
-        "price": "Inquire for Pricing",
+        "name": "Expedition Circuit Package",
+        "price": "$2,900",
         "status": "available",
         "features": [
-          "AC Coaster / Sedan Transport",
-          "Standard Hotel / Day Trip",
-          "Driver & Fuel Included"
-        ]
-      },
-      {
-        "name": "Deluxe Package",
-        "price": "Contact for Quote",
-        "status": "available",
-        "features": [
-          "AC Grand Cabin / Prado",
-          "Deluxe Hotel / Private Guide",
-          "Full Inclusions"
-        ]
-      },
-      {
-        "name": "Executive Package",
-        "price": "Contact for Quote",
-        "status": "available",
-        "features": [
-          "Luxury 4x4 Prado / SUV",
-          "Luxury 4-Star / 5-Star Hotel",
-          "VIP Concierge & Protocol"
+          "Full 22-day expedition support",
+          "High pass permits & mountain guides",
+          "All logistics & meals"
         ]
       }
     ],
@@ -14363,10 +15794,10 @@ if (window.TOUR_DATA) {
     "maxGroup": "1 - 20 Persons",
     "difficulty": "Easy / Cultural",
     "image": "images/foreign/card_11.webp",
-    "price": "Inquire for Pricing",
-    "originalPrice": "Contact for Quote",
+    "price": "$1,230",
+    "originalPrice": "$1,450",
     "departureDay": "Daily Departures & Fixed Schedules",
-    "about": "Overview Safar Silsila Presents Motorbike Tour to Hunza,Skardu &amp; Fairy Meadows for their Beloved Clients. Enjoy your Special Moments at biking Trip with us and make your moments more Memorable with your Love ones. If you are looking for Travelling with your Loved ones for biking Trip to Hunza, Nagar, Naltar and Gilgit in one go then just DM us &amp; book your Trip now with us. EXPLORE PAKISTAN : Hunza, Skardu &amp; Fairy Meadows | Lahore | Islamabad (13 Days Trip |by Road) Join us for a memorable trip to North Pakistan, where you can enjoy beautiful landscapes, fresh air, and peaceful surroundings. This tour offers the perfect mix of adventure and relaxation in one of the most scenic regions of the country. Cost – Motorbike Tour to Hunza,Skardu &amp; Fairy Meadows (13 Days Trip) All seasons are considered good for sightseeing in the northern areas of Pakistan. Considering the flow of tourists and demand for Biking Motorbike Tour to Hunza,Skardu &amp; Fairy Meadows , we are available for this Trip according to Client’s Choice. Our costs for this tour are given below. Package Price: Package Type Standard Deluxe Executive Per Pax Price USD 1230 PER PAX USD 1600 Per Pax USD 2500 Per Pax DAY 04 TO DAY 07 ON BIKES ONLY Hotel Details: All hotels are subject to availability and can be changed according to the circumstances. In such case the equivalent hotel to the said hotel will be provided Hotels Standard Deluxe Executive Islamabad Green Line Motel Hotel Red Line Grand Islamabad Hotel Envoy Continental Hotel Grand Hotel Roomy Ramada Hotel Hill View Best Western Naran Valley Cloud Way Hotel Gateway Hotel Hotel Home Northern Retreat Fairyland Hotel Hotel Sarai Maisonette Hotel and Resort Gilgit Gateway Hotel Alpine Guest House Duroyou Inn Gilgit Heritage Hotel Mandarin Inn Hotel Serena Hotel Gilgit Riverdale Hotel Hunza Valley Hunza Hidden Palace Darvesh Hotel Campo de Berg Grand Motel Hunza Tribes and Tales Passu Tourist Lodges Monarch Resort Famree Resort Hunza Darbar Luxus Hotel Attabad Lake Hard Rocks Besham Ramada Hotel Besham Continental Besham Hilton Hotel Besham Hilton Hotel Besham Continental Skardu Trout Villa Hotel Skardu Viewpoint Baltistan Resort Space Hotel Shigar Maple Hotel Himalaya Inn La Vista Resort Shangrila Hotel Khoj Resort Serena Hotel Shigar Valley Serena Hotel Khaplu Valley Byrsa Lahore Hotel Shanghai Mars Hotel Lahore Continental Fallet&#8217;s Express Hotel Hilton Suites Ramada by Wyndham Four Points Inn FOR BOOKINGS &amp; INQURIES: EMAIL: info@safarsilsila.com WHATSAPP: +92 311 1145456 Follow us on Instagram: Safar Silsila Also Recommended: Bike Tour to Hunza: Nagar, Naltar and Gilgit",
+    "about": "Overview Safar Silsila Presents Motorbike Tour to Hunza,Skardu & Fairy Meadows for their Beloved Clients. Enjoy your Special Moments at biking Trip with us and make your moments more Memorable with your Love ones. If you are looking for Travelling with your Loved ones for biking Trip to Hunza, Nagar, Naltar and Gilgit in one go then just DM us & book your Trip now with us. EXPLORE PAKISTAN : Hunza, Skardu & Fairy Meadows | Lahore | Islamabad (13 Days Trip |by Road) Join us for a memorable trip to North Pakistan, where you can enjoy beautiful landscapes, fresh air, and peaceful surroundings. This tour offers the perfect mix of adventure and relaxation in one of the most scenic regions of the country. Cost – Motorbike Tour to Hunza,Skardu & Fairy Meadows (13 Days Trip) All seasons are considered good for sightseeing in the northern areas of Pakistan. Considering the flow of tourists and demand for Biking Motorbike Tour to Hunza,Skardu & Fairy Meadows , we are available for this Trip according to Client’s Choice. Our costs for this tour are given below. Package Price: Package Type Standard Deluxe Executive Per Pax Price USD 1230 PER PAX USD 1600 Per Pax USD 2500 Per Pax DAY 04 TO DAY 07 ON BIKES ONLY Hotel Details: All hotels are subject to availability and can be changed according to the circumstances. In such case the equivalent hotel to the said hotel will be provided Hotels Standard Deluxe Executive Islamabad Green Line Motel Hotel Red Line Grand Islamabad Hotel Envoy Continental Hotel Grand Hotel Roomy Ramada Hotel Hill View Best Western Naran Valley Cloud Way Hotel Gateway Hotel Hotel Home Northern Retreat Fairyland Hotel Hotel Sarai Maisonette Hotel and Resort Gilgit Gateway Hotel Alpine Guest House Duroyou Inn Gilgit Heritage Hotel Mandarin Inn Hotel Serena Hotel Gilgit Riverdale Hotel Hunza Valley Hunza Hidden Palace Darvesh Hotel Campo de Berg Grand Motel Hunza Tribes and Tales Passu Tourist Lodges Monarch Resort Famree Resort Hunza Darbar Luxus Hotel Attabad Lake Hard Rocks Besham Ramada Hotel Besham Continental Besham Hilton Hotel Besham Hilton Hotel Besham Continental Skardu Trout Villa Hotel Skardu Viewpoint Baltistan Resort Space Hotel Shigar Maple Hotel Himalaya Inn La Vista Resort Shangrila Hotel Khoj Resort Serena Hotel Shigar Valley Serena Hotel Khaplu Valley Byrsa Lahore Hotel Shanghai Mars Hotel Lahore Continental Fallet&#8217;s Express Hotel Hilton Suites Ramada by Wyndham Four Points Inn",
     "tableHtml": "<table style=\"width: 563px; border-collapse: collapse; font-family: Arial, sans-serif; border: 1px solid #dddddd; height: 100px;\">\n<thead>\n<tr style=\"background-color: #339966; color: white; text-align: center;\">\n<th style=\"padding: 10px; border: 1px solid #ddd;\">Package Type</th>\n<th style=\"padding: 10px; border: 1px solid #ddd;\">Standard</th>\n<th style=\"padding: 10px; border: 1px solid #ddd;\">Deluxe</th>\n<th style=\"padding: 10px; border: 1px solid #ddd;\">Executive</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td style=\"padding: 10px; border: 1px solid #dddddd; font-weight: bold; background-color: #e9f5e9; text-align: center;\">Per Pax Price</td>\n<td style=\"padding: 10px; border: 1px solid #dddddd; text-align: center;\"><strong>USD 1230 PER PAX</strong></td>\n<td style=\"padding: 10px; border: 1px solid #dddddd; text-align: center;\"><strong>USD 1600 Per Pax</strong></td>\n<td style=\"padding: 10px; border: 1px solid #dddddd; text-align: center;\"><strong>USD 2500 Per Pax</strong></td>\n</tr>\n<tr style=\"background-color: #f9f9f9;\">\n<td style=\"padding: 10px; border: 1px solid #ddd; font-weight: bold; background-color: #e9f5e9;\"></td>\n<td style=\"padding: 10px; border: 1px solid #ddd;\"></td>\n<td style=\"padding: 10px; border: 1px solid #ddd;\"></td>\n<td style=\"padding: 10px; border: 1px solid #ddd;\"></td>\n</tr>\n</tbody>\n</table><br><table style=\"width: 846px; border-collapse: collapse; font-family: Arial, sans-serif; border: 1px solid #dddddd; height: 915px;\">\n<thead>\n<tr style=\"background-color: #339966; color: white; text-align: center;\">\n<th style=\"padding: 10px; border: 1px solid #ddd;\">Hotels</th>\n<th style=\"padding: 10px; border: 1px solid #ddd;\">Standard</th>\n<th style=\"padding: 10px; border: 1px solid #ddd;\">Deluxe</th>\n<th style=\"padding: 10px; border: 1px solid #ddd;\">Executive</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td style=\"padding: 10px; border: 1px solid #ddd; font-weight: bold; background-color: #e9f5e9;\">Islamabad</td>\n<td style=\"padding: 10px; border: 1px solid #ddd;\">\n<ul>\n<li>Green Line Motel</li>\n<li>Hotel Red Line</li>\n</ul>\n</td>\n<td style=\"padding: 10px; border: 1px solid #ddd;\">\n<ul>\n<li>Grand Islamabad Hotel</li>\n<li>Envoy Continental Hotel</li>\n<li>Grand Hotel</li>\n</ul>\n</td>\n<td style=\"padding: 10px; border: 1px solid #ddd;\">\n<ul>\n<li>Roomy</li>\n<li>Ramada Hotel</li>\n<li>Hill View</li>\n<li>Best Western</li>\n</ul>\n</td>\n</tr>\n<tr style=\"background-color: #f9f9f9;\">\n<td style=\"padding: 10px; border: 1px solid #ddd; font-weight: bold; background-color: #e9f5e9;\">Naran Valley</td>\n<td style=\"padding: 10px; border: 1px solid #ddd;\">\n<ul>\n<li>Cloud Way Hotel</li>\n<li>Gateway Hotel</li>\n</ul>\n</td>\n<td style=\"padding: 10px; border: 1px solid #ddd;\">\n<ul>\n<li>Hotel Home</li>\n<li>Northern Retreat</li>\n<li>Fairyland Hotel</li>\n</ul>\n</td>\n<td style=\"padding: 10px; border: 1px solid #ddd;\">\n<ul>\n<li>Hotel Sarai</li>\n<li>Maisonette Hotel and Resort</li>\n</ul>\n</td>\n</tr>\n<tr>\n<td style=\"padding: 10px; border: 1px solid #ddd; font-weight: bold; background-color: #e9f5e9;\">Gilgit</td>\n<td style=\"padding: 10px; border: 1px solid #ddd;\">\n<ul>\n<li>Gateway Hotel</li>\n<li>Alpine Guest House</li>\n</ul>\n</td>\n<td style=\"padding: 10px; border: 1px solid #ddd;\">\n<ul>\n<li>Duroyou Inn Gilgit</li>\n<li>Heritage Hotel</li>\n<li>Mandarin Inn Hotel</li>\n</ul>\n</td>\n<td style=\"padding: 10px; border: 1px solid #ddd;\">\n<ul>\n<li>Serena Hotel Gilgit</li>\n<li>Riverdale Hotel</li>\n</ul>\n</td>\n</tr>\n<tr style=\"background-color: #f9f9f9;\">\n<td style=\"padding: 10px; border: 1px solid #ddd; font-weight: bold; background-color: #e9f5e9;\">Hunza Valley</td>\n<td style=\"padding: 10px; border: 1px solid #ddd;\">\n<ul>\n<li>Hunza Hidden Palace</li>\n<li>Darvesh Hotel</li>\n<li>Campo de Berg</li>\n<li>Grand Motel Hunza</li>\n</ul>\n</td>\n<td style=\"padding: 10px; border: 1px solid #ddd;\">\n<ul>\n<li>Tribes and Tales</li>\n<li>Passu Tourist Lodges</li>\n<li>Monarch Resort</li>\n<li>Famree Resort</li>\n</ul>\n</td>\n<td style=\"padding: 10px; border: 1px solid #ddd;\">\n<ul>\n<li>Hunza Darbar</li>\n<li>Luxus Hotel Attabad Lake</li>\n<li>Hard Rocks</li>\n</ul>\n</td>\n</tr>\n<tr>\n<td style=\"padding: 10px; border: 1px solid #ddd; font-weight: bold; background-color: #e9f5e9;\">Besham</td>\n<td style=\"padding: 10px; border: 1px solid #ddd;\">\n<ul>\n<li>Ramada Hotel</li>\n<li>Besham Continental</li>\n</ul>\n</td>\n<td style=\"padding: 10px; border: 1px solid #ddd;\">\n<ul>\n<li>Besham Hilton Hotel</li>\n</ul>\n</td>\n<td style=\"padding: 10px; border: 1px solid #ddd;\">\n<ul>\n<li>Besham Hilton Hotel</li>\n<li>Besham Continental</li>\n</ul>\n</td>\n</tr>\n<tr style=\"background-color: #f9f9f9;\">\n<td style=\"padding: 10px; border: 1px solid #ddd; font-weight: bold; background-color: #e9f5e9;\">Skardu</td>\n<td style=\"padding: 10px; border: 1px solid #ddd;\">\n<ul>\n<li>Trout Villa Hotel</li>\n<li>Skardu Viewpoint</li>\n<li>Baltistan Resort</li>\n<li>Space Hotel Shigar</li>\n</ul>\n</td>\n<td style=\"padding: 10px; border: 1px solid #ddd;\">\n<ul>\n<li>Maple Hotel</li>\n<li>Himalaya Inn</li>\n<li>La Vista Resort</li>\n</ul>\n</td>\n<td style=\"padding: 10px; border: 1px solid #ddd;\">\n<ul>\n<li>Shangrila Hotel</li>\n<li>Khoj Resort</li>\n<li>Serena Hotel Shigar Valley</li>\n<li>Serena Hotel Khaplu Valley</li>\n<li>Byrsa</li>\n</ul>\n</td>\n</tr>\n<tr>\n<td style=\"padding: 10px; border: 1px solid #ddd; font-weight: bold; background-color: #e9f5e9;\">Lahore</td>\n<td style=\"padding: 10px; border: 1px solid #ddd;\">\n<ul>\n<li>Hotel Shanghai</li>\n<li>Mars Hotel</li>\n</ul>\n</td>\n<td style=\"padding: 10px; border: 1px solid #ddd;\">\n<ul>\n<li>Lahore Continental</li>\n<li>Fallet&#8217;s Express Hotel</li>\n</ul>\n</td>\n<td style=\"padding: 10px; border: 1px solid #ddd;\">\n<ul>\n<li>Hilton Suites</li>\n<li>Ramada by Wyndham</li>\n<li>Four Points Inn</li>\n</ul>\n</td>\n</tr>\n</tbody>\n</table>",
     "highlights": [
       "Full guided excursion for Motorbike Tour to Hunza,Skardu & Fairy Meadows | Lahore | Islamabad (13 Days Trip)",
@@ -14389,50 +15820,80 @@ if (window.TOUR_DATA) {
     ],
     "itinerary": [
       {
-        "day": "Morning",
-        "title": "Departure & Pickup",
-        "desc": "Pickup from hotel/residence in private vehicle. Highway drive with refreshment stop."
+        "day": "Day 1",
+        "title": "Islamabad / Lahore Rider Assembly",
+        "desc": "Riding dual-sport 150cc/500cc motorbikes through Hunza, Skardu, Attabad Lake & Deosai Plains."
       },
       {
-        "day": "Afternoon",
-        "title": "Guided Exploration & Activity",
-        "desc": "Arrive at destination. Guided tour of key monuments, photography stops, and water activities."
+        "day": "Day 2",
+        "title": "Karakoram Bike Stage 1",
+        "desc": "Riding dual-sport 150cc/500cc motorbikes through Hunza, Skardu, Attabad Lake & Deosai Plains."
       },
       {
-        "day": "Evening",
-        "title": "Local Food Tasting & Return",
-        "desc": "Enjoy famous regional food & tea. Return drive with drop-off at your hotel by 07:00 PM."
+        "day": "Day 3",
+        "title": "Karakoram Bike Stage 2",
+        "desc": "Riding dual-sport 150cc/500cc motorbikes through Hunza, Skardu, Attabad Lake & Deosai Plains."
+      },
+      {
+        "day": "Day 4",
+        "title": "Karakoram Bike Stage 3",
+        "desc": "Riding dual-sport 150cc/500cc motorbikes through Hunza, Skardu, Attabad Lake & Deosai Plains."
+      },
+      {
+        "day": "Day 5",
+        "title": "Karakoram Bike Stage 4",
+        "desc": "Riding dual-sport 150cc/500cc motorbikes through Hunza, Skardu, Attabad Lake & Deosai Plains."
+      },
+      {
+        "day": "Day 6",
+        "title": "Karakoram Bike Stage 5",
+        "desc": "Riding dual-sport 150cc/500cc motorbikes through Hunza, Skardu, Attabad Lake & Deosai Plains."
+      },
+      {
+        "day": "Day 7",
+        "title": "Karakoram Bike Stage 6",
+        "desc": "Riding dual-sport 150cc/500cc motorbikes through Hunza, Skardu, Attabad Lake & Deosai Plains."
+      },
+      {
+        "day": "Day 8",
+        "title": "Karakoram Bike Stage 7",
+        "desc": "Riding dual-sport 150cc/500cc motorbikes through Hunza, Skardu, Attabad Lake & Deosai Plains."
+      },
+      {
+        "day": "Day 9",
+        "title": "Karakoram Bike Stage 8",
+        "desc": "Riding dual-sport 150cc/500cc motorbikes through Hunza, Skardu, Attabad Lake & Deosai Plains."
+      },
+      {
+        "day": "Day 10",
+        "title": "Karakoram Bike Stage 9",
+        "desc": "Riding dual-sport 150cc/500cc motorbikes through Hunza, Skardu, Attabad Lake & Deosai Plains."
+      },
+      {
+        "day": "Day 11",
+        "title": "Karakoram Bike Stage 10",
+        "desc": "Riding dual-sport 150cc/500cc motorbikes through Hunza, Skardu, Attabad Lake & Deosai Plains."
+      },
+      {
+        "day": "Day 12",
+        "title": "Karakoram Bike Stage 11",
+        "desc": "Riding dual-sport 150cc/500cc motorbikes through Hunza, Skardu, Attabad Lake & Deosai Plains."
+      },
+      {
+        "day": "Day 13",
+        "title": "Return to Islamabad",
+        "desc": "Riding dual-sport 150cc/500cc motorbikes through Hunza, Skardu, Attabad Lake & Deosai Plains."
       }
     ],
     "packages": [
       {
-        "name": "Standard Package",
-        "price": "Inquire for Pricing",
+        "name": "Motorbike Rider Package",
+        "price": "$1,230",
         "status": "available",
         "features": [
-          "AC Coaster / Sedan Transport",
-          "Standard Hotel / Day Trip",
-          "Driver & Fuel Included"
-        ]
-      },
-      {
-        "name": "Deluxe Package",
-        "price": "Contact for Quote",
-        "status": "available",
-        "features": [
-          "AC Grand Cabin / Prado",
-          "Deluxe Hotel / Private Guide",
-          "Full Inclusions"
-        ]
-      },
-      {
-        "name": "Executive Package",
-        "price": "Contact for Quote",
-        "status": "available",
-        "features": [
-          "Luxury 4x4 Prado / SUV",
-          "Luxury 4-Star / 5-Star Hotel",
-          "VIP Concierge & Protocol"
+          "Motorbike rental & fuel included",
+          "Mechanic & support vehicle",
+          "Hotel stays & meals"
         ]
       }
     ],
@@ -14459,10 +15920,10 @@ if (window.TOUR_DATA) {
     "maxGroup": "1 - 20 Persons",
     "difficulty": "Easy / Cultural",
     "image": "images/foreign/card_12.webp",
-    "price": "Inquire for Pricing",
-    "originalPrice": "Contact for Quote",
+    "price": "$700",
+    "originalPrice": "$850",
     "departureDay": "Daily Departures & Fixed Schedules",
-    "about": "Overview Safar Silsila Presents EXPLORE PAKISTAN: Hunza | Skardu | Islamabad for their Beloved Clients. Enjoy your Special Moments at biking Trip with us and make your moments more Memorable with your Love ones. If you are looking for Travelling with your Loved ones for biking Trip to Hunza, Nagar, Naltar and Gilgit in one go then just DM us &amp; book your Trip now with us. EXPLORE PAKISTAN : Hunza | Skardu | Islamabad (12 Days Trip | by Bike) Join us for a memorable trip to North Pakistan, where you can enjoy beautiful landscapes, fresh air, and peaceful surroundings. This tour offers the perfect mix of adventure and relaxation in one of the most scenic regions of the country. Package Price: Package Type Standard Deluxe Executive Per Pax Price USD 700 PER PAX USD 1130 PER PAX USD 1570 PER PAX DAY 04 TO DAY 07 ON BIKES ONLY Hotel Details: All hotels are subject to availability and can be changed according to the circumstances. In such case the equivalent hotel to the said hotel will be provided Hotels Standard Deluxe Executive Islamabad Green Line Motel Hotel Red Line Grand Islamabad Hotel Envoy Continental Hotel Grand Hotel Roomy Ramada Hotel Hill View Best Western Naran Valley Cloud Way Hotel Gateway Hotel Hotel Home Northern Retreat Fairyland Hotel Hotel Sarai Maisonette Hotel and Resort Gilgit Gateway Hotel Alpine Guest House Duroyou Inn Gilgit Heritage Hotel Mandarin Inn Hotel Serena Hotel Gilgit Riverdale Hotel Hunza Valley Hunza Hidden Palace Darvesh Hotel Campo de Berg Grand Motel Hunza Tribes and Tales Passu Tourist Lodges Monarch Resort Famree Resort Hunza Darbar Luxus Hotel Attabad Lake Hard Rocks Besham Ramada Hotel Besham Continental Besham Hilton Hotel Besham Hilton Hotel Besham Continental Skardu Trout Villa Hotel Skardu Viewpoint Baltistan Resort Space Hotel Shigar Maple Hotel Himalaya Inn La Vista Resort Shangrila Hotel Khoj Resort Serena Hotel Shigar Valley Serena Hotel Khaplu Valley Byrsa Lahore Hotel Shanghai Mars Hotel Lahore Continental Fallet&#8217;s Express Hotel Hilton Suites Ramada by Wyndham Four Points Inn FOR BOOKINGS &amp; INQURIES: EMAIL: info@safarsilsila.com WHATSAPP: +92 311 1145456 Follow us on Instagram: Safar Silsila Also Recommended: EXPLORE PAKISTAN: Hunza | Islamabad",
+    "about": "Overview Safar Silsila Presents EXPLORE PAKISTAN: Hunza | Skardu | Islamabad for their Beloved Clients. Enjoy your Special Moments at biking Trip with us and make your moments more Memorable with your Love ones. If you are looking for Travelling with your Loved ones for biking Trip to Hunza, Nagar, Naltar and Gilgit in one go then just DM us & book your Trip now with us. EXPLORE PAKISTAN : Hunza | Skardu | Islamabad (12 Days Trip | by Bike) Join us for a memorable trip to North Pakistan, where you can enjoy beautiful landscapes, fresh air, and peaceful surroundings. This tour offers the perfect mix of adventure and relaxation in one of the most scenic regions of the country. Package Price: Package Type Standard Deluxe Executive Per Pax Price USD 700 PER PAX USD 1130 PER PAX USD 1570 PER PAX DAY 04 TO DAY 07 ON BIKES ONLY Hotel Details: All hotels are subject to availability and can be changed according to the circumstances. In such case the equivalent hotel to the said hotel will be provided Hotels Standard Deluxe Executive Islamabad Green Line Motel Hotel Red Line Grand Islamabad Hotel Envoy Continental Hotel Grand Hotel Roomy Ramada Hotel Hill View Best Western Naran Valley Cloud Way Hotel Gateway Hotel Hotel Home Northern Retreat Fairyland Hotel Hotel Sarai Maisonette Hotel and Resort Gilgit Gateway Hotel Alpine Guest House Duroyou Inn Gilgit Heritage Hotel Mandarin Inn Hotel Serena Hotel Gilgit Riverdale Hotel Hunza Valley Hunza Hidden Palace Darvesh Hotel Campo de Berg Grand Motel Hunza Tribes and Tales Passu Tourist Lodges Monarch Resort Famree Resort Hunza Darbar Luxus Hotel Attabad Lake Hard Rocks Besham Ramada Hotel Besham Continental Besham Hilton Hotel Besham Hilton Hotel Besham Continental Skardu Trout Villa Hotel Skardu Viewpoint Baltistan Resort Space Hotel Shigar Maple Hotel Himalaya Inn La Vista Resort Shangrila Hotel Khoj Resort Serena Hotel Shigar Valley Serena Hotel Khaplu Valley Byrsa Lahore Hotel Shanghai Mars Hotel Lahore Continental Fallet&#8217;s Express Hotel Hilton Suites Ramada by Wyndham Four Points Inn",
     "tableHtml": "<table style=\"width: 467px; border-collapse: collapse; font-family: Arial, sans-serif; border: 1px solid #dddddd; height: 99px;\">\n<thead>\n<tr style=\"background-color: #339966; color: white; text-align: center;\">\n<th style=\"padding: 10px; border: 1px solid #ddd;\">Package Type</th>\n<th style=\"padding: 10px; border: 1px solid #ddd;\">Standard</th>\n<th style=\"padding: 10px; border: 1px solid #ddd;\">Deluxe</th>\n<th style=\"padding: 10px; border: 1px solid #ddd;\">Executive</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td style=\"padding: 10px; border: 1px solid #dddddd; font-weight: bold; background-color: #e9f5e9; text-align: center;\">Per Pax Price</td>\n<td style=\"padding: 10px; border: 1px solid #dddddd; text-align: center;\"><strong>USD 700 PER PAX</strong></td>\n<td style=\"padding: 10px; border: 1px solid #dddddd; text-align: center;\"><strong>USD 1130 PER PAX</strong></td>\n<td style=\"padding: 10px; border: 1px solid #dddddd; text-align: center;\"><strong>USD 1570 PER PAX</strong></td>\n</tr>\n<tr style=\"background-color: #f9f9f9;\">\n<td style=\"padding: 10px; border: 1px solid #ddd; font-weight: bold; background-color: #e9f5e9;\"></td>\n<td style=\"padding: 10px; border: 1px solid #ddd;\"></td>\n<td style=\"padding: 10px; border: 1px solid #ddd;\"></td>\n<td style=\"padding: 10px; border: 1px solid #ddd;\"></td>\n</tr>\n</tbody>\n</table><br><table style=\"width: 846px; border-collapse: collapse; font-family: Arial, sans-serif; border: 1px solid #dddddd; height: 915px;\">\n<thead>\n<tr style=\"background-color: #339966; color: white; text-align: center;\">\n<th style=\"padding: 10px; border: 1px solid #ddd;\">Hotels</th>\n<th style=\"padding: 10px; border: 1px solid #ddd;\">Standard</th>\n<th style=\"padding: 10px; border: 1px solid #ddd;\">Deluxe</th>\n<th style=\"padding: 10px; border: 1px solid #ddd;\">Executive</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td style=\"padding: 10px; border: 1px solid #ddd; font-weight: bold; background-color: #e9f5e9;\">Islamabad</td>\n<td style=\"padding: 10px; border: 1px solid #ddd;\">\n<ul>\n<li>Green Line Motel</li>\n<li>Hotel Red Line</li>\n</ul>\n</td>\n<td style=\"padding: 10px; border: 1px solid #ddd;\">\n<ul>\n<li>Grand Islamabad Hotel</li>\n<li>Envoy Continental Hotel</li>\n<li>Grand Hotel</li>\n</ul>\n</td>\n<td style=\"padding: 10px; border: 1px solid #ddd;\">\n<ul>\n<li>Roomy</li>\n<li>Ramada Hotel</li>\n<li>Hill View</li>\n<li>Best Western</li>\n</ul>\n</td>\n</tr>\n<tr style=\"background-color: #f9f9f9;\">\n<td style=\"padding: 10px; border: 1px solid #ddd; font-weight: bold; background-color: #e9f5e9;\">Naran Valley</td>\n<td style=\"padding: 10px; border: 1px solid #ddd;\">\n<ul>\n<li>Cloud Way Hotel</li>\n<li>Gateway Hotel</li>\n</ul>\n</td>\n<td style=\"padding: 10px; border: 1px solid #ddd;\">\n<ul>\n<li>Hotel Home</li>\n<li>Northern Retreat</li>\n<li>Fairyland Hotel</li>\n</ul>\n</td>\n<td style=\"padding: 10px; border: 1px solid #ddd;\">\n<ul>\n<li>Hotel Sarai</li>\n<li>Maisonette Hotel and Resort</li>\n</ul>\n</td>\n</tr>\n<tr>\n<td style=\"padding: 10px; border: 1px solid #ddd; font-weight: bold; background-color: #e9f5e9;\">Gilgit</td>\n<td style=\"padding: 10px; border: 1px solid #ddd;\">\n<ul>\n<li>Gateway Hotel</li>\n<li>Alpine Guest House</li>\n</ul>\n</td>\n<td style=\"padding: 10px; border: 1px solid #ddd;\">\n<ul>\n<li>Duroyou Inn Gilgit</li>\n<li>Heritage Hotel</li>\n<li>Mandarin Inn Hotel</li>\n</ul>\n</td>\n<td style=\"padding: 10px; border: 1px solid #ddd;\">\n<ul>\n<li>Serena Hotel Gilgit</li>\n<li>Riverdale Hotel</li>\n</ul>\n</td>\n</tr>\n<tr style=\"background-color: #f9f9f9;\">\n<td style=\"padding: 10px; border: 1px solid #ddd; font-weight: bold; background-color: #e9f5e9;\">Hunza Valley</td>\n<td style=\"padding: 10px; border: 1px solid #ddd;\">\n<ul>\n<li>Hunza Hidden Palace</li>\n<li>Darvesh Hotel</li>\n<li>Campo de Berg</li>\n<li>Grand Motel Hunza</li>\n</ul>\n</td>\n<td style=\"padding: 10px; border: 1px solid #ddd;\">\n<ul>\n<li>Tribes and Tales</li>\n<li>Passu Tourist Lodges</li>\n<li>Monarch Resort</li>\n<li>Famree Resort</li>\n</ul>\n</td>\n<td style=\"padding: 10px; border: 1px solid #ddd;\">\n<ul>\n<li>Hunza Darbar</li>\n<li>Luxus Hotel Attabad Lake</li>\n<li>Hard Rocks</li>\n</ul>\n</td>\n</tr>\n<tr>\n<td style=\"padding: 10px; border: 1px solid #ddd; font-weight: bold; background-color: #e9f5e9;\">Besham</td>\n<td style=\"padding: 10px; border: 1px solid #ddd;\">\n<ul>\n<li>Ramada Hotel</li>\n<li>Besham Continental</li>\n</ul>\n</td>\n<td style=\"padding: 10px; border: 1px solid #ddd;\">\n<ul>\n<li>Besham Hilton Hotel</li>\n</ul>\n</td>\n<td style=\"padding: 10px; border: 1px solid #ddd;\">\n<ul>\n<li>Besham Hilton Hotel</li>\n<li>Besham Continental</li>\n</ul>\n</td>\n</tr>\n<tr style=\"background-color: #f9f9f9;\">\n<td style=\"padding: 10px; border: 1px solid #ddd; font-weight: bold; background-color: #e9f5e9;\">Skardu</td>\n<td style=\"padding: 10px; border: 1px solid #ddd;\">\n<ul>\n<li>Trout Villa Hotel</li>\n<li>Skardu Viewpoint</li>\n<li>Baltistan Resort</li>\n<li>Space Hotel Shigar</li>\n</ul>\n</td>\n<td style=\"padding: 10px; border: 1px solid #ddd;\">\n<ul>\n<li>Maple Hotel</li>\n<li>Himalaya Inn</li>\n<li>La Vista Resort</li>\n</ul>\n</td>\n<td style=\"padding: 10px; border: 1px solid #ddd;\">\n<ul>\n<li>Shangrila Hotel</li>\n<li>Khoj Resort</li>\n<li>Serena Hotel Shigar Valley</li>\n<li>Serena Hotel Khaplu Valley</li>\n<li>Byrsa</li>\n</ul>\n</td>\n</tr>\n<tr>\n<td style=\"padding: 10px; border: 1px solid #ddd; font-weight: bold; background-color: #e9f5e9;\">Lahore</td>\n<td style=\"padding: 10px; border: 1px solid #ddd;\">\n<ul>\n<li>Hotel Shanghai</li>\n<li>Mars Hotel</li>\n</ul>\n</td>\n<td style=\"padding: 10px; border: 1px solid #ddd;\">\n<ul>\n<li>Lahore Continental</li>\n<li>Fallet&#8217;s Express Hotel</li>\n</ul>\n</td>\n<td style=\"padding: 10px; border: 1px solid #ddd;\">\n<ul>\n<li>Hilton Suites</li>\n<li>Ramada by Wyndham</li>\n<li>Four Points Inn</li>\n</ul>\n</td>\n</tr>\n</tbody>\n</table>",
     "highlights": [
       "Full guided excursion for EXPLORE PAKISTAN: Hunza | Skardu | Islamabad (12 Days Trip | by Bike)",
@@ -14485,50 +15946,74 @@ if (window.TOUR_DATA) {
     ],
     "itinerary": [
       {
-        "day": "Morning",
-        "title": "Departure & Pickup",
-        "desc": "Pickup from hotel/residence in private vehicle. Highway drive with refreshment stop."
+        "day": "Day 1",
+        "title": "Islamabad to Naran Rider Stage",
+        "desc": "Riding through high mountain passes, Hunza, Skardu, and Karakoram Highway."
       },
       {
-        "day": "Afternoon",
-        "title": "Guided Exploration & Activity",
-        "desc": "Arrive at destination. Guided tour of key monuments, photography stops, and water activities."
+        "day": "Day 2",
+        "title": "Explore Bike Stage 1",
+        "desc": "Riding through high mountain passes, Hunza, Skardu, and Karakoram Highway."
       },
       {
-        "day": "Evening",
-        "title": "Local Food Tasting & Return",
-        "desc": "Enjoy famous regional food & tea. Return drive with drop-off at your hotel by 07:00 PM."
+        "day": "Day 3",
+        "title": "Explore Bike Stage 2",
+        "desc": "Riding through high mountain passes, Hunza, Skardu, and Karakoram Highway."
+      },
+      {
+        "day": "Day 4",
+        "title": "Explore Bike Stage 3",
+        "desc": "Riding through high mountain passes, Hunza, Skardu, and Karakoram Highway."
+      },
+      {
+        "day": "Day 5",
+        "title": "Explore Bike Stage 4",
+        "desc": "Riding through high mountain passes, Hunza, Skardu, and Karakoram Highway."
+      },
+      {
+        "day": "Day 6",
+        "title": "Explore Bike Stage 5",
+        "desc": "Riding through high mountain passes, Hunza, Skardu, and Karakoram Highway."
+      },
+      {
+        "day": "Day 7",
+        "title": "Explore Bike Stage 6",
+        "desc": "Riding through high mountain passes, Hunza, Skardu, and Karakoram Highway."
+      },
+      {
+        "day": "Day 8",
+        "title": "Explore Bike Stage 7",
+        "desc": "Riding through high mountain passes, Hunza, Skardu, and Karakoram Highway."
+      },
+      {
+        "day": "Day 9",
+        "title": "Explore Bike Stage 8",
+        "desc": "Riding through high mountain passes, Hunza, Skardu, and Karakoram Highway."
+      },
+      {
+        "day": "Day 10",
+        "title": "Explore Bike Stage 9",
+        "desc": "Riding through high mountain passes, Hunza, Skardu, and Karakoram Highway."
+      },
+      {
+        "day": "Day 11",
+        "title": "Explore Bike Stage 10",
+        "desc": "Riding through high mountain passes, Hunza, Skardu, and Karakoram Highway."
+      },
+      {
+        "day": "Day 12",
+        "title": "Return to Islamabad",
+        "desc": "Riding through high mountain passes, Hunza, Skardu, and Karakoram Highway."
       }
     ],
     "packages": [
       {
-        "name": "Standard Package",
-        "price": "Inquire for Pricing",
+        "name": "Standard Bike Tour",
+        "price": "$700",
         "status": "available",
         "features": [
-          "AC Coaster / Sedan Transport",
-          "Standard Hotel / Day Trip",
-          "Driver & Fuel Included"
-        ]
-      },
-      {
-        "name": "Deluxe Package",
-        "price": "Contact for Quote",
-        "status": "available",
-        "features": [
-          "AC Grand Cabin / Prado",
-          "Deluxe Hotel / Private Guide",
-          "Full Inclusions"
-        ]
-      },
-      {
-        "name": "Executive Package",
-        "price": "Contact for Quote",
-        "status": "available",
-        "features": [
-          "Luxury 4x4 Prado / SUV",
-          "Luxury 4-Star / 5-Star Hotel",
-          "VIP Concierge & Protocol"
+          "Motorbike & mechanic support",
+          "Hotels & daily meals"
         ]
       }
     ],
@@ -14555,10 +16040,10 @@ if (window.TOUR_DATA) {
     "maxGroup": "1 - 20 Persons",
     "difficulty": "Easy / Cultural",
     "image": "images/foreign/card_13.webp",
-    "price": "Inquire for Pricing",
-    "originalPrice": "Contact for Quote",
+    "price": "$395",
+    "originalPrice": "$480",
     "departureDay": "Daily Departures & Fixed Schedules",
-    "about": "Overview Safar Silsila Presents Explore Pakistan: Kumrat | Phandar | Chitral for their Beloved Clients. Enjoy your Special Moments at biking Trip with us and make your moments more Memorable with your Love ones. If you are looking for Travelling with your Loved ones for biking Trip to Hunza, Nagar, Naltar and Gilgit in one go then just DM us &amp; book your Trip now with us. EXPLORE PAKISTAN : Kumrat | Phandar | Chitral (12 Days Trip: By Road) Join us for a memorable trip to North Pakistan, where you can enjoy beautiful landscapes, fresh air, and peaceful surroundings. This tour offers the perfect mix of adventure and relaxation in one of the most scenic regions of the country. Package Price: Package Type Standard Deluxe Executive Per Pax Price USD 395 PER PAX USD 565 PER PAX USD 1020 PER PAX Hotel Details: All hotels are subject to availability and can be changed according to the circumstances. In such case the equivalent hotel to the said hotel will be provided Hotels Standard Deluxe Executive Islamabad Green Line Motel Hotel Red Line Grand Islamabad Hotel Envoy Continental Hotel Grand Hotel Roomy Ramada Hotel Hill View Best Western Kumrat River View Hotel Maskan Hotel Khanbadosh Pods/ Camps Northern Retreat Fairyland Hotel Grand Palace Panjkora Resort Latitude Resort Gilgit Gateway Hotel Alpine Guest House Duroyou Inn Gilgit Heritage Hotel Mandarin Inn Hotel Serena Hotel Gilgit Riverdale Hotel Chitral Hindukush Heights Mountain Inn Kalash Continental Resort Legend Hotel Chitral Highland Park Hotel Gahirat Castle Roomy Hindukush Sarai Tirch Mir View Hotel Ayun Fort FOR BOOKINGS &amp; INQURIES: EMAIL: info@safarsilsila.com WHATSAPP: +92 311 1145456 Follow us on Instagram: Safar Silsila Also Recommended: EXPLORE PAKISTAN: Hunza | Islamabad",
+    "about": "Overview Safar Silsila Presents Explore Pakistan: Kumrat | Phandar | Chitral for their Beloved Clients. Enjoy your Special Moments at biking Trip with us and make your moments more Memorable with your Love ones. If you are looking for Travelling with your Loved ones for biking Trip to Hunza, Nagar, Naltar and Gilgit in one go then just DM us & book your Trip now with us. EXPLORE PAKISTAN : Kumrat | Phandar | Chitral (12 Days Trip: By Road) Join us for a memorable trip to North Pakistan, where you can enjoy beautiful landscapes, fresh air, and peaceful surroundings. This tour offers the perfect mix of adventure and relaxation in one of the most scenic regions of the country. Package Price: Package Type Standard Deluxe Executive Per Pax Price USD 395 PER PAX USD 565 PER PAX USD 1020 PER PAX Hotel Details: All hotels are subject to availability and can be changed according to the circumstances. In such case the equivalent hotel to the said hotel will be provided Hotels Standard Deluxe Executive Islamabad Green Line Motel Hotel Red Line Grand Islamabad Hotel Envoy Continental Hotel Grand Hotel Roomy Ramada Hotel Hill View Best Western Kumrat River View Hotel Maskan Hotel Khanbadosh Pods/ Camps Northern Retreat Fairyland Hotel Grand Palace Panjkora Resort Latitude Resort Gilgit Gateway Hotel Alpine Guest House Duroyou Inn Gilgit Heritage Hotel Mandarin Inn Hotel Serena Hotel Gilgit Riverdale Hotel Chitral Hindukush Heights Mountain Inn Kalash Continental Resort Legend Hotel Chitral Highland Park Hotel Gahirat Castle Roomy Hindukush Sarai Tirch Mir View Hotel Ayun Fort",
     "tableHtml": "<table style=\"width: 480px; border-collapse: collapse; font-family: Arial, sans-serif; border: 1px solid #dddddd; height: 83px;\">\n<thead>\n<tr style=\"background-color: #339966; color: white; text-align: center;\">\n<th style=\"padding: 10px; border: 1px solid #ddd;\">Package Type</th>\n<th style=\"padding: 10px; border: 1px solid #ddd;\">Standard</th>\n<th style=\"padding: 10px; border: 1px solid #ddd;\">Deluxe</th>\n<th style=\"padding: 10px; border: 1px solid #ddd;\">Executive</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td style=\"padding: 10px; border: 1px solid #dddddd; font-weight: bold; background-color: #e9f5e9; text-align: center;\">Per Pax Price</td>\n<td style=\"padding: 10px; border: 1px solid #dddddd; text-align: center;\"><strong>USD 395 PER PAX</strong></td>\n<td style=\"padding: 10px; border: 1px solid #dddddd; text-align: center;\"><strong>USD 565 PER PAX</strong></td>\n<td style=\"padding: 10px; border: 1px solid #dddddd; text-align: center;\"><strong>USD 1020 PER PAX</strong></td>\n</tr>\n<tr style=\"background-color: #f9f9f9;\">\n<td style=\"padding: 10px; border: 1px solid #ddd; font-weight: bold; background-color: #e9f5e9;\"></td>\n<td style=\"padding: 10px; border: 1px solid #ddd;\"></td>\n<td style=\"padding: 10px; border: 1px solid #ddd;\"></td>\n<td style=\"padding: 10px; border: 1px solid #ddd;\"></td>\n</tr>\n</tbody>\n</table><br><table style=\"width: 844px; border-collapse: collapse; font-family: Arial, sans-serif; border: 1px solid #dddddd; height: 530px;\">\n<thead>\n<tr style=\"background-color: #339966; color: white; text-align: center;\">\n<th style=\"padding: 10px; border: 1px solid #ddd;\">Hotels</th>\n<th style=\"padding: 10px; border: 1px solid #ddd;\">Standard</th>\n<th style=\"padding: 10px; border: 1px solid #ddd;\">Deluxe</th>\n<th style=\"padding: 10px; border: 1px solid #ddd;\">Executive</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td style=\"padding: 10px; border: 1px solid #ddd; font-weight: bold; background-color: #e9f5e9;\">Islamabad</td>\n<td style=\"padding: 10px; border: 1px solid #ddd;\">\n<ul>\n<li>Green Line Motel</li>\n<li>Hotel Red Line</li>\n</ul>\n</td>\n<td style=\"padding: 10px; border: 1px solid #ddd;\">\n<ul>\n<li>Grand Islamabad Hotel</li>\n<li>Envoy Continental Hotel</li>\n<li>Grand Hotel</li>\n</ul>\n</td>\n<td style=\"padding: 10px; border: 1px solid #ddd;\">\n<ul>\n<li>Roomy</li>\n<li>Ramada Hotel</li>\n<li>Hill View</li>\n<li>Best Western</li>\n</ul>\n</td>\n</tr>\n<tr style=\"background-color: #f9f9f9;\">\n<td style=\"padding: 10px; border: 1px solid #ddd; font-weight: bold; background-color: #e9f5e9;\">Kumrat</td>\n<td style=\"padding: 10px; border: 1px solid #ddd;\">\n<ul>\n<li>River View Hotel</li>\n<li>Maskan Hotel</li>\n</ul>\n</td>\n<td style=\"padding: 10px; border: 1px solid #ddd;\">\n<ul>\n<li>Khanbadosh Pods/ Camps</li>\n<li>Northern Retreat</li>\n<li>Fairyland Hotel</li>\n</ul>\n</td>\n<td style=\"padding: 10px; border: 1px solid #ddd;\">\n<ul>\n<li>Grand Palace</li>\n<li>Panjkora Resort</li>\n<li>Latitude Resort</li>\n</ul>\n</td>\n</tr>\n<tr>\n<td style=\"padding: 10px; border: 1px solid #ddd; font-weight: bold; background-color: #e9f5e9;\">Gilgit</td>\n<td style=\"padding: 10px; border: 1px solid #ddd;\">\n<ul>\n<li>Gateway Hotel</li>\n<li>Alpine Guest House</li>\n</ul>\n</td>\n<td style=\"padding: 10px; border: 1px solid #ddd;\">\n<ul>\n<li>Duroyou Inn Gilgit</li>\n<li>Heritage Hotel</li>\n<li>Mandarin Inn Hotel</li>\n</ul>\n</td>\n<td style=\"padding: 10px; border: 1px solid #ddd;\">\n<ul>\n<li>Serena Hotel Gilgit</li>\n<li>Riverdale Hotel</li>\n</ul>\n</td>\n</tr>\n<tr style=\"background-color: #f9f9f9;\">\n<td style=\"padding: 10px; border: 1px solid #ddd; font-weight: bold; background-color: #e9f5e9;\">Chitral</td>\n<td style=\"padding: 10px; border: 1px solid #ddd;\">\n<ul>\n<li>Hindukush Heights</li>\n<li>Mountain Inn</li>\n<li>Kalash Continental Resort</li>\n</ul>\n</td>\n<td style=\"padding: 10px; border: 1px solid #ddd;\">\n<ul>\n<li>Legend Hotel Chitral</li>\n<li>Highland Park Hotel</li>\n<li>Gahirat Castle</li>\n</ul>\n</td>\n<td style=\"padding: 10px; border: 1px solid #ddd;\">\n<ul>\n<li>Roomy Hindukush Sarai</li>\n<li>Tirch Mir View Hotel</li>\n<li>Ayun Fort</li>\n</ul>\n</td>\n</tr>\n</tbody>\n</table><br><table>\n<tbody>\n<tr>\n<td width=\"623\">\n<ul>\n<li>Flight to Islamabad Airport</li>\n<li>Pickup members from Airport</li>\n<li>Hotel Check-in</li>\n<li>Dinner at Islamabad</li>\n<li>Short city tour of Islamabad</li>\n<li>Overnight at Islamabad</li>\n</ul>\n</td>\n</tr>\n</tbody>\n</table>",
     "highlights": [
       "Full guided excursion for EXPLORE PAKISTAN: Kumrat | Phandar | Chitral (12 Days Trip: By Road)",
@@ -14581,50 +16066,74 @@ if (window.TOUR_DATA) {
     ],
     "itinerary": [
       {
-        "day": "Morning",
-        "title": "Departure & Pickup",
-        "desc": "Pickup from hotel/residence in private vehicle. Highway drive with refreshment stop."
+        "day": "Day 1",
+        "title": "Islamabad to Dir & Kumrat",
+        "desc": "Scenic road tour covering Kumrat Valley, Lowari Tunnel, Chitral, Kalash & Phandar Lake."
       },
       {
-        "day": "Afternoon",
-        "title": "Guided Exploration & Activity",
-        "desc": "Arrive at destination. Guided tour of key monuments, photography stops, and water activities."
+        "day": "Day 2",
+        "title": "Northern Road Circuit 1",
+        "desc": "Scenic road tour covering Kumrat Valley, Lowari Tunnel, Chitral, Kalash & Phandar Lake."
       },
       {
-        "day": "Evening",
-        "title": "Local Food Tasting & Return",
-        "desc": "Enjoy famous regional food & tea. Return drive with drop-off at your hotel by 07:00 PM."
+        "day": "Day 3",
+        "title": "Northern Road Circuit 2",
+        "desc": "Scenic road tour covering Kumrat Valley, Lowari Tunnel, Chitral, Kalash & Phandar Lake."
+      },
+      {
+        "day": "Day 4",
+        "title": "Northern Road Circuit 3",
+        "desc": "Scenic road tour covering Kumrat Valley, Lowari Tunnel, Chitral, Kalash & Phandar Lake."
+      },
+      {
+        "day": "Day 5",
+        "title": "Northern Road Circuit 4",
+        "desc": "Scenic road tour covering Kumrat Valley, Lowari Tunnel, Chitral, Kalash & Phandar Lake."
+      },
+      {
+        "day": "Day 6",
+        "title": "Northern Road Circuit 5",
+        "desc": "Scenic road tour covering Kumrat Valley, Lowari Tunnel, Chitral, Kalash & Phandar Lake."
+      },
+      {
+        "day": "Day 7",
+        "title": "Northern Road Circuit 6",
+        "desc": "Scenic road tour covering Kumrat Valley, Lowari Tunnel, Chitral, Kalash & Phandar Lake."
+      },
+      {
+        "day": "Day 8",
+        "title": "Northern Road Circuit 7",
+        "desc": "Scenic road tour covering Kumrat Valley, Lowari Tunnel, Chitral, Kalash & Phandar Lake."
+      },
+      {
+        "day": "Day 9",
+        "title": "Northern Road Circuit 8",
+        "desc": "Scenic road tour covering Kumrat Valley, Lowari Tunnel, Chitral, Kalash & Phandar Lake."
+      },
+      {
+        "day": "Day 10",
+        "title": "Northern Road Circuit 9",
+        "desc": "Scenic road tour covering Kumrat Valley, Lowari Tunnel, Chitral, Kalash & Phandar Lake."
+      },
+      {
+        "day": "Day 11",
+        "title": "Northern Road Circuit 10",
+        "desc": "Scenic road tour covering Kumrat Valley, Lowari Tunnel, Chitral, Kalash & Phandar Lake."
+      },
+      {
+        "day": "Day 12",
+        "title": "Return to Islamabad",
+        "desc": "Scenic road tour covering Kumrat Valley, Lowari Tunnel, Chitral, Kalash & Phandar Lake."
       }
     ],
     "packages": [
       {
-        "name": "Standard Package",
-        "price": "Inquire for Pricing",
+        "name": "Standard Road Tour",
+        "price": "$395",
         "status": "available",
         "features": [
-          "AC Coaster / Sedan Transport",
-          "Standard Hotel / Day Trip",
-          "Driver & Fuel Included"
-        ]
-      },
-      {
-        "name": "Deluxe Package",
-        "price": "Contact for Quote",
-        "status": "available",
-        "features": [
-          "AC Grand Cabin / Prado",
-          "Deluxe Hotel / Private Guide",
-          "Full Inclusions"
-        ]
-      },
-      {
-        "name": "Executive Package",
-        "price": "Contact for Quote",
-        "status": "available",
-        "features": [
-          "Luxury 4x4 Prado / SUV",
-          "Luxury 4-Star / 5-Star Hotel",
-          "VIP Concierge & Protocol"
+          "AC transport & 4x4 jeeps",
+          "Hotels & guided sightseeing"
         ]
       }
     ],
@@ -14651,10 +16160,10 @@ if (window.TOUR_DATA) {
     "maxGroup": "1 - 20 Persons",
     "difficulty": "Easy / Cultural",
     "image": "images/foreign/card_14.webp",
-    "price": "Inquire for Pricing",
-    "originalPrice": "Contact for Quote",
+    "price": "$385",
+    "originalPrice": "$460",
     "departureDay": "Daily Departures & Fixed Schedules",
-    "about": "Overview Safar Silsila Offers Explore Pakistan: Hunza | Skardu | Islamabad Package for their beloved clients. If you are looking for comfortable Trip to North Pakistan in one go then you are at right place. We have a Various range of trekking tours in north Pakistan . People who are looking for adventurous tours then these Tour Package are recommended. EXPLORE PAKISTAN : Hunza | Skardu | Islamabad (12 Days Trip) Join us for a memorable trip to North Pakistan, where you can enjoy beautiful landscapes, fresh air, and peaceful surroundings. This tour offers the perfect mix of adventure and relaxation in one of the most scenic regions of the country. Package Price: Package Type Standard Deluxe Executive Per Pax Price USD 385 PER PAX USD 555 PER PAX USD 1040 PER PAX Hotel Details: All hotels are subject to availability and can be changed according to the circumstances. In such case the equivalent hotel to the said hotel will be provided Hotels Standard Deluxe Executive Islamabad Green Line Motel Hotel Red Line Grand Islamabad Hotel Envoy Continental Hotel Grand Hotel Roomy Ramada Hotel Hill View Best Western Naran Valley Cloud Way Hotel Gateway Hotel Hotel Home Northern Retreat Fairyland Hotel Hotel Sarai Maisonette Hotel and Resort Gilgit Gateway Hotel Alpine Guest House Duroyou Inn Gilgit Heritage Hotel Mandarin Inn Hotel Serena Hotel Gilgit Riverdale Hotel Hunza Valley Hunza Hidden Palace Darvesh Hotel Campo de Berg Grand Motel Hunza Tribes and Tales Passu Tourist Lodges Monarch Resort Famree Resort Hunza Darbar Luxus Hotel Attabad Lake Hard Rocks Besham Ramada Hotel Besham Continental Besham Hilton Hotel Besham Hilton Hotel Besham Continental Skardu Trout Villa Hotel Skardu Viewpoint Baltistan Resort Space Hotel Shigar Maple Hotel Himalaya Inn La Vista Resort Shangrila Hotel Khoj Resort Serena Hotel Shigar Valley Serena Hotel Khaplu Valley Byrsa Lahore Hotel Shanghai Mars Hotel Lahore Continental Fallet&#8217;s Express Hotel Hilton Suites Ramada by Wyndham Four Points Inn FOR BOOKINGS &amp; INQURIES: EMAIL: info@safarsilsila.com WHATSAPP: +92 311 1145456 Follow us on Instagram: Safar Silsila Also Recommended: Bike Tour to Hunza: Nagar, Naltar and Gilgit",
+    "about": "EXPLORE PAKISTAN : Hunza | Skardu | Islamabad (12 Days Trip) Join us for a memorable trip to North Pakistan, where you can enjoy beautiful landscapes, fresh air, and peaceful surroundings. This tour offers the perfect mix of adventure and relaxation in one of the most scenic regions of the country. Package Price: Package Type Standard Deluxe Executive Per Pax Price USD 385 PER PAX USD 555 PER PAX USD 1040 PER PAX Hotel Details: All hotels are subject to availability and can be changed according to the circumstances. In such case the equivalent hotel to the said hotel will be provided Hotels Standard Deluxe Executive Islamabad Green Line Motel Hotel Red Line Grand Islamabad Hotel Envoy Continental Hotel Grand Hotel Roomy Ramada Hotel Hill View Best Western Naran Valley Cloud Way Hotel Gateway Hotel Hotel Home Northern Retreat Fairyland Hotel Hotel Sarai Maisonette Hotel and Resort Gilgit Gateway Hotel Alpine Guest House Duroyou Inn Gilgit Heritage Hotel Mandarin Inn Hotel Serena Hotel Gilgit Riverdale Hotel Hunza Valley Hunza Hidden Palace Darvesh Hotel Campo de Berg Grand Motel Hunza Tribes and Tales Passu Tourist Lodges Monarch Resort Famree Resort Hunza Darbar Luxus Hotel Attabad Lake Hard Rocks Besham Ramada Hotel Besham Continental Besham Hilton Hotel Besham Hilton Hotel Besham Continental Skardu Trout Villa Hotel Skardu Viewpoint Baltistan Resort Space Hotel Shigar Maple Hotel Himalaya Inn La Vista Resort Shangrila Hotel Khoj Resort Serena Hotel Shigar Valley Serena Hotel Khaplu Valley Byrsa Lahore Hotel Shanghai Mars Hotel Lahore Continental Fallet&#8217;s Express Hotel Hilton Suites Ramada by Wyndham Four Points Inn",
     "tableHtml": "<table style=\"width: 596px; border-collapse: collapse; font-family: Arial, sans-serif; border: 1px solid #dddddd; height: 32px;\">\n<thead>\n<tr style=\"background-color: #339966; color: white; text-align: center;\">\n<th style=\"padding: 10px; border: 1px solid #ddd;\">Package Type</th>\n<th style=\"padding: 10px; border: 1px solid #ddd;\">Standard</th>\n<th style=\"padding: 10px; border: 1px solid #ddd;\">Deluxe</th>\n<th style=\"padding: 10px; border: 1px solid #ddd;\">Executive</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td style=\"padding: 10px; border: 1px solid #dddddd; font-weight: bold; background-color: #e9f5e9; text-align: center;\">Per Pax Price</td>\n<td style=\"padding: 10px; border: 1px solid #dddddd; text-align: center;\"><strong>USD 385 PER PAX</strong></td>\n<td style=\"padding: 10px; border: 1px solid #dddddd; text-align: center;\"><strong>USD 555 PER PAX</strong></td>\n<td style=\"padding: 10px; border: 1px solid #dddddd; text-align: center;\"><strong>USD 1040 PER PAX</strong></td>\n</tr>\n<tr style=\"background-color: #f9f9f9;\">\n<td style=\"padding: 10px; border: 1px solid #ddd; font-weight: bold; background-color: #e9f5e9;\"></td>\n<td style=\"padding: 10px; border: 1px solid #ddd;\"></td>\n<td style=\"padding: 10px; border: 1px solid #ddd;\"></td>\n<td style=\"padding: 10px; border: 1px solid #ddd;\"></td>\n</tr>\n</tbody>\n</table><br><table style=\"width: 846px; border-collapse: collapse; font-family: Arial, sans-serif; border: 1px solid #dddddd; height: 915px;\">\n<thead>\n<tr style=\"background-color: #339966; color: white; text-align: center;\">\n<th style=\"padding: 10px; border: 1px solid #ddd;\">Hotels</th>\n<th style=\"padding: 10px; border: 1px solid #ddd;\">Standard</th>\n<th style=\"padding: 10px; border: 1px solid #ddd;\">Deluxe</th>\n<th style=\"padding: 10px; border: 1px solid #ddd;\">Executive</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td style=\"padding: 10px; border: 1px solid #ddd; font-weight: bold; background-color: #e9f5e9;\">Islamabad</td>\n<td style=\"padding: 10px; border: 1px solid #ddd;\">\n<ul>\n<li>Green Line Motel</li>\n<li>Hotel Red Line</li>\n</ul>\n</td>\n<td style=\"padding: 10px; border: 1px solid #ddd;\">\n<ul>\n<li>Grand Islamabad Hotel</li>\n<li>Envoy Continental Hotel</li>\n<li>Grand Hotel</li>\n</ul>\n</td>\n<td style=\"padding: 10px; border: 1px solid #ddd;\">\n<ul>\n<li>Roomy</li>\n<li>Ramada Hotel</li>\n<li>Hill View</li>\n<li>Best Western</li>\n</ul>\n</td>\n</tr>\n<tr style=\"background-color: #f9f9f9;\">\n<td style=\"padding: 10px; border: 1px solid #ddd; font-weight: bold; background-color: #e9f5e9;\">Naran Valley</td>\n<td style=\"padding: 10px; border: 1px solid #ddd;\">\n<ul>\n<li>Cloud Way Hotel</li>\n<li>Gateway Hotel</li>\n</ul>\n</td>\n<td style=\"padding: 10px; border: 1px solid #ddd;\">\n<ul>\n<li>Hotel Home</li>\n<li>Northern Retreat</li>\n<li>Fairyland Hotel</li>\n</ul>\n</td>\n<td style=\"padding: 10px; border: 1px solid #ddd;\">\n<ul>\n<li>Hotel Sarai</li>\n<li>Maisonette Hotel and Resort</li>\n</ul>\n</td>\n</tr>\n<tr>\n<td style=\"padding: 10px; border: 1px solid #ddd; font-weight: bold; background-color: #e9f5e9;\">Gilgit</td>\n<td style=\"padding: 10px; border: 1px solid #ddd;\">\n<ul>\n<li>Gateway Hotel</li>\n<li>Alpine Guest House</li>\n</ul>\n</td>\n<td style=\"padding: 10px; border: 1px solid #ddd;\">\n<ul>\n<li>Duroyou Inn Gilgit</li>\n<li>Heritage Hotel</li>\n<li>Mandarin Inn Hotel</li>\n</ul>\n</td>\n<td style=\"padding: 10px; border: 1px solid #ddd;\">\n<ul>\n<li>Serena Hotel Gilgit</li>\n<li>Riverdale Hotel</li>\n</ul>\n</td>\n</tr>\n<tr style=\"background-color: #f9f9f9;\">\n<td style=\"padding: 10px; border: 1px solid #ddd; font-weight: bold; background-color: #e9f5e9;\">Hunza Valley</td>\n<td style=\"padding: 10px; border: 1px solid #ddd;\">\n<ul>\n<li>Hunza Hidden Palace</li>\n<li>Darvesh Hotel</li>\n<li>Campo de Berg</li>\n<li>Grand Motel Hunza</li>\n</ul>\n</td>\n<td style=\"padding: 10px; border: 1px solid #ddd;\">\n<ul>\n<li>Tribes and Tales</li>\n<li>Passu Tourist Lodges</li>\n<li>Monarch Resort</li>\n<li>Famree Resort</li>\n</ul>\n</td>\n<td style=\"padding: 10px; border: 1px solid #ddd;\">\n<ul>\n<li>Hunza Darbar</li>\n<li>Luxus Hotel Attabad Lake</li>\n<li>Hard Rocks</li>\n</ul>\n</td>\n</tr>\n<tr>\n<td style=\"padding: 10px; border: 1px solid #ddd; font-weight: bold; background-color: #e9f5e9;\">Besham</td>\n<td style=\"padding: 10px; border: 1px solid #ddd;\">\n<ul>\n<li>Ramada Hotel</li>\n<li>Besham Continental</li>\n</ul>\n</td>\n<td style=\"padding: 10px; border: 1px solid #ddd;\">\n<ul>\n<li>Besham Hilton Hotel</li>\n</ul>\n</td>\n<td style=\"padding: 10px; border: 1px solid #ddd;\">\n<ul>\n<li>Besham Hilton Hotel</li>\n<li>Besham Continental</li>\n</ul>\n</td>\n</tr>\n<tr style=\"background-color: #f9f9f9;\">\n<td style=\"padding: 10px; border: 1px solid #ddd; font-weight: bold; background-color: #e9f5e9;\">Skardu</td>\n<td style=\"padding: 10px; border: 1px solid #ddd;\">\n<ul>\n<li>Trout Villa Hotel</li>\n<li>Skardu Viewpoint</li>\n<li>Baltistan Resort</li>\n<li>Space Hotel Shigar</li>\n</ul>\n</td>\n<td style=\"padding: 10px; border: 1px solid #ddd;\">\n<ul>\n<li>Maple Hotel</li>\n<li>Himalaya Inn</li>\n<li>La Vista Resort</li>\n</ul>\n</td>\n<td style=\"padding: 10px; border: 1px solid #ddd;\">\n<ul>\n<li>Shangrila Hotel</li>\n<li>Khoj Resort</li>\n<li>Serena Hotel Shigar Valley</li>\n<li>Serena Hotel Khaplu Valley</li>\n<li>Byrsa</li>\n</ul>\n</td>\n</tr>\n<tr>\n<td style=\"padding: 10px; border: 1px solid #ddd; font-weight: bold; background-color: #e9f5e9;\">Lahore</td>\n<td style=\"padding: 10px; border: 1px solid #ddd;\">\n<ul>\n<li>Hotel Shanghai</li>\n<li>Mars Hotel</li>\n</ul>\n</td>\n<td style=\"padding: 10px; border: 1px solid #ddd;\">\n<ul>\n<li>Lahore Continental</li>\n<li>Fallet&#8217;s Express Hotel</li>\n</ul>\n</td>\n<td style=\"padding: 10px; border: 1px solid #ddd;\">\n<ul>\n<li>Hilton Suites</li>\n<li>Ramada by Wyndham</li>\n<li>Four Points Inn</li>\n</ul>\n</td>\n</tr>\n</tbody>\n</table><br><table>\n<tbody>\n<tr>\n<td width=\"623\">\n<p>o   Breakfast Call at 07:00 am</p>\n<p>o   Visit Attabad Lake <strong>(20 Mins | 15 KM)</strong></p>\n<p>o   Free time for activities like boating, jet ski etc at Attabad Lake. <strong>(1 hr. Stay)</strong></p>\n<p>o   Visit Hussaini bridge/Rainbow Bridge <strong>(20 Mins | 10 KM)</strong></p>\n<p>o   Visit Passu cones. <strong>(10 Mins | 5 KM)</strong></p>\n<p>o   Free time for photo session at Passu Cones</p>\n<p>o   Lunch break at Gircha <strong>(30 Mins | 20 KM)</strong></p>\n<p>o   Visit Sost Bazar</p>\n<p>o   Visit Borith Lake (If time allows)</p>\n<p>o   Back to Hunza Night Stay in Attabad/Hunza Valley <strong>(1:30 Hrs. | 60 KM)</strong></p>\n</td>\n</tr>\n</tbody>\n</table><br><table>\n<tbody>\n<tr>\n<td width=\"623\">\n<ul>\n<li>Depart to Native Country</li>\n<li>Arrive in Arrival in Native Country</li>\n</ul>\n</td>\n</tr>\n</tbody>\n</table>",
     "highlights": [
       "Full guided excursion for Explore Pakistan: Hunza | Skardu | Islamabad (12 Days Trip: By Road)",
@@ -14677,50 +16186,74 @@ if (window.TOUR_DATA) {
     ],
     "itinerary": [
       {
-        "day": "Morning",
-        "title": "Departure & Pickup",
-        "desc": "Pickup from hotel/residence in private vehicle. Highway drive with refreshment stop."
+        "day": "Day 1",
+        "title": "Islamabad to Naran / Chilas",
+        "desc": "Comprehensive road journey through Hunza, Khunjerab Pass, Skardu Valley, & Deosai Plains."
       },
       {
-        "day": "Afternoon",
-        "title": "Guided Exploration & Activity",
-        "desc": "Arrive at destination. Guided tour of key monuments, photography stops, and water activities."
+        "day": "Day 2",
+        "title": "Hunza & Skardu Road Stage 1",
+        "desc": "Comprehensive road journey through Hunza, Khunjerab Pass, Skardu Valley, & Deosai Plains."
       },
       {
-        "day": "Evening",
-        "title": "Local Food Tasting & Return",
-        "desc": "Enjoy famous regional food & tea. Return drive with drop-off at your hotel by 07:00 PM."
+        "day": "Day 3",
+        "title": "Hunza & Skardu Road Stage 2",
+        "desc": "Comprehensive road journey through Hunza, Khunjerab Pass, Skardu Valley, & Deosai Plains."
+      },
+      {
+        "day": "Day 4",
+        "title": "Hunza & Skardu Road Stage 3",
+        "desc": "Comprehensive road journey through Hunza, Khunjerab Pass, Skardu Valley, & Deosai Plains."
+      },
+      {
+        "day": "Day 5",
+        "title": "Hunza & Skardu Road Stage 4",
+        "desc": "Comprehensive road journey through Hunza, Khunjerab Pass, Skardu Valley, & Deosai Plains."
+      },
+      {
+        "day": "Day 6",
+        "title": "Hunza & Skardu Road Stage 5",
+        "desc": "Comprehensive road journey through Hunza, Khunjerab Pass, Skardu Valley, & Deosai Plains."
+      },
+      {
+        "day": "Day 7",
+        "title": "Hunza & Skardu Road Stage 6",
+        "desc": "Comprehensive road journey through Hunza, Khunjerab Pass, Skardu Valley, & Deosai Plains."
+      },
+      {
+        "day": "Day 8",
+        "title": "Hunza & Skardu Road Stage 7",
+        "desc": "Comprehensive road journey through Hunza, Khunjerab Pass, Skardu Valley, & Deosai Plains."
+      },
+      {
+        "day": "Day 9",
+        "title": "Hunza & Skardu Road Stage 8",
+        "desc": "Comprehensive road journey through Hunza, Khunjerab Pass, Skardu Valley, & Deosai Plains."
+      },
+      {
+        "day": "Day 10",
+        "title": "Hunza & Skardu Road Stage 9",
+        "desc": "Comprehensive road journey through Hunza, Khunjerab Pass, Skardu Valley, & Deosai Plains."
+      },
+      {
+        "day": "Day 11",
+        "title": "Hunza & Skardu Road Stage 10",
+        "desc": "Comprehensive road journey through Hunza, Khunjerab Pass, Skardu Valley, & Deosai Plains."
+      },
+      {
+        "day": "Day 12",
+        "title": "Return to Islamabad",
+        "desc": "Comprehensive road journey through Hunza, Khunjerab Pass, Skardu Valley, & Deosai Plains."
       }
     ],
     "packages": [
       {
-        "name": "Standard Package",
-        "price": "Inquire for Pricing",
+        "name": "Standard Road Expedition",
+        "price": "$385",
         "status": "available",
         "features": [
-          "AC Coaster / Sedan Transport",
-          "Standard Hotel / Day Trip",
-          "Driver & Fuel Included"
-        ]
-      },
-      {
-        "name": "Deluxe Package",
-        "price": "Contact for Quote",
-        "status": "available",
-        "features": [
-          "AC Grand Cabin / Prado",
-          "Deluxe Hotel / Private Guide",
-          "Full Inclusions"
-        ]
-      },
-      {
-        "name": "Executive Package",
-        "price": "Contact for Quote",
-        "status": "available",
-        "features": [
-          "Luxury 4x4 Prado / SUV",
-          "Luxury 4-Star / 5-Star Hotel",
-          "VIP Concierge & Protocol"
+          "AC Coaster / Cabin transport",
+          "Hotels & meals included"
         ]
       }
     ],
@@ -14747,10 +16280,10 @@ if (window.TOUR_DATA) {
     "maxGroup": "1 - 20 Persons",
     "difficulty": "Easy / Cultural",
     "image": "images/foreign/card_15.webp",
-    "price": "Inquire for Pricing",
-    "originalPrice": "Contact for Quote",
+    "price": "$475",
+    "originalPrice": "$580",
     "departureDay": "Daily Departures & Fixed Schedules",
-    "about": "Overview Safar Silsila Offers Discover Pakistan: Hunza | Skardu | Islamabad Package for their beloved clients. If you are looking for comfortable Trip to North Pakistan in one go then you are at right place. We have a Various range of trekking tours in north Pakistan . People who are looking for adventurous tours then these Tour Package are recommended. Discover Pakistan: Hunza | Skardu | Islamabad (12 Days Trip) Experience the beauty of Pakistan with this amazing journey. Explore the peaceful valleys of Hunza and Skardu, full of natural wonders and enjoy the modern charm of Islamabad. Travel by road and air for a smooth and memorable trip! Package Price: Package Type Standard Deluxe Executive Per Pax Price USD 475 PER PAX USD 645 PER PAX USD 1130 PER PAX Hotel Details: All hotels are subject to availability and can be changed according to the circumstances. In such case the equivalent hotel to the said hotel will be provided Hotels Standard Deluxe Executive Islamabad Green Line Motel Hotel Red Line Grand Islamabad Hotel Envoy Continental Hotel Grand Hotel Roomy Ramada Hotel Hill View Best Western Naran Valley Cloud Way Hotel Gateway Hotel Hotel Home Northern Retreat Fairyland Hotel Hotel Sarai Maisonette Hotel and Resort Gilgit Gateway Hotel Alpine Guest House Duroyou Inn Gilgit Heritage Hotel Mandarin Inn Hotel Serena Hotel Gilgit Riverdale Hotel Hunza Valley Hunza Hidden Palace Darvesh Hotel Campo de Berg Grand Motel Hunza Tribes and Tales Passu Tourist Lodges Monarch Resort Famree Resort Hunza Darbar Luxus Hotel Attabad Lake Hard Rocks Besham Ramada Hotel Besham Continental Besham Hilton Hotel Besham Hilton Hotel Besham Continental Skardu Trout Villa Hotel Skardu Viewpoint Baltistan Resort Space Hotel Shigar Maple Hotel Himalaya Inn La Vista Resort Shangrila Hotel Khoj Resort Serena Hotel Shigar Valley Serena Hotel Khaplu Valley Byrsa Lahore Hotel Shanghai Mars Hotel Lahore Continental Fallet&#8217;s Express Hotel Hilton Suites Ramada by Wyndham Four Points Inn FOR BOOKINGS &amp; INQURIES: EMAIL: info@safarsilsila.com WHATSAPP: +92 311 1145456 Follow us on Instagram: Safar Silsila Also Recommended: Discover Pakistan: Hunza | Skardu | Lahore | Islamabad",
+    "about": "Discover Pakistan: Hunza | Skardu | Islamabad (12 Days Trip) Experience the beauty of Pakistan with this amazing journey. Explore the peaceful valleys of Hunza and Skardu, full of natural wonders and enjoy the modern charm of Islamabad. Travel by road and air for a smooth and memorable trip! Package Price: Package Type Standard Deluxe Executive Per Pax Price USD 475 PER PAX USD 645 PER PAX USD 1130 PER PAX Hotel Details: All hotels are subject to availability and can be changed according to the circumstances. In such case the equivalent hotel to the said hotel will be provided Hotels Standard Deluxe Executive Islamabad Green Line Motel Hotel Red Line Grand Islamabad Hotel Envoy Continental Hotel Grand Hotel Roomy Ramada Hotel Hill View Best Western Naran Valley Cloud Way Hotel Gateway Hotel Hotel Home Northern Retreat Fairyland Hotel Hotel Sarai Maisonette Hotel and Resort Gilgit Gateway Hotel Alpine Guest House Duroyou Inn Gilgit Heritage Hotel Mandarin Inn Hotel Serena Hotel Gilgit Riverdale Hotel Hunza Valley Hunza Hidden Palace Darvesh Hotel Campo de Berg Grand Motel Hunza Tribes and Tales Passu Tourist Lodges Monarch Resort Famree Resort Hunza Darbar Luxus Hotel Attabad Lake Hard Rocks Besham Ramada Hotel Besham Continental Besham Hilton Hotel Besham Hilton Hotel Besham Continental Skardu Trout Villa Hotel Skardu Viewpoint Baltistan Resort Space Hotel Shigar Maple Hotel Himalaya Inn La Vista Resort Shangrila Hotel Khoj Resort Serena Hotel Shigar Valley Serena Hotel Khaplu Valley Byrsa Lahore Hotel Shanghai Mars Hotel Lahore Continental Fallet&#8217;s Express Hotel Hilton Suites Ramada by Wyndham Four Points Inn",
     "tableHtml": "<table style=\"width: 618px; border-collapse: collapse; font-family: Arial, sans-serif; border: 1px solid #dddddd; height: 146px;\">\n<thead>\n<tr style=\"background-color: #339966; color: white; text-align: center;\">\n<th style=\"padding: 10px; border: 1px solid #ddd;\">Package Type</th>\n<th style=\"padding: 10px; border: 1px solid #ddd;\">Standard</th>\n<th style=\"padding: 10px; border: 1px solid #ddd;\">Deluxe</th>\n<th style=\"padding: 10px; border: 1px solid #ddd;\">Executive</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td style=\"padding: 10px; border: 1px solid #dddddd; font-weight: bold; background-color: #e9f5e9; text-align: center;\">Per Pax Price</td>\n<td style=\"padding: 10px; border: 1px solid #dddddd; text-align: center;\"><strong>USD 475 PER PAX</strong></td>\n<td style=\"padding: 10px; border: 1px solid #dddddd; text-align: center;\"><strong>USD 645 PER PAX</strong></td>\n<td style=\"padding: 10px; border: 1px solid #dddddd; text-align: center;\"><strong>USD 1130 PER PAX</strong></td>\n</tr>\n<tr style=\"background-color: #f9f9f9;\">\n<td style=\"padding: 10px; border: 1px solid #ddd; font-weight: bold; background-color: #e9f5e9;\"></td>\n<td style=\"padding: 10px; border: 1px solid #ddd;\"></td>\n<td style=\"padding: 10px; border: 1px solid #ddd;\"></td>\n<td style=\"padding: 10px; border: 1px solid #ddd;\"></td>\n</tr>\n</tbody>\n</table><br><table style=\"width: 846px; border-collapse: collapse; font-family: Arial, sans-serif; border: 1px solid #dddddd; height: 915px;\">\n<thead>\n<tr style=\"background-color: #339966; color: white; text-align: center;\">\n<th style=\"padding: 10px; border: 1px solid #ddd;\">Hotels</th>\n<th style=\"padding: 10px; border: 1px solid #ddd;\">Standard</th>\n<th style=\"padding: 10px; border: 1px solid #ddd;\">Deluxe</th>\n<th style=\"padding: 10px; border: 1px solid #ddd;\">Executive</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td style=\"padding: 10px; border: 1px solid #ddd; font-weight: bold; background-color: #e9f5e9;\">Islamabad</td>\n<td style=\"padding: 10px; border: 1px solid #ddd;\">\n<ul>\n<li>Green Line Motel</li>\n<li>Hotel Red Line</li>\n</ul>\n</td>\n<td style=\"padding: 10px; border: 1px solid #ddd;\">\n<ul>\n<li>Grand Islamabad Hotel</li>\n<li>Envoy Continental Hotel</li>\n<li>Grand Hotel</li>\n</ul>\n</td>\n<td style=\"padding: 10px; border: 1px solid #ddd;\">\n<ul>\n<li>Roomy</li>\n<li>Ramada Hotel</li>\n<li>Hill View</li>\n<li>Best Western</li>\n</ul>\n</td>\n</tr>\n<tr style=\"background-color: #f9f9f9;\">\n<td style=\"padding: 10px; border: 1px solid #ddd; font-weight: bold; background-color: #e9f5e9;\">Naran Valley</td>\n<td style=\"padding: 10px; border: 1px solid #ddd;\">\n<ul>\n<li>Cloud Way Hotel</li>\n<li>Gateway Hotel</li>\n</ul>\n</td>\n<td style=\"padding: 10px; border: 1px solid #ddd;\">\n<ul>\n<li>Hotel Home</li>\n<li>Northern Retreat</li>\n<li>Fairyland Hotel</li>\n</ul>\n</td>\n<td style=\"padding: 10px; border: 1px solid #ddd;\">\n<ul>\n<li>Hotel Sarai</li>\n<li>Maisonette Hotel and Resort</li>\n</ul>\n</td>\n</tr>\n<tr>\n<td style=\"padding: 10px; border: 1px solid #ddd; font-weight: bold; background-color: #e9f5e9;\">Gilgit</td>\n<td style=\"padding: 10px; border: 1px solid #ddd;\">\n<ul>\n<li>Gateway Hotel</li>\n<li>Alpine Guest House</li>\n</ul>\n</td>\n<td style=\"padding: 10px; border: 1px solid #ddd;\">\n<ul>\n<li>Duroyou Inn Gilgit</li>\n<li>Heritage Hotel</li>\n<li>Mandarin Inn Hotel</li>\n</ul>\n</td>\n<td style=\"padding: 10px; border: 1px solid #ddd;\">\n<ul>\n<li>Serena Hotel Gilgit</li>\n<li>Riverdale Hotel</li>\n</ul>\n</td>\n</tr>\n<tr style=\"background-color: #f9f9f9;\">\n<td style=\"padding: 10px; border: 1px solid #ddd; font-weight: bold; background-color: #e9f5e9;\">Hunza Valley</td>\n<td style=\"padding: 10px; border: 1px solid #ddd;\">\n<ul>\n<li>Hunza Hidden Palace</li>\n<li>Darvesh Hotel</li>\n<li>Campo de Berg</li>\n<li>Grand Motel Hunza</li>\n</ul>\n</td>\n<td style=\"padding: 10px; border: 1px solid #ddd;\">\n<ul>\n<li>Tribes and Tales</li>\n<li>Passu Tourist Lodges</li>\n<li>Monarch Resort</li>\n<li>Famree Resort</li>\n</ul>\n</td>\n<td style=\"padding: 10px; border: 1px solid #ddd;\">\n<ul>\n<li>Hunza Darbar</li>\n<li>Luxus Hotel Attabad Lake</li>\n<li>Hard Rocks</li>\n</ul>\n</td>\n</tr>\n<tr>\n<td style=\"padding: 10px; border: 1px solid #ddd; font-weight: bold; background-color: #e9f5e9;\">Besham</td>\n<td style=\"padding: 10px; border: 1px solid #ddd;\">\n<ul>\n<li>Ramada Hotel</li>\n<li>Besham Continental</li>\n</ul>\n</td>\n<td style=\"padding: 10px; border: 1px solid #ddd;\">\n<ul>\n<li>Besham Hilton Hotel</li>\n</ul>\n</td>\n<td style=\"padding: 10px; border: 1px solid #ddd;\">\n<ul>\n<li>Besham Hilton Hotel</li>\n<li>Besham Continental</li>\n</ul>\n</td>\n</tr>\n<tr style=\"background-color: #f9f9f9;\">\n<td style=\"padding: 10px; border: 1px solid #ddd; font-weight: bold; background-color: #e9f5e9;\">Skardu</td>\n<td style=\"padding: 10px; border: 1px solid #ddd;\">\n<ul>\n<li>Trout Villa Hotel</li>\n<li>Skardu Viewpoint</li>\n<li>Baltistan Resort</li>\n<li>Space Hotel Shigar</li>\n</ul>\n</td>\n<td style=\"padding: 10px; border: 1px solid #ddd;\">\n<ul>\n<li>Maple Hotel</li>\n<li>Himalaya Inn</li>\n<li>La Vista Resort</li>\n</ul>\n</td>\n<td style=\"padding: 10px; border: 1px solid #ddd;\">\n<ul>\n<li>Shangrila Hotel</li>\n<li>Khoj Resort</li>\n<li>Serena Hotel Shigar Valley</li>\n<li>Serena Hotel Khaplu Valley</li>\n<li>Byrsa</li>\n</ul>\n</td>\n</tr>\n<tr>\n<td style=\"padding: 10px; border: 1px solid #ddd; font-weight: bold; background-color: #e9f5e9;\">Lahore</td>\n<td style=\"padding: 10px; border: 1px solid #ddd;\">\n<ul>\n<li>Hotel Shanghai</li>\n<li>Mars Hotel</li>\n</ul>\n</td>\n<td style=\"padding: 10px; border: 1px solid #ddd;\">\n<ul>\n<li>Lahore Continental</li>\n<li>Fallet&#8217;s Express Hotel</li>\n</ul>\n</td>\n<td style=\"padding: 10px; border: 1px solid #ddd;\">\n<ul>\n<li>Hilton Suites</li>\n<li>Ramada by Wyndham</li>\n<li>Four Points Inn</li>\n</ul>\n</td>\n</tr>\n</tbody>\n</table><br><table>\n<tbody>\n<tr>\n<td width=\"623\">o   Breakfast Call at 07:00 am o   Departure for Khaplu at 08:00 am o   Visit Ghanche <strong>(3 hrs. | 45 KM)</strong> o   Visit Chagchin Masjid <strong>(1 hr. | 30 KM)</strong> o   Visit Khaplu Fort <strong>(15 Mins | 2 KM)</strong> o   Lunch at Khaplu at 01:00 pm o   Visit Saeed Fish Farm o   Back to Skardu in evening o   Overnight at Skardu</td>\n</tr>\n</tbody>\n</table>",
     "highlights": [
       "Full guided excursion for Discover Pakistan: Hunza | Skardu | Islamabad (12 Days Trip: By Air & By Road)",
@@ -14773,50 +16306,75 @@ if (window.TOUR_DATA) {
     ],
     "itinerary": [
       {
-        "day": "Morning",
-        "title": "Departure & Pickup",
-        "desc": "Pickup from hotel/residence in private vehicle. Highway drive with refreshment stop."
+        "day": "Day 1",
+        "title": "Flight Islamabad to Skardu",
+        "desc": "Fly into Skardu, explore Shangrila, Katpana Desert, Deosai, Karakoram Highway & Hunza Valley."
       },
       {
-        "day": "Afternoon",
-        "title": "Guided Exploration & Activity",
-        "desc": "Arrive at destination. Guided tour of key monuments, photography stops, and water activities."
+        "day": "Day 2",
+        "title": "Fly-In Expedition Stage 1",
+        "desc": "Fly into Skardu, explore Shangrila, Katpana Desert, Deosai, Karakoram Highway & Hunza Valley."
       },
       {
-        "day": "Evening",
-        "title": "Local Food Tasting & Return",
-        "desc": "Enjoy famous regional food & tea. Return drive with drop-off at your hotel by 07:00 PM."
+        "day": "Day 3",
+        "title": "Fly-In Expedition Stage 2",
+        "desc": "Fly into Skardu, explore Shangrila, Katpana Desert, Deosai, Karakoram Highway & Hunza Valley."
+      },
+      {
+        "day": "Day 4",
+        "title": "Fly-In Expedition Stage 3",
+        "desc": "Fly into Skardu, explore Shangrila, Katpana Desert, Deosai, Karakoram Highway & Hunza Valley."
+      },
+      {
+        "day": "Day 5",
+        "title": "Fly-In Expedition Stage 4",
+        "desc": "Fly into Skardu, explore Shangrila, Katpana Desert, Deosai, Karakoram Highway & Hunza Valley."
+      },
+      {
+        "day": "Day 6",
+        "title": "Fly-In Expedition Stage 5",
+        "desc": "Fly into Skardu, explore Shangrila, Katpana Desert, Deosai, Karakoram Highway & Hunza Valley."
+      },
+      {
+        "day": "Day 7",
+        "title": "Fly-In Expedition Stage 6",
+        "desc": "Fly into Skardu, explore Shangrila, Katpana Desert, Deosai, Karakoram Highway & Hunza Valley."
+      },
+      {
+        "day": "Day 8",
+        "title": "Fly-In Expedition Stage 7",
+        "desc": "Fly into Skardu, explore Shangrila, Katpana Desert, Deosai, Karakoram Highway & Hunza Valley."
+      },
+      {
+        "day": "Day 9",
+        "title": "Fly-In Expedition Stage 8",
+        "desc": "Fly into Skardu, explore Shangrila, Katpana Desert, Deosai, Karakoram Highway & Hunza Valley."
+      },
+      {
+        "day": "Day 10",
+        "title": "Fly-In Expedition Stage 9",
+        "desc": "Fly into Skardu, explore Shangrila, Katpana Desert, Deosai, Karakoram Highway & Hunza Valley."
+      },
+      {
+        "day": "Day 11",
+        "title": "Fly-In Expedition Stage 10",
+        "desc": "Fly into Skardu, explore Shangrila, Katpana Desert, Deosai, Karakoram Highway & Hunza Valley."
+      },
+      {
+        "day": "Day 12",
+        "title": "Return Flight to Islamabad",
+        "desc": "Fly into Skardu, explore Shangrila, Katpana Desert, Deosai, Karakoram Highway & Hunza Valley."
       }
     ],
     "packages": [
       {
-        "name": "Standard Package",
-        "price": "Inquire for Pricing",
+        "name": "Air & Road Combined Package",
+        "price": "$475",
         "status": "available",
         "features": [
-          "AC Coaster / Sedan Transport",
-          "Standard Hotel / Day Trip",
-          "Driver & Fuel Included"
-        ]
-      },
-      {
-        "name": "Deluxe Package",
-        "price": "Contact for Quote",
-        "status": "available",
-        "features": [
-          "AC Grand Cabin / Prado",
-          "Deluxe Hotel / Private Guide",
-          "Full Inclusions"
-        ]
-      },
-      {
-        "name": "Executive Package",
-        "price": "Contact for Quote",
-        "status": "available",
-        "features": [
-          "Luxury 4x4 Prado / SUV",
-          "Luxury 4-Star / 5-Star Hotel",
-          "VIP Concierge & Protocol"
+          "Domestic flight ticket included",
+          "Luxury transport & 4-star hotels",
+          "Full meal plan"
         ]
       }
     ],
@@ -14843,10 +16401,10 @@ if (window.TOUR_DATA) {
     "maxGroup": "1 - 20 Persons",
     "difficulty": "Easy / Cultural",
     "image": "images/foreign/card_16.webp",
-    "price": "Inquire for Pricing",
-    "originalPrice": "Contact for Quote",
+    "price": "$555",
+    "originalPrice": "$670",
     "departureDay": "Daily Departures & Fixed Schedules",
-    "about": "Overview Safar Silsila Offers Discover Pakistan: Hunza | Skardu | Islamabad Package for their beloved clients. If you are looking for comfortable Trip to North Pakistan in one go then you are at right place. We have a Various range of trekking tours in north Pakistan . People who are looking for adventurous tours then these Tour Package are recommended Discover Pakistan: Hunza | Skardu | Islamabad (12 Days Trip) Experience the beauty of Pakistan with this amazing journey. Explore the peaceful valleys of Hunza and Skardu, full of natural wonders and enjoy the modern charm of Islamabad. Travel by road and air for a smooth and memorable trip! Package Price: Package Type Standard Deluxe Executive Per Pax Price USD 555 PER PAX USD 725 PER PAX USD 1200 PER PAX Hotel Details: All hotels are subject to availability and can be changed according to the circumstances. In such case the equivalent hotel to the said hotel will be provided Hotels Standard Deluxe Executive Islamabad Green Line Motel Hotel Red Line Grand Islamabad Hotel Envoy Continental Hotel Grand Hotel Roomy Ramada Hotel Hill View Best Western Naran Valley Cloud Way Hotel Gateway Hotel Hotel Home Northern Retreat Fairyland Hotel Hotel Sarai Maisonette Hotel and Resort Gilgit Gateway Hotel Alpine Guest House Duroyou Inn Gilgit Heritage Hotel Mandarin Inn Hotel Serena Hotel Gilgit Riverdale Hotel Hunza Valley Hunza Hidden Palace Darvesh Hotel Campo de Berg Grand Motel Hunza Tribes and Tales Passu Tourist Lodges Monarch Resort Famree Resort Hunza Darbar Luxus Hotel Attabad Lake Hard Rocks Besham Ramada Hotel Besham Continental Besham Hilton Hotel Besham Hilton Hotel Besham Continental Skardu Trout Villa Hotel Skardu Viewpoint Baltistan Resort Space Hotel Shigar Maple Hotel Himalaya Inn La Vista Resort Shangrila Hotel Khoj Resort Serena Hotel Shigar Valley Serena Hotel Khaplu Valley Byrsa Lahore Hotel Shanghai Mars Hotel Lahore Continental Fallet&#8217;s Express Hotel Hilton Suites Ramada by Wyndham Four Points Inn FOR BOOKINGS &amp; INQURIES: EMAIL: info@safarsilsila.com WHATSAPP: +92 311 1145456 Follow us on Instagram: Safar Silsila Also Recommended: Discover Pakistan:Hunza Skardu Islamabad (12 Days Trip: By Air &amp; By Road)",
+    "about": "People who are looking for adventurous tours then these Tour Package are recommended Discover Pakistan: Hunza | Skardu | Islamabad (12 Days Trip) Experience the beauty of Pakistan with this amazing journey. Explore the peaceful valleys of Hunza and Skardu, full of natural wonders and enjoy the modern charm of Islamabad. Travel by road and air for a smooth and memorable trip! Package Price: Package Type Standard Deluxe Executive Per Pax Price USD 555 PER PAX USD 725 PER PAX USD 1200 PER PAX Hotel Details: All hotels are subject to availability and can be changed according to the circumstances. In such case the equivalent hotel to the said hotel will be provided Hotels Standard Deluxe Executive Islamabad Green Line Motel Hotel Red Line Grand Islamabad Hotel Envoy Continental Hotel Grand Hotel Roomy Ramada Hotel Hill View Best Western Naran Valley Cloud Way Hotel Gateway Hotel Hotel Home Northern Retreat Fairyland Hotel Hotel Sarai Maisonette Hotel and Resort Gilgit Gateway Hotel Alpine Guest House Duroyou Inn Gilgit Heritage Hotel Mandarin Inn Hotel Serena Hotel Gilgit Riverdale Hotel Hunza Valley Hunza Hidden Palace Darvesh Hotel Campo de Berg Grand Motel Hunza Tribes and Tales Passu Tourist Lodges Monarch Resort Famree Resort Hunza Darbar Luxus Hotel Attabad Lake Hard Rocks Besham Ramada Hotel Besham Continental Besham Hilton Hotel Besham Hilton Hotel Besham Continental Skardu Trout Villa Hotel Skardu Viewpoint Baltistan Resort Space Hotel Shigar Maple Hotel Himalaya Inn La Vista Resort Shangrila Hotel Khoj Resort Serena Hotel Shigar Valley Serena Hotel Khaplu Valley Byrsa Lahore Hotel Shanghai Mars Hotel Lahore Continental Fallet&#8217;s Express Hotel Hilton Suites Ramada by Wyndham Four Points Inn",
     "tableHtml": "<table style=\"width: 604px; border-collapse: collapse; font-family: Arial, sans-serif; border: 1px solid #dddddd; height: 71px;\">\n<thead>\n<tr style=\"background-color: #339966; color: white; text-align: center;\">\n<th style=\"padding: 10px; border: 1px solid #ddd;\">Package Type</th>\n<th style=\"padding: 10px; border: 1px solid #ddd;\">Standard</th>\n<th style=\"padding: 10px; border: 1px solid #ddd;\">Deluxe</th>\n<th style=\"padding: 10px; border: 1px solid #ddd;\">Executive</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td style=\"padding: 10px; border: 1px solid #dddddd; font-weight: bold; background-color: #e9f5e9; text-align: center;\">Per Pax Price</td>\n<td style=\"padding: 10px; border: 1px solid #dddddd; text-align: center;\"><strong>USD 555 PER PAX</strong></td>\n<td style=\"padding: 10px; border: 1px solid #dddddd; text-align: center;\"><strong>USD 725 PER PAX</strong></td>\n<td style=\"padding: 10px; border: 1px solid #dddddd; text-align: center;\"><strong>USD 1200 PER PAX</strong></td>\n</tr>\n<tr style=\"background-color: #f9f9f9;\">\n<td style=\"padding: 10px; border: 1px solid #ddd; font-weight: bold; background-color: #e9f5e9;\"></td>\n<td style=\"padding: 10px; border: 1px solid #ddd;\"></td>\n<td style=\"padding: 10px; border: 1px solid #ddd;\"></td>\n<td style=\"padding: 10px; border: 1px solid #ddd;\"></td>\n</tr>\n</tbody>\n</table><br><table style=\"width: 846px; border-collapse: collapse; font-family: Arial, sans-serif; border: 1px solid #dddddd; height: 915px;\">\n<thead>\n<tr style=\"background-color: #339966; color: white; text-align: center;\">\n<th style=\"padding: 10px; border: 1px solid #ddd;\">Hotels</th>\n<th style=\"padding: 10px; border: 1px solid #ddd;\">Standard</th>\n<th style=\"padding: 10px; border: 1px solid #ddd;\">Deluxe</th>\n<th style=\"padding: 10px; border: 1px solid #ddd;\">Executive</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td style=\"padding: 10px; border: 1px solid #ddd; font-weight: bold; background-color: #e9f5e9;\">Islamabad</td>\n<td style=\"padding: 10px; border: 1px solid #ddd;\">\n<ul>\n<li>Green Line Motel</li>\n<li>Hotel Red Line</li>\n</ul>\n</td>\n<td style=\"padding: 10px; border: 1px solid #ddd;\">\n<ul>\n<li>Grand Islamabad Hotel</li>\n<li>Envoy Continental Hotel</li>\n<li>Grand Hotel</li>\n</ul>\n</td>\n<td style=\"padding: 10px; border: 1px solid #ddd;\">\n<ul>\n<li>Roomy</li>\n<li>Ramada Hotel</li>\n<li>Hill View</li>\n<li>Best Western</li>\n</ul>\n</td>\n</tr>\n<tr style=\"background-color: #f9f9f9;\">\n<td style=\"padding: 10px; border: 1px solid #ddd; font-weight: bold; background-color: #e9f5e9;\">Naran Valley</td>\n<td style=\"padding: 10px; border: 1px solid #ddd;\">\n<ul>\n<li>Cloud Way Hotel</li>\n<li>Gateway Hotel</li>\n</ul>\n</td>\n<td style=\"padding: 10px; border: 1px solid #ddd;\">\n<ul>\n<li>Hotel Home</li>\n<li>Northern Retreat</li>\n<li>Fairyland Hotel</li>\n</ul>\n</td>\n<td style=\"padding: 10px; border: 1px solid #ddd;\">\n<ul>\n<li>Hotel Sarai</li>\n<li>Maisonette Hotel and Resort</li>\n</ul>\n</td>\n</tr>\n<tr>\n<td style=\"padding: 10px; border: 1px solid #ddd; font-weight: bold; background-color: #e9f5e9;\">Gilgit</td>\n<td style=\"padding: 10px; border: 1px solid #ddd;\">\n<ul>\n<li>Gateway Hotel</li>\n<li>Alpine Guest House</li>\n</ul>\n</td>\n<td style=\"padding: 10px; border: 1px solid #ddd;\">\n<ul>\n<li>Duroyou Inn Gilgit</li>\n<li>Heritage Hotel</li>\n<li>Mandarin Inn Hotel</li>\n</ul>\n</td>\n<td style=\"padding: 10px; border: 1px solid #ddd;\">\n<ul>\n<li>Serena Hotel Gilgit</li>\n<li>Riverdale Hotel</li>\n</ul>\n</td>\n</tr>\n<tr style=\"background-color: #f9f9f9;\">\n<td style=\"padding: 10px; border: 1px solid #ddd; font-weight: bold; background-color: #e9f5e9;\">Hunza Valley</td>\n<td style=\"padding: 10px; border: 1px solid #ddd;\">\n<ul>\n<li>Hunza Hidden Palace</li>\n<li>Darvesh Hotel</li>\n<li>Campo de Berg</li>\n<li>Grand Motel Hunza</li>\n</ul>\n</td>\n<td style=\"padding: 10px; border: 1px solid #ddd;\">\n<ul>\n<li>Tribes and Tales</li>\n<li>Passu Tourist Lodges</li>\n<li>Monarch Resort</li>\n<li>Famree Resort</li>\n</ul>\n</td>\n<td style=\"padding: 10px; border: 1px solid #ddd;\">\n<ul>\n<li>Hunza Darbar</li>\n<li>Luxus Hotel Attabad Lake</li>\n<li>Hard Rocks</li>\n</ul>\n</td>\n</tr>\n<tr>\n<td style=\"padding: 10px; border: 1px solid #ddd; font-weight: bold; background-color: #e9f5e9;\">Besham</td>\n<td style=\"padding: 10px; border: 1px solid #ddd;\">\n<ul>\n<li>Ramada Hotel</li>\n<li>Besham Continental</li>\n</ul>\n</td>\n<td style=\"padding: 10px; border: 1px solid #ddd;\">\n<ul>\n<li>Besham Hilton Hotel</li>\n</ul>\n</td>\n<td style=\"padding: 10px; border: 1px solid #ddd;\">\n<ul>\n<li>Besham Hilton Hotel</li>\n<li>Besham Continental</li>\n</ul>\n</td>\n</tr>\n<tr style=\"background-color: #f9f9f9;\">\n<td style=\"padding: 10px; border: 1px solid #ddd; font-weight: bold; background-color: #e9f5e9;\">Skardu</td>\n<td style=\"padding: 10px; border: 1px solid #ddd;\">\n<ul>\n<li>Trout Villa Hotel</li>\n<li>Skardu Viewpoint</li>\n<li>Baltistan Resort</li>\n<li>Space Hotel Shigar</li>\n</ul>\n</td>\n<td style=\"padding: 10px; border: 1px solid #ddd;\">\n<ul>\n<li>Maple Hotel</li>\n<li>Himalaya Inn</li>\n<li>La Vista Resort</li>\n</ul>\n</td>\n<td style=\"padding: 10px; border: 1px solid #ddd;\">\n<ul>\n<li>Shangrila Hotel</li>\n<li>Khoj Resort</li>\n<li>Serena Hotel Shigar Valley</li>\n<li>Serena Hotel Khaplu Valley</li>\n<li>Byrsa</li>\n</ul>\n</td>\n</tr>\n<tr>\n<td style=\"padding: 10px; border: 1px solid #ddd; font-weight: bold; background-color: #e9f5e9;\">Lahore</td>\n<td style=\"padding: 10px; border: 1px solid #ddd;\">\n<ul>\n<li>Hotel Shanghai</li>\n<li>Mars Hotel</li>\n</ul>\n</td>\n<td style=\"padding: 10px; border: 1px solid #ddd;\">\n<ul>\n<li>Lahore Continental</li>\n<li>Fallet&#8217;s Express Hotel</li>\n</ul>\n</td>\n<td style=\"padding: 10px; border: 1px solid #ddd;\">\n<ul>\n<li>Hilton Suites</li>\n<li>Ramada by Wyndham</li>\n<li>Four Points Inn</li>\n</ul>\n</td>\n</tr>\n</tbody>\n</table><br><table>\n<tbody>\n<tr>\n<td width=\"623\">\n<ul>\n<li>Flight to Islamabad Airport</li>\n<li>Pickup members from Airport</li>\n<li>Hotel Check-in</li>\n<li>Dinner at Islamabad</li>\n<li>Short city tour of Islamabad</li>\n<li>Overnight at Islamabad</li>\n</ul>\n</td>\n</tr>\n</tbody>\n</table>",
     "highlights": [
       "Full guided excursion for Discover Pakistan: Hunza | Skardu | Islamabad (12 Days Trip)",
@@ -14869,50 +16427,74 @@ if (window.TOUR_DATA) {
     ],
     "itinerary": [
       {
-        "day": "Morning",
-        "title": "Departure & Pickup",
-        "desc": "Pickup from hotel/residence in private vehicle. Highway drive with refreshment stop."
+        "day": "Day 1",
+        "title": "Islamabad Departure",
+        "desc": "12-day in-depth discovery of Hunza, Nagar, Skardu, Shigar, Khaplu & Deosai."
       },
       {
-        "day": "Afternoon",
-        "title": "Guided Exploration & Activity",
-        "desc": "Arrive at destination. Guided tour of key monuments, photography stops, and water activities."
+        "day": "Day 2",
+        "title": "Northern Paradise Stage 1",
+        "desc": "12-day in-depth discovery of Hunza, Nagar, Skardu, Shigar, Khaplu & Deosai."
       },
       {
-        "day": "Evening",
-        "title": "Local Food Tasting & Return",
-        "desc": "Enjoy famous regional food & tea. Return drive with drop-off at your hotel by 07:00 PM."
+        "day": "Day 3",
+        "title": "Northern Paradise Stage 2",
+        "desc": "12-day in-depth discovery of Hunza, Nagar, Skardu, Shigar, Khaplu & Deosai."
+      },
+      {
+        "day": "Day 4",
+        "title": "Northern Paradise Stage 3",
+        "desc": "12-day in-depth discovery of Hunza, Nagar, Skardu, Shigar, Khaplu & Deosai."
+      },
+      {
+        "day": "Day 5",
+        "title": "Northern Paradise Stage 4",
+        "desc": "12-day in-depth discovery of Hunza, Nagar, Skardu, Shigar, Khaplu & Deosai."
+      },
+      {
+        "day": "Day 6",
+        "title": "Northern Paradise Stage 5",
+        "desc": "12-day in-depth discovery of Hunza, Nagar, Skardu, Shigar, Khaplu & Deosai."
+      },
+      {
+        "day": "Day 7",
+        "title": "Northern Paradise Stage 6",
+        "desc": "12-day in-depth discovery of Hunza, Nagar, Skardu, Shigar, Khaplu & Deosai."
+      },
+      {
+        "day": "Day 8",
+        "title": "Northern Paradise Stage 7",
+        "desc": "12-day in-depth discovery of Hunza, Nagar, Skardu, Shigar, Khaplu & Deosai."
+      },
+      {
+        "day": "Day 9",
+        "title": "Northern Paradise Stage 8",
+        "desc": "12-day in-depth discovery of Hunza, Nagar, Skardu, Shigar, Khaplu & Deosai."
+      },
+      {
+        "day": "Day 10",
+        "title": "Northern Paradise Stage 9",
+        "desc": "12-day in-depth discovery of Hunza, Nagar, Skardu, Shigar, Khaplu & Deosai."
+      },
+      {
+        "day": "Day 11",
+        "title": "Northern Paradise Stage 10",
+        "desc": "12-day in-depth discovery of Hunza, Nagar, Skardu, Shigar, Khaplu & Deosai."
+      },
+      {
+        "day": "Day 12",
+        "title": "Return Arrival",
+        "desc": "12-day in-depth discovery of Hunza, Nagar, Skardu, Shigar, Khaplu & Deosai."
       }
     ],
     "packages": [
       {
-        "name": "Standard Package",
-        "price": "Inquire for Pricing",
+        "name": "Standard Explorer Package",
+        "price": "$555",
         "status": "available",
         "features": [
-          "AC Coaster / Sedan Transport",
-          "Standard Hotel / Day Trip",
-          "Driver & Fuel Included"
-        ]
-      },
-      {
-        "name": "Deluxe Package",
-        "price": "Contact for Quote",
-        "status": "available",
-        "features": [
-          "AC Grand Cabin / Prado",
-          "Deluxe Hotel / Private Guide",
-          "Full Inclusions"
-        ]
-      },
-      {
-        "name": "Executive Package",
-        "price": "Contact for Quote",
-        "status": "available",
-        "features": [
-          "Luxury 4x4 Prado / SUV",
-          "Luxury 4-Star / 5-Star Hotel",
-          "VIP Concierge & Protocol"
+          "All transit & jeep safari",
+          "Quality hotel stay & meals"
         ]
       }
     ],
@@ -14939,10 +16521,10 @@ if (window.TOUR_DATA) {
     "maxGroup": "1 - 20 Persons",
     "difficulty": "Easy / Cultural",
     "image": "images/foreign/card_17.webp",
-    "price": "Inquire for Pricing",
-    "originalPrice": "Contact for Quote",
+    "price": "$455",
+    "originalPrice": "$550",
     "departureDay": "Daily Departures & Fixed Schedules",
-    "about": "Overview Safar Silsila Offers Discover Pakistan: Hunza | Skardu | Lahore | Islamabad Package for their beloved clients. If you are looking for comfortable Trip to North Pakistan in one go then you are at right place. We have a Various range of trekking tours in north Pakistan . People who are looking for adventurous tours then these Tour Package are recommended. Discover Pakistan: Hunza | Skardu | Lahore | Islamabad (8 Days Trip) Experience the beauty of Pakistan with this amazing journey. Explore the peaceful valleys of Hunza and Skardu, full of natural wonders. Visit Lahore for its rich culture and history, and enjoy the modern charm of Islamabad. Travel by road and air for a smooth and memorable trip! &nbsp; Package Price: Package Type Standard Deluxe Executive Per Pax Price USD 455 PER PAX USD 625 PER PAX USD 1000 PER PAX &nbsp; Hotel Details: All hotels are subject to availability and can be changed according to the circumstances. In such case the equivalent hotel to the said hotel will be provided Hotels Standard Deluxe Executive Islamabad Green Line Motel Hotel Red Line Grand Islamabad Hotel Envoy Continental Hotel Grand Hotel Roomy Ramada Hotel Hill View Best Western Naran Valley Cloud Way Hotel Gateway Hotel Hotel Home Northern Retreat Fairyland Hotel Hotel Sarai Maisonette Hotel and Resort Gilgit Gateway Hotel Alpine Guest House Duroyou Inn Gilgit Heritage Hotel Mandarin Inn Hotel Serena Hotel Gilgit Riverdale Hotel Hunza Valley Hunza Hidden Palace Darvesh Hotel Campo de Berg Grand Motel Hunza Tribes and Tales Passu Tourist Lodges Monarch Resort Famree Resort Hunza Darbar Luxus Hotel Attabad Lake Hard Rocks Besham Ramada Hotel Besham Continental Besham Hilton Hotel Besham Hilton Hotel Besham Continental Skardu Trout Villa Hotel Skardu Viewpoint Baltistan Resort Space Hotel Shigar Maple Hotel Himalaya Inn La Vista Resort Shangrila Hotel Khoj Resort Serena Hotel Shigar Valley Serena Hotel Khaplu Valley Byrsa Lahore Hotel Shanghai Mars Hotel Lahore Continental Fallet&#8217;s Express Hotel Hilton Suites Ramada by Wyndham Four Points Inn FOR BOOKINGS &amp; INQURIES: EMAIL: info@safarsilsila.com WHATSAPP: +92 311 1145456 Follow us on Instagram: Safar Silsila Also Recommended: Discover Pakistan: Hunza | Skardu | Islamabad",
+    "about": "Discover Pakistan: Hunza | Skardu | Lahore | Islamabad (8 Days Trip) Experience the beauty of Pakistan with this amazing journey. Explore the peaceful valleys of Hunza and Skardu, full of natural wonders. Visit Lahore for its rich culture and history, and enjoy the modern charm of Islamabad. Travel by road and air for a smooth and memorable trip!   Package Price: Package Type Standard Deluxe Executive Per Pax Price USD 455 PER PAX USD 625 PER PAX USD 1000 PER PAX   Hotel Details: All hotels are subject to availability and can be changed according to the circumstances. In such case the equivalent hotel to the said hotel will be provided Hotels Standard Deluxe Executive Islamabad Green Line Motel Hotel Red Line Grand Islamabad Hotel Envoy Continental Hotel Grand Hotel Roomy Ramada Hotel Hill View Best Western Naran Valley Cloud Way Hotel Gateway Hotel Hotel Home Northern Retreat Fairyland Hotel Hotel Sarai Maisonette Hotel and Resort Gilgit Gateway Hotel Alpine Guest House Duroyou Inn Gilgit Heritage Hotel Mandarin Inn Hotel Serena Hotel Gilgit Riverdale Hotel Hunza Valley Hunza Hidden Palace Darvesh Hotel Campo de Berg Grand Motel Hunza Tribes and Tales Passu Tourist Lodges Monarch Resort Famree Resort Hunza Darbar Luxus Hotel Attabad Lake Hard Rocks Besham Ramada Hotel Besham Continental Besham Hilton Hotel Besham Hilton Hotel Besham Continental Skardu Trout Villa Hotel Skardu Viewpoint Baltistan Resort Space Hotel Shigar Maple Hotel Himalaya Inn La Vista Resort Shangrila Hotel Khoj Resort Serena Hotel Shigar Valley Serena Hotel Khaplu Valley Byrsa Lahore Hotel Shanghai Mars Hotel Lahore Continental Fallet&#8217;s Express Hotel Hilton Suites Ramada by Wyndham Four Points Inn",
     "tableHtml": "<table style=\"width: 841px; border-collapse: collapse; font-family: Arial, sans-serif; border: 1px solid #dddddd; height: 137px;\">\n<thead>\n<tr style=\"background-color: #339966; color: white; text-align: center;\">\n<th style=\"padding: 10px; border: 1px solid #ddd;\">Package Type</th>\n<th style=\"padding: 10px; border: 1px solid #ddd;\">Standard</th>\n<th style=\"padding: 10px; border: 1px solid #ddd;\">Deluxe</th>\n<th style=\"padding: 10px; border: 1px solid #ddd;\">Executive</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td style=\"padding: 10px; border: 1px solid #dddddd; font-weight: bold; background-color: #e9f5e9; text-align: center;\">Per Pax Price</td>\n<td style=\"padding: 10px; border: 1px solid #dddddd; text-align: center;\"><strong>USD 455 PER PAX</strong></td>\n<td style=\"padding: 10px; border: 1px solid #dddddd; text-align: center;\"><strong>USD 625 PER PAX</strong></td>\n<td style=\"padding: 10px; border: 1px solid #dddddd; text-align: center;\"><strong>USD 1000 PER PAX</strong></td>\n</tr>\n<tr style=\"background-color: #f9f9f9;\">\n<td style=\"padding: 10px; border: 1px solid #ddd; font-weight: bold; background-color: #e9f5e9;\"></td>\n<td style=\"padding: 10px; border: 1px solid #ddd;\"></td>\n<td style=\"padding: 10px; border: 1px solid #ddd;\"></td>\n<td style=\"padding: 10px; border: 1px solid #ddd;\"></td>\n</tr>\n</tbody>\n</table><br><table style=\"width: 846px; border-collapse: collapse; font-family: Arial, sans-serif; border: 1px solid #dddddd; height: 915px;\">\n<thead>\n<tr style=\"background-color: #339966; color: white; text-align: center;\">\n<th style=\"padding: 10px; border: 1px solid #ddd;\">Hotels</th>\n<th style=\"padding: 10px; border: 1px solid #ddd;\">Standard</th>\n<th style=\"padding: 10px; border: 1px solid #ddd;\">Deluxe</th>\n<th style=\"padding: 10px; border: 1px solid #ddd;\">Executive</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td style=\"padding: 10px; border: 1px solid #ddd; font-weight: bold; background-color: #e9f5e9;\">Islamabad</td>\n<td style=\"padding: 10px; border: 1px solid #ddd;\">\n<ul>\n<li>Green Line Motel</li>\n<li>Hotel Red Line</li>\n</ul>\n</td>\n<td style=\"padding: 10px; border: 1px solid #ddd;\">\n<ul>\n<li>Grand Islamabad Hotel</li>\n<li>Envoy Continental Hotel</li>\n<li>Grand Hotel</li>\n</ul>\n</td>\n<td style=\"padding: 10px; border: 1px solid #ddd;\">\n<ul>\n<li>Roomy</li>\n<li>Ramada Hotel</li>\n<li>Hill View</li>\n<li>Best Western</li>\n</ul>\n</td>\n</tr>\n<tr style=\"background-color: #f9f9f9;\">\n<td style=\"padding: 10px; border: 1px solid #ddd; font-weight: bold; background-color: #e9f5e9;\">Naran Valley</td>\n<td style=\"padding: 10px; border: 1px solid #ddd;\">\n<ul>\n<li>Cloud Way Hotel</li>\n<li>Gateway Hotel</li>\n</ul>\n</td>\n<td style=\"padding: 10px; border: 1px solid #ddd;\">\n<ul>\n<li>Hotel Home</li>\n<li>Northern Retreat</li>\n<li>Fairyland Hotel</li>\n</ul>\n</td>\n<td style=\"padding: 10px; border: 1px solid #ddd;\">\n<ul>\n<li>Hotel Sarai</li>\n<li>Maisonette Hotel and Resort</li>\n</ul>\n</td>\n</tr>\n<tr>\n<td style=\"padding: 10px; border: 1px solid #ddd; font-weight: bold; background-color: #e9f5e9;\">Gilgit</td>\n<td style=\"padding: 10px; border: 1px solid #ddd;\">\n<ul>\n<li>Gateway Hotel</li>\n<li>Alpine Guest House</li>\n</ul>\n</td>\n<td style=\"padding: 10px; border: 1px solid #ddd;\">\n<ul>\n<li>Duroyou Inn Gilgit</li>\n<li>Heritage Hotel</li>\n<li>Mandarin Inn Hotel</li>\n</ul>\n</td>\n<td style=\"padding: 10px; border: 1px solid #ddd;\">\n<ul>\n<li>Serena Hotel Gilgit</li>\n<li>Riverdale Hotel</li>\n</ul>\n</td>\n</tr>\n<tr style=\"background-color: #f9f9f9;\">\n<td style=\"padding: 10px; border: 1px solid #ddd; font-weight: bold; background-color: #e9f5e9;\">Hunza Valley</td>\n<td style=\"padding: 10px; border: 1px solid #ddd;\">\n<ul>\n<li>Hunza Hidden Palace</li>\n<li>Darvesh Hotel</li>\n<li>Campo de Berg</li>\n<li>Grand Motel Hunza</li>\n</ul>\n</td>\n<td style=\"padding: 10px; border: 1px solid #ddd;\">\n<ul>\n<li>Tribes and Tales</li>\n<li>Passu Tourist Lodges</li>\n<li>Monarch Resort</li>\n<li>Famree Resort</li>\n</ul>\n</td>\n<td style=\"padding: 10px; border: 1px solid #ddd;\">\n<ul>\n<li>Hunza Darbar</li>\n<li>Luxus Hotel Attabad Lake</li>\n<li>Hard Rocks</li>\n</ul>\n</td>\n</tr>\n<tr>\n<td style=\"padding: 10px; border: 1px solid #ddd; font-weight: bold; background-color: #e9f5e9;\">Besham</td>\n<td style=\"padding: 10px; border: 1px solid #ddd;\">\n<ul>\n<li>Ramada Hotel</li>\n<li>Besham Continental</li>\n</ul>\n</td>\n<td style=\"padding: 10px; border: 1px solid #ddd;\">\n<ul>\n<li>Besham Hilton Hotel</li>\n</ul>\n</td>\n<td style=\"padding: 10px; border: 1px solid #ddd;\">\n<ul>\n<li>Besham Hilton Hotel</li>\n<li>Besham Continental</li>\n</ul>\n</td>\n</tr>\n<tr style=\"background-color: #f9f9f9;\">\n<td style=\"padding: 10px; border: 1px solid #ddd; font-weight: bold; background-color: #e9f5e9;\">Skardu</td>\n<td style=\"padding: 10px; border: 1px solid #ddd;\">\n<ul>\n<li>Trout Villa Hotel</li>\n<li>Skardu Viewpoint</li>\n<li>Baltistan Resort</li>\n<li>Space Hotel Shigar</li>\n</ul>\n</td>\n<td style=\"padding: 10px; border: 1px solid #ddd;\">\n<ul>\n<li>Maple Hotel</li>\n<li>Himalaya Inn</li>\n<li>La Vista Resort</li>\n</ul>\n</td>\n<td style=\"padding: 10px; border: 1px solid #ddd;\">\n<ul>\n<li>Shangrila Hotel</li>\n<li>Khoj Resort</li>\n<li>Serena Hotel Shigar Valley</li>\n<li>Serena Hotel Khaplu Valley</li>\n<li>Byrsa</li>\n</ul>\n</td>\n</tr>\n<tr>\n<td style=\"padding: 10px; border: 1px solid #ddd; font-weight: bold; background-color: #e9f5e9;\">Lahore</td>\n<td style=\"padding: 10px; border: 1px solid #ddd;\">\n<ul>\n<li>Hotel Shanghai</li>\n<li>Mars Hotel</li>\n</ul>\n</td>\n<td style=\"padding: 10px; border: 1px solid #ddd;\">\n<ul>\n<li>Lahore Continental</li>\n<li>Fallet&#8217;s Express Hotel</li>\n</ul>\n</td>\n<td style=\"padding: 10px; border: 1px solid #ddd;\">\n<ul>\n<li>Hilton Suites</li>\n<li>Ramada by Wyndham</li>\n<li>Four Points Inn</li>\n</ul>\n</td>\n</tr>\n</tbody>\n</table>",
     "highlights": [
       "Full guided excursion for Discover Pakistan: Hunza | Skardu | Lahore | Islamabad (8 Days Trip)",
@@ -14965,50 +16547,53 @@ if (window.TOUR_DATA) {
     ],
     "itinerary": [
       {
-        "day": "Morning",
-        "title": "Departure & Pickup",
-        "desc": "Pickup from hotel/residence in private vehicle. Highway drive with refreshment stop."
+        "day": "Day 1",
+        "title": "Islamabad / Lahore Pickup",
+        "desc": "8-day express tour covering Lahore, Islamabad, Hunza & Skardu."
       },
       {
-        "day": "Afternoon",
-        "title": "Guided Exploration & Activity",
-        "desc": "Arrive at destination. Guided tour of key monuments, photography stops, and water activities."
+        "day": "Day 2",
+        "title": "Highlights Stage 1",
+        "desc": "8-day express tour covering Lahore, Islamabad, Hunza & Skardu."
       },
       {
-        "day": "Evening",
-        "title": "Local Food Tasting & Return",
-        "desc": "Enjoy famous regional food & tea. Return drive with drop-off at your hotel by 07:00 PM."
+        "day": "Day 3",
+        "title": "Highlights Stage 2",
+        "desc": "8-day express tour covering Lahore, Islamabad, Hunza & Skardu."
+      },
+      {
+        "day": "Day 4",
+        "title": "Highlights Stage 3",
+        "desc": "8-day express tour covering Lahore, Islamabad, Hunza & Skardu."
+      },
+      {
+        "day": "Day 5",
+        "title": "Highlights Stage 4",
+        "desc": "8-day express tour covering Lahore, Islamabad, Hunza & Skardu."
+      },
+      {
+        "day": "Day 6",
+        "title": "Highlights Stage 5",
+        "desc": "8-day express tour covering Lahore, Islamabad, Hunza & Skardu."
+      },
+      {
+        "day": "Day 7",
+        "title": "Highlights Stage 6",
+        "desc": "8-day express tour covering Lahore, Islamabad, Hunza & Skardu."
+      },
+      {
+        "day": "Day 8",
+        "title": "Return Drop-off",
+        "desc": "8-day express tour covering Lahore, Islamabad, Hunza & Skardu."
       }
     ],
     "packages": [
       {
-        "name": "Standard Package",
-        "price": "Inquire for Pricing",
+        "name": "Express 8-Day Package",
+        "price": "$455",
         "status": "available",
         "features": [
-          "AC Coaster / Sedan Transport",
-          "Standard Hotel / Day Trip",
-          "Driver & Fuel Included"
-        ]
-      },
-      {
-        "name": "Deluxe Package",
-        "price": "Contact for Quote",
-        "status": "available",
-        "features": [
-          "AC Grand Cabin / Prado",
-          "Deluxe Hotel / Private Guide",
-          "Full Inclusions"
-        ]
-      },
-      {
-        "name": "Executive Package",
-        "price": "Contact for Quote",
-        "status": "available",
-        "features": [
-          "Luxury 4x4 Prado / SUV",
-          "Luxury 4-Star / 5-Star Hotel",
-          "VIP Concierge & Protocol"
+          "Transport, hotels & guide included"
         ]
       }
     ],
@@ -15035,10 +16620,10 @@ if (window.TOUR_DATA) {
     "maxGroup": "1 - 20 Persons",
     "difficulty": "Easy / Cultural",
     "image": "images/foreign/card_18.webp",
-    "price": "Inquire for Pricing",
-    "originalPrice": "Contact for Quote",
+    "price": "$392",
+    "originalPrice": "$460",
     "departureDay": "Daily Departures & Fixed Schedules",
-    "about": "Overview Safar Silsila Offers Islamabad Tour Package for their beloved clients. If you are looking for comfortable Trip to North Pakistan in one go then you are at right place. We have a Various range of trekking tours in north Pakistan . People who are looking for adventurous tours then these Tour Package are recommended. Islamabad Tour Islamabad Trip (Twin Cities, Murree &amp; Taxila) is a must if you are in town for 4 days. Islamabad is Pakistan’s capital city, located in the country’s north near the Himalayas’s foothills. It is a developed area noted for its gorgeous natural environment, outstanding architecture, and dynamic culture. Islamabad also has a number of national monuments and attractions, making it a reasonable tourist destination for visitors from all over the world. Four days Islamabad tour is a guided sightseeing tour offered by Safar Silsila Expeditions. Dates &amp; Cost All seasons are considered good for Islamabad tour. Considering the inflow of tourists all year around, our dates are open throughout the year and your bookings will be 100% guaranteed even if you are a single traveler. Our prices and dates for Islamabad Trip (all season) are given below. Package Price: Season Month Tour Start Date Price Per Person USD Minimum Travelers Required Spring Mid November &#8211; February Daily USD 392 1 Pax Winter March &#8211; May Daily USD 392 1 Pax Summer June &#8211; Mid September Daily USD 424 1 Pax Autumn Mid September &#8211; November Daily USD 399 1 Pax FOR BOOKINGS &amp; INQURIES: EMAIL: info@safarsilsila.com WHATSAPP: +92 311 1145456 Follow us on Instagram: Safar Silsila Also Recommended: Kumrat Valley Tour – 04 Days",
+    "about": "Islamabad Tour Islamabad Trip (Twin Cities, Murree & Taxila) is a must if you are in town for 4 days. Islamabad is Pakistan’s capital city, located in the country’s north near the Himalayas’s foothills. It is a developed area noted for its gorgeous natural environment, outstanding architecture, and dynamic culture. Islamabad also has a number of national monuments and attractions, making it a reasonable tourist destination for visitors from all over the world. Four days Islamabad tour is a guided sightseeing tour offered by Safar Silsila Expeditions.",
     "tableHtml": "<table style=\"width: 699px; border-collapse: collapse; font-family: Arial, sans-serif; border: 1px solid #dddddd; height: 263px;\">\n<thead>\n<tr style=\"background-color: #339966; color: white; text-align: center;\">\n<th style=\"padding: 10px; border-bottom: 1px solid #ddd;\">Season</th>\n<th style=\"padding: 10px; border-bottom: 1px solid #ddd;\">Month</th>\n<th style=\"padding: 10px; border-bottom: 1px solid #ddd;\">Tour Start Date</th>\n<th style=\"padding: 10px; border-bottom: 1px solid #ddd;\">Price Per Person <strong>USD</strong></th>\n<th style=\"padding: 10px; border-bottom: 1px solid #ddd;\">Minimum Travelers Required</th>\n</tr>\n</thead>\n<tbody>\n<tr style=\"text-align: center;\">\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd; font-weight: bold; background-color: #e9f5e9;\"><span style=\"color: #008000;\">Spring</span></td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\">Mid November &#8211; February</td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\">Daily</td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\"><strong><span style=\"color: #008000;\">USD 392</span></strong></td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\"><strong><span style=\"color: #008000;\">1 Pax</span></strong></td>\n</tr>\n<tr style=\"text-align: center; background-color: #f9f9f9;\">\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd; font-weight: bold; background-color: #e9f5e9;\"><span style=\"color: #008000;\">Winter</span></td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\">March &#8211; May</td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\">Daily</td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\"><strong><span style=\"color: #008000;\">USD 392</span></strong></td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\"><strong><span style=\"color: #008000;\">1 Pax</span></strong></td>\n</tr>\n<tr style=\"text-align: center; background-color: #f9f9f9;\">\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd; font-weight: bold; background-color: #e9f5e9;\"><span style=\"color: #008000;\">Summer</span></td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\">June &#8211; Mid September</td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\">Daily</td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\"><strong><span style=\"color: #008000;\">USD 424</span></strong></td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\"><strong><span style=\"color: #008000;\">1 Pax</span></strong></td>\n</tr>\n<tr style=\"text-align: center; background-color: #f9f9f9;\">\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd; font-weight: bold; background-color: #e9f5e9;\"><span style=\"color: #008000;\">Autumn</span></td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\">Mid September &#8211; November</td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\">Daily</td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\"><strong><span style=\"color: #008000;\">USD 399</span></strong></td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\"><strong><span style=\"color: #008000;\">1 Pax</span></strong></td>\n</tr>\n</tbody>\n</table>",
     "highlights": [
       "Full guided excursion for Islamabad Tour – 04 Days",
@@ -15061,50 +16646,35 @@ if (window.TOUR_DATA) {
     ],
     "itinerary": [
       {
-        "day": "Morning",
-        "title": "Departure & Pickup",
-        "desc": "Pickup from hotel/residence in private vehicle. Highway drive with refreshment stop."
+        "day": "Day 1",
+        "title": "Islamabad Arrival & Heritage Tour",
+        "desc": "Airport pickup, check-in, visit Faisal Mosque, Pakistan Monument, and sunset at Daman-e-Koh."
       },
       {
-        "day": "Afternoon",
-        "title": "Guided Exploration & Activity",
-        "desc": "Arrive at destination. Guided tour of key monuments, photography stops, and water activities."
+        "day": "Day 2",
+        "title": "Taxila UNESCO Heritage & Khanpur Lake",
+        "desc": "Day trip to ancient Gandhara Buddhist ruins in Taxila and water sports at Khanpur Dam."
       },
       {
-        "day": "Evening",
-        "title": "Local Food Tasting & Return",
-        "desc": "Enjoy famous regional food & tea. Return drive with drop-off at your hotel by 07:00 PM."
+        "day": "Day 3",
+        "title": "Margalla Hills Hike & Lok Virsa Culture",
+        "desc": "Morning nature trail hike on Margalla Hills, visit Lok Virsa Folk Heritage Museum, dinner at Saidpur Village."
+      },
+      {
+        "day": "Day 4",
+        "title": "Shopping & Airport Drop-off",
+        "desc": "Souvenir shopping at Jinnah Super Market and evening airport transfer."
       }
     ],
     "packages": [
       {
-        "name": "Standard Package",
-        "price": "Inquire for Pricing",
+        "name": "Standard City Package",
+        "price": "$392",
         "status": "available",
         "features": [
-          "AC Coaster / Sedan Transport",
-          "Standard Hotel / Day Trip",
-          "Driver & Fuel Included"
-        ]
-      },
-      {
-        "name": "Deluxe Package",
-        "price": "Contact for Quote",
-        "status": "available",
-        "features": [
-          "AC Grand Cabin / Prado",
-          "Deluxe Hotel / Private Guide",
-          "Full Inclusions"
-        ]
-      },
-      {
-        "name": "Executive Package",
-        "price": "Contact for Quote",
-        "status": "available",
-        "features": [
-          "Luxury 4x4 Prado / SUV",
-          "Luxury 4-Star / 5-Star Hotel",
-          "VIP Concierge & Protocol"
+          "Private AC Sedan & guide",
+          "3-Star hotel stay",
+          "Daily breakfast & transfers"
         ]
       }
     ],
@@ -15131,10 +16701,10 @@ if (window.TOUR_DATA) {
     "maxGroup": "1 - 20 Persons",
     "difficulty": "Easy / Cultural",
     "image": "images/foreign/card_19.webp",
-    "price": "Inquire for Pricing",
-    "originalPrice": "Contact for Quote",
+    "price": "$89",
+    "originalPrice": "$110",
     "departureDay": "Daily Departures & Fixed Schedules",
-    "about": "Overview Safar Silsila Offers Ayubia &amp; Nathia Gali Tour Package for their beloved clients. If you are looking for comfortable Trip to North Pakistan in one go then you are at right place. We have a Various range of trekking tours in north Pakistan . People who are looking for adventurous tours then these Tour Package are recommended. Ayubia &amp; Nathia Gali Tour (Day Trip from Islamabad)– 01 Day Ayubia and Nathia Gali Trip is another sightseeing option if you are in Islamabad for multiple days and if you have interest in nature and landscapes. Named in honor of Pakistan’s second President, Field Marshal Ayub Khan, Ayubia is a collection of four hill stations—Khanspur, Ghora Dhaka, Khairagali, and Changla Gali. These areas were developed and connected under Ayub Khan’s initiative to promote tourism and offer a recreational haven to the public. The chairlift at Ayubia and the chairlift at Changla Gali are examples of his vision to enhance the tourist experience. Dates &amp; Cost All seasons are considered good for Ayubia and Nathia Gali Trip Considering the inflow of tourists all year around, our dates are open throughout the year and your bookings will be 100% guaranteed even if you are a single traveler. Our prices and dates for Ayubia and Nathia Gali Trip (all season) are given below. Package Price: Season Month Tour Start Date Price Per Person USD Minimum Travelers Required Spring Mid November &#8211; February Daily USD 89 1 Pax Winter March &#8211; May Daily USD 96 1 Pax Summer June &#8211; Mid September Daily USD 120 1 Pax Autumn Mid September &#8211; November Daily USD 89 1 Pax FOR BOOKINGS &amp; INQURIES: EMAIL: info@safarsilsila.com WHATSAPP: +92 311 1145456 Follow us on Instagram: Safar Silsila Also Recommended: Panjpeer Rocks Tour",
+    "about": "Ayubia & Nathia Gali Tour (Day Trip from Islamabad)– 01 Day Ayubia and Nathia Gali Trip is another sightseeing option if you are in Islamabad for multiple days and if you have interest in nature and landscapes. Named in honor of Pakistan’s second President, Field Marshal Ayub Khan, Ayubia is a collection of four hill stations—Khanspur, Ghora Dhaka, Khairagali, and Changla Gali. These areas were developed and connected under Ayub Khan’s initiative to promote tourism and offer a recreational haven to the public. The chairlift at Ayubia and the chairlift at Changla Gali are examples of his vision to enhance the tourist experience.",
     "tableHtml": "<table style=\"width: 759px; border-collapse: collapse; font-family: Arial, sans-serif; border: 1px solid #dddddd; height: 52px;\">\n<thead>\n<tr style=\"background-color: #339966; color: white; text-align: center;\">\n<th style=\"padding: 10px; border-bottom: 1px solid #ddd;\">Season</th>\n<th style=\"padding: 10px; border-bottom: 1px solid #ddd;\">Month</th>\n<th style=\"padding: 10px; border-bottom: 1px solid #ddd;\">Tour Start Date</th>\n<th style=\"padding: 10px; border-bottom: 1px solid #ddd;\">Price Per Person <strong>USD</strong></th>\n<th style=\"padding: 10px; border-bottom: 1px solid #ddd;\">Minimum Travelers Required</th>\n</tr>\n</thead>\n<tbody>\n<tr style=\"text-align: center;\">\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd; font-weight: bold; background-color: #e9f5e9;\"><span style=\"color: #008000;\">Spring</span></td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\">Mid November &#8211; February</td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\">Daily</td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\"><strong><span style=\"color: #008000;\">USD 89</span></strong></td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\"><strong><span style=\"color: #008000;\">1 Pax</span></strong></td>\n</tr>\n<tr style=\"text-align: center; background-color: #f9f9f9;\">\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd; font-weight: bold; background-color: #e9f5e9;\"><span style=\"color: #008000;\">Winter</span></td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\">March &#8211; May</td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\">Daily</td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\"><strong><span style=\"color: #008000;\">USD 96</span></strong></td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\"><strong><span style=\"color: #008000;\">1 Pax</span></strong></td>\n</tr>\n<tr style=\"text-align: center; background-color: #f9f9f9;\">\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd; font-weight: bold; background-color: #e9f5e9;\"><span style=\"color: #008000;\">Summer</span></td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\">June &#8211; Mid September</td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\">Daily</td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\"><strong><span style=\"color: #008000;\">USD 120</span></strong></td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\"><strong><span style=\"color: #008000;\">1 Pax</span></strong></td>\n</tr>\n<tr style=\"text-align: center; background-color: #f9f9f9;\">\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd; font-weight: bold; background-color: #e9f5e9;\"><span style=\"color: #008000;\">Autumn</span></td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\">Mid September &#8211; November</td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\">Daily</td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\"><strong><span style=\"color: #008000;\">USD 89</span></strong></td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\"><strong><span style=\"color: #008000;\">1 Pax</span></strong></td>\n</tr>\n</tbody>\n</table>",
     "highlights": [
       "Full guided excursion for Ayubia & Nathia Gali Tour (Day Trip from Islamabad) – 01 Day",
@@ -15157,50 +16727,20 @@ if (window.TOUR_DATA) {
     ],
     "itinerary": [
       {
-        "day": "Morning",
-        "title": "Departure & Pickup",
-        "desc": "Pickup from hotel/residence in private vehicle. Highway drive with refreshment stop."
-      },
-      {
-        "day": "Afternoon",
-        "title": "Guided Exploration & Activity",
-        "desc": "Arrive at destination. Guided tour of key monuments, photography stops, and water activities."
-      },
-      {
-        "day": "Evening",
-        "title": "Local Food Tasting & Return",
-        "desc": "Enjoy famous regional food & tea. Return drive with drop-off at your hotel by 07:00 PM."
+        "day": "Day 1",
+        "title": "Full Day Excursion to Ayubia & Nathia Gali",
+        "desc": "Morning pickup from Islamabad hotel. Drive via Murree Expressway to Ayubia. Walk scenic 4km Ayubia Pipeline Track through pine forests. Visit Nathia Gali Market, view Mukshpuri Peak, enjoy hot coffee & lunch, and return drive to Islamabad by evening."
       }
     ],
     "packages": [
       {
-        "name": "Standard Package",
-        "price": "Inquire for Pricing",
+        "name": "Standard Day Tour",
+        "price": "$89",
         "status": "available",
         "features": [
-          "AC Coaster / Sedan Transport",
-          "Standard Hotel / Day Trip",
-          "Driver & Fuel Included"
-        ]
-      },
-      {
-        "name": "Deluxe Package",
-        "price": "Contact for Quote",
-        "status": "available",
-        "features": [
-          "AC Grand Cabin / Prado",
-          "Deluxe Hotel / Private Guide",
-          "Full Inclusions"
-        ]
-      },
-      {
-        "name": "Executive Package",
-        "price": "Contact for Quote",
-        "status": "available",
-        "features": [
-          "Luxury 4x4 Prado / SUV",
-          "Luxury 4-Star / 5-Star Hotel",
-          "VIP Concierge & Protocol"
+          "Private AC vehicle & driver",
+          "Guide services & entry tickets",
+          "Hotel pickup & drop-off"
         ]
       }
     ],
@@ -15227,10 +16767,10 @@ if (window.TOUR_DATA) {
     "maxGroup": "1 - 20 Persons",
     "difficulty": "Easy / Cultural",
     "image": "images/foreign/card_20.webp",
-    "price": "Inquire for Pricing",
-    "originalPrice": "Contact for Quote",
+    "price": "$95",
+    "originalPrice": "$120",
     "departureDay": "Daily Departures & Fixed Schedules",
-    "about": "Overview Safar Silsila Offers Full-Day Private Guided Tour of Taxila Gandhara Civilization Package for their beloved clients. If you are looking for comfortable Trip to North Pakistan in one go then you are at right place. We have a Various range of trekking tours in north Pakistan . People who are looking for adventurous tours then these Tour Package are recommended. Full-Day Private Guided Tour of Taxila Gandhara Civilization – 01 Day Welcome to our Full-Day Private Guided Trip of Taxila Gandhara Civilization! Embark on a riveting trip through time as we explore the core of one of the world’s oldest civilizations. Discover the ancient treasures of the Gandhara Civilization, a witness to Buddhism’s rich past spanning 2500 years. From the famous Taxila Museum to the majestic Dharmarajika Stupa and Monastery, join us as we tour UNESCO World Heritage Sites and learn about the intriguing history of this lively town. Allow our skilled guides to walk you around Sirkap Palace’s remains and Jaulian Buddhist Monastery’s hallowed grounds, providing insights into an ancient period of study and devotion. Immerse yourself in the history of empires and civilizations that once flourished in this historic region. Come with us on a voyage of exploration and enlightenment in Taxila, Pakistan. Dates &amp; Cost All seasons are considered good for the Full-Day Private Guided Tour of Taxila Gandhara Civilization. Considering the inflow of tourists all year round, our dates are open throughout the year and your bookings will be 100% guaranteed even if you are a single traveler. Our prices and dates for the Full-Day Private Guided Trip of Taxila Gandhara Civilization (all seasons) are given below. Package Price: Season Month Tour Start Date Price Per Person USD Minimum Travelers Required Spring Mid November &#8211; February Daily USD 95 1 Pax Winter March &#8211; May Daily USD 795 1 Pax Summer June &#8211; Mid September Daily USD 95 1 Pax Autumn Mid September &#8211; November Daily USD 95 1 Pax FOR BOOKINGS &amp; INQURIES: EMAIL: info@safarsilsila.com WHATSAPP: +92 311 1145456 Follow us on Instagram: Safar Silsila Also Recommended: Full-Day Private Murree Nathiagali Tour",
+    "about": "Full-Day Private Guided Tour of Taxila Gandhara Civilization – 01 Day Welcome to our Full-Day Private Guided Trip of Taxila Gandhara Civilization! Embark on a riveting trip through time as we explore the core of one of the world’s oldest civilizations. Discover the ancient treasures of the Gandhara Civilization, a witness to Buddhism’s rich past spanning 2500 years. From the famous Taxila Museum to the majestic Dharmarajika Stupa and Monastery, join us as we tour UNESCO World Heritage Sites and learn about the intriguing history of this lively town. Allow our skilled guides to walk you around Sirkap Palace’s remains and Jaulian Buddhist Monastery’s hallowed grounds, providing insights into an ancient period of study and devotion. Immerse yourself in the history of empires and civilizations that once flourished in this historic region. Come with us on a voyage of exploration and enlightenment in Taxila, Pakistan.",
     "tableHtml": "<table style=\"width: 721px; border-collapse: collapse; font-family: Arial, sans-serif; border: 1px solid #dddddd; height: 249px;\">\n<thead>\n<tr style=\"background-color: #339966; color: white; text-align: center;\">\n<th style=\"padding: 10px; border-bottom: 1px solid #ddd;\">Season</th>\n<th style=\"padding: 10px; border-bottom: 1px solid #ddd;\">Month</th>\n<th style=\"padding: 10px; border-bottom: 1px solid #ddd;\">Tour Start Date</th>\n<th style=\"padding: 10px; border-bottom: 1px solid #ddd;\">Price Per Person <strong>USD</strong></th>\n<th style=\"padding: 10px; border-bottom: 1px solid #ddd;\">Minimum Travelers Required</th>\n</tr>\n</thead>\n<tbody>\n<tr style=\"text-align: center;\">\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd; font-weight: bold; background-color: #e9f5e9;\"><span style=\"color: #008000;\">Spring</span></td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\">Mid November &#8211; February</td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\">Daily</td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\"><strong><span style=\"color: #008000;\">USD 95</span></strong></td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\"><strong><span style=\"color: #008000;\">1 Pax</span></strong></td>\n</tr>\n<tr style=\"text-align: center; background-color: #f9f9f9;\">\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd; font-weight: bold; background-color: #e9f5e9;\"><span style=\"color: #008000;\">Winter</span></td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\">March &#8211; May</td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\">Daily</td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\"><strong><span style=\"color: #008000;\">USD 795</span></strong></td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\"><strong><span style=\"color: #008000;\">1 Pax</span></strong></td>\n</tr>\n<tr style=\"text-align: center; background-color: #f9f9f9;\">\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd; font-weight: bold; background-color: #e9f5e9;\"><span style=\"color: #008000;\">Summer</span></td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\">June &#8211; Mid September</td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\">Daily</td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\"><strong><span style=\"color: #008000;\">USD 95</span></strong></td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\"><strong><span style=\"color: #008000;\">1 Pax</span></strong></td>\n</tr>\n<tr style=\"text-align: center; background-color: #f9f9f9;\">\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd; font-weight: bold; background-color: #e9f5e9;\"><span style=\"color: #008000;\">Autumn</span></td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\">Mid September &#8211; November</td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\">Daily</td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\"><strong><span style=\"color: #008000;\">USD 95</span></strong></td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\"><strong><span style=\"color: #008000;\">1 Pax</span></strong></td>\n</tr>\n</tbody>\n</table>",
     "highlights": [
       "Full guided excursion for Full-Day Private Guided Tour of Taxila Gandhara Civilization – 01 Day",
@@ -15253,50 +16793,20 @@ if (window.TOUR_DATA) {
     ],
     "itinerary": [
       {
-        "day": "Morning",
-        "title": "Departure & Pickup",
-        "desc": "Pickup from hotel/residence in private vehicle. Highway drive with refreshment stop."
-      },
-      {
-        "day": "Afternoon",
-        "title": "Guided Exploration & Activity",
-        "desc": "Arrive at destination. Guided tour of key monuments, photography stops, and water activities."
-      },
-      {
-        "day": "Evening",
-        "title": "Local Food Tasting & Return",
-        "desc": "Enjoy famous regional food & tea. Return drive with drop-off at your hotel by 07:00 PM."
+        "day": "Day 1",
+        "title": "Full Day Guided Tour of Taxila Ancient Ruins",
+        "desc": "Morning pickup from Islamabad. Visit UNESCO World Heritage Taxila Museum, Jaulian Buddhist Monastery, Dharmarajika Stupa, and Sirkap Greco-Bactrian city ruins. Historian guide explanations, lunch at local restaurant, and drop-off by evening."
       }
     ],
     "packages": [
       {
-        "name": "Standard Package",
-        "price": "Inquire for Pricing",
+        "name": "Full Day Private Tour",
+        "price": "$95",
         "status": "available",
         "features": [
-          "AC Coaster / Sedan Transport",
-          "Standard Hotel / Day Trip",
-          "Driver & Fuel Included"
-        ]
-      },
-      {
-        "name": "Deluxe Package",
-        "price": "Contact for Quote",
-        "status": "available",
-        "features": [
-          "AC Grand Cabin / Prado",
-          "Deluxe Hotel / Private Guide",
-          "Full Inclusions"
-        ]
-      },
-      {
-        "name": "Executive Package",
-        "price": "Contact for Quote",
-        "status": "available",
-        "features": [
-          "Luxury 4x4 Prado / SUV",
-          "Luxury 4-Star / 5-Star Hotel",
-          "VIP Concierge & Protocol"
+          "Private AC Car & Historian Guide",
+          "All museum & site entry tickets",
+          "Lunch & refreshments included"
         ]
       }
     ],
@@ -15323,10 +16833,10 @@ if (window.TOUR_DATA) {
     "maxGroup": "1 - 20 Persons",
     "difficulty": "Easy / Cultural",
     "image": "images/foreign/card_21.webp",
-    "price": "Inquire for Pricing",
-    "originalPrice": "Contact for Quote",
+    "price": "$320",
+    "originalPrice": "$380",
     "departureDay": "Daily Departures & Fixed Schedules",
-    "about": "Overview Safar Silsila Offers Kumrat Valley Tour Package for their beloved clients. If you are looking for comfortable Trip to North Pakistan in one go then you are at right place. We have a Various range of trekking tours in north Pakistan . People who are looking for adventurous tours then these Tour Package are recommended. Kumrat Valley Tour – 03 Days With our special trip, you can discover Kumrat Valley’s hidden gems. Kumrat Valley Tour, in Pakistan’s northern area, is known for its lush pine trees, pure rivers, and breathtaking waterfalls. This journey offers an extraordinary adventure that combines natural beauty, cultural immersion, and exhilarating adventures. Whether you prefer tranquil moments amid ancient deodars or adventurous climbs to Kala Chishma and Kumrat Waterfall, our program is tailored to suit every tourist. Join us on a tour through one of Pakistan’s most stunning places, where every step unveils a new natural wonder. Dates &amp; Cost – Kumrat Valley Tour (03 Days) All seasons are considered good for the Kumrat Valley Trip. Considering the inflow of tourists all year round, our dates are open throughout the year and your bookings will be 100% guaranteed even if you are a single traveler. Our prices and dates for the Kumrat Valley Trip (all seasons) are given below. Package Price: Season Month Tour Start Date Price Per Person USD Minimum Travelers Required Spring Mid November &#8211; February Daily PKR 89,000 1 Pax Winter March &#8211; May Daily PKR 89,000 1 Pax Summer June &#8211; Mid September Daily PKR 89,000 1 Pax Autumn Mid September &#8211; November Daily PKR 89,000 1 Pax FOR BOOKINGS &amp; INQURIES: EMAIL: info@safarsilsila.com WHATSAPP: +92 311 1145456 Follow us on Instagram: Safar Silsila Also Recommended: Arang Kel, Sharda",
+    "about": "Kumrat Valley Tour – 03 Days With our special trip, you can discover Kumrat Valley’s hidden gems. Kumrat Valley Tour, in Pakistan’s northern area, is known for its lush pine trees, pure rivers, and breathtaking waterfalls. This journey offers an extraordinary adventure that combines natural beauty, cultural immersion, and exhilarating adventures. Whether you prefer tranquil moments amid ancient deodars or adventurous climbs to Kala Chishma and Kumrat Waterfall, our program is tailored to suit every tourist. Join us on a tour through one of Pakistan’s most stunning places, where every step unveils a new natural wonder.",
     "tableHtml": "<table style=\"width: 759px; border-collapse: collapse; font-family: Arial, sans-serif; border: 1px solid #dddddd; height: 52px;\">\n<thead>\n<tr style=\"background-color: #339966; color: white; text-align: center;\">\n<th style=\"padding: 10px; border-bottom: 1px solid #ddd;\">Season</th>\n<th style=\"padding: 10px; border-bottom: 1px solid #ddd;\">Month</th>\n<th style=\"padding: 10px; border-bottom: 1px solid #ddd;\">Tour Start Date</th>\n<th style=\"padding: 10px; border-bottom: 1px solid #ddd;\">Price Per Person <strong>USD</strong></th>\n<th style=\"padding: 10px; border-bottom: 1px solid #ddd;\">Minimum Travelers Required</th>\n</tr>\n</thead>\n<tbody>\n<tr style=\"text-align: center;\">\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd; font-weight: bold; background-color: #e9f5e9;\"><span style=\"color: #008000;\">Spring</span></td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\">Mid November &#8211; February</td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\">Daily</td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\"><strong><span style=\"color: #008000;\">PKR 89,000</span></strong></td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\"><strong><span style=\"color: #008000;\">1 Pax</span></strong></td>\n</tr>\n<tr style=\"text-align: center; background-color: #f9f9f9;\">\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd; font-weight: bold; background-color: #e9f5e9;\"><span style=\"color: #008000;\">Winter</span></td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\">March &#8211; May</td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\">Daily</td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\"><strong><span style=\"color: #008000;\">PKR 89,000</span></strong></td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\"><strong><span style=\"color: #008000;\">1 Pax</span></strong></td>\n</tr>\n<tr style=\"text-align: center; background-color: #f9f9f9;\">\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd; font-weight: bold; background-color: #e9f5e9;\"><span style=\"color: #008000;\">Summer</span></td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\">June &#8211; Mid September</td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\">Daily</td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\"><strong><span style=\"color: #008000;\">PKR 89,000</span></strong></td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\"><strong><span style=\"color: #008000;\">1 Pax</span></strong></td>\n</tr>\n<tr style=\"text-align: center; background-color: #f9f9f9;\">\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd; font-weight: bold; background-color: #e9f5e9;\"><span style=\"color: #008000;\">Autumn</span></td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\">Mid September &#8211; November</td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\">Daily</td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\"><strong><span style=\"color: #008000;\">PKR 89,000</span></strong></td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\"><strong><span style=\"color: #008000;\">1 Pax</span></strong></td>\n</tr>\n</tbody>\n</table>",
     "highlights": [
       "Full guided excursion for Kumrat Valley Tour – 03 Days",
@@ -15349,50 +16859,30 @@ if (window.TOUR_DATA) {
     ],
     "itinerary": [
       {
-        "day": "Morning",
-        "title": "Departure & Pickup",
-        "desc": "Pickup from hotel/residence in private vehicle. Highway drive with refreshment stop."
+        "day": "Day 1",
+        "title": "Islamabad to Dir & Upper Kumrat Valley",
+        "desc": "Drive via Swat Motorway and Dir into dense pine forests of Kumrat Valley. Check-in at riverside pods/hotel."
       },
       {
-        "day": "Afternoon",
-        "title": "Guided Exploration & Activity",
-        "desc": "Arrive at destination. Guided tour of key monuments, photography stops, and water activities."
+        "day": "Day 2",
+        "title": "Exploration of Kumrat Forest, Kala Chashma & Waterfall",
+        "desc": "4x4 Jeep ride inside Kumrat Forest, Panjkora River bank walk, visit Kala Chashma & Jahaz Banda waterfall."
       },
       {
-        "day": "Evening",
-        "title": "Local Food Tasting & Return",
-        "desc": "Enjoy famous regional food & tea. Return drive with drop-off at your hotel by 07:00 PM."
+        "day": "Day 3",
+        "title": "Kumrat to Islamabad Return Drive",
+        "desc": "Morning breakfast along riverbank and scenic return drive back to Islamabad."
       }
     ],
     "packages": [
       {
         "name": "Standard Package",
-        "price": "Inquire for Pricing",
+        "price": "$320",
         "status": "available",
         "features": [
-          "AC Coaster / Sedan Transport",
-          "Standard Hotel / Day Trip",
-          "Driver & Fuel Included"
-        ]
-      },
-      {
-        "name": "Deluxe Package",
-        "price": "Contact for Quote",
-        "status": "available",
-        "features": [
-          "AC Grand Cabin / Prado",
-          "Deluxe Hotel / Private Guide",
-          "Full Inclusions"
-        ]
-      },
-      {
-        "name": "Executive Package",
-        "price": "Contact for Quote",
-        "status": "available",
-        "features": [
-          "Luxury 4x4 Prado / SUV",
-          "Luxury 4-Star / 5-Star Hotel",
-          "VIP Concierge & Protocol"
+          "Hotel/Pod accommodation",
+          "4x4 Jeeps & AC transport",
+          "Meals & guide included"
         ]
       }
     ],
@@ -15419,10 +16909,10 @@ if (window.TOUR_DATA) {
     "maxGroup": "1 - 20 Persons",
     "difficulty": "Easy / Cultural",
     "image": "images/foreign/card_22.webp",
-    "price": "Inquire for Pricing",
-    "originalPrice": "Contact for Quote",
+    "price": "$930",
+    "originalPrice": "$1,100",
     "departureDay": "Daily Departures & Fixed Schedules",
-    "about": "Overview Yasin Valley Tour Join the Yasin Valley Tour to uncover Gilgit-Baltistan’s hidden gems. Experience the breathtaking landscapes of steep mountains, verdant meadows, and crystal-clear lakes, as well as Gilgit-Baltistan’s rich cultural history. From the lovely Phander Valley to the spectacular Shandur Pass, this tour is the ideal combination of natural beauty and local charm. Join us on an expedition full of breathtaking landscapes, cultural activities, and outstanding hospitality. About Yasin Valley? Yasin Valley is a captivating and picturesque valley located in the Ghizer District of Gilgit-Baltistan , Pakistan. Known for its rugged landscapes, towering mountains, serene rivers, and cultural richness, Yasin Valley is often referred to as one of the most beautiful and least explored valleys in the region. Offering a mix of natural beauty, adventure, and traditional culture, Yasin is a must-visit destination for those seeking a peaceful escape into Pakistan’s northern wilderness. Dates &amp; Cost – Yasin Valley Tour All seasons are considered good for the Yasin Valley Trip. Considering the inflow of tourists all year round, our dates are open throughout the year and your bookings will be 100% guaranteed even if you are a single traveler. Our prices and dates for the Yasin Valley Tour (all seasons) are given below. Package Price: Season Month Tour Start Date Price Per Person USD Minimum Travelers Required Spring Mid November &#8211; February Daily USD 930 1 Pax Winter March &#8211; May Daily USD 930 1 Pax Summer June &#8211; Mid September Daily USD 930 1 Pax Autumn Mid September &#8211; November Daily USD 930 1 Pax FOR BOOKINGS &amp; INQURIES: EMAIL: info@safarsilsila.com WHATSAPP: +92 311 1145456 Follow us on Instagram: Safar Silsila Also Recommended: Bolan Pass Train Tour",
+    "about": "Overview Yasin Valley Tour Join the Yasin Valley Tour to uncover Gilgit-Baltistan’s hidden gems. Experience the breathtaking landscapes of steep mountains, verdant meadows, and crystal-clear lakes, as well as Gilgit-Baltistan’s rich cultural history. From the lovely Phander Valley to the spectacular Shandur Pass, this tour is the ideal combination of natural beauty and local charm. Join us on an expedition full of breathtaking landscapes, cultural activities, and outstanding hospitality. About Yasin Valley? Yasin Valley is a captivating and picturesque valley located in the Ghizer District of Gilgit-Baltistan , Pakistan. Known for its rugged landscapes, towering mountains, serene rivers, and cultural richness, Yasin Valley is often referred to as one of the most beautiful and least explored valleys in the region. Offering a mix of natural beauty, adventure, and traditional culture, Yasin is a must-visit destination for those seeking a peaceful escape into Pakistan’s northern wilderness.",
     "tableHtml": "<table style=\"width: 759px; border-collapse: collapse; font-family: Arial, sans-serif; border: 1px solid #dddddd; height: 52px;\">\n<thead>\n<tr style=\"background-color: #339966; color: white; text-align: center;\">\n<th style=\"padding: 10px; border-bottom: 1px solid #ddd;\">Season</th>\n<th style=\"padding: 10px; border-bottom: 1px solid #ddd;\">Month</th>\n<th style=\"padding: 10px; border-bottom: 1px solid #ddd;\">Tour Start Date</th>\n<th style=\"padding: 10px; border-bottom: 1px solid #ddd;\">Price Per Person <strong>USD</strong></th>\n<th style=\"padding: 10px; border-bottom: 1px solid #ddd;\">Minimum Travelers Required</th>\n</tr>\n</thead>\n<tbody>\n<tr style=\"text-align: center;\">\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd; font-weight: bold; background-color: #e9f5e9;\"><span style=\"color: #008000;\">Spring</span></td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\">Mid November &#8211; February</td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\">Daily</td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\"><strong><span style=\"color: #008000;\">USD 930</span></strong></td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\"><strong><span style=\"color: #008000;\">1 Pax</span></strong></td>\n</tr>\n<tr style=\"text-align: center; background-color: #f9f9f9;\">\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd; font-weight: bold; background-color: #e9f5e9;\"><span style=\"color: #008000;\">Winter</span></td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\">March &#8211; May</td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\">Daily</td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\"><strong><span style=\"color: #008000;\">USD 930</span></strong></td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\"><strong><span style=\"color: #008000;\">1 Pax</span></strong></td>\n</tr>\n<tr style=\"text-align: center; background-color: #f9f9f9;\">\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd; font-weight: bold; background-color: #e9f5e9;\"><span style=\"color: #008000;\">Summer</span></td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\">June &#8211; Mid September</td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\">Daily</td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\"><strong><span style=\"color: #008000;\">USD 930</span></strong></td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\"><strong><span style=\"color: #008000;\">1 Pax</span></strong></td>\n</tr>\n<tr style=\"text-align: center; background-color: #f9f9f9;\">\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd; font-weight: bold; background-color: #e9f5e9;\"><span style=\"color: #008000;\">Autumn</span></td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\">Mid September &#8211; November</td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\">Daily</td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\"><strong><span style=\"color: #008000;\">USD 930</span></strong></td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\"><strong><span style=\"color: #008000;\">1 Pax</span></strong></td>\n</tr>\n</tbody>\n</table>",
     "highlights": [
       "Full guided excursion for Yasin Valley Tour",
@@ -15445,50 +16935,54 @@ if (window.TOUR_DATA) {
     ],
     "itinerary": [
       {
-        "day": "Morning",
-        "title": "Departure & Pickup",
-        "desc": "Pickup from hotel/residence in private vehicle. Highway drive with refreshment stop."
+        "day": "Day 1",
+        "title": "Islamabad to Gilgit",
+        "desc": "Exploring high remote Yasin Valley, Muduri Fort, Darkot Pass trailhead & Gilgit river balance."
       },
       {
-        "day": "Afternoon",
-        "title": "Guided Exploration & Activity",
-        "desc": "Arrive at destination. Guided tour of key monuments, photography stops, and water activities."
+        "day": "Day 2",
+        "title": "Yasin Valley Discovery Stage 1",
+        "desc": "Exploring high remote Yasin Valley, Muduri Fort, Darkot Pass trailhead & Gilgit river balance."
       },
       {
-        "day": "Evening",
-        "title": "Local Food Tasting & Return",
-        "desc": "Enjoy famous regional food & tea. Return drive with drop-off at your hotel by 07:00 PM."
+        "day": "Day 3",
+        "title": "Yasin Valley Discovery Stage 2",
+        "desc": "Exploring high remote Yasin Valley, Muduri Fort, Darkot Pass trailhead & Gilgit river balance."
+      },
+      {
+        "day": "Day 4",
+        "title": "Yasin Valley Discovery Stage 3",
+        "desc": "Exploring high remote Yasin Valley, Muduri Fort, Darkot Pass trailhead & Gilgit river balance."
+      },
+      {
+        "day": "Day 5",
+        "title": "Yasin Valley Discovery Stage 4",
+        "desc": "Exploring high remote Yasin Valley, Muduri Fort, Darkot Pass trailhead & Gilgit river balance."
+      },
+      {
+        "day": "Day 6",
+        "title": "Yasin Valley Discovery Stage 5",
+        "desc": "Exploring high remote Yasin Valley, Muduri Fort, Darkot Pass trailhead & Gilgit river balance."
+      },
+      {
+        "day": "Day 7",
+        "title": "Yasin Valley Discovery Stage 6",
+        "desc": "Exploring high remote Yasin Valley, Muduri Fort, Darkot Pass trailhead & Gilgit river balance."
+      },
+      {
+        "day": "Day 8",
+        "title": "Return to Islamabad",
+        "desc": "Exploring high remote Yasin Valley, Muduri Fort, Darkot Pass trailhead & Gilgit river balance."
       }
     ],
     "packages": [
       {
         "name": "Standard Package",
-        "price": "Inquire for Pricing",
+        "price": "$930",
         "status": "available",
         "features": [
-          "AC Coaster / Sedan Transport",
-          "Standard Hotel / Day Trip",
-          "Driver & Fuel Included"
-        ]
-      },
-      {
-        "name": "Deluxe Package",
-        "price": "Contact for Quote",
-        "status": "available",
-        "features": [
-          "AC Grand Cabin / Prado",
-          "Deluxe Hotel / Private Guide",
-          "Full Inclusions"
-        ]
-      },
-      {
-        "name": "Executive Package",
-        "price": "Contact for Quote",
-        "status": "available",
-        "features": [
-          "Luxury 4x4 Prado / SUV",
-          "Luxury 4-Star / 5-Star Hotel",
-          "VIP Concierge & Protocol"
+          "Full private transport & jeeps",
+          "Hotels, meals & guide"
         ]
       }
     ],
@@ -15515,10 +17009,10 @@ if (window.TOUR_DATA) {
     "maxGroup": "1 - 20 Persons",
     "difficulty": "Easy / Cultural",
     "image": "images/foreign/card_23.webp",
-    "price": "Inquire for Pricing",
-    "originalPrice": "Contact for Quote",
+    "price": "$930",
+    "originalPrice": "$1,100",
     "departureDay": "Daily Departures & Fixed Schedules",
-    "about": "Overview Pakistan Food Tour: A Journey of Flavors Safar Silsila is now offering the ultimate Pakistan Food Tour and indulge in the rich and diverse culinary heritage of the country. From the vibrant food streets of Lahore to the authentic kebab joints of Peshawar , this tour offers an unforgettable taste of Pakistan’s iconic dishes. Immerse yourself in the local food culture, savoring everything from aromatic curries and spicy biryanis to freshly baked naans and traditional desserts. Experience the unique flavors with Safar Silsila that celebrate Pakistan&#8217;s gastronomic legacy. Why Choose Pakistan Food Tour? Pakistan is a paradise for food lovers. Each region boasts its own distinct flavors and culinary traditions. Explore the famous Lahori food streets , featuring delicacies like Payee , Haleem , and Chargha , and visit Peshawar’s legendary spots to enjoy their renowned Chapli Kebabs . This tour takes you beyond just dining – it’s a cultural journey into the heart of Pakistan’s vibrant food scene. Dates &amp; Cost The Pakistan Food Tour is available all year round, ensuring you can enjoy the country’s culinary treasures in any season. Whether traveling alone or in a group, your booking is 100% guaranteed. Package Price: Flexible pricing designed to suit your preferences and budget. Season Month Tour Start Date Price Per Person USD Minimum Travelers Required Spring Mid November &#8211; February Daily USD 930 1 Pax Winter March &#8211; May Daily USD 930 1 Pax Summer June &#8211; Mid September Daily USD 930 1 Pax Autumn Mid September &#8211; November Daily USD 930 1 Pax &nbsp; Book Your Culinary Adventure Today! Ready to savor the flavors of Pakistan? Join the Pakistan Food Tour to experience the best of its culinary traditions and create delicious memories. Reserve your spot now and treat your taste buds to an extraordinary journey! &nbsp; &nbsp; Also Recommended: Peshawar City Tour Follow us on Instagram : Safar Silsila",
+    "about": "Overview Pakistan Food Tour: A Journey of Flavors Safar Silsila is now offering the ultimate Pakistan Food Tour and indulge in the rich and diverse culinary heritage of the country. From the vibrant food streets of Lahore to the authentic kebab joints of Peshawar , this tour offers an unforgettable taste of Pakistan’s iconic dishes. Immerse yourself in the local food culture, savoring everything from aromatic curries and spicy biryanis to freshly baked naans and traditional desserts. Experience the unique flavors with Safar Silsila that celebrate Pakistan&#8217;s gastronomic legacy. Why Choose Pakistan Food Tour? Pakistan is a paradise for food lovers. Each region boasts its own distinct flavors and culinary traditions. Explore the famous Lahori food streets , featuring delicacies like Payee , Haleem , and Chargha , and visit Peshawar’s legendary spots to enjoy their renowned Chapli Kebabs . This tour takes you beyond just dining – it’s a cultural journey into the heart of Pakistan’s vibrant food scene.",
     "tableHtml": "<table style=\"width: 759px; border-collapse: collapse; font-family: Arial, sans-serif; border: 1px solid #dddddd; height: 52px;\">\n<thead>\n<tr style=\"background-color: #339966; color: white; text-align: center;\">\n<th style=\"padding: 10px; border-bottom: 1px solid #ddd;\">Season</th>\n<th style=\"padding: 10px; border-bottom: 1px solid #ddd;\">Month</th>\n<th style=\"padding: 10px; border-bottom: 1px solid #ddd;\">Tour Start Date</th>\n<th style=\"padding: 10px; border-bottom: 1px solid #ddd;\">Price Per Person <strong>USD</strong></th>\n<th style=\"padding: 10px; border-bottom: 1px solid #ddd;\">Minimum Travelers Required</th>\n</tr>\n</thead>\n<tbody>\n<tr style=\"text-align: center;\">\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd; font-weight: bold; background-color: #e9f5e9;\"><span style=\"color: #008000;\">Spring</span></td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\">Mid November &#8211; February</td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\">Daily</td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\"><strong><span style=\"color: #008000;\">USD 930</span></strong></td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\"><strong><span style=\"color: #008000;\">1 Pax</span></strong></td>\n</tr>\n<tr style=\"text-align: center; background-color: #f9f9f9;\">\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd; font-weight: bold; background-color: #e9f5e9;\"><span style=\"color: #008000;\">Winter</span></td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\">March &#8211; May</td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\">Daily</td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\"><strong><span style=\"color: #008000;\">USD 930</span></strong></td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\"><strong><span style=\"color: #008000;\">1 Pax</span></strong></td>\n</tr>\n<tr style=\"text-align: center; background-color: #f9f9f9;\">\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd; font-weight: bold; background-color: #e9f5e9;\"><span style=\"color: #008000;\">Summer</span></td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\">June &#8211; Mid September</td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\">Daily</td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\"><strong><span style=\"color: #008000;\">USD 930</span></strong></td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\"><strong><span style=\"color: #008000;\">1 Pax</span></strong></td>\n</tr>\n<tr style=\"text-align: center; background-color: #f9f9f9;\">\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd; font-weight: bold; background-color: #e9f5e9;\"><span style=\"color: #008000;\">Autumn</span></td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\">Mid September &#8211; November</td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\">Daily</td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\"><strong><span style=\"color: #008000;\">USD 930</span></strong></td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\"><strong><span style=\"color: #008000;\">1 Pax</span></strong></td>\n</tr>\n</tbody>\n</table>",
     "highlights": [
       "Full guided excursion for Pakistan Food Tour: A Journey of Flavors",
@@ -15541,50 +17035,55 @@ if (window.TOUR_DATA) {
     ],
     "itinerary": [
       {
-        "day": "Morning",
-        "title": "Departure & Pickup",
-        "desc": "Pickup from hotel/residence in private vehicle. Highway drive with refreshment stop."
+        "day": "Day 1",
+        "title": "Arrival in Karachi & Seafood Night",
+        "desc": "Airport pickup, hotel check-in, evening seafood dinner at Do Darya seaside."
       },
       {
-        "day": "Afternoon",
-        "title": "Guided Exploration & Activity",
-        "desc": "Arrive at destination. Guided tour of key monuments, photography stops, and water activities."
+        "day": "Day 2",
+        "title": "Karachi Street Food & Biryani Trail",
+        "desc": "Sampling authentic Karachi Student Biryani, Burns Road Bun Kabab, & Burns Road Rabri."
       },
       {
-        "day": "Evening",
-        "title": "Local Food Tasting & Return",
-        "desc": "Enjoy famous regional food & tea. Return drive with drop-off at your hotel by 07:00 PM."
+        "day": "Day 3",
+        "title": "Fly to Lahore & Food Street Dinner",
+        "desc": "Flight to Lahore, visit Fort Road Food Street for Mutton Karahi facing Badshahi Mosque."
+      },
+      {
+        "day": "Day 4",
+        "title": "Lahore Traditional Breakfast & Halwa Puri",
+        "desc": "Famous Lakshmi Chowk breakfast, Nihari, Halwa Puri & Lassi tasting."
+      },
+      {
+        "day": "Day 5",
+        "title": "Drive to Peshawar & Namak Mandi Shinwari BBQ",
+        "desc": "Drive to Peshawar, evening feast of famous Namak Mandi Lamb Karahi & Shinwari Tikka."
+      },
+      {
+        "day": "Day 6",
+        "title": "Peshawar Street Food & Chapli Kebab Trail",
+        "desc": "Qissa Khwani Bazaar green tea (Kahwa), Taru Jabba Chapli Kebab & Peshawari Falooda."
+      },
+      {
+        "day": "Day 7",
+        "title": "Peshawar to Islamabad & Saidpur Village",
+        "desc": "Drive to Islamabad, dinner at Saidpur Village heritage restaurant."
+      },
+      {
+        "day": "Day 8",
+        "title": "Islamabad Fine Dining & Airport Transfer",
+        "desc": "Monak / Monal mountain view lunch and airport drop-off."
       }
     ],
     "packages": [
       {
-        "name": "Standard Package",
-        "price": "Inquire for Pricing",
+        "name": "Culinary Expedition Package",
+        "price": "$930",
         "status": "available",
         "features": [
-          "AC Coaster / Sedan Transport",
-          "Standard Hotel / Day Trip",
-          "Driver & Fuel Included"
-        ]
-      },
-      {
-        "name": "Deluxe Package",
-        "price": "Contact for Quote",
-        "status": "available",
-        "features": [
-          "AC Grand Cabin / Prado",
-          "Deluxe Hotel / Private Guide",
-          "Full Inclusions"
-        ]
-      },
-      {
-        "name": "Executive Package",
-        "price": "Contact for Quote",
-        "status": "available",
-        "features": [
-          "Luxury 4x4 Prado / SUV",
-          "Luxury 4-Star / 5-Star Hotel",
-          "VIP Concierge & Protocol"
+          "All meals & food tasting included",
+          "Domestic flight & private transport",
+          "4-Star hotel accommodation"
         ]
       }
     ],
@@ -15611,10 +17110,10 @@ if (window.TOUR_DATA) {
     "maxGroup": "1 - 20 Persons",
     "difficulty": "Easy / Cultural",
     "image": "images/foreign/card_24.webp",
-    "price": "Inquire for Pricing",
-    "originalPrice": "Contact for Quote",
+    "price": "$240",
+    "originalPrice": "$290",
     "departureDay": "Daily Departures & Fixed Schedules",
-    "about": "Overview Quetta Street Food Tour Welcome to the Quetta Street Food Tour, which will take you on a delectable tour through the heart of Balochistan’s city. Explore lively markets, meet local vendors, and sample the traditional street food that defines Quetta’s culinary heritage. From aromatic grilled meats to sweet local delicacies, this trip will provide an unforgettable sense of the city’s lively food culture. Why Visit Quetta Street Food? Visiting Quetta for its street food is an absolute treat for anyone who loves flavorful, rich, and diverse culinary experiences. Quetta, the capital of Balochistan , is not only known for its breathtaking landscapes and cultural heritage, but also for its unique and mouth-watering street food. The street food scene in Quetta is an authentic blend of Balochi flavors, regional specialties, and influences from Central Asia and the Middle East. Dates &amp; Cost – Quetta Street Food Tour All seasons are considered good for the Quetta Street Food Trip. Considering the inflow of tourists all year round, our dates are open throughout the year and your bookings will be 100% guaranteed even if you are a single traveler. Our prices and dates for the Quetta Street Food Trip (all seasons) are given below. package Price: Season Month Tour Start Date Price Per Person USD Minimum Travelers Required Spring Mid November &#8211; February Daily USD 240 1 Pax Winter March &#8211; May Daily USD 240 1 Pax Summer June &#8211; Mid September Daily USD 240 1 Pax Autumn Mid September &#8211; November Daily USD 240 1 Pax FOR BOOKINGS &amp; INQURIES: EMAIL: info@safarsilsila.com WHATSAPP: +92 311 1145456 Follow us on Instagram: Safar Silsila Also Recommended: Balochistan Street Food Tour",
+    "about": "Overview Quetta Street Food Tour Welcome to the Quetta Street Food Tour, which will take you on a delectable tour through the heart of Balochistan’s city. Explore lively markets, meet local vendors, and sample the traditional street food that defines Quetta’s culinary heritage. From aromatic grilled meats to sweet local delicacies, this trip will provide an unforgettable sense of the city’s lively food culture. Why Visit Quetta Street Food? Visiting Quetta for its street food is an absolute treat for anyone who loves flavorful, rich, and diverse culinary experiences. Quetta, the capital of Balochistan , is not only known for its breathtaking landscapes and cultural heritage, but also for its unique and mouth-watering street food. The street food scene in Quetta is an authentic blend of Balochi flavors, regional specialties, and influences from Central Asia and the Middle East.",
     "tableHtml": "<table style=\"width: 759px; border-collapse: collapse; font-family: Arial, sans-serif; border: 1px solid #dddddd; height: 52px;\">\n<thead>\n<tr style=\"background-color: #339966; color: white; text-align: center;\">\n<th style=\"padding: 10px; border-bottom: 1px solid #ddd;\">Season</th>\n<th style=\"padding: 10px; border-bottom: 1px solid #ddd;\">Month</th>\n<th style=\"padding: 10px; border-bottom: 1px solid #ddd;\">Tour Start Date</th>\n<th style=\"padding: 10px; border-bottom: 1px solid #ddd;\">Price Per Person <strong>USD</strong></th>\n<th style=\"padding: 10px; border-bottom: 1px solid #ddd;\">Minimum Travelers Required</th>\n</tr>\n</thead>\n<tbody>\n<tr style=\"text-align: center;\">\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd; font-weight: bold; background-color: #e9f5e9;\"><span style=\"color: #008000;\">Spring</span></td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\">Mid November &#8211; February</td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\">Daily</td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\"><strong><span style=\"color: #008000;\">USD 240</span></strong></td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\"><strong><span style=\"color: #008000;\">1 Pax</span></strong></td>\n</tr>\n<tr style=\"text-align: center; background-color: #f9f9f9;\">\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd; font-weight: bold; background-color: #e9f5e9;\"><span style=\"color: #008000;\">Winter</span></td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\">March &#8211; May</td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\">Daily</td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\"><strong><span style=\"color: #008000;\">USD 240</span></strong></td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\"><strong><span style=\"color: #008000;\">1 Pax</span></strong></td>\n</tr>\n<tr style=\"text-align: center; background-color: #f9f9f9;\">\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd; font-weight: bold; background-color: #e9f5e9;\"><span style=\"color: #008000;\">Summer</span></td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\">June &#8211; Mid September</td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\">Daily</td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\"><strong><span style=\"color: #008000;\">USD 240</span></strong></td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\"><strong><span style=\"color: #008000;\">1 Pax</span></strong></td>\n</tr>\n<tr style=\"text-align: center; background-color: #f9f9f9;\">\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd; font-weight: bold; background-color: #e9f5e9;\"><span style=\"color: #008000;\">Autumn</span></td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\">Mid September &#8211; November</td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\">Daily</td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\"><strong><span style=\"color: #008000;\">USD 240</span></strong></td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\"><strong><span style=\"color: #008000;\">1 Pax</span></strong></td>\n</tr>\n</tbody>\n</table>",
     "highlights": [
       "Full guided excursion for Quetta Street Food Tour",
@@ -15637,50 +17136,25 @@ if (window.TOUR_DATA) {
     ],
     "itinerary": [
       {
-        "day": "Morning",
-        "title": "Departure & Pickup",
-        "desc": "Pickup from hotel/residence in private vehicle. Highway drive with refreshment stop."
+        "day": "Day 1",
+        "title": "Arrival Quetta & Prince Road Food Tour",
+        "desc": "Airport transfer to hotel. Evening food tour tasting authentic Balochi Sajji, Landhi Mutton Rosh, and Sheermal."
       },
       {
-        "day": "Afternoon",
-        "title": "Guided Exploration & Activity",
-        "desc": "Arrive at destination. Guided tour of key monuments, photography stops, and water activities."
-      },
-      {
-        "day": "Evening",
-        "title": "Local Food Tasting & Return",
-        "desc": "Enjoy famous regional food & tea. Return drive with drop-off at your hotel by 07:00 PM."
+        "day": "Day 2",
+        "title": "Hanna Lake & Dry Fruit Souk",
+        "desc": "Morning trip to Hanna Lake, souvenir shopping at Kandahari Bazaar for dry fruits & carpets, departure transfer."
       }
     ],
     "packages": [
       {
         "name": "Standard Package",
-        "price": "Inquire for Pricing",
+        "price": "$240",
         "status": "available",
         "features": [
-          "AC Coaster / Sedan Transport",
-          "Standard Hotel / Day Trip",
-          "Driver & Fuel Included"
-        ]
-      },
-      {
-        "name": "Deluxe Package",
-        "price": "Contact for Quote",
-        "status": "available",
-        "features": [
-          "AC Grand Cabin / Prado",
-          "Deluxe Hotel / Private Guide",
-          "Full Inclusions"
-        ]
-      },
-      {
-        "name": "Executive Package",
-        "price": "Contact for Quote",
-        "status": "available",
-        "features": [
-          "Luxury 4x4 Prado / SUV",
-          "Luxury 4-Star / 5-Star Hotel",
-          "VIP Concierge & Protocol"
+          "Serena / 4-Star hotel stay",
+          "Food tasting & guide",
+          "Private transfers"
         ]
       }
     ],
@@ -15707,10 +17181,10 @@ if (window.TOUR_DATA) {
     "maxGroup": "1 - 20 Persons",
     "difficulty": "Easy / Cultural",
     "image": "images/foreign/card_25.webp",
-    "price": "Inquire for Pricing",
-    "originalPrice": "Contact for Quote",
+    "price": "$320",
+    "originalPrice": "$390",
     "departureDay": "Daily Departures & Fixed Schedules",
-    "about": "Overview Cholistan Jeep Rally Tour The Cholistan Jeep Rally Tour is an amazing trip through Pakistan’s magnificent Cholistan Desert. Participants can see exhilarating jeep racing, go on camel safaris, and visit ancient places like Derawar Fort and the Noor Mahal. This tour mixes the thrill of motorsport with rich cultural encounters, making it a must-see for adventurers and anyone interested in Pakistan’s complex history. On this unique excursion, you will experience a vibrant environment, local traditions, and breathtaking desert scenery. Dates &amp; Cost – Cholistan Jeep Rally Tour All seasons are considered good for the Cholistan Jeep Rally Trip. Considering the inflow of tourists all year round, our dates are open throughout the year and your bookings will be 100% guaranteed even if you are a single traveler. Our prices and dates for this tour (all seasons) are given below. Package Price: Season Month Tour Start Date Price Per Person USD Minimum Travelers Required Spring Mid November &#8211; February Daily USD 320 1 Pax Winter March &#8211; May Daily USD 320 1 Pax Summer June &#8211; Mid September Daily USD 320 1 Pax Autumn Mid September &#8211; November Daily USD 320 1 Pax FOR BOOKINGS &amp; INQURIES: EMAIL: info@safarsilsila.com WHATSAPP: +92 311 1145456 Follow us on Instagram: Safar Silsila Also Recommended: Baboon Valley Tour",
+    "about": "Overview Cholistan Jeep Rally Tour The Cholistan Jeep Rally Tour is an amazing trip through Pakistan’s magnificent Cholistan Desert. Participants can see exhilarating jeep racing, go on camel safaris, and visit ancient places like Derawar Fort and the Noor Mahal. This tour mixes the thrill of motorsport with rich cultural encounters, making it a must-see for adventurers and anyone interested in Pakistan’s complex history. On this unique excursion, you will experience a vibrant environment, local traditions, and breathtaking desert scenery.",
     "tableHtml": "<table style=\"width: 720px; border-collapse: collapse; font-family: Arial, sans-serif; border: 1px solid #dddddd; height: 273px;\">\n<thead>\n<tr style=\"background-color: #339966; color: white; text-align: center;\">\n<th style=\"padding: 10px; border-bottom: 1px solid #ddd;\">Season</th>\n<th style=\"padding: 10px; border-bottom: 1px solid #ddd;\">Month</th>\n<th style=\"padding: 10px; border-bottom: 1px solid #ddd;\">Tour Start Date</th>\n<th style=\"padding: 10px; border-bottom: 1px solid #ddd;\">Price Per Person <strong>USD</strong></th>\n<th style=\"padding: 10px; border-bottom: 1px solid #ddd;\">Minimum Travelers Required</th>\n</tr>\n</thead>\n<tbody>\n<tr style=\"text-align: center;\">\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd; font-weight: bold; background-color: #e9f5e9;\"><span style=\"color: #008000;\">Spring</span></td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\">Mid November &#8211; February</td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\">Daily</td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\"><strong><span style=\"color: #008000;\">USD 320</span></strong></td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\"><strong><span style=\"color: #008000;\">1 Pax</span></strong></td>\n</tr>\n<tr style=\"text-align: center; background-color: #f9f9f9;\">\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd; font-weight: bold; background-color: #e9f5e9;\"><span style=\"color: #008000;\">Winter</span></td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\">March &#8211; May</td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\">Daily</td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\"><strong><span style=\"color: #008000;\">USD 320</span></strong></td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\"><strong><span style=\"color: #008000;\">1 Pax</span></strong></td>\n</tr>\n<tr style=\"text-align: center; background-color: #f9f9f9;\">\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd; font-weight: bold; background-color: #e9f5e9;\"><span style=\"color: #008000;\">Summer</span></td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\">June &#8211; Mid September</td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\">Daily</td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\"><strong><span style=\"color: #008000;\">USD 320</span></strong></td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\"><strong><span style=\"color: #008000;\">1 Pax</span></strong></td>\n</tr>\n<tr style=\"text-align: center; background-color: #f9f9f9;\">\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd; font-weight: bold; background-color: #e9f5e9;\"><span style=\"color: #008000;\">Autumn</span></td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\">Mid September &#8211; November</td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\">Daily</td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\"><strong><span style=\"color: #008000;\">USD 320</span></strong></td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\"><strong><span style=\"color: #008000;\">1 Pax</span></strong></td>\n</tr>\n</tbody>\n</table>",
     "highlights": [
       "Full guided excursion for Cholistan Jeep Rally Tour",
@@ -15733,50 +17207,30 @@ if (window.TOUR_DATA) {
     ],
     "itinerary": [
       {
-        "day": "Morning",
-        "title": "Departure & Pickup",
-        "desc": "Pickup from hotel/residence in private vehicle. Highway drive with refreshment stop."
+        "day": "Day 1",
+        "title": "Lahore / Islamabad to Bahawalpur & Derawar Fort",
+        "desc": "Drive to southern Punjab, visit magnificent 9th-century Derawar Fort in Cholistan Desert."
       },
       {
-        "day": "Afternoon",
-        "title": "Guided Exploration & Activity",
-        "desc": "Arrive at destination. Guided tour of key monuments, photography stops, and water activities."
+        "day": "Day 2",
+        "title": "Cholistan Desert Jeep Rally Track & Bonfire Night",
+        "desc": "Experience live desert jeep rally action, camel safari across dunes, and desert bonfire under stars."
       },
       {
-        "day": "Evening",
-        "title": "Local Food Tasting & Return",
-        "desc": "Enjoy famous regional food & tea. Return drive with drop-off at your hotel by 07:00 PM."
+        "day": "Day 3",
+        "title": "Noor Mahal Palace & Return Drive",
+        "desc": "Guided tour of royal Noor Mahal palace in Bahawalpur and return drive."
       }
     ],
     "packages": [
       {
         "name": "Standard Package",
-        "price": "Inquire for Pricing",
+        "price": "$320",
         "status": "available",
         "features": [
-          "AC Coaster / Sedan Transport",
-          "Standard Hotel / Day Trip",
-          "Driver & Fuel Included"
-        ]
-      },
-      {
-        "name": "Deluxe Package",
-        "price": "Contact for Quote",
-        "status": "available",
-        "features": [
-          "AC Grand Cabin / Prado",
-          "Deluxe Hotel / Private Guide",
-          "Full Inclusions"
-        ]
-      },
-      {
-        "name": "Executive Package",
-        "price": "Contact for Quote",
-        "status": "available",
-        "features": [
-          "Luxury 4x4 Prado / SUV",
-          "Luxury 4-Star / 5-Star Hotel",
-          "VIP Concierge & Protocol"
+          "Desert camp / hotel stay",
+          "4x4 Desert Jeep safari",
+          "Meals & festival access"
         ]
       }
     ],
@@ -15803,10 +17257,10 @@ if (window.TOUR_DATA) {
     "maxGroup": "1 - 20 Persons",
     "difficulty": "Easy / Cultural",
     "image": "images/foreign/card_26.webp",
-    "price": "Inquire for Pricing",
-    "originalPrice": "Contact for Quote",
+    "price": "$930",
+    "originalPrice": "$1,100",
     "departureDay": "Daily Departures & Fixed Schedules",
-    "about": "Overview Safar Silsila Offers Nazbar Valley Tour Package for their beloved clients. If you are looking for comfortable Trip to North Pakistan in one go then you are at right place. We have a Various range of trekking tours in north Pakistan . People who are looking for adventurous tours then these Tour Package are recommended. Nazbar Valley Tour Explore the hidden beauty of Nazbar Valley in Yasin, Gilgit-Baltistan. This journey offers stunning vistas of lush meadows, deep forests, and clear streams, providing a peaceful respite from the everyday. Enjoy picturesque hikes to stunning overlooks and interact with the friendly locals. The Nazbar Valley Trip is ideal for nature lovers and explorers, offering an amazing experience in one of Pakistan’s most lovely valleys. Dates &amp; Cost All seasons are considered good for the Nazbar Valley Trip. Considering the inflow of tourists all year round, our dates are open throughout the year and your bookings will be 100% guaranteed even if you are a single traveler. Our prices and dates for this tour (all seasons) are given below. Package Price: Season Month Tour Start Date Price Per Person USD Minimum Travelers Required Spring Mid November &#8211; February Daily USD 930 1 Pax Winter March &#8211; May Daily USD 930 1 Pax Summer June &#8211; Mid September Daily USD 930 1 Pax Autumn Mid September &#8211; November Daily USD 930 1 Pax FOR BOOKINGS &amp; INQURIES: EMAIL: info@safarsilsila.com WHATSAPP: +92 311 1145456 Follow us on Instagram: Safar Silsila Also Recommended: Bagrot Valley Tour",
+    "about": "Nazbar Valley Tour Explore the hidden beauty of Nazbar Valley in Yasin, Gilgit-Baltistan. This journey offers stunning vistas of lush meadows, deep forests, and clear streams, providing a peaceful respite from the everyday. Enjoy picturesque hikes to stunning overlooks and interact with the friendly locals. The Nazbar Valley Trip is ideal for nature lovers and explorers, offering an amazing experience in one of Pakistan’s most lovely valleys.",
     "tableHtml": "<table style=\"width: 759px; border-collapse: collapse; font-family: Arial, sans-serif; border: 1px solid #dddddd; height: 52px;\">\n<thead>\n<tr style=\"background-color: #339966; color: white; text-align: center;\">\n<th style=\"padding: 10px; border-bottom: 1px solid #ddd;\">Season</th>\n<th style=\"padding: 10px; border-bottom: 1px solid #ddd;\">Month</th>\n<th style=\"padding: 10px; border-bottom: 1px solid #ddd;\">Tour Start Date</th>\n<th style=\"padding: 10px; border-bottom: 1px solid #ddd;\">Price Per Person <strong>USD</strong></th>\n<th style=\"padding: 10px; border-bottom: 1px solid #ddd;\">Minimum Travelers Required</th>\n</tr>\n</thead>\n<tbody>\n<tr style=\"text-align: center;\">\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd; font-weight: bold; background-color: #e9f5e9;\"><span style=\"color: #008000;\">Spring</span></td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\">Mid November &#8211; February</td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\">Daily</td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\"><strong><span style=\"color: #008000;\">USD 930</span></strong></td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\"><strong><span style=\"color: #008000;\">1 Pax</span></strong></td>\n</tr>\n<tr style=\"text-align: center; background-color: #f9f9f9;\">\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd; font-weight: bold; background-color: #e9f5e9;\"><span style=\"color: #008000;\">Winter</span></td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\">March &#8211; May</td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\">Daily</td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\"><strong><span style=\"color: #008000;\">USD 930</span></strong></td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\"><strong><span style=\"color: #008000;\">1 Pax</span></strong></td>\n</tr>\n<tr style=\"text-align: center; background-color: #f9f9f9;\">\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd; font-weight: bold; background-color: #e9f5e9;\"><span style=\"color: #008000;\">Summer</span></td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\">June &#8211; Mid September</td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\">Daily</td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\"><strong><span style=\"color: #008000;\">USD 930</span></strong></td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\"><strong><span style=\"color: #008000;\">1 Pax</span></strong></td>\n</tr>\n<tr style=\"text-align: center; background-color: #f9f9f9;\">\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd; font-weight: bold; background-color: #e9f5e9;\"><span style=\"color: #008000;\">Autumn</span></td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\">Mid September &#8211; November</td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\">Daily</td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\"><strong><span style=\"color: #008000;\">USD 930</span></strong></td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\"><strong><span style=\"color: #008000;\">1 Pax</span></strong></td>\n</tr>\n</tbody>\n</table>",
     "highlights": [
       "Full guided excursion for Nazbar Valley Tour",
@@ -15829,50 +17283,53 @@ if (window.TOUR_DATA) {
     ],
     "itinerary": [
       {
-        "day": "Morning",
-        "title": "Departure & Pickup",
-        "desc": "Pickup from hotel/residence in private vehicle. Highway drive with refreshment stop."
+        "day": "Day 1",
+        "title": "Islamabad to Gilgit",
+        "desc": "Remote glaciated valley trekking in Hindukush range."
       },
       {
-        "day": "Afternoon",
-        "title": "Guided Exploration & Activity",
-        "desc": "Arrive at destination. Guided tour of key monuments, photography stops, and water activities."
+        "day": "Day 2",
+        "title": "Nazbar Valley Stage 1",
+        "desc": "Remote glaciated valley trekking in Hindukush range."
       },
       {
-        "day": "Evening",
-        "title": "Local Food Tasting & Return",
-        "desc": "Enjoy famous regional food & tea. Return drive with drop-off at your hotel by 07:00 PM."
+        "day": "Day 3",
+        "title": "Nazbar Valley Stage 2",
+        "desc": "Remote glaciated valley trekking in Hindukush range."
+      },
+      {
+        "day": "Day 4",
+        "title": "Nazbar Valley Stage 3",
+        "desc": "Remote glaciated valley trekking in Hindukush range."
+      },
+      {
+        "day": "Day 5",
+        "title": "Nazbar Valley Stage 4",
+        "desc": "Remote glaciated valley trekking in Hindukush range."
+      },
+      {
+        "day": "Day 6",
+        "title": "Nazbar Valley Stage 5",
+        "desc": "Remote glaciated valley trekking in Hindukush range."
+      },
+      {
+        "day": "Day 7",
+        "title": "Nazbar Valley Stage 6",
+        "desc": "Remote glaciated valley trekking in Hindukush range."
+      },
+      {
+        "day": "Day 8",
+        "title": "Return to Islamabad",
+        "desc": "Remote glaciated valley trekking in Hindukush range."
       }
     ],
     "packages": [
       {
         "name": "Standard Package",
-        "price": "Inquire for Pricing",
+        "price": "$930",
         "status": "available",
         "features": [
-          "AC Coaster / Sedan Transport",
-          "Standard Hotel / Day Trip",
-          "Driver & Fuel Included"
-        ]
-      },
-      {
-        "name": "Deluxe Package",
-        "price": "Contact for Quote",
-        "status": "available",
-        "features": [
-          "AC Grand Cabin / Prado",
-          "Deluxe Hotel / Private Guide",
-          "Full Inclusions"
-        ]
-      },
-      {
-        "name": "Executive Package",
-        "price": "Contact for Quote",
-        "status": "available",
-        "features": [
-          "Luxury 4x4 Prado / SUV",
-          "Luxury 4-Star / 5-Star Hotel",
-          "VIP Concierge & Protocol"
+          "Full trekking support & transport"
         ]
       }
     ],
@@ -15899,10 +17356,10 @@ if (window.TOUR_DATA) {
     "maxGroup": "1 - 20 Persons",
     "difficulty": "Easy / Cultural",
     "image": "images/foreign/card_27.webp",
-    "price": "Inquire for Pricing",
-    "originalPrice": "Contact for Quote",
+    "price": "$120",
+    "originalPrice": "$150",
     "departureDay": "Daily Departures & Fixed Schedules",
-    "about": "Overview Paragliding in Islamabad (2024-25) Paragliding in Islamabad is a thrilling experience that combines adventure with gorgeous landscapes. Soar above the scenic Margalla Hills and the tranquil Khanpur Dam, taking in breathtaking views of the lush surroundings and bustling metropolis below. Whether you’re a seasoned flyer or a first-timer, our skilled instructors will lead you through the entire process, ensuring a safe and memorable trip. Join us for an amazing day of flying, freedom, and panoramic views that will leave you with unforgettable memories! Dates &amp; Cost – Paragliding in Islamabad All seasons are considered good for the Paragliding in Islamabad. Considering the inflow of tourists all year round, our dates are open throughout the year and your bookings will be 100% guaranteed even if you are a single traveler. Our prices and dates for this tour (all seasons) are given below. Package Price: Season Month Tour Start Date Price Per Person USD Minimum Travelers Required Spring Mid November &#8211; February 2025 Daily USD 120 1 Pax Winter March &#8211; May 2025 Daily USD 120 1 Pax Summer June &#8211; Mid September 2025 Daily USD 120 1 Pax Autumn Mid September &#8211; November 2025 Daily USD 120 1 Pax FOR BOOKINGS &amp; INQURIES: EMAIL: info@safarsilsila.com WHATSAPP: +92 311 1145456 Follow us on Instagram: Safar Silsila Also Recommended: Parasailing in Islamabad",
+    "about": "Overview Paragliding in Islamabad (2024-25) Paragliding in Islamabad is a thrilling experience that combines adventure with gorgeous landscapes. Soar above the scenic Margalla Hills and the tranquil Khanpur Dam, taking in breathtaking views of the lush surroundings and bustling metropolis below. Whether you’re a seasoned flyer or a first-timer, our skilled instructors will lead you through the entire process, ensuring a safe and memorable trip. Join us for an amazing day of flying, freedom, and panoramic views that will leave you with unforgettable memories!",
     "tableHtml": "<table style=\"width: 759px; border-collapse: collapse; font-family: Arial, sans-serif; border: 1px solid #dddddd; height: 52px;\">\n<thead>\n<tr style=\"background-color: #339966; color: white; text-align: center;\">\n<th style=\"padding: 10px; border-bottom: 1px solid #ddd;\">Season</th>\n<th style=\"padding: 10px; border-bottom: 1px solid #ddd;\">Month</th>\n<th style=\"padding: 10px; border-bottom: 1px solid #ddd;\">Tour Start Date</th>\n<th style=\"padding: 10px; border-bottom: 1px solid #ddd;\">Price Per Person <strong>USD</strong></th>\n<th style=\"padding: 10px; border-bottom: 1px solid #ddd;\">Minimum Travelers Required</th>\n</tr>\n</thead>\n<tbody>\n<tr style=\"text-align: center;\">\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd; font-weight: bold; background-color: #e9f5e9;\"><span style=\"color: #008000;\">Spring</span></td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\">Mid November &#8211; February 2025</td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\">Daily</td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\"><strong><span style=\"color: #008000;\">USD 120</span></strong></td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\"><strong><span style=\"color: #008000;\">1 Pax</span></strong></td>\n</tr>\n<tr style=\"text-align: center; background-color: #f9f9f9;\">\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd; font-weight: bold; background-color: #e9f5e9;\"><span style=\"color: #008000;\">Winter</span></td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\">March &#8211; May 2025</td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\">Daily</td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\"><strong><span style=\"color: #008000;\">USD 120</span></strong></td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\"><strong><span style=\"color: #008000;\">1 Pax</span></strong></td>\n</tr>\n<tr style=\"text-align: center; background-color: #f9f9f9;\">\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd; font-weight: bold; background-color: #e9f5e9;\"><span style=\"color: #008000;\">Summer</span></td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\">June &#8211; Mid September 2025</td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\">Daily</td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\"><strong><span style=\"color: #008000;\">USD 120</span></strong></td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\"><strong><span style=\"color: #008000;\">1 Pax</span></strong></td>\n</tr>\n<tr style=\"text-align: center; background-color: #f9f9f9;\">\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd; font-weight: bold; background-color: #e9f5e9;\"><span style=\"color: #008000;\">Autumn</span></td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\">Mid September &#8211; November 2025</td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\">Daily</td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\"><strong><span style=\"color: #008000;\">USD 120</span></strong></td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\"><strong><span style=\"color: #008000;\">1 Pax</span></strong></td>\n</tr>\n</tbody>\n</table>",
     "highlights": [
       "Full guided excursion for Paragliding in Islamabad",
@@ -15925,50 +17382,20 @@ if (window.TOUR_DATA) {
     ],
     "itinerary": [
       {
-        "day": "Morning",
-        "title": "Departure & Pickup",
-        "desc": "Pickup from hotel/residence in private vehicle. Highway drive with refreshment stop."
-      },
-      {
-        "day": "Afternoon",
-        "title": "Guided Exploration & Activity",
-        "desc": "Arrive at destination. Guided tour of key monuments, photography stops, and water activities."
-      },
-      {
-        "day": "Evening",
-        "title": "Local Food Tasting & Return",
-        "desc": "Enjoy famous regional food & tea. Return drive with drop-off at your hotel by 07:00 PM."
+        "day": "Day 1",
+        "title": "Paragliding Tandem Flight Experience",
+        "desc": "Morning pickup from Islamabad. Transfer to Pir Sohawa launch site, safety briefing, tandem paragliding flight with certified pilot over Margalla Hills, HD GoPro video delivery, Monal lunch, and drop-off."
       }
     ],
     "packages": [
       {
-        "name": "Standard Package",
-        "price": "Inquire for Pricing",
+        "name": "Standard Tandem Flight",
+        "price": "$120",
         "status": "available",
         "features": [
-          "AC Coaster / Sedan Transport",
-          "Standard Hotel / Day Trip",
-          "Driver & Fuel Included"
-        ]
-      },
-      {
-        "name": "Deluxe Package",
-        "price": "Contact for Quote",
-        "status": "available",
-        "features": [
-          "AC Grand Cabin / Prado",
-          "Deluxe Hotel / Private Guide",
-          "Full Inclusions"
-        ]
-      },
-      {
-        "name": "Executive Package",
-        "price": "Contact for Quote",
-        "status": "available",
-        "features": [
-          "Luxury 4x4 Prado / SUV",
-          "Luxury 4-Star / 5-Star Hotel",
-          "VIP Concierge & Protocol"
+          "Tandem flight with licensed pilot",
+          "GoPro 4K video recording",
+          "Transport & lunch included"
         ]
       }
     ],
@@ -15995,10 +17422,10 @@ if (window.TOUR_DATA) {
     "maxGroup": "1 - 20 Persons",
     "difficulty": "Easy / Cultural",
     "image": "images/foreign/card_28.webp",
-    "price": "Inquire for Pricing",
-    "originalPrice": "Contact for Quote",
+    "price": "$120",
+    "originalPrice": "$150",
     "departureDay": "Daily Departures & Fixed Schedules",
-    "about": "Overview Parasailing in Islamabad (2024-25) Parasailing in Islamabad provides an exciting and spectacular trip at Khanpur Dam, where you can soar far above the crystal-clear waters and take in breathtaking views of the surrounding hills. This thrilling experience blends excitement with breathtaking natural beauty, making it a must-do activity near the capital. Safar Silsila is known for planning and executing the best tours in North Pakistan, including trekking tours, Cycling Tours, Camping Tours, Cultural Tours and much more. Please visit our website to get the complete details of available Pakistan Tour Package. Our tour guides and other local support staff enable a host-guest environment in North Pakistan which others fail to deliver. Dates &amp; Cost – Parasailing in Islamabad All seasons are considered good for the Parasailing in Islamabad. Considering the inflow of tourists all year round, our dates are open throughout the year and your bookings will be 100% guaranteed even if you are a single traveler. Our prices and dates for this tour (all seasons) are given below. Package Price: Season Month Tour Start Date Price Per Person USD Minimum Travelers Required Spring Mid November &#8211; February 2025 Daily USD 120 1 Pax Winter March &#8211; May 2025 Daily USD 120 1 Pax Summer June &#8211; Mid September 2025 Daily USD 120 1 Pax Autumn Mid September &#8211; November 2025 Daily USD 120 1 Pax FOR BOOKINGS &amp; INQURIES: EMAIL: info@safarsilsila.com WHATSAPP: +92 311 1145456 Follow us on Instagram: Safar Silsila Also Recommended: Paragliding in Islamabad",
+    "about": "Overview Parasailing in Islamabad (2024-25) Parasailing in Islamabad provides an exciting and spectacular trip at Khanpur Dam, where you can soar far above the crystal-clear waters and take in breathtaking views of the surrounding hills. This thrilling experience blends excitement with breathtaking natural beauty, making it a must-do activity near the capital.",
     "tableHtml": "<table style=\"width: 759px; border-collapse: collapse; font-family: Arial, sans-serif; border: 1px solid #dddddd; height: 52px;\">\n<thead>\n<tr style=\"background-color: #339966; color: white; text-align: center;\">\n<th style=\"padding: 10px; border-bottom: 1px solid #ddd;\">Season</th>\n<th style=\"padding: 10px; border-bottom: 1px solid #ddd;\">Month</th>\n<th style=\"padding: 10px; border-bottom: 1px solid #ddd;\">Tour Start Date</th>\n<th style=\"padding: 10px; border-bottom: 1px solid #ddd;\">Price Per Person <strong>USD</strong></th>\n<th style=\"padding: 10px; border-bottom: 1px solid #ddd;\">Minimum Travelers Required</th>\n</tr>\n</thead>\n<tbody>\n<tr style=\"text-align: center;\">\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd; font-weight: bold; background-color: #e9f5e9;\"><span style=\"color: #008000;\">Spring</span></td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\">Mid November &#8211; February 2025</td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\">Daily</td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\"><strong><span style=\"color: #008000;\">USD 120</span></strong></td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\"><strong><span style=\"color: #008000;\">1 Pax</span></strong></td>\n</tr>\n<tr style=\"text-align: center; background-color: #f9f9f9;\">\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd; font-weight: bold; background-color: #e9f5e9;\"><span style=\"color: #008000;\">Winter</span></td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\">March &#8211; May 2025</td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\">Daily</td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\"><strong><span style=\"color: #008000;\">USD 120</span></strong></td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\"><strong><span style=\"color: #008000;\">1 Pax</span></strong></td>\n</tr>\n<tr style=\"text-align: center; background-color: #f9f9f9;\">\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd; font-weight: bold; background-color: #e9f5e9;\"><span style=\"color: #008000;\">Summer</span></td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\">June &#8211; Mid September 2025</td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\">Daily</td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\"><strong><span style=\"color: #008000;\">USD 120</span></strong></td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\"><strong><span style=\"color: #008000;\">1 Pax</span></strong></td>\n</tr>\n<tr style=\"text-align: center; background-color: #f9f9f9;\">\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd; font-weight: bold; background-color: #e9f5e9;\"><span style=\"color: #008000;\">Autumn</span></td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\">Mid September &#8211; November 2025</td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\">Daily</td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\"><strong><span style=\"color: #008000;\">USD 120</span></strong></td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\"><strong><span style=\"color: #008000;\">1 Pax</span></strong></td>\n</tr>\n</tbody>\n</table>",
     "highlights": [
       "Full guided excursion for Parasailing in Islamabad",
@@ -16021,50 +17448,20 @@ if (window.TOUR_DATA) {
     ],
     "itinerary": [
       {
-        "day": "Morning",
-        "title": "Departure & Pickup",
-        "desc": "Pickup from hotel/residence in private vehicle. Highway drive with refreshment stop."
-      },
-      {
-        "day": "Afternoon",
-        "title": "Guided Exploration & Activity",
-        "desc": "Arrive at destination. Guided tour of key monuments, photography stops, and water activities."
-      },
-      {
-        "day": "Evening",
-        "title": "Local Food Tasting & Return",
-        "desc": "Enjoy famous regional food & tea. Return drive with drop-off at your hotel by 07:00 PM."
+        "day": "Day 1",
+        "title": "Parasailing & Water Sports Adventure",
+        "desc": "Morning transfer to Khanpur Dam. Parasailing launch over turquoise waters, speed boat ride, lakefront BBQ lunch, and evening drop-off in Islamabad."
       }
     ],
     "packages": [
       {
-        "name": "Standard Package",
-        "price": "Inquire for Pricing",
+        "name": "Standard Flight Package",
+        "price": "$120",
         "status": "available",
         "features": [
-          "AC Coaster / Sedan Transport",
-          "Standard Hotel / Day Trip",
-          "Driver & Fuel Included"
-        ]
-      },
-      {
-        "name": "Deluxe Package",
-        "price": "Contact for Quote",
-        "status": "available",
-        "features": [
-          "AC Grand Cabin / Prado",
-          "Deluxe Hotel / Private Guide",
-          "Full Inclusions"
-        ]
-      },
-      {
-        "name": "Executive Package",
-        "price": "Contact for Quote",
-        "status": "available",
-        "features": [
-          "Luxury 4x4 Prado / SUV",
-          "Luxury 4-Star / 5-Star Hotel",
-          "VIP Concierge & Protocol"
+          "Parasailing flight & equipment",
+          "Speedboat transfer & BBQ lunch",
+          "Private transport from Islamabad"
         ]
       }
     ],
@@ -16091,10 +17488,10 @@ if (window.TOUR_DATA) {
     "maxGroup": "1 - 20 Persons",
     "difficulty": "Easy / Cultural",
     "image": "images/foreign/card_29.webp",
-    "price": "Inquire for Pricing",
-    "originalPrice": "Contact for Quote",
+    "price": "$240",
+    "originalPrice": "$290",
     "departureDay": "Daily Departures & Fixed Schedules",
-    "about": "Overview Tanda Lake Kohat Tour (2024-25) The Tanda Lake Kohat Tour is a pleasant getaway into nature, providing an ideal balance of leisure and action. Tanda Lake, also known as Tanda Dam, is a gorgeous reservoir that provides crucial irrigation to local people in Khyber Pakhtunkhwa’s picturesque Kohat District. This quiet resort, surrounded by lush foliage and rolling hills, encourages guests to enjoy activities such as boating, fishing, and hiking, making it suitable for both families and environment enthusiasts. Relax and enjoy the beauty and quiet of Tanda Lake. Dates &amp; Cost – Tanda Lake Kohat Tour All seasons are considered good for the Tanda Lake Kohat Trip . Considering the inflow of tourists all year round, our dates are open throughout the year and your bookings will be 100% guaranteed even if you are a single traveler. Our prices and dates for this tour (all seasons) are given below. Package Price: Season Month Tour Start Date Price Per Person USD Minimum Travelers Required Spring Mid November &#8211; February 2025 Daily USD 240 1 Pax Winter March &#8211; May 2025 Daily USD 240 1 Pax Summer June &#8211; Mid September 2025 Daily USD 240 1 Pax Autumn Mid September &#8211; November 2025 Daily USD 240 1 Pax FOR BOOKINGS &amp; INQURIES: EMAIL: info@safarsilsila.com WHATSAPP: +92 311 1145456 Follow us on Instagram: Safar Silsila Also Recommended: Hindukush Snow Festival",
+    "about": "Overview Tanda Lake Kohat Tour (2024-25) The Tanda Lake Kohat Tour is a pleasant getaway into nature, providing an ideal balance of leisure and action. Tanda Lake, also known as Tanda Dam, is a gorgeous reservoir that provides crucial irrigation to local people in Khyber Pakhtunkhwa’s picturesque Kohat District. This quiet resort, surrounded by lush foliage and rolling hills, encourages guests to enjoy activities such as boating, fishing, and hiking, making it suitable for both families and environment enthusiasts. Relax and enjoy the beauty and quiet of Tanda Lake.",
     "tableHtml": "<table style=\"width: 759px; border-collapse: collapse; font-family: Arial, sans-serif; border: 1px solid #dddddd; height: 52px;\">\n<thead>\n<tr style=\"background-color: #339966; color: white; text-align: center;\">\n<th style=\"padding: 10px; border-bottom: 1px solid #ddd;\">Season</th>\n<th style=\"padding: 10px; border-bottom: 1px solid #ddd;\">Month</th>\n<th style=\"padding: 10px; border-bottom: 1px solid #ddd;\">Tour Start Date</th>\n<th style=\"padding: 10px; border-bottom: 1px solid #ddd;\">Price Per Person <strong>USD</strong></th>\n<th style=\"padding: 10px; border-bottom: 1px solid #ddd;\">Minimum Travelers Required</th>\n</tr>\n</thead>\n<tbody>\n<tr style=\"text-align: center;\">\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd; font-weight: bold; background-color: #e9f5e9;\"><span style=\"color: #008000;\">Spring</span></td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\">Mid November &#8211; February 2025</td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\">Daily</td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\"><strong><span style=\"color: #008000;\">USD 240</span></strong></td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\"><strong><span style=\"color: #008000;\">1 Pax</span></strong></td>\n</tr>\n<tr style=\"text-align: center; background-color: #f9f9f9;\">\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd; font-weight: bold; background-color: #e9f5e9;\"><span style=\"color: #008000;\">Winter</span></td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\">March &#8211; May 2025</td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\">Daily</td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\"><strong><span style=\"color: #008000;\">USD 240</span></strong></td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\"><strong><span style=\"color: #008000;\">1 Pax</span></strong></td>\n</tr>\n<tr style=\"text-align: center; background-color: #f9f9f9;\">\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd; font-weight: bold; background-color: #e9f5e9;\"><span style=\"color: #008000;\">Summer</span></td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\">June &#8211; Mid September 2025</td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\">Daily</td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\"><strong><span style=\"color: #008000;\">USD 240</span></strong></td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\"><strong><span style=\"color: #008000;\">1 Pax</span></strong></td>\n</tr>\n<tr style=\"text-align: center; background-color: #f9f9f9;\">\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd; font-weight: bold; background-color: #e9f5e9;\"><span style=\"color: #008000;\">Autumn</span></td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\">Mid September &#8211; November 2025</td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\">Daily</td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\"><strong><span style=\"color: #008000;\">USD 240</span></strong></td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\"><strong><span style=\"color: #008000;\">1 Pax</span></strong></td>\n</tr>\n</tbody>\n</table>",
     "highlights": [
       "Full guided excursion for Tanda Lake Kohat Tour (2024-25)",
@@ -16117,50 +17514,24 @@ if (window.TOUR_DATA) {
     ],
     "itinerary": [
       {
-        "day": "Morning",
-        "title": "Departure & Pickup",
-        "desc": "Pickup from hotel/residence in private vehicle. Highway drive with refreshment stop."
+        "day": "Day 1",
+        "title": "Islamabad to Tanda Lake Resort",
+        "desc": "Drive via Motorway to Kohat. Check-in at Tanda Lake resort, sunset boating & lakeside fish dinner."
       },
       {
-        "day": "Afternoon",
-        "title": "Guided Exploration & Activity",
-        "desc": "Arrive at destination. Guided tour of key monuments, photography stops, and water activities."
-      },
-      {
-        "day": "Evening",
-        "title": "Local Food Tasting & Return",
-        "desc": "Enjoy famous regional food & tea. Return drive with drop-off at your hotel by 07:00 PM."
+        "day": "Day 2",
+        "title": "Kohat Fort & Guava Orchards Return",
+        "desc": "Visit Kohat Tunnel, historical sites, guava garden walk, and return drive to Islamabad."
       }
     ],
     "packages": [
       {
         "name": "Standard Package",
-        "price": "Inquire for Pricing",
+        "price": "$240",
         "status": "available",
         "features": [
-          "AC Coaster / Sedan Transport",
-          "Standard Hotel / Day Trip",
-          "Driver & Fuel Included"
-        ]
-      },
-      {
-        "name": "Deluxe Package",
-        "price": "Contact for Quote",
-        "status": "available",
-        "features": [
-          "AC Grand Cabin / Prado",
-          "Deluxe Hotel / Private Guide",
-          "Full Inclusions"
-        ]
-      },
-      {
-        "name": "Executive Package",
-        "price": "Contact for Quote",
-        "status": "available",
-        "features": [
-          "Luxury 4x4 Prado / SUV",
-          "Luxury 4-Star / 5-Star Hotel",
-          "VIP Concierge & Protocol"
+          "Resort accommodation & meals",
+          "Boating tickets & private transport"
         ]
       }
     ],
@@ -16187,10 +17558,10 @@ if (window.TOUR_DATA) {
     "maxGroup": "1 - 20 Persons",
     "difficulty": "Easy / Cultural",
     "image": "images/foreign/card_30.webp",
-    "price": "Inquire for Pricing",
-    "originalPrice": "Contact for Quote",
+    "price": "$800",
+    "originalPrice": "$950",
     "departureDay": "Daily Departures & Fixed Schedules",
-    "about": "Overview Hindukush Snow Festival The Hindukush Snow Festival in Madaklasht, Chitral, is an annual celebration of winter sports and cultural heritage set against the picturesque backdrop of Shishi Valley. Established in 2020, the event brings together fans from all over the world to enjoy skiing, snowboarding, ice skating, and traditional ice hockey, as well as rich local music, arts, and cuisine. In this one-of-a-kind blend of sport and culture that displays the beauty and spirit of the Hindukush, you may experience the thrill of adventure as well as the warmth of Chitrali hospitality. Dates &amp; Cost – Hindukush Snow Festival All seasons are considered good for the Hindukush Snow Festivol. Considering the inflow of tourists all year round, our dates are open throughout the year and your bookings will be 100% guaranteed even if you are a single traveler. Our prices and dates for this tour (all seasons) are given below. Package Price: Season Month Tour Start Date Price Per Person USD Minimum Travelers Required Spring Mid November &#8211; February Daily USD 800 1 Pax Winter March &#8211; May Daily USD 800 1 Pax Summer June &#8211; Mid September Daily USD 800 1 Pax Autumn Mid September &#8211; November Daily USD 800 1 Pax FOR BOOKINGS &amp; INQURIES: EMAIL: info@safarsilsila.com WHATSAPP: +92 311 1145456 Follow us on Instagram: Safar Silsila Also Recommended: Mayfung Fire Festival Skardu",
+    "about": "Overview Hindukush Snow Festival The Hindukush Snow Festival in Madaklasht, Chitral, is an annual celebration of winter sports and cultural heritage set against the picturesque backdrop of Shishi Valley. Established in 2020, the event brings together fans from all over the world to enjoy skiing, snowboarding, ice skating, and traditional ice hockey, as well as rich local music, arts, and cuisine. In this one-of-a-kind blend of sport and culture that displays the beauty and spirit of the Hindukush, you may experience the thrill of adventure as well as the warmth of Chitrali hospitality.",
     "tableHtml": "<table style=\"width: 759px; border-collapse: collapse; font-family: Arial, sans-serif; border: 1px solid #dddddd; height: 52px;\">\n<thead>\n<tr style=\"background-color: #339966; color: white; text-align: center;\">\n<th style=\"padding: 10px; border-bottom: 1px solid #ddd;\">Season</th>\n<th style=\"padding: 10px; border-bottom: 1px solid #ddd;\">Month</th>\n<th style=\"padding: 10px; border-bottom: 1px solid #ddd;\">Tour Start Date</th>\n<th style=\"padding: 10px; border-bottom: 1px solid #ddd;\">Price Per Person <strong>USD</strong></th>\n<th style=\"padding: 10px; border-bottom: 1px solid #ddd;\">Minimum Travelers Required</th>\n</tr>\n</thead>\n<tbody>\n<tr style=\"text-align: center;\">\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd; font-weight: bold; background-color: #e9f5e9;\"><span style=\"color: #008000;\">Spring</span></td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\">Mid November &#8211; February</td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\">Daily</td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\"><strong><span style=\"color: #008000;\">USD 800</span></strong></td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\"><strong><span style=\"color: #008000;\">1 Pax</span></strong></td>\n</tr>\n<tr style=\"text-align: center; background-color: #f9f9f9;\">\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd; font-weight: bold; background-color: #e9f5e9;\"><span style=\"color: #008000;\">Winter</span></td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\">March &#8211; May</td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\">Daily</td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\"><strong><span style=\"color: #008000;\">USD 800</span></strong></td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\"><strong><span style=\"color: #008000;\">1 Pax</span></strong></td>\n</tr>\n<tr style=\"text-align: center; background-color: #f9f9f9;\">\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd; font-weight: bold; background-color: #e9f5e9;\"><span style=\"color: #008000;\">Summer</span></td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\">June &#8211; Mid September</td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\">Daily</td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\"><strong><span style=\"color: #008000;\">USD 800</span></strong></td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\"><strong><span style=\"color: #008000;\">1 Pax</span></strong></td>\n</tr>\n<tr style=\"text-align: center; background-color: #f9f9f9;\">\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd; font-weight: bold; background-color: #e9f5e9;\"><span style=\"color: #008000;\">Autumn</span></td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\">Mid September &#8211; November</td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\">Daily</td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\"><strong><span style=\"color: #008000;\">USD 800</span></strong></td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\"><strong><span style=\"color: #008000;\">1 Pax</span></strong></td>\n</tr>\n</tbody>\n</table>",
     "highlights": [
       "Full guided excursion for Hindukush Snow Festival",
@@ -16213,50 +17584,45 @@ if (window.TOUR_DATA) {
     ],
     "itinerary": [
       {
-        "day": "Morning",
-        "title": "Departure & Pickup",
-        "desc": "Pickup from hotel/residence in private vehicle. Highway drive with refreshment stop."
+        "day": "Day 1",
+        "title": "Islamabad to Chitral Valley",
+        "desc": "Drive through Lowari Tunnel into Chitral Town."
       },
       {
-        "day": "Afternoon",
-        "title": "Guided Exploration & Activity",
-        "desc": "Arrive at destination. Guided tour of key monuments, photography stops, and water activities."
+        "day": "Day 2",
+        "title": "Chitral to Madaklasht Valley",
+        "desc": "Drive into snow-covered Madaklasht valley in Hindukush mountains."
       },
       {
-        "day": "Evening",
-        "title": "Local Food Tasting & Return",
-        "desc": "Enjoy famous regional food & tea. Return drive with drop-off at your hotel by 07:00 PM."
+        "day": "Day 3",
+        "title": "Snow Sports Festival Opening Day",
+        "desc": "Witness skiing, snowboarding, ice hockey & traditional snow games."
+      },
+      {
+        "day": "Day 4",
+        "title": "Cultural Music & Bonfire Celebration",
+        "desc": "Traditional Hindukush music night, local food stalls & bonfire."
+      },
+      {
+        "day": "Day 5",
+        "title": "Madaklasht to Chitral Town",
+        "desc": "Return to Chitral Town, bazaar shopping."
+      },
+      {
+        "day": "Day 6",
+        "title": "Chitral to Islamabad Return",
+        "desc": "Scenic drive back to Islamabad."
       }
     ],
     "packages": [
       {
-        "name": "Standard Package",
-        "price": "Inquire for Pricing",
+        "name": "Festival Package",
+        "price": "$800",
         "status": "available",
         "features": [
-          "AC Coaster / Sedan Transport",
-          "Standard Hotel / Day Trip",
-          "Driver & Fuel Included"
-        ]
-      },
-      {
-        "name": "Deluxe Package",
-        "price": "Contact for Quote",
-        "status": "available",
-        "features": [
-          "AC Grand Cabin / Prado",
-          "Deluxe Hotel / Private Guide",
-          "Full Inclusions"
-        ]
-      },
-      {
-        "name": "Executive Package",
-        "price": "Contact for Quote",
-        "status": "available",
-        "features": [
-          "Luxury 4x4 Prado / SUV",
-          "Luxury 4-Star / 5-Star Hotel",
-          "VIP Concierge & Protocol"
+          "Festival passes & hotel stays",
+          "All 4x4 jeeps & transport",
+          "Full meal plan"
         ]
       }
     ],
@@ -16283,10 +17649,10 @@ if (window.TOUR_DATA) {
     "maxGroup": "1 - 20 Persons",
     "difficulty": "Easy / Cultural",
     "image": "images/foreign/card_31.webp",
-    "price": "Inquire for Pricing",
-    "originalPrice": "Contact for Quote",
+    "price": "$1,000",
+    "originalPrice": "$1,200",
     "departureDay": "Daily Departures & Fixed Schedules",
-    "about": "Overview Siachen Tour Embark on a memorable Siachen Tour, visiting the world’s highest battleground and the beautiful vistas of the eastern Karakoram Range. Experience the breathtaking beauty of the Siachen Glacier, which is surrounded by towering snow-capped peaks, rocky terrain, and tranquil valleys. Discover cultural relics such as Khaplu Palace and Shigar Fort while admiring the unparalleled beauty of this distant and renowned region. Safar Silsila is known for planning and executing the best tours in North Pakistan, including trekking tours, Cycling Tours, Camping Tours, Cultural Tours and much more. Please visit our website to get the complete details of available Pakistan Tour Package. Our tour guides and other local support staff enable a host-guest environment in North Pakistan which others fail to deliver. Dates &amp; Cost – Siachen Tour All seasons are considered good for the Siachen Tour. Considering the inflow of tourists all year round, our dates are open throughout the year and your bookings will be 100% guaranteed even if you are a single traveler. Our prices and dates for this tour (all seasons) are given below. Package Price: Season Month Tour Start Date Price Per Person USD Minimum Travelers Required Spring Mid November &#8211; February Daily USD 1000 1 Pax Winter March &#8211; May Daily USD 1000 1 Pax Summer June &#8211; Mid September Daily USD 1000 1 Pax Autumn Mid September &#8211; November Daily USD 1000 1 Pax FOR BOOKINGS &amp; INQURIES: EMAIL: info@safarsilsila.com WHATSAPP: +92 311 1145456 Follow us on Instagram: Safar Silsila Also Recommended: Chunda Valley Tour – 07 Days",
+    "about": "Overview Siachen Tour Embark on a memorable Siachen Tour, visiting the world’s highest battleground and the beautiful vistas of the eastern Karakoram Range. Experience the breathtaking beauty of the Siachen Glacier, which is surrounded by towering snow-capped peaks, rocky terrain, and tranquil valleys. Discover cultural relics such as Khaplu Palace and Shigar Fort while admiring the unparalleled beauty of this distant and renowned region.",
     "tableHtml": "<table style=\"width: 759px; border-collapse: collapse; font-family: Arial, sans-serif; border: 1px solid #dddddd; height: 52px;\">\n<thead>\n<tr style=\"background-color: #339966; color: white; text-align: center;\">\n<th style=\"padding: 10px; border-bottom: 1px solid #ddd;\">Season</th>\n<th style=\"padding: 10px; border-bottom: 1px solid #ddd;\">Month</th>\n<th style=\"padding: 10px; border-bottom: 1px solid #ddd;\">Tour Start Date</th>\n<th style=\"padding: 10px; border-bottom: 1px solid #ddd;\">Price Per Person <strong>USD</strong></th>\n<th style=\"padding: 10px; border-bottom: 1px solid #ddd;\">Minimum Travelers Required</th>\n</tr>\n</thead>\n<tbody>\n<tr style=\"text-align: center;\">\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd; font-weight: bold; background-color: #e9f5e9;\"><span style=\"color: #008000;\">Spring</span></td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\">Mid November &#8211; February</td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\">Daily</td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\"><strong><span style=\"color: #008000;\">USD 1000</span></strong></td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\"><strong><span style=\"color: #008000;\">1 Pax</span></strong></td>\n</tr>\n<tr style=\"text-align: center; background-color: #f9f9f9;\">\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd; font-weight: bold; background-color: #e9f5e9;\"><span style=\"color: #008000;\">Winter</span></td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\">March &#8211; May</td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\">Daily</td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\"><strong><span style=\"color: #008000;\">USD 1000</span></strong></td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\"><strong><span style=\"color: #008000;\">1 Pax</span></strong></td>\n</tr>\n<tr style=\"text-align: center; background-color: #f9f9f9;\">\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd; font-weight: bold; background-color: #e9f5e9;\"><span style=\"color: #008000;\">Summer</span></td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\">June &#8211; Mid September</td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\">Daily</td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\"><strong><span style=\"color: #008000;\">USD 1000</span></strong></td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\"><strong><span style=\"color: #008000;\">1 Pax</span></strong></td>\n</tr>\n<tr style=\"text-align: center; background-color: #f9f9f9;\">\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd; font-weight: bold; background-color: #e9f5e9;\"><span style=\"color: #008000;\">Autumn</span></td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\">Mid September &#8211; November</td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\">Daily</td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\"><strong><span style=\"color: #008000;\">USD 1000</span></strong></td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\"><strong><span style=\"color: #008000;\">1 Pax</span></strong></td>\n</tr>\n</tbody>\n</table>",
     "highlights": [
       "Full guided excursion for Siachen Tour",
@@ -16309,50 +17675,48 @@ if (window.TOUR_DATA) {
     ],
     "itinerary": [
       {
-        "day": "Morning",
-        "title": "Departure & Pickup",
-        "desc": "Pickup from hotel/residence in private vehicle. Highway drive with refreshment stop."
+        "day": "Day 1",
+        "title": "Islamabad to Skardu",
+        "desc": "Visiting Khaplu, Saltoro River valley, Siachen Sector memorial & eastern Karakoram peaks."
       },
       {
-        "day": "Afternoon",
-        "title": "Guided Exploration & Activity",
-        "desc": "Arrive at destination. Guided tour of key monuments, photography stops, and water activities."
+        "day": "Day 2",
+        "title": "Siachen Sector Stage 1",
+        "desc": "Visiting Khaplu, Saltoro River valley, Siachen Sector memorial & eastern Karakoram peaks."
       },
       {
-        "day": "Evening",
-        "title": "Local Food Tasting & Return",
-        "desc": "Enjoy famous regional food & tea. Return drive with drop-off at your hotel by 07:00 PM."
+        "day": "Day 3",
+        "title": "Siachen Sector Stage 2",
+        "desc": "Visiting Khaplu, Saltoro River valley, Siachen Sector memorial & eastern Karakoram peaks."
+      },
+      {
+        "day": "Day 4",
+        "title": "Siachen Sector Stage 3",
+        "desc": "Visiting Khaplu, Saltoro River valley, Siachen Sector memorial & eastern Karakoram peaks."
+      },
+      {
+        "day": "Day 5",
+        "title": "Siachen Sector Stage 4",
+        "desc": "Visiting Khaplu, Saltoro River valley, Siachen Sector memorial & eastern Karakoram peaks."
+      },
+      {
+        "day": "Day 6",
+        "title": "Siachen Sector Stage 5",
+        "desc": "Visiting Khaplu, Saltoro River valley, Siachen Sector memorial & eastern Karakoram peaks."
+      },
+      {
+        "day": "Day 7",
+        "title": "Return to Islamabad",
+        "desc": "Visiting Khaplu, Saltoro River valley, Siachen Sector memorial & eastern Karakoram peaks."
       }
     ],
     "packages": [
       {
-        "name": "Standard Package",
-        "price": "Inquire for Pricing",
+        "name": "Standard Tour Package",
+        "price": "$1,000",
         "status": "available",
         "features": [
-          "AC Coaster / Sedan Transport",
-          "Standard Hotel / Day Trip",
-          "Driver & Fuel Included"
-        ]
-      },
-      {
-        "name": "Deluxe Package",
-        "price": "Contact for Quote",
-        "status": "available",
-        "features": [
-          "AC Grand Cabin / Prado",
-          "Deluxe Hotel / Private Guide",
-          "Full Inclusions"
-        ]
-      },
-      {
-        "name": "Executive Package",
-        "price": "Contact for Quote",
-        "status": "available",
-        "features": [
-          "Luxury 4x4 Prado / SUV",
-          "Luxury 4-Star / 5-Star Hotel",
-          "VIP Concierge & Protocol"
+          "Permits, hotel stay, jeeps & meals"
         ]
       }
     ],
@@ -16379,10 +17743,10 @@ if (window.TOUR_DATA) {
     "maxGroup": "1 - 20 Persons",
     "difficulty": "Easy / Cultural",
     "image": "images/foreign/card_32.webp",
-    "price": "Inquire for Pricing",
-    "originalPrice": "Contact for Quote",
+    "price": "$600",
+    "originalPrice": "$750",
     "departureDay": "Daily Departures & Fixed Schedules",
-    "about": "Overview Motorgliding in Sarfaranga Motorgliding in Sarfaranga is an exciting way to see the magnificent Sarfaranga Cold Desert near Skardu. Set in the spectacular surroundings of the Karakoram mountains, this one-of-a-kind journey allows you to soar over immense dunes, the Indus River, and snow-capped peaks, all while experiencing the tranquil serenity of one of the world’s highest cold deserts. Motor gliding in Sarfaranga combines the exhilaration of flight with the peacefulness of nature, providing an unforgettable airborne experience across Pakistan’s wildness. Dates &amp; Cost – Motorgliding in Sarfaranga All seasons are considered good for the Motorgliding in Sarfaranga. Considering the inflow of tourists all year round, our dates are open throughout the year and your bookings will be 100% guaranteed even if you are a single traveler. Our prices and dates for this tour (all seasons) are given below. Package Price: Season Month Tour Start Date Price Per Person USD Minimum Travelers Required Spring Mid November &#8211; February Daily USD 600 1 Pax Winter March &#8211; May Daily USD 600 1 Pax Summer June &#8211; Mid September Daily USD 600 1 Pax Autumn Mid September &#8211; November Daily USD 600 1 Pax FOR BOOKINGS &amp; INQURIES: EMAIL: info@safarsilsila.com WHATSAPP: +92 311 1145456 Follow us on Instagram: Safar Silsila Also Recommended: Parasailing in Islamabad",
+    "about": "Overview Motorgliding in Sarfaranga Motorgliding in Sarfaranga is an exciting way to see the magnificent Sarfaranga Cold Desert near Skardu. Set in the spectacular surroundings of the Karakoram mountains, this one-of-a-kind journey allows you to soar over immense dunes, the Indus River, and snow-capped peaks, all while experiencing the tranquil serenity of one of the world’s highest cold deserts. Motor gliding in Sarfaranga combines the exhilaration of flight with the peacefulness of nature, providing an unforgettable airborne experience across Pakistan’s wildness.",
     "tableHtml": "<table style=\"width: 759px; border-collapse: collapse; font-family: Arial, sans-serif; border: 1px solid #dddddd; height: 52px;\">\n<thead>\n<tr style=\"background-color: #339966; color: white; text-align: center;\">\n<th style=\"padding: 10px; border-bottom: 1px solid #ddd;\">Season</th>\n<th style=\"padding: 10px; border-bottom: 1px solid #ddd;\">Month</th>\n<th style=\"padding: 10px; border-bottom: 1px solid #ddd;\">Tour Start Date</th>\n<th style=\"padding: 10px; border-bottom: 1px solid #ddd;\">Price Per Person <strong>USD</strong></th>\n<th style=\"padding: 10px; border-bottom: 1px solid #ddd;\">Minimum Travelers Required</th>\n</tr>\n</thead>\n<tbody>\n<tr style=\"text-align: center;\">\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd; font-weight: bold; background-color: #e9f5e9;\"><span style=\"color: #008000;\">Spring</span></td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\">Mid November &#8211; February</td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\">Daily</td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\"><strong><span style=\"color: #008000;\">USD 600</span></strong></td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\"><strong><span style=\"color: #008000;\">1 Pax</span></strong></td>\n</tr>\n<tr style=\"text-align: center; background-color: #f9f9f9;\">\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd; font-weight: bold; background-color: #e9f5e9;\"><span style=\"color: #008000;\">Winter</span></td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\">March &#8211; May</td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\">Daily</td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\"><strong><span style=\"color: #008000;\">USD 600</span></strong></td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\"><strong><span style=\"color: #008000;\">1 Pax</span></strong></td>\n</tr>\n<tr style=\"text-align: center; background-color: #f9f9f9;\">\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd; font-weight: bold; background-color: #e9f5e9;\"><span style=\"color: #008000;\">Summer</span></td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\">June &#8211; Mid September</td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\">Daily</td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\"><strong><span style=\"color: #008000;\">USD 600</span></strong></td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\"><strong><span style=\"color: #008000;\">1 Pax</span></strong></td>\n</tr>\n<tr style=\"text-align: center; background-color: #f9f9f9;\">\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd; font-weight: bold; background-color: #e9f5e9;\"><span style=\"color: #008000;\">Autumn</span></td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\">Mid September &#8211; November</td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\">Daily</td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\"><strong><span style=\"color: #008000;\">USD 600</span></strong></td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\"><strong><span style=\"color: #008000;\">1 Pax</span></strong></td>\n</tr>\n</tbody>\n</table>",
     "highlights": [
       "Full guided excursion for Motorgliding in Sarfaranga",
@@ -16405,50 +17769,35 @@ if (window.TOUR_DATA) {
     ],
     "itinerary": [
       {
-        "day": "Morning",
-        "title": "Departure & Pickup",
-        "desc": "Pickup from hotel/residence in private vehicle. Highway drive with refreshment stop."
+        "day": "Day 1",
+        "title": "Flight Islamabad to Skardu",
+        "desc": "Scenic Karakoram flight to Skardu, check-in at Shangrila Resort."
       },
       {
-        "day": "Afternoon",
-        "title": "Guided Exploration & Activity",
-        "desc": "Arrive at destination. Guided tour of key monuments, photography stops, and water activities."
+        "day": "Day 2",
+        "title": "Motorgliding over Sarfaranga Cold Desert",
+        "desc": "Powered paragliding flight over high altitude Sarfaranga desert sand dunes, quad biking."
       },
       {
-        "day": "Evening",
-        "title": "Local Food Tasting & Return",
-        "desc": "Enjoy famous regional food & tea. Return drive with drop-off at your hotel by 07:00 PM."
+        "day": "Day 3",
+        "title": "Katpana Desert & Shigar Fort Tour",
+        "desc": "Guided tour of 17th-century Shigar Fort Palace & Katpana Cold Desert sunset."
+      },
+      {
+        "day": "Day 4",
+        "title": "Return Flight to Islamabad",
+        "desc": "Morning flight back to Islamabad."
       }
     ],
     "packages": [
       {
-        "name": "Standard Package",
-        "price": "Inquire for Pricing",
+        "name": "Motorgliding Package",
+        "price": "$600",
         "status": "available",
         "features": [
-          "AC Coaster / Sedan Transport",
-          "Standard Hotel / Day Trip",
-          "Driver & Fuel Included"
-        ]
-      },
-      {
-        "name": "Deluxe Package",
-        "price": "Contact for Quote",
-        "status": "available",
-        "features": [
-          "AC Grand Cabin / Prado",
-          "Deluxe Hotel / Private Guide",
-          "Full Inclusions"
-        ]
-      },
-      {
-        "name": "Executive Package",
-        "price": "Contact for Quote",
-        "status": "available",
-        "features": [
-          "Luxury 4x4 Prado / SUV",
-          "Luxury 4-Star / 5-Star Hotel",
-          "VIP Concierge & Protocol"
+          "Motorglider flight session included",
+          "Shangrila & Shigar Fort stays",
+          "Airport transfers"
         ]
       }
     ],
@@ -16475,10 +17824,10 @@ if (window.TOUR_DATA) {
     "maxGroup": "1 - 20 Persons",
     "difficulty": "Easy / Cultural",
     "image": "images/foreign/card_33.webp",
-    "price": "Inquire for Pricing",
-    "originalPrice": "Contact for Quote",
+    "price": "$1,000",
+    "originalPrice": "$1,200",
     "departureDay": "Daily Departures & Fixed Schedules",
-    "about": "Overview Khorkundus Valley Tour Join an exciting Khorkundus Valley Tour to discover the natural landscapes of Ghanche District, Gilgit-Baltistan. Nestled at an elevation of 3,399 meters, this hidden gem is bordered by towering peaks such as K13, Sherpi Kangri, and Saltoro Kangri. Experience the charm of traditional Balti culture, relax in the valley’s curative hot springs, and take in the spectacular scenery of this secluded sanctuary. The Khorkondus Valley Tour is ideal for both adventurers and nature aficionados, promising a journey of calm and wonder. Dates &amp; Cost – Khorkundus Valley Tour All seasons are considered good for the Khorkundus Valley Trip. Considering the inflow of tourists all year round, our dates are open throughout the year and your bookings will be 100% guaranteed even if you are a single traveler. Our prices and dates for this tour (all seasons) are given below. Package Price: Season Month Tour Start Date Price Per Person USD Minimum Travelers Required Spring Mid November &#8211; February Daily USD 1000 1 Pax Winter March &#8211; May Daily USD 1000 1 Pax Summer June &#8211; Mid September Daily USD 1000 1 Pax Autumn Mid September &#8211; November Daily USD 1000 1 Pax FOR BOOKINGS &amp; INQURIES: EMAIL: info@safarsilsila.com WHATSAPP: +92 311 1145456 Follow us on Instagram: Safar Silsila Also Recommended: Chunda Valley Tour – 07 Days",
+    "about": "Overview Khorkundus Valley Tour Join an exciting Khorkundus Valley Tour to discover the natural landscapes of Ghanche District, Gilgit-Baltistan. Nestled at an elevation of 3,399 meters, this hidden gem is bordered by towering peaks such as K13, Sherpi Kangri, and Saltoro Kangri. Experience the charm of traditional Balti culture, relax in the valley’s curative hot springs, and take in the spectacular scenery of this secluded sanctuary. The Khorkondus Valley Tour is ideal for both adventurers and nature aficionados, promising a journey of calm and wonder.",
     "tableHtml": "<table style=\"width: 759px; border-collapse: collapse; font-family: Arial, sans-serif; border: 1px solid #dddddd; height: 52px;\">\n<thead>\n<tr style=\"background-color: #339966; color: white; text-align: center;\">\n<th style=\"padding: 10px; border-bottom: 1px solid #ddd;\">Season</th>\n<th style=\"padding: 10px; border-bottom: 1px solid #ddd;\">Month</th>\n<th style=\"padding: 10px; border-bottom: 1px solid #ddd;\">Tour Start Date</th>\n<th style=\"padding: 10px; border-bottom: 1px solid #ddd;\">Price Per Person <strong>USD</strong></th>\n<th style=\"padding: 10px; border-bottom: 1px solid #ddd;\">Minimum Travelers Required</th>\n</tr>\n</thead>\n<tbody>\n<tr style=\"text-align: center;\">\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd; font-weight: bold; background-color: #e9f5e9;\"><span style=\"color: #008000;\">Spring</span></td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\">Mid November &#8211; February</td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\">Daily</td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\"><strong><span style=\"color: #008000;\">USD 1000</span></strong></td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\"><strong><span style=\"color: #008000;\">1 Pax</span></strong></td>\n</tr>\n<tr style=\"text-align: center; background-color: #f9f9f9;\">\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd; font-weight: bold; background-color: #e9f5e9;\"><span style=\"color: #008000;\">Winter</span></td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\">March &#8211; May</td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\">Daily</td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\"><strong><span style=\"color: #008000;\">USD 1000</span></strong></td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\"><strong><span style=\"color: #008000;\">1 Pax</span></strong></td>\n</tr>\n<tr style=\"text-align: center; background-color: #f9f9f9;\">\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd; font-weight: bold; background-color: #e9f5e9;\"><span style=\"color: #008000;\">Summer</span></td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\">June &#8211; Mid September</td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\">Daily</td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\"><strong><span style=\"color: #008000;\">USD 1000</span></strong></td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\"><strong><span style=\"color: #008000;\">1 Pax</span></strong></td>\n</tr>\n<tr style=\"text-align: center; background-color: #f9f9f9;\">\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd; font-weight: bold; background-color: #e9f5e9;\"><span style=\"color: #008000;\">Autumn</span></td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\">Mid September &#8211; November</td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\">Daily</td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\"><strong><span style=\"color: #008000;\">USD 1000</span></strong></td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\"><strong><span style=\"color: #008000;\">1 Pax</span></strong></td>\n</tr>\n</tbody>\n</table>",
     "highlights": [
       "Full guided excursion for Khorkundus Valley Tour",
@@ -16501,50 +17850,48 @@ if (window.TOUR_DATA) {
     ],
     "itinerary": [
       {
-        "day": "Morning",
-        "title": "Departure & Pickup",
-        "desc": "Pickup from hotel/residence in private vehicle. Highway drive with refreshment stop."
+        "day": "Day 1",
+        "title": "Islamabad to Skardu",
+        "desc": "Exploring Ghanche district, natural thermal hot springs & mountain wilderness."
       },
       {
-        "day": "Afternoon",
-        "title": "Guided Exploration & Activity",
-        "desc": "Arrive at destination. Guided tour of key monuments, photography stops, and water activities."
+        "day": "Day 2",
+        "title": "Khorkundus Stage 1",
+        "desc": "Exploring Ghanche district, natural thermal hot springs & mountain wilderness."
       },
       {
-        "day": "Evening",
-        "title": "Local Food Tasting & Return",
-        "desc": "Enjoy famous regional food & tea. Return drive with drop-off at your hotel by 07:00 PM."
+        "day": "Day 3",
+        "title": "Khorkundus Stage 2",
+        "desc": "Exploring Ghanche district, natural thermal hot springs & mountain wilderness."
+      },
+      {
+        "day": "Day 4",
+        "title": "Khorkundus Stage 3",
+        "desc": "Exploring Ghanche district, natural thermal hot springs & mountain wilderness."
+      },
+      {
+        "day": "Day 5",
+        "title": "Khorkundus Stage 4",
+        "desc": "Exploring Ghanche district, natural thermal hot springs & mountain wilderness."
+      },
+      {
+        "day": "Day 6",
+        "title": "Khorkundus Stage 5",
+        "desc": "Exploring Ghanche district, natural thermal hot springs & mountain wilderness."
+      },
+      {
+        "day": "Day 7",
+        "title": "Return to Islamabad",
+        "desc": "Exploring Ghanche district, natural thermal hot springs & mountain wilderness."
       }
     ],
     "packages": [
       {
         "name": "Standard Package",
-        "price": "Inquire for Pricing",
+        "price": "$1,000",
         "status": "available",
         "features": [
-          "AC Coaster / Sedan Transport",
-          "Standard Hotel / Day Trip",
-          "Driver & Fuel Included"
-        ]
-      },
-      {
-        "name": "Deluxe Package",
-        "price": "Contact for Quote",
-        "status": "available",
-        "features": [
-          "AC Grand Cabin / Prado",
-          "Deluxe Hotel / Private Guide",
-          "Full Inclusions"
-        ]
-      },
-      {
-        "name": "Executive Package",
-        "price": "Contact for Quote",
-        "status": "available",
-        "features": [
-          "Luxury 4x4 Prado / SUV",
-          "Luxury 4-Star / 5-Star Hotel",
-          "VIP Concierge & Protocol"
+          "Transport, jeeps, hotels & meals"
         ]
       }
     ],
@@ -16571,10 +17918,10 @@ if (window.TOUR_DATA) {
     "maxGroup": "1 - 20 Persons",
     "difficulty": "Easy / Cultural",
     "image": "images/foreign/card_34.webp",
-    "price": "Inquire for Pricing",
-    "originalPrice": "Contact for Quote",
+    "price": "$950",
+    "originalPrice": "$1,150",
     "departureDay": "Daily Departures & Fixed Schedules",
-    "about": "Overview 10 Days Cycling Event on KARAKURAM HIGHWAY Safar Silsila presents Special Cycling events for thier beloved clients. Book your Pakistan Tour Packages with Safar Silsila to have an amazing Experience. We are offering Cycling Event for our clients. Explore the beauty of mighty Karakuram Highway on cycles. SERVICES WE OFFER: Return Air Tickets to Gilgit from Islamabad Bicycles for whole Team Extra Vehicle for Rescue Spare Riders Hotel Accomodations Food (Breakfasts/Dinners) English Speaking Guide Cycle Machanic Photography ITNERARY: Day 01: Arrival in Islamabad Pickup members from Airport City Tour of Islamabad Dinner at islamabad Hotel Check Inn overnight at Islmabad Day 02: Breakfast call Early Morning Pickup members &amp; Drop to Airport Take a flight to Gilgit Start cycling from Gilgit towards Hunza Enjoy the Beautiful Views on the ways Lunch at NAGAR VALLEY Arrival to Hunza Valley Overnight at HUNZA VALLEYDr Day 03: Breakfast call Early Morning Explore the Beauty of Hunza Visit Attabad Tunnels Visit Attabad lake Visit Gulmit Valley Visit Hussani Bridge Visit Passu cones Overnight at Passu Village Day 04: Breakfast call Early Morning Start cycling from Gulmit to Sost Visit Khyber Village Arrival to SOST Dry Port Lunch at SOST Free time for shopping at SOST Overnight at SOST Day 05: Breakfast call Early Morning Departure for Passu Short stays on the ways arrival to Passu Overnight at Passu Day 06: Breakfast call Early Morning explore the beauty of Passu valley Rest Day Evevning Hi-tea at Passu Overnight at Passu Day 07: Breakfast call Early Morning Departure Back to Karimabad Short stays on the ways Visit Borith Lake Lunch at Borith Lake Back to Karimabad Free time for Shopping Overnight at Hunza Day 08: Breakfast call Early Morning Departure for Gilgit Short stay at nagar Valley Explore the beauty of Nomal arrival to Gilgit Explore the beauty of Gilgit Overnight at Gilgit Day 09: Breakfast call Early Morning Drop members to Gilgit Tour Take a flight to Islamabad Arrival to Islamabad Overnight at Islamabad Day 10: Breakfast call Early Morning City Tour to Islamabad Drop to Airport FOR BOOKING AND PRICES: This is a Standard Plan for Cycling Trip. We can make customizations according to clients requirements. EMAIL: info@safarsilsila.com WHATSAPP: +923447079307 Follow us on Instagram: Safar Silsila Also Recommended: Bike Tour to Hunza: Nagar, Naltar and Gilgit – 09 Days",
+    "about": "Overview 10 Days Cycling Event on KARAKURAM HIGHWAY Safar Silsila presents Special Cycling events for thier beloved clients. Book your Pakistan Tour Packages with Safar Silsila to have an amazing Experience. We are offering Cycling Event for our clients. Explore the beauty of mighty Karakuram Highway on cycles. SERVICES WE OFFER: Return Air Tickets to Gilgit from Islamabad Bicycles for whole Team Extra Vehicle for Rescue Spare Riders Hotel Accomodations Food (Breakfasts/Dinners) English Speaking Guide Cycle Machanic Photography ITNERARY: Day 01: Arrival in Islamabad Pickup members from Airport City Tour of Islamabad Dinner at islamabad Hotel Check Inn overnight at Islmabad Day 02: Breakfast call Early Morning Pickup members & Drop to Airport Take a flight to Gilgit Start cycling from Gilgit towards Hunza Enjoy the Beautiful Views on the ways Lunch at NAGAR VALLEY Arrival to Hunza Valley Overnight at HUNZA VALLEYDr Day 03: Breakfast call Early Morning Explore the Beauty of Hunza Visit Attabad Tunnels Visit Attabad lake Visit Gulmit Valley Visit Hussani Bridge Visit Passu cones Overnight at Passu Village Day 04: Breakfast call Early Morning Start cycling from Gulmit to Sost Visit Khyber Village Arrival to SOST Dry Port Lunch at SOST Free time for shopping at SOST Overnight at SOST Day 05: Breakfast call Early Morning Departure for Passu Short stays on the ways arrival to Passu Overnight at Passu Day 06: Breakfast call Early Morning explore the beauty of Passu valley Rest Day Evevning Hi-tea at Passu Overnight at Passu Day 07: Breakfast call Early Morning Departure Back to Karimabad Short stays on the ways Visit Borith Lake Lunch at Borith Lake Back to Karimabad Free time for Shopping Overnight at Hunza Day 08: Breakfast call Early Morning Departure for Gilgit Short stay at nagar Valley Explore the beauty of Nomal arrival to Gilgit Explore the beauty of Gilgit Overnight at Gilgit Day 09: Breakfast call Early Morning Drop members to Gilgit Tour Take a flight to Islamabad Arrival to Islamabad Overnight at Islamabad Day 10: Breakfast call Early Morning City Tour to Islamabad Drop to Airport FOR BOOKING AND PRICES: This is a Standard Plan for Cycling Trip. We can make customizations according to clients requirements. EMAIL: info@safarsilsila.com WHATSAPP: +923447079307 Follow us on Instagram: Safar Silsila Also Recommended: Bike Tour to Hunza: Nagar, Naltar and Gilgit – 09 Days",
     "tableHtml": "",
     "highlights": [
       "Full guided excursion for 10 Days Cycling Event on KARAKURAM HIGHWAY",
@@ -16597,50 +17944,64 @@ if (window.TOUR_DATA) {
     ],
     "itinerary": [
       {
-        "day": "Morning",
-        "title": "Departure & Pickup",
-        "desc": "Pickup from hotel/residence in private vehicle. Highway drive with refreshment stop."
+        "day": "Day 1",
+        "title": "Assembly in Islamabad",
+        "desc": "Cycling along Karakoram Highway past Raikot, Rakaposhi, Passu Cones up to Khunjerab Pass (4,693m)."
       },
       {
-        "day": "Afternoon",
-        "title": "Guided Exploration & Activity",
-        "desc": "Arrive at destination. Guided tour of key monuments, photography stops, and water activities."
+        "day": "Day 2",
+        "title": "Karakoram Highway Cycle Stage 1",
+        "desc": "Cycling along Karakoram Highway past Raikot, Rakaposhi, Passu Cones up to Khunjerab Pass (4,693m)."
       },
       {
-        "day": "Evening",
-        "title": "Local Food Tasting & Return",
-        "desc": "Enjoy famous regional food & tea. Return drive with drop-off at your hotel by 07:00 PM."
+        "day": "Day 3",
+        "title": "Karakoram Highway Cycle Stage 2",
+        "desc": "Cycling along Karakoram Highway past Raikot, Rakaposhi, Passu Cones up to Khunjerab Pass (4,693m)."
+      },
+      {
+        "day": "Day 4",
+        "title": "Karakoram Highway Cycle Stage 3",
+        "desc": "Cycling along Karakoram Highway past Raikot, Rakaposhi, Passu Cones up to Khunjerab Pass (4,693m)."
+      },
+      {
+        "day": "Day 5",
+        "title": "Karakoram Highway Cycle Stage 4",
+        "desc": "Cycling along Karakoram Highway past Raikot, Rakaposhi, Passu Cones up to Khunjerab Pass (4,693m)."
+      },
+      {
+        "day": "Day 6",
+        "title": "Karakoram Highway Cycle Stage 5",
+        "desc": "Cycling along Karakoram Highway past Raikot, Rakaposhi, Passu Cones up to Khunjerab Pass (4,693m)."
+      },
+      {
+        "day": "Day 7",
+        "title": "Karakoram Highway Cycle Stage 6",
+        "desc": "Cycling along Karakoram Highway past Raikot, Rakaposhi, Passu Cones up to Khunjerab Pass (4,693m)."
+      },
+      {
+        "day": "Day 8",
+        "title": "Karakoram Highway Cycle Stage 7",
+        "desc": "Cycling along Karakoram Highway past Raikot, Rakaposhi, Passu Cones up to Khunjerab Pass (4,693m)."
+      },
+      {
+        "day": "Day 9",
+        "title": "Karakoram Highway Cycle Stage 8",
+        "desc": "Cycling along Karakoram Highway past Raikot, Rakaposhi, Passu Cones up to Khunjerab Pass (4,693m)."
+      },
+      {
+        "day": "Day 10",
+        "title": "Return to Islamabad",
+        "desc": "Cycling along Karakoram Highway past Raikot, Rakaposhi, Passu Cones up to Khunjerab Pass (4,693m)."
       }
     ],
     "packages": [
       {
-        "name": "Standard Package",
-        "price": "Inquire for Pricing",
+        "name": "Cycling Tour Package",
+        "price": "$950",
         "status": "available",
         "features": [
-          "AC Coaster / Sedan Transport",
-          "Standard Hotel / Day Trip",
-          "Driver & Fuel Included"
-        ]
-      },
-      {
-        "name": "Deluxe Package",
-        "price": "Contact for Quote",
-        "status": "available",
-        "features": [
-          "AC Grand Cabin / Prado",
-          "Deluxe Hotel / Private Guide",
-          "Full Inclusions"
-        ]
-      },
-      {
-        "name": "Executive Package",
-        "price": "Contact for Quote",
-        "status": "available",
-        "features": [
-          "Luxury 4x4 Prado / SUV",
-          "Luxury 4-Star / 5-Star Hotel",
-          "VIP Concierge & Protocol"
+          "Support vehicle & mechanic crew",
+          "Hotels, meals & bike transport"
         ]
       }
     ],
@@ -16667,10 +18028,10 @@ if (window.TOUR_DATA) {
     "maxGroup": "1 - 20 Persons",
     "difficulty": "Easy / Cultural",
     "image": "images/foreign/card_35.webp",
-    "price": "Inquire for Pricing",
-    "originalPrice": "Contact for Quote",
+    "price": "$185",
+    "originalPrice": "$230",
     "departureDay": "Daily Departures & Fixed Schedules",
-    "about": "Overview Lahore City Tour – 02 Days Lahore City Tour is a must if you are visiting Punjab province of Pakistan. The history of Lahore dates back more than a thousand years, with the city having been ruled by various dynasties, including the Mughals, Sikhs, and British. The city’s history is reflected in its architecture, with beautiful monuments such as the Lahore Fort, Badshahi Mosque, and Shalimar Gardens showcasing the Mughal era. These historical sites are must-visit destinations for anyone interested in exploring Pakistan’s rich cultural heritage. Lahore city is a must-visit destination for anyone interested in exploring Pakistan’s rich cultural heritage, Lahore city tours are guided sightseeing tours offered by Safar Silsila Expeditions. Our fixed departures (group tours) &amp; private tours for Lahore city tour are given in the table below. DATE &amp; COST– Lahore City Tour All seasons are considered good for Lahore city trip. Considering the inflow of tourists all year around, our dates are open throughout the year and your bookings will be 100% guaranteed even if you are a single traveler. Our prices and dates for Lahore city trip (all season) are given below. &nbsp; Package Price: Season Month Tour Start Date Price Per Person USD Minimum Travelers Required Spring Mid November &#8211; February Daily USD 185 1 Pax Winter March &#8211; May Daily USD 185 1 Pax Summer June &#8211; Mid September Daily USD 225 1 Pax Autumn Mid September &#8211; November Daily USD 195 1 Pax FOR BOOKINGS &amp; INQURIES: EMAIL: info@safarsilsila.com WHATSAPP: +92 311 1145456 Follow us on Instagram: Safar Silsila Also Recommended: Gurdwara Panja Sahib Tour (Day Trip from Islamabad) – 01 Day",
+    "about": "Overview Lahore City Tour – 02 Days Lahore City Tour is a must if you are visiting Punjab province of Pakistan. The history of Lahore dates back more than a thousand years, with the city having been ruled by various dynasties, including the Mughals, Sikhs, and British. The city’s history is reflected in its architecture, with beautiful monuments such as the Lahore Fort, Badshahi Mosque, and Shalimar Gardens showcasing the Mughal era. These historical sites are must-visit destinations for anyone interested in exploring Pakistan’s rich cultural heritage. Lahore city is a must-visit destination for anyone interested in exploring Pakistan’s rich cultural heritage, Lahore city tours are guided sightseeing tours offered by Safar Silsila Expeditions. Our fixed departures (group tours) & private tours for Lahore city tour are given in the table below. DATE & COST– Lahore City Tour All seasons are considered good for Lahore city trip. Considering the inflow of tourists all year around, our dates are open throughout the year and your bookings will be 100% guaranteed even if you are a single traveler. Our prices and dates for Lahore city trip (all season) are given below.   Package Price: Season Month Tour Start Date Price Per Person USD Minimum Travelers Required Spring Mid November – February Daily USD 185 1 Pax Winter March – May Daily USD 185 1 Pax Summer June – Mid September Daily USD 225 1 Pax Autumn Mid September – November Daily USD 195 1 Pax",
     "tableHtml": "<table style=\"width: 759px; border-collapse: collapse; font-family: Arial, sans-serif; border: 1px solid #dddddd; height: 52px;\">\n<thead>\n<tr style=\"background-color: #339966; color: white; text-align: center;\">\n<th style=\"padding: 10px; border-bottom: 1px solid #ddd;\">Season</th>\n<th style=\"padding: 10px; border-bottom: 1px solid #ddd;\">Month</th>\n<th style=\"padding: 10px; border-bottom: 1px solid #ddd;\">Tour Start Date</th>\n<th style=\"padding: 10px; border-bottom: 1px solid #ddd;\">Price Per Person <strong>USD</strong></th>\n<th style=\"padding: 10px; border-bottom: 1px solid #ddd;\">Minimum Travelers Required</th>\n</tr>\n</thead>\n<tbody>\n<tr style=\"text-align: center;\">\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd; font-weight: bold; background-color: #e9f5e9;\"><span style=\"color: #008000;\">Spring</span></td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\">Mid November &#8211; February</td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\">Daily</td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\"><strong><span style=\"color: #008000;\">USD 185</span></strong></td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\"><strong><span style=\"color: #008000;\">1 Pax</span></strong></td>\n</tr>\n<tr style=\"text-align: center; background-color: #f9f9f9;\">\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd; font-weight: bold; background-color: #e9f5e9;\"><span style=\"color: #008000;\">Winter</span></td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\">March &#8211; May</td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\">Daily</td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\"><strong><span style=\"color: #008000;\">USD 185</span></strong></td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\"><strong><span style=\"color: #008000;\">1 Pax</span></strong></td>\n</tr>\n<tr style=\"text-align: center; background-color: #f9f9f9;\">\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd; font-weight: bold; background-color: #e9f5e9;\"><span style=\"color: #008000;\">Summer</span></td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\">June &#8211; Mid September</td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\">Daily</td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\"><strong><span style=\"color: #008000;\">USD 225</span></strong></td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\"><strong><span style=\"color: #008000;\">1 Pax</span></strong></td>\n</tr>\n<tr style=\"text-align: center; background-color: #f9f9f9;\">\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd; font-weight: bold; background-color: #e9f5e9;\"><span style=\"color: #008000;\">Autumn</span></td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\">Mid September &#8211; November</td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\">Daily</td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\"><strong><span style=\"color: #008000;\">USD 195</span></strong></td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\"><strong><span style=\"color: #008000;\">1 Pax</span></strong></td>\n</tr>\n</tbody>\n</table>",
     "highlights": [
       "Full guided excursion for Lahore City Tour – 02 Days",
@@ -16693,50 +18054,25 @@ if (window.TOUR_DATA) {
     ],
     "itinerary": [
       {
-        "day": "Morning",
-        "title": "Departure & Pickup",
-        "desc": "Pickup from hotel/residence in private vehicle. Highway drive with refreshment stop."
+        "day": "Day 1",
+        "title": "Grand Heritage & Wagah Border Ceremony",
+        "desc": "Morning pickup. Tour of Badshahi Mosque, UNESCO Lahore Fort (Sheesh Mahal), Wazir Khan Mosque walk, Wagah Border Flag Ceremony, and Haveli Restaurant dinner overlooking Badshahi Mosque."
       },
       {
-        "day": "Afternoon",
-        "title": "Guided Exploration & Activity",
-        "desc": "Arrive at destination. Guided tour of key monuments, photography stops, and water activities."
-      },
-      {
-        "day": "Evening",
-        "title": "Local Food Tasting & Return",
-        "desc": "Enjoy famous regional food & tea. Return drive with drop-off at your hotel by 07:00 PM."
+        "day": "Day 2",
+        "title": "Shalimar Gardens & Anarkali Market",
+        "desc": "Visit UNESCO Shalimar Gardens, Lahore Museum, Anarkali Bazaar souvenir shopping, and drop-off by evening."
       }
     ],
     "packages": [
       {
-        "name": "Standard Package",
-        "price": "Inquire for Pricing",
+        "name": "Standard 2-Day Tour",
+        "price": "$185",
         "status": "available",
         "features": [
-          "AC Coaster / Sedan Transport",
-          "Standard Hotel / Day Trip",
-          "Driver & Fuel Included"
-        ]
-      },
-      {
-        "name": "Deluxe Package",
-        "price": "Contact for Quote",
-        "status": "available",
-        "features": [
-          "AC Grand Cabin / Prado",
-          "Deluxe Hotel / Private Guide",
-          "Full Inclusions"
-        ]
-      },
-      {
-        "name": "Executive Package",
-        "price": "Contact for Quote",
-        "status": "available",
-        "features": [
-          "Luxury 4x4 Prado / SUV",
-          "Luxury 4-Star / 5-Star Hotel",
-          "VIP Concierge & Protocol"
+          "Private AC Car & Guide",
+          "3-Star / 4-Star hotel stay",
+          "All entry tickets & Haveli dinner"
         ]
       }
     ],
@@ -16763,10 +18099,10 @@ if (window.TOUR_DATA) {
     "maxGroup": "1 - 20 Persons",
     "difficulty": "Easy / Cultural",
     "image": "images/foreign/card_36.webp",
-    "price": "Inquire for Pricing",
-    "originalPrice": "Contact for Quote",
+    "price": "$347",
+    "originalPrice": "$420",
     "departureDay": "Daily Departures & Fixed Schedules",
-    "about": "Overview Tour of Karachi Tour of Karachi is a must if you are in town for for business or leisure. Karachi’s history reveals layers of development and progress as the gateway to Pakistan and a flourishing metropolitan centre. Karachi’s history illustrates the intricacies of its geographical position, from the period when it traded with the faraway countries of Mesopotamia to its function as an important port during British colonial control. Karachi’s history is more than simply a timeline; it’s a trip that reveals the city’s role in creating the nation’s fate, from its early settlements to its growth as a global metropolis. Karachi also features a variety of national landmarks and tourist sites, making it a viable tourism destination for travellers from throughout the world. Dates &amp; Cost – Tour of Karachi (03 Days) All seasons are considered good for tour of Karachi . Considering the inflow of tourists all year around, our dates are open throughout the year and your bookings will be 100% guaranteed even if you are a single traveler. Our prices and dates for tour of Karachi (all season) are given below. Package Price: Season Month Tour Start Date Price Per Person USD Minimum Travelers Required Spring Mid November &#8211; February Daily USD 347 1 Pax Winter March &#8211; May Daily USD 347 1 Pax Summer June &#8211; Mid September Daily USD 387 1 Pax Autumn Mid September &#8211; November Daily USD 357 1 Pax FOR BOOKINGS &amp; INQURIES: EMAIL: info@safarsilsila.com WHATSAPP: +92 311 1145456 Follow us on Instagram: Safar Silsila Also Recommended: Mangla Dam Tour",
+    "about": "Overview Tour of Karachi Tour of Karachi is a must if you are in town for for business or leisure. Karachi’s history reveals layers of development and progress as the gateway to Pakistan and a flourishing metropolitan centre. Karachi’s history illustrates the intricacies of its geographical position, from the period when it traded with the faraway countries of Mesopotamia to its function as an important port during British colonial control. Karachi’s history is more than simply a timeline; it’s a trip that reveals the city’s role in creating the nation’s fate, from its early settlements to its growth as a global metropolis. Karachi also features a variety of national landmarks and tourist sites, making it a viable tourism destination for travellers from throughout the world.",
     "tableHtml": "<table style=\"width: 717px; border-collapse: collapse; font-family: Arial, sans-serif; border: 1px solid #dddddd; height: 254px;\">\n<thead>\n<tr style=\"background-color: #339966; color: white; text-align: center;\">\n<th style=\"padding: 10px; border-bottom: 1px solid #ddd;\">Season</th>\n<th style=\"padding: 10px; border-bottom: 1px solid #ddd;\">Month</th>\n<th style=\"padding: 10px; border-bottom: 1px solid #ddd;\">Tour Start Date</th>\n<th style=\"padding: 10px; border-bottom: 1px solid #ddd;\">Price Per Person <strong>USD</strong></th>\n<th style=\"padding: 10px; border-bottom: 1px solid #ddd;\">Minimum Travelers Required</th>\n</tr>\n</thead>\n<tbody>\n<tr style=\"text-align: center;\">\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd; font-weight: bold; background-color: #e9f5e9;\"><span style=\"color: #008000;\">Spring</span></td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\">Mid November &#8211; February</td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\">Daily</td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\"><strong><span style=\"color: #008000;\">USD 347</span></strong></td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\"><strong><span style=\"color: #008000;\">1 Pax</span></strong></td>\n</tr>\n<tr style=\"text-align: center; background-color: #f9f9f9;\">\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd; font-weight: bold; background-color: #e9f5e9;\"><span style=\"color: #008000;\">Winter</span></td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\">March &#8211; May</td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\">Daily</td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\"><strong><span style=\"color: #008000;\">USD 347</span></strong></td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\"><strong><span style=\"color: #008000;\">1 Pax</span></strong></td>\n</tr>\n<tr style=\"text-align: center; background-color: #f9f9f9;\">\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd; font-weight: bold; background-color: #e9f5e9;\"><span style=\"color: #008000;\">Summer</span></td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\">June &#8211; Mid September</td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\">Daily</td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\"><strong><span style=\"color: #008000;\">USD 387</span></strong></td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\"><strong><span style=\"color: #008000;\">1 Pax</span></strong></td>\n</tr>\n<tr style=\"text-align: center; background-color: #f9f9f9;\">\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd; font-weight: bold; background-color: #e9f5e9;\"><span style=\"color: #008000;\">Autumn</span></td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\">Mid September &#8211; November</td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\">Daily</td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\"><strong><span style=\"color: #008000;\">USD 357</span></strong></td>\n<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\"><strong><span style=\"color: #008000;\">1 Pax</span></strong></td>\n</tr>\n</tbody>\n</table>",
     "highlights": [
       "Full guided excursion for Tour of Karachi – 03 Days",
@@ -16789,50 +18125,30 @@ if (window.TOUR_DATA) {
     ],
     "itinerary": [
       {
-        "day": "Morning",
-        "title": "Departure & Pickup",
-        "desc": "Pickup from hotel/residence in private vehicle. Highway drive with refreshment stop."
+        "day": "Day 1",
+        "title": "Arrival in Karachi & Seaside Exploration",
+        "desc": "Airport transfer to 4-Star hotel. Visit Mazar-e-Quaid, Mohatta Palace, sunset at Clifton Beach & Do Darya dinner."
       },
       {
-        "day": "Afternoon",
-        "title": "Guided Exploration & Activity",
-        "desc": "Arrive at destination. Guided tour of key monuments, photography stops, and water activities."
+        "day": "Day 2",
+        "title": "Manora Island, Chaukhandi & Burns Road",
+        "desc": "Boat trip to Manora Island, heritage tour of 15th-century Chaukhandi Tombs, and evening Burns Road street food trail."
       },
       {
-        "day": "Evening",
-        "title": "Local Food Tasting & Return",
-        "desc": "Enjoy famous regional food & tea. Return drive with drop-off at your hotel by 07:00 PM."
+        "day": "Day 3",
+        "title": "Maritime Museum & Port Grand",
+        "desc": "Visit Pakistan Maritime Museum, Port Grand waterfront dining, and airport transfer."
       }
     ],
     "packages": [
       {
-        "name": "Standard Package",
-        "price": "Inquire for Pricing",
+        "name": "Standard 3-Day Package",
+        "price": "$347",
         "status": "available",
         "features": [
-          "AC Coaster / Sedan Transport",
-          "Standard Hotel / Day Trip",
-          "Driver & Fuel Included"
-        ]
-      },
-      {
-        "name": "Deluxe Package",
-        "price": "Contact for Quote",
-        "status": "available",
-        "features": [
-          "AC Grand Cabin / Prado",
-          "Deluxe Hotel / Private Guide",
-          "Full Inclusions"
-        ]
-      },
-      {
-        "name": "Executive Package",
-        "price": "Contact for Quote",
-        "status": "available",
-        "features": [
-          "Luxury 4x4 Prado / SUV",
-          "Luxury 4-Star / 5-Star Hotel",
-          "VIP Concierge & Protocol"
+          "4-Star hotel stay & meals",
+          "Private AC transport & boat trip",
+          "Guide & airport transfers"
         ]
       }
     ],
@@ -16851,5 +18167,4 @@ if (window.TOUR_DATA) {
       }
     ]
   }
-});
-}
+};

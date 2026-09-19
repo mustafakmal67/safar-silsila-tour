@@ -1152,16 +1152,22 @@
           { name: "Standard Package", price: tour.price || "35,000", features: ["Standard Hotel Accommodation", "Transport Included"] }
         ];
         const availablePkgs = rawPkgs.filter(p => p.status !== 'unavailable' && p.price !== 'N/A');
-        packageContainer.innerHTML = availablePkgs.map((pkg, idx) => `
-          <label class="option-pill-card">
-            <input type="radio" name="booking-package" value="${pkg.name}" data-price="${pkg.price}" ${idx === 0 ? 'checked' : ''} onchange="calculateTotal()">
-            <div class="option-pill-content">
-              <div class="option-pill-title">${pkg.name}</div>
-              <div class="option-pill-desc">${(pkg.features && pkg.features[0]) || 'Standard Plan'}</div>
-              <div class="option-pill-price">Rs ${pkg.price}</div>
-            </div>
-          </label>
-        `).join('');
+        const selectedTourId = tourSelect ? tourSelect.value : '';
+        const isForeignTour = selectedTourId && selectedTourId.startsWith('foreign-');
+        packageContainer.innerHTML = availablePkgs.map((pkg, idx) => {
+          const isUsd = isForeignTour || (pkg.price || '').toString().includes('$');
+          const displayPrice = isUsd ? (pkg.price.toString().startsWith('$') ? pkg.price : '$' + pkg.price) : 'Rs ' + pkg.price;
+          return `
+            <label class="option-pill-card">
+              <input type="radio" name="booking-package" value="${pkg.name}" data-price="${pkg.price}" ${idx === 0 ? 'checked' : ''} onchange="calculateTotal()">
+              <div class="option-pill-content">
+                <div class="option-pill-title">${pkg.name}</div>
+                <div class="option-pill-desc">${(pkg.features && pkg.features[0]) || 'Standard Plan'}</div>
+                <div class="option-pill-price">${displayPrice}</div>
+              </div>
+            </label>
+          `;
+        }).join('');
       } else {
         // Custom Itinerary defaults
         tourHeroImg.src = 'bg_image.webp';

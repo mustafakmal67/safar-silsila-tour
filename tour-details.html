@@ -1804,11 +1804,13 @@
                           </div>
                         `;
                       }
+                      const isUsd = (pkg.price || '').toString().includes('$') || (pkg.price || '').toString().includes('USD') || (tour.id || '').startsWith('foreign-');
+                      const displayPrice = isUsd ? ((pkg.price || '').toString().startsWith('$') ? pkg.price : '$' + pkg.price) : 'Rs ' + pkg.price;
                       return `
                         <div class="package-option-card">
                           ${pkg.originalIndex === 0 ? '<span class="package-badge-popular">Best Value</span>' : ''}
                           <div class="package-name">${pkg.name}</div>
-                          <div class="package-price-tag">Rs ${pkg.price} <small>/ head</small></div>
+                          <div class="package-price-tag">${displayPrice} <small>/ head</small></div>
                           <ul class="package-features">
                             ${(Array.isArray(pkg.features) && pkg.features.length > 0 ? pkg.features : ["Hotel Accommodation", "Breakfast Included", "Dedicated Transport", "Guide Services"]).map(f => `<li><i class="ph ph-check-bold"></i> ${f}</li>`).join('')}
                           </ul>
@@ -1871,15 +1873,21 @@
 
         // Sidebar Setup
         const sidebarPrice = document.getElementById('sidebar-price');
-        if (sidebarPrice) sidebarPrice.innerText = tour.price || '33,500';
+        if (sidebarPrice) {
+          const isUsdTour = (tour.price || '').toString().includes('$') || (tour.price || '').toString().includes('USD') || (tour.id || '').startsWith('foreign-');
+          const priceText = tour.price || '33,500';
+          sidebarPrice.innerText = isUsdTour ? (priceText.startsWith('$') ? priceText : '$' + priceText) : priceText;
+        }
         
         const packageDropdown = document.getElementById('booking-package');
         if (packageDropdown) {
           const availablePackages = safePackages.filter(pkg => pkg.status !== "unavailable" && pkg.price !== "N/A");
           if (availablePackages.length > 0) {
-            packageDropdown.innerHTML = availablePackages.map(pkg => `
-              <option value="${pkg.name}" data-price="${pkg.price}">${pkg.name} (Rs ${pkg.price})</option>
-            `).join('');
+            packageDropdown.innerHTML = availablePackages.map(pkg => {
+              const isUsd = (pkg.price || '').toString().includes('$') || (pkg.price || '').toString().includes('USD') || (tour.id || '').startsWith('foreign-');
+              const displayPrice = isUsd ? ((pkg.price || '').toString().startsWith('$') ? pkg.price : '$' + pkg.price) : 'Rs ' + pkg.price;
+              return `<option value="${pkg.name}" data-price="${pkg.price}">${pkg.name} (${displayPrice})</option>`;
+            }).join('');
           }
         }
 
