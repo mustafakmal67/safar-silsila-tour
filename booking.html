@@ -1324,8 +1324,13 @@
       const selectedPkgRadio = document.querySelector('input[name="booking-package"]:checked');
       if (!selectedPkgRadio) return;
 
-      const basePrice = parseFloat(selectedPkgRadio.dataset.price.replace(/,/g, ''));
-      invoicePackagePrice.innerText = `Rs ${basePrice.toLocaleString()}`;
+      const rawPkgPrice = selectedPkgRadio.dataset.price || '0';
+      const basePrice = parseFloat(rawPkgPrice.replace(/,/g, '').replace(/[^0-9.]/g, '')) || 0;
+
+      const isUsd = (currentTourObj?.price || '').toString().includes('$') || (currentTourObj?.id || '').startsWith('foreign-') || (currentTourObj?.id || '').startsWith('north-') || (currentTourObj?.id || '').startsWith('city-') || (currentTourObj?.id || '').startsWith('festivals-') || rawPkgPrice.includes('$');
+      const cur = isUsd ? '$' : 'Rs ';
+
+      invoicePackagePrice.innerText = `${cur}${basePrice.toLocaleString()}`;
 
       // Total Adults
       const adultsCount = maleCount + femaleCount;
@@ -1335,7 +1340,7 @@
 
       // 2. Adults cost
       const adultsCost = basePrice * adultsCount;
-      invoiceAdultsPrice.innerText = `Rs ${adultsCost.toLocaleString()}`;
+      invoiceAdultsPrice.innerText = `${cur}${adultsCost.toLocaleString()}`;
 
       // 3. Children cost (50% Off)
       let childrenCost = 0;
@@ -1345,7 +1350,7 @@
           invoiceChildrenLabel.innerText = `Children (${childrenCount} x 50% Off):`;
         }
         childrenCost = (basePrice * 0.5) * childrenCount;
-        invoiceChildrenPrice.innerText = `Rs ${childrenCost.toLocaleString()}`;
+        invoiceChildrenPrice.innerText = `${cur}${childrenCost.toLocaleString()}`;
       } else {
         invoiceChildrenRow.style.display = 'none';
       }
@@ -1362,7 +1367,7 @@
           invoiceJeepPrice.style.color = '#10b981';
         } else if (currentTourJeepRate > 0) {
           jeepCost = currentTourJeepRate * totalPersons;
-          invoiceJeepPrice.innerText = `+Rs ${jeepCost.toLocaleString()} (${totalPersons} x ${currentTourJeepRate.toLocaleString()})`;
+          invoiceJeepPrice.innerText = `+${cur}${jeepCost.toLocaleString()} (${totalPersons} x ${currentTourJeepRate.toLocaleString()})`;
           invoiceJeepPrice.style.color = 'var(--sunset-accent)';
         } else {
           invoiceJeepPrice.innerText = 'Yes (Included / Quoted)';
@@ -1381,7 +1386,7 @@
         selectedAddons.forEach(addon => {
           addonsCost += parseFloat(addon.dataset.price);
         });
-        invoiceAddonsPrice.innerText = `Rs ${addonsCost.toLocaleString()}`;
+        invoiceAddonsPrice.innerText = `${cur}${addonsCost.toLocaleString()}`;
       } else {
         invoiceAddonsRow.style.display = 'none';
       }
@@ -1394,12 +1399,12 @@
       if (appliedPromo === 'SAFARSILSILA') {
         discountVal = Math.round(subtotal * 0.05); // 5% Off
       } else if (appliedPromo === 'MOUNTAINWELCOME') {
-        discountVal = 2000; // Flat PKR 2,000 Off
+        discountVal = isUsd ? 20 : 2000; // Flat discount
       }
 
       if (discountVal > 0) {
         invoicePromoRow.style.display = 'flex';
-        invoicePromoVal.innerText = `-Rs ${discountVal.toLocaleString()}`;
+        invoicePromoVal.innerText = `-${cur}${discountVal.toLocaleString()}`;
       } else {
         invoicePromoRow.style.display = 'none';
       }
@@ -1408,7 +1413,7 @@
       const grandTotal = Math.max(0, subtotal - discountVal);
       
       const totalValueEl = document.getElementById('invoice-total-value');
-      if (totalValueEl) totalValueEl.innerText = `Rs ${grandTotal.toLocaleString()}`;
+      if (totalValueEl) totalValueEl.innerText = `${cur}${grandTotal.toLocaleString()}`;
 
       // 9. Deposit Structure (50% advance vs 100% full)
       const depositType = document.querySelector('input[name="booking-deposit-type"]:checked')?.value || 'advance_50';
@@ -1417,8 +1422,8 @@
 
       const dep50ValEl = document.getElementById('deposit-50-val');
       const dep100ValEl = document.getElementById('deposit-100-val');
-      if (dep50ValEl) dep50ValEl.innerText = `Rs ${deposit50Amount.toLocaleString()}`;
-      if (dep100ValEl) dep100ValEl.innerText = `Rs ${grandTotal.toLocaleString()}`;
+      if (dep50ValEl) dep50ValEl.innerText = `${cur}${deposit50Amount.toLocaleString()}`;
+      if (dep100ValEl) dep100ValEl.innerText = `${cur}${grandTotal.toLocaleString()}`;
 
       const depositPriceEl = document.getElementById('invoice-deposit-price');
       const depositLabelEl = document.getElementById('invoice-deposit-label');
@@ -1431,20 +1436,20 @@
       if (depositType === 'advance_50') {
         payableNow = deposit50Amount;
         if (depositLabelEl) depositLabelEl.innerText = '50% Advance Deposit:';
-        if (depositPriceEl) depositPriceEl.innerText = `Rs ${deposit50Amount.toLocaleString()}`;
-        if (balancePriceEl) balancePriceEl.innerText = `Rs ${balanceAmount.toLocaleString()}`;
+        if (depositPriceEl) depositPriceEl.innerText = `${cur}${deposit50Amount.toLocaleString()}`;
+        if (balancePriceEl) balancePriceEl.innerText = `${cur}${balanceAmount.toLocaleString()}`;
         if (finalLabelEl) finalLabelEl.innerText = 'Payable Now (50%):';
-        if (finalHintEl) finalHintEl.innerText = `Balance Rs ${balanceAmount.toLocaleString()} payable on departure`;
+        if (finalHintEl) finalHintEl.innerText = `Balance ${cur}${balanceAmount.toLocaleString()} payable on departure`;
       } else {
         payableNow = grandTotal;
         if (depositLabelEl) depositLabelEl.innerText = '100% Full Payment:';
-        if (depositPriceEl) depositPriceEl.innerText = `Rs ${grandTotal.toLocaleString()}`;
-        if (balancePriceEl) balancePriceEl.innerText = 'Rs 0 (Fully Paid)';
+        if (depositPriceEl) depositPriceEl.innerText = `${cur}${grandTotal.toLocaleString()}`;
+        if (balancePriceEl) balancePriceEl.innerText = `${cur}0 (Fully Paid)`;
         if (finalLabelEl) finalLabelEl.innerText = 'Total Payable (100%):';
         if (finalHintEl) finalHintEl.innerText = 'Full payment upfront confirmed';
       }
 
-      invoiceGrandTotal.innerText = `Rs ${payableNow.toLocaleString()}`;
+      invoiceGrandTotal.innerText = `${cur}${payableNow.toLocaleString()}`;
 
       // Update pickup & payment summary rows
       const pickupStr = getSelectedPickupLocation();

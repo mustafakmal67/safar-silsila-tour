@@ -852,7 +852,7 @@
       <aside class="details-sidebar">
         <div class="booking-sidebar-card">
           <p class="sidebar-price-label">Package Starting From</p>
-          <div class="sidebar-price-value">Rs <span id="sidebar-price">33,500</span> <small>/ person</small></div>
+          <div class="sidebar-price-value"><span id="sidebar-price-symbol">Rs </span><span id="sidebar-price">33,500</span> <small>/ person</small></div>
           
           <h3 class="sidebar-form-title"><i class="ph ph-receipt"></i> Book / Reserve This Tour</h3>
           
@@ -1207,13 +1207,20 @@
       return select.value;
     }
 
+    function checkIsUsdTour(t, priceStr) {
+      if (!t) return false;
+      const tid = (t.id || '').toLowerCase();
+      const pStr = (priceStr || t.price || '').toString();
+      return pStr.includes('$') || pStr.includes('USD') || tid.startsWith('foreign-') || tid.startsWith('north-') || tid.startsWith('city-') || tid.startsWith('festivals-');
+    }
+
     function calculateSidebarTotal() {
       const packageDropdown = document.getElementById('booking-package');
       if (!packageDropdown || !packageDropdown.options[packageDropdown.selectedIndex]) return 0;
       
       const selectedOption = packageDropdown.options[packageDropdown.selectedIndex];
       const rawPrice = selectedOption.dataset.price || '0';
-      const basePrice = parseFloat(rawPrice.replace(/,/g, '')) || 0;
+      const basePrice = parseFloat(rawPrice.replace(/,/g, '').replace(/[^0-9.]/g, '')) || 0;
 
       const maleCount = parseInt(document.getElementById('sidebar-male')?.value) || 0;
       const femaleCount = parseInt(document.getElementById('sidebar-female')?.value) || 0;
@@ -1229,12 +1236,14 @@
 
       const breakdownEl = document.getElementById('sidebar-calc-breakdown');
       const totalEl = document.getElementById('sidebar-calc-total');
+      const isUsd = checkIsUsdTour(window.currentLoadedTour, rawPrice);
+      const currencyPrefix = isUsd ? '$' : 'Rs ';
 
       if (breakdownEl) {
         breakdownEl.innerText = `${totalPersons} Person${totalPersons > 1 ? 's' : ''}${isJeepYes && jeepAddition > 0 ? ' (Jeep Incl.)' : ''}`;
       }
       if (totalEl) {
-        totalEl.innerText = `Rs ${total.toLocaleString()}`;
+        totalEl.innerText = `${currencyPrefix}${total.toLocaleString()}`;
       }
 
       return total;
@@ -1286,6 +1295,10 @@
       
       const packageDropdown = document.getElementById('booking-package');
       const pkgName = packageDropdown ? packageDropdown.value : 'Standard Package';
+      const selectedOption = packageDropdown ? packageDropdown.options[packageDropdown.selectedIndex] : null;
+      const rawPrice = selectedOption ? selectedOption.dataset.price : '0';
+      const isUsd = checkIsUsdTour(tour, rawPrice);
+      const currencyPrefix = isUsd ? '$' : 'Rs ';
       const date = document.getElementById('booking-date')?.value || '';
 
       const male = parseInt(document.getElementById('sidebar-male')?.value) || 0;
@@ -1310,7 +1323,7 @@
         `Persons: ${personsStr}\n\n` +
         `Jeep: ${jeepStr}\n\n` +
         `Pick-up: ${pickupLocation}\n\n` +
-        `Total Estimated Cost: Rs ${total.toLocaleString()}` +
+        `Total Estimated Cost: ${currencyPrefix}${total.toLocaleString()}` +
         (email !== 'Not Provided' ? `\n\nEmail: ${email}` : '');
 
       const waUrl = `https://wa.me/923111145456?text=${encodeURIComponent(waMessage)}`;
@@ -1804,7 +1817,7 @@
                           </div>
                         `;
                       }
-                      const isUsd = (pkg.price || '').toString().includes('$') || (pkg.price || '').toString().includes('USD') || (tour.id || '').startsWith('foreign-');
+                      const isUsd = checkIsUsdTour(tour, pkg.price);
                       const displayPrice = isUsd ? ((pkg.price || '').toString().startsWith('$') ? pkg.price : '$' + pkg.price) : 'Rs ' + pkg.price;
                       return `
                         <div class="package-option-card">
@@ -1872,11 +1885,17 @@
         }
 
         // Sidebar Setup
+        const isUsdTour = checkIsUsdTour(tour);
+        const sidebarSymbol = document.getElementById('sidebar-price-symbol');
+        if (sidebarSymbol) {
+          sidebarSymbol.innerText = isUsdTour ? '$' : 'Rs ';
+        }
+
         const sidebarPrice = document.getElementById('sidebar-price');
         if (sidebarPrice) {
-          const isUsdTour = (tour.price || '').toString().includes('$') || (tour.price || '').toString().includes('USD') || (tour.id || '').startsWith('foreign-');
-          const priceText = tour.price || '33,500';
-          sidebarPrice.innerText = isUsdTour ? (priceText.startsWith('$') ? priceText : '$' + priceText) : priceText;
+          let priceText = (tour.price || '33,500').toString();
+          if (priceText.startsWith('$')) priceText = priceText.substring(1);
+          sidebarPrice.innerText = priceText;
         }
         
         const packageDropdown = document.getElementById('booking-package');
@@ -1884,7 +1903,7 @@
           const availablePackages = safePackages.filter(pkg => pkg.status !== "unavailable" && pkg.price !== "N/A");
           if (availablePackages.length > 0) {
             packageDropdown.innerHTML = availablePackages.map(pkg => {
-              const isUsd = (pkg.price || '').toString().includes('$') || (pkg.price || '').toString().includes('USD') || (tour.id || '').startsWith('foreign-');
+              const isUsd = checkIsUsdTour(tour, pkg.price);
               const displayPrice = isUsd ? ((pkg.price || '').toString().startsWith('$') ? pkg.price : '$' + pkg.price) : 'Rs ' + pkg.price;
               return `<option value="${pkg.name}" data-price="${pkg.price}">${pkg.name} (${displayPrice})</option>`;
             }).join('');
