@@ -2212,19 +2212,24 @@ window.TOUR_DATA = {
     ],
     "itinerary": [
       {
-        "day": "Morning",
-        "title": "Departure & Pickup",
-        "desc": "Pickup from hotel/residence in private vehicle. Highway drive with refreshment stop."
+        "day": "Day 1",
+        "title": "Departure from Islamabad/Lahore & Journey Towards Kumrat Valley & Jahaz Banda",
+        "desc": "Pick-up of participants from Lahore / Islamabad. Morning drive along Hazara Motorway / scenic highway. Travel through scenic mountain passes with refreshment stops at riverside points. Hotel check-in and evening welcome briefing."
       },
       {
-        "day": "Afternoon",
-        "title": "Guided Exploration & Activity",
-        "desc": "Arrive at destination. Guided tour of key monuments, photography stops, and water activities."
+        "day": "Day 2",
+        "title": "Scenic Drive to Kumrat Valley & Jahaz Banda & Core Attractions",
+        "desc": "Breakfast at hotel. Proceed towards Kumrat Valley & Jahaz Banda. Experience spectacular views of snow-clad peaks and alpine rivers. Visit major landmarks, check into main valley hotel/campsite, followed by an evening bonfire and local dinner."
       },
       {
-        "day": "Evening",
-        "title": "Local Food Tasting & Return",
-        "desc": "Enjoy famous regional food & tea. Return drive with drop-off at your hotel by 07:00 PM."
+        "day": "Day 3",
+        "title": "Excursion to Full guided excursion for Islamabad Tour – 04 Days",
+        "desc": "Full day adventure exploring pristine alpine points. Full guided excursion for Islamabad Tour – 04 Days. Private AC transport with driver, fuel, tolls & parking. Enjoy evening cultural music and bonfire at hotel."
+      },
+      {
+        "day": "Day 4",
+        "title": "Return Journey to Islamabad & Lahore",
+        "desc": "Breakfast call at hotel. Start return travel back through scenic valleys. Short stops for photography and souvenirs. Arrival in Islamabad by early evening and Lahore by late night."
       }
     ],
     "packages": [
@@ -2312,18 +2317,18 @@ window.TOUR_DATA = {
     "itinerary": [
       {
         "day": "Morning",
-        "title": "Departure & Pickup",
-        "desc": "Pickup from hotel/residence in private vehicle. Highway drive with refreshment stop."
+        "title": "Departure & Scenic Drive to Islamabad & Margalla Hills",
+        "desc": "Early morning pickup from designated location in Islamabad/Lahore. Travel via expressway/highway with brief breakfast and refreshment stops along the scenic route."
       },
       {
         "day": "Afternoon",
-        "title": "Guided Exploration & Activity",
-        "desc": "Arrive at destination. Guided tour of key monuments, photography stops, and water activities."
+        "title": "Guided Exploration & Sightseeing in Islamabad & Margalla Hills",
+        "desc": "Arrival at Islamabad & Margalla Hills. Enjoy a comprehensive guided tour covering key historical sites, viewpoints, river banks, photography spots, and local attractions."
       },
       {
         "day": "Evening",
-        "title": "Local Food Tasting & Return",
-        "desc": "Enjoy famous regional food & tea. Return drive with drop-off at your hotel by 07:00 PM."
+        "title": "Traditional Tea, Cultural Experience & Return",
+        "desc": "Relax with authentic regional tea and local street food sampling. Depart for return journey, arriving back at pickup hub by late evening."
       }
     ],
     "packages": [
@@ -2411,18 +2416,18 @@ window.TOUR_DATA = {
     "itinerary": [
       {
         "day": "Morning",
-        "title": "Departure & Pickup",
-        "desc": "Pickup from hotel/residence in private vehicle. Highway drive with refreshment stop."
+        "title": "Departure & Scenic Drive to Islamabad & Margalla Hills",
+        "desc": "Early morning pickup from designated location in Islamabad/Lahore. Travel via expressway/highway with brief breakfast and refreshment stops along the scenic route."
       },
       {
         "day": "Afternoon",
-        "title": "Guided Exploration & Activity",
-        "desc": "Arrive at destination. Guided tour of key monuments, photography stops, and water activities."
+        "title": "Guided Exploration & Sightseeing in Islamabad & Margalla Hills",
+        "desc": "Arrival at Islamabad & Margalla Hills. Enjoy a comprehensive guided tour covering key historical sites, viewpoints, river banks, photography spots, and local attractions."
       },
       {
         "day": "Evening",
-        "title": "Local Food Tasting & Return",
-        "desc": "Enjoy famous regional food & tea. Return drive with drop-off at your hotel by 07:00 PM."
+        "title": "Traditional Tea, Cultural Experience & Return",
+        "desc": "Relax with authentic regional tea and local street food sampling. Depart for return journey, arriving back at pickup hub by late evening."
       }
     ],
     "packages": [
@@ -2510,18 +2515,18 @@ window.TOUR_DATA = {
     "itinerary": [
       {
         "day": "Morning",
-        "title": "Departure & Pickup",
-        "desc": "Pickup from hotel/residence in private vehicle. Highway drive with refreshment stop."
+        "title": "Departure & Scenic Drive to Islamabad & Margalla Hills",
+        "desc": "Early morning pickup from designated location in Islamabad/Lahore. Travel via expressway/highway with brief breakfast and refreshment stops along the scenic route."
       },
       {
         "day": "Afternoon",
-        "title": "Guided Exploration & Activity",
-        "desc": "Arrive at destination. Guided tour of key monuments, photography stops, and water activities."
+        "title": "Guided Exploration & Sightseeing in Islamabad & Margalla Hills",
+        "desc": "Arrival at Islamabad & Margalla Hills. Enjoy a comprehensive guided tour covering key historical sites, viewpoints, river banks, photography spots, and local attractions."
       },
       {
         "day": "Evening",
-        "title": "Local Food Tasting & Return",
-        "desc": "Enjoy famous regional food & tea. Return drive with drop-off at your hotel by 07:00 PM."
+        "title": "Traditional Tea, Cultural Experience & Return",
+        "desc": "Relax with authentic regional tea and local street food sampling. Depart for return journey, arriving back at pickup hub by late evening."
       }
     ],
     "packages": [
@@ -2609,18 +2614,18 @@ window.TOUR_DATA = {
     "itinerary": [
       {
         "day": "Morning",
-        "title": "Departure & Pickup",
-        "desc": "Pickup from hotel/residence in private vehicle. Highway drive with refreshment stop."
+        "title": "Departure & Scenic Drive to Islamabad & Margalla Hills",
+        "desc": "Early morning pickup from designated location in Islamabad/Lahore. Travel via expressway/highway with brief breakfast and refreshment stops along the scenic route."
       },
       {
         "day": "Afternoon",
-        "title": "Guided Exploration & Activity",
-        "desc": "Arrive at destination. Guided tour of key monuments, photography stops, and water activities."
+        "title": "Guided Exploration & Sightseeing in Islamabad & Margalla Hills",
+        "desc": "Arrival at Islamabad & Margalla Hills. Enjoy a comprehensive guided tour covering key historical sites, viewpoints, river banks, photography spots, and local attractions."
       },
       {
         "day": "Evening",
-        "title": "Local Food Tasting & Return",
-        "desc": "Enjoy famous regional food & tea. Return drive with drop-off at your hotel by 07:00 PM."
+        "title": "Traditional Tea, Cultural Experience & Return",
+        "desc": "Relax with authentic regional tea and local street food sampling. Depart for return journey, arriving back at pickup hub by late evening."
       }
     ],
     "packages": [
@@ -2707,19 +2712,64 @@ window.TOUR_DATA = {
     ],
     "itinerary": [
       {
-        "day": "Morning",
-        "title": "Departure & Pickup",
-        "desc": "Pickup from hotel/residence in private vehicle. Highway drive with refreshment stop."
+        "day": "Day 1",
+        "title": "Departure from Islamabad/Lahore & Journey Towards Southern Pakistan: Journey Through The Indus Valley",
+        "desc": "Pick-up of participants from Lahore / Islamabad. Morning drive along Hazara Motorway / scenic highway. Travel through scenic mountain passes with refreshment stops at riverside points. Hotel check-in and evening welcome briefing."
       },
       {
-        "day": "Afternoon",
-        "title": "Guided Exploration & Activity",
-        "desc": "Arrive at destination. Guided tour of key monuments, photography stops, and water activities."
+        "day": "Day 2",
+        "title": "Scenic Drive to Southern Pakistan: Journey Through The Indus Valley & Core Attractions",
+        "desc": "Breakfast at hotel. Proceed towards Southern Pakistan: Journey Through The Indus Valley. Experience spectacular views of snow-clad peaks and alpine rivers. Visit major landmarks, check into main valley hotel/campsite, followed by an evening bonfire and local dinner."
       },
       {
-        "day": "Evening",
-        "title": "Local Food Tasting & Return",
-        "desc": "Enjoy famous regional food & tea. Return drive with drop-off at your hotel by 07:00 PM."
+        "day": "Day 3",
+        "title": "Excursion to Full guided excursion for Southern Pakistan: Journey Through The Indus Valley – 12 Days",
+        "desc": "Full day adventure exploring pristine alpine points. Full guided excursion for Southern Pakistan: Journey Through The Indus Valley – 12 Days. Private AC transport with driver, fuel, tolls & parking. Enjoy evening cultural music and bonfire at hotel."
+      },
+      {
+        "day": "Day 4",
+        "title": "Heritage, Lakes & Cultural Walk in Southern Pakistan: Journey Through The Indus Valley",
+        "desc": "Discover ancient forts, crystal clear lakes, and historic settlements in the region. Sightseeing at historical monuments, bazaars & viewpoints."
+      },
+      {
+        "day": "Day 5",
+        "title": "4x4 Mountain Pass Excursion & High Altitude Meadows",
+        "desc": "Thrilling off-road 4x4 Jeep ride to remote high-altitude meadows and border viewpoints. Scenic picnic lunch amidst pristine alpine nature. Overnight stay under starry skies at mountain resort."
+      },
+      {
+        "day": "Day 6",
+        "title": "Glacier Views & Remote Settlement Exploration",
+        "desc": "Guided trek towards nearby glacier viewpoints and alpine meadows. Experience panoramic vistas of 7000m+ Himalayan/Karakoram peaks."
+      },
+      {
+        "day": "Day 7",
+        "title": "Cultural Heritage & Local Artisan Bazaar Walk",
+        "desc": "Explore centuries-old mountain forts, traditional handicraft workshops, dry fruit bazaars, and gemstone markets."
+      },
+      {
+        "day": "Day 8",
+        "title": "High Altitude Wildlife & Photography Safari",
+        "desc": "Early morning excursion to wildlife habitats and panoramic high passes. Unrestricted photography time in pristine high-altitude ecosystems."
+      },
+      {
+        "day": "Day 9",
+        "title": "Cross-Valley Scenic Route & Secret Viewpoints",
+        "desc": "Travel across adjacent mountain valleys along dramatic gorge roads and river crossings. Evening starlit camping/resort stay."
+      },
+      {
+        "day": "Day 10",
+        "title": "Extended Circuit Exploration – Day 10",
+        "desc": "Leisure day for optional short treks, boat rides, or relaxation amidst serene mountain landscapes. Evening BBQ and traditional music night."
+      },
+      {
+        "day": "Day 11",
+        "title": "Extended Circuit Exploration – Day 11",
+        "desc": "Leisure day for optional short treks, boat rides, or relaxation amidst serene mountain landscapes. Evening BBQ and traditional music night."
+      },
+      {
+        "day": "Day 12",
+        "title": "Final Return Journey to Islamabad & Lahore",
+        "desc": "Morning breakfast. Depart from mountain base and drive back along the highway. Transfer to comfortable coasters/cabins. Arrival in Islamabad by evening and drop-off in Lahore by late night with cherished expedition memories."
       }
     ],
     "packages": [
@@ -2806,19 +2856,64 @@ window.TOUR_DATA = {
     ],
     "itinerary": [
       {
-        "day": "Morning",
-        "title": "Departure & Pickup",
-        "desc": "Pickup from hotel/residence in private vehicle. Highway drive with refreshment stop."
+        "day": "Day 1",
+        "title": "Departure from Islamabad/Lahore & Journey Towards Undiscovered Southern Pakistan",
+        "desc": "Pick-up of participants from Lahore / Islamabad. Morning drive along Hazara Motorway / scenic highway. Travel through scenic mountain passes with refreshment stops at riverside points. Hotel check-in and evening welcome briefing."
       },
       {
-        "day": "Afternoon",
-        "title": "Guided Exploration & Activity",
-        "desc": "Arrive at destination. Guided tour of key monuments, photography stops, and water activities."
+        "day": "Day 2",
+        "title": "Scenic Drive to Undiscovered Southern Pakistan & Core Attractions",
+        "desc": "Breakfast at hotel. Proceed towards Undiscovered Southern Pakistan. Experience spectacular views of snow-clad peaks and alpine rivers. Visit major landmarks, check into main valley hotel/campsite, followed by an evening bonfire and local dinner."
       },
       {
-        "day": "Evening",
-        "title": "Local Food Tasting & Return",
-        "desc": "Enjoy famous regional food & tea. Return drive with drop-off at your hotel by 07:00 PM."
+        "day": "Day 3",
+        "title": "Excursion to Full guided excursion for Undiscovered Southern Pakistan – 12 Days",
+        "desc": "Full day adventure exploring pristine alpine points. Full guided excursion for Undiscovered Southern Pakistan – 12 Days. Private AC transport with driver, fuel, tolls & parking. Enjoy evening cultural music and bonfire at hotel."
+      },
+      {
+        "day": "Day 4",
+        "title": "Heritage, Lakes & Cultural Walk in Undiscovered Southern Pakistan",
+        "desc": "Discover ancient forts, crystal clear lakes, and historic settlements in the region. Sightseeing at historical monuments, bazaars & viewpoints."
+      },
+      {
+        "day": "Day 5",
+        "title": "4x4 Mountain Pass Excursion & High Altitude Meadows",
+        "desc": "Thrilling off-road 4x4 Jeep ride to remote high-altitude meadows and border viewpoints. Scenic picnic lunch amidst pristine alpine nature. Overnight stay under starry skies at mountain resort."
+      },
+      {
+        "day": "Day 6",
+        "title": "Glacier Views & Remote Settlement Exploration",
+        "desc": "Guided trek towards nearby glacier viewpoints and alpine meadows. Experience panoramic vistas of 7000m+ Himalayan/Karakoram peaks."
+      },
+      {
+        "day": "Day 7",
+        "title": "Cultural Heritage & Local Artisan Bazaar Walk",
+        "desc": "Explore centuries-old mountain forts, traditional handicraft workshops, dry fruit bazaars, and gemstone markets."
+      },
+      {
+        "day": "Day 8",
+        "title": "High Altitude Wildlife & Photography Safari",
+        "desc": "Early morning excursion to wildlife habitats and panoramic high passes. Unrestricted photography time in pristine high-altitude ecosystems."
+      },
+      {
+        "day": "Day 9",
+        "title": "Cross-Valley Scenic Route & Secret Viewpoints",
+        "desc": "Travel across adjacent mountain valleys along dramatic gorge roads and river crossings. Evening starlit camping/resort stay."
+      },
+      {
+        "day": "Day 10",
+        "title": "Extended Circuit Exploration – Day 10",
+        "desc": "Leisure day for optional short treks, boat rides, or relaxation amidst serene mountain landscapes. Evening BBQ and traditional music night."
+      },
+      {
+        "day": "Day 11",
+        "title": "Extended Circuit Exploration – Day 11",
+        "desc": "Leisure day for optional short treks, boat rides, or relaxation amidst serene mountain landscapes. Evening BBQ and traditional music night."
+      },
+      {
+        "day": "Day 12",
+        "title": "Final Return Journey to Islamabad & Lahore",
+        "desc": "Morning breakfast. Depart from mountain base and drive back along the highway. Transfer to comfortable coasters/cabins. Arrival in Islamabad by evening and drop-off in Lahore by late night with cherished expedition memories."
       }
     ],
     "packages": [
@@ -2906,18 +3001,18 @@ window.TOUR_DATA = {
     "itinerary": [
       {
         "day": "Morning",
-        "title": "Departure & Pickup",
-        "desc": "Pickup from hotel/residence in private vehicle. Highway drive with refreshment stop."
+        "title": "Departure & Scenic Drive to Full-Day Private Guided",
+        "desc": "Early morning pickup from designated location in Islamabad/Lahore. Travel via expressway/highway with brief breakfast and refreshment stops along the scenic route."
       },
       {
         "day": "Afternoon",
-        "title": "Guided Exploration & Activity",
-        "desc": "Arrive at destination. Guided tour of key monuments, photography stops, and water activities."
+        "title": "Guided Exploration & Sightseeing in Full-Day Private Guided",
+        "desc": "Arrival at Full-Day Private Guided. Enjoy a comprehensive guided tour covering key historical sites, viewpoints, river banks, photography spots, and local attractions."
       },
       {
         "day": "Evening",
-        "title": "Local Food Tasting & Return",
-        "desc": "Enjoy famous regional food & tea. Return drive with drop-off at your hotel by 07:00 PM."
+        "title": "Traditional Tea, Cultural Experience & Return",
+        "desc": "Relax with authentic regional tea and local street food sampling. Depart for return journey, arriving back at pickup hub by late evening."
       }
     ],
     "packages": [
@@ -3005,18 +3100,18 @@ window.TOUR_DATA = {
     "itinerary": [
       {
         "day": "Morning",
-        "title": "Departure & Pickup",
-        "desc": "Pickup from hotel/residence in private vehicle. Highway drive with refreshment stop."
+        "title": "Departure & Scenic Drive to Islamabad & Margalla Hills",
+        "desc": "Early morning pickup from designated location in Islamabad/Lahore. Travel via expressway/highway with brief breakfast and refreshment stops along the scenic route."
       },
       {
         "day": "Afternoon",
-        "title": "Guided Exploration & Activity",
-        "desc": "Arrive at destination. Guided tour of key monuments, photography stops, and water activities."
+        "title": "Guided Exploration & Sightseeing in Islamabad & Margalla Hills",
+        "desc": "Arrival at Islamabad & Margalla Hills. Enjoy a comprehensive guided tour covering key historical sites, viewpoints, river banks, photography spots, and local attractions."
       },
       {
         "day": "Evening",
-        "title": "Local Food Tasting & Return",
-        "desc": "Enjoy famous regional food & tea. Return drive with drop-off at your hotel by 07:00 PM."
+        "title": "Traditional Tea, Cultural Experience & Return",
+        "desc": "Relax with authentic regional tea and local street food sampling. Depart for return journey, arriving back at pickup hub by late evening."
       }
     ],
     "packages": [
@@ -3104,18 +3199,18 @@ window.TOUR_DATA = {
     "itinerary": [
       {
         "day": "Morning",
-        "title": "Departure & Pickup",
-        "desc": "Pickup from hotel/residence in private vehicle. Highway drive with refreshment stop."
+        "title": "Departure & Scenic Drive to Islamabad & Margalla Hills",
+        "desc": "Early morning pickup from designated location in Islamabad/Lahore. Travel via expressway/highway with brief breakfast and refreshment stops along the scenic route."
       },
       {
         "day": "Afternoon",
-        "title": "Guided Exploration & Activity",
-        "desc": "Arrive at destination. Guided tour of key monuments, photography stops, and water activities."
+        "title": "Guided Exploration & Sightseeing in Islamabad & Margalla Hills",
+        "desc": "Arrival at Islamabad & Margalla Hills. Enjoy a comprehensive guided tour covering key historical sites, viewpoints, river banks, photography spots, and local attractions."
       },
       {
         "day": "Evening",
-        "title": "Local Food Tasting & Return",
-        "desc": "Enjoy famous regional food & tea. Return drive with drop-off at your hotel by 07:00 PM."
+        "title": "Traditional Tea, Cultural Experience & Return",
+        "desc": "Relax with authentic regional tea and local street food sampling. Depart for return journey, arriving back at pickup hub by late evening."
       }
     ],
     "packages": [
@@ -3202,19 +3297,39 @@ window.TOUR_DATA = {
     ],
     "itinerary": [
       {
-        "day": "Morning",
-        "title": "Departure & Pickup",
-        "desc": "Pickup from hotel/residence in private vehicle. Highway drive with refreshment stop."
+        "day": "Day 1",
+        "title": "Departure from Islamabad/Lahore & Journey Towards Hunza Valley",
+        "desc": "Pick-up of participants from Lahore / Islamabad. Morning drive along Hazara Motorway / scenic highway. Travel through scenic mountain passes with refreshment stops at riverside points. Hotel check-in and evening welcome briefing."
       },
       {
-        "day": "Afternoon",
-        "title": "Guided Exploration & Activity",
-        "desc": "Arrive at destination. Guided tour of key monuments, photography stops, and water activities."
+        "day": "Day 2",
+        "title": "Scenic Drive to Hunza Valley & Core Attractions",
+        "desc": "Breakfast at hotel. Proceed towards Hunza Valley. Experience spectacular views of snow-clad peaks and alpine rivers. Visit major landmarks, check into main valley hotel/campsite, followed by an evening bonfire and local dinner."
       },
       {
-        "day": "Evening",
-        "title": "Local Food Tasting & Return",
-        "desc": "Enjoy famous regional food & tea. Return drive with drop-off at your hotel by 07:00 PM."
+        "day": "Day 3",
+        "title": "Excursion to Full guided excursion for 7-Day Tour to Swat, Malam Jabba, and Hunza",
+        "desc": "Full day adventure exploring pristine alpine points. Full guided excursion for 7-Day Tour to Swat, Malam Jabba, and Hunza. Private AC transport with driver, fuel, tolls & parking. Enjoy evening cultural music and bonfire at hotel."
+      },
+      {
+        "day": "Day 4",
+        "title": "Heritage, Lakes & Cultural Walk in Hunza Valley",
+        "desc": "Discover ancient forts, crystal clear lakes, and historic settlements in the region. Sightseeing at historical monuments, bazaars & viewpoints."
+      },
+      {
+        "day": "Day 5",
+        "title": "4x4 Mountain Pass Excursion & High Altitude Meadows",
+        "desc": "Thrilling off-road 4x4 Jeep ride to remote high-altitude meadows and border viewpoints. Scenic picnic lunch amidst pristine alpine nature. Overnight stay under starry skies at mountain resort."
+      },
+      {
+        "day": "Day 6",
+        "title": "Glacier Views & Remote Settlement Exploration",
+        "desc": "Guided trek towards nearby glacier viewpoints and alpine meadows. Experience panoramic vistas of 7000m+ Himalayan/Karakoram peaks."
+      },
+      {
+        "day": "Day 7",
+        "title": "Final Return Journey to Islamabad & Lahore",
+        "desc": "Morning breakfast. Depart from mountain base and drive back along the highway. Transfer to comfortable coasters/cabins. Arrival in Islamabad by evening and drop-off in Lahore by late night with cherished expedition memories."
       }
     ],
     "packages": [
@@ -3301,19 +3416,14 @@ window.TOUR_DATA = {
     ],
     "itinerary": [
       {
-        "day": "Morning",
-        "title": "Departure & Pickup",
-        "desc": "Pickup from hotel/residence in private vehicle. Highway drive with refreshment stop."
+        "day": "Day 1",
+        "title": "Departure from Islamabad/Lahore & Journey Towards Kathmandu Valley",
+        "desc": "Pick-up of participants from Lahore / Islamabad. Morning drive along Hazara Motorway / scenic highway. Travel through scenic mountain passes with refreshment stops at riverside points. Hotel check-in and evening welcome briefing."
       },
       {
-        "day": "Afternoon",
-        "title": "Guided Exploration & Activity",
-        "desc": "Arrive at destination. Guided tour of key monuments, photography stops, and water activities."
-      },
-      {
-        "day": "Evening",
-        "title": "Local Food Tasting & Return",
-        "desc": "Enjoy famous regional food & tea. Return drive with drop-off at your hotel by 07:00 PM."
+        "day": "Day 2",
+        "title": "Guided Exploration of Kathmandu Valley & Return Journey",
+        "desc": "Morning breakfast at hotel. Enjoy full day guided sightseeing across top attractions, photography viewpoints, and local bazaars. Board transport in afternoon for return journey to Islamabad and Lahore."
       }
     ],
     "packages": [
@@ -3400,19 +3510,19 @@ window.TOUR_DATA = {
     ],
     "itinerary": [
       {
-        "day": "Morning",
-        "title": "Departure & Pickup",
-        "desc": "Pickup from hotel/residence in private vehicle. Highway drive with refreshment stop."
+        "day": "Day 1",
+        "title": "Departure from Islamabad/Lahore & Journey Towards Kathmandu Valley",
+        "desc": "Pick-up of participants from Lahore / Islamabad. Morning drive along Hazara Motorway / scenic highway. Travel through scenic mountain passes with refreshment stops at riverside points. Hotel check-in and evening welcome briefing."
       },
       {
-        "day": "Afternoon",
-        "title": "Guided Exploration & Activity",
-        "desc": "Arrive at destination. Guided tour of key monuments, photography stops, and water activities."
+        "day": "Day 2",
+        "title": "Scenic Drive to Kathmandu Valley & Core Attractions",
+        "desc": "Breakfast at hotel. Proceed towards Kathmandu Valley. Experience spectacular views of snow-clad peaks and alpine rivers. Visit major landmarks, check into main valley hotel/campsite, followed by an evening bonfire and local dinner."
       },
       {
-        "day": "Evening",
-        "title": "Local Food Tasting & Return",
-        "desc": "Enjoy famous regional food & tea. Return drive with drop-off at your hotel by 07:00 PM."
+        "day": "Day 3",
+        "title": "Final Sightseeing in Kathmandu Valley & Return Journey",
+        "desc": "Morning breakfast with sunrise views over the mountains. Visit remaining local viewpoints and handicraft markets. Depart for return drive to Islamabad by evening and Lahore by late night."
       }
     ],
     "packages": [
@@ -3499,19 +3609,24 @@ window.TOUR_DATA = {
     ],
     "itinerary": [
       {
-        "day": "Morning",
-        "title": "Departure & Pickup",
-        "desc": "Pickup from hotel/residence in private vehicle. Highway drive with refreshment stop."
+        "day": "Day 1",
+        "title": "Departure from Islamabad/Lahore & Journey Towards Kathmandu Valley",
+        "desc": "Pick-up of participants from Lahore / Islamabad. Morning drive along Hazara Motorway / scenic highway. Travel through scenic mountain passes with refreshment stops at riverside points. Hotel check-in and evening welcome briefing."
       },
       {
-        "day": "Afternoon",
-        "title": "Guided Exploration & Activity",
-        "desc": "Arrive at destination. Guided tour of key monuments, photography stops, and water activities."
+        "day": "Day 2",
+        "title": "Scenic Drive to Kathmandu Valley & Core Attractions",
+        "desc": "Breakfast at hotel. Proceed towards Kathmandu Valley. Experience spectacular views of snow-clad peaks and alpine rivers. Visit major landmarks, check into main valley hotel/campsite, followed by an evening bonfire and local dinner."
       },
       {
-        "day": "Evening",
-        "title": "Local Food Tasting & Return",
-        "desc": "Enjoy famous regional food & tea. Return drive with drop-off at your hotel by 07:00 PM."
+        "day": "Day 3",
+        "title": "Excursion to Full guided excursion for Kathmandu Valley and Chandragiri Hills Excursion Tour – 04 Days",
+        "desc": "Full day adventure exploring pristine alpine points. Full guided excursion for Kathmandu Valley and Chandragiri Hills Excursion Tour – 04 Days. Private AC transport with driver, fuel, tolls & parking. Enjoy evening cultural music and bonfire at hotel."
+      },
+      {
+        "day": "Day 4",
+        "title": "Return Journey to Islamabad & Lahore",
+        "desc": "Breakfast call at hotel. Start return travel back through scenic valleys. Short stops for photography and souvenirs. Arrival in Islamabad by early evening and Lahore by late night."
       }
     ],
     "packages": [
@@ -3598,19 +3713,29 @@ window.TOUR_DATA = {
     ],
     "itinerary": [
       {
-        "day": "Morning",
-        "title": "Departure & Pickup",
-        "desc": "Pickup from hotel/residence in private vehicle. Highway drive with refreshment stop."
+        "day": "Day 1",
+        "title": "Departure from Islamabad/Lahore & Journey Towards Kathmandu Valley",
+        "desc": "Pick-up of participants from Lahore / Islamabad. Morning drive along Hazara Motorway / scenic highway. Travel through scenic mountain passes with refreshment stops at riverside points. Hotel check-in and evening welcome briefing."
       },
       {
-        "day": "Afternoon",
-        "title": "Guided Exploration & Activity",
-        "desc": "Arrive at destination. Guided tour of key monuments, photography stops, and water activities."
+        "day": "Day 2",
+        "title": "Scenic Drive to Kathmandu Valley & Core Attractions",
+        "desc": "Breakfast at hotel. Proceed towards Kathmandu Valley. Experience spectacular views of snow-clad peaks and alpine rivers. Visit major landmarks, check into main valley hotel/campsite, followed by an evening bonfire and local dinner."
       },
       {
-        "day": "Evening",
-        "title": "Local Food Tasting & Return",
-        "desc": "Enjoy famous regional food & tea. Return drive with drop-off at your hotel by 07:00 PM."
+        "day": "Day 3",
+        "title": "Excursion to Full guided excursion for Kathmandu Cultural Tour – 05 Days",
+        "desc": "Full day adventure exploring pristine alpine points. Full guided excursion for Kathmandu Cultural Tour – 05 Days. Private AC transport with driver, fuel, tolls & parking. Enjoy evening cultural music and bonfire at hotel."
+      },
+      {
+        "day": "Day 4",
+        "title": "Heritage, Lakes & Cultural Walk in Kathmandu Valley",
+        "desc": "Discover ancient forts, crystal clear lakes, and historic settlements in the region. Sightseeing at historical monuments, bazaars & viewpoints."
+      },
+      {
+        "day": "Day 5",
+        "title": "Return Journey to Islamabad / Lahore",
+        "desc": "Early morning breakfast. Depart Kathmandu Valley and travel along the scenic highway. Stop at famous roadside tea spots. Arrive back in Islamabad by evening and drop-off in Lahore late night."
       }
     ],
     "packages": [
@@ -3697,19 +3822,34 @@ window.TOUR_DATA = {
     ],
     "itinerary": [
       {
-        "day": "Morning",
-        "title": "Departure & Pickup",
-        "desc": "Pickup from hotel/residence in private vehicle. Highway drive with refreshment stop."
+        "day": "Day 1",
+        "title": "Departure from Islamabad/Lahore & Journey Towards Kathmandu Valley",
+        "desc": "Pick-up of participants from Lahore / Islamabad. Morning drive along Hazara Motorway / scenic highway. Travel through scenic mountain passes with refreshment stops at riverside points. Hotel check-in and evening welcome briefing."
       },
       {
-        "day": "Afternoon",
-        "title": "Guided Exploration & Activity",
-        "desc": "Arrive at destination. Guided tour of key monuments, photography stops, and water activities."
+        "day": "Day 2",
+        "title": "Scenic Drive to Kathmandu Valley & Core Attractions",
+        "desc": "Breakfast at hotel. Proceed towards Kathmandu Valley. Experience spectacular views of snow-clad peaks and alpine rivers. Visit major landmarks, check into main valley hotel/campsite, followed by an evening bonfire and local dinner."
       },
       {
-        "day": "Evening",
-        "title": "Local Food Tasting & Return",
-        "desc": "Enjoy famous regional food & tea. Return drive with drop-off at your hotel by 07:00 PM."
+        "day": "Day 3",
+        "title": "Excursion to Full guided excursion for Kathmandu and Pokhara Sightseeing Tour– 06 Days",
+        "desc": "Full day adventure exploring pristine alpine points. Full guided excursion for Kathmandu and Pokhara Sightseeing Tour– 06 Days. Private AC transport with driver, fuel, tolls & parking. Enjoy evening cultural music and bonfire at hotel."
+      },
+      {
+        "day": "Day 4",
+        "title": "Heritage, Lakes & Cultural Walk in Kathmandu Valley",
+        "desc": "Discover ancient forts, crystal clear lakes, and historic settlements in the region. Sightseeing at historical monuments, bazaars & viewpoints."
+      },
+      {
+        "day": "Day 5",
+        "title": "4x4 Mountain Pass Excursion & High Altitude Meadows",
+        "desc": "Thrilling off-road 4x4 Jeep ride to remote high-altitude meadows and border viewpoints. Scenic picnic lunch amidst pristine alpine nature. Overnight stay under starry skies at mountain resort."
+      },
+      {
+        "day": "Day 6",
+        "title": "Return Journey & Drop-off at Islamabad / Lahore",
+        "desc": "Morning breakfast. Begin return journey via Karakoram / Alpine Highway. Drop-off in Islamabad by evening and Lahore by late night."
       }
     ],
     "packages": [
@@ -3796,19 +3936,49 @@ window.TOUR_DATA = {
     ],
     "itinerary": [
       {
-        "day": "Morning",
-        "title": "Departure & Pickup",
-        "desc": "Pickup from hotel/residence in private vehicle. Highway drive with refreshment stop."
+        "day": "Day 1",
+        "title": "Departure from Islamabad/Lahore & Journey Towards Kathmandu Valley",
+        "desc": "Pick-up of participants from Lahore / Islamabad. Morning drive along Hazara Motorway / scenic highway. Travel through scenic mountain passes with refreshment stops at riverside points. Hotel check-in and evening welcome briefing."
       },
       {
-        "day": "Afternoon",
-        "title": "Guided Exploration & Activity",
-        "desc": "Arrive at destination. Guided tour of key monuments, photography stops, and water activities."
+        "day": "Day 2",
+        "title": "Scenic Drive to Kathmandu Valley & Core Attractions",
+        "desc": "Breakfast at hotel. Proceed towards Kathmandu Valley. Experience spectacular views of snow-clad peaks and alpine rivers. Visit major landmarks, check into main valley hotel/campsite, followed by an evening bonfire and local dinner."
       },
       {
-        "day": "Evening",
-        "title": "Local Food Tasting & Return",
-        "desc": "Enjoy famous regional food & tea. Return drive with drop-off at your hotel by 07:00 PM."
+        "day": "Day 3",
+        "title": "Excursion to Full guided excursion for Kathmandu Pokhara and Chitwan Tour – 09 Days",
+        "desc": "Full day adventure exploring pristine alpine points. Full guided excursion for Kathmandu Pokhara and Chitwan Tour – 09 Days. Private AC transport with driver, fuel, tolls & parking. Enjoy evening cultural music and bonfire at hotel."
+      },
+      {
+        "day": "Day 4",
+        "title": "Heritage, Lakes & Cultural Walk in Kathmandu Valley",
+        "desc": "Discover ancient forts, crystal clear lakes, and historic settlements in the region. Sightseeing at historical monuments, bazaars & viewpoints."
+      },
+      {
+        "day": "Day 5",
+        "title": "4x4 Mountain Pass Excursion & High Altitude Meadows",
+        "desc": "Thrilling off-road 4x4 Jeep ride to remote high-altitude meadows and border viewpoints. Scenic picnic lunch amidst pristine alpine nature. Overnight stay under starry skies at mountain resort."
+      },
+      {
+        "day": "Day 6",
+        "title": "Glacier Views & Remote Settlement Exploration",
+        "desc": "Guided trek towards nearby glacier viewpoints and alpine meadows. Experience panoramic vistas of 7000m+ Himalayan/Karakoram peaks."
+      },
+      {
+        "day": "Day 7",
+        "title": "Cultural Heritage & Local Artisan Bazaar Walk",
+        "desc": "Explore centuries-old mountain forts, traditional handicraft workshops, dry fruit bazaars, and gemstone markets."
+      },
+      {
+        "day": "Day 8",
+        "title": "High Altitude Wildlife & Photography Safari",
+        "desc": "Early morning excursion to wildlife habitats and panoramic high passes. Unrestricted photography time in pristine high-altitude ecosystems."
+      },
+      {
+        "day": "Day 9",
+        "title": "Final Return Journey to Islamabad & Lahore",
+        "desc": "Morning breakfast. Depart from mountain base and drive back along the highway. Transfer to comfortable coasters/cabins. Arrival in Islamabad by evening and drop-off in Lahore by late night with cherished expedition memories."
       }
     ],
     "packages": [
@@ -3895,19 +4065,39 @@ window.TOUR_DATA = {
     ],
     "itinerary": [
       {
-        "day": "Morning",
-        "title": "Departure & Pickup",
-        "desc": "Pickup from hotel/residence in private vehicle. Highway drive with refreshment stop."
+        "day": "Day 1",
+        "title": "Departure from Islamabad/Lahore & Journey Towards Skardu & Baltistan",
+        "desc": "Pick-up of participants from Lahore / Islamabad. Morning drive along Hazara Motorway / scenic highway. Travel through scenic mountain passes with refreshment stops at riverside points. Hotel check-in and evening welcome briefing."
       },
       {
-        "day": "Afternoon",
-        "title": "Guided Exploration & Activity",
-        "desc": "Arrive at destination. Guided tour of key monuments, photography stops, and water activities."
+        "day": "Day 2",
+        "title": "Scenic Drive to Skardu & Baltistan & Core Attractions",
+        "desc": "Breakfast at hotel. Proceed towards Skardu & Baltistan. Experience spectacular views of snow-clad peaks and alpine rivers. Visit major landmarks, check into main valley hotel/campsite, followed by an evening bonfire and local dinner."
       },
       {
-        "day": "Evening",
-        "title": "Local Food Tasting & Return",
-        "desc": "Enjoy famous regional food & tea. Return drive with drop-off at your hotel by 07:00 PM."
+        "day": "Day 3",
+        "title": "Excursion to Full guided excursion for Chunda Valley Tour – 07 Days",
+        "desc": "Full day adventure exploring pristine alpine points. Full guided excursion for Chunda Valley Tour – 07 Days. Private AC transport with driver, fuel, tolls & parking. Enjoy evening cultural music and bonfire at hotel."
+      },
+      {
+        "day": "Day 4",
+        "title": "Heritage, Lakes & Cultural Walk in Skardu & Baltistan",
+        "desc": "Discover ancient forts, crystal clear lakes, and historic settlements in the region. Sightseeing at historical monuments, bazaars & viewpoints."
+      },
+      {
+        "day": "Day 5",
+        "title": "4x4 Mountain Pass Excursion & High Altitude Meadows",
+        "desc": "Thrilling off-road 4x4 Jeep ride to remote high-altitude meadows and border viewpoints. Scenic picnic lunch amidst pristine alpine nature. Overnight stay under starry skies at mountain resort."
+      },
+      {
+        "day": "Day 6",
+        "title": "Glacier Views & Remote Settlement Exploration",
+        "desc": "Guided trek towards nearby glacier viewpoints and alpine meadows. Experience panoramic vistas of 7000m+ Himalayan/Karakoram peaks."
+      },
+      {
+        "day": "Day 7",
+        "title": "Final Return Journey to Islamabad & Lahore",
+        "desc": "Morning breakfast. Depart from mountain base and drive back along the highway. Transfer to comfortable coasters/cabins. Arrival in Islamabad by evening and drop-off in Lahore by late night with cherished expedition memories."
       }
     ],
     "packages": [
@@ -3994,19 +4184,29 @@ window.TOUR_DATA = {
     ],
     "itinerary": [
       {
-        "day": "Morning",
-        "title": "Departure & Pickup",
-        "desc": "Pickup from hotel/residence in private vehicle. Highway drive with refreshment stop."
+        "day": "Day 1",
+        "title": "Departure from Islamabad/Lahore & Journey Towards Kumrat Valley & Jahaz Banda",
+        "desc": "Pick-up of participants from Lahore / Islamabad. Morning drive along Hazara Motorway / scenic highway. Travel through scenic mountain passes with refreshment stops at riverside points. Hotel check-in and evening welcome briefing."
       },
       {
-        "day": "Afternoon",
-        "title": "Guided Exploration & Activity",
-        "desc": "Arrive at destination. Guided tour of key monuments, photography stops, and water activities."
+        "day": "Day 2",
+        "title": "Scenic Drive to Kumrat Valley & Jahaz Banda & Core Attractions",
+        "desc": "Breakfast at hotel. Proceed towards Kumrat Valley & Jahaz Banda. Experience spectacular views of snow-clad peaks and alpine rivers. Visit major landmarks, check into main valley hotel/campsite, followed by an evening bonfire and local dinner."
       },
       {
-        "day": "Evening",
-        "title": "Local Food Tasting & Return",
-        "desc": "Enjoy famous regional food & tea. Return drive with drop-off at your hotel by 07:00 PM."
+        "day": "Day 3",
+        "title": "Excursion to Full guided excursion for Kumrat Valley Tour – 05 Days",
+        "desc": "Full day adventure exploring pristine alpine points. Full guided excursion for Kumrat Valley Tour – 05 Days. Private AC transport with driver, fuel, tolls & parking. Enjoy evening cultural music and bonfire at hotel."
+      },
+      {
+        "day": "Day 4",
+        "title": "Heritage, Lakes & Cultural Walk in Kumrat Valley & Jahaz Banda",
+        "desc": "Discover ancient forts, crystal clear lakes, and historic settlements in the region. Sightseeing at historical monuments, bazaars & viewpoints."
+      },
+      {
+        "day": "Day 5",
+        "title": "Return Journey to Islamabad / Lahore",
+        "desc": "Early morning breakfast. Depart Kumrat Valley & Jahaz Banda and travel along the scenic highway. Stop at famous roadside tea spots. Arrive back in Islamabad by evening and drop-off in Lahore late night."
       }
     ],
     "packages": [
@@ -4093,19 +4293,19 @@ window.TOUR_DATA = {
     ],
     "itinerary": [
       {
-        "day": "Morning",
-        "title": "Departure & Pickup",
-        "desc": "Pickup from hotel/residence in private vehicle. Highway drive with refreshment stop."
+        "day": "Day 1",
+        "title": "Departure from Islamabad/Lahore & Journey Towards Kumrat Valley & Jahaz Banda",
+        "desc": "Pick-up of participants from Lahore / Islamabad. Morning drive along Hazara Motorway / scenic highway. Travel through scenic mountain passes with refreshment stops at riverside points. Hotel check-in and evening welcome briefing."
       },
       {
-        "day": "Afternoon",
-        "title": "Guided Exploration & Activity",
-        "desc": "Arrive at destination. Guided tour of key monuments, photography stops, and water activities."
+        "day": "Day 2",
+        "title": "Scenic Drive to Kumrat Valley & Jahaz Banda & Core Attractions",
+        "desc": "Breakfast at hotel. Proceed towards Kumrat Valley & Jahaz Banda. Experience spectacular views of snow-clad peaks and alpine rivers. Visit major landmarks, check into main valley hotel/campsite, followed by an evening bonfire and local dinner."
       },
       {
-        "day": "Evening",
-        "title": "Local Food Tasting & Return",
-        "desc": "Enjoy famous regional food & tea. Return drive with drop-off at your hotel by 07:00 PM."
+        "day": "Day 3",
+        "title": "Final Sightseeing in Kumrat Valley & Jahaz Banda & Return Journey",
+        "desc": "Morning breakfast with sunrise views over the mountains. Visit remaining local viewpoints and handicraft markets. Depart for return drive to Islamabad by evening and Lahore by late night."
       }
     ],
     "packages": [
@@ -4192,19 +4392,39 @@ window.TOUR_DATA = {
     ],
     "itinerary": [
       {
-        "day": "Morning",
-        "title": "Departure & Pickup",
-        "desc": "Pickup from hotel/residence in private vehicle. Highway drive with refreshment stop."
+        "day": "Day 1",
+        "title": "Departure from Islamabad/Lahore & Journey Towards Nagar Valley",
+        "desc": "Pick-up of participants from Lahore / Islamabad. Morning drive along Hazara Motorway / scenic highway. Travel through scenic mountain passes with refreshment stops at riverside points. Hotel check-in and evening welcome briefing."
       },
       {
-        "day": "Afternoon",
-        "title": "Guided Exploration & Activity",
-        "desc": "Arrive at destination. Guided tour of key monuments, photography stops, and water activities."
+        "day": "Day 2",
+        "title": "Scenic Drive to Nagar Valley & Core Attractions",
+        "desc": "Breakfast at hotel. Proceed towards Nagar Valley. Experience spectacular views of snow-clad peaks and alpine rivers. Visit major landmarks, check into main valley hotel/campsite, followed by an evening bonfire and local dinner."
       },
       {
-        "day": "Evening",
-        "title": "Local Food Tasting & Return",
-        "desc": "Enjoy famous regional food & tea. Return drive with drop-off at your hotel by 07:00 PM."
+        "day": "Day 3",
+        "title": "Excursion to Full guided excursion for Nagar Valley Tour – 07 Days",
+        "desc": "Full day adventure exploring pristine alpine points. Full guided excursion for Nagar Valley Tour – 07 Days. Private AC transport with driver, fuel, tolls & parking. Enjoy evening cultural music and bonfire at hotel."
+      },
+      {
+        "day": "Day 4",
+        "title": "Heritage, Lakes & Cultural Walk in Nagar Valley",
+        "desc": "Discover ancient forts, crystal clear lakes, and historic settlements in the region. Sightseeing at historical monuments, bazaars & viewpoints."
+      },
+      {
+        "day": "Day 5",
+        "title": "4x4 Mountain Pass Excursion & High Altitude Meadows",
+        "desc": "Thrilling off-road 4x4 Jeep ride to remote high-altitude meadows and border viewpoints. Scenic picnic lunch amidst pristine alpine nature. Overnight stay under starry skies at mountain resort."
+      },
+      {
+        "day": "Day 6",
+        "title": "Glacier Views & Remote Settlement Exploration",
+        "desc": "Guided trek towards nearby glacier viewpoints and alpine meadows. Experience panoramic vistas of 7000m+ Himalayan/Karakoram peaks."
+      },
+      {
+        "day": "Day 7",
+        "title": "Final Return Journey to Islamabad & Lahore",
+        "desc": "Morning breakfast. Depart from mountain base and drive back along the highway. Transfer to comfortable coasters/cabins. Arrival in Islamabad by evening and drop-off in Lahore by late night with cherished expedition memories."
       }
     ],
     "packages": [
@@ -4291,19 +4511,19 @@ window.TOUR_DATA = {
     ],
     "itinerary": [
       {
-        "day": "Morning",
-        "title": "Departure & Pickup",
-        "desc": "Pickup from hotel/residence in private vehicle. Highway drive with refreshment stop."
+        "day": "Day 1",
+        "title": "Departure from Islamabad/Lahore & Journey Towards Azad Kashmir & Neelum Valley",
+        "desc": "Pick-up of participants from Lahore / Islamabad. Morning drive along Hazara Motorway / scenic highway. Travel through scenic mountain passes with refreshment stops at riverside points. Hotel check-in and evening welcome briefing."
       },
       {
-        "day": "Afternoon",
-        "title": "Guided Exploration & Activity",
-        "desc": "Arrive at destination. Guided tour of key monuments, photography stops, and water activities."
+        "day": "Day 2",
+        "title": "Scenic Drive to Azad Kashmir & Neelum Valley & Core Attractions",
+        "desc": "Breakfast at hotel. Proceed towards Azad Kashmir & Neelum Valley. Experience spectacular views of snow-clad peaks and alpine rivers. Visit major landmarks, check into main valley hotel/campsite, followed by an evening bonfire and local dinner."
       },
       {
-        "day": "Evening",
-        "title": "Local Food Tasting & Return",
-        "desc": "Enjoy famous regional food & tea. Return drive with drop-off at your hotel by 07:00 PM."
+        "day": "Day 3",
+        "title": "Final Sightseeing in Azad Kashmir & Neelum Valley & Return Journey",
+        "desc": "Morning breakfast with sunrise views over the mountains. Visit remaining local viewpoints and handicraft markets. Depart for return drive to Islamabad by evening and Lahore by late night."
       }
     ],
     "packages": [
@@ -4390,19 +4610,24 @@ window.TOUR_DATA = {
     ],
     "itinerary": [
       {
-        "day": "Morning",
-        "title": "Departure & Pickup",
-        "desc": "Pickup from hotel/residence in private vehicle. Highway drive with refreshment stop."
+        "day": "Day 1",
+        "title": "Departure from Islamabad/Lahore & Journey Towards Azad Kashmir & Neelum Valley",
+        "desc": "Pick-up of participants from Lahore / Islamabad. Morning drive along Hazara Motorway / scenic highway. Travel through scenic mountain passes with refreshment stops at riverside points. Hotel check-in and evening welcome briefing."
       },
       {
-        "day": "Afternoon",
-        "title": "Guided Exploration & Activity",
-        "desc": "Arrive at destination. Guided tour of key monuments, photography stops, and water activities."
+        "day": "Day 2",
+        "title": "Scenic Drive to Azad Kashmir & Neelum Valley & Core Attractions",
+        "desc": "Breakfast at hotel. Proceed towards Azad Kashmir & Neelum Valley. Experience spectacular views of snow-clad peaks and alpine rivers. Visit major landmarks, check into main valley hotel/campsite, followed by an evening bonfire and local dinner."
       },
       {
-        "day": "Evening",
-        "title": "Local Food Tasting & Return",
-        "desc": "Enjoy famous regional food & tea. Return drive with drop-off at your hotel by 07:00 PM."
+        "day": "Day 3",
+        "title": "Excursion to Full guided excursion for Kashmir Tour Arang Kel Taobat – 04 Days",
+        "desc": "Full day adventure exploring pristine alpine points. Full guided excursion for Kashmir Tour Arang Kel Taobat – 04 Days. Private AC transport with driver, fuel, tolls & parking. Enjoy evening cultural music and bonfire at hotel."
+      },
+      {
+        "day": "Day 4",
+        "title": "Return Journey to Islamabad & Lahore",
+        "desc": "Breakfast call at hotel. Start return travel back through scenic valleys. Short stops for photography and souvenirs. Arrival in Islamabad by early evening and Lahore by late night."
       }
     ],
     "packages": [
@@ -4489,19 +4714,29 @@ window.TOUR_DATA = {
     ],
     "itinerary": [
       {
-        "day": "Morning",
-        "title": "Departure & Pickup",
-        "desc": "Pickup from hotel/residence in private vehicle. Highway drive with refreshment stop."
+        "day": "Day 1",
+        "title": "Departure from Islamabad/Lahore & Journey Towards Azad Kashmir & Neelum Valley",
+        "desc": "Pick-up of participants from Lahore / Islamabad. Morning drive along Hazara Motorway / scenic highway. Travel through scenic mountain passes with refreshment stops at riverside points. Hotel check-in and evening welcome briefing."
       },
       {
-        "day": "Afternoon",
-        "title": "Guided Exploration & Activity",
-        "desc": "Arrive at destination. Guided tour of key monuments, photography stops, and water activities."
+        "day": "Day 2",
+        "title": "Scenic Drive to Azad Kashmir & Neelum Valley & Core Attractions",
+        "desc": "Breakfast at hotel. Proceed towards Azad Kashmir & Neelum Valley. Experience spectacular views of snow-clad peaks and alpine rivers. Visit major landmarks, check into main valley hotel/campsite, followed by an evening bonfire and local dinner."
       },
       {
-        "day": "Evening",
-        "title": "Local Food Tasting & Return",
-        "desc": "Enjoy famous regional food & tea. Return drive with drop-off at your hotel by 07:00 PM."
+        "day": "Day 3",
+        "title": "Excursion to Full guided excursion for Murree & Azad Kashmir Tour (05 Days)",
+        "desc": "Full day adventure exploring pristine alpine points. Full guided excursion for Murree & Azad Kashmir Tour (05 Days). Private AC transport with driver, fuel, tolls & parking. Enjoy evening cultural music and bonfire at hotel."
+      },
+      {
+        "day": "Day 4",
+        "title": "Heritage, Lakes & Cultural Walk in Azad Kashmir & Neelum Valley",
+        "desc": "Discover ancient forts, crystal clear lakes, and historic settlements in the region. Sightseeing at historical monuments, bazaars & viewpoints."
+      },
+      {
+        "day": "Day 5",
+        "title": "Return Journey to Islamabad / Lahore",
+        "desc": "Early morning breakfast. Depart Azad Kashmir & Neelum Valley and travel along the scenic highway. Stop at famous roadside tea spots. Arrive back in Islamabad by evening and drop-off in Lahore late night."
       }
     ],
     "packages": [
@@ -4588,19 +4823,24 @@ window.TOUR_DATA = {
     ],
     "itinerary": [
       {
-        "day": "Morning",
-        "title": "Departure & Pickup",
-        "desc": "Pickup from hotel/residence in private vehicle. Highway drive with refreshment stop."
+        "day": "Day 1",
+        "title": "Departure from Islamabad/Lahore & Journey Towards Azad Kashmir & Neelum Valley",
+        "desc": "Pick-up of participants from Lahore / Islamabad. Morning drive along Hazara Motorway / scenic highway. Travel through scenic mountain passes with refreshment stops at riverside points. Hotel check-in and evening welcome briefing."
       },
       {
-        "day": "Afternoon",
-        "title": "Guided Exploration & Activity",
-        "desc": "Arrive at destination. Guided tour of key monuments, photography stops, and water activities."
+        "day": "Day 2",
+        "title": "Scenic Drive to Azad Kashmir & Neelum Valley & Core Attractions",
+        "desc": "Breakfast at hotel. Proceed towards Azad Kashmir & Neelum Valley. Experience spectacular views of snow-clad peaks and alpine rivers. Visit major landmarks, check into main valley hotel/campsite, followed by an evening bonfire and local dinner."
       },
       {
-        "day": "Evening",
-        "title": "Local Food Tasting & Return",
-        "desc": "Enjoy famous regional food & tea. Return drive with drop-off at your hotel by 07:00 PM."
+        "day": "Day 3",
+        "title": "Excursion to Full guided excursion for Ganga Choti Tour – 04 Days",
+        "desc": "Full day adventure exploring pristine alpine points. Full guided excursion for Ganga Choti Tour – 04 Days. Private AC transport with driver, fuel, tolls & parking. Enjoy evening cultural music and bonfire at hotel."
+      },
+      {
+        "day": "Day 4",
+        "title": "Return Journey to Islamabad & Lahore",
+        "desc": "Breakfast call at hotel. Start return travel back through scenic valleys. Short stops for photography and souvenirs. Arrival in Islamabad by early evening and Lahore by late night."
       }
     ],
     "packages": [
@@ -4687,19 +4927,29 @@ window.TOUR_DATA = {
     ],
     "itinerary": [
       {
-        "day": "Morning",
-        "title": "Departure & Pickup",
-        "desc": "Pickup from hotel/residence in private vehicle. Highway drive with refreshment stop."
+        "day": "Day 1",
+        "title": "Departure from Islamabad/Lahore & Journey Towards Multan City",
+        "desc": "Pick-up of participants from Lahore / Islamabad. Morning drive along Hazara Motorway / scenic highway. Travel through scenic mountain passes with refreshment stops at riverside points. Hotel check-in and evening welcome briefing."
       },
       {
-        "day": "Afternoon",
-        "title": "Guided Exploration & Activity",
-        "desc": "Arrive at destination. Guided tour of key monuments, photography stops, and water activities."
+        "day": "Day 2",
+        "title": "Scenic Drive to Multan City & Core Attractions",
+        "desc": "Breakfast at hotel. Proceed towards Multan City. Experience spectacular views of snow-clad peaks and alpine rivers. Visit major landmarks, check into main valley hotel/campsite, followed by an evening bonfire and local dinner."
       },
       {
-        "day": "Evening",
-        "title": "Local Food Tasting & Return",
-        "desc": "Enjoy famous regional food & tea. Return drive with drop-off at your hotel by 07:00 PM."
+        "day": "Day 3",
+        "title": "Excursion to Full guided excursion for Multan City Tour: Explore the Land of Mystics",
+        "desc": "Full day adventure exploring pristine alpine points. Full guided excursion for Multan City Tour: Explore the Land of Mystics. Private AC transport with driver, fuel, tolls & parking. Enjoy evening cultural music and bonfire at hotel."
+      },
+      {
+        "day": "Day 4",
+        "title": "Heritage, Lakes & Cultural Walk in Multan City",
+        "desc": "Discover ancient forts, crystal clear lakes, and historic settlements in the region. Sightseeing at historical monuments, bazaars & viewpoints."
+      },
+      {
+        "day": "Day 5",
+        "title": "Return Journey to Islamabad / Lahore",
+        "desc": "Early morning breakfast. Depart Multan City and travel along the scenic highway. Stop at famous roadside tea spots. Arrive back in Islamabad by evening and drop-off in Lahore late night."
       }
     ],
     "packages": [
@@ -4786,19 +5036,14 @@ window.TOUR_DATA = {
     ],
     "itinerary": [
       {
-        "day": "Morning",
-        "title": "Departure & Pickup",
-        "desc": "Pickup from hotel/residence in private vehicle. Highway drive with refreshment stop."
+        "day": "Day 1",
+        "title": "Departure from Islamabad/Lahore & Journey Towards Faisalabad City",
+        "desc": "Pick-up of participants from Lahore / Islamabad. Morning drive along Hazara Motorway / scenic highway. Travel through scenic mountain passes with refreshment stops at riverside points. Hotel check-in and evening welcome briefing."
       },
       {
-        "day": "Afternoon",
-        "title": "Guided Exploration & Activity",
-        "desc": "Arrive at destination. Guided tour of key monuments, photography stops, and water activities."
-      },
-      {
-        "day": "Evening",
-        "title": "Local Food Tasting & Return",
-        "desc": "Enjoy famous regional food & tea. Return drive with drop-off at your hotel by 07:00 PM."
+        "day": "Day 2",
+        "title": "Guided Exploration of Faisalabad City & Return Journey",
+        "desc": "Morning breakfast at hotel. Enjoy full day guided sightseeing across top attractions, photography viewpoints, and local bazaars. Board transport in afternoon for return journey to Islamabad and Lahore."
       }
     ],
     "packages": [
@@ -4885,19 +5130,19 @@ window.TOUR_DATA = {
     ],
     "itinerary": [
       {
-        "day": "Morning",
-        "title": "Departure & Pickup",
-        "desc": "Pickup from hotel/residence in private vehicle. Highway drive with refreshment stop."
+        "day": "Day 1",
+        "title": "Departure from Islamabad/Lahore & Journey Towards Sialkot City",
+        "desc": "Pick-up of participants from Lahore / Islamabad. Morning drive along Hazara Motorway / scenic highway. Travel through scenic mountain passes with refreshment stops at riverside points. Hotel check-in and evening welcome briefing."
       },
       {
-        "day": "Afternoon",
-        "title": "Guided Exploration & Activity",
-        "desc": "Arrive at destination. Guided tour of key monuments, photography stops, and water activities."
+        "day": "Day 2",
+        "title": "Scenic Drive to Sialkot City & Core Attractions",
+        "desc": "Breakfast at hotel. Proceed towards Sialkot City. Experience spectacular views of snow-clad peaks and alpine rivers. Visit major landmarks, check into main valley hotel/campsite, followed by an evening bonfire and local dinner."
       },
       {
-        "day": "Evening",
-        "title": "Local Food Tasting & Return",
-        "desc": "Enjoy famous regional food & tea. Return drive with drop-off at your hotel by 07:00 PM."
+        "day": "Day 3",
+        "title": "Final Sightseeing in Sialkot City & Return Journey",
+        "desc": "Morning breakfast with sunrise views over the mountains. Visit remaining local viewpoints and handicraft markets. Depart for return drive to Islamabad by evening and Lahore by late night."
       }
     ],
     "packages": [
@@ -4984,19 +5229,14 @@ window.TOUR_DATA = {
     ],
     "itinerary": [
       {
-        "day": "Morning",
-        "title": "Departure & Pickup",
-        "desc": "Pickup from hotel/residence in private vehicle. Highway drive with refreshment stop."
+        "day": "Day 1",
+        "title": "Departure from Islamabad/Lahore & Journey Towards Peshawar & Khyber Pass",
+        "desc": "Pick-up of participants from Lahore / Islamabad. Morning drive along Hazara Motorway / scenic highway. Travel through scenic mountain passes with refreshment stops at riverside points. Hotel check-in and evening welcome briefing."
       },
       {
-        "day": "Afternoon",
-        "title": "Guided Exploration & Activity",
-        "desc": "Arrive at destination. Guided tour of key monuments, photography stops, and water activities."
-      },
-      {
-        "day": "Evening",
-        "title": "Local Food Tasting & Return",
-        "desc": "Enjoy famous regional food & tea. Return drive with drop-off at your hotel by 07:00 PM."
+        "day": "Day 2",
+        "title": "Guided Exploration of Peshawar & Khyber Pass & Return Journey",
+        "desc": "Morning breakfast at hotel. Enjoy full day guided sightseeing across top attractions, photography viewpoints, and local bazaars. Board transport in afternoon for return journey to Islamabad and Lahore."
       }
     ],
     "packages": [
@@ -5083,19 +5323,29 @@ window.TOUR_DATA = {
     ],
     "itinerary": [
       {
-        "day": "Morning",
-        "title": "Departure & Pickup",
-        "desc": "Pickup from hotel/residence in private vehicle. Highway drive with refreshment stop."
+        "day": "Day 1",
+        "title": "Departure from Islamabad/Lahore & Journey Towards Gujranwala City",
+        "desc": "Pick-up of participants from Lahore / Islamabad. Morning drive along Hazara Motorway / scenic highway. Travel through scenic mountain passes with refreshment stops at riverside points. Hotel check-in and evening welcome briefing."
       },
       {
-        "day": "Afternoon",
-        "title": "Guided Exploration & Activity",
-        "desc": "Arrive at destination. Guided tour of key monuments, photography stops, and water activities."
+        "day": "Day 2",
+        "title": "Scenic Drive to Gujranwala City & Core Attractions",
+        "desc": "Breakfast at hotel. Proceed towards Gujranwala City. Experience spectacular views of snow-clad peaks and alpine rivers. Visit major landmarks, check into main valley hotel/campsite, followed by an evening bonfire and local dinner."
       },
       {
-        "day": "Evening",
-        "title": "Local Food Tasting & Return",
-        "desc": "Enjoy famous regional food & tea. Return drive with drop-off at your hotel by 07:00 PM."
+        "day": "Day 3",
+        "title": "Excursion to Full guided excursion for Gujranwala City Tour",
+        "desc": "Full day adventure exploring pristine alpine points. Full guided excursion for Gujranwala City Tour. Private AC transport with driver, fuel, tolls & parking. Enjoy evening cultural music and bonfire at hotel."
+      },
+      {
+        "day": "Day 4",
+        "title": "Heritage, Lakes & Cultural Walk in Gujranwala City",
+        "desc": "Discover ancient forts, crystal clear lakes, and historic settlements in the region. Sightseeing at historical monuments, bazaars & viewpoints."
+      },
+      {
+        "day": "Day 5",
+        "title": "Return Journey to Islamabad / Lahore",
+        "desc": "Early morning breakfast. Depart Gujranwala City and travel along the scenic highway. Stop at famous roadside tea spots. Arrive back in Islamabad by evening and drop-off in Lahore late night."
       }
     ],
     "packages": [
@@ -5183,18 +5433,18 @@ window.TOUR_DATA = {
     "itinerary": [
       {
         "day": "Morning",
-        "title": "Departure & Pickup",
-        "desc": "Pickup from hotel/residence in private vehicle. Highway drive with refreshment stop."
+        "title": "Departure & Scenic Drive to Lahore Cultural Heritage",
+        "desc": "Early morning pickup from designated location in Islamabad/Lahore. Travel via expressway/highway with brief breakfast and refreshment stops along the scenic route."
       },
       {
         "day": "Afternoon",
-        "title": "Guided Exploration & Activity",
-        "desc": "Arrive at destination. Guided tour of key monuments, photography stops, and water activities."
+        "title": "Guided Exploration & Sightseeing in Lahore Cultural Heritage",
+        "desc": "Arrival at Lahore Cultural Heritage. Enjoy a comprehensive guided tour covering key historical sites, viewpoints, river banks, photography spots, and local attractions."
       },
       {
         "day": "Evening",
-        "title": "Local Food Tasting & Return",
-        "desc": "Enjoy famous regional food & tea. Return drive with drop-off at your hotel by 07:00 PM."
+        "title": "Traditional Tea, Cultural Experience & Return",
+        "desc": "Relax with authentic regional tea and local street food sampling. Depart for return journey, arriving back at pickup hub by late evening."
       }
     ],
     "packages": [
@@ -5281,19 +5531,44 @@ window.TOUR_DATA = {
     ],
     "itinerary": [
       {
-        "day": "Morning",
-        "title": "Departure & Pickup",
-        "desc": "Pickup from hotel/residence in private vehicle. Highway drive with refreshment stop."
+        "day": "Day 1",
+        "title": "Departure from Islamabad/Lahore & Journey Towards Lahore Cultural Heritage",
+        "desc": "Pick-up of participants from Lahore / Islamabad. Morning drive along Hazara Motorway / scenic highway. Travel through scenic mountain passes with refreshment stops at riverside points. Hotel check-in and evening welcome briefing."
       },
       {
-        "day": "Afternoon",
-        "title": "Guided Exploration & Activity",
-        "desc": "Arrive at destination. Guided tour of key monuments, photography stops, and water activities."
+        "day": "Day 2",
+        "title": "Scenic Drive to Lahore Cultural Heritage & Core Attractions",
+        "desc": "Breakfast at hotel. Proceed towards Lahore Cultural Heritage. Experience spectacular views of snow-clad peaks and alpine rivers. Visit major landmarks, check into main valley hotel/campsite, followed by an evening bonfire and local dinner."
       },
       {
-        "day": "Evening",
-        "title": "Local Food Tasting & Return",
-        "desc": "Enjoy famous regional food & tea. Return drive with drop-off at your hotel by 07:00 PM."
+        "day": "Day 3",
+        "title": "Excursion to Full guided excursion for Pakistan Food Tour: A Journey of Flavors",
+        "desc": "Full day adventure exploring pristine alpine points. Full guided excursion for Pakistan Food Tour: A Journey of Flavors. Private AC transport with driver, fuel, tolls & parking. Enjoy evening cultural music and bonfire at hotel."
+      },
+      {
+        "day": "Day 4",
+        "title": "Heritage, Lakes & Cultural Walk in Lahore Cultural Heritage",
+        "desc": "Discover ancient forts, crystal clear lakes, and historic settlements in the region. Sightseeing at historical monuments, bazaars & viewpoints."
+      },
+      {
+        "day": "Day 5",
+        "title": "4x4 Mountain Pass Excursion & High Altitude Meadows",
+        "desc": "Thrilling off-road 4x4 Jeep ride to remote high-altitude meadows and border viewpoints. Scenic picnic lunch amidst pristine alpine nature. Overnight stay under starry skies at mountain resort."
+      },
+      {
+        "day": "Day 6",
+        "title": "Glacier Views & Remote Settlement Exploration",
+        "desc": "Guided trek towards nearby glacier viewpoints and alpine meadows. Experience panoramic vistas of 7000m+ Himalayan/Karakoram peaks."
+      },
+      {
+        "day": "Day 7",
+        "title": "Cultural Heritage & Local Artisan Bazaar Walk",
+        "desc": "Explore centuries-old mountain forts, traditional handicraft workshops, dry fruit bazaars, and gemstone markets."
+      },
+      {
+        "day": "Day 8",
+        "title": "Final Return Journey to Islamabad & Lahore",
+        "desc": "Morning breakfast. Depart from mountain base and drive back along the highway. Transfer to comfortable coasters/cabins. Arrival in Islamabad by evening and drop-off in Lahore by late night with cherished expedition memories."
       }
     ],
     "packages": [
@@ -5380,19 +5655,14 @@ window.TOUR_DATA = {
     ],
     "itinerary": [
       {
-        "day": "Morning",
-        "title": "Departure & Pickup",
-        "desc": "Pickup from hotel/residence in private vehicle. Highway drive with refreshment stop."
+        "day": "Day 1",
+        "title": "Departure from Islamabad/Lahore & Journey Towards Peshawar & Khyber Pass",
+        "desc": "Pick-up of participants from Lahore / Islamabad. Morning drive along Hazara Motorway / scenic highway. Travel through scenic mountain passes with refreshment stops at riverside points. Hotel check-in and evening welcome briefing."
       },
       {
-        "day": "Afternoon",
-        "title": "Guided Exploration & Activity",
-        "desc": "Arrive at destination. Guided tour of key monuments, photography stops, and water activities."
-      },
-      {
-        "day": "Evening",
-        "title": "Local Food Tasting & Return",
-        "desc": "Enjoy famous regional food & tea. Return drive with drop-off at your hotel by 07:00 PM."
+        "day": "Day 2",
+        "title": "Guided Exploration of Peshawar & Khyber Pass & Return Journey",
+        "desc": "Morning breakfast at hotel. Enjoy full day guided sightseeing across top attractions, photography viewpoints, and local bazaars. Board transport in afternoon for return journey to Islamabad and Lahore."
       }
     ],
     "packages": [
@@ -5479,19 +5749,19 @@ window.TOUR_DATA = {
     ],
     "itinerary": [
       {
-        "day": "Morning",
-        "title": "Departure & Pickup",
-        "desc": "Pickup from hotel/residence in private vehicle. Highway drive with refreshment stop."
+        "day": "Day 1",
+        "title": "Departure from Islamabad/Lahore & Journey Towards Peshawar & Khyber Pass",
+        "desc": "Pick-up of participants from Lahore / Islamabad. Morning drive along Hazara Motorway / scenic highway. Travel through scenic mountain passes with refreshment stops at riverside points. Hotel check-in and evening welcome briefing."
       },
       {
-        "day": "Afternoon",
-        "title": "Guided Exploration & Activity",
-        "desc": "Arrive at destination. Guided tour of key monuments, photography stops, and water activities."
+        "day": "Day 2",
+        "title": "Scenic Drive to Peshawar & Khyber Pass & Core Attractions",
+        "desc": "Breakfast at hotel. Proceed towards Peshawar & Khyber Pass. Experience spectacular views of snow-clad peaks and alpine rivers. Visit major landmarks, check into main valley hotel/campsite, followed by an evening bonfire and local dinner."
       },
       {
-        "day": "Evening",
-        "title": "Local Food Tasting & Return",
-        "desc": "Enjoy famous regional food & tea. Return drive with drop-off at your hotel by 07:00 PM."
+        "day": "Day 3",
+        "title": "Final Sightseeing in Peshawar & Khyber Pass & Return Journey",
+        "desc": "Morning breakfast with sunrise views over the mountains. Visit remaining local viewpoints and handicraft markets. Depart for return drive to Islamabad by evening and Lahore by late night."
       }
     ],
     "packages": [
@@ -5578,19 +5848,14 @@ window.TOUR_DATA = {
     ],
     "itinerary": [
       {
-        "day": "Morning",
-        "title": "Departure & Pickup",
-        "desc": "Pickup from hotel/residence in private vehicle. Highway drive with refreshment stop."
+        "day": "Day 1",
+        "title": "Departure from Islamabad/Lahore & Journey Towards Quetta Street Food",
+        "desc": "Pick-up of participants from Lahore / Islamabad. Morning drive along Hazara Motorway / scenic highway. Travel through scenic mountain passes with refreshment stops at riverside points. Hotel check-in and evening welcome briefing."
       },
       {
-        "day": "Afternoon",
-        "title": "Guided Exploration & Activity",
-        "desc": "Arrive at destination. Guided tour of key monuments, photography stops, and water activities."
-      },
-      {
-        "day": "Evening",
-        "title": "Local Food Tasting & Return",
-        "desc": "Enjoy famous regional food & tea. Return drive with drop-off at your hotel by 07:00 PM."
+        "day": "Day 2",
+        "title": "Guided Exploration of Quetta Street Food & Return Journey",
+        "desc": "Morning breakfast at hotel. Enjoy full day guided sightseeing across top attractions, photography viewpoints, and local bazaars. Board transport in afternoon for return journey to Islamabad and Lahore."
       }
     ],
     "packages": [
@@ -5677,19 +5942,24 @@ window.TOUR_DATA = {
     ],
     "itinerary": [
       {
-        "day": "Morning",
-        "title": "Departure & Pickup",
-        "desc": "Pickup from hotel/residence in private vehicle. Highway drive with refreshment stop."
+        "day": "Day 1",
+        "title": "Departure from Islamabad/Lahore & Journey Towards Quetta",
+        "desc": "Pick-up of participants from Lahore / Islamabad. Morning drive along Hazara Motorway / scenic highway. Travel through scenic mountain passes with refreshment stops at riverside points. Hotel check-in and evening welcome briefing."
       },
       {
-        "day": "Afternoon",
-        "title": "Guided Exploration & Activity",
-        "desc": "Arrive at destination. Guided tour of key monuments, photography stops, and water activities."
+        "day": "Day 2",
+        "title": "Scenic Drive to Quetta & Core Attractions",
+        "desc": "Breakfast at hotel. Proceed towards Quetta. Experience spectacular views of snow-clad peaks and alpine rivers. Visit major landmarks, check into main valley hotel/campsite, followed by an evening bonfire and local dinner."
       },
       {
-        "day": "Evening",
-        "title": "Local Food Tasting & Return",
-        "desc": "Enjoy famous regional food & tea. Return drive with drop-off at your hotel by 07:00 PM."
+        "day": "Day 3",
+        "title": "Excursion to Full guided excursion for Quetta Tour",
+        "desc": "Full day adventure exploring pristine alpine points. Full guided excursion for Quetta Tour. Private AC transport with driver, fuel, tolls & parking. Enjoy evening cultural music and bonfire at hotel."
+      },
+      {
+        "day": "Day 4",
+        "title": "Return Journey to Islamabad & Lahore",
+        "desc": "Breakfast call at hotel. Start return travel back through scenic valleys. Short stops for photography and souvenirs. Arrival in Islamabad by early evening and Lahore by late night."
       }
     ],
     "packages": [
@@ -5777,18 +6047,18 @@ window.TOUR_DATA = {
     "itinerary": [
       {
         "day": "Morning",
-        "title": "Departure & Pickup",
-        "desc": "Pickup from hotel/residence in private vehicle. Highway drive with refreshment stop."
+        "title": "Departure & Scenic Drive to Islamabad & Margalla Hills",
+        "desc": "Early morning pickup from designated location in Islamabad/Lahore. Travel via expressway/highway with brief breakfast and refreshment stops along the scenic route."
       },
       {
         "day": "Afternoon",
-        "title": "Guided Exploration & Activity",
-        "desc": "Arrive at destination. Guided tour of key monuments, photography stops, and water activities."
+        "title": "Guided Exploration & Sightseeing in Islamabad & Margalla Hills",
+        "desc": "Arrival at Islamabad & Margalla Hills. Enjoy a comprehensive guided tour covering key historical sites, viewpoints, river banks, photography spots, and local attractions."
       },
       {
         "day": "Evening",
-        "title": "Local Food Tasting & Return",
-        "desc": "Enjoy famous regional food & tea. Return drive with drop-off at your hotel by 07:00 PM."
+        "title": "Traditional Tea, Cultural Experience & Return",
+        "desc": "Relax with authentic regional tea and local street food sampling. Depart for return journey, arriving back at pickup hub by late evening."
       }
     ],
     "packages": [
@@ -5875,19 +6145,24 @@ window.TOUR_DATA = {
     ],
     "itinerary": [
       {
-        "day": "Morning",
-        "title": "Departure & Pickup",
-        "desc": "Pickup from hotel/residence in private vehicle. Highway drive with refreshment stop."
+        "day": "Day 1",
+        "title": "Departure from Islamabad/Lahore & Journey Towards Bolan Pass Train",
+        "desc": "Pick-up of participants from Lahore / Islamabad. Morning drive along Hazara Motorway / scenic highway. Travel through scenic mountain passes with refreshment stops at riverside points. Hotel check-in and evening welcome briefing."
       },
       {
-        "day": "Afternoon",
-        "title": "Guided Exploration & Activity",
-        "desc": "Arrive at destination. Guided tour of key monuments, photography stops, and water activities."
+        "day": "Day 2",
+        "title": "Scenic Drive to Bolan Pass Train & Core Attractions",
+        "desc": "Breakfast at hotel. Proceed towards Bolan Pass Train. Experience spectacular views of snow-clad peaks and alpine rivers. Visit major landmarks, check into main valley hotel/campsite, followed by an evening bonfire and local dinner."
       },
       {
-        "day": "Evening",
-        "title": "Local Food Tasting & Return",
-        "desc": "Enjoy famous regional food & tea. Return drive with drop-off at your hotel by 07:00 PM."
+        "day": "Day 3",
+        "title": "Excursion to Full guided excursion for Bolan Pass Train Tour",
+        "desc": "Full day adventure exploring pristine alpine points. Full guided excursion for Bolan Pass Train Tour. Private AC transport with driver, fuel, tolls & parking. Enjoy evening cultural music and bonfire at hotel."
+      },
+      {
+        "day": "Day 4",
+        "title": "Return Journey to Islamabad & Lahore",
+        "desc": "Breakfast call at hotel. Start return travel back through scenic valleys. Short stops for photography and souvenirs. Arrival in Islamabad by early evening and Lahore by late night."
       }
     ],
     "packages": [
@@ -5975,18 +6250,18 @@ window.TOUR_DATA = {
     "itinerary": [
       {
         "day": "Morning",
-        "title": "Departure & Pickup",
-        "desc": "Pickup from hotel/residence in private vehicle. Highway drive with refreshment stop."
+        "title": "Departure & Scenic Drive to Vesaki Day Festival Taxila",
+        "desc": "Early morning pickup from designated location in Islamabad/Lahore. Travel via expressway/highway with brief breakfast and refreshment stops along the scenic route."
       },
       {
         "day": "Afternoon",
-        "title": "Guided Exploration & Activity",
-        "desc": "Arrive at destination. Guided tour of key monuments, photography stops, and water activities."
+        "title": "Guided Exploration & Sightseeing in Vesaki Day Festival Taxila",
+        "desc": "Arrival at Vesaki Day Festival Taxila. Enjoy a comprehensive guided tour covering key historical sites, viewpoints, river banks, photography spots, and local attractions."
       },
       {
         "day": "Evening",
-        "title": "Local Food Tasting & Return",
-        "desc": "Enjoy famous regional food & tea. Return drive with drop-off at your hotel by 07:00 PM."
+        "title": "Traditional Tea, Cultural Experience & Return",
+        "desc": "Relax with authentic regional tea and local street food sampling. Depart for return journey, arriving back at pickup hub by late evening."
       }
     ],
     "packages": [
@@ -6073,19 +6348,24 @@ window.TOUR_DATA = {
     ],
     "itinerary": [
       {
-        "day": "Morning",
-        "title": "Departure & Pickup",
-        "desc": "Pickup from hotel/residence in private vehicle. Highway drive with refreshment stop."
+        "day": "Day 1",
+        "title": "Departure from Islamabad/Lahore & Journey Towards Tirah Valley",
+        "desc": "Pick-up of participants from Lahore / Islamabad. Morning drive along Hazara Motorway / scenic highway. Travel through scenic mountain passes with refreshment stops at riverside points. Hotel check-in and evening welcome briefing."
       },
       {
-        "day": "Afternoon",
-        "title": "Guided Exploration & Activity",
-        "desc": "Arrive at destination. Guided tour of key monuments, photography stops, and water activities."
+        "day": "Day 2",
+        "title": "Scenic Drive to Tirah Valley & Core Attractions",
+        "desc": "Breakfast at hotel. Proceed towards Tirah Valley. Experience spectacular views of snow-clad peaks and alpine rivers. Visit major landmarks, check into main valley hotel/campsite, followed by an evening bonfire and local dinner."
       },
       {
-        "day": "Evening",
-        "title": "Local Food Tasting & Return",
-        "desc": "Enjoy famous regional food & tea. Return drive with drop-off at your hotel by 07:00 PM."
+        "day": "Day 3",
+        "title": "Excursion to Full guided excursion for Tirah Valley Tour",
+        "desc": "Full day adventure exploring pristine alpine points. Full guided excursion for Tirah Valley Tour. Private AC transport with driver, fuel, tolls & parking. Enjoy evening cultural music and bonfire at hotel."
+      },
+      {
+        "day": "Day 4",
+        "title": "Return Journey to Islamabad & Lahore",
+        "desc": "Breakfast call at hotel. Start return travel back through scenic valleys. Short stops for photography and souvenirs. Arrival in Islamabad by early evening and Lahore by late night."
       }
     ],
     "packages": [
@@ -6173,18 +6453,18 @@ window.TOUR_DATA = {
     "itinerary": [
       {
         "day": "Morning",
-        "title": "Departure & Pickup",
-        "desc": "Pickup from hotel/residence in private vehicle. Highway drive with refreshment stop."
+        "title": "Departure & Scenic Drive to Islamabad & Margalla Hills",
+        "desc": "Early morning pickup from designated location in Islamabad/Lahore. Travel via expressway/highway with brief breakfast and refreshment stops along the scenic route."
       },
       {
         "day": "Afternoon",
-        "title": "Guided Exploration & Activity",
-        "desc": "Arrive at destination. Guided tour of key monuments, photography stops, and water activities."
+        "title": "Guided Exploration & Sightseeing in Islamabad & Margalla Hills",
+        "desc": "Arrival at Islamabad & Margalla Hills. Enjoy a comprehensive guided tour covering key historical sites, viewpoints, river banks, photography spots, and local attractions."
       },
       {
         "day": "Evening",
-        "title": "Local Food Tasting & Return",
-        "desc": "Enjoy famous regional food & tea. Return drive with drop-off at your hotel by 07:00 PM."
+        "title": "Traditional Tea, Cultural Experience & Return",
+        "desc": "Relax with authentic regional tea and local street food sampling. Depart for return journey, arriving back at pickup hub by late evening."
       }
     ],
     "packages": [
@@ -6272,18 +6552,18 @@ window.TOUR_DATA = {
     "itinerary": [
       {
         "day": "Morning",
-        "title": "Departure & Pickup",
-        "desc": "Pickup from hotel/residence in private vehicle. Highway drive with refreshment stop."
+        "title": "Departure & Scenic Drive to Islamabad & Margalla Hills",
+        "desc": "Early morning pickup from designated location in Islamabad/Lahore. Travel via expressway/highway with brief breakfast and refreshment stops along the scenic route."
       },
       {
         "day": "Afternoon",
-        "title": "Guided Exploration & Activity",
-        "desc": "Arrive at destination. Guided tour of key monuments, photography stops, and water activities."
+        "title": "Guided Exploration & Sightseeing in Islamabad & Margalla Hills",
+        "desc": "Arrival at Islamabad & Margalla Hills. Enjoy a comprehensive guided tour covering key historical sites, viewpoints, river banks, photography spots, and local attractions."
       },
       {
         "day": "Evening",
-        "title": "Local Food Tasting & Return",
-        "desc": "Enjoy famous regional food & tea. Return drive with drop-off at your hotel by 07:00 PM."
+        "title": "Traditional Tea, Cultural Experience & Return",
+        "desc": "Relax with authentic regional tea and local street food sampling. Depart for return journey, arriving back at pickup hub by late evening."
       }
     ],
     "packages": [
@@ -6370,19 +6650,14 @@ window.TOUR_DATA = {
     ],
     "itinerary": [
       {
-        "day": "Morning",
-        "title": "Departure & Pickup",
-        "desc": "Pickup from hotel/residence in private vehicle. Highway drive with refreshment stop."
+        "day": "Day 1",
+        "title": "Departure from Islamabad/Lahore & Journey Towards Tanda Lake Kohat",
+        "desc": "Pick-up of participants from Lahore / Islamabad. Morning drive along Hazara Motorway / scenic highway. Travel through scenic mountain passes with refreshment stops at riverside points. Hotel check-in and evening welcome briefing."
       },
       {
-        "day": "Afternoon",
-        "title": "Guided Exploration & Activity",
-        "desc": "Arrive at destination. Guided tour of key monuments, photography stops, and water activities."
-      },
-      {
-        "day": "Evening",
-        "title": "Local Food Tasting & Return",
-        "desc": "Enjoy famous regional food & tea. Return drive with drop-off at your hotel by 07:00 PM."
+        "day": "Day 2",
+        "title": "Guided Exploration of Tanda Lake Kohat & Return Journey",
+        "desc": "Morning breakfast at hotel. Enjoy full day guided sightseeing across top attractions, photography viewpoints, and local bazaars. Board transport in afternoon for return journey to Islamabad and Lahore."
       }
     ],
     "packages": [
@@ -6469,19 +6744,54 @@ window.TOUR_DATA = {
     ],
     "itinerary": [
       {
-        "day": "Morning",
-        "title": "Departure & Pickup",
-        "desc": "Pickup from hotel/residence in private vehicle. Highway drive with refreshment stop."
+        "day": "Day 1",
+        "title": "Departure from Islamabad/Lahore & Journey Towards Makran Coastal Highway",
+        "desc": "Pick-up of participants from Lahore / Islamabad. Morning drive along Hazara Motorway / scenic highway. Travel through scenic mountain passes with refreshment stops at riverside points. Hotel check-in and evening welcome briefing."
       },
       {
-        "day": "Afternoon",
-        "title": "Guided Exploration & Activity",
-        "desc": "Arrive at destination. Guided tour of key monuments, photography stops, and water activities."
+        "day": "Day 2",
+        "title": "Scenic Drive to Makran Coastal Highway & Core Attractions",
+        "desc": "Breakfast at hotel. Proceed towards Makran Coastal Highway. Experience spectacular views of snow-clad peaks and alpine rivers. Visit major landmarks, check into main valley hotel/campsite, followed by an evening bonfire and local dinner."
       },
       {
-        "day": "Evening",
-        "title": "Local Food Tasting & Return",
-        "desc": "Enjoy famous regional food & tea. Return drive with drop-off at your hotel by 07:00 PM."
+        "day": "Day 3",
+        "title": "Excursion to Full guided excursion for Makran Coastal Highway Tour (2024-25)",
+        "desc": "Full day adventure exploring pristine alpine points. Full guided excursion for Makran Coastal Highway Tour (2024-25). Private AC transport with driver, fuel, tolls & parking. Enjoy evening cultural music and bonfire at hotel."
+      },
+      {
+        "day": "Day 4",
+        "title": "Heritage, Lakes & Cultural Walk in Makran Coastal Highway",
+        "desc": "Discover ancient forts, crystal clear lakes, and historic settlements in the region. Sightseeing at historical monuments, bazaars & viewpoints."
+      },
+      {
+        "day": "Day 5",
+        "title": "4x4 Mountain Pass Excursion & High Altitude Meadows",
+        "desc": "Thrilling off-road 4x4 Jeep ride to remote high-altitude meadows and border viewpoints. Scenic picnic lunch amidst pristine alpine nature. Overnight stay under starry skies at mountain resort."
+      },
+      {
+        "day": "Day 6",
+        "title": "Glacier Views & Remote Settlement Exploration",
+        "desc": "Guided trek towards nearby glacier viewpoints and alpine meadows. Experience panoramic vistas of 7000m+ Himalayan/Karakoram peaks."
+      },
+      {
+        "day": "Day 7",
+        "title": "Cultural Heritage & Local Artisan Bazaar Walk",
+        "desc": "Explore centuries-old mountain forts, traditional handicraft workshops, dry fruit bazaars, and gemstone markets."
+      },
+      {
+        "day": "Day 8",
+        "title": "High Altitude Wildlife & Photography Safari",
+        "desc": "Early morning excursion to wildlife habitats and panoramic high passes. Unrestricted photography time in pristine high-altitude ecosystems."
+      },
+      {
+        "day": "Day 9",
+        "title": "Cross-Valley Scenic Route & Secret Viewpoints",
+        "desc": "Travel across adjacent mountain valleys along dramatic gorge roads and river crossings. Evening starlit camping/resort stay."
+      },
+      {
+        "day": "Day 10",
+        "title": "Final Return Journey to Islamabad & Lahore",
+        "desc": "Morning breakfast. Depart from mountain base and drive back along the highway. Transfer to comfortable coasters/cabins. Arrival in Islamabad by evening and drop-off in Lahore by late night with cherished expedition memories."
       }
     ],
     "packages": [
@@ -6569,18 +6879,18 @@ window.TOUR_DATA = {
     "itinerary": [
       {
         "day": "Morning",
-        "title": "Departure & Pickup",
-        "desc": "Pickup from hotel/residence in private vehicle. Highway drive with refreshment stop."
+        "title": "Departure & Scenic Drive to Islamabad & Margalla Hills",
+        "desc": "Early morning pickup from designated location in Islamabad/Lahore. Travel via expressway/highway with brief breakfast and refreshment stops along the scenic route."
       },
       {
         "day": "Afternoon",
-        "title": "Guided Exploration & Activity",
-        "desc": "Arrive at destination. Guided tour of key monuments, photography stops, and water activities."
+        "title": "Guided Exploration & Sightseeing in Islamabad & Margalla Hills",
+        "desc": "Arrival at Islamabad & Margalla Hills. Enjoy a comprehensive guided tour covering key historical sites, viewpoints, river banks, photography spots, and local attractions."
       },
       {
         "day": "Evening",
-        "title": "Local Food Tasting & Return",
-        "desc": "Enjoy famous regional food & tea. Return drive with drop-off at your hotel by 07:00 PM."
+        "title": "Traditional Tea, Cultural Experience & Return",
+        "desc": "Relax with authentic regional tea and local street food sampling. Depart for return journey, arriving back at pickup hub by late evening."
       }
     ],
     "packages": [
@@ -6667,19 +6977,19 @@ window.TOUR_DATA = {
     ],
     "itinerary": [
       {
-        "day": "Morning",
-        "title": "Departure & Pickup",
-        "desc": "Pickup from hotel/residence in private vehicle. Highway drive with refreshment stop."
+        "day": "Day 1",
+        "title": "Departure from Islamabad/Lahore & Journey Towards Kalabagh",
+        "desc": "Pick-up of participants from Lahore / Islamabad. Morning drive along Hazara Motorway / scenic highway. Travel through scenic mountain passes with refreshment stops at riverside points. Hotel check-in and evening welcome briefing."
       },
       {
-        "day": "Afternoon",
-        "title": "Guided Exploration & Activity",
-        "desc": "Arrive at destination. Guided tour of key monuments, photography stops, and water activities."
+        "day": "Day 2",
+        "title": "Scenic Drive to Kalabagh & Core Attractions",
+        "desc": "Breakfast at hotel. Proceed towards Kalabagh. Experience spectacular views of snow-clad peaks and alpine rivers. Visit major landmarks, check into main valley hotel/campsite, followed by an evening bonfire and local dinner."
       },
       {
-        "day": "Evening",
-        "title": "Local Food Tasting & Return",
-        "desc": "Enjoy famous regional food & tea. Return drive with drop-off at your hotel by 07:00 PM."
+        "day": "Day 3",
+        "title": "Final Sightseeing in Kalabagh & Return Journey",
+        "desc": "Morning breakfast with sunrise views over the mountains. Visit remaining local viewpoints and handicraft markets. Depart for return drive to Islamabad by evening and Lahore by late night."
       }
     ],
     "packages": [
@@ -6766,19 +7076,14 @@ window.TOUR_DATA = {
     ],
     "itinerary": [
       {
-        "day": "Morning",
-        "title": "Departure & Pickup",
-        "desc": "Pickup from hotel/residence in private vehicle. Highway drive with refreshment stop."
+        "day": "Day 1",
+        "title": "Departure from Islamabad/Lahore & Journey Towards Lahore Cultural Heritage",
+        "desc": "Pick-up of participants from Lahore / Islamabad. Morning drive along Hazara Motorway / scenic highway. Travel through scenic mountain passes with refreshment stops at riverside points. Hotel check-in and evening welcome briefing."
       },
       {
-        "day": "Afternoon",
-        "title": "Guided Exploration & Activity",
-        "desc": "Arrive at destination. Guided tour of key monuments, photography stops, and water activities."
-      },
-      {
-        "day": "Evening",
-        "title": "Local Food Tasting & Return",
-        "desc": "Enjoy famous regional food & tea. Return drive with drop-off at your hotel by 07:00 PM."
+        "day": "Day 2",
+        "title": "Guided Exploration of Lahore Cultural Heritage & Return Journey",
+        "desc": "Morning breakfast at hotel. Enjoy full day guided sightseeing across top attractions, photography viewpoints, and local bazaars. Board transport in afternoon for return journey to Islamabad and Lahore."
       }
     ],
     "packages": [
@@ -6865,19 +7170,19 @@ window.TOUR_DATA = {
     ],
     "itinerary": [
       {
-        "day": "Morning",
-        "title": "Departure & Pickup",
-        "desc": "Pickup from hotel/residence in private vehicle. Highway drive with refreshment stop."
+        "day": "Day 1",
+        "title": "Departure from Islamabad/Lahore & Journey Towards ",
+        "desc": "Pick-up of participants from Lahore / Islamabad. Morning drive along Hazara Motorway / scenic highway. Travel through scenic mountain passes with refreshment stops at riverside points. Hotel check-in and evening welcome briefing."
       },
       {
-        "day": "Afternoon",
-        "title": "Guided Exploration & Activity",
-        "desc": "Arrive at destination. Guided tour of key monuments, photography stops, and water activities."
+        "day": "Day 2",
+        "title": "Scenic Drive to  & Core Attractions",
+        "desc": "Breakfast at hotel. Proceed towards . Experience spectacular views of snow-clad peaks and alpine rivers. Visit major landmarks, check into main valley hotel/campsite, followed by an evening bonfire and local dinner."
       },
       {
-        "day": "Evening",
-        "title": "Local Food Tasting & Return",
-        "desc": "Enjoy famous regional food & tea. Return drive with drop-off at your hotel by 07:00 PM."
+        "day": "Day 3",
+        "title": "Final Sightseeing in  & Return Journey",
+        "desc": "Morning breakfast with sunrise views over the mountains. Visit remaining local viewpoints and handicraft markets. Depart for return drive to Islamabad by evening and Lahore by late night."
       }
     ],
     "packages": [
@@ -6964,19 +7269,14 @@ window.TOUR_DATA = {
     ],
     "itinerary": [
       {
-        "day": "Morning",
-        "title": "Departure & Pickup",
-        "desc": "Pickup from hotel/residence in private vehicle. Highway drive with refreshment stop."
+        "day": "Day 1",
+        "title": "Departure from Islamabad/Lahore & Journey Towards Peshawar & Khyber Pass",
+        "desc": "Pick-up of participants from Lahore / Islamabad. Morning drive along Hazara Motorway / scenic highway. Travel through scenic mountain passes with refreshment stops at riverside points. Hotel check-in and evening welcome briefing."
       },
       {
-        "day": "Afternoon",
-        "title": "Guided Exploration & Activity",
-        "desc": "Arrive at destination. Guided tour of key monuments, photography stops, and water activities."
-      },
-      {
-        "day": "Evening",
-        "title": "Local Food Tasting & Return",
-        "desc": "Enjoy famous regional food & tea. Return drive with drop-off at your hotel by 07:00 PM."
+        "day": "Day 2",
+        "title": "Guided Exploration of Peshawar & Khyber Pass & Return Journey",
+        "desc": "Morning breakfast at hotel. Enjoy full day guided sightseeing across top attractions, photography viewpoints, and local bazaars. Board transport in afternoon for return journey to Islamabad and Lahore."
       }
     ],
     "packages": [
@@ -7064,18 +7364,18 @@ window.TOUR_DATA = {
     "itinerary": [
       {
         "day": "Morning",
-        "title": "Departure & Pickup",
-        "desc": "Pickup from hotel/residence in private vehicle. Highway drive with refreshment stop."
+        "title": "Departure & Scenic Drive to Islamabad & Margalla Hills",
+        "desc": "Early morning pickup from designated location in Islamabad/Lahore. Travel via expressway/highway with brief breakfast and refreshment stops along the scenic route."
       },
       {
         "day": "Afternoon",
-        "title": "Guided Exploration & Activity",
-        "desc": "Arrive at destination. Guided tour of key monuments, photography stops, and water activities."
+        "title": "Guided Exploration & Sightseeing in Islamabad & Margalla Hills",
+        "desc": "Arrival at Islamabad & Margalla Hills. Enjoy a comprehensive guided tour covering key historical sites, viewpoints, river banks, photography spots, and local attractions."
       },
       {
         "day": "Evening",
-        "title": "Local Food Tasting & Return",
-        "desc": "Enjoy famous regional food & tea. Return drive with drop-off at your hotel by 07:00 PM."
+        "title": "Traditional Tea, Cultural Experience & Return",
+        "desc": "Relax with authentic regional tea and local street food sampling. Depart for return journey, arriving back at pickup hub by late evening."
       }
     ],
     "packages": [
@@ -7163,18 +7463,18 @@ window.TOUR_DATA = {
     "itinerary": [
       {
         "day": "Morning",
-        "title": "Departure & Pickup",
-        "desc": "Pickup from hotel/residence in private vehicle. Highway drive with refreshment stop."
+        "title": "Departure & Scenic Drive to Islamabad & Margalla Hills",
+        "desc": "Early morning pickup from designated location in Islamabad/Lahore. Travel via expressway/highway with brief breakfast and refreshment stops along the scenic route."
       },
       {
         "day": "Afternoon",
-        "title": "Guided Exploration & Activity",
-        "desc": "Arrive at destination. Guided tour of key monuments, photography stops, and water activities."
+        "title": "Guided Exploration & Sightseeing in Islamabad & Margalla Hills",
+        "desc": "Arrival at Islamabad & Margalla Hills. Enjoy a comprehensive guided tour covering key historical sites, viewpoints, river banks, photography spots, and local attractions."
       },
       {
         "day": "Evening",
-        "title": "Local Food Tasting & Return",
-        "desc": "Enjoy famous regional food & tea. Return drive with drop-off at your hotel by 07:00 PM."
+        "title": "Traditional Tea, Cultural Experience & Return",
+        "desc": "Relax with authentic regional tea and local street food sampling. Depart for return journey, arriving back at pickup hub by late evening."
       }
     ],
     "packages": [
@@ -7262,18 +7562,18 @@ window.TOUR_DATA = {
     "itinerary": [
       {
         "day": "Morning",
-        "title": "Departure & Pickup",
-        "desc": "Pickup from hotel/residence in private vehicle. Highway drive with refreshment stop."
+        "title": "Departure & Scenic Drive to Islamabad & Margalla Hills",
+        "desc": "Early morning pickup from designated location in Islamabad/Lahore. Travel via expressway/highway with brief breakfast and refreshment stops along the scenic route."
       },
       {
         "day": "Afternoon",
-        "title": "Guided Exploration & Activity",
-        "desc": "Arrive at destination. Guided tour of key monuments, photography stops, and water activities."
+        "title": "Guided Exploration & Sightseeing in Islamabad & Margalla Hills",
+        "desc": "Arrival at Islamabad & Margalla Hills. Enjoy a comprehensive guided tour covering key historical sites, viewpoints, river banks, photography spots, and local attractions."
       },
       {
         "day": "Evening",
-        "title": "Local Food Tasting & Return",
-        "desc": "Enjoy famous regional food & tea. Return drive with drop-off at your hotel by 07:00 PM."
+        "title": "Traditional Tea, Cultural Experience & Return",
+        "desc": "Relax with authentic regional tea and local street food sampling. Depart for return journey, arriving back at pickup hub by late evening."
       }
     ],
     "packages": [
@@ -7360,19 +7660,74 @@ window.TOUR_DATA = {
     ],
     "itinerary": [
       {
-        "day": "Morning",
-        "title": "Departure & Pickup",
-        "desc": "Pickup from hotel/residence in private vehicle. Highway drive with refreshment stop."
+        "day": "Day 1",
+        "title": "Departure from Islamabad/Lahore & Journey Towards Chitral & Kalash Valley",
+        "desc": "Pick-up of participants from Lahore / Islamabad. Morning drive along Hazara Motorway / scenic highway. Travel through scenic mountain passes with refreshment stops at riverside points. Hotel check-in and evening welcome briefing."
       },
       {
-        "day": "Afternoon",
-        "title": "Guided Exploration & Activity",
-        "desc": "Arrive at destination. Guided tour of key monuments, photography stops, and water activities."
+        "day": "Day 2",
+        "title": "Scenic Drive to Chitral & Kalash Valley & Core Attractions",
+        "desc": "Breakfast at hotel. Proceed towards Chitral & Kalash Valley. Experience spectacular views of snow-clad peaks and alpine rivers. Visit major landmarks, check into main valley hotel/campsite, followed by an evening bonfire and local dinner."
       },
       {
-        "day": "Evening",
-        "title": "Local Food Tasting & Return",
-        "desc": "Enjoy famous regional food & tea. Return drive with drop-off at your hotel by 07:00 PM."
+        "day": "Day 3",
+        "title": "Excursion to Full guided excursion for Shandur Polo Festival",
+        "desc": "Full day adventure exploring pristine alpine points. Full guided excursion for Shandur Polo Festival. Private AC transport with driver, fuel, tolls & parking. Enjoy evening cultural music and bonfire at hotel."
+      },
+      {
+        "day": "Day 4",
+        "title": "Heritage, Lakes & Cultural Walk in Chitral & Kalash Valley",
+        "desc": "Discover ancient forts, crystal clear lakes, and historic settlements in the region. Sightseeing at historical monuments, bazaars & viewpoints."
+      },
+      {
+        "day": "Day 5",
+        "title": "4x4 Mountain Pass Excursion & High Altitude Meadows",
+        "desc": "Thrilling off-road 4x4 Jeep ride to remote high-altitude meadows and border viewpoints. Scenic picnic lunch amidst pristine alpine nature. Overnight stay under starry skies at mountain resort."
+      },
+      {
+        "day": "Day 6",
+        "title": "Glacier Views & Remote Settlement Exploration",
+        "desc": "Guided trek towards nearby glacier viewpoints and alpine meadows. Experience panoramic vistas of 7000m+ Himalayan/Karakoram peaks."
+      },
+      {
+        "day": "Day 7",
+        "title": "Cultural Heritage & Local Artisan Bazaar Walk",
+        "desc": "Explore centuries-old mountain forts, traditional handicraft workshops, dry fruit bazaars, and gemstone markets."
+      },
+      {
+        "day": "Day 8",
+        "title": "High Altitude Wildlife & Photography Safari",
+        "desc": "Early morning excursion to wildlife habitats and panoramic high passes. Unrestricted photography time in pristine high-altitude ecosystems."
+      },
+      {
+        "day": "Day 9",
+        "title": "Cross-Valley Scenic Route & Secret Viewpoints",
+        "desc": "Travel across adjacent mountain valleys along dramatic gorge roads and river crossings. Evening starlit camping/resort stay."
+      },
+      {
+        "day": "Day 10",
+        "title": "Extended Circuit Exploration – Day 10",
+        "desc": "Leisure day for optional short treks, boat rides, or relaxation amidst serene mountain landscapes. Evening BBQ and traditional music night."
+      },
+      {
+        "day": "Day 11",
+        "title": "Extended Circuit Exploration – Day 11",
+        "desc": "Leisure day for optional short treks, boat rides, or relaxation amidst serene mountain landscapes. Evening BBQ and traditional music night."
+      },
+      {
+        "day": "Day 12",
+        "title": "Extended Circuit Exploration – Day 12",
+        "desc": "Leisure day for optional short treks, boat rides, or relaxation amidst serene mountain landscapes. Evening BBQ and traditional music night."
+      },
+      {
+        "day": "Day 13",
+        "title": "Extended Circuit Exploration – Day 13",
+        "desc": "Leisure day for optional short treks, boat rides, or relaxation amidst serene mountain landscapes. Evening BBQ and traditional music night."
+      },
+      {
+        "day": "Day 14",
+        "title": "Final Return Journey to Islamabad & Lahore",
+        "desc": "Morning breakfast. Depart from mountain base and drive back along the highway. Transfer to comfortable coasters/cabins. Arrival in Islamabad by evening and drop-off in Lahore by late night with cherished expedition memories."
       }
     ],
     "packages": [
@@ -7459,19 +7814,29 @@ window.TOUR_DATA = {
     ],
     "itinerary": [
       {
-        "day": "Morning",
-        "title": "Departure & Pickup",
-        "desc": "Pickup from hotel/residence in private vehicle. Highway drive with refreshment stop."
+        "day": "Day 1",
+        "title": "Departure from Islamabad/Lahore & Journey Towards Shogun Bohor Festival",
+        "desc": "Pick-up of participants from Lahore / Islamabad. Morning drive along Hazara Motorway / scenic highway. Travel through scenic mountain passes with refreshment stops at riverside points. Hotel check-in and evening welcome briefing."
       },
       {
-        "day": "Afternoon",
-        "title": "Guided Exploration & Activity",
-        "desc": "Arrive at destination. Guided tour of key monuments, photography stops, and water activities."
+        "day": "Day 2",
+        "title": "Scenic Drive to Shogun Bohor Festival & Core Attractions",
+        "desc": "Breakfast at hotel. Proceed towards Shogun Bohor Festival. Experience spectacular views of snow-clad peaks and alpine rivers. Visit major landmarks, check into main valley hotel/campsite, followed by an evening bonfire and local dinner."
       },
       {
-        "day": "Evening",
-        "title": "Local Food Tasting & Return",
-        "desc": "Enjoy famous regional food & tea. Return drive with drop-off at your hotel by 07:00 PM."
+        "day": "Day 3",
+        "title": "Excursion to Full guided excursion for Shogun Bohor Festival Tour – A Celebration of Culture & Heritage",
+        "desc": "Full day adventure exploring pristine alpine points. Full guided excursion for Shogun Bohor Festival Tour – A Celebration of Culture & Heritage. Private AC transport with driver, fuel, tolls & parking. Enjoy evening cultural music and bonfire at hotel."
+      },
+      {
+        "day": "Day 4",
+        "title": "Heritage, Lakes & Cultural Walk in Shogun Bohor Festival",
+        "desc": "Discover ancient forts, crystal clear lakes, and historic settlements in the region. Sightseeing at historical monuments, bazaars & viewpoints."
+      },
+      {
+        "day": "Day 5",
+        "title": "Return Journey to Islamabad / Lahore",
+        "desc": "Early morning breakfast. Depart Shogun Bohor Festival and travel along the scenic highway. Stop at famous roadside tea spots. Arrive back in Islamabad by evening and drop-off in Lahore late night."
       }
     ],
     "packages": [
@@ -7558,19 +7923,34 @@ window.TOUR_DATA = {
     ],
     "itinerary": [
       {
-        "day": "Morning",
-        "title": "Departure & Pickup",
-        "desc": "Pickup from hotel/residence in private vehicle. Highway drive with refreshment stop."
+        "day": "Day 1",
+        "title": "Departure from Islamabad/Lahore & Journey Towards Ko-Polo Hurchus Valley Winter Sports",
+        "desc": "Pick-up of participants from Lahore / Islamabad. Morning drive along Hazara Motorway / scenic highway. Travel through scenic mountain passes with refreshment stops at riverside points. Hotel check-in and evening welcome briefing."
       },
       {
-        "day": "Afternoon",
-        "title": "Guided Exploration & Activity",
-        "desc": "Arrive at destination. Guided tour of key monuments, photography stops, and water activities."
+        "day": "Day 2",
+        "title": "Scenic Drive to Ko-Polo Hurchus Valley Winter Sports & Core Attractions",
+        "desc": "Breakfast at hotel. Proceed towards Ko-Polo Hurchus Valley Winter Sports. Experience spectacular views of snow-clad peaks and alpine rivers. Visit major landmarks, check into main valley hotel/campsite, followed by an evening bonfire and local dinner."
       },
       {
-        "day": "Evening",
-        "title": "Local Food Tasting & Return",
-        "desc": "Enjoy famous regional food & tea. Return drive with drop-off at your hotel by 07:00 PM."
+        "day": "Day 3",
+        "title": "Excursion to Full guided excursion for Ko-Polo Hurchus Valley Winter Sports",
+        "desc": "Full day adventure exploring pristine alpine points. Full guided excursion for Ko-Polo Hurchus Valley Winter Sports. Private AC transport with driver, fuel, tolls & parking. Enjoy evening cultural music and bonfire at hotel."
+      },
+      {
+        "day": "Day 4",
+        "title": "Heritage, Lakes & Cultural Walk in Ko-Polo Hurchus Valley Winter Sports",
+        "desc": "Discover ancient forts, crystal clear lakes, and historic settlements in the region. Sightseeing at historical monuments, bazaars & viewpoints."
+      },
+      {
+        "day": "Day 5",
+        "title": "4x4 Mountain Pass Excursion & High Altitude Meadows",
+        "desc": "Thrilling off-road 4x4 Jeep ride to remote high-altitude meadows and border viewpoints. Scenic picnic lunch amidst pristine alpine nature. Overnight stay under starry skies at mountain resort."
+      },
+      {
+        "day": "Day 6",
+        "title": "Return Journey & Drop-off at Islamabad / Lahore",
+        "desc": "Morning breakfast. Begin return journey via Karakoram / Alpine Highway. Drop-off in Islamabad by evening and Lahore by late night."
       }
     ],
     "packages": [
@@ -7657,19 +8037,29 @@ window.TOUR_DATA = {
     ],
     "itinerary": [
       {
-        "day": "Morning",
-        "title": "Departure & Pickup",
-        "desc": "Pickup from hotel/residence in private vehicle. Highway drive with refreshment stop."
+        "day": "Day 1",
+        "title": "Departure from Islamabad/Lahore & Journey Towards Shyok Winter Festival: Celebrate the Magic of Winter",
+        "desc": "Pick-up of participants from Lahore / Islamabad. Morning drive along Hazara Motorway / scenic highway. Travel through scenic mountain passes with refreshment stops at riverside points. Hotel check-in and evening welcome briefing."
       },
       {
-        "day": "Afternoon",
-        "title": "Guided Exploration & Activity",
-        "desc": "Arrive at destination. Guided tour of key monuments, photography stops, and water activities."
+        "day": "Day 2",
+        "title": "Scenic Drive to Shyok Winter Festival: Celebrate the Magic of Winter & Core Attractions",
+        "desc": "Breakfast at hotel. Proceed towards Shyok Winter Festival: Celebrate the Magic of Winter. Experience spectacular views of snow-clad peaks and alpine rivers. Visit major landmarks, check into main valley hotel/campsite, followed by an evening bonfire and local dinner."
       },
       {
-        "day": "Evening",
-        "title": "Local Food Tasting & Return",
-        "desc": "Enjoy famous regional food & tea. Return drive with drop-off at your hotel by 07:00 PM."
+        "day": "Day 3",
+        "title": "Excursion to Full guided excursion for Shyok Winter Festival: Celebrate the Magic of Winter",
+        "desc": "Full day adventure exploring pristine alpine points. Full guided excursion for Shyok Winter Festival: Celebrate the Magic of Winter. Private AC transport with driver, fuel, tolls & parking. Enjoy evening cultural music and bonfire at hotel."
+      },
+      {
+        "day": "Day 4",
+        "title": "Heritage, Lakes & Cultural Walk in Shyok Winter Festival: Celebrate the Magic of Winter",
+        "desc": "Discover ancient forts, crystal clear lakes, and historic settlements in the region. Sightseeing at historical monuments, bazaars & viewpoints."
+      },
+      {
+        "day": "Day 5",
+        "title": "Return Journey to Islamabad / Lahore",
+        "desc": "Early morning breakfast. Depart Shyok Winter Festival: Celebrate the Magic of Winter and travel along the scenic highway. Stop at famous roadside tea spots. Arrive back in Islamabad by evening and drop-off in Lahore late night."
       }
     ],
     "packages": [
@@ -7756,19 +8146,39 @@ window.TOUR_DATA = {
     ],
     "itinerary": [
       {
-        "day": "Morning",
-        "title": "Departure & Pickup",
-        "desc": "Pickup from hotel/residence in private vehicle. Highway drive with refreshment stop."
+        "day": "Day 1",
+        "title": "Departure from Islamabad/Lahore & Journey Towards Jashan-e-Gultari: Celebrate Spring with Nature’s Beauty",
+        "desc": "Pick-up of participants from Lahore / Islamabad. Morning drive along Hazara Motorway / scenic highway. Travel through scenic mountain passes with refreshment stops at riverside points. Hotel check-in and evening welcome briefing."
       },
       {
-        "day": "Afternoon",
-        "title": "Guided Exploration & Activity",
-        "desc": "Arrive at destination. Guided tour of key monuments, photography stops, and water activities."
+        "day": "Day 2",
+        "title": "Scenic Drive to Jashan-e-Gultari: Celebrate Spring with Nature’s Beauty & Core Attractions",
+        "desc": "Breakfast at hotel. Proceed towards Jashan-e-Gultari: Celebrate Spring with Nature’s Beauty. Experience spectacular views of snow-clad peaks and alpine rivers. Visit major landmarks, check into main valley hotel/campsite, followed by an evening bonfire and local dinner."
       },
       {
-        "day": "Evening",
-        "title": "Local Food Tasting & Return",
-        "desc": "Enjoy famous regional food & tea. Return drive with drop-off at your hotel by 07:00 PM."
+        "day": "Day 3",
+        "title": "Excursion to Full guided excursion for Jashan-e-Gultari: Celebrate Spring with Nature’s Beauty",
+        "desc": "Full day adventure exploring pristine alpine points. Full guided excursion for Jashan-e-Gultari: Celebrate Spring with Nature’s Beauty. Private AC transport with driver, fuel, tolls & parking. Enjoy evening cultural music and bonfire at hotel."
+      },
+      {
+        "day": "Day 4",
+        "title": "Heritage, Lakes & Cultural Walk in Jashan-e-Gultari: Celebrate Spring with Nature’s Beauty",
+        "desc": "Discover ancient forts, crystal clear lakes, and historic settlements in the region. Sightseeing at historical monuments, bazaars & viewpoints."
+      },
+      {
+        "day": "Day 5",
+        "title": "4x4 Mountain Pass Excursion & High Altitude Meadows",
+        "desc": "Thrilling off-road 4x4 Jeep ride to remote high-altitude meadows and border viewpoints. Scenic picnic lunch amidst pristine alpine nature. Overnight stay under starry skies at mountain resort."
+      },
+      {
+        "day": "Day 6",
+        "title": "Glacier Views & Remote Settlement Exploration",
+        "desc": "Guided trek towards nearby glacier viewpoints and alpine meadows. Experience panoramic vistas of 7000m+ Himalayan/Karakoram peaks."
+      },
+      {
+        "day": "Day 7",
+        "title": "Final Return Journey to Islamabad & Lahore",
+        "desc": "Morning breakfast. Depart from mountain base and drive back along the highway. Transfer to comfortable coasters/cabins. Arrival in Islamabad by evening and drop-off in Lahore by late night with cherished expedition memories."
       }
     ],
     "packages": [
@@ -7855,19 +8265,49 @@ window.TOUR_DATA = {
     ],
     "itinerary": [
       {
-        "day": "Morning",
-        "title": "Departure & Pickup",
-        "desc": "Pickup from hotel/residence in private vehicle. Highway drive with refreshment stop."
+        "day": "Day 1",
+        "title": "Departure from Islamabad/Lahore & Journey Towards Taghm Spring Festival: A Celebration of Culture and Nature",
+        "desc": "Pick-up of participants from Lahore / Islamabad. Morning drive along Hazara Motorway / scenic highway. Travel through scenic mountain passes with refreshment stops at riverside points. Hotel check-in and evening welcome briefing."
       },
       {
-        "day": "Afternoon",
-        "title": "Guided Exploration & Activity",
-        "desc": "Arrive at destination. Guided tour of key monuments, photography stops, and water activities."
+        "day": "Day 2",
+        "title": "Scenic Drive to Taghm Spring Festival: A Celebration of Culture and Nature & Core Attractions",
+        "desc": "Breakfast at hotel. Proceed towards Taghm Spring Festival: A Celebration of Culture and Nature. Experience spectacular views of snow-clad peaks and alpine rivers. Visit major landmarks, check into main valley hotel/campsite, followed by an evening bonfire and local dinner."
       },
       {
-        "day": "Evening",
-        "title": "Local Food Tasting & Return",
-        "desc": "Enjoy famous regional food & tea. Return drive with drop-off at your hotel by 07:00 PM."
+        "day": "Day 3",
+        "title": "Excursion to Full guided excursion for Taghm Spring Festival: A Celebration of Culture and Nature",
+        "desc": "Full day adventure exploring pristine alpine points. Full guided excursion for Taghm Spring Festival: A Celebration of Culture and Nature. Private AC transport with driver, fuel, tolls & parking. Enjoy evening cultural music and bonfire at hotel."
+      },
+      {
+        "day": "Day 4",
+        "title": "Heritage, Lakes & Cultural Walk in Taghm Spring Festival: A Celebration of Culture and Nature",
+        "desc": "Discover ancient forts, crystal clear lakes, and historic settlements in the region. Sightseeing at historical monuments, bazaars & viewpoints."
+      },
+      {
+        "day": "Day 5",
+        "title": "4x4 Mountain Pass Excursion & High Altitude Meadows",
+        "desc": "Thrilling off-road 4x4 Jeep ride to remote high-altitude meadows and border viewpoints. Scenic picnic lunch amidst pristine alpine nature. Overnight stay under starry skies at mountain resort."
+      },
+      {
+        "day": "Day 6",
+        "title": "Glacier Views & Remote Settlement Exploration",
+        "desc": "Guided trek towards nearby glacier viewpoints and alpine meadows. Experience panoramic vistas of 7000m+ Himalayan/Karakoram peaks."
+      },
+      {
+        "day": "Day 7",
+        "title": "Cultural Heritage & Local Artisan Bazaar Walk",
+        "desc": "Explore centuries-old mountain forts, traditional handicraft workshops, dry fruit bazaars, and gemstone markets."
+      },
+      {
+        "day": "Day 8",
+        "title": "High Altitude Wildlife & Photography Safari",
+        "desc": "Early morning excursion to wildlife habitats and panoramic high passes. Unrestricted photography time in pristine high-altitude ecosystems."
+      },
+      {
+        "day": "Day 9",
+        "title": "Final Return Journey to Islamabad & Lahore",
+        "desc": "Morning breakfast. Depart from mountain base and drive back along the highway. Transfer to comfortable coasters/cabins. Arrival in Islamabad by evening and drop-off in Lahore by late night with cherished expedition memories."
       }
     ],
     "packages": [
@@ -7954,19 +8394,49 @@ window.TOUR_DATA = {
     ],
     "itinerary": [
       {
-        "day": "Morning",
-        "title": "Departure & Pickup",
-        "desc": "Pickup from hotel/residence in private vehicle. Highway drive with refreshment stop."
+        "day": "Day 1",
+        "title": "Departure from Islamabad/Lahore & Journey Towards Hunza Valley",
+        "desc": "Pick-up of participants from Lahore / Islamabad. Morning drive along Hazara Motorway / scenic highway. Travel through scenic mountain passes with refreshment stops at riverside points. Hotel check-in and evening welcome briefing."
       },
       {
-        "day": "Afternoon",
-        "title": "Guided Exploration & Activity",
-        "desc": "Arrive at destination. Guided tour of key monuments, photography stops, and water activities."
+        "day": "Day 2",
+        "title": "Scenic Drive to Hunza Valley & Core Attractions",
+        "desc": "Breakfast at hotel. Proceed towards Hunza Valley. Experience spectacular views of snow-clad peaks and alpine rivers. Visit major landmarks, check into main valley hotel/campsite, followed by an evening bonfire and local dinner."
       },
       {
-        "day": "Evening",
-        "title": "Local Food Tasting & Return",
-        "desc": "Enjoy famous regional food & tea. Return drive with drop-off at your hotel by 07:00 PM."
+        "day": "Day 3",
+        "title": "Excursion to Full guided excursion for Sut Das Darel Festival – An Unforgettable Cultural Journey",
+        "desc": "Full day adventure exploring pristine alpine points. Full guided excursion for Sut Das Darel Festival – An Unforgettable Cultural Journey. Private AC transport with driver, fuel, tolls & parking. Enjoy evening cultural music and bonfire at hotel."
+      },
+      {
+        "day": "Day 4",
+        "title": "Heritage, Lakes & Cultural Walk in Hunza Valley",
+        "desc": "Discover ancient forts, crystal clear lakes, and historic settlements in the region. Sightseeing at historical monuments, bazaars & viewpoints."
+      },
+      {
+        "day": "Day 5",
+        "title": "4x4 Mountain Pass Excursion & High Altitude Meadows",
+        "desc": "Thrilling off-road 4x4 Jeep ride to remote high-altitude meadows and border viewpoints. Scenic picnic lunch amidst pristine alpine nature. Overnight stay under starry skies at mountain resort."
+      },
+      {
+        "day": "Day 6",
+        "title": "Glacier Views & Remote Settlement Exploration",
+        "desc": "Guided trek towards nearby glacier viewpoints and alpine meadows. Experience panoramic vistas of 7000m+ Himalayan/Karakoram peaks."
+      },
+      {
+        "day": "Day 7",
+        "title": "Cultural Heritage & Local Artisan Bazaar Walk",
+        "desc": "Explore centuries-old mountain forts, traditional handicraft workshops, dry fruit bazaars, and gemstone markets."
+      },
+      {
+        "day": "Day 8",
+        "title": "High Altitude Wildlife & Photography Safari",
+        "desc": "Early morning excursion to wildlife habitats and panoramic high passes. Unrestricted photography time in pristine high-altitude ecosystems."
+      },
+      {
+        "day": "Day 9",
+        "title": "Final Return Journey to Islamabad & Lahore",
+        "desc": "Morning breakfast. Depart from mountain base and drive back along the highway. Transfer to comfortable coasters/cabins. Arrival in Islamabad by evening and drop-off in Lahore by late night with cherished expedition memories."
       }
     ],
     "packages": [
@@ -8053,19 +8523,49 @@ window.TOUR_DATA = {
     ],
     "itinerary": [
       {
-        "day": "Morning",
-        "title": "Departure & Pickup",
-        "desc": "Pickup from hotel/residence in private vehicle. Highway drive with refreshment stop."
+        "day": "Day 1",
+        "title": "Departure from Islamabad/Lahore & Journey Towards Hunza Valley",
+        "desc": "Pick-up of participants from Lahore / Islamabad. Morning drive along Hazara Motorway / scenic highway. Travel through scenic mountain passes with refreshment stops at riverside points. Hotel check-in and evening welcome briefing."
       },
       {
-        "day": "Afternoon",
-        "title": "Guided Exploration & Activity",
-        "desc": "Arrive at destination. Guided tour of key monuments, photography stops, and water activities."
+        "day": "Day 2",
+        "title": "Scenic Drive to Hunza Valley & Core Attractions",
+        "desc": "Breakfast at hotel. Proceed towards Hunza Valley. Experience spectacular views of snow-clad peaks and alpine rivers. Visit major landmarks, check into main valley hotel/campsite, followed by an evening bonfire and local dinner."
       },
       {
-        "day": "Evening",
-        "title": "Local Food Tasting & Return",
-        "desc": "Enjoy famous regional food & tea. Return drive with drop-off at your hotel by 07:00 PM."
+        "day": "Day 3",
+        "title": "Excursion to Full guided excursion for Hunza Winter Festival – A Magical 9-Day Adventure",
+        "desc": "Full day adventure exploring pristine alpine points. Full guided excursion for Hunza Winter Festival – A Magical 9-Day Adventure. Private AC transport with driver, fuel, tolls & parking. Enjoy evening cultural music and bonfire at hotel."
+      },
+      {
+        "day": "Day 4",
+        "title": "Heritage, Lakes & Cultural Walk in Hunza Valley",
+        "desc": "Discover ancient forts, crystal clear lakes, and historic settlements in the region. Sightseeing at historical monuments, bazaars & viewpoints."
+      },
+      {
+        "day": "Day 5",
+        "title": "4x4 Mountain Pass Excursion & High Altitude Meadows",
+        "desc": "Thrilling off-road 4x4 Jeep ride to remote high-altitude meadows and border viewpoints. Scenic picnic lunch amidst pristine alpine nature. Overnight stay under starry skies at mountain resort."
+      },
+      {
+        "day": "Day 6",
+        "title": "Glacier Views & Remote Settlement Exploration",
+        "desc": "Guided trek towards nearby glacier viewpoints and alpine meadows. Experience panoramic vistas of 7000m+ Himalayan/Karakoram peaks."
+      },
+      {
+        "day": "Day 7",
+        "title": "Cultural Heritage & Local Artisan Bazaar Walk",
+        "desc": "Explore centuries-old mountain forts, traditional handicraft workshops, dry fruit bazaars, and gemstone markets."
+      },
+      {
+        "day": "Day 8",
+        "title": "High Altitude Wildlife & Photography Safari",
+        "desc": "Early morning excursion to wildlife habitats and panoramic high passes. Unrestricted photography time in pristine high-altitude ecosystems."
+      },
+      {
+        "day": "Day 9",
+        "title": "Final Return Journey to Islamabad & Lahore",
+        "desc": "Morning breakfast. Depart from mountain base and drive back along the highway. Transfer to comfortable coasters/cabins. Arrival in Islamabad by evening and drop-off in Lahore by late night with cherished expedition memories."
       }
     ],
     "packages": [
@@ -8152,19 +8652,89 @@ window.TOUR_DATA = {
     ],
     "itinerary": [
       {
-        "day": "Morning",
-        "title": "Departure & Pickup",
-        "desc": "Pickup from hotel/residence in private vehicle. Highway drive with refreshment stop."
+        "day": "Day 1",
+        "title": "Departure from Islamabad/Lahore & Journey Towards Shimshal Kuch Festival",
+        "desc": "Pick-up of participants from Lahore / Islamabad. Morning drive along Hazara Motorway / scenic highway. Travel through scenic mountain passes with refreshment stops at riverside points. Hotel check-in and evening welcome briefing."
       },
       {
-        "day": "Afternoon",
-        "title": "Guided Exploration & Activity",
-        "desc": "Arrive at destination. Guided tour of key monuments, photography stops, and water activities."
+        "day": "Day 2",
+        "title": "Scenic Drive to Shimshal Kuch Festival & Core Attractions",
+        "desc": "Breakfast at hotel. Proceed towards Shimshal Kuch Festival. Experience spectacular views of snow-clad peaks and alpine rivers. Visit major landmarks, check into main valley hotel/campsite, followed by an evening bonfire and local dinner."
       },
       {
-        "day": "Evening",
-        "title": "Local Food Tasting & Return",
-        "desc": "Enjoy famous regional food & tea. Return drive with drop-off at your hotel by 07:00 PM."
+        "day": "Day 3",
+        "title": "Excursion to Full guided excursion for Shimshal Kuch Festival – A 17-Day Cultural Experience",
+        "desc": "Full day adventure exploring pristine alpine points. Full guided excursion for Shimshal Kuch Festival – A 17-Day Cultural Experience. Private AC transport with driver, fuel, tolls & parking. Enjoy evening cultural music and bonfire at hotel."
+      },
+      {
+        "day": "Day 4",
+        "title": "Heritage, Lakes & Cultural Walk in Shimshal Kuch Festival",
+        "desc": "Discover ancient forts, crystal clear lakes, and historic settlements in the region. Sightseeing at historical monuments, bazaars & viewpoints."
+      },
+      {
+        "day": "Day 5",
+        "title": "4x4 Mountain Pass Excursion & High Altitude Meadows",
+        "desc": "Thrilling off-road 4x4 Jeep ride to remote high-altitude meadows and border viewpoints. Scenic picnic lunch amidst pristine alpine nature. Overnight stay under starry skies at mountain resort."
+      },
+      {
+        "day": "Day 6",
+        "title": "Glacier Views & Remote Settlement Exploration",
+        "desc": "Guided trek towards nearby glacier viewpoints and alpine meadows. Experience panoramic vistas of 7000m+ Himalayan/Karakoram peaks."
+      },
+      {
+        "day": "Day 7",
+        "title": "Cultural Heritage & Local Artisan Bazaar Walk",
+        "desc": "Explore centuries-old mountain forts, traditional handicraft workshops, dry fruit bazaars, and gemstone markets."
+      },
+      {
+        "day": "Day 8",
+        "title": "High Altitude Wildlife & Photography Safari",
+        "desc": "Early morning excursion to wildlife habitats and panoramic high passes. Unrestricted photography time in pristine high-altitude ecosystems."
+      },
+      {
+        "day": "Day 9",
+        "title": "Cross-Valley Scenic Route & Secret Viewpoints",
+        "desc": "Travel across adjacent mountain valleys along dramatic gorge roads and river crossings. Evening starlit camping/resort stay."
+      },
+      {
+        "day": "Day 10",
+        "title": "Extended Circuit Exploration – Day 10",
+        "desc": "Leisure day for optional short treks, boat rides, or relaxation amidst serene mountain landscapes. Evening BBQ and traditional music night."
+      },
+      {
+        "day": "Day 11",
+        "title": "Extended Circuit Exploration – Day 11",
+        "desc": "Leisure day for optional short treks, boat rides, or relaxation amidst serene mountain landscapes. Evening BBQ and traditional music night."
+      },
+      {
+        "day": "Day 12",
+        "title": "Extended Circuit Exploration – Day 12",
+        "desc": "Leisure day for optional short treks, boat rides, or relaxation amidst serene mountain landscapes. Evening BBQ and traditional music night."
+      },
+      {
+        "day": "Day 13",
+        "title": "Extended Circuit Exploration – Day 13",
+        "desc": "Leisure day for optional short treks, boat rides, or relaxation amidst serene mountain landscapes. Evening BBQ and traditional music night."
+      },
+      {
+        "day": "Day 14",
+        "title": "Extended Circuit Exploration – Day 14",
+        "desc": "Leisure day for optional short treks, boat rides, or relaxation amidst serene mountain landscapes. Evening BBQ and traditional music night."
+      },
+      {
+        "day": "Day 15",
+        "title": "Extended Circuit Exploration – Day 15",
+        "desc": "Leisure day for optional short treks, boat rides, or relaxation amidst serene mountain landscapes. Evening BBQ and traditional music night."
+      },
+      {
+        "day": "Day 16",
+        "title": "Extended Circuit Exploration – Day 16",
+        "desc": "Leisure day for optional short treks, boat rides, or relaxation amidst serene mountain landscapes. Evening BBQ and traditional music night."
+      },
+      {
+        "day": "Day 17",
+        "title": "Final Return Journey to Islamabad & Lahore",
+        "desc": "Morning breakfast. Depart from mountain base and drive back along the highway. Transfer to comfortable coasters/cabins. Arrival in Islamabad by evening and drop-off in Lahore by late night with cherished expedition memories."
       }
     ],
     "packages": [
@@ -8251,19 +8821,54 @@ window.TOUR_DATA = {
     ],
     "itinerary": [
       {
-        "day": "Morning",
-        "title": "Departure & Pickup",
-        "desc": "Pickup from hotel/residence in private vehicle. Highway drive with refreshment stop."
+        "day": "Day 1",
+        "title": "Departure from Islamabad/Lahore & Journey Towards Sikh Pilgrimages",
+        "desc": "Pick-up of participants from Lahore / Islamabad. Morning drive along Hazara Motorway / scenic highway. Travel through scenic mountain passes with refreshment stops at riverside points. Hotel check-in and evening welcome briefing."
       },
       {
-        "day": "Afternoon",
-        "title": "Guided Exploration & Activity",
-        "desc": "Arrive at destination. Guided tour of key monuments, photography stops, and water activities."
+        "day": "Day 2",
+        "title": "Scenic Drive to Sikh Pilgrimages & Core Attractions",
+        "desc": "Breakfast at hotel. Proceed towards Sikh Pilgrimages. Experience spectacular views of snow-clad peaks and alpine rivers. Visit major landmarks, check into main valley hotel/campsite, followed by an evening bonfire and local dinner."
       },
       {
-        "day": "Evening",
-        "title": "Local Food Tasting & Return",
-        "desc": "Enjoy famous regional food & tea. Return drive with drop-off at your hotel by 07:00 PM."
+        "day": "Day 3",
+        "title": "Excursion to Full guided excursion for Sikh Pilgrimages – 10 Days",
+        "desc": "Full day adventure exploring pristine alpine points. Full guided excursion for Sikh Pilgrimages – 10 Days. Private AC transport with driver, fuel, tolls & parking. Enjoy evening cultural music and bonfire at hotel."
+      },
+      {
+        "day": "Day 4",
+        "title": "Heritage, Lakes & Cultural Walk in Sikh Pilgrimages",
+        "desc": "Discover ancient forts, crystal clear lakes, and historic settlements in the region. Sightseeing at historical monuments, bazaars & viewpoints."
+      },
+      {
+        "day": "Day 5",
+        "title": "4x4 Mountain Pass Excursion & High Altitude Meadows",
+        "desc": "Thrilling off-road 4x4 Jeep ride to remote high-altitude meadows and border viewpoints. Scenic picnic lunch amidst pristine alpine nature. Overnight stay under starry skies at mountain resort."
+      },
+      {
+        "day": "Day 6",
+        "title": "Glacier Views & Remote Settlement Exploration",
+        "desc": "Guided trek towards nearby glacier viewpoints and alpine meadows. Experience panoramic vistas of 7000m+ Himalayan/Karakoram peaks."
+      },
+      {
+        "day": "Day 7",
+        "title": "Cultural Heritage & Local Artisan Bazaar Walk",
+        "desc": "Explore centuries-old mountain forts, traditional handicraft workshops, dry fruit bazaars, and gemstone markets."
+      },
+      {
+        "day": "Day 8",
+        "title": "High Altitude Wildlife & Photography Safari",
+        "desc": "Early morning excursion to wildlife habitats and panoramic high passes. Unrestricted photography time in pristine high-altitude ecosystems."
+      },
+      {
+        "day": "Day 9",
+        "title": "Cross-Valley Scenic Route & Secret Viewpoints",
+        "desc": "Travel across adjacent mountain valleys along dramatic gorge roads and river crossings. Evening starlit camping/resort stay."
+      },
+      {
+        "day": "Day 10",
+        "title": "Final Return Journey to Islamabad & Lahore",
+        "desc": "Morning breakfast. Depart from mountain base and drive back along the highway. Transfer to comfortable coasters/cabins. Arrival in Islamabad by evening and drop-off in Lahore by late night with cherished expedition memories."
       }
     ],
     "packages": [
@@ -8350,19 +8955,34 @@ window.TOUR_DATA = {
     ],
     "itinerary": [
       {
-        "day": "Morning",
-        "title": "Departure & Pickup",
-        "desc": "Pickup from hotel/residence in private vehicle. Highway drive with refreshment stop."
+        "day": "Day 1",
+        "title": "Departure from Islamabad/Lahore & Journey Towards Chitral & Kalash Valley",
+        "desc": "Pick-up of participants from Lahore / Islamabad. Morning drive along Hazara Motorway / scenic highway. Travel through scenic mountain passes with refreshment stops at riverside points. Hotel check-in and evening welcome briefing."
       },
       {
-        "day": "Afternoon",
-        "title": "Guided Exploration & Activity",
-        "desc": "Arrive at destination. Guided tour of key monuments, photography stops, and water activities."
+        "day": "Day 2",
+        "title": "Scenic Drive to Chitral & Kalash Valley & Core Attractions",
+        "desc": "Breakfast at hotel. Proceed towards Chitral & Kalash Valley. Experience spectacular views of snow-clad peaks and alpine rivers. Visit major landmarks, check into main valley hotel/campsite, followed by an evening bonfire and local dinner."
       },
       {
-        "day": "Evening",
-        "title": "Local Food Tasting & Return",
-        "desc": "Enjoy famous regional food & tea. Return drive with drop-off at your hotel by 07:00 PM."
+        "day": "Day 3",
+        "title": "Excursion to Full guided excursion for Qaqlasht Festival Tour",
+        "desc": "Full day adventure exploring pristine alpine points. Full guided excursion for Qaqlasht Festival Tour. Private AC transport with driver, fuel, tolls & parking. Enjoy evening cultural music and bonfire at hotel."
+      },
+      {
+        "day": "Day 4",
+        "title": "Heritage, Lakes & Cultural Walk in Chitral & Kalash Valley",
+        "desc": "Discover ancient forts, crystal clear lakes, and historic settlements in the region. Sightseeing at historical monuments, bazaars & viewpoints."
+      },
+      {
+        "day": "Day 5",
+        "title": "4x4 Mountain Pass Excursion & High Altitude Meadows",
+        "desc": "Thrilling off-road 4x4 Jeep ride to remote high-altitude meadows and border viewpoints. Scenic picnic lunch amidst pristine alpine nature. Overnight stay under starry skies at mountain resort."
+      },
+      {
+        "day": "Day 6",
+        "title": "Return Journey & Drop-off at Islamabad / Lahore",
+        "desc": "Morning breakfast. Begin return journey via Karakoram / Alpine Highway. Drop-off in Islamabad by evening and Lahore by late night."
       }
     ],
     "packages": [
@@ -8450,18 +9070,18 @@ window.TOUR_DATA = {
     "itinerary": [
       {
         "day": "Morning",
-        "title": "Departure & Pickup",
-        "desc": "Pickup from hotel/residence in private vehicle. Highway drive with refreshment stop."
+        "title": "Departure & Scenic Drive to Vesaki Day Festival Taxila",
+        "desc": "Early morning pickup from designated location in Islamabad/Lahore. Travel via expressway/highway with brief breakfast and refreshment stops along the scenic route."
       },
       {
         "day": "Afternoon",
-        "title": "Guided Exploration & Activity",
-        "desc": "Arrive at destination. Guided tour of key monuments, photography stops, and water activities."
+        "title": "Guided Exploration & Sightseeing in Vesaki Day Festival Taxila",
+        "desc": "Arrival at Vesaki Day Festival Taxila. Enjoy a comprehensive guided tour covering key historical sites, viewpoints, river banks, photography spots, and local attractions."
       },
       {
         "day": "Evening",
-        "title": "Local Food Tasting & Return",
-        "desc": "Enjoy famous regional food & tea. Return drive with drop-off at your hotel by 07:00 PM."
+        "title": "Traditional Tea, Cultural Experience & Return",
+        "desc": "Relax with authentic regional tea and local street food sampling. Depart for return journey, arriving back at pickup hub by late evening."
       }
     ],
     "packages": [
@@ -8548,19 +9168,44 @@ window.TOUR_DATA = {
     ],
     "itinerary": [
       {
-        "day": "Morning",
-        "title": "Departure & Pickup",
-        "desc": "Pickup from hotel/residence in private vehicle. Highway drive with refreshment stop."
+        "day": "Day 1",
+        "title": "Departure from Islamabad/Lahore & Journey Towards Hunza Valley",
+        "desc": "Pick-up of participants from Lahore / Islamabad. Morning drive along Hazara Motorway / scenic highway. Travel through scenic mountain passes with refreshment stops at riverside points. Hotel check-in and evening welcome briefing."
       },
       {
-        "day": "Afternoon",
-        "title": "Guided Exploration & Activity",
-        "desc": "Arrive at destination. Guided tour of key monuments, photography stops, and water activities."
+        "day": "Day 2",
+        "title": "Scenic Drive to Hunza Valley & Core Attractions",
+        "desc": "Breakfast at hotel. Proceed towards Hunza Valley. Experience spectacular views of snow-clad peaks and alpine rivers. Visit major landmarks, check into main valley hotel/campsite, followed by an evening bonfire and local dinner."
       },
       {
-        "day": "Evening",
-        "title": "Local Food Tasting & Return",
-        "desc": "Enjoy famous regional food & tea. Return drive with drop-off at your hotel by 07:00 PM."
+        "day": "Day 3",
+        "title": "Excursion to Full guided excursion for Taleno Thumishalling Festival",
+        "desc": "Full day adventure exploring pristine alpine points. Full guided excursion for Taleno Thumishalling Festival. Private AC transport with driver, fuel, tolls & parking. Enjoy evening cultural music and bonfire at hotel."
+      },
+      {
+        "day": "Day 4",
+        "title": "Heritage, Lakes & Cultural Walk in Hunza Valley",
+        "desc": "Discover ancient forts, crystal clear lakes, and historic settlements in the region. Sightseeing at historical monuments, bazaars & viewpoints."
+      },
+      {
+        "day": "Day 5",
+        "title": "4x4 Mountain Pass Excursion & High Altitude Meadows",
+        "desc": "Thrilling off-road 4x4 Jeep ride to remote high-altitude meadows and border viewpoints. Scenic picnic lunch amidst pristine alpine nature. Overnight stay under starry skies at mountain resort."
+      },
+      {
+        "day": "Day 6",
+        "title": "Glacier Views & Remote Settlement Exploration",
+        "desc": "Guided trek towards nearby glacier viewpoints and alpine meadows. Experience panoramic vistas of 7000m+ Himalayan/Karakoram peaks."
+      },
+      {
+        "day": "Day 7",
+        "title": "Cultural Heritage & Local Artisan Bazaar Walk",
+        "desc": "Explore centuries-old mountain forts, traditional handicraft workshops, dry fruit bazaars, and gemstone markets."
+      },
+      {
+        "day": "Day 8",
+        "title": "Final Return Journey to Islamabad & Lahore",
+        "desc": "Morning breakfast. Depart from mountain base and drive back along the highway. Transfer to comfortable coasters/cabins. Arrival in Islamabad by evening and drop-off in Lahore by late night with cherished expedition memories."
       }
     ],
     "packages": [
@@ -8648,18 +9293,18 @@ window.TOUR_DATA = {
     "itinerary": [
       {
         "day": "Morning",
-        "title": "Departure & Pickup",
-        "desc": "Pickup from hotel/residence in private vehicle. Highway drive with refreshment stop."
+        "title": "Departure & Scenic Drive to Islamabad & Margalla Hills",
+        "desc": "Early morning pickup from designated location in Islamabad/Lahore. Travel via expressway/highway with brief breakfast and refreshment stops along the scenic route."
       },
       {
         "day": "Afternoon",
-        "title": "Guided Exploration & Activity",
-        "desc": "Arrive at destination. Guided tour of key monuments, photography stops, and water activities."
+        "title": "Guided Exploration & Sightseeing in Islamabad & Margalla Hills",
+        "desc": "Arrival at Islamabad & Margalla Hills. Enjoy a comprehensive guided tour covering key historical sites, viewpoints, river banks, photography spots, and local attractions."
       },
       {
         "day": "Evening",
-        "title": "Local Food Tasting & Return",
-        "desc": "Enjoy famous regional food & tea. Return drive with drop-off at your hotel by 07:00 PM."
+        "title": "Traditional Tea, Cultural Experience & Return",
+        "desc": "Relax with authentic regional tea and local street food sampling. Depart for return journey, arriving back at pickup hub by late evening."
       }
     ],
     "packages": [
@@ -8747,18 +9392,18 @@ window.TOUR_DATA = {
     "itinerary": [
       {
         "day": "Morning",
-        "title": "Departure & Pickup",
-        "desc": "Pickup from hotel/residence in private vehicle. Highway drive with refreshment stop."
+        "title": "Departure & Scenic Drive to Islamabad & Margalla Hills",
+        "desc": "Early morning pickup from designated location in Islamabad/Lahore. Travel via expressway/highway with brief breakfast and refreshment stops along the scenic route."
       },
       {
         "day": "Afternoon",
-        "title": "Guided Exploration & Activity",
-        "desc": "Arrive at destination. Guided tour of key monuments, photography stops, and water activities."
+        "title": "Guided Exploration & Sightseeing in Islamabad & Margalla Hills",
+        "desc": "Arrival at Islamabad & Margalla Hills. Enjoy a comprehensive guided tour covering key historical sites, viewpoints, river banks, photography spots, and local attractions."
       },
       {
         "day": "Evening",
-        "title": "Local Food Tasting & Return",
-        "desc": "Enjoy famous regional food & tea. Return drive with drop-off at your hotel by 07:00 PM."
+        "title": "Traditional Tea, Cultural Experience & Return",
+        "desc": "Relax with authentic regional tea and local street food sampling. Depart for return journey, arriving back at pickup hub by late evening."
       }
     ],
     "packages": [
@@ -8845,19 +9490,34 @@ window.TOUR_DATA = {
     ],
     "itinerary": [
       {
-        "day": "Morning",
-        "title": "Departure & Pickup",
-        "desc": "Pickup from hotel/residence in private vehicle. Highway drive with refreshment stop."
+        "day": "Day 1",
+        "title": "Departure from Islamabad/Lahore & Journey Towards Skardu & Baltistan",
+        "desc": "Pick-up of participants from Lahore / Islamabad. Morning drive along Hazara Motorway / scenic highway. Travel through scenic mountain passes with refreshment stops at riverside points. Hotel check-in and evening welcome briefing."
       },
       {
-        "day": "Afternoon",
-        "title": "Guided Exploration & Activity",
-        "desc": "Arrive at destination. Guided tour of key monuments, photography stops, and water activities."
+        "day": "Day 2",
+        "title": "Scenic Drive to Skardu & Baltistan & Core Attractions",
+        "desc": "Breakfast at hotel. Proceed towards Skardu & Baltistan. Experience spectacular views of snow-clad peaks and alpine rivers. Visit major landmarks, check into main valley hotel/campsite, followed by an evening bonfire and local dinner."
       },
       {
-        "day": "Evening",
-        "title": "Local Food Tasting & Return",
-        "desc": "Enjoy famous regional food & tea. Return drive with drop-off at your hotel by 07:00 PM."
+        "day": "Day 3",
+        "title": "Excursion to Full guided excursion for Hindukush Snow Festival",
+        "desc": "Full day adventure exploring pristine alpine points. Full guided excursion for Hindukush Snow Festival. Private AC transport with driver, fuel, tolls & parking. Enjoy evening cultural music and bonfire at hotel."
+      },
+      {
+        "day": "Day 4",
+        "title": "Heritage, Lakes & Cultural Walk in Skardu & Baltistan",
+        "desc": "Discover ancient forts, crystal clear lakes, and historic settlements in the region. Sightseeing at historical monuments, bazaars & viewpoints."
+      },
+      {
+        "day": "Day 5",
+        "title": "4x4 Mountain Pass Excursion & High Altitude Meadows",
+        "desc": "Thrilling off-road 4x4 Jeep ride to remote high-altitude meadows and border viewpoints. Scenic picnic lunch amidst pristine alpine nature. Overnight stay under starry skies at mountain resort."
+      },
+      {
+        "day": "Day 6",
+        "title": "Return Journey & Drop-off at Islamabad / Lahore",
+        "desc": "Morning breakfast. Begin return journey via Karakoram / Alpine Highway. Drop-off in Islamabad by evening and Lahore by late night."
       }
     ],
     "packages": [
@@ -8944,19 +9604,34 @@ window.TOUR_DATA = {
     ],
     "itinerary": [
       {
-        "day": "Morning",
-        "title": "Departure & Pickup",
-        "desc": "Pickup from hotel/residence in private vehicle. Highway drive with refreshment stop."
+        "day": "Day 1",
+        "title": "Departure from Islamabad/Lahore & Journey Towards Skardu & Baltistan",
+        "desc": "Pick-up of participants from Lahore / Islamabad. Morning drive along Hazara Motorway / scenic highway. Travel through scenic mountain passes with refreshment stops at riverside points. Hotel check-in and evening welcome briefing."
       },
       {
-        "day": "Afternoon",
-        "title": "Guided Exploration & Activity",
-        "desc": "Arrive at destination. Guided tour of key monuments, photography stops, and water activities."
+        "day": "Day 2",
+        "title": "Scenic Drive to Skardu & Baltistan & Core Attractions",
+        "desc": "Breakfast at hotel. Proceed towards Skardu & Baltistan. Experience spectacular views of snow-clad peaks and alpine rivers. Visit major landmarks, check into main valley hotel/campsite, followed by an evening bonfire and local dinner."
       },
       {
-        "day": "Evening",
-        "title": "Local Food Tasting & Return",
-        "desc": "Enjoy famous regional food & tea. Return drive with drop-off at your hotel by 07:00 PM."
+        "day": "Day 3",
+        "title": "Excursion to Full guided excursion for Mayfung Fire Festival Skardu",
+        "desc": "Full day adventure exploring pristine alpine points. Full guided excursion for Mayfung Fire Festival Skardu. Private AC transport with driver, fuel, tolls & parking. Enjoy evening cultural music and bonfire at hotel."
+      },
+      {
+        "day": "Day 4",
+        "title": "Heritage, Lakes & Cultural Walk in Skardu & Baltistan",
+        "desc": "Discover ancient forts, crystal clear lakes, and historic settlements in the region. Sightseeing at historical monuments, bazaars & viewpoints."
+      },
+      {
+        "day": "Day 5",
+        "title": "4x4 Mountain Pass Excursion & High Altitude Meadows",
+        "desc": "Thrilling off-road 4x4 Jeep ride to remote high-altitude meadows and border viewpoints. Scenic picnic lunch amidst pristine alpine nature. Overnight stay under starry skies at mountain resort."
+      },
+      {
+        "day": "Day 6",
+        "title": "Return Journey & Drop-off at Islamabad / Lahore",
+        "desc": "Morning breakfast. Begin return journey via Karakoram / Alpine Highway. Drop-off in Islamabad by evening and Lahore by late night."
       }
     ],
     "packages": [
@@ -9043,19 +9718,39 @@ window.TOUR_DATA = {
     ],
     "itinerary": [
       {
-        "day": "Morning",
-        "title": "Departure & Pickup",
-        "desc": "Pickup from hotel/residence in private vehicle. Highway drive with refreshment stop."
+        "day": "Day 1",
+        "title": "Departure from Islamabad/Lahore & Journey Towards Hunza Valley",
+        "desc": "Pick-up of participants from Lahore / Islamabad. Morning drive along Hazara Motorway / scenic highway. Travel through scenic mountain passes with refreshment stops at riverside points. Hotel check-in and evening welcome briefing."
       },
       {
-        "day": "Afternoon",
-        "title": "Guided Exploration & Activity",
-        "desc": "Arrive at destination. Guided tour of key monuments, photography stops, and water activities."
+        "day": "Day 2",
+        "title": "Scenic Drive to Hunza Valley & Core Attractions",
+        "desc": "Breakfast at hotel. Proceed towards Hunza Valley. Experience spectacular views of snow-clad peaks and alpine rivers. Visit major landmarks, check into main valley hotel/campsite, followed by an evening bonfire and local dinner."
       },
       {
-        "day": "Evening",
-        "title": "Local Food Tasting & Return",
-        "desc": "Enjoy famous regional food & tea. Return drive with drop-off at your hotel by 07:00 PM."
+        "day": "Day 3",
+        "title": "Excursion to Full guided excursion for Ice Hockey in Hunza GB",
+        "desc": "Full day adventure exploring pristine alpine points. Full guided excursion for Ice Hockey in Hunza GB. Private AC transport with driver, fuel, tolls & parking. Enjoy evening cultural music and bonfire at hotel."
+      },
+      {
+        "day": "Day 4",
+        "title": "Heritage, Lakes & Cultural Walk in Hunza Valley",
+        "desc": "Discover ancient forts, crystal clear lakes, and historic settlements in the region. Sightseeing at historical monuments, bazaars & viewpoints."
+      },
+      {
+        "day": "Day 5",
+        "title": "4x4 Mountain Pass Excursion & High Altitude Meadows",
+        "desc": "Thrilling off-road 4x4 Jeep ride to remote high-altitude meadows and border viewpoints. Scenic picnic lunch amidst pristine alpine nature. Overnight stay under starry skies at mountain resort."
+      },
+      {
+        "day": "Day 6",
+        "title": "Glacier Views & Remote Settlement Exploration",
+        "desc": "Guided trek towards nearby glacier viewpoints and alpine meadows. Experience panoramic vistas of 7000m+ Himalayan/Karakoram peaks."
+      },
+      {
+        "day": "Day 7",
+        "title": "Final Return Journey to Islamabad & Lahore",
+        "desc": "Morning breakfast. Depart from mountain base and drive back along the highway. Transfer to comfortable coasters/cabins. Arrival in Islamabad by evening and drop-off in Lahore by late night with cherished expedition memories."
       }
     ],
     "packages": [
@@ -9142,19 +9837,54 @@ window.TOUR_DATA = {
     ],
     "itinerary": [
       {
-        "day": "Morning",
-        "title": "Departure & Pickup",
-        "desc": "Pickup from hotel/residence in private vehicle. Highway drive with refreshment stop."
+        "day": "Day 1",
+        "title": "Departure from Islamabad/Lahore & Journey Towards Hunza Valley",
+        "desc": "Pick-up of participants from Lahore / Islamabad. Morning drive along Hazara Motorway / scenic highway. Travel through scenic mountain passes with refreshment stops at riverside points. Hotel check-in and evening welcome briefing."
       },
       {
-        "day": "Afternoon",
-        "title": "Guided Exploration & Activity",
-        "desc": "Arrive at destination. Guided tour of key monuments, photography stops, and water activities."
+        "day": "Day 2",
+        "title": "Scenic Drive to Hunza Valley & Core Attractions",
+        "desc": "Breakfast at hotel. Proceed towards Hunza Valley. Experience spectacular views of snow-clad peaks and alpine rivers. Visit major landmarks, check into main valley hotel/campsite, followed by an evening bonfire and local dinner."
       },
       {
-        "day": "Evening",
-        "title": "Local Food Tasting & Return",
-        "desc": "Enjoy famous regional food & tea. Return drive with drop-off at your hotel by 07:00 PM."
+        "day": "Day 3",
+        "title": "Excursion to Full guided excursion for 10 Days Cycling Event on KARAKURAM HIGHWAY",
+        "desc": "Full day adventure exploring pristine alpine points. Full guided excursion for 10 Days Cycling Event on KARAKURAM HIGHWAY. Private AC transport with driver, fuel, tolls & parking. Enjoy evening cultural music and bonfire at hotel."
+      },
+      {
+        "day": "Day 4",
+        "title": "Heritage, Lakes & Cultural Walk in Hunza Valley",
+        "desc": "Discover ancient forts, crystal clear lakes, and historic settlements in the region. Sightseeing at historical monuments, bazaars & viewpoints."
+      },
+      {
+        "day": "Day 5",
+        "title": "4x4 Mountain Pass Excursion & High Altitude Meadows",
+        "desc": "Thrilling off-road 4x4 Jeep ride to remote high-altitude meadows and border viewpoints. Scenic picnic lunch amidst pristine alpine nature. Overnight stay under starry skies at mountain resort."
+      },
+      {
+        "day": "Day 6",
+        "title": "Glacier Views & Remote Settlement Exploration",
+        "desc": "Guided trek towards nearby glacier viewpoints and alpine meadows. Experience panoramic vistas of 7000m+ Himalayan/Karakoram peaks."
+      },
+      {
+        "day": "Day 7",
+        "title": "Cultural Heritage & Local Artisan Bazaar Walk",
+        "desc": "Explore centuries-old mountain forts, traditional handicraft workshops, dry fruit bazaars, and gemstone markets."
+      },
+      {
+        "day": "Day 8",
+        "title": "High Altitude Wildlife & Photography Safari",
+        "desc": "Early morning excursion to wildlife habitats and panoramic high passes. Unrestricted photography time in pristine high-altitude ecosystems."
+      },
+      {
+        "day": "Day 9",
+        "title": "Cross-Valley Scenic Route & Secret Viewpoints",
+        "desc": "Travel across adjacent mountain valleys along dramatic gorge roads and river crossings. Evening starlit camping/resort stay."
+      },
+      {
+        "day": "Day 10",
+        "title": "Final Return Journey to Islamabad & Lahore",
+        "desc": "Morning breakfast. Depart from mountain base and drive back along the highway. Transfer to comfortable coasters/cabins. Arrival in Islamabad by evening and drop-off in Lahore by late night with cherished expedition memories."
       }
     ],
     "packages": [
@@ -9241,19 +9971,29 @@ window.TOUR_DATA = {
     ],
     "itinerary": [
       {
-        "day": "Morning",
-        "title": "Departure & Pickup",
-        "desc": "Pickup from hotel/residence in private vehicle. Highway drive with refreshment stop."
+        "day": "Day 1",
+        "title": "Departure from Islamabad/Lahore & Journey Towards Kumrat Valley & Jahaz Banda",
+        "desc": "Pick-up of participants from Lahore / Islamabad. Morning drive along Hazara Motorway / scenic highway. Travel through scenic mountain passes with refreshment stops at riverside points. Hotel check-in and evening welcome briefing."
       },
       {
-        "day": "Afternoon",
-        "title": "Guided Exploration & Activity",
-        "desc": "Arrive at destination. Guided tour of key monuments, photography stops, and water activities."
+        "day": "Day 2",
+        "title": "Scenic Drive to Kumrat Valley & Jahaz Banda & Core Attractions",
+        "desc": "Breakfast at hotel. Proceed towards Kumrat Valley & Jahaz Banda. Experience spectacular views of snow-clad peaks and alpine rivers. Visit major landmarks, check into main valley hotel/campsite, followed by an evening bonfire and local dinner."
       },
       {
-        "day": "Evening",
-        "title": "Local Food Tasting & Return",
-        "desc": "Enjoy famous regional food & tea. Return drive with drop-off at your hotel by 07:00 PM."
+        "day": "Day 3",
+        "title": "Excursion to Full guided excursion for 5 Days Kumrat | Jahaz Banda Tour",
+        "desc": "Full day adventure exploring pristine alpine points. Full guided excursion for 5 Days Kumrat | Jahaz Banda Tour. Private AC transport with driver, fuel, tolls & parking. Enjoy evening cultural music and bonfire at hotel."
+      },
+      {
+        "day": "Day 4",
+        "title": "Heritage, Lakes & Cultural Walk in Kumrat Valley & Jahaz Banda",
+        "desc": "Discover ancient forts, crystal clear lakes, and historic settlements in the region. Sightseeing at historical monuments, bazaars & viewpoints."
+      },
+      {
+        "day": "Day 5",
+        "title": "Return Journey to Islamabad / Lahore",
+        "desc": "Early morning breakfast. Depart Kumrat Valley & Jahaz Banda and travel along the scenic highway. Stop at famous roadside tea spots. Arrive back in Islamabad by evening and drop-off in Lahore late night."
       }
     ],
     "packages": [
@@ -9340,19 +10080,19 @@ window.TOUR_DATA = {
     ],
     "itinerary": [
       {
-        "day": "Morning",
-        "title": "Departure & Pickup",
-        "desc": "Pickup from hotel/residence in private vehicle. Highway drive with refreshment stop."
+        "day": "Day 1",
+        "title": "Departure from Islamabad/Lahore & Journey Towards Hunza Valley",
+        "desc": "Pick-up of participants from Lahore / Islamabad. Morning drive along Hazara Motorway / scenic highway. Travel through scenic mountain passes with refreshment stops at riverside points. Hotel check-in and evening welcome briefing."
       },
       {
-        "day": "Afternoon",
-        "title": "Guided Exploration & Activity",
-        "desc": "Arrive at destination. Guided tour of key monuments, photography stops, and water activities."
+        "day": "Day 2",
+        "title": "Scenic Drive to Hunza Valley & Core Attractions",
+        "desc": "Breakfast at hotel. Proceed towards Hunza Valley. Experience spectacular views of snow-clad peaks and alpine rivers. Visit major landmarks, check into main valley hotel/campsite, followed by an evening bonfire and local dinner."
       },
       {
-        "day": "Evening",
-        "title": "Local Food Tasting & Return",
-        "desc": "Enjoy famous regional food & tea. Return drive with drop-off at your hotel by 07:00 PM."
+        "day": "Day 3",
+        "title": "Final Sightseeing in Hunza Valley & Return Journey",
+        "desc": "Morning breakfast with sunrise views over the mountains. Visit remaining local viewpoints and handicraft markets. Depart for return drive to Islamabad by evening and Lahore by late night."
       }
     ],
     "packages": [
@@ -9439,19 +10179,44 @@ window.TOUR_DATA = {
     ],
     "itinerary": [
       {
-        "day": "Morning",
-        "title": "Departure & Pickup",
-        "desc": "Pickup from hotel/residence in private vehicle. Highway drive with refreshment stop."
+        "day": "Day 1",
+        "title": "Departure from Islamabad/Lahore & Journey Towards Swat Valley & Kalam",
+        "desc": "Pick-up of participants from Lahore / Islamabad. Morning drive along Hazara Motorway / scenic highway. Travel through scenic mountain passes with refreshment stops at riverside points. Hotel check-in and evening welcome briefing."
       },
       {
-        "day": "Afternoon",
-        "title": "Guided Exploration & Activity",
-        "desc": "Arrive at destination. Guided tour of key monuments, photography stops, and water activities."
+        "day": "Day 2",
+        "title": "Scenic Drive to Swat Valley & Kalam & Core Attractions",
+        "desc": "Breakfast at hotel. Proceed towards Swat Valley & Kalam. Experience spectacular views of snow-clad peaks and alpine rivers. Visit major landmarks, check into main valley hotel/campsite, followed by an evening bonfire and local dinner."
       },
       {
-        "day": "Evening",
-        "title": "Local Food Tasting & Return",
-        "desc": "Enjoy famous regional food & tea. Return drive with drop-off at your hotel by 07:00 PM."
+        "day": "Day 3",
+        "title": "Excursion to Full guided excursion for Darwaza Pass Trek",
+        "desc": "Full day adventure exploring pristine alpine points. Full guided excursion for Darwaza Pass Trek. Private AC transport with driver, fuel, tolls & parking. Enjoy evening cultural music and bonfire at hotel."
+      },
+      {
+        "day": "Day 4",
+        "title": "Heritage, Lakes & Cultural Walk in Swat Valley & Kalam",
+        "desc": "Discover ancient forts, crystal clear lakes, and historic settlements in the region. Sightseeing at historical monuments, bazaars & viewpoints."
+      },
+      {
+        "day": "Day 5",
+        "title": "4x4 Mountain Pass Excursion & High Altitude Meadows",
+        "desc": "Thrilling off-road 4x4 Jeep ride to remote high-altitude meadows and border viewpoints. Scenic picnic lunch amidst pristine alpine nature. Overnight stay under starry skies at mountain resort."
+      },
+      {
+        "day": "Day 6",
+        "title": "Glacier Views & Remote Settlement Exploration",
+        "desc": "Guided trek towards nearby glacier viewpoints and alpine meadows. Experience panoramic vistas of 7000m+ Himalayan/Karakoram peaks."
+      },
+      {
+        "day": "Day 7",
+        "title": "Cultural Heritage & Local Artisan Bazaar Walk",
+        "desc": "Explore centuries-old mountain forts, traditional handicraft workshops, dry fruit bazaars, and gemstone markets."
+      },
+      {
+        "day": "Day 8",
+        "title": "Final Return Journey to Islamabad & Lahore",
+        "desc": "Morning breakfast. Depart from mountain base and drive back along the highway. Transfer to comfortable coasters/cabins. Arrival in Islamabad by evening and drop-off in Lahore by late night with cherished expedition memories."
       }
     ],
     "packages": [
@@ -9538,19 +10303,34 @@ window.TOUR_DATA = {
     ],
     "itinerary": [
       {
-        "day": "Morning",
-        "title": "Departure & Pickup",
-        "desc": "Pickup from hotel/residence in private vehicle. Highway drive with refreshment stop."
+        "day": "Day 1",
+        "title": "Departure from Islamabad/Lahore & Journey Towards Ghilam Harish Trek",
+        "desc": "Pick-up of participants from Lahore / Islamabad. Morning drive along Hazara Motorway / scenic highway. Travel through scenic mountain passes with refreshment stops at riverside points. Hotel check-in and evening welcome briefing."
       },
       {
-        "day": "Afternoon",
-        "title": "Guided Exploration & Activity",
-        "desc": "Arrive at destination. Guided tour of key monuments, photography stops, and water activities."
+        "day": "Day 2",
+        "title": "Scenic Drive to Ghilam Harish Trek & Core Attractions",
+        "desc": "Breakfast at hotel. Proceed towards Ghilam Harish Trek. Experience spectacular views of snow-clad peaks and alpine rivers. Visit major landmarks, check into main valley hotel/campsite, followed by an evening bonfire and local dinner."
       },
       {
-        "day": "Evening",
-        "title": "Local Food Tasting & Return",
-        "desc": "Enjoy famous regional food & tea. Return drive with drop-off at your hotel by 07:00 PM."
+        "day": "Day 3",
+        "title": "Excursion to Full guided excursion for Ghilam Harish Trek",
+        "desc": "Full day adventure exploring pristine alpine points. Full guided excursion for Ghilam Harish Trek. Private AC transport with driver, fuel, tolls & parking. Enjoy evening cultural music and bonfire at hotel."
+      },
+      {
+        "day": "Day 4",
+        "title": "Heritage, Lakes & Cultural Walk in Ghilam Harish Trek",
+        "desc": "Discover ancient forts, crystal clear lakes, and historic settlements in the region. Sightseeing at historical monuments, bazaars & viewpoints."
+      },
+      {
+        "day": "Day 5",
+        "title": "4x4 Mountain Pass Excursion & High Altitude Meadows",
+        "desc": "Thrilling off-road 4x4 Jeep ride to remote high-altitude meadows and border viewpoints. Scenic picnic lunch amidst pristine alpine nature. Overnight stay under starry skies at mountain resort."
+      },
+      {
+        "day": "Day 6",
+        "title": "Return Journey & Drop-off at Islamabad / Lahore",
+        "desc": "Morning breakfast. Begin return journey via Karakoram / Alpine Highway. Drop-off in Islamabad by evening and Lahore by late night."
       }
     ],
     "packages": [
@@ -9637,19 +10417,64 @@ window.TOUR_DATA = {
     ],
     "itinerary": [
       {
-        "day": "Morning",
-        "title": "Departure & Pickup",
-        "desc": "Pickup from hotel/residence in private vehicle. Highway drive with refreshment stop."
+        "day": "Day 1",
+        "title": "Departure from Islamabad/Lahore & Journey Towards Hunza Valley",
+        "desc": "Pick-up of participants from Lahore / Islamabad. Morning drive along Hazara Motorway / scenic highway. Travel through scenic mountain passes with refreshment stops at riverside points. Hotel check-in and evening welcome briefing."
       },
       {
-        "day": "Afternoon",
-        "title": "Guided Exploration & Activity",
-        "desc": "Arrive at destination. Guided tour of key monuments, photography stops, and water activities."
+        "day": "Day 2",
+        "title": "Scenic Drive to Hunza Valley & Core Attractions",
+        "desc": "Breakfast at hotel. Proceed towards Hunza Valley. Experience spectacular views of snow-clad peaks and alpine rivers. Visit major landmarks, check into main valley hotel/campsite, followed by an evening bonfire and local dinner."
       },
       {
-        "day": "Evening",
-        "title": "Local Food Tasting & Return",
-        "desc": "Enjoy famous regional food & tea. Return drive with drop-off at your hotel by 07:00 PM."
+        "day": "Day 3",
+        "title": "Excursion to Full guided excursion for EXPLORE PAKISTAN: Kumrat | Phandar | Chitral (12 Days Trip: By Road)",
+        "desc": "Full day adventure exploring pristine alpine points. Full guided excursion for EXPLORE PAKISTAN: Kumrat | Phandar | Chitral (12 Days Trip: By Road). Private AC transport with driver, fuel, tolls & parking. Enjoy evening cultural music and bonfire at hotel."
+      },
+      {
+        "day": "Day 4",
+        "title": "Heritage, Lakes & Cultural Walk in Hunza Valley",
+        "desc": "Discover ancient forts, crystal clear lakes, and historic settlements in the region. Sightseeing at historical monuments, bazaars & viewpoints."
+      },
+      {
+        "day": "Day 5",
+        "title": "4x4 Mountain Pass Excursion & High Altitude Meadows",
+        "desc": "Thrilling off-road 4x4 Jeep ride to remote high-altitude meadows and border viewpoints. Scenic picnic lunch amidst pristine alpine nature. Overnight stay under starry skies at mountain resort."
+      },
+      {
+        "day": "Day 6",
+        "title": "Glacier Views & Remote Settlement Exploration",
+        "desc": "Guided trek towards nearby glacier viewpoints and alpine meadows. Experience panoramic vistas of 7000m+ Himalayan/Karakoram peaks."
+      },
+      {
+        "day": "Day 7",
+        "title": "Cultural Heritage & Local Artisan Bazaar Walk",
+        "desc": "Explore centuries-old mountain forts, traditional handicraft workshops, dry fruit bazaars, and gemstone markets."
+      },
+      {
+        "day": "Day 8",
+        "title": "High Altitude Wildlife & Photography Safari",
+        "desc": "Early morning excursion to wildlife habitats and panoramic high passes. Unrestricted photography time in pristine high-altitude ecosystems."
+      },
+      {
+        "day": "Day 9",
+        "title": "Cross-Valley Scenic Route & Secret Viewpoints",
+        "desc": "Travel across adjacent mountain valleys along dramatic gorge roads and river crossings. Evening starlit camping/resort stay."
+      },
+      {
+        "day": "Day 10",
+        "title": "Extended Circuit Exploration – Day 10",
+        "desc": "Leisure day for optional short treks, boat rides, or relaxation amidst serene mountain landscapes. Evening BBQ and traditional music night."
+      },
+      {
+        "day": "Day 11",
+        "title": "Extended Circuit Exploration – Day 11",
+        "desc": "Leisure day for optional short treks, boat rides, or relaxation amidst serene mountain landscapes. Evening BBQ and traditional music night."
+      },
+      {
+        "day": "Day 12",
+        "title": "Final Return Journey to Islamabad & Lahore",
+        "desc": "Morning breakfast. Depart from mountain base and drive back along the highway. Transfer to comfortable coasters/cabins. Arrival in Islamabad by evening and drop-off in Lahore by late night with cherished expedition memories."
       }
     ],
     "packages": [
@@ -9736,19 +10561,64 @@ window.TOUR_DATA = {
     ],
     "itinerary": [
       {
-        "day": "Morning",
-        "title": "Departure & Pickup",
-        "desc": "Pickup from hotel/residence in private vehicle. Highway drive with refreshment stop."
+        "day": "Day 1",
+        "title": "Departure from Islamabad/Lahore & Journey Towards Hunza Valley",
+        "desc": "Pick-up of participants from Lahore / Islamabad. Morning drive along Hazara Motorway / scenic highway. Travel through scenic mountain passes with refreshment stops at riverside points. Hotel check-in and evening welcome briefing."
       },
       {
-        "day": "Afternoon",
-        "title": "Guided Exploration & Activity",
-        "desc": "Arrive at destination. Guided tour of key monuments, photography stops, and water activities."
+        "day": "Day 2",
+        "title": "Scenic Drive to Hunza Valley & Core Attractions",
+        "desc": "Breakfast at hotel. Proceed towards Hunza Valley. Experience spectacular views of snow-clad peaks and alpine rivers. Visit major landmarks, check into main valley hotel/campsite, followed by an evening bonfire and local dinner."
       },
       {
-        "day": "Evening",
-        "title": "Local Food Tasting & Return",
-        "desc": "Enjoy famous regional food & tea. Return drive with drop-off at your hotel by 07:00 PM."
+        "day": "Day 3",
+        "title": "Excursion to Full guided excursion for Explore Pakistan: Hunza | Skardu | Islamabad (12 Days Trip: By Road)",
+        "desc": "Full day adventure exploring pristine alpine points. Full guided excursion for Explore Pakistan: Hunza | Skardu | Islamabad (12 Days Trip: By Road). Private AC transport with driver, fuel, tolls & parking. Enjoy evening cultural music and bonfire at hotel."
+      },
+      {
+        "day": "Day 4",
+        "title": "Heritage, Lakes & Cultural Walk in Hunza Valley",
+        "desc": "Discover ancient forts, crystal clear lakes, and historic settlements in the region. Sightseeing at historical monuments, bazaars & viewpoints."
+      },
+      {
+        "day": "Day 5",
+        "title": "4x4 Mountain Pass Excursion & High Altitude Meadows",
+        "desc": "Thrilling off-road 4x4 Jeep ride to remote high-altitude meadows and border viewpoints. Scenic picnic lunch amidst pristine alpine nature. Overnight stay under starry skies at mountain resort."
+      },
+      {
+        "day": "Day 6",
+        "title": "Glacier Views & Remote Settlement Exploration",
+        "desc": "Guided trek towards nearby glacier viewpoints and alpine meadows. Experience panoramic vistas of 7000m+ Himalayan/Karakoram peaks."
+      },
+      {
+        "day": "Day 7",
+        "title": "Cultural Heritage & Local Artisan Bazaar Walk",
+        "desc": "Explore centuries-old mountain forts, traditional handicraft workshops, dry fruit bazaars, and gemstone markets."
+      },
+      {
+        "day": "Day 8",
+        "title": "High Altitude Wildlife & Photography Safari",
+        "desc": "Early morning excursion to wildlife habitats and panoramic high passes. Unrestricted photography time in pristine high-altitude ecosystems."
+      },
+      {
+        "day": "Day 9",
+        "title": "Cross-Valley Scenic Route & Secret Viewpoints",
+        "desc": "Travel across adjacent mountain valleys along dramatic gorge roads and river crossings. Evening starlit camping/resort stay."
+      },
+      {
+        "day": "Day 10",
+        "title": "Extended Circuit Exploration – Day 10",
+        "desc": "Leisure day for optional short treks, boat rides, or relaxation amidst serene mountain landscapes. Evening BBQ and traditional music night."
+      },
+      {
+        "day": "Day 11",
+        "title": "Extended Circuit Exploration – Day 11",
+        "desc": "Leisure day for optional short treks, boat rides, or relaxation amidst serene mountain landscapes. Evening BBQ and traditional music night."
+      },
+      {
+        "day": "Day 12",
+        "title": "Final Return Journey to Islamabad & Lahore",
+        "desc": "Morning breakfast. Depart from mountain base and drive back along the highway. Transfer to comfortable coasters/cabins. Arrival in Islamabad by evening and drop-off in Lahore by late night with cherished expedition memories."
       }
     ],
     "packages": [
@@ -9835,19 +10705,64 @@ window.TOUR_DATA = {
     ],
     "itinerary": [
       {
-        "day": "Morning",
-        "title": "Departure & Pickup",
-        "desc": "Pickup from hotel/residence in private vehicle. Highway drive with refreshment stop."
+        "day": "Day 1",
+        "title": "Departure from Islamabad/Lahore & Journey Towards Hunza Valley",
+        "desc": "Pick-up of participants from Lahore / Islamabad. Morning drive along Hazara Motorway / scenic highway. Travel through scenic mountain passes with refreshment stops at riverside points. Hotel check-in and evening welcome briefing."
       },
       {
-        "day": "Afternoon",
-        "title": "Guided Exploration & Activity",
-        "desc": "Arrive at destination. Guided tour of key monuments, photography stops, and water activities."
+        "day": "Day 2",
+        "title": "Scenic Drive to Hunza Valley & Core Attractions",
+        "desc": "Breakfast at hotel. Proceed towards Hunza Valley. Experience spectacular views of snow-clad peaks and alpine rivers. Visit major landmarks, check into main valley hotel/campsite, followed by an evening bonfire and local dinner."
       },
       {
-        "day": "Evening",
-        "title": "Local Food Tasting & Return",
-        "desc": "Enjoy famous regional food & tea. Return drive with drop-off at your hotel by 07:00 PM."
+        "day": "Day 3",
+        "title": "Excursion to Full guided excursion for Discover Pakistan: Hunza | Skardu | Islamabad (12 Days Trip: By Air & By Road)",
+        "desc": "Full day adventure exploring pristine alpine points. Full guided excursion for Discover Pakistan: Hunza | Skardu | Islamabad (12 Days Trip: By Air & By Road). Private AC transport with driver, fuel, tolls & parking. Enjoy evening cultural music and bonfire at hotel."
+      },
+      {
+        "day": "Day 4",
+        "title": "Heritage, Lakes & Cultural Walk in Hunza Valley",
+        "desc": "Discover ancient forts, crystal clear lakes, and historic settlements in the region. Sightseeing at historical monuments, bazaars & viewpoints."
+      },
+      {
+        "day": "Day 5",
+        "title": "4x4 Mountain Pass Excursion & High Altitude Meadows",
+        "desc": "Thrilling off-road 4x4 Jeep ride to remote high-altitude meadows and border viewpoints. Scenic picnic lunch amidst pristine alpine nature. Overnight stay under starry skies at mountain resort."
+      },
+      {
+        "day": "Day 6",
+        "title": "Glacier Views & Remote Settlement Exploration",
+        "desc": "Guided trek towards nearby glacier viewpoints and alpine meadows. Experience panoramic vistas of 7000m+ Himalayan/Karakoram peaks."
+      },
+      {
+        "day": "Day 7",
+        "title": "Cultural Heritage & Local Artisan Bazaar Walk",
+        "desc": "Explore centuries-old mountain forts, traditional handicraft workshops, dry fruit bazaars, and gemstone markets."
+      },
+      {
+        "day": "Day 8",
+        "title": "High Altitude Wildlife & Photography Safari",
+        "desc": "Early morning excursion to wildlife habitats and panoramic high passes. Unrestricted photography time in pristine high-altitude ecosystems."
+      },
+      {
+        "day": "Day 9",
+        "title": "Cross-Valley Scenic Route & Secret Viewpoints",
+        "desc": "Travel across adjacent mountain valleys along dramatic gorge roads and river crossings. Evening starlit camping/resort stay."
+      },
+      {
+        "day": "Day 10",
+        "title": "Extended Circuit Exploration – Day 10",
+        "desc": "Leisure day for optional short treks, boat rides, or relaxation amidst serene mountain landscapes. Evening BBQ and traditional music night."
+      },
+      {
+        "day": "Day 11",
+        "title": "Extended Circuit Exploration – Day 11",
+        "desc": "Leisure day for optional short treks, boat rides, or relaxation amidst serene mountain landscapes. Evening BBQ and traditional music night."
+      },
+      {
+        "day": "Day 12",
+        "title": "Final Return Journey to Islamabad & Lahore",
+        "desc": "Morning breakfast. Depart from mountain base and drive back along the highway. Transfer to comfortable coasters/cabins. Arrival in Islamabad by evening and drop-off in Lahore by late night with cherished expedition memories."
       }
     ],
     "packages": [
@@ -9934,19 +10849,64 @@ window.TOUR_DATA = {
     ],
     "itinerary": [
       {
-        "day": "Morning",
-        "title": "Departure & Pickup",
-        "desc": "Pickup from hotel/residence in private vehicle. Highway drive with refreshment stop."
+        "day": "Day 1",
+        "title": "Departure from Islamabad/Lahore & Journey Towards Hunza Valley",
+        "desc": "Pick-up of participants from Lahore / Islamabad. Morning drive along Hazara Motorway / scenic highway. Travel through scenic mountain passes with refreshment stops at riverside points. Hotel check-in and evening welcome briefing."
       },
       {
-        "day": "Afternoon",
-        "title": "Guided Exploration & Activity",
-        "desc": "Arrive at destination. Guided tour of key monuments, photography stops, and water activities."
+        "day": "Day 2",
+        "title": "Scenic Drive to Hunza Valley & Core Attractions",
+        "desc": "Breakfast at hotel. Proceed towards Hunza Valley. Experience spectacular views of snow-clad peaks and alpine rivers. Visit major landmarks, check into main valley hotel/campsite, followed by an evening bonfire and local dinner."
       },
       {
-        "day": "Evening",
-        "title": "Local Food Tasting & Return",
-        "desc": "Enjoy famous regional food & tea. Return drive with drop-off at your hotel by 07:00 PM."
+        "day": "Day 3",
+        "title": "Excursion to Full guided excursion for Discover Pakistan: Hunza | Skardu | Islamabad (12 Days Trip)",
+        "desc": "Full day adventure exploring pristine alpine points. Full guided excursion for Discover Pakistan: Hunza | Skardu | Islamabad (12 Days Trip). Private AC transport with driver, fuel, tolls & parking. Enjoy evening cultural music and bonfire at hotel."
+      },
+      {
+        "day": "Day 4",
+        "title": "Heritage, Lakes & Cultural Walk in Hunza Valley",
+        "desc": "Discover ancient forts, crystal clear lakes, and historic settlements in the region. Sightseeing at historical monuments, bazaars & viewpoints."
+      },
+      {
+        "day": "Day 5",
+        "title": "4x4 Mountain Pass Excursion & High Altitude Meadows",
+        "desc": "Thrilling off-road 4x4 Jeep ride to remote high-altitude meadows and border viewpoints. Scenic picnic lunch amidst pristine alpine nature. Overnight stay under starry skies at mountain resort."
+      },
+      {
+        "day": "Day 6",
+        "title": "Glacier Views & Remote Settlement Exploration",
+        "desc": "Guided trek towards nearby glacier viewpoints and alpine meadows. Experience panoramic vistas of 7000m+ Himalayan/Karakoram peaks."
+      },
+      {
+        "day": "Day 7",
+        "title": "Cultural Heritage & Local Artisan Bazaar Walk",
+        "desc": "Explore centuries-old mountain forts, traditional handicraft workshops, dry fruit bazaars, and gemstone markets."
+      },
+      {
+        "day": "Day 8",
+        "title": "High Altitude Wildlife & Photography Safari",
+        "desc": "Early morning excursion to wildlife habitats and panoramic high passes. Unrestricted photography time in pristine high-altitude ecosystems."
+      },
+      {
+        "day": "Day 9",
+        "title": "Cross-Valley Scenic Route & Secret Viewpoints",
+        "desc": "Travel across adjacent mountain valleys along dramatic gorge roads and river crossings. Evening starlit camping/resort stay."
+      },
+      {
+        "day": "Day 10",
+        "title": "Extended Circuit Exploration – Day 10",
+        "desc": "Leisure day for optional short treks, boat rides, or relaxation amidst serene mountain landscapes. Evening BBQ and traditional music night."
+      },
+      {
+        "day": "Day 11",
+        "title": "Extended Circuit Exploration – Day 11",
+        "desc": "Leisure day for optional short treks, boat rides, or relaxation amidst serene mountain landscapes. Evening BBQ and traditional music night."
+      },
+      {
+        "day": "Day 12",
+        "title": "Final Return Journey to Islamabad & Lahore",
+        "desc": "Morning breakfast. Depart from mountain base and drive back along the highway. Transfer to comfortable coasters/cabins. Arrival in Islamabad by evening and drop-off in Lahore by late night with cherished expedition memories."
       }
     ],
     "packages": [
@@ -10033,19 +10993,49 @@ window.TOUR_DATA = {
     ],
     "itinerary": [
       {
-        "day": "Morning",
-        "title": "Departure & Pickup",
-        "desc": "Pickup from hotel/residence in private vehicle. Highway drive with refreshment stop."
+        "day": "Day 1",
+        "title": "Departure from Islamabad/Lahore & Journey Towards Hunza Valley",
+        "desc": "Pick-up of participants from Lahore / Islamabad. Morning drive along Hazara Motorway / scenic highway. Travel through scenic mountain passes with refreshment stops at riverside points. Hotel check-in and evening welcome briefing."
       },
       {
-        "day": "Afternoon",
-        "title": "Guided Exploration & Activity",
-        "desc": "Arrive at destination. Guided tour of key monuments, photography stops, and water activities."
+        "day": "Day 2",
+        "title": "Scenic Drive to Hunza Valley & Core Attractions",
+        "desc": "Breakfast at hotel. Proceed towards Hunza Valley. Experience spectacular views of snow-clad peaks and alpine rivers. Visit major landmarks, check into main valley hotel/campsite, followed by an evening bonfire and local dinner."
       },
       {
-        "day": "Evening",
-        "title": "Local Food Tasting & Return",
-        "desc": "Enjoy famous regional food & tea. Return drive with drop-off at your hotel by 07:00 PM."
+        "day": "Day 3",
+        "title": "Excursion to Full guided excursion for Discover Pakistan: Hunza | Skardu | Islamabad (9 Days Trip)",
+        "desc": "Full day adventure exploring pristine alpine points. Full guided excursion for Discover Pakistan: Hunza | Skardu | Islamabad (9 Days Trip). Private AC transport with driver, fuel, tolls & parking. Enjoy evening cultural music and bonfire at hotel."
+      },
+      {
+        "day": "Day 4",
+        "title": "Heritage, Lakes & Cultural Walk in Hunza Valley",
+        "desc": "Discover ancient forts, crystal clear lakes, and historic settlements in the region. Sightseeing at historical monuments, bazaars & viewpoints."
+      },
+      {
+        "day": "Day 5",
+        "title": "4x4 Mountain Pass Excursion & High Altitude Meadows",
+        "desc": "Thrilling off-road 4x4 Jeep ride to remote high-altitude meadows and border viewpoints. Scenic picnic lunch amidst pristine alpine nature. Overnight stay under starry skies at mountain resort."
+      },
+      {
+        "day": "Day 6",
+        "title": "Glacier Views & Remote Settlement Exploration",
+        "desc": "Guided trek towards nearby glacier viewpoints and alpine meadows. Experience panoramic vistas of 7000m+ Himalayan/Karakoram peaks."
+      },
+      {
+        "day": "Day 7",
+        "title": "Cultural Heritage & Local Artisan Bazaar Walk",
+        "desc": "Explore centuries-old mountain forts, traditional handicraft workshops, dry fruit bazaars, and gemstone markets."
+      },
+      {
+        "day": "Day 8",
+        "title": "High Altitude Wildlife & Photography Safari",
+        "desc": "Early morning excursion to wildlife habitats and panoramic high passes. Unrestricted photography time in pristine high-altitude ecosystems."
+      },
+      {
+        "day": "Day 9",
+        "title": "Final Return Journey to Islamabad & Lahore",
+        "desc": "Morning breakfast. Depart from mountain base and drive back along the highway. Transfer to comfortable coasters/cabins. Arrival in Islamabad by evening and drop-off in Lahore by late night with cherished expedition memories."
       }
     ],
     "packages": [
@@ -10132,19 +11122,44 @@ window.TOUR_DATA = {
     ],
     "itinerary": [
       {
-        "day": "Morning",
-        "title": "Departure & Pickup",
-        "desc": "Pickup from hotel/residence in private vehicle. Highway drive with refreshment stop."
+        "day": "Day 1",
+        "title": "Departure from Islamabad/Lahore & Journey Towards Hunza Valley",
+        "desc": "Pick-up of participants from Lahore / Islamabad. Morning drive along Hazara Motorway / scenic highway. Travel through scenic mountain passes with refreshment stops at riverside points. Hotel check-in and evening welcome briefing."
       },
       {
-        "day": "Afternoon",
-        "title": "Guided Exploration & Activity",
-        "desc": "Arrive at destination. Guided tour of key monuments, photography stops, and water activities."
+        "day": "Day 2",
+        "title": "Scenic Drive to Hunza Valley & Core Attractions",
+        "desc": "Breakfast at hotel. Proceed towards Hunza Valley. Experience spectacular views of snow-clad peaks and alpine rivers. Visit major landmarks, check into main valley hotel/campsite, followed by an evening bonfire and local dinner."
       },
       {
-        "day": "Evening",
-        "title": "Local Food Tasting & Return",
-        "desc": "Enjoy famous regional food & tea. Return drive with drop-off at your hotel by 07:00 PM."
+        "day": "Day 3",
+        "title": "Excursion to Full guided excursion for Discover Pakistan: Hunza | Skardu | Lahore | Islamabad (8 Days Trip)",
+        "desc": "Full day adventure exploring pristine alpine points. Full guided excursion for Discover Pakistan: Hunza | Skardu | Lahore | Islamabad (8 Days Trip). Private AC transport with driver, fuel, tolls & parking. Enjoy evening cultural music and bonfire at hotel."
+      },
+      {
+        "day": "Day 4",
+        "title": "Heritage, Lakes & Cultural Walk in Hunza Valley",
+        "desc": "Discover ancient forts, crystal clear lakes, and historic settlements in the region. Sightseeing at historical monuments, bazaars & viewpoints."
+      },
+      {
+        "day": "Day 5",
+        "title": "4x4 Mountain Pass Excursion & High Altitude Meadows",
+        "desc": "Thrilling off-road 4x4 Jeep ride to remote high-altitude meadows and border viewpoints. Scenic picnic lunch amidst pristine alpine nature. Overnight stay under starry skies at mountain resort."
+      },
+      {
+        "day": "Day 6",
+        "title": "Glacier Views & Remote Settlement Exploration",
+        "desc": "Guided trek towards nearby glacier viewpoints and alpine meadows. Experience panoramic vistas of 7000m+ Himalayan/Karakoram peaks."
+      },
+      {
+        "day": "Day 7",
+        "title": "Cultural Heritage & Local Artisan Bazaar Walk",
+        "desc": "Explore centuries-old mountain forts, traditional handicraft workshops, dry fruit bazaars, and gemstone markets."
+      },
+      {
+        "day": "Day 8",
+        "title": "Final Return Journey to Islamabad & Lahore",
+        "desc": "Morning breakfast. Depart from mountain base and drive back along the highway. Transfer to comfortable coasters/cabins. Arrival in Islamabad by evening and drop-off in Lahore by late night with cherished expedition memories."
       }
     ],
     "packages": [
@@ -10232,18 +11247,18 @@ window.TOUR_DATA = {
     "itinerary": [
       {
         "day": "Morning",
-        "title": "Departure & Pickup",
-        "desc": "Pickup from hotel/residence in private vehicle. Highway drive with refreshment stop."
+        "title": "Departure & Scenic Drive to Islamabad & Margalla Hills",
+        "desc": "Early morning pickup from designated location in Islamabad/Lahore. Travel via expressway/highway with brief breakfast and refreshment stops along the scenic route."
       },
       {
         "day": "Afternoon",
-        "title": "Guided Exploration & Activity",
-        "desc": "Arrive at destination. Guided tour of key monuments, photography stops, and water activities."
+        "title": "Guided Exploration & Sightseeing in Islamabad & Margalla Hills",
+        "desc": "Arrival at Islamabad & Margalla Hills. Enjoy a comprehensive guided tour covering key historical sites, viewpoints, river banks, photography spots, and local attractions."
       },
       {
         "day": "Evening",
-        "title": "Local Food Tasting & Return",
-        "desc": "Enjoy famous regional food & tea. Return drive with drop-off at your hotel by 07:00 PM."
+        "title": "Traditional Tea, Cultural Experience & Return",
+        "desc": "Relax with authentic regional tea and local street food sampling. Depart for return journey, arriving back at pickup hub by late evening."
       }
     ],
     "packages": [
@@ -10330,19 +11345,109 @@ window.TOUR_DATA = {
     ],
     "itinerary": [
       {
-        "day": "Morning",
-        "title": "Departure & Pickup",
-        "desc": "Pickup from hotel/residence in private vehicle. Highway drive with refreshment stop."
+        "day": "Day 1",
+        "title": "Departure from Islamabad/Lahore & Journey Towards Pakistan: Summer Mountain Adventure",
+        "desc": "Pick-up of participants from Lahore / Islamabad. Morning drive along Hazara Motorway / scenic highway. Travel through scenic mountain passes with refreshment stops at riverside points. Hotel check-in and evening welcome briefing."
       },
       {
-        "day": "Afternoon",
-        "title": "Guided Exploration & Activity",
-        "desc": "Arrive at destination. Guided tour of key monuments, photography stops, and water activities."
+        "day": "Day 2",
+        "title": "Scenic Drive to Pakistan: Summer Mountain Adventure & Core Attractions",
+        "desc": "Breakfast at hotel. Proceed towards Pakistan: Summer Mountain Adventure. Experience spectacular views of snow-clad peaks and alpine rivers. Visit major landmarks, check into main valley hotel/campsite, followed by an evening bonfire and local dinner."
       },
       {
-        "day": "Evening",
-        "title": "Local Food Tasting & Return",
-        "desc": "Enjoy famous regional food & tea. Return drive with drop-off at your hotel by 07:00 PM."
+        "day": "Day 3",
+        "title": "Excursion to Full guided excursion for Pakistan: Summer Mountain Adventure – 21 Days",
+        "desc": "Full day adventure exploring pristine alpine points. Full guided excursion for Pakistan: Summer Mountain Adventure – 21 Days. Private AC transport with driver, fuel, tolls & parking. Enjoy evening cultural music and bonfire at hotel."
+      },
+      {
+        "day": "Day 4",
+        "title": "Heritage, Lakes & Cultural Walk in Pakistan: Summer Mountain Adventure",
+        "desc": "Discover ancient forts, crystal clear lakes, and historic settlements in the region. Sightseeing at historical monuments, bazaars & viewpoints."
+      },
+      {
+        "day": "Day 5",
+        "title": "4x4 Mountain Pass Excursion & High Altitude Meadows",
+        "desc": "Thrilling off-road 4x4 Jeep ride to remote high-altitude meadows and border viewpoints. Scenic picnic lunch amidst pristine alpine nature. Overnight stay under starry skies at mountain resort."
+      },
+      {
+        "day": "Day 6",
+        "title": "Glacier Views & Remote Settlement Exploration",
+        "desc": "Guided trek towards nearby glacier viewpoints and alpine meadows. Experience panoramic vistas of 7000m+ Himalayan/Karakoram peaks."
+      },
+      {
+        "day": "Day 7",
+        "title": "Cultural Heritage & Local Artisan Bazaar Walk",
+        "desc": "Explore centuries-old mountain forts, traditional handicraft workshops, dry fruit bazaars, and gemstone markets."
+      },
+      {
+        "day": "Day 8",
+        "title": "High Altitude Wildlife & Photography Safari",
+        "desc": "Early morning excursion to wildlife habitats and panoramic high passes. Unrestricted photography time in pristine high-altitude ecosystems."
+      },
+      {
+        "day": "Day 9",
+        "title": "Cross-Valley Scenic Route & Secret Viewpoints",
+        "desc": "Travel across adjacent mountain valleys along dramatic gorge roads and river crossings. Evening starlit camping/resort stay."
+      },
+      {
+        "day": "Day 10",
+        "title": "Extended Circuit Exploration – Day 10",
+        "desc": "Leisure day for optional short treks, boat rides, or relaxation amidst serene mountain landscapes. Evening BBQ and traditional music night."
+      },
+      {
+        "day": "Day 11",
+        "title": "Extended Circuit Exploration – Day 11",
+        "desc": "Leisure day for optional short treks, boat rides, or relaxation amidst serene mountain landscapes. Evening BBQ and traditional music night."
+      },
+      {
+        "day": "Day 12",
+        "title": "Extended Circuit Exploration – Day 12",
+        "desc": "Leisure day for optional short treks, boat rides, or relaxation amidst serene mountain landscapes. Evening BBQ and traditional music night."
+      },
+      {
+        "day": "Day 13",
+        "title": "Extended Circuit Exploration – Day 13",
+        "desc": "Leisure day for optional short treks, boat rides, or relaxation amidst serene mountain landscapes. Evening BBQ and traditional music night."
+      },
+      {
+        "day": "Day 14",
+        "title": "Extended Circuit Exploration – Day 14",
+        "desc": "Leisure day for optional short treks, boat rides, or relaxation amidst serene mountain landscapes. Evening BBQ and traditional music night."
+      },
+      {
+        "day": "Day 15",
+        "title": "Extended Circuit Exploration – Day 15",
+        "desc": "Leisure day for optional short treks, boat rides, or relaxation amidst serene mountain landscapes. Evening BBQ and traditional music night."
+      },
+      {
+        "day": "Day 16",
+        "title": "Extended Circuit Exploration – Day 16",
+        "desc": "Leisure day for optional short treks, boat rides, or relaxation amidst serene mountain landscapes. Evening BBQ and traditional music night."
+      },
+      {
+        "day": "Day 17",
+        "title": "Extended Circuit Exploration – Day 17",
+        "desc": "Leisure day for optional short treks, boat rides, or relaxation amidst serene mountain landscapes. Evening BBQ and traditional music night."
+      },
+      {
+        "day": "Day 18",
+        "title": "Extended Circuit Exploration – Day 18",
+        "desc": "Leisure day for optional short treks, boat rides, or relaxation amidst serene mountain landscapes. Evening BBQ and traditional music night."
+      },
+      {
+        "day": "Day 19",
+        "title": "Extended Circuit Exploration – Day 19",
+        "desc": "Leisure day for optional short treks, boat rides, or relaxation amidst serene mountain landscapes. Evening BBQ and traditional music night."
+      },
+      {
+        "day": "Day 20",
+        "title": "Extended Circuit Exploration – Day 20",
+        "desc": "Leisure day for optional short treks, boat rides, or relaxation amidst serene mountain landscapes. Evening BBQ and traditional music night."
+      },
+      {
+        "day": "Day 21",
+        "title": "Final Return Journey to Islamabad & Lahore",
+        "desc": "Morning breakfast. Depart from mountain base and drive back along the highway. Transfer to comfortable coasters/cabins. Arrival in Islamabad by evening and drop-off in Lahore by late night with cherished expedition memories."
       }
     ],
     "packages": [
@@ -10429,19 +11534,119 @@ window.TOUR_DATA = {
     ],
     "itinerary": [
       {
-        "day": "Morning",
-        "title": "Departure & Pickup",
-        "desc": "Pickup from hotel/residence in private vehicle. Highway drive with refreshment stop."
+        "day": "Day 1",
+        "title": "Departure from Islamabad/Lahore & Journey Towards Islamabad & Margalla Hills",
+        "desc": "Pick-up of participants from Lahore / Islamabad. Morning drive along Hazara Motorway / scenic highway. Travel through scenic mountain passes with refreshment stops at riverside points. Hotel check-in and evening welcome briefing."
       },
       {
-        "day": "Afternoon",
-        "title": "Guided Exploration & Activity",
-        "desc": "Arrive at destination. Guided tour of key monuments, photography stops, and water activities."
+        "day": "Day 2",
+        "title": "Scenic Drive to Islamabad & Margalla Hills & Core Attractions",
+        "desc": "Breakfast at hotel. Proceed towards Islamabad & Margalla Hills. Experience spectacular views of snow-clad peaks and alpine rivers. Visit major landmarks, check into main valley hotel/campsite, followed by an evening bonfire and local dinner."
       },
       {
-        "day": "Evening",
-        "title": "Local Food Tasting & Return",
-        "desc": "Enjoy famous regional food & tea. Return drive with drop-off at your hotel by 07:00 PM."
+        "day": "Day 3",
+        "title": "Excursion to Full guided excursion for Complete Northern Pakistan – 23 Days",
+        "desc": "Full day adventure exploring pristine alpine points. Full guided excursion for Complete Northern Pakistan – 23 Days. Private AC transport with driver, fuel, tolls & parking. Enjoy evening cultural music and bonfire at hotel."
+      },
+      {
+        "day": "Day 4",
+        "title": "Heritage, Lakes & Cultural Walk in Islamabad & Margalla Hills",
+        "desc": "Discover ancient forts, crystal clear lakes, and historic settlements in the region. Sightseeing at historical monuments, bazaars & viewpoints."
+      },
+      {
+        "day": "Day 5",
+        "title": "4x4 Mountain Pass Excursion & High Altitude Meadows",
+        "desc": "Thrilling off-road 4x4 Jeep ride to remote high-altitude meadows and border viewpoints. Scenic picnic lunch amidst pristine alpine nature. Overnight stay under starry skies at mountain resort."
+      },
+      {
+        "day": "Day 6",
+        "title": "Glacier Views & Remote Settlement Exploration",
+        "desc": "Guided trek towards nearby glacier viewpoints and alpine meadows. Experience panoramic vistas of 7000m+ Himalayan/Karakoram peaks."
+      },
+      {
+        "day": "Day 7",
+        "title": "Cultural Heritage & Local Artisan Bazaar Walk",
+        "desc": "Explore centuries-old mountain forts, traditional handicraft workshops, dry fruit bazaars, and gemstone markets."
+      },
+      {
+        "day": "Day 8",
+        "title": "High Altitude Wildlife & Photography Safari",
+        "desc": "Early morning excursion to wildlife habitats and panoramic high passes. Unrestricted photography time in pristine high-altitude ecosystems."
+      },
+      {
+        "day": "Day 9",
+        "title": "Cross-Valley Scenic Route & Secret Viewpoints",
+        "desc": "Travel across adjacent mountain valleys along dramatic gorge roads and river crossings. Evening starlit camping/resort stay."
+      },
+      {
+        "day": "Day 10",
+        "title": "Extended Circuit Exploration – Day 10",
+        "desc": "Leisure day for optional short treks, boat rides, or relaxation amidst serene mountain landscapes. Evening BBQ and traditional music night."
+      },
+      {
+        "day": "Day 11",
+        "title": "Extended Circuit Exploration – Day 11",
+        "desc": "Leisure day for optional short treks, boat rides, or relaxation amidst serene mountain landscapes. Evening BBQ and traditional music night."
+      },
+      {
+        "day": "Day 12",
+        "title": "Extended Circuit Exploration – Day 12",
+        "desc": "Leisure day for optional short treks, boat rides, or relaxation amidst serene mountain landscapes. Evening BBQ and traditional music night."
+      },
+      {
+        "day": "Day 13",
+        "title": "Extended Circuit Exploration – Day 13",
+        "desc": "Leisure day for optional short treks, boat rides, or relaxation amidst serene mountain landscapes. Evening BBQ and traditional music night."
+      },
+      {
+        "day": "Day 14",
+        "title": "Extended Circuit Exploration – Day 14",
+        "desc": "Leisure day for optional short treks, boat rides, or relaxation amidst serene mountain landscapes. Evening BBQ and traditional music night."
+      },
+      {
+        "day": "Day 15",
+        "title": "Extended Circuit Exploration – Day 15",
+        "desc": "Leisure day for optional short treks, boat rides, or relaxation amidst serene mountain landscapes. Evening BBQ and traditional music night."
+      },
+      {
+        "day": "Day 16",
+        "title": "Extended Circuit Exploration – Day 16",
+        "desc": "Leisure day for optional short treks, boat rides, or relaxation amidst serene mountain landscapes. Evening BBQ and traditional music night."
+      },
+      {
+        "day": "Day 17",
+        "title": "Extended Circuit Exploration – Day 17",
+        "desc": "Leisure day for optional short treks, boat rides, or relaxation amidst serene mountain landscapes. Evening BBQ and traditional music night."
+      },
+      {
+        "day": "Day 18",
+        "title": "Extended Circuit Exploration – Day 18",
+        "desc": "Leisure day for optional short treks, boat rides, or relaxation amidst serene mountain landscapes. Evening BBQ and traditional music night."
+      },
+      {
+        "day": "Day 19",
+        "title": "Extended Circuit Exploration – Day 19",
+        "desc": "Leisure day for optional short treks, boat rides, or relaxation amidst serene mountain landscapes. Evening BBQ and traditional music night."
+      },
+      {
+        "day": "Day 20",
+        "title": "Extended Circuit Exploration – Day 20",
+        "desc": "Leisure day for optional short treks, boat rides, or relaxation amidst serene mountain landscapes. Evening BBQ and traditional music night."
+      },
+      {
+        "day": "Day 21",
+        "title": "Extended Circuit Exploration – Day 21",
+        "desc": "Leisure day for optional short treks, boat rides, or relaxation amidst serene mountain landscapes. Evening BBQ and traditional music night."
+      },
+      {
+        "day": "Day 22",
+        "title": "Extended Circuit Exploration – Day 22",
+        "desc": "Leisure day for optional short treks, boat rides, or relaxation amidst serene mountain landscapes. Evening BBQ and traditional music night."
+      },
+      {
+        "day": "Day 23",
+        "title": "Final Return Journey to Islamabad & Lahore",
+        "desc": "Morning breakfast. Depart from mountain base and drive back along the highway. Transfer to comfortable coasters/cabins. Arrival in Islamabad by evening and drop-off in Lahore by late night with cherished expedition memories."
       }
     ],
     "packages": [
@@ -10528,19 +11733,39 @@ window.TOUR_DATA = {
     ],
     "itinerary": [
       {
-        "day": "Morning",
-        "title": "Departure & Pickup",
-        "desc": "Pickup from hotel/residence in private vehicle. Highway drive with refreshment stop."
+        "day": "Day 1",
+        "title": "Departure from Islamabad/Lahore & Journey Towards Hunza Valley",
+        "desc": "Pick-up of participants from Lahore / Islamabad. Morning drive along Hazara Motorway / scenic highway. Travel through scenic mountain passes with refreshment stops at riverside points. Hotel check-in and evening welcome briefing."
       },
       {
-        "day": "Afternoon",
-        "title": "Guided Exploration & Activity",
-        "desc": "Arrive at destination. Guided tour of key monuments, photography stops, and water activities."
+        "day": "Day 2",
+        "title": "Scenic Drive to Hunza Valley & Core Attractions",
+        "desc": "Breakfast at hotel. Proceed towards Hunza Valley. Experience spectacular views of snow-clad peaks and alpine rivers. Visit major landmarks, check into main valley hotel/campsite, followed by an evening bonfire and local dinner."
       },
       {
-        "day": "Evening",
-        "title": "Local Food Tasting & Return",
-        "desc": "Enjoy famous regional food & tea. Return drive with drop-off at your hotel by 07:00 PM."
+        "day": "Day 3",
+        "title": "Excursion to Full guided excursion for 7-Day Tour to Swat, Malam Jabba, and Hunza",
+        "desc": "Full day adventure exploring pristine alpine points. Full guided excursion for 7-Day Tour to Swat, Malam Jabba, and Hunza. Private AC transport with driver, fuel, tolls & parking. Enjoy evening cultural music and bonfire at hotel."
+      },
+      {
+        "day": "Day 4",
+        "title": "Heritage, Lakes & Cultural Walk in Hunza Valley",
+        "desc": "Discover ancient forts, crystal clear lakes, and historic settlements in the region. Sightseeing at historical monuments, bazaars & viewpoints."
+      },
+      {
+        "day": "Day 5",
+        "title": "4x4 Mountain Pass Excursion & High Altitude Meadows",
+        "desc": "Thrilling off-road 4x4 Jeep ride to remote high-altitude meadows and border viewpoints. Scenic picnic lunch amidst pristine alpine nature. Overnight stay under starry skies at mountain resort."
+      },
+      {
+        "day": "Day 6",
+        "title": "Glacier Views & Remote Settlement Exploration",
+        "desc": "Guided trek towards nearby glacier viewpoints and alpine meadows. Experience panoramic vistas of 7000m+ Himalayan/Karakoram peaks."
+      },
+      {
+        "day": "Day 7",
+        "title": "Final Return Journey to Islamabad & Lahore",
+        "desc": "Morning breakfast. Depart from mountain base and drive back along the highway. Transfer to comfortable coasters/cabins. Arrival in Islamabad by evening and drop-off in Lahore by late night with cherished expedition memories."
       }
     ],
     "packages": [
@@ -10627,19 +11852,24 @@ window.TOUR_DATA = {
     ],
     "itinerary": [
       {
-        "day": "Morning",
-        "title": "Departure & Pickup",
-        "desc": "Pickup from hotel/residence in private vehicle. Highway drive with refreshment stop."
+        "day": "Day 1",
+        "title": "Departure from Islamabad/Lahore & Journey Towards Swat Valley & Kalam",
+        "desc": "Pick-up of participants from Lahore / Islamabad. Morning drive along Hazara Motorway / scenic highway. Travel through scenic mountain passes with refreshment stops at riverside points. Hotel check-in and evening welcome briefing."
       },
       {
-        "day": "Afternoon",
-        "title": "Guided Exploration & Activity",
-        "desc": "Arrive at destination. Guided tour of key monuments, photography stops, and water activities."
+        "day": "Day 2",
+        "title": "Scenic Drive to Swat Valley & Kalam & Core Attractions",
+        "desc": "Breakfast at hotel. Proceed towards Swat Valley & Kalam. Experience spectacular views of snow-clad peaks and alpine rivers. Visit major landmarks, check into main valley hotel/campsite, followed by an evening bonfire and local dinner."
       },
       {
-        "day": "Evening",
-        "title": "Local Food Tasting & Return",
-        "desc": "Enjoy famous regional food & tea. Return drive with drop-off at your hotel by 07:00 PM."
+        "day": "Day 3",
+        "title": "Excursion to Full guided excursion for Swat, Kalam & Mahodand Tour – 04 Days",
+        "desc": "Full day adventure exploring pristine alpine points. Full guided excursion for Swat, Kalam & Mahodand Tour – 04 Days. Private AC transport with driver, fuel, tolls & parking. Enjoy evening cultural music and bonfire at hotel."
+      },
+      {
+        "day": "Day 4",
+        "title": "Return Journey to Islamabad & Lahore",
+        "desc": "Breakfast call at hotel. Start return travel back through scenic valleys. Short stops for photography and souvenirs. Arrival in Islamabad by early evening and Lahore by late night."
       }
     ],
     "packages": [
@@ -10726,19 +11956,14 @@ window.TOUR_DATA = {
     ],
     "itinerary": [
       {
-        "day": "Morning",
-        "title": "Departure & Pickup",
-        "desc": "Pickup from hotel/residence in private vehicle. Highway drive with refreshment stop."
+        "day": "Day 1",
+        "title": "Departure from Islamabad/Lahore & Journey Towards Swat Valley & Kalam",
+        "desc": "Pick-up of participants from Lahore / Islamabad. Morning drive along Hazara Motorway / scenic highway. Travel through scenic mountain passes with refreshment stops at riverside points. Hotel check-in and evening welcome briefing."
       },
       {
-        "day": "Afternoon",
-        "title": "Guided Exploration & Activity",
-        "desc": "Arrive at destination. Guided tour of key monuments, photography stops, and water activities."
-      },
-      {
-        "day": "Evening",
-        "title": "Local Food Tasting & Return",
-        "desc": "Enjoy famous regional food & tea. Return drive with drop-off at your hotel by 07:00 PM."
+        "day": "Day 2",
+        "title": "Guided Exploration of Swat Valley & Kalam & Return Journey",
+        "desc": "Morning breakfast at hotel. Enjoy full day guided sightseeing across top attractions, photography viewpoints, and local bazaars. Board transport in afternoon for return journey to Islamabad and Lahore."
       }
     ],
     "packages": [
@@ -10825,19 +12050,24 @@ window.TOUR_DATA = {
     ],
     "itinerary": [
       {
-        "day": "Morning",
-        "title": "Departure & Pickup",
-        "desc": "Pickup from hotel/residence in private vehicle. Highway drive with refreshment stop."
+        "day": "Day 1",
+        "title": "Departure from Islamabad/Lahore & Journey Towards Kathmandu Valley",
+        "desc": "Pick-up of participants from Lahore / Islamabad. Morning drive along Hazara Motorway / scenic highway. Travel through scenic mountain passes with refreshment stops at riverside points. Hotel check-in and evening welcome briefing."
       },
       {
-        "day": "Afternoon",
-        "title": "Guided Exploration & Activity",
-        "desc": "Arrive at destination. Guided tour of key monuments, photography stops, and water activities."
+        "day": "Day 2",
+        "title": "Scenic Drive to Kathmandu Valley & Core Attractions",
+        "desc": "Breakfast at hotel. Proceed towards Kathmandu Valley. Experience spectacular views of snow-clad peaks and alpine rivers. Visit major landmarks, check into main valley hotel/campsite, followed by an evening bonfire and local dinner."
       },
       {
-        "day": "Evening",
-        "title": "Local Food Tasting & Return",
-        "desc": "Enjoy famous regional food & tea. Return drive with drop-off at your hotel by 07:00 PM."
+        "day": "Day 3",
+        "title": "Excursion to Full guided excursion for Kathmandu Valley and Chandragiri Hills Excursion Tour – 04 Days",
+        "desc": "Full day adventure exploring pristine alpine points. Full guided excursion for Kathmandu Valley and Chandragiri Hills Excursion Tour – 04 Days. Private AC transport with driver, fuel, tolls & parking. Enjoy evening cultural music and bonfire at hotel."
+      },
+      {
+        "day": "Day 4",
+        "title": "Return Journey to Islamabad & Lahore",
+        "desc": "Breakfast call at hotel. Start return travel back through scenic valleys. Short stops for photography and souvenirs. Arrival in Islamabad by early evening and Lahore by late night."
       }
     ],
     "packages": [
@@ -10924,19 +12154,34 @@ window.TOUR_DATA = {
     ],
     "itinerary": [
       {
-        "day": "Morning",
-        "title": "Departure & Pickup",
-        "desc": "Pickup from hotel/residence in private vehicle. Highway drive with refreshment stop."
+        "day": "Day 1",
+        "title": "Departure from Islamabad/Lahore & Journey Towards Kathmandu Valley",
+        "desc": "Pick-up of participants from Lahore / Islamabad. Morning drive along Hazara Motorway / scenic highway. Travel through scenic mountain passes with refreshment stops at riverside points. Hotel check-in and evening welcome briefing."
       },
       {
-        "day": "Afternoon",
-        "title": "Guided Exploration & Activity",
-        "desc": "Arrive at destination. Guided tour of key monuments, photography stops, and water activities."
+        "day": "Day 2",
+        "title": "Scenic Drive to Kathmandu Valley & Core Attractions",
+        "desc": "Breakfast at hotel. Proceed towards Kathmandu Valley. Experience spectacular views of snow-clad peaks and alpine rivers. Visit major landmarks, check into main valley hotel/campsite, followed by an evening bonfire and local dinner."
       },
       {
-        "day": "Evening",
-        "title": "Local Food Tasting & Return",
-        "desc": "Enjoy famous regional food & tea. Return drive with drop-off at your hotel by 07:00 PM."
+        "day": "Day 3",
+        "title": "Excursion to Full guided excursion for Kathmandu and Pokhara Sightseeing Tour– 06 Days",
+        "desc": "Full day adventure exploring pristine alpine points. Full guided excursion for Kathmandu and Pokhara Sightseeing Tour– 06 Days. Private AC transport with driver, fuel, tolls & parking. Enjoy evening cultural music and bonfire at hotel."
+      },
+      {
+        "day": "Day 4",
+        "title": "Heritage, Lakes & Cultural Walk in Kathmandu Valley",
+        "desc": "Discover ancient forts, crystal clear lakes, and historic settlements in the region. Sightseeing at historical monuments, bazaars & viewpoints."
+      },
+      {
+        "day": "Day 5",
+        "title": "4x4 Mountain Pass Excursion & High Altitude Meadows",
+        "desc": "Thrilling off-road 4x4 Jeep ride to remote high-altitude meadows and border viewpoints. Scenic picnic lunch amidst pristine alpine nature. Overnight stay under starry skies at mountain resort."
+      },
+      {
+        "day": "Day 6",
+        "title": "Return Journey & Drop-off at Islamabad / Lahore",
+        "desc": "Morning breakfast. Begin return journey via Karakoram / Alpine Highway. Drop-off in Islamabad by evening and Lahore by late night."
       }
     ],
     "packages": [
@@ -11023,19 +12268,49 @@ window.TOUR_DATA = {
     ],
     "itinerary": [
       {
-        "day": "Morning",
-        "title": "Departure & Pickup",
-        "desc": "Pickup from hotel/residence in private vehicle. Highway drive with refreshment stop."
+        "day": "Day 1",
+        "title": "Departure from Islamabad/Lahore & Journey Towards Kathmandu Valley",
+        "desc": "Pick-up of participants from Lahore / Islamabad. Morning drive along Hazara Motorway / scenic highway. Travel through scenic mountain passes with refreshment stops at riverside points. Hotel check-in and evening welcome briefing."
       },
       {
-        "day": "Afternoon",
-        "title": "Guided Exploration & Activity",
-        "desc": "Arrive at destination. Guided tour of key monuments, photography stops, and water activities."
+        "day": "Day 2",
+        "title": "Scenic Drive to Kathmandu Valley & Core Attractions",
+        "desc": "Breakfast at hotel. Proceed towards Kathmandu Valley. Experience spectacular views of snow-clad peaks and alpine rivers. Visit major landmarks, check into main valley hotel/campsite, followed by an evening bonfire and local dinner."
       },
       {
-        "day": "Evening",
-        "title": "Local Food Tasting & Return",
-        "desc": "Enjoy famous regional food & tea. Return drive with drop-off at your hotel by 07:00 PM."
+        "day": "Day 3",
+        "title": "Excursion to Full guided excursion for Kathmandu Pokhara and Chitwan Tour – 09 Days",
+        "desc": "Full day adventure exploring pristine alpine points. Full guided excursion for Kathmandu Pokhara and Chitwan Tour – 09 Days. Private AC transport with driver, fuel, tolls & parking. Enjoy evening cultural music and bonfire at hotel."
+      },
+      {
+        "day": "Day 4",
+        "title": "Heritage, Lakes & Cultural Walk in Kathmandu Valley",
+        "desc": "Discover ancient forts, crystal clear lakes, and historic settlements in the region. Sightseeing at historical monuments, bazaars & viewpoints."
+      },
+      {
+        "day": "Day 5",
+        "title": "4x4 Mountain Pass Excursion & High Altitude Meadows",
+        "desc": "Thrilling off-road 4x4 Jeep ride to remote high-altitude meadows and border viewpoints. Scenic picnic lunch amidst pristine alpine nature. Overnight stay under starry skies at mountain resort."
+      },
+      {
+        "day": "Day 6",
+        "title": "Glacier Views & Remote Settlement Exploration",
+        "desc": "Guided trek towards nearby glacier viewpoints and alpine meadows. Experience panoramic vistas of 7000m+ Himalayan/Karakoram peaks."
+      },
+      {
+        "day": "Day 7",
+        "title": "Cultural Heritage & Local Artisan Bazaar Walk",
+        "desc": "Explore centuries-old mountain forts, traditional handicraft workshops, dry fruit bazaars, and gemstone markets."
+      },
+      {
+        "day": "Day 8",
+        "title": "High Altitude Wildlife & Photography Safari",
+        "desc": "Early morning excursion to wildlife habitats and panoramic high passes. Unrestricted photography time in pristine high-altitude ecosystems."
+      },
+      {
+        "day": "Day 9",
+        "title": "Final Return Journey to Islamabad & Lahore",
+        "desc": "Morning breakfast. Depart from mountain base and drive back along the highway. Transfer to comfortable coasters/cabins. Arrival in Islamabad by evening and drop-off in Lahore by late night with cherished expedition memories."
       }
     ],
     "packages": [
@@ -11122,19 +12397,39 @@ window.TOUR_DATA = {
     ],
     "itinerary": [
       {
-        "day": "Morning",
-        "title": "Departure & Pickup",
-        "desc": "Pickup from hotel/residence in private vehicle. Highway drive with refreshment stop."
+        "day": "Day 1",
+        "title": "Departure from Islamabad/Lahore & Journey Towards Skardu & Baltistan",
+        "desc": "Pick-up of participants from Lahore / Islamabad. Morning drive along Hazara Motorway / scenic highway. Travel through scenic mountain passes with refreshment stops at riverside points. Hotel check-in and evening welcome briefing."
       },
       {
-        "day": "Afternoon",
-        "title": "Guided Exploration & Activity",
-        "desc": "Arrive at destination. Guided tour of key monuments, photography stops, and water activities."
+        "day": "Day 2",
+        "title": "Scenic Drive to Skardu & Baltistan & Core Attractions",
+        "desc": "Breakfast at hotel. Proceed towards Skardu & Baltistan. Experience spectacular views of snow-clad peaks and alpine rivers. Visit major landmarks, check into main valley hotel/campsite, followed by an evening bonfire and local dinner."
       },
       {
-        "day": "Evening",
-        "title": "Local Food Tasting & Return",
-        "desc": "Enjoy famous regional food & tea. Return drive with drop-off at your hotel by 07:00 PM."
+        "day": "Day 3",
+        "title": "Excursion to Full guided excursion for Chunda Valley Tour – 07 Days",
+        "desc": "Full day adventure exploring pristine alpine points. Full guided excursion for Chunda Valley Tour – 07 Days. Private AC transport with driver, fuel, tolls & parking. Enjoy evening cultural music and bonfire at hotel."
+      },
+      {
+        "day": "Day 4",
+        "title": "Heritage, Lakes & Cultural Walk in Skardu & Baltistan",
+        "desc": "Discover ancient forts, crystal clear lakes, and historic settlements in the region. Sightseeing at historical monuments, bazaars & viewpoints."
+      },
+      {
+        "day": "Day 5",
+        "title": "4x4 Mountain Pass Excursion & High Altitude Meadows",
+        "desc": "Thrilling off-road 4x4 Jeep ride to remote high-altitude meadows and border viewpoints. Scenic picnic lunch amidst pristine alpine nature. Overnight stay under starry skies at mountain resort."
+      },
+      {
+        "day": "Day 6",
+        "title": "Glacier Views & Remote Settlement Exploration",
+        "desc": "Guided trek towards nearby glacier viewpoints and alpine meadows. Experience panoramic vistas of 7000m+ Himalayan/Karakoram peaks."
+      },
+      {
+        "day": "Day 7",
+        "title": "Final Return Journey to Islamabad & Lahore",
+        "desc": "Morning breakfast. Depart from mountain base and drive back along the highway. Transfer to comfortable coasters/cabins. Arrival in Islamabad by evening and drop-off in Lahore by late night with cherished expedition memories."
       }
     ],
     "packages": [
@@ -11221,19 +12516,29 @@ window.TOUR_DATA = {
     ],
     "itinerary": [
       {
-        "day": "Morning",
-        "title": "Departure & Pickup",
-        "desc": "Pickup from hotel/residence in private vehicle. Highway drive with refreshment stop."
+        "day": "Day 1",
+        "title": "Departure from Islamabad/Lahore & Journey Towards Kumrat Valley & Jahaz Banda",
+        "desc": "Pick-up of participants from Lahore / Islamabad. Morning drive along Hazara Motorway / scenic highway. Travel through scenic mountain passes with refreshment stops at riverside points. Hotel check-in and evening welcome briefing."
       },
       {
-        "day": "Afternoon",
-        "title": "Guided Exploration & Activity",
-        "desc": "Arrive at destination. Guided tour of key monuments, photography stops, and water activities."
+        "day": "Day 2",
+        "title": "Scenic Drive to Kumrat Valley & Jahaz Banda & Core Attractions",
+        "desc": "Breakfast at hotel. Proceed towards Kumrat Valley & Jahaz Banda. Experience spectacular views of snow-clad peaks and alpine rivers. Visit major landmarks, check into main valley hotel/campsite, followed by an evening bonfire and local dinner."
       },
       {
-        "day": "Evening",
-        "title": "Local Food Tasting & Return",
-        "desc": "Enjoy famous regional food & tea. Return drive with drop-off at your hotel by 07:00 PM."
+        "day": "Day 3",
+        "title": "Excursion to Full guided excursion for Kumrat Valley Tour – 05 Days",
+        "desc": "Full day adventure exploring pristine alpine points. Full guided excursion for Kumrat Valley Tour – 05 Days. Private AC transport with driver, fuel, tolls & parking. Enjoy evening cultural music and bonfire at hotel."
+      },
+      {
+        "day": "Day 4",
+        "title": "Heritage, Lakes & Cultural Walk in Kumrat Valley & Jahaz Banda",
+        "desc": "Discover ancient forts, crystal clear lakes, and historic settlements in the region. Sightseeing at historical monuments, bazaars & viewpoints."
+      },
+      {
+        "day": "Day 5",
+        "title": "Return Journey to Islamabad / Lahore",
+        "desc": "Early morning breakfast. Depart Kumrat Valley & Jahaz Banda and travel along the scenic highway. Stop at famous roadside tea spots. Arrive back in Islamabad by evening and drop-off in Lahore late night."
       }
     ],
     "packages": [
@@ -11320,19 +12625,24 @@ window.TOUR_DATA = {
     ],
     "itinerary": [
       {
-        "day": "Morning",
-        "title": "Departure & Pickup",
-        "desc": "Pickup from hotel/residence in private vehicle. Highway drive with refreshment stop."
+        "day": "Day 1",
+        "title": "Departure from Islamabad/Lahore & Journey Towards Kumrat Valley & Jahaz Banda",
+        "desc": "Pick-up of participants from Lahore / Islamabad. Morning drive along Hazara Motorway / scenic highway. Travel through scenic mountain passes with refreshment stops at riverside points. Hotel check-in and evening welcome briefing."
       },
       {
-        "day": "Afternoon",
-        "title": "Guided Exploration & Activity",
-        "desc": "Arrive at destination. Guided tour of key monuments, photography stops, and water activities."
+        "day": "Day 2",
+        "title": "Scenic Drive to Kumrat Valley & Jahaz Banda & Core Attractions",
+        "desc": "Breakfast at hotel. Proceed towards Kumrat Valley & Jahaz Banda. Experience spectacular views of snow-clad peaks and alpine rivers. Visit major landmarks, check into main valley hotel/campsite, followed by an evening bonfire and local dinner."
       },
       {
-        "day": "Evening",
-        "title": "Local Food Tasting & Return",
-        "desc": "Enjoy famous regional food & tea. Return drive with drop-off at your hotel by 07:00 PM."
+        "day": "Day 3",
+        "title": "Excursion to Full guided excursion for Kumrat Valley Tour – 04 Days",
+        "desc": "Full day adventure exploring pristine alpine points. Full guided excursion for Kumrat Valley Tour – 04 Days. Private AC transport with driver, fuel, tolls & parking. Enjoy evening cultural music and bonfire at hotel."
+      },
+      {
+        "day": "Day 4",
+        "title": "Return Journey to Islamabad & Lahore",
+        "desc": "Breakfast call at hotel. Start return travel back through scenic valleys. Short stops for photography and souvenirs. Arrival in Islamabad by early evening and Lahore by late night."
       }
     ],
     "packages": [
@@ -11419,19 +12729,19 @@ window.TOUR_DATA = {
     ],
     "itinerary": [
       {
-        "day": "Morning",
-        "title": "Departure & Pickup",
-        "desc": "Pickup from hotel/residence in private vehicle. Highway drive with refreshment stop."
+        "day": "Day 1",
+        "title": "Departure from Islamabad/Lahore & Journey Towards Kumrat Valley & Jahaz Banda",
+        "desc": "Pick-up of participants from Lahore / Islamabad. Morning drive along Hazara Motorway / scenic highway. Travel through scenic mountain passes with refreshment stops at riverside points. Hotel check-in and evening welcome briefing."
       },
       {
-        "day": "Afternoon",
-        "title": "Guided Exploration & Activity",
-        "desc": "Arrive at destination. Guided tour of key monuments, photography stops, and water activities."
+        "day": "Day 2",
+        "title": "Scenic Drive to Kumrat Valley & Jahaz Banda & Core Attractions",
+        "desc": "Breakfast at hotel. Proceed towards Kumrat Valley & Jahaz Banda. Experience spectacular views of snow-clad peaks and alpine rivers. Visit major landmarks, check into main valley hotel/campsite, followed by an evening bonfire and local dinner."
       },
       {
-        "day": "Evening",
-        "title": "Local Food Tasting & Return",
-        "desc": "Enjoy famous regional food & tea. Return drive with drop-off at your hotel by 07:00 PM."
+        "day": "Day 3",
+        "title": "Final Sightseeing in Kumrat Valley & Jahaz Banda & Return Journey",
+        "desc": "Morning breakfast with sunrise views over the mountains. Visit remaining local viewpoints and handicraft markets. Depart for return drive to Islamabad by evening and Lahore by late night."
       }
     ],
     "packages": [
@@ -11518,19 +12828,39 @@ window.TOUR_DATA = {
     ],
     "itinerary": [
       {
-        "day": "Morning",
-        "title": "Departure & Pickup",
-        "desc": "Pickup from hotel/residence in private vehicle. Highway drive with refreshment stop."
+        "day": "Day 1",
+        "title": "Departure from Islamabad/Lahore & Journey Towards Nagar Valley",
+        "desc": "Pick-up of participants from Lahore / Islamabad. Morning drive along Hazara Motorway / scenic highway. Travel through scenic mountain passes with refreshment stops at riverside points. Hotel check-in and evening welcome briefing."
       },
       {
-        "day": "Afternoon",
-        "title": "Guided Exploration & Activity",
-        "desc": "Arrive at destination. Guided tour of key monuments, photography stops, and water activities."
+        "day": "Day 2",
+        "title": "Scenic Drive to Nagar Valley & Core Attractions",
+        "desc": "Breakfast at hotel. Proceed towards Nagar Valley. Experience spectacular views of snow-clad peaks and alpine rivers. Visit major landmarks, check into main valley hotel/campsite, followed by an evening bonfire and local dinner."
       },
       {
-        "day": "Evening",
-        "title": "Local Food Tasting & Return",
-        "desc": "Enjoy famous regional food & tea. Return drive with drop-off at your hotel by 07:00 PM."
+        "day": "Day 3",
+        "title": "Excursion to Full guided excursion for Nagar Valley Tour – 07 Days",
+        "desc": "Full day adventure exploring pristine alpine points. Full guided excursion for Nagar Valley Tour – 07 Days. Private AC transport with driver, fuel, tolls & parking. Enjoy evening cultural music and bonfire at hotel."
+      },
+      {
+        "day": "Day 4",
+        "title": "Heritage, Lakes & Cultural Walk in Nagar Valley",
+        "desc": "Discover ancient forts, crystal clear lakes, and historic settlements in the region. Sightseeing at historical monuments, bazaars & viewpoints."
+      },
+      {
+        "day": "Day 5",
+        "title": "4x4 Mountain Pass Excursion & High Altitude Meadows",
+        "desc": "Thrilling off-road 4x4 Jeep ride to remote high-altitude meadows and border viewpoints. Scenic picnic lunch amidst pristine alpine nature. Overnight stay under starry skies at mountain resort."
+      },
+      {
+        "day": "Day 6",
+        "title": "Glacier Views & Remote Settlement Exploration",
+        "desc": "Guided trek towards nearby glacier viewpoints and alpine meadows. Experience panoramic vistas of 7000m+ Himalayan/Karakoram peaks."
+      },
+      {
+        "day": "Day 7",
+        "title": "Final Return Journey to Islamabad & Lahore",
+        "desc": "Morning breakfast. Depart from mountain base and drive back along the highway. Transfer to comfortable coasters/cabins. Arrival in Islamabad by evening and drop-off in Lahore by late night with cherished expedition memories."
       }
     ],
     "packages": [
@@ -11617,19 +12947,19 @@ window.TOUR_DATA = {
     ],
     "itinerary": [
       {
-        "day": "Morning",
-        "title": "Departure & Pickup",
-        "desc": "Pickup from hotel/residence in private vehicle. Highway drive with refreshment stop."
+        "day": "Day 1",
+        "title": "Departure from Islamabad/Lahore & Journey Towards Azad Kashmir & Neelum Valley",
+        "desc": "Pick-up of participants from Lahore / Islamabad. Morning drive along Hazara Motorway / scenic highway. Travel through scenic mountain passes with refreshment stops at riverside points. Hotel check-in and evening welcome briefing."
       },
       {
-        "day": "Afternoon",
-        "title": "Guided Exploration & Activity",
-        "desc": "Arrive at destination. Guided tour of key monuments, photography stops, and water activities."
+        "day": "Day 2",
+        "title": "Scenic Drive to Azad Kashmir & Neelum Valley & Core Attractions",
+        "desc": "Breakfast at hotel. Proceed towards Azad Kashmir & Neelum Valley. Experience spectacular views of snow-clad peaks and alpine rivers. Visit major landmarks, check into main valley hotel/campsite, followed by an evening bonfire and local dinner."
       },
       {
-        "day": "Evening",
-        "title": "Local Food Tasting & Return",
-        "desc": "Enjoy famous regional food & tea. Return drive with drop-off at your hotel by 07:00 PM."
+        "day": "Day 3",
+        "title": "Final Sightseeing in Azad Kashmir & Neelum Valley & Return Journey",
+        "desc": "Morning breakfast with sunrise views over the mountains. Visit remaining local viewpoints and handicraft markets. Depart for return drive to Islamabad by evening and Lahore by late night."
       }
     ],
     "packages": [
@@ -11716,19 +13046,19 @@ window.TOUR_DATA = {
     ],
     "itinerary": [
       {
-        "day": "Morning",
-        "title": "Departure & Pickup",
-        "desc": "Pickup from hotel/residence in private vehicle. Highway drive with refreshment stop."
+        "day": "Day 1",
+        "title": "Departure from Islamabad/Lahore & Journey Towards Azad Kashmir & Neelum Valley",
+        "desc": "Pick-up of participants from Lahore / Islamabad. Morning drive along Hazara Motorway / scenic highway. Travel through scenic mountain passes with refreshment stops at riverside points. Hotel check-in and evening welcome briefing."
       },
       {
-        "day": "Afternoon",
-        "title": "Guided Exploration & Activity",
-        "desc": "Arrive at destination. Guided tour of key monuments, photography stops, and water activities."
+        "day": "Day 2",
+        "title": "Scenic Drive to Azad Kashmir & Neelum Valley & Core Attractions",
+        "desc": "Breakfast at hotel. Proceed towards Azad Kashmir & Neelum Valley. Experience spectacular views of snow-clad peaks and alpine rivers. Visit major landmarks, check into main valley hotel/campsite, followed by an evening bonfire and local dinner."
       },
       {
-        "day": "Evening",
-        "title": "Local Food Tasting & Return",
-        "desc": "Enjoy famous regional food & tea. Return drive with drop-off at your hotel by 07:00 PM."
+        "day": "Day 3",
+        "title": "Final Sightseeing in Azad Kashmir & Neelum Valley & Return Journey",
+        "desc": "Morning breakfast with sunrise views over the mountains. Visit remaining local viewpoints and handicraft markets. Depart for return drive to Islamabad by evening and Lahore by late night."
       }
     ],
     "packages": [
@@ -11815,19 +13145,19 @@ window.TOUR_DATA = {
     ],
     "itinerary": [
       {
-        "day": "Morning",
-        "title": "Departure & Pickup",
-        "desc": "Pickup from hotel/residence in private vehicle. Highway drive with refreshment stop."
+        "day": "Day 1",
+        "title": "Departure from Islamabad/Lahore & Journey Towards Azad Kashmir & Neelum Valley",
+        "desc": "Pick-up of participants from Lahore / Islamabad. Morning drive along Hazara Motorway / scenic highway. Travel through scenic mountain passes with refreshment stops at riverside points. Hotel check-in and evening welcome briefing."
       },
       {
-        "day": "Afternoon",
-        "title": "Guided Exploration & Activity",
-        "desc": "Arrive at destination. Guided tour of key monuments, photography stops, and water activities."
+        "day": "Day 2",
+        "title": "Scenic Drive to Azad Kashmir & Neelum Valley & Core Attractions",
+        "desc": "Breakfast at hotel. Proceed towards Azad Kashmir & Neelum Valley. Experience spectacular views of snow-clad peaks and alpine rivers. Visit major landmarks, check into main valley hotel/campsite, followed by an evening bonfire and local dinner."
       },
       {
-        "day": "Evening",
-        "title": "Local Food Tasting & Return",
-        "desc": "Enjoy famous regional food & tea. Return drive with drop-off at your hotel by 07:00 PM."
+        "day": "Day 3",
+        "title": "Final Sightseeing in Azad Kashmir & Neelum Valley & Return Journey",
+        "desc": "Morning breakfast with sunrise views over the mountains. Visit remaining local viewpoints and handicraft markets. Depart for return drive to Islamabad by evening and Lahore by late night."
       }
     ],
     "packages": [
@@ -11914,19 +13244,24 @@ window.TOUR_DATA = {
     ],
     "itinerary": [
       {
-        "day": "Morning",
-        "title": "Departure & Pickup",
-        "desc": "Pickup from hotel/residence in private vehicle. Highway drive with refreshment stop."
+        "day": "Day 1",
+        "title": "Departure from Islamabad/Lahore & Journey Towards Azad Kashmir & Neelum Valley",
+        "desc": "Pick-up of participants from Lahore / Islamabad. Morning drive along Hazara Motorway / scenic highway. Travel through scenic mountain passes with refreshment stops at riverside points. Hotel check-in and evening welcome briefing."
       },
       {
-        "day": "Afternoon",
-        "title": "Guided Exploration & Activity",
-        "desc": "Arrive at destination. Guided tour of key monuments, photography stops, and water activities."
+        "day": "Day 2",
+        "title": "Scenic Drive to Azad Kashmir & Neelum Valley & Core Attractions",
+        "desc": "Breakfast at hotel. Proceed towards Azad Kashmir & Neelum Valley. Experience spectacular views of snow-clad peaks and alpine rivers. Visit major landmarks, check into main valley hotel/campsite, followed by an evening bonfire and local dinner."
       },
       {
-        "day": "Evening",
-        "title": "Local Food Tasting & Return",
-        "desc": "Enjoy famous regional food & tea. Return drive with drop-off at your hotel by 07:00 PM."
+        "day": "Day 3",
+        "title": "Excursion to Full guided excursion for Kashmir Tour Arang Kel Taobat – 04 Days",
+        "desc": "Full day adventure exploring pristine alpine points. Full guided excursion for Kashmir Tour Arang Kel Taobat – 04 Days. Private AC transport with driver, fuel, tolls & parking. Enjoy evening cultural music and bonfire at hotel."
+      },
+      {
+        "day": "Day 4",
+        "title": "Return Journey to Islamabad & Lahore",
+        "desc": "Breakfast call at hotel. Start return travel back through scenic valleys. Short stops for photography and souvenirs. Arrival in Islamabad by early evening and Lahore by late night."
       }
     ],
     "packages": [
@@ -12013,19 +13348,24 @@ window.TOUR_DATA = {
     ],
     "itinerary": [
       {
-        "day": "Morning",
-        "title": "Departure & Pickup",
-        "desc": "Pickup from hotel/residence in private vehicle. Highway drive with refreshment stop."
+        "day": "Day 1",
+        "title": "Departure from Islamabad/Lahore & Journey Towards Azad Kashmir & Neelum Valley",
+        "desc": "Pick-up of participants from Lahore / Islamabad. Morning drive along Hazara Motorway / scenic highway. Travel through scenic mountain passes with refreshment stops at riverside points. Hotel check-in and evening welcome briefing."
       },
       {
-        "day": "Afternoon",
-        "title": "Guided Exploration & Activity",
-        "desc": "Arrive at destination. Guided tour of key monuments, photography stops, and water activities."
+        "day": "Day 2",
+        "title": "Scenic Drive to Azad Kashmir & Neelum Valley & Core Attractions",
+        "desc": "Breakfast at hotel. Proceed towards Azad Kashmir & Neelum Valley. Experience spectacular views of snow-clad peaks and alpine rivers. Visit major landmarks, check into main valley hotel/campsite, followed by an evening bonfire and local dinner."
       },
       {
-        "day": "Evening",
-        "title": "Local Food Tasting & Return",
-        "desc": "Enjoy famous regional food & tea. Return drive with drop-off at your hotel by 07:00 PM."
+        "day": "Day 3",
+        "title": "Excursion to Full guided excursion for Ratti Gali Lake & Arang Kel Tour – 04 Days",
+        "desc": "Full day adventure exploring pristine alpine points. Full guided excursion for Ratti Gali Lake & Arang Kel Tour – 04 Days. Private AC transport with driver, fuel, tolls & parking. Enjoy evening cultural music and bonfire at hotel."
+      },
+      {
+        "day": "Day 4",
+        "title": "Return Journey to Islamabad & Lahore",
+        "desc": "Breakfast call at hotel. Start return travel back through scenic valleys. Short stops for photography and souvenirs. Arrival in Islamabad by early evening and Lahore by late night."
       }
     ],
     "packages": [
@@ -12112,19 +13452,24 @@ window.TOUR_DATA = {
     ],
     "itinerary": [
       {
-        "day": "Morning",
-        "title": "Departure & Pickup",
-        "desc": "Pickup from hotel/residence in private vehicle. Highway drive with refreshment stop."
+        "day": "Day 1",
+        "title": "Departure from Islamabad/Lahore & Journey Towards Azad Kashmir & Neelum Valley",
+        "desc": "Pick-up of participants from Lahore / Islamabad. Morning drive along Hazara Motorway / scenic highway. Travel through scenic mountain passes with refreshment stops at riverside points. Hotel check-in and evening welcome briefing."
       },
       {
-        "day": "Afternoon",
-        "title": "Guided Exploration & Activity",
-        "desc": "Arrive at destination. Guided tour of key monuments, photography stops, and water activities."
+        "day": "Day 2",
+        "title": "Scenic Drive to Azad Kashmir & Neelum Valley & Core Attractions",
+        "desc": "Breakfast at hotel. Proceed towards Azad Kashmir & Neelum Valley. Experience spectacular views of snow-clad peaks and alpine rivers. Visit major landmarks, check into main valley hotel/campsite, followed by an evening bonfire and local dinner."
       },
       {
-        "day": "Evening",
-        "title": "Local Food Tasting & Return",
-        "desc": "Enjoy famous regional food & tea. Return drive with drop-off at your hotel by 07:00 PM."
+        "day": "Day 3",
+        "title": "Excursion to Full guided excursion for Toli Peer, Banjosa Lake, Rawalakot Tour – 04 Days",
+        "desc": "Full day adventure exploring pristine alpine points. Full guided excursion for Toli Peer, Banjosa Lake, Rawalakot Tour – 04 Days. Private AC transport with driver, fuel, tolls & parking. Enjoy evening cultural music and bonfire at hotel."
+      },
+      {
+        "day": "Day 4",
+        "title": "Return Journey to Islamabad & Lahore",
+        "desc": "Breakfast call at hotel. Start return travel back through scenic valleys. Short stops for photography and souvenirs. Arrival in Islamabad by early evening and Lahore by late night."
       }
     ],
     "packages": [
@@ -12211,19 +13556,29 @@ window.TOUR_DATA = {
     ],
     "itinerary": [
       {
-        "day": "Morning",
-        "title": "Departure & Pickup",
-        "desc": "Pickup from hotel/residence in private vehicle. Highway drive with refreshment stop."
+        "day": "Day 1",
+        "title": "Departure from Islamabad/Lahore & Journey Towards Azad Kashmir & Neelum Valley",
+        "desc": "Pick-up of participants from Lahore / Islamabad. Morning drive along Hazara Motorway / scenic highway. Travel through scenic mountain passes with refreshment stops at riverside points. Hotel check-in and evening welcome briefing."
       },
       {
-        "day": "Afternoon",
-        "title": "Guided Exploration & Activity",
-        "desc": "Arrive at destination. Guided tour of key monuments, photography stops, and water activities."
+        "day": "Day 2",
+        "title": "Scenic Drive to Azad Kashmir & Neelum Valley & Core Attractions",
+        "desc": "Breakfast at hotel. Proceed towards Azad Kashmir & Neelum Valley. Experience spectacular views of snow-clad peaks and alpine rivers. Visit major landmarks, check into main valley hotel/campsite, followed by an evening bonfire and local dinner."
       },
       {
-        "day": "Evening",
-        "title": "Local Food Tasting & Return",
-        "desc": "Enjoy famous regional food & tea. Return drive with drop-off at your hotel by 07:00 PM."
+        "day": "Day 3",
+        "title": "Excursion to Full guided excursion for Couple Tour To Kashmir From Islamabad – 05 Days",
+        "desc": "Full day adventure exploring pristine alpine points. Full guided excursion for Couple Tour To Kashmir From Islamabad – 05 Days. Private AC transport with driver, fuel, tolls & parking. Enjoy evening cultural music and bonfire at hotel."
+      },
+      {
+        "day": "Day 4",
+        "title": "Heritage, Lakes & Cultural Walk in Azad Kashmir & Neelum Valley",
+        "desc": "Discover ancient forts, crystal clear lakes, and historic settlements in the region. Sightseeing at historical monuments, bazaars & viewpoints."
+      },
+      {
+        "day": "Day 5",
+        "title": "Return Journey to Islamabad / Lahore",
+        "desc": "Early morning breakfast. Depart Azad Kashmir & Neelum Valley and travel along the scenic highway. Stop at famous roadside tea spots. Arrive back in Islamabad by evening and drop-off in Lahore late night."
       }
     ],
     "packages": [
@@ -12310,19 +13665,44 @@ window.TOUR_DATA = {
     ],
     "itinerary": [
       {
-        "day": "Morning",
-        "title": "Departure & Pickup",
-        "desc": "Pickup from hotel/residence in private vehicle. Highway drive with refreshment stop."
+        "day": "Day 1",
+        "title": "Departure from Islamabad/Lahore & Journey Towards Hunza Valley",
+        "desc": "Pick-up of participants from Lahore / Islamabad. Morning drive along Hazara Motorway / scenic highway. Travel through scenic mountain passes with refreshment stops at riverside points. Hotel check-in and evening welcome briefing."
       },
       {
-        "day": "Afternoon",
-        "title": "Guided Exploration & Activity",
-        "desc": "Arrive at destination. Guided tour of key monuments, photography stops, and water activities."
+        "day": "Day 2",
+        "title": "Scenic Drive to Hunza Valley & Core Attractions",
+        "desc": "Breakfast at hotel. Proceed towards Hunza Valley. Experience spectacular views of snow-clad peaks and alpine rivers. Visit major landmarks, check into main valley hotel/campsite, followed by an evening bonfire and local dinner."
       },
       {
-        "day": "Evening",
-        "title": "Local Food Tasting & Return",
-        "desc": "Enjoy famous regional food & tea. Return drive with drop-off at your hotel by 07:00 PM."
+        "day": "Day 3",
+        "title": "Excursion to Full guided excursion for Hunza, Naran, Azad Kashmir Tour – 08 Days",
+        "desc": "Full day adventure exploring pristine alpine points. Full guided excursion for Hunza, Naran, Azad Kashmir Tour – 08 Days. Private AC transport with driver, fuel, tolls & parking. Enjoy evening cultural music and bonfire at hotel."
+      },
+      {
+        "day": "Day 4",
+        "title": "Heritage, Lakes & Cultural Walk in Hunza Valley",
+        "desc": "Discover ancient forts, crystal clear lakes, and historic settlements in the region. Sightseeing at historical monuments, bazaars & viewpoints."
+      },
+      {
+        "day": "Day 5",
+        "title": "4x4 Mountain Pass Excursion & High Altitude Meadows",
+        "desc": "Thrilling off-road 4x4 Jeep ride to remote high-altitude meadows and border viewpoints. Scenic picnic lunch amidst pristine alpine nature. Overnight stay under starry skies at mountain resort."
+      },
+      {
+        "day": "Day 6",
+        "title": "Glacier Views & Remote Settlement Exploration",
+        "desc": "Guided trek towards nearby glacier viewpoints and alpine meadows. Experience panoramic vistas of 7000m+ Himalayan/Karakoram peaks."
+      },
+      {
+        "day": "Day 7",
+        "title": "Cultural Heritage & Local Artisan Bazaar Walk",
+        "desc": "Explore centuries-old mountain forts, traditional handicraft workshops, dry fruit bazaars, and gemstone markets."
+      },
+      {
+        "day": "Day 8",
+        "title": "Final Return Journey to Islamabad & Lahore",
+        "desc": "Morning breakfast. Depart from mountain base and drive back along the highway. Transfer to comfortable coasters/cabins. Arrival in Islamabad by evening and drop-off in Lahore by late night with cherished expedition memories."
       }
     ],
     "packages": [
@@ -12409,19 +13789,54 @@ window.TOUR_DATA = {
     ],
     "itinerary": [
       {
-        "day": "Morning",
-        "title": "Departure & Pickup",
-        "desc": "Pickup from hotel/residence in private vehicle. Highway drive with refreshment stop."
+        "day": "Day 1",
+        "title": "Departure from Islamabad/Lahore & Journey Towards Kumrat Valley & Jahaz Banda",
+        "desc": "Pick-up of participants from Lahore / Islamabad. Morning drive along Hazara Motorway / scenic highway. Travel through scenic mountain passes with refreshment stops at riverside points. Hotel check-in and evening welcome briefing."
       },
       {
-        "day": "Afternoon",
-        "title": "Guided Exploration & Activity",
-        "desc": "Arrive at destination. Guided tour of key monuments, photography stops, and water activities."
+        "day": "Day 2",
+        "title": "Scenic Drive to Kumrat Valley & Jahaz Banda & Core Attractions",
+        "desc": "Breakfast at hotel. Proceed towards Kumrat Valley & Jahaz Banda. Experience spectacular views of snow-clad peaks and alpine rivers. Visit major landmarks, check into main valley hotel/campsite, followed by an evening bonfire and local dinner."
       },
       {
-        "day": "Evening",
-        "title": "Local Food Tasting & Return",
-        "desc": "Enjoy famous regional food & tea. Return drive with drop-off at your hotel by 07:00 PM."
+        "day": "Day 3",
+        "title": "Excursion to Full guided excursion for Grand Kashmir Tour – 10 Days",
+        "desc": "Full day adventure exploring pristine alpine points. Full guided excursion for Grand Kashmir Tour – 10 Days. Private AC transport with driver, fuel, tolls & parking. Enjoy evening cultural music and bonfire at hotel."
+      },
+      {
+        "day": "Day 4",
+        "title": "Heritage, Lakes & Cultural Walk in Kumrat Valley & Jahaz Banda",
+        "desc": "Discover ancient forts, crystal clear lakes, and historic settlements in the region. Sightseeing at historical monuments, bazaars & viewpoints."
+      },
+      {
+        "day": "Day 5",
+        "title": "4x4 Mountain Pass Excursion & High Altitude Meadows",
+        "desc": "Thrilling off-road 4x4 Jeep ride to remote high-altitude meadows and border viewpoints. Scenic picnic lunch amidst pristine alpine nature. Overnight stay under starry skies at mountain resort."
+      },
+      {
+        "day": "Day 6",
+        "title": "Glacier Views & Remote Settlement Exploration",
+        "desc": "Guided trek towards nearby glacier viewpoints and alpine meadows. Experience panoramic vistas of 7000m+ Himalayan/Karakoram peaks."
+      },
+      {
+        "day": "Day 7",
+        "title": "Cultural Heritage & Local Artisan Bazaar Walk",
+        "desc": "Explore centuries-old mountain forts, traditional handicraft workshops, dry fruit bazaars, and gemstone markets."
+      },
+      {
+        "day": "Day 8",
+        "title": "High Altitude Wildlife & Photography Safari",
+        "desc": "Early morning excursion to wildlife habitats and panoramic high passes. Unrestricted photography time in pristine high-altitude ecosystems."
+      },
+      {
+        "day": "Day 9",
+        "title": "Cross-Valley Scenic Route & Secret Viewpoints",
+        "desc": "Travel across adjacent mountain valleys along dramatic gorge roads and river crossings. Evening starlit camping/resort stay."
+      },
+      {
+        "day": "Day 10",
+        "title": "Final Return Journey to Islamabad & Lahore",
+        "desc": "Morning breakfast. Depart from mountain base and drive back along the highway. Transfer to comfortable coasters/cabins. Arrival in Islamabad by evening and drop-off in Lahore by late night with cherished expedition memories."
       }
     ],
     "packages": [
@@ -12508,19 +13923,24 @@ window.TOUR_DATA = {
     ],
     "itinerary": [
       {
-        "day": "Morning",
-        "title": "Departure & Pickup",
-        "desc": "Pickup from hotel/residence in private vehicle. Highway drive with refreshment stop."
+        "day": "Day 1",
+        "title": "Departure from Islamabad/Lahore & Journey Towards Azad Kashmir & Neelum Valley",
+        "desc": "Pick-up of participants from Lahore / Islamabad. Morning drive along Hazara Motorway / scenic highway. Travel through scenic mountain passes with refreshment stops at riverside points. Hotel check-in and evening welcome briefing."
       },
       {
-        "day": "Afternoon",
-        "title": "Guided Exploration & Activity",
-        "desc": "Arrive at destination. Guided tour of key monuments, photography stops, and water activities."
+        "day": "Day 2",
+        "title": "Scenic Drive to Azad Kashmir & Neelum Valley & Core Attractions",
+        "desc": "Breakfast at hotel. Proceed towards Azad Kashmir & Neelum Valley. Experience spectacular views of snow-clad peaks and alpine rivers. Visit major landmarks, check into main valley hotel/campsite, followed by an evening bonfire and local dinner."
       },
       {
-        "day": "Evening",
-        "title": "Local Food Tasting & Return",
-        "desc": "Enjoy famous regional food & tea. Return drive with drop-off at your hotel by 07:00 PM."
+        "day": "Day 3",
+        "title": "Excursion to Full guided excursion for Ganga Choti Tour – 04 Days",
+        "desc": "Full day adventure exploring pristine alpine points. Full guided excursion for Ganga Choti Tour – 04 Days. Private AC transport with driver, fuel, tolls & parking. Enjoy evening cultural music and bonfire at hotel."
+      },
+      {
+        "day": "Day 4",
+        "title": "Return Journey to Islamabad & Lahore",
+        "desc": "Breakfast call at hotel. Start return travel back through scenic valleys. Short stops for photography and souvenirs. Arrival in Islamabad by early evening and Lahore by late night."
       }
     ],
     "packages": [
@@ -12607,19 +14027,34 @@ window.TOUR_DATA = {
     ],
     "itinerary": [
       {
-        "day": "Morning",
-        "title": "Departure & Pickup",
-        "desc": "Pickup from hotel/residence in private vehicle. Highway drive with refreshment stop."
+        "day": "Day 1",
+        "title": "Departure from Islamabad/Lahore & Journey Towards Astore Valley & Deosai Plains",
+        "desc": "Pick-up of participants from Lahore / Islamabad. Morning drive along Hazara Motorway / scenic highway. Travel through scenic mountain passes with refreshment stops at riverside points. Hotel check-in and evening welcome briefing."
       },
       {
-        "day": "Afternoon",
-        "title": "Guided Exploration & Activity",
-        "desc": "Arrive at destination. Guided tour of key monuments, photography stops, and water activities."
+        "day": "Day 2",
+        "title": "Scenic Drive to Astore Valley & Deosai Plains & Core Attractions",
+        "desc": "Breakfast at hotel. Proceed towards Astore Valley & Deosai Plains. Experience spectacular views of snow-clad peaks and alpine rivers. Visit major landmarks, check into main valley hotel/campsite, followed by an evening bonfire and local dinner."
       },
       {
-        "day": "Evening",
-        "title": "Local Food Tasting & Return",
-        "desc": "Enjoy famous regional food & tea. Return drive with drop-off at your hotel by 07:00 PM."
+        "day": "Day 3",
+        "title": "Excursion to Full guided excursion for Minimerg Tour",
+        "desc": "Full day adventure exploring pristine alpine points. Full guided excursion for Minimerg Tour. Private AC transport with driver, fuel, tolls & parking. Enjoy evening cultural music and bonfire at hotel."
+      },
+      {
+        "day": "Day 4",
+        "title": "Heritage, Lakes & Cultural Walk in Astore Valley & Deosai Plains",
+        "desc": "Discover ancient forts, crystal clear lakes, and historic settlements in the region. Sightseeing at historical monuments, bazaars & viewpoints."
+      },
+      {
+        "day": "Day 5",
+        "title": "4x4 Mountain Pass Excursion & High Altitude Meadows",
+        "desc": "Thrilling off-road 4x4 Jeep ride to remote high-altitude meadows and border viewpoints. Scenic picnic lunch amidst pristine alpine nature. Overnight stay under starry skies at mountain resort."
+      },
+      {
+        "day": "Day 6",
+        "title": "Return Journey & Drop-off at Islamabad / Lahore",
+        "desc": "Morning breakfast. Begin return journey via Karakoram / Alpine Highway. Drop-off in Islamabad by evening and Lahore by late night."
       }
     ],
     "packages": [
@@ -12706,19 +14141,49 @@ window.TOUR_DATA = {
     ],
     "itinerary": [
       {
-        "day": "Morning",
-        "title": "Departure & Pickup",
-        "desc": "Pickup from hotel/residence in private vehicle. Highway drive with refreshment stop."
+        "day": "Day 1",
+        "title": "Departure from Islamabad/Lahore & Journey Towards Ghizer Valley",
+        "desc": "Pick-up of participants from Lahore / Islamabad. Morning drive along Hazara Motorway / scenic highway. Travel through scenic mountain passes with refreshment stops at riverside points. Hotel check-in and evening welcome briefing."
       },
       {
-        "day": "Afternoon",
-        "title": "Guided Exploration & Activity",
-        "desc": "Arrive at destination. Guided tour of key monuments, photography stops, and water activities."
+        "day": "Day 2",
+        "title": "Scenic Drive to Ghizer Valley & Core Attractions",
+        "desc": "Breakfast at hotel. Proceed towards Ghizer Valley. Experience spectacular views of snow-clad peaks and alpine rivers. Visit major landmarks, check into main valley hotel/campsite, followed by an evening bonfire and local dinner."
       },
       {
-        "day": "Evening",
-        "title": "Local Food Tasting & Return",
-        "desc": "Enjoy famous regional food & tea. Return drive with drop-off at your hotel by 07:00 PM."
+        "day": "Day 3",
+        "title": "Excursion to Full guided excursion for Ghizer Valley Tour",
+        "desc": "Full day adventure exploring pristine alpine points. Full guided excursion for Ghizer Valley Tour. Private AC transport with driver, fuel, tolls & parking. Enjoy evening cultural music and bonfire at hotel."
+      },
+      {
+        "day": "Day 4",
+        "title": "Heritage, Lakes & Cultural Walk in Ghizer Valley",
+        "desc": "Discover ancient forts, crystal clear lakes, and historic settlements in the region. Sightseeing at historical monuments, bazaars & viewpoints."
+      },
+      {
+        "day": "Day 5",
+        "title": "4x4 Mountain Pass Excursion & High Altitude Meadows",
+        "desc": "Thrilling off-road 4x4 Jeep ride to remote high-altitude meadows and border viewpoints. Scenic picnic lunch amidst pristine alpine nature. Overnight stay under starry skies at mountain resort."
+      },
+      {
+        "day": "Day 6",
+        "title": "Glacier Views & Remote Settlement Exploration",
+        "desc": "Guided trek towards nearby glacier viewpoints and alpine meadows. Experience panoramic vistas of 7000m+ Himalayan/Karakoram peaks."
+      },
+      {
+        "day": "Day 7",
+        "title": "Cultural Heritage & Local Artisan Bazaar Walk",
+        "desc": "Explore centuries-old mountain forts, traditional handicraft workshops, dry fruit bazaars, and gemstone markets."
+      },
+      {
+        "day": "Day 8",
+        "title": "High Altitude Wildlife & Photography Safari",
+        "desc": "Early morning excursion to wildlife habitats and panoramic high passes. Unrestricted photography time in pristine high-altitude ecosystems."
+      },
+      {
+        "day": "Day 9",
+        "title": "Final Return Journey to Islamabad & Lahore",
+        "desc": "Morning breakfast. Depart from mountain base and drive back along the highway. Transfer to comfortable coasters/cabins. Arrival in Islamabad by evening and drop-off in Lahore by late night with cherished expedition memories."
       }
     ],
     "packages": [
@@ -12805,19 +14270,49 @@ window.TOUR_DATA = {
     ],
     "itinerary": [
       {
-        "day": "Morning",
-        "title": "Departure & Pickup",
-        "desc": "Pickup from hotel/residence in private vehicle. Highway drive with refreshment stop."
+        "day": "Day 1",
+        "title": "Departure from Islamabad/Lahore & Journey Towards Ishkoman Valley",
+        "desc": "Pick-up of participants from Lahore / Islamabad. Morning drive along Hazara Motorway / scenic highway. Travel through scenic mountain passes with refreshment stops at riverside points. Hotel check-in and evening welcome briefing."
       },
       {
-        "day": "Afternoon",
-        "title": "Guided Exploration & Activity",
-        "desc": "Arrive at destination. Guided tour of key monuments, photography stops, and water activities."
+        "day": "Day 2",
+        "title": "Scenic Drive to Ishkoman Valley & Core Attractions",
+        "desc": "Breakfast at hotel. Proceed towards Ishkoman Valley. Experience spectacular views of snow-clad peaks and alpine rivers. Visit major landmarks, check into main valley hotel/campsite, followed by an evening bonfire and local dinner."
       },
       {
-        "day": "Evening",
-        "title": "Local Food Tasting & Return",
-        "desc": "Enjoy famous regional food & tea. Return drive with drop-off at your hotel by 07:00 PM."
+        "day": "Day 3",
+        "title": "Excursion to Full guided excursion for Ishkoman Valley Tour",
+        "desc": "Full day adventure exploring pristine alpine points. Full guided excursion for Ishkoman Valley Tour. Private AC transport with driver, fuel, tolls & parking. Enjoy evening cultural music and bonfire at hotel."
+      },
+      {
+        "day": "Day 4",
+        "title": "Heritage, Lakes & Cultural Walk in Ishkoman Valley",
+        "desc": "Discover ancient forts, crystal clear lakes, and historic settlements in the region. Sightseeing at historical monuments, bazaars & viewpoints."
+      },
+      {
+        "day": "Day 5",
+        "title": "4x4 Mountain Pass Excursion & High Altitude Meadows",
+        "desc": "Thrilling off-road 4x4 Jeep ride to remote high-altitude meadows and border viewpoints. Scenic picnic lunch amidst pristine alpine nature. Overnight stay under starry skies at mountain resort."
+      },
+      {
+        "day": "Day 6",
+        "title": "Glacier Views & Remote Settlement Exploration",
+        "desc": "Guided trek towards nearby glacier viewpoints and alpine meadows. Experience panoramic vistas of 7000m+ Himalayan/Karakoram peaks."
+      },
+      {
+        "day": "Day 7",
+        "title": "Cultural Heritage & Local Artisan Bazaar Walk",
+        "desc": "Explore centuries-old mountain forts, traditional handicraft workshops, dry fruit bazaars, and gemstone markets."
+      },
+      {
+        "day": "Day 8",
+        "title": "High Altitude Wildlife & Photography Safari",
+        "desc": "Early morning excursion to wildlife habitats and panoramic high passes. Unrestricted photography time in pristine high-altitude ecosystems."
+      },
+      {
+        "day": "Day 9",
+        "title": "Final Return Journey to Islamabad & Lahore",
+        "desc": "Morning breakfast. Depart from mountain base and drive back along the highway. Transfer to comfortable coasters/cabins. Arrival in Islamabad by evening and drop-off in Lahore by late night with cherished expedition memories."
       }
     ],
     "packages": [
@@ -12904,19 +14399,44 @@ window.TOUR_DATA = {
     ],
     "itinerary": [
       {
-        "day": "Morning",
-        "title": "Departure & Pickup",
-        "desc": "Pickup from hotel/residence in private vehicle. Highway drive with refreshment stop."
+        "day": "Day 1",
+        "title": "Departure from Islamabad/Lahore & Journey Towards Yasin Valley",
+        "desc": "Pick-up of participants from Lahore / Islamabad. Morning drive along Hazara Motorway / scenic highway. Travel through scenic mountain passes with refreshment stops at riverside points. Hotel check-in and evening welcome briefing."
       },
       {
-        "day": "Afternoon",
-        "title": "Guided Exploration & Activity",
-        "desc": "Arrive at destination. Guided tour of key monuments, photography stops, and water activities."
+        "day": "Day 2",
+        "title": "Scenic Drive to Yasin Valley & Core Attractions",
+        "desc": "Breakfast at hotel. Proceed towards Yasin Valley. Experience spectacular views of snow-clad peaks and alpine rivers. Visit major landmarks, check into main valley hotel/campsite, followed by an evening bonfire and local dinner."
       },
       {
-        "day": "Evening",
-        "title": "Local Food Tasting & Return",
-        "desc": "Enjoy famous regional food & tea. Return drive with drop-off at your hotel by 07:00 PM."
+        "day": "Day 3",
+        "title": "Excursion to Full guided excursion for Yasin Valley Tour",
+        "desc": "Full day adventure exploring pristine alpine points. Full guided excursion for Yasin Valley Tour. Private AC transport with driver, fuel, tolls & parking. Enjoy evening cultural music and bonfire at hotel."
+      },
+      {
+        "day": "Day 4",
+        "title": "Heritage, Lakes & Cultural Walk in Yasin Valley",
+        "desc": "Discover ancient forts, crystal clear lakes, and historic settlements in the region. Sightseeing at historical monuments, bazaars & viewpoints."
+      },
+      {
+        "day": "Day 5",
+        "title": "4x4 Mountain Pass Excursion & High Altitude Meadows",
+        "desc": "Thrilling off-road 4x4 Jeep ride to remote high-altitude meadows and border viewpoints. Scenic picnic lunch amidst pristine alpine nature. Overnight stay under starry skies at mountain resort."
+      },
+      {
+        "day": "Day 6",
+        "title": "Glacier Views & Remote Settlement Exploration",
+        "desc": "Guided trek towards nearby glacier viewpoints and alpine meadows. Experience panoramic vistas of 7000m+ Himalayan/Karakoram peaks."
+      },
+      {
+        "day": "Day 7",
+        "title": "Cultural Heritage & Local Artisan Bazaar Walk",
+        "desc": "Explore centuries-old mountain forts, traditional handicraft workshops, dry fruit bazaars, and gemstone markets."
+      },
+      {
+        "day": "Day 8",
+        "title": "Final Return Journey to Islamabad & Lahore",
+        "desc": "Morning breakfast. Depart from mountain base and drive back along the highway. Transfer to comfortable coasters/cabins. Arrival in Islamabad by evening and drop-off in Lahore by late night with cherished expedition memories."
       }
     ],
     "packages": [
@@ -13003,19 +14523,34 @@ window.TOUR_DATA = {
     ],
     "itinerary": [
       {
-        "day": "Morning",
-        "title": "Departure & Pickup",
-        "desc": "Pickup from hotel/residence in private vehicle. Highway drive with refreshment stop."
+        "day": "Day 1",
+        "title": "Departure from Islamabad/Lahore & Journey Towards Chitral & Kalash Valley",
+        "desc": "Pick-up of participants from Lahore / Islamabad. Morning drive along Hazara Motorway / scenic highway. Travel through scenic mountain passes with refreshment stops at riverside points. Hotel check-in and evening welcome briefing."
       },
       {
-        "day": "Afternoon",
-        "title": "Guided Exploration & Activity",
-        "desc": "Arrive at destination. Guided tour of key monuments, photography stops, and water activities."
+        "day": "Day 2",
+        "title": "Scenic Drive to Chitral & Kalash Valley & Core Attractions",
+        "desc": "Breakfast at hotel. Proceed towards Chitral & Kalash Valley. Experience spectacular views of snow-clad peaks and alpine rivers. Visit major landmarks, check into main valley hotel/campsite, followed by an evening bonfire and local dinner."
       },
       {
-        "day": "Evening",
-        "title": "Local Food Tasting & Return",
-        "desc": "Enjoy famous regional food & tea. Return drive with drop-off at your hotel by 07:00 PM."
+        "day": "Day 3",
+        "title": "Excursion to Full guided excursion for Qaqlasht Festival Tour",
+        "desc": "Full day adventure exploring pristine alpine points. Full guided excursion for Qaqlasht Festival Tour. Private AC transport with driver, fuel, tolls & parking. Enjoy evening cultural music and bonfire at hotel."
+      },
+      {
+        "day": "Day 4",
+        "title": "Heritage, Lakes & Cultural Walk in Chitral & Kalash Valley",
+        "desc": "Discover ancient forts, crystal clear lakes, and historic settlements in the region. Sightseeing at historical monuments, bazaars & viewpoints."
+      },
+      {
+        "day": "Day 5",
+        "title": "4x4 Mountain Pass Excursion & High Altitude Meadows",
+        "desc": "Thrilling off-road 4x4 Jeep ride to remote high-altitude meadows and border viewpoints. Scenic picnic lunch amidst pristine alpine nature. Overnight stay under starry skies at mountain resort."
+      },
+      {
+        "day": "Day 6",
+        "title": "Return Journey & Drop-off at Islamabad / Lahore",
+        "desc": "Morning breakfast. Begin return journey via Karakoram / Alpine Highway. Drop-off in Islamabad by evening and Lahore by late night."
       }
     ],
     "packages": [
@@ -13102,19 +14637,39 @@ window.TOUR_DATA = {
     ],
     "itinerary": [
       {
-        "day": "Morning",
-        "title": "Departure & Pickup",
-        "desc": "Pickup from hotel/residence in private vehicle. Highway drive with refreshment stop."
+        "day": "Day 1",
+        "title": "Departure from Islamabad/Lahore & Journey Towards Swat Valley & Kalam",
+        "desc": "Pick-up of participants from Lahore / Islamabad. Morning drive along Hazara Motorway / scenic highway. Travel through scenic mountain passes with refreshment stops at riverside points. Hotel check-in and evening welcome briefing."
       },
       {
-        "day": "Afternoon",
-        "title": "Guided Exploration & Activity",
-        "desc": "Arrive at destination. Guided tour of key monuments, photography stops, and water activities."
+        "day": "Day 2",
+        "title": "Scenic Drive to Swat Valley & Kalam & Core Attractions",
+        "desc": "Breakfast at hotel. Proceed towards Swat Valley & Kalam. Experience spectacular views of snow-clad peaks and alpine rivers. Visit major landmarks, check into main valley hotel/campsite, followed by an evening bonfire and local dinner."
       },
       {
-        "day": "Evening",
-        "title": "Local Food Tasting & Return",
-        "desc": "Enjoy famous regional food & tea. Return drive with drop-off at your hotel by 07:00 PM."
+        "day": "Day 3",
+        "title": "Excursion to Full guided excursion for Soq Valley Tour",
+        "desc": "Full day adventure exploring pristine alpine points. Full guided excursion for Soq Valley Tour. Private AC transport with driver, fuel, tolls & parking. Enjoy evening cultural music and bonfire at hotel."
+      },
+      {
+        "day": "Day 4",
+        "title": "Heritage, Lakes & Cultural Walk in Swat Valley & Kalam",
+        "desc": "Discover ancient forts, crystal clear lakes, and historic settlements in the region. Sightseeing at historical monuments, bazaars & viewpoints."
+      },
+      {
+        "day": "Day 5",
+        "title": "4x4 Mountain Pass Excursion & High Altitude Meadows",
+        "desc": "Thrilling off-road 4x4 Jeep ride to remote high-altitude meadows and border viewpoints. Scenic picnic lunch amidst pristine alpine nature. Overnight stay under starry skies at mountain resort."
+      },
+      {
+        "day": "Day 6",
+        "title": "Glacier Views & Remote Settlement Exploration",
+        "desc": "Guided trek towards nearby glacier viewpoints and alpine meadows. Experience panoramic vistas of 7000m+ Himalayan/Karakoram peaks."
+      },
+      {
+        "day": "Day 7",
+        "title": "Final Return Journey to Islamabad & Lahore",
+        "desc": "Morning breakfast. Depart from mountain base and drive back along the highway. Transfer to comfortable coasters/cabins. Arrival in Islamabad by evening and drop-off in Lahore by late night with cherished expedition memories."
       }
     ],
     "packages": [
@@ -13201,19 +14756,19 @@ window.TOUR_DATA = {
     ],
     "itinerary": [
       {
-        "day": "Morning",
-        "title": "Departure & Pickup",
-        "desc": "Pickup from hotel/residence in private vehicle. Highway drive with refreshment stop."
+        "day": "Day 1",
+        "title": "Departure from Islamabad/Lahore & Journey Towards Naran Kaghan & Shogran",
+        "desc": "Pick-up of participants from Lahore / Islamabad. Morning drive along Hazara Motorway / scenic highway. Travel through scenic mountain passes with refreshment stops at riverside points. Hotel check-in and evening welcome briefing."
       },
       {
-        "day": "Afternoon",
-        "title": "Guided Exploration & Activity",
-        "desc": "Arrive at destination. Guided tour of key monuments, photography stops, and water activities."
+        "day": "Day 2",
+        "title": "Scenic Drive to Naran Kaghan & Shogran & Core Attractions",
+        "desc": "Breakfast at hotel. Proceed towards Naran Kaghan & Shogran. Experience spectacular views of snow-clad peaks and alpine rivers. Visit major landmarks, check into main valley hotel/campsite, followed by an evening bonfire and local dinner."
       },
       {
-        "day": "Evening",
-        "title": "Local Food Tasting & Return",
-        "desc": "Enjoy famous regional food & tea. Return drive with drop-off at your hotel by 07:00 PM."
+        "day": "Day 3",
+        "title": "Final Sightseeing in Naran Kaghan & Shogran & Return Journey",
+        "desc": "Morning breakfast with sunrise views over the mountains. Visit remaining local viewpoints and handicraft markets. Depart for return drive to Islamabad by evening and Lahore by late night."
       }
     ],
     "packages": [
@@ -13300,19 +14855,24 @@ window.TOUR_DATA = {
     ],
     "itinerary": [
       {
-        "day": "Morning",
-        "title": "Departure & Pickup",
-        "desc": "Pickup from hotel/residence in private vehicle. Highway drive with refreshment stop."
+        "day": "Day 1",
+        "title": "Departure from Islamabad/Lahore & Journey Towards Kumrat Valley & Jahaz Banda",
+        "desc": "Pick-up of participants from Lahore / Islamabad. Morning drive along Hazara Motorway / scenic highway. Travel through scenic mountain passes with refreshment stops at riverside points. Hotel check-in and evening welcome briefing."
       },
       {
-        "day": "Afternoon",
-        "title": "Guided Exploration & Activity",
-        "desc": "Arrive at destination. Guided tour of key monuments, photography stops, and water activities."
+        "day": "Day 2",
+        "title": "Scenic Drive to Kumrat Valley & Jahaz Banda & Core Attractions",
+        "desc": "Breakfast at hotel. Proceed towards Kumrat Valley & Jahaz Banda. Experience spectacular views of snow-clad peaks and alpine rivers. Visit major landmarks, check into main valley hotel/campsite, followed by an evening bonfire and local dinner."
       },
       {
-        "day": "Evening",
-        "title": "Local Food Tasting & Return",
-        "desc": "Enjoy famous regional food & tea. Return drive with drop-off at your hotel by 07:00 PM."
+        "day": "Day 3",
+        "title": "Excursion to Full guided excursion for Katora Lake Trek",
+        "desc": "Full day adventure exploring pristine alpine points. Full guided excursion for Katora Lake Trek. Private AC transport with driver, fuel, tolls & parking. Enjoy evening cultural music and bonfire at hotel."
+      },
+      {
+        "day": "Day 4",
+        "title": "Return Journey to Islamabad & Lahore",
+        "desc": "Breakfast call at hotel. Start return travel back through scenic valleys. Short stops for photography and souvenirs. Arrival in Islamabad by early evening and Lahore by late night."
       }
     ],
     "packages": [
@@ -13399,19 +14959,24 @@ window.TOUR_DATA = {
     ],
     "itinerary": [
       {
-        "day": "Morning",
-        "title": "Departure & Pickup",
-        "desc": "Pickup from hotel/residence in private vehicle. Highway drive with refreshment stop."
+        "day": "Day 1",
+        "title": "Departure from Islamabad/Lahore & Journey Towards Kumrat Valley & Jahaz Banda",
+        "desc": "Pick-up of participants from Lahore / Islamabad. Morning drive along Hazara Motorway / scenic highway. Travel through scenic mountain passes with refreshment stops at riverside points. Hotel check-in and evening welcome briefing."
       },
       {
-        "day": "Afternoon",
-        "title": "Guided Exploration & Activity",
-        "desc": "Arrive at destination. Guided tour of key monuments, photography stops, and water activities."
+        "day": "Day 2",
+        "title": "Scenic Drive to Kumrat Valley & Jahaz Banda & Core Attractions",
+        "desc": "Breakfast at hotel. Proceed towards Kumrat Valley & Jahaz Banda. Experience spectacular views of snow-clad peaks and alpine rivers. Visit major landmarks, check into main valley hotel/campsite, followed by an evening bonfire and local dinner."
       },
       {
-        "day": "Evening",
-        "title": "Local Food Tasting & Return",
-        "desc": "Enjoy famous regional food & tea. Return drive with drop-off at your hotel by 07:00 PM."
+        "day": "Day 3",
+        "title": "Excursion to Full guided excursion for Badgoi Top Dasht Laila Tour",
+        "desc": "Full day adventure exploring pristine alpine points. Full guided excursion for Badgoi Top Dasht Laila Tour. Private AC transport with driver, fuel, tolls & parking. Enjoy evening cultural music and bonfire at hotel."
+      },
+      {
+        "day": "Day 4",
+        "title": "Return Journey to Islamabad & Lahore",
+        "desc": "Breakfast call at hotel. Start return travel back through scenic valleys. Short stops for photography and souvenirs. Arrival in Islamabad by early evening and Lahore by late night."
       }
     ],
     "packages": [
@@ -13498,19 +15063,24 @@ window.TOUR_DATA = {
     ],
     "itinerary": [
       {
-        "day": "Morning",
-        "title": "Departure & Pickup",
-        "desc": "Pickup from hotel/residence in private vehicle. Highway drive with refreshment stop."
+        "day": "Day 1",
+        "title": "Departure from Islamabad/Lahore & Journey Towards Kumrat Valley & Jahaz Banda",
+        "desc": "Pick-up of participants from Lahore / Islamabad. Morning drive along Hazara Motorway / scenic highway. Travel through scenic mountain passes with refreshment stops at riverside points. Hotel check-in and evening welcome briefing."
       },
       {
-        "day": "Afternoon",
-        "title": "Guided Exploration & Activity",
-        "desc": "Arrive at destination. Guided tour of key monuments, photography stops, and water activities."
+        "day": "Day 2",
+        "title": "Scenic Drive to Kumrat Valley & Jahaz Banda & Core Attractions",
+        "desc": "Breakfast at hotel. Proceed towards Kumrat Valley & Jahaz Banda. Experience spectacular views of snow-clad peaks and alpine rivers. Visit major landmarks, check into main valley hotel/campsite, followed by an evening bonfire and local dinner."
       },
       {
-        "day": "Evening",
-        "title": "Local Food Tasting & Return",
-        "desc": "Enjoy famous regional food & tea. Return drive with drop-off at your hotel by 07:00 PM."
+        "day": "Day 3",
+        "title": "Excursion to Full guided excursion for Jahaz Banda Katora Tour",
+        "desc": "Full day adventure exploring pristine alpine points. Full guided excursion for Jahaz Banda Katora Tour. Private AC transport with driver, fuel, tolls & parking. Enjoy evening cultural music and bonfire at hotel."
+      },
+      {
+        "day": "Day 4",
+        "title": "Return Journey to Islamabad & Lahore",
+        "desc": "Breakfast call at hotel. Start return travel back through scenic valleys. Short stops for photography and souvenirs. Arrival in Islamabad by early evening and Lahore by late night."
       }
     ],
     "packages": [
@@ -13597,19 +15167,24 @@ window.TOUR_DATA = {
     ],
     "itinerary": [
       {
-        "day": "Morning",
-        "title": "Departure & Pickup",
-        "desc": "Pickup from hotel/residence in private vehicle. Highway drive with refreshment stop."
+        "day": "Day 1",
+        "title": "Departure from Islamabad/Lahore & Journey Towards Siran Valley",
+        "desc": "Pick-up of participants from Lahore / Islamabad. Morning drive along Hazara Motorway / scenic highway. Travel through scenic mountain passes with refreshment stops at riverside points. Hotel check-in and evening welcome briefing."
       },
       {
-        "day": "Afternoon",
-        "title": "Guided Exploration & Activity",
-        "desc": "Arrive at destination. Guided tour of key monuments, photography stops, and water activities."
+        "day": "Day 2",
+        "title": "Scenic Drive to Siran Valley & Core Attractions",
+        "desc": "Breakfast at hotel. Proceed towards Siran Valley. Experience spectacular views of snow-clad peaks and alpine rivers. Visit major landmarks, check into main valley hotel/campsite, followed by an evening bonfire and local dinner."
       },
       {
-        "day": "Evening",
-        "title": "Local Food Tasting & Return",
-        "desc": "Enjoy famous regional food & tea. Return drive with drop-off at your hotel by 07:00 PM."
+        "day": "Day 3",
+        "title": "Excursion to Full guided excursion for Siran Valley Tour",
+        "desc": "Full day adventure exploring pristine alpine points. Full guided excursion for Siran Valley Tour. Private AC transport with driver, fuel, tolls & parking. Enjoy evening cultural music and bonfire at hotel."
+      },
+      {
+        "day": "Day 4",
+        "title": "Return Journey to Islamabad & Lahore",
+        "desc": "Breakfast call at hotel. Start return travel back through scenic valleys. Short stops for photography and souvenirs. Arrival in Islamabad by early evening and Lahore by late night."
       }
     ],
     "packages": [
@@ -13696,19 +15271,39 @@ window.TOUR_DATA = {
     ],
     "itinerary": [
       {
-        "day": "Morning",
-        "title": "Departure & Pickup",
-        "desc": "Pickup from hotel/residence in private vehicle. Highway drive with refreshment stop."
+        "day": "Day 1",
+        "title": "Departure from Islamabad/Lahore & Journey Towards Chitral & Kalash Valley",
+        "desc": "Pick-up of participants from Lahore / Islamabad. Morning drive along Hazara Motorway / scenic highway. Travel through scenic mountain passes with refreshment stops at riverside points. Hotel check-in and evening welcome briefing."
       },
       {
-        "day": "Afternoon",
-        "title": "Guided Exploration & Activity",
-        "desc": "Arrive at destination. Guided tour of key monuments, photography stops, and water activities."
+        "day": "Day 2",
+        "title": "Scenic Drive to Chitral & Kalash Valley & Core Attractions",
+        "desc": "Breakfast at hotel. Proceed towards Chitral & Kalash Valley. Experience spectacular views of snow-clad peaks and alpine rivers. Visit major landmarks, check into main valley hotel/campsite, followed by an evening bonfire and local dinner."
       },
       {
-        "day": "Evening",
-        "title": "Local Food Tasting & Return",
-        "desc": "Enjoy famous regional food & tea. Return drive with drop-off at your hotel by 07:00 PM."
+        "day": "Day 3",
+        "title": "Excursion to Full guided excursion for Parsan Valley Tour",
+        "desc": "Full day adventure exploring pristine alpine points. Full guided excursion for Parsan Valley Tour. Private AC transport with driver, fuel, tolls & parking. Enjoy evening cultural music and bonfire at hotel."
+      },
+      {
+        "day": "Day 4",
+        "title": "Heritage, Lakes & Cultural Walk in Chitral & Kalash Valley",
+        "desc": "Discover ancient forts, crystal clear lakes, and historic settlements in the region. Sightseeing at historical monuments, bazaars & viewpoints."
+      },
+      {
+        "day": "Day 5",
+        "title": "4x4 Mountain Pass Excursion & High Altitude Meadows",
+        "desc": "Thrilling off-road 4x4 Jeep ride to remote high-altitude meadows and border viewpoints. Scenic picnic lunch amidst pristine alpine nature. Overnight stay under starry skies at mountain resort."
+      },
+      {
+        "day": "Day 6",
+        "title": "Glacier Views & Remote Settlement Exploration",
+        "desc": "Guided trek towards nearby glacier viewpoints and alpine meadows. Experience panoramic vistas of 7000m+ Himalayan/Karakoram peaks."
+      },
+      {
+        "day": "Day 7",
+        "title": "Final Return Journey to Islamabad & Lahore",
+        "desc": "Morning breakfast. Depart from mountain base and drive back along the highway. Transfer to comfortable coasters/cabins. Arrival in Islamabad by evening and drop-off in Lahore by late night with cherished expedition memories."
       }
     ],
     "packages": [
@@ -13795,19 +15390,44 @@ window.TOUR_DATA = {
     ],
     "itinerary": [
       {
-        "day": "Morning",
-        "title": "Departure & Pickup",
-        "desc": "Pickup from hotel/residence in private vehicle. Highway drive with refreshment stop."
+        "day": "Day 1",
+        "title": "Departure from Islamabad/Lahore & Journey Towards Hunza Valley",
+        "desc": "Pick-up of participants from Lahore / Islamabad. Morning drive along Hazara Motorway / scenic highway. Travel through scenic mountain passes with refreshment stops at riverside points. Hotel check-in and evening welcome briefing."
       },
       {
-        "day": "Afternoon",
-        "title": "Guided Exploration & Activity",
-        "desc": "Arrive at destination. Guided tour of key monuments, photography stops, and water activities."
+        "day": "Day 2",
+        "title": "Scenic Drive to Hunza Valley & Core Attractions",
+        "desc": "Breakfast at hotel. Proceed towards Hunza Valley. Experience spectacular views of snow-clad peaks and alpine rivers. Visit major landmarks, check into main valley hotel/campsite, followed by an evening bonfire and local dinner."
       },
       {
-        "day": "Evening",
-        "title": "Local Food Tasting & Return",
-        "desc": "Enjoy famous regional food & tea. Return drive with drop-off at your hotel by 07:00 PM."
+        "day": "Day 3",
+        "title": "Excursion to Full guided excursion for Taleno Thumishalling Festival",
+        "desc": "Full day adventure exploring pristine alpine points. Full guided excursion for Taleno Thumishalling Festival. Private AC transport with driver, fuel, tolls & parking. Enjoy evening cultural music and bonfire at hotel."
+      },
+      {
+        "day": "Day 4",
+        "title": "Heritage, Lakes & Cultural Walk in Hunza Valley",
+        "desc": "Discover ancient forts, crystal clear lakes, and historic settlements in the region. Sightseeing at historical monuments, bazaars & viewpoints."
+      },
+      {
+        "day": "Day 5",
+        "title": "4x4 Mountain Pass Excursion & High Altitude Meadows",
+        "desc": "Thrilling off-road 4x4 Jeep ride to remote high-altitude meadows and border viewpoints. Scenic picnic lunch amidst pristine alpine nature. Overnight stay under starry skies at mountain resort."
+      },
+      {
+        "day": "Day 6",
+        "title": "Glacier Views & Remote Settlement Exploration",
+        "desc": "Guided trek towards nearby glacier viewpoints and alpine meadows. Experience panoramic vistas of 7000m+ Himalayan/Karakoram peaks."
+      },
+      {
+        "day": "Day 7",
+        "title": "Cultural Heritage & Local Artisan Bazaar Walk",
+        "desc": "Explore centuries-old mountain forts, traditional handicraft workshops, dry fruit bazaars, and gemstone markets."
+      },
+      {
+        "day": "Day 8",
+        "title": "Final Return Journey to Islamabad & Lahore",
+        "desc": "Morning breakfast. Depart from mountain base and drive back along the highway. Transfer to comfortable coasters/cabins. Arrival in Islamabad by evening and drop-off in Lahore by late night with cherished expedition memories."
       }
     ],
     "packages": [
@@ -13894,19 +15514,44 @@ window.TOUR_DATA = {
     ],
     "itinerary": [
       {
-        "day": "Morning",
-        "title": "Departure & Pickup",
-        "desc": "Pickup from hotel/residence in private vehicle. Highway drive with refreshment stop."
+        "day": "Day 1",
+        "title": "Departure from Islamabad/Lahore & Journey Towards Nazbar Valley",
+        "desc": "Pick-up of participants from Lahore / Islamabad. Morning drive along Hazara Motorway / scenic highway. Travel through scenic mountain passes with refreshment stops at riverside points. Hotel check-in and evening welcome briefing."
       },
       {
-        "day": "Afternoon",
-        "title": "Guided Exploration & Activity",
-        "desc": "Arrive at destination. Guided tour of key monuments, photography stops, and water activities."
+        "day": "Day 2",
+        "title": "Scenic Drive to Nazbar Valley & Core Attractions",
+        "desc": "Breakfast at hotel. Proceed towards Nazbar Valley. Experience spectacular views of snow-clad peaks and alpine rivers. Visit major landmarks, check into main valley hotel/campsite, followed by an evening bonfire and local dinner."
       },
       {
-        "day": "Evening",
-        "title": "Local Food Tasting & Return",
-        "desc": "Enjoy famous regional food & tea. Return drive with drop-off at your hotel by 07:00 PM."
+        "day": "Day 3",
+        "title": "Excursion to Full guided excursion for Nazbar Valley Tour",
+        "desc": "Full day adventure exploring pristine alpine points. Full guided excursion for Nazbar Valley Tour. Private AC transport with driver, fuel, tolls & parking. Enjoy evening cultural music and bonfire at hotel."
+      },
+      {
+        "day": "Day 4",
+        "title": "Heritage, Lakes & Cultural Walk in Nazbar Valley",
+        "desc": "Discover ancient forts, crystal clear lakes, and historic settlements in the region. Sightseeing at historical monuments, bazaars & viewpoints."
+      },
+      {
+        "day": "Day 5",
+        "title": "4x4 Mountain Pass Excursion & High Altitude Meadows",
+        "desc": "Thrilling off-road 4x4 Jeep ride to remote high-altitude meadows and border viewpoints. Scenic picnic lunch amidst pristine alpine nature. Overnight stay under starry skies at mountain resort."
+      },
+      {
+        "day": "Day 6",
+        "title": "Glacier Views & Remote Settlement Exploration",
+        "desc": "Guided trek towards nearby glacier viewpoints and alpine meadows. Experience panoramic vistas of 7000m+ Himalayan/Karakoram peaks."
+      },
+      {
+        "day": "Day 7",
+        "title": "Cultural Heritage & Local Artisan Bazaar Walk",
+        "desc": "Explore centuries-old mountain forts, traditional handicraft workshops, dry fruit bazaars, and gemstone markets."
+      },
+      {
+        "day": "Day 8",
+        "title": "Final Return Journey to Islamabad & Lahore",
+        "desc": "Morning breakfast. Depart from mountain base and drive back along the highway. Transfer to comfortable coasters/cabins. Arrival in Islamabad by evening and drop-off in Lahore by late night with cherished expedition memories."
       }
     ],
     "packages": [
@@ -13993,19 +15638,39 @@ window.TOUR_DATA = {
     ],
     "itinerary": [
       {
-        "day": "Morning",
-        "title": "Departure & Pickup",
-        "desc": "Pickup from hotel/residence in private vehicle. Highway drive with refreshment stop."
+        "day": "Day 1",
+        "title": "Departure from Islamabad/Lahore & Journey Towards Hunza Valley",
+        "desc": "Pick-up of participants from Lahore / Islamabad. Morning drive along Hazara Motorway / scenic highway. Travel through scenic mountain passes with refreshment stops at riverside points. Hotel check-in and evening welcome briefing."
       },
       {
-        "day": "Afternoon",
-        "title": "Guided Exploration & Activity",
-        "desc": "Arrive at destination. Guided tour of key monuments, photography stops, and water activities."
+        "day": "Day 2",
+        "title": "Scenic Drive to Hunza Valley & Core Attractions",
+        "desc": "Breakfast at hotel. Proceed towards Hunza Valley. Experience spectacular views of snow-clad peaks and alpine rivers. Visit major landmarks, check into main valley hotel/campsite, followed by an evening bonfire and local dinner."
       },
       {
-        "day": "Evening",
-        "title": "Local Food Tasting & Return",
-        "desc": "Enjoy famous regional food & tea. Return drive with drop-off at your hotel by 07:00 PM."
+        "day": "Day 3",
+        "title": "Excursion to Full guided excursion for Bagrot Valley Tour",
+        "desc": "Full day adventure exploring pristine alpine points. Full guided excursion for Bagrot Valley Tour. Private AC transport with driver, fuel, tolls & parking. Enjoy evening cultural music and bonfire at hotel."
+      },
+      {
+        "day": "Day 4",
+        "title": "Heritage, Lakes & Cultural Walk in Hunza Valley",
+        "desc": "Discover ancient forts, crystal clear lakes, and historic settlements in the region. Sightseeing at historical monuments, bazaars & viewpoints."
+      },
+      {
+        "day": "Day 5",
+        "title": "4x4 Mountain Pass Excursion & High Altitude Meadows",
+        "desc": "Thrilling off-road 4x4 Jeep ride to remote high-altitude meadows and border viewpoints. Scenic picnic lunch amidst pristine alpine nature. Overnight stay under starry skies at mountain resort."
+      },
+      {
+        "day": "Day 6",
+        "title": "Glacier Views & Remote Settlement Exploration",
+        "desc": "Guided trek towards nearby glacier viewpoints and alpine meadows. Experience panoramic vistas of 7000m+ Himalayan/Karakoram peaks."
+      },
+      {
+        "day": "Day 7",
+        "title": "Final Return Journey to Islamabad & Lahore",
+        "desc": "Morning breakfast. Depart from mountain base and drive back along the highway. Transfer to comfortable coasters/cabins. Arrival in Islamabad by evening and drop-off in Lahore by late night with cherished expedition memories."
       }
     ],
     "packages": [
@@ -14092,19 +15757,64 @@ window.TOUR_DATA = {
     ],
     "itinerary": [
       {
-        "day": "Morning",
-        "title": "Departure & Pickup",
-        "desc": "Pickup from hotel/residence in private vehicle. Highway drive with refreshment stop."
+        "day": "Day 1",
+        "title": "Departure from Islamabad/Lahore & Journey Towards Hunza Valley",
+        "desc": "Pick-up of participants from Lahore / Islamabad. Morning drive along Hazara Motorway / scenic highway. Travel through scenic mountain passes with refreshment stops at riverside points. Hotel check-in and evening welcome briefing."
       },
       {
-        "day": "Afternoon",
-        "title": "Guided Exploration & Activity",
-        "desc": "Arrive at destination. Guided tour of key monuments, photography stops, and water activities."
+        "day": "Day 2",
+        "title": "Scenic Drive to Hunza Valley & Core Attractions",
+        "desc": "Breakfast at hotel. Proceed towards Hunza Valley. Experience spectacular views of snow-clad peaks and alpine rivers. Visit major landmarks, check into main valley hotel/campsite, followed by an evening bonfire and local dinner."
       },
       {
-        "day": "Evening",
-        "title": "Local Food Tasting & Return",
-        "desc": "Enjoy famous regional food & tea. Return drive with drop-off at your hotel by 07:00 PM."
+        "day": "Day 3",
+        "title": "Excursion to Full guided excursion for Old Silk Road Hunza Tour",
+        "desc": "Full day adventure exploring pristine alpine points. Full guided excursion for Old Silk Road Hunza Tour. Private AC transport with driver, fuel, tolls & parking. Enjoy evening cultural music and bonfire at hotel."
+      },
+      {
+        "day": "Day 4",
+        "title": "Heritage, Lakes & Cultural Walk in Hunza Valley",
+        "desc": "Discover ancient forts, crystal clear lakes, and historic settlements in the region. Sightseeing at historical monuments, bazaars & viewpoints."
+      },
+      {
+        "day": "Day 5",
+        "title": "4x4 Mountain Pass Excursion & High Altitude Meadows",
+        "desc": "Thrilling off-road 4x4 Jeep ride to remote high-altitude meadows and border viewpoints. Scenic picnic lunch amidst pristine alpine nature. Overnight stay under starry skies at mountain resort."
+      },
+      {
+        "day": "Day 6",
+        "title": "Glacier Views & Remote Settlement Exploration",
+        "desc": "Guided trek towards nearby glacier viewpoints and alpine meadows. Experience panoramic vistas of 7000m+ Himalayan/Karakoram peaks."
+      },
+      {
+        "day": "Day 7",
+        "title": "Cultural Heritage & Local Artisan Bazaar Walk",
+        "desc": "Explore centuries-old mountain forts, traditional handicraft workshops, dry fruit bazaars, and gemstone markets."
+      },
+      {
+        "day": "Day 8",
+        "title": "High Altitude Wildlife & Photography Safari",
+        "desc": "Early morning excursion to wildlife habitats and panoramic high passes. Unrestricted photography time in pristine high-altitude ecosystems."
+      },
+      {
+        "day": "Day 9",
+        "title": "Cross-Valley Scenic Route & Secret Viewpoints",
+        "desc": "Travel across adjacent mountain valleys along dramatic gorge roads and river crossings. Evening starlit camping/resort stay."
+      },
+      {
+        "day": "Day 10",
+        "title": "Extended Circuit Exploration – Day 10",
+        "desc": "Leisure day for optional short treks, boat rides, or relaxation amidst serene mountain landscapes. Evening BBQ and traditional music night."
+      },
+      {
+        "day": "Day 11",
+        "title": "Extended Circuit Exploration – Day 11",
+        "desc": "Leisure day for optional short treks, boat rides, or relaxation amidst serene mountain landscapes. Evening BBQ and traditional music night."
+      },
+      {
+        "day": "Day 12",
+        "title": "Final Return Journey to Islamabad & Lahore",
+        "desc": "Morning breakfast. Depart from mountain base and drive back along the highway. Transfer to comfortable coasters/cabins. Arrival in Islamabad by evening and drop-off in Lahore by late night with cherished expedition memories."
       }
     ],
     "packages": [
@@ -14191,19 +15901,19 @@ window.TOUR_DATA = {
     ],
     "itinerary": [
       {
-        "day": "Morning",
-        "title": "Departure & Pickup",
-        "desc": "Pickup from hotel/residence in private vehicle. Highway drive with refreshment stop."
+        "day": "Day 1",
+        "title": "Departure from Islamabad/Lahore & Journey Towards Hunza Valley",
+        "desc": "Pick-up of participants from Lahore / Islamabad. Morning drive along Hazara Motorway / scenic highway. Travel through scenic mountain passes with refreshment stops at riverside points. Hotel check-in and evening welcome briefing."
       },
       {
-        "day": "Afternoon",
-        "title": "Guided Exploration & Activity",
-        "desc": "Arrive at destination. Guided tour of key monuments, photography stops, and water activities."
+        "day": "Day 2",
+        "title": "Scenic Drive to Hunza Valley & Core Attractions",
+        "desc": "Breakfast at hotel. Proceed towards Hunza Valley. Experience spectacular views of snow-clad peaks and alpine rivers. Visit major landmarks, check into main valley hotel/campsite, followed by an evening bonfire and local dinner."
       },
       {
-        "day": "Evening",
-        "title": "Local Food Tasting & Return",
-        "desc": "Enjoy famous regional food & tea. Return drive with drop-off at your hotel by 07:00 PM."
+        "day": "Day 3",
+        "title": "Final Sightseeing in Hunza Valley & Return Journey",
+        "desc": "Morning breakfast with sunrise views over the mountains. Visit remaining local viewpoints and handicraft markets. Depart for return drive to Islamabad by evening and Lahore by late night."
       }
     ],
     "packages": [
@@ -14290,19 +16000,44 @@ window.TOUR_DATA = {
     ],
     "itinerary": [
       {
-        "day": "Morning",
-        "title": "Departure & Pickup",
-        "desc": "Pickup from hotel/residence in private vehicle. Highway drive with refreshment stop."
+        "day": "Day 1",
+        "title": "Departure from Islamabad/Lahore & Journey Towards Hunza Valley",
+        "desc": "Pick-up of participants from Lahore / Islamabad. Morning drive along Hazara Motorway / scenic highway. Travel through scenic mountain passes with refreshment stops at riverside points. Hotel check-in and evening welcome briefing."
       },
       {
-        "day": "Afternoon",
-        "title": "Guided Exploration & Activity",
-        "desc": "Arrive at destination. Guided tour of key monuments, photography stops, and water activities."
+        "day": "Day 2",
+        "title": "Scenic Drive to Hunza Valley & Core Attractions",
+        "desc": "Breakfast at hotel. Proceed towards Hunza Valley. Experience spectacular views of snow-clad peaks and alpine rivers. Visit major landmarks, check into main valley hotel/campsite, followed by an evening bonfire and local dinner."
       },
       {
-        "day": "Evening",
-        "title": "Local Food Tasting & Return",
-        "desc": "Enjoy famous regional food & tea. Return drive with drop-off at your hotel by 07:00 PM."
+        "day": "Day 3",
+        "title": "Excursion to Full guided excursion for Avgarch & Boybar Valley Trek",
+        "desc": "Full day adventure exploring pristine alpine points. Full guided excursion for Avgarch & Boybar Valley Trek. Private AC transport with driver, fuel, tolls & parking. Enjoy evening cultural music and bonfire at hotel."
+      },
+      {
+        "day": "Day 4",
+        "title": "Heritage, Lakes & Cultural Walk in Hunza Valley",
+        "desc": "Discover ancient forts, crystal clear lakes, and historic settlements in the region. Sightseeing at historical monuments, bazaars & viewpoints."
+      },
+      {
+        "day": "Day 5",
+        "title": "4x4 Mountain Pass Excursion & High Altitude Meadows",
+        "desc": "Thrilling off-road 4x4 Jeep ride to remote high-altitude meadows and border viewpoints. Scenic picnic lunch amidst pristine alpine nature. Overnight stay under starry skies at mountain resort."
+      },
+      {
+        "day": "Day 6",
+        "title": "Glacier Views & Remote Settlement Exploration",
+        "desc": "Guided trek towards nearby glacier viewpoints and alpine meadows. Experience panoramic vistas of 7000m+ Himalayan/Karakoram peaks."
+      },
+      {
+        "day": "Day 7",
+        "title": "Cultural Heritage & Local Artisan Bazaar Walk",
+        "desc": "Explore centuries-old mountain forts, traditional handicraft workshops, dry fruit bazaars, and gemstone markets."
+      },
+      {
+        "day": "Day 8",
+        "title": "Final Return Journey to Islamabad & Lahore",
+        "desc": "Morning breakfast. Depart from mountain base and drive back along the highway. Transfer to comfortable coasters/cabins. Arrival in Islamabad by evening and drop-off in Lahore by late night with cherished expedition memories."
       }
     ],
     "packages": [
@@ -14389,19 +16124,34 @@ window.TOUR_DATA = {
     ],
     "itinerary": [
       {
-        "day": "Morning",
-        "title": "Departure & Pickup",
-        "desc": "Pickup from hotel/residence in private vehicle. Highway drive with refreshment stop."
+        "day": "Day 1",
+        "title": "Departure from Islamabad/Lahore & Journey Towards Skardu & Baltistan",
+        "desc": "Pick-up of participants from Lahore / Islamabad. Morning drive along Hazara Motorway / scenic highway. Travel through scenic mountain passes with refreshment stops at riverside points. Hotel check-in and evening welcome briefing."
       },
       {
-        "day": "Afternoon",
-        "title": "Guided Exploration & Activity",
-        "desc": "Arrive at destination. Guided tour of key monuments, photography stops, and water activities."
+        "day": "Day 2",
+        "title": "Scenic Drive to Skardu & Baltistan & Core Attractions",
+        "desc": "Breakfast at hotel. Proceed towards Skardu & Baltistan. Experience spectacular views of snow-clad peaks and alpine rivers. Visit major landmarks, check into main valley hotel/campsite, followed by an evening bonfire and local dinner."
       },
       {
-        "day": "Evening",
-        "title": "Local Food Tasting & Return",
-        "desc": "Enjoy famous regional food & tea. Return drive with drop-off at your hotel by 07:00 PM."
+        "day": "Day 3",
+        "title": "Excursion to Full guided excursion for Hindukush Snow Festival",
+        "desc": "Full day adventure exploring pristine alpine points. Full guided excursion for Hindukush Snow Festival. Private AC transport with driver, fuel, tolls & parking. Enjoy evening cultural music and bonfire at hotel."
+      },
+      {
+        "day": "Day 4",
+        "title": "Heritage, Lakes & Cultural Walk in Skardu & Baltistan",
+        "desc": "Discover ancient forts, crystal clear lakes, and historic settlements in the region. Sightseeing at historical monuments, bazaars & viewpoints."
+      },
+      {
+        "day": "Day 5",
+        "title": "4x4 Mountain Pass Excursion & High Altitude Meadows",
+        "desc": "Thrilling off-road 4x4 Jeep ride to remote high-altitude meadows and border viewpoints. Scenic picnic lunch amidst pristine alpine nature. Overnight stay under starry skies at mountain resort."
+      },
+      {
+        "day": "Day 6",
+        "title": "Return Journey & Drop-off at Islamabad / Lahore",
+        "desc": "Morning breakfast. Begin return journey via Karakoram / Alpine Highway. Drop-off in Islamabad by evening and Lahore by late night."
       }
     ],
     "packages": [
@@ -14488,19 +16238,34 @@ window.TOUR_DATA = {
     ],
     "itinerary": [
       {
-        "day": "Morning",
-        "title": "Departure & Pickup",
-        "desc": "Pickup from hotel/residence in private vehicle. Highway drive with refreshment stop."
+        "day": "Day 1",
+        "title": "Departure from Islamabad/Lahore & Journey Towards Skardu & Baltistan",
+        "desc": "Pick-up of participants from Lahore / Islamabad. Morning drive along Hazara Motorway / scenic highway. Travel through scenic mountain passes with refreshment stops at riverside points. Hotel check-in and evening welcome briefing."
       },
       {
-        "day": "Afternoon",
-        "title": "Guided Exploration & Activity",
-        "desc": "Arrive at destination. Guided tour of key monuments, photography stops, and water activities."
+        "day": "Day 2",
+        "title": "Scenic Drive to Skardu & Baltistan & Core Attractions",
+        "desc": "Breakfast at hotel. Proceed towards Skardu & Baltistan. Experience spectacular views of snow-clad peaks and alpine rivers. Visit major landmarks, check into main valley hotel/campsite, followed by an evening bonfire and local dinner."
       },
       {
-        "day": "Evening",
-        "title": "Local Food Tasting & Return",
-        "desc": "Enjoy famous regional food & tea. Return drive with drop-off at your hotel by 07:00 PM."
+        "day": "Day 3",
+        "title": "Excursion to Full guided excursion for Mayfung Fire Festival Skardu",
+        "desc": "Full day adventure exploring pristine alpine points. Full guided excursion for Mayfung Fire Festival Skardu. Private AC transport with driver, fuel, tolls & parking. Enjoy evening cultural music and bonfire at hotel."
+      },
+      {
+        "day": "Day 4",
+        "title": "Heritage, Lakes & Cultural Walk in Skardu & Baltistan",
+        "desc": "Discover ancient forts, crystal clear lakes, and historic settlements in the region. Sightseeing at historical monuments, bazaars & viewpoints."
+      },
+      {
+        "day": "Day 5",
+        "title": "4x4 Mountain Pass Excursion & High Altitude Meadows",
+        "desc": "Thrilling off-road 4x4 Jeep ride to remote high-altitude meadows and border viewpoints. Scenic picnic lunch amidst pristine alpine nature. Overnight stay under starry skies at mountain resort."
+      },
+      {
+        "day": "Day 6",
+        "title": "Return Journey & Drop-off at Islamabad / Lahore",
+        "desc": "Morning breakfast. Begin return journey via Karakoram / Alpine Highway. Drop-off in Islamabad by evening and Lahore by late night."
       }
     ],
     "packages": [
@@ -14587,19 +16352,39 @@ window.TOUR_DATA = {
     ],
     "itinerary": [
       {
-        "day": "Morning",
-        "title": "Departure & Pickup",
-        "desc": "Pickup from hotel/residence in private vehicle. Highway drive with refreshment stop."
+        "day": "Day 1",
+        "title": "Departure from Islamabad/Lahore & Journey Towards Siachen",
+        "desc": "Pick-up of participants from Lahore / Islamabad. Morning drive along Hazara Motorway / scenic highway. Travel through scenic mountain passes with refreshment stops at riverside points. Hotel check-in and evening welcome briefing."
       },
       {
-        "day": "Afternoon",
-        "title": "Guided Exploration & Activity",
-        "desc": "Arrive at destination. Guided tour of key monuments, photography stops, and water activities."
+        "day": "Day 2",
+        "title": "Scenic Drive to Siachen & Core Attractions",
+        "desc": "Breakfast at hotel. Proceed towards Siachen. Experience spectacular views of snow-clad peaks and alpine rivers. Visit major landmarks, check into main valley hotel/campsite, followed by an evening bonfire and local dinner."
       },
       {
-        "day": "Evening",
-        "title": "Local Food Tasting & Return",
-        "desc": "Enjoy famous regional food & tea. Return drive with drop-off at your hotel by 07:00 PM."
+        "day": "Day 3",
+        "title": "Excursion to Full guided excursion for Siachen Tour",
+        "desc": "Full day adventure exploring pristine alpine points. Full guided excursion for Siachen Tour. Private AC transport with driver, fuel, tolls & parking. Enjoy evening cultural music and bonfire at hotel."
+      },
+      {
+        "day": "Day 4",
+        "title": "Heritage, Lakes & Cultural Walk in Siachen",
+        "desc": "Discover ancient forts, crystal clear lakes, and historic settlements in the region. Sightseeing at historical monuments, bazaars & viewpoints."
+      },
+      {
+        "day": "Day 5",
+        "title": "4x4 Mountain Pass Excursion & High Altitude Meadows",
+        "desc": "Thrilling off-road 4x4 Jeep ride to remote high-altitude meadows and border viewpoints. Scenic picnic lunch amidst pristine alpine nature. Overnight stay under starry skies at mountain resort."
+      },
+      {
+        "day": "Day 6",
+        "title": "Glacier Views & Remote Settlement Exploration",
+        "desc": "Guided trek towards nearby glacier viewpoints and alpine meadows. Experience panoramic vistas of 7000m+ Himalayan/Karakoram peaks."
+      },
+      {
+        "day": "Day 7",
+        "title": "Final Return Journey to Islamabad & Lahore",
+        "desc": "Morning breakfast. Depart from mountain base and drive back along the highway. Transfer to comfortable coasters/cabins. Arrival in Islamabad by evening and drop-off in Lahore by late night with cherished expedition memories."
       }
     ],
     "packages": [
@@ -14686,19 +16471,34 @@ window.TOUR_DATA = {
     ],
     "itinerary": [
       {
-        "day": "Morning",
-        "title": "Departure & Pickup",
-        "desc": "Pickup from hotel/residence in private vehicle. Highway drive with refreshment stop."
+        "day": "Day 1",
+        "title": "Departure from Islamabad/Lahore & Journey Towards Basha Valley",
+        "desc": "Pick-up of participants from Lahore / Islamabad. Morning drive along Hazara Motorway / scenic highway. Travel through scenic mountain passes with refreshment stops at riverside points. Hotel check-in and evening welcome briefing."
       },
       {
-        "day": "Afternoon",
-        "title": "Guided Exploration & Activity",
-        "desc": "Arrive at destination. Guided tour of key monuments, photography stops, and water activities."
+        "day": "Day 2",
+        "title": "Scenic Drive to Basha Valley & Core Attractions",
+        "desc": "Breakfast at hotel. Proceed towards Basha Valley. Experience spectacular views of snow-clad peaks and alpine rivers. Visit major landmarks, check into main valley hotel/campsite, followed by an evening bonfire and local dinner."
       },
       {
-        "day": "Evening",
-        "title": "Local Food Tasting & Return",
-        "desc": "Enjoy famous regional food & tea. Return drive with drop-off at your hotel by 07:00 PM."
+        "day": "Day 3",
+        "title": "Excursion to Full guided excursion for Basha Valley Tour Arandu",
+        "desc": "Full day adventure exploring pristine alpine points. Full guided excursion for Basha Valley Tour Arandu. Private AC transport with driver, fuel, tolls & parking. Enjoy evening cultural music and bonfire at hotel."
+      },
+      {
+        "day": "Day 4",
+        "title": "Heritage, Lakes & Cultural Walk in Basha Valley",
+        "desc": "Discover ancient forts, crystal clear lakes, and historic settlements in the region. Sightseeing at historical monuments, bazaars & viewpoints."
+      },
+      {
+        "day": "Day 5",
+        "title": "4x4 Mountain Pass Excursion & High Altitude Meadows",
+        "desc": "Thrilling off-road 4x4 Jeep ride to remote high-altitude meadows and border viewpoints. Scenic picnic lunch amidst pristine alpine nature. Overnight stay under starry skies at mountain resort."
+      },
+      {
+        "day": "Day 6",
+        "title": "Return Journey & Drop-off at Islamabad / Lahore",
+        "desc": "Morning breakfast. Begin return journey via Karakoram / Alpine Highway. Drop-off in Islamabad by evening and Lahore by late night."
       }
     ],
     "packages": [
@@ -14785,19 +16585,29 @@ window.TOUR_DATA = {
     ],
     "itinerary": [
       {
-        "day": "Morning",
-        "title": "Departure & Pickup",
-        "desc": "Pickup from hotel/residence in private vehicle. Highway drive with refreshment stop."
+        "day": "Day 1",
+        "title": "Departure from Islamabad/Lahore & Journey Towards Swat Valley & Kalam",
+        "desc": "Pick-up of participants from Lahore / Islamabad. Morning drive along Hazara Motorway / scenic highway. Travel through scenic mountain passes with refreshment stops at riverside points. Hotel check-in and evening welcome briefing."
       },
       {
-        "day": "Afternoon",
-        "title": "Guided Exploration & Activity",
-        "desc": "Arrive at destination. Guided tour of key monuments, photography stops, and water activities."
+        "day": "Day 2",
+        "title": "Scenic Drive to Swat Valley & Kalam & Core Attractions",
+        "desc": "Breakfast at hotel. Proceed towards Swat Valley & Kalam. Experience spectacular views of snow-clad peaks and alpine rivers. Visit major landmarks, check into main valley hotel/campsite, followed by an evening bonfire and local dinner."
       },
       {
-        "day": "Evening",
-        "title": "Local Food Tasting & Return",
-        "desc": "Enjoy famous regional food & tea. Return drive with drop-off at your hotel by 07:00 PM."
+        "day": "Day 3",
+        "title": "Excursion to Full guided excursion for Dir to Swat (Badgoi Pass)",
+        "desc": "Full day adventure exploring pristine alpine points. Full guided excursion for Dir to Swat (Badgoi Pass). Private AC transport with driver, fuel, tolls & parking. Enjoy evening cultural music and bonfire at hotel."
+      },
+      {
+        "day": "Day 4",
+        "title": "Heritage, Lakes & Cultural Walk in Swat Valley & Kalam",
+        "desc": "Discover ancient forts, crystal clear lakes, and historic settlements in the region. Sightseeing at historical monuments, bazaars & viewpoints."
+      },
+      {
+        "day": "Day 5",
+        "title": "Return Journey to Islamabad / Lahore",
+        "desc": "Early morning breakfast. Depart Swat Valley & Kalam and travel along the scenic highway. Stop at famous roadside tea spots. Arrive back in Islamabad by evening and drop-off in Lahore late night."
       }
     ],
     "packages": [
@@ -14884,19 +16694,24 @@ window.TOUR_DATA = {
     ],
     "itinerary": [
       {
-        "day": "Morning",
-        "title": "Departure & Pickup",
-        "desc": "Pickup from hotel/residence in private vehicle. Highway drive with refreshment stop."
+        "day": "Day 1",
+        "title": "Departure from Islamabad/Lahore & Journey Towards Shangla Valley",
+        "desc": "Pick-up of participants from Lahore / Islamabad. Morning drive along Hazara Motorway / scenic highway. Travel through scenic mountain passes with refreshment stops at riverside points. Hotel check-in and evening welcome briefing."
       },
       {
-        "day": "Afternoon",
-        "title": "Guided Exploration & Activity",
-        "desc": "Arrive at destination. Guided tour of key monuments, photography stops, and water activities."
+        "day": "Day 2",
+        "title": "Scenic Drive to Shangla Valley & Core Attractions",
+        "desc": "Breakfast at hotel. Proceed towards Shangla Valley. Experience spectacular views of snow-clad peaks and alpine rivers. Visit major landmarks, check into main valley hotel/campsite, followed by an evening bonfire and local dinner."
       },
       {
-        "day": "Evening",
-        "title": "Local Food Tasting & Return",
-        "desc": "Enjoy famous regional food & tea. Return drive with drop-off at your hotel by 07:00 PM."
+        "day": "Day 3",
+        "title": "Excursion to Full guided excursion for Shangla Valley Tour",
+        "desc": "Full day adventure exploring pristine alpine points. Full guided excursion for Shangla Valley Tour. Private AC transport with driver, fuel, tolls & parking. Enjoy evening cultural music and bonfire at hotel."
+      },
+      {
+        "day": "Day 4",
+        "title": "Return Journey to Islamabad & Lahore",
+        "desc": "Breakfast call at hotel. Start return travel back through scenic valleys. Short stops for photography and souvenirs. Arrival in Islamabad by early evening and Lahore by late night."
       }
     ],
     "packages": [
@@ -14983,19 +16798,34 @@ window.TOUR_DATA = {
     ],
     "itinerary": [
       {
-        "day": "Morning",
-        "title": "Departure & Pickup",
-        "desc": "Pickup from hotel/residence in private vehicle. Highway drive with refreshment stop."
+        "day": "Day 1",
+        "title": "Departure from Islamabad/Lahore & Journey Towards Swat Valley & Kalam",
+        "desc": "Pick-up of participants from Lahore / Islamabad. Morning drive along Hazara Motorway / scenic highway. Travel through scenic mountain passes with refreshment stops at riverside points. Hotel check-in and evening welcome briefing."
       },
       {
-        "day": "Afternoon",
-        "title": "Guided Exploration & Activity",
-        "desc": "Arrive at destination. Guided tour of key monuments, photography stops, and water activities."
+        "day": "Day 2",
+        "title": "Scenic Drive to Swat Valley & Kalam & Core Attractions",
+        "desc": "Breakfast at hotel. Proceed towards Swat Valley & Kalam. Experience spectacular views of snow-clad peaks and alpine rivers. Visit major landmarks, check into main valley hotel/campsite, followed by an evening bonfire and local dinner."
       },
       {
-        "day": "Evening",
-        "title": "Local Food Tasting & Return",
-        "desc": "Enjoy famous regional food & tea. Return drive with drop-off at your hotel by 07:00 PM."
+        "day": "Day 3",
+        "title": "Excursion to Full guided excursion for Swat Valley Tour: Malam Jabba, Miandam, Kalam & Mahodand – 06 Days",
+        "desc": "Full day adventure exploring pristine alpine points. Full guided excursion for Swat Valley Tour: Malam Jabba, Miandam, Kalam & Mahodand – 06 Days. Private AC transport with driver, fuel, tolls & parking. Enjoy evening cultural music and bonfire at hotel."
+      },
+      {
+        "day": "Day 4",
+        "title": "Heritage, Lakes & Cultural Walk in Swat Valley & Kalam",
+        "desc": "Discover ancient forts, crystal clear lakes, and historic settlements in the region. Sightseeing at historical monuments, bazaars & viewpoints."
+      },
+      {
+        "day": "Day 5",
+        "title": "4x4 Mountain Pass Excursion & High Altitude Meadows",
+        "desc": "Thrilling off-road 4x4 Jeep ride to remote high-altitude meadows and border viewpoints. Scenic picnic lunch amidst pristine alpine nature. Overnight stay under starry skies at mountain resort."
+      },
+      {
+        "day": "Day 6",
+        "title": "Return Journey & Drop-off at Islamabad / Lahore",
+        "desc": "Morning breakfast. Begin return journey via Karakoram / Alpine Highway. Drop-off in Islamabad by evening and Lahore by late night."
       }
     ],
     "packages": [
